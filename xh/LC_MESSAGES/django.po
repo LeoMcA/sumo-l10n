@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-09 03:39-0700\n"
+"POT-Creation-Date: 2020-07-13 19:04-0700\n"
 "PO-Revision-Date: 2016-01-28 11:22+0000\n"
 "Last-Translator: Michał Dziewoński <mdziewonski@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1358,7 +1358,7 @@ msgstr "Khangela iGalari"
 msgid "Show media for:"
 msgstr "Bonisa isilondolozi sika:"
 
-#: kitsune/gallery/jinja2/gallery/gallery.html:54 kitsune/gallery/jinja2/gallery/search.html:33 kitsune/sumo/jinja2/base.html:308
+#: kitsune/gallery/jinja2/gallery/gallery.html:54 kitsune/gallery/jinja2/gallery/search.html:33 kitsune/sumo/jinja2/base.html:280
 msgid "Go"
 msgstr "Yiya"
 
@@ -2439,7 +2439,7 @@ msgid "Ask a question"
 msgstr "Buza umbuzo"
 
 #: kitsune/landings/jinja2/landings/home.html:14 kitsune/questions/jinja2/questions/question_details.html:304 kitsune/questions/jinja2/questions/question_list.html:43
-#: kitsune/search/jinja2/search/form.html:16 kitsune/search/jinja2/search/results.html:18 kitsune/sumo/jinja2/base.html:200
+#: kitsune/search/jinja2/search/form.html:16 kitsune/search/jinja2/search/results.html:18 kitsune/sumo/jinja2/base.html:172
 #, fuzzy
 msgid "Search Support"
 msgstr "Khangela iNkxaso yeMozilla"
@@ -2449,7 +2449,7 @@ msgstr "Khangela iNkxaso yeMozilla"
 msgid "Popular Searches:"
 msgstr "Amanqaku omenzi-galelo"
 
-#: kitsune/landings/jinja2/landings/home.html:19 kitsune/sumo/jinja2/base.html:289 kitsune/sumo/jinja2/handlers/403.html:13
+#: kitsune/landings/jinja2/landings/home.html:19 kitsune/sumo/jinja2/base.html:261 kitsune/sumo/jinja2/handlers/403.html:13
 #, fuzzy
 msgid "Firefox Accounts"
 msgstr "Ungqaminiso lwe-Firefox"
@@ -2880,7 +2880,7 @@ msgstr "Iinkqubo neeLwimi"
 msgid "Release Notes"
 msgstr "Khulula Iingongoma"
 
-#: kitsune/products/jinja2/products/product.html:146 kitsune/sumo/jinja2/base.html:327 kitsune/sumo/jinja2/includes/common_macros.html:342
+#: kitsune/products/jinja2/products/product.html:146 kitsune/sumo/jinja2/base.html:299 kitsune/sumo/jinja2/includes/common_macros.html:342
 msgid "Privacy"
 msgstr "Okwabucala"
 
@@ -2929,7 +2929,7 @@ msgstr "Izihloko"
 msgid "All articles and threads"
 msgstr "Wonke amanqaku afuna iinguqu..."
 
-#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:267
+#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:239
 msgid "Firefox"
 msgstr "I-Firefox"
 
@@ -2958,7 +2958,7 @@ msgstr "Lungisa ukucotha, ukumoshakala, imiyalezo eyimpazamo kunye nezinye iingx
 msgid "Tips and tricks"
 msgstr "Iingcebiso namaqhinga"
 
-#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:328
+#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:300
 msgid "Cookies"
 msgstr "Ii-Cookies"
 
@@ -4445,7 +4445,7 @@ msgstr "Ukukhangela akuFumaneki"
 msgid "Relevant to"
 msgstr "Okusemxholweni ku"
 
-#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:299 kitsune/sumo/jinja2/base.html:300
+#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:271 kitsune/sumo/jinja2/base.html:272
 msgid "Language"
 msgstr "Ulwimi"
 
@@ -7777,137 +7777,137 @@ msgctxt "site_title"
 msgid "Mozilla Support"
 msgstr "Inkxaso yeMozilla"
 
-#: kitsune/sumo/jinja2/base.html:101
+#: kitsune/sumo/jinja2/base.html:85
 msgid "Skip to main content"
 msgstr "Tsibela kwesona siqulatho sikhulu"
 
-#: kitsune/sumo/jinja2/base.html:102 kitsune/sumo/jinja2/sumo/locales.html:2
+#: kitsune/sumo/jinja2/base.html:86 kitsune/sumo/jinja2/sumo/locales.html:2
 msgid "Switch language"
 msgstr "Tshintsha ulwimi"
 
-#: kitsune/sumo/jinja2/base.html:103
+#: kitsune/sumo/jinja2/base.html:87
 msgid "Skip to search"
 msgstr "Tsibela kukhangelo"
 
-#: kitsune/sumo/jinja2/base.html:109
+#: kitsune/sumo/jinja2/base.html:93
 #, fuzzy
 msgid "This is a staging site, the content gets overwritten on the 1st of every month.<br>The production site is <a href=\"https://support.mozilla.org\">here</a>."
 msgstr "Le ndawo yokubonisa, isiqulatho sifumana ukucinywa ngowoku-1 wenyanga nganye.<br>Indawo yemveliso <a href=\"http://support.mozilla.org\">apha</a>."
 
-#: kitsune/sumo/jinja2/base.html:256 kitsune/sumo/jinja2/base.html:322
+#: kitsune/sumo/jinja2/base.html:228 kitsune/sumo/jinja2/base.html:294
 #, fuzzy
 msgid "Mozilla"
 msgstr "I-Mozillians"
 
-#: kitsune/sumo/jinja2/base.html:258
+#: kitsune/sumo/jinja2/base.html:230
 msgid "Report Trademark Abuse"
 msgstr "Xela Ukuxhatshazwa Kophawu Lorhwebo"
 
-#: kitsune/sumo/jinja2/base.html:259
+#: kitsune/sumo/jinja2/base.html:231
 #, fuzzy
 msgid "Source code"
 msgstr "Ikhowudi Eyintsusa"
 
-#: kitsune/sumo/jinja2/base.html:260 kitsune/users/jinja2/users/profile.html:74
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:74
 msgid "Twitter"
 msgstr "UTweeter"
 
-#: kitsune/sumo/jinja2/base.html:261
+#: kitsune/sumo/jinja2/base.html:233
 #, fuzzy
 msgid "Join our Community"
 msgstr "Buza abanye abanikeli"
 
-#: kitsune/sumo/jinja2/base.html:262
+#: kitsune/sumo/jinja2/base.html:234
 #, fuzzy
 msgid "Explore Help Articles"
 msgstr "Guqulela Amanqaku oNcedo"
 
-#: kitsune/sumo/jinja2/base.html:269
+#: kitsune/sumo/jinja2/base.html:241
 #, fuzzy
 msgid "Download"
 msgstr "khuphela"
 
-#: kitsune/sumo/jinja2/base.html:270
+#: kitsune/sumo/jinja2/base.html:242
 #, fuzzy
 msgid "Firefox Desktop"
 msgstr "I-Firefox yeDesktop"
 
-#: kitsune/sumo/jinja2/base.html:271
+#: kitsune/sumo/jinja2/base.html:243
 #, fuzzy
 msgid "Android Browser"
 msgstr "I-Android"
 
-#: kitsune/sumo/jinja2/base.html:272
+#: kitsune/sumo/jinja2/base.html:244
 #, fuzzy
 msgid "iOS Browser"
 msgstr "browserID"
 
-#: kitsune/sumo/jinja2/base.html:273
+#: kitsune/sumo/jinja2/base.html:245
 #, fuzzy
 msgid "Focus Browser"
 msgstr "browserID"
 
-#: kitsune/sumo/jinja2/base.html:278
+#: kitsune/sumo/jinja2/base.html:250
 #, fuzzy
 msgid "Firefox for Developers"
 msgstr "I-Firefox yeDesktop"
 
-#: kitsune/sumo/jinja2/base.html:280
+#: kitsune/sumo/jinja2/base.html:252
 msgid "Developer Edition"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:281
+#: kitsune/sumo/jinja2/base.html:253
 msgid "Beta"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:282
+#: kitsune/sumo/jinja2/base.html:254
 #, fuzzy
 msgid "Beta for Android"
 msgstr "I-Firefox ye-Android"
 
-#: kitsune/sumo/jinja2/base.html:283
+#: kitsune/sumo/jinja2/base.html:255
 msgid "Nightly"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:284
+#: kitsune/sumo/jinja2/base.html:256
 #, fuzzy
 msgid "Nightly for Android"
 msgstr "I-Firefox ye-Android"
 
-#: kitsune/sumo/jinja2/base.html:291 kitsune/sumo/jinja2/includes/common_macros.html:224
+#: kitsune/sumo/jinja2/base.html:263 kitsune/sumo/jinja2/includes/common_macros.html:224
 #, fuzzy
 msgid "Sign In/Up"
 msgstr "Sayina uNgene"
 
-#: kitsune/sumo/jinja2/base.html:292
+#: kitsune/sumo/jinja2/base.html:264
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:293 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 #, fuzzy
 msgid "Firefox Private Network"
 msgstr "Ungqaminiso lwe-Firefox"
 
-#: kitsune/sumo/jinja2/base.html:325
+#: kitsune/sumo/jinja2/base.html:297
 #, fuzzy
 msgid "mozilla.org"
 msgstr "I-Mozillians"
 
-#: kitsune/sumo/jinja2/base.html:326
+#: kitsune/sumo/jinja2/base.html:298
 #, fuzzy
 msgid "Terms of Service"
 msgstr "Uhlobo lwenqaku"
 
-#: kitsune/sumo/jinja2/base.html:329
+#: kitsune/sumo/jinja2/base.html:301
 #, fuzzy
 msgid "Contact"
 msgstr "Oqhagamshelana nabo"
 
-#: kitsune/sumo/jinja2/base.html:335
+#: kitsune/sumo/jinja2/base.html:307
 msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:337
+#: kitsune/sumo/jinja2/base.html:309
 #, fuzzy
 msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
 msgstr ""

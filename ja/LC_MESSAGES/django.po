@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-09 03:39-0700\n"
+"POT-Creation-Date: 2020-07-13 19:04-0700\n"
 "PO-Revision-Date: 2020-07-08 11:04+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -1356,7 +1356,7 @@ msgstr "ギャラリーを検索"
 msgid "Show media for:"
 msgstr "メディアの対象言語:"
 
-#: kitsune/gallery/jinja2/gallery/gallery.html:54 kitsune/gallery/jinja2/gallery/search.html:33 kitsune/sumo/jinja2/base.html:308
+#: kitsune/gallery/jinja2/gallery/gallery.html:54 kitsune/gallery/jinja2/gallery/search.html:33 kitsune/sumo/jinja2/base.html:280
 msgid "Go"
 msgstr "移動"
 
@@ -2429,7 +2429,7 @@ msgid "Ask a question"
 msgstr "質問する"
 
 #: kitsune/landings/jinja2/landings/home.html:14 kitsune/questions/jinja2/questions/question_details.html:304 kitsune/questions/jinja2/questions/question_list.html:43
-#: kitsune/search/jinja2/search/form.html:16 kitsune/search/jinja2/search/results.html:18 kitsune/sumo/jinja2/base.html:200
+#: kitsune/search/jinja2/search/form.html:16 kitsune/search/jinja2/search/results.html:18 kitsune/sumo/jinja2/base.html:172
 msgid "Search Support"
 msgstr "Mozilla サポートの検索"
 
@@ -2438,7 +2438,7 @@ msgstr "Mozilla サポートの検索"
 msgid "Popular Searches:"
 msgstr "よく読まれる記事"
 
-#: kitsune/landings/jinja2/landings/home.html:19 kitsune/sumo/jinja2/base.html:289 kitsune/sumo/jinja2/handlers/403.html:13
+#: kitsune/landings/jinja2/landings/home.html:19 kitsune/sumo/jinja2/base.html:261 kitsune/sumo/jinja2/handlers/403.html:13
 msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
 
@@ -2841,7 +2841,7 @@ msgstr "システムと言語"
 msgid "Release Notes"
 msgstr "リリースノート"
 
-#: kitsune/products/jinja2/products/product.html:146 kitsune/sumo/jinja2/base.html:327 kitsune/sumo/jinja2/includes/common_macros.html:342
+#: kitsune/products/jinja2/products/product.html:146 kitsune/sumo/jinja2/base.html:299 kitsune/sumo/jinja2/includes/common_macros.html:342
 msgid "Privacy"
 msgstr "プライバシー"
 
@@ -2886,7 +2886,7 @@ msgstr "トピック"
 msgid "All articles and threads"
 msgstr "すべての記事とスレッド"
 
-#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:267
+#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:239
 msgid "Firefox"
 msgstr "Firefox"
 
@@ -2914,7 +2914,7 @@ msgstr "遅い動作、クラッシュ、エラーメッセージの解決と他
 msgid "Tips and tricks"
 msgstr "ヒントと活用法"
 
-#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:328
+#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:300
 msgid "Cookies"
 msgstr "Cookie"
 
@@ -4342,7 +4342,7 @@ msgstr "検索システムは現在利用できません"
 msgid "Relevant to"
 msgstr "関連性:"
 
-#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:299 kitsune/sumo/jinja2/base.html:300
+#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:271 kitsune/sumo/jinja2/base.html:272
 msgid "Language"
 msgstr "言語"
 
@@ -7480,119 +7480,119 @@ msgctxt "site_title"
 msgid "Mozilla Support"
 msgstr "Mozilla サポート"
 
-#: kitsune/sumo/jinja2/base.html:101
+#: kitsune/sumo/jinja2/base.html:85
 msgid "Skip to main content"
 msgstr "メインコンテンツへスキップ"
 
-#: kitsune/sumo/jinja2/base.html:102 kitsune/sumo/jinja2/sumo/locales.html:2
+#: kitsune/sumo/jinja2/base.html:86 kitsune/sumo/jinja2/sumo/locales.html:2
 msgid "Switch language"
 msgstr "表示言語を切り替える"
 
-#: kitsune/sumo/jinja2/base.html:103
+#: kitsune/sumo/jinja2/base.html:87
 msgid "Skip to search"
 msgstr "検索結果へスキップ"
 
-#: kitsune/sumo/jinja2/base.html:109
+#: kitsune/sumo/jinja2/base.html:93
 msgid "This is a staging site, the content gets overwritten on the 1st of every month.<br>The production site is <a href=\"https://support.mozilla.org\">here</a>."
 msgstr "このサイトは開発版であり、コンテンツが毎月 1 日に上書きされます。<br><a href=\"http://support.mozilla.org\">正式版のサイト</a> をご利用ください。"
 
-#: kitsune/sumo/jinja2/base.html:256 kitsune/sumo/jinja2/base.html:322
+#: kitsune/sumo/jinja2/base.html:228 kitsune/sumo/jinja2/base.html:294
 msgid "Mozilla"
 msgstr "Mozilla"
 
-#: kitsune/sumo/jinja2/base.html:258
+#: kitsune/sumo/jinja2/base.html:230
 msgid "Report Trademark Abuse"
 msgstr "商標の不正使用を報告"
 
-#: kitsune/sumo/jinja2/base.html:259
+#: kitsune/sumo/jinja2/base.html:231
 msgid "Source code"
 msgstr "ソースコード"
 
-#: kitsune/sumo/jinja2/base.html:260 kitsune/users/jinja2/users/profile.html:74
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: kitsune/sumo/jinja2/base.html:261
+#: kitsune/sumo/jinja2/base.html:233
 msgid "Join our Community"
 msgstr "コミュニティに参加する"
 
-#: kitsune/sumo/jinja2/base.html:262
+#: kitsune/sumo/jinja2/base.html:234
 msgid "Explore Help Articles"
 msgstr "ヘルプ記事を閲覧する"
 
-#: kitsune/sumo/jinja2/base.html:269
+#: kitsune/sumo/jinja2/base.html:241
 msgid "Download"
 msgstr "ダウンロード"
 
-#: kitsune/sumo/jinja2/base.html:270
+#: kitsune/sumo/jinja2/base.html:242
 msgid "Firefox Desktop"
 msgstr "Firefox デスクトップ"
 
-#: kitsune/sumo/jinja2/base.html:271
+#: kitsune/sumo/jinja2/base.html:243
 msgid "Android Browser"
 msgstr "Android ブラウザー"
 
-#: kitsune/sumo/jinja2/base.html:272
+#: kitsune/sumo/jinja2/base.html:244
 msgid "iOS Browser"
 msgstr "iOS ブラウザー"
 
-#: kitsune/sumo/jinja2/base.html:273
+#: kitsune/sumo/jinja2/base.html:245
 msgid "Focus Browser"
 msgstr "Focus ブラウザー"
 
-#: kitsune/sumo/jinja2/base.html:278
+#: kitsune/sumo/jinja2/base.html:250
 msgid "Firefox for Developers"
 msgstr "Firefox for Developers"
 
-#: kitsune/sumo/jinja2/base.html:280
+#: kitsune/sumo/jinja2/base.html:252
 msgid "Developer Edition"
 msgstr "Developer Edition"
 
-#: kitsune/sumo/jinja2/base.html:281
+#: kitsune/sumo/jinja2/base.html:253
 msgid "Beta"
 msgstr "Beta"
 
-#: kitsune/sumo/jinja2/base.html:282
+#: kitsune/sumo/jinja2/base.html:254
 msgid "Beta for Android"
 msgstr "Android 版 Beta"
 
-#: kitsune/sumo/jinja2/base.html:283
+#: kitsune/sumo/jinja2/base.html:255
 msgid "Nightly"
 msgstr "Nightly"
 
-#: kitsune/sumo/jinja2/base.html:284
+#: kitsune/sumo/jinja2/base.html:256
 msgid "Nightly for Android"
 msgstr "Android 版 Nightly"
 
-#: kitsune/sumo/jinja2/base.html:291 kitsune/sumo/jinja2/includes/common_macros.html:224
+#: kitsune/sumo/jinja2/base.html:263 kitsune/sumo/jinja2/includes/common_macros.html:224
 msgid "Sign In/Up"
 msgstr "登録/ログイン"
 
-#: kitsune/sumo/jinja2/base.html:292
+#: kitsune/sumo/jinja2/base.html:264
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:293 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 msgid "Firefox Private Network"
 msgstr "Firefox Private Network"
 
-#: kitsune/sumo/jinja2/base.html:325
+#: kitsune/sumo/jinja2/base.html:297
 msgid "mozilla.org"
 msgstr "mozilla.org"
 
-#: kitsune/sumo/jinja2/base.html:326
+#: kitsune/sumo/jinja2/base.html:298
 msgid "Terms of Service"
 msgstr "利用規約"
 
-#: kitsune/sumo/jinja2/base.html:329
+#: kitsune/sumo/jinja2/base.html:301
 msgid "Contact"
 msgstr "お問い合わせ"
 
-#: kitsune/sumo/jinja2/base.html:335
+#: kitsune/sumo/jinja2/base.html:307
 msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:337
+#: kitsune/sumo/jinja2/base.html:309
 #, fuzzy
 msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
 msgstr "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content availbe under a Creative Common license."

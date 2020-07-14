@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-09 03:39-0700\n"
+"POT-Creation-Date: 2020-07-13 19:04-0700\n"
 "PO-Revision-Date: 2020-05-12 21:33+0000\n"
 "Last-Translator: Teo Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: Polish\n"
@@ -1353,7 +1353,7 @@ msgstr "Przeszukaj galerię"
 msgid "Show media for:"
 msgstr "Wyświetl multimedia dla języka:"
 
-#: kitsune/gallery/jinja2/gallery/gallery.html:54 kitsune/gallery/jinja2/gallery/search.html:33 kitsune/sumo/jinja2/base.html:308
+#: kitsune/gallery/jinja2/gallery/gallery.html:54 kitsune/gallery/jinja2/gallery/search.html:33 kitsune/sumo/jinja2/base.html:280
 msgid "Go"
 msgstr "Przejdź"
 
@@ -2434,7 +2434,7 @@ msgid "Ask a question"
 msgstr "Zadaj pytanie"
 
 #: kitsune/landings/jinja2/landings/home.html:14 kitsune/questions/jinja2/questions/question_details.html:304 kitsune/questions/jinja2/questions/question_list.html:43
-#: kitsune/search/jinja2/search/form.html:16 kitsune/search/jinja2/search/results.html:18 kitsune/sumo/jinja2/base.html:200
+#: kitsune/search/jinja2/search/form.html:16 kitsune/search/jinja2/search/results.html:18 kitsune/sumo/jinja2/base.html:172
 msgid "Search Support"
 msgstr "Przeszukaj pomoc"
 
@@ -2443,7 +2443,7 @@ msgstr "Przeszukaj pomoc"
 msgid "Popular Searches:"
 msgstr "Popularne artykuły"
 
-#: kitsune/landings/jinja2/landings/home.html:19 kitsune/sumo/jinja2/base.html:289 kitsune/sumo/jinja2/handlers/403.html:13
+#: kitsune/landings/jinja2/landings/home.html:19 kitsune/sumo/jinja2/base.html:261 kitsune/sumo/jinja2/handlers/403.html:13
 msgid "Firefox Accounts"
 msgstr "Konta Firefoksa"
 
@@ -2846,7 +2846,7 @@ msgstr "Systemy i języki"
 msgid "Release Notes"
 msgstr "Informacje o wersji"
 
-#: kitsune/products/jinja2/products/product.html:146 kitsune/sumo/jinja2/base.html:327 kitsune/sumo/jinja2/includes/common_macros.html:342
+#: kitsune/products/jinja2/products/product.html:146 kitsune/sumo/jinja2/base.html:299 kitsune/sumo/jinja2/includes/common_macros.html:342
 msgid "Privacy"
 msgstr "Prywatność"
 
@@ -2891,7 +2891,7 @@ msgstr "Tematy"
 msgid "All articles and threads"
 msgstr "Wszystkie artykuły i wątki"
 
-#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:267
+#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:239
 msgid "Firefox"
 msgstr "Firefox"
 
@@ -2919,7 +2919,7 @@ msgstr "Powolne działanie, awarie i inne błędy"
 msgid "Tips and tricks"
 msgstr "Porady i wskazówki"
 
-#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:328
+#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:300
 msgid "Cookies"
 msgstr "Ciasteczka"
 
@@ -4357,7 +4357,7 @@ msgstr "Wyszukiwanie jest niedostępne"
 msgid "Relevant to"
 msgstr "Powiązany z"
 
-#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:299 kitsune/sumo/jinja2/base.html:300
+#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:271 kitsune/sumo/jinja2/base.html:272
 msgid "Language"
 msgstr "Język"
 
@@ -7502,119 +7502,119 @@ msgctxt "site_title"
 msgid "Mozilla Support"
 msgstr "Pomoc Mozilli"
 
-#: kitsune/sumo/jinja2/base.html:101
+#: kitsune/sumo/jinja2/base.html:85
 msgid "Skip to main content"
 msgstr "Przejdź do głównej zawartości"
 
-#: kitsune/sumo/jinja2/base.html:102 kitsune/sumo/jinja2/sumo/locales.html:2
+#: kitsune/sumo/jinja2/base.html:86 kitsune/sumo/jinja2/sumo/locales.html:2
 msgid "Switch language"
 msgstr "Zmień język interfejsu"
 
-#: kitsune/sumo/jinja2/base.html:103
+#: kitsune/sumo/jinja2/base.html:87
 msgid "Skip to search"
 msgstr "Przejdź do wyszukiwania"
 
-#: kitsune/sumo/jinja2/base.html:109
+#: kitsune/sumo/jinja2/base.html:93
 msgid "This is a staging site, the content gets overwritten on the 1st of every month.<br>The production site is <a href=\"https://support.mozilla.org\">here</a>."
 msgstr "To jest witryna testowa, której zawartość zostaje nadpisana każdego pierwszego dnia miesiąca.<br> Witryna oficjalna znajduje się <a href=\"https://support.mozilla.org\">tutaj</a>."
 
-#: kitsune/sumo/jinja2/base.html:256 kitsune/sumo/jinja2/base.html:322
+#: kitsune/sumo/jinja2/base.html:228 kitsune/sumo/jinja2/base.html:294
 msgid "Mozilla"
 msgstr "Mozilla"
 
-#: kitsune/sumo/jinja2/base.html:258
+#: kitsune/sumo/jinja2/base.html:230
 msgid "Report Trademark Abuse"
 msgstr "Nadużycie znaku towarowego"
 
-#: kitsune/sumo/jinja2/base.html:259
+#: kitsune/sumo/jinja2/base.html:231
 msgid "Source code"
 msgstr "Kod źródłowy"
 
-#: kitsune/sumo/jinja2/base.html:260 kitsune/users/jinja2/users/profile.html:74
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: kitsune/sumo/jinja2/base.html:261
+#: kitsune/sumo/jinja2/base.html:233
 msgid "Join our Community"
 msgstr "Dołącz do naszej społeczności"
 
-#: kitsune/sumo/jinja2/base.html:262
+#: kitsune/sumo/jinja2/base.html:234
 msgid "Explore Help Articles"
 msgstr "Przejrzyj artykuły pomocy"
 
-#: kitsune/sumo/jinja2/base.html:269
+#: kitsune/sumo/jinja2/base.html:241
 msgid "Download"
 msgstr "Pobierz"
 
-#: kitsune/sumo/jinja2/base.html:270
+#: kitsune/sumo/jinja2/base.html:242
 msgid "Firefox Desktop"
 msgstr "Firefox dla desktopów"
 
-#: kitsune/sumo/jinja2/base.html:271
+#: kitsune/sumo/jinja2/base.html:243
 msgid "Android Browser"
 msgstr "Przeglądarka dla Androida"
 
-#: kitsune/sumo/jinja2/base.html:272
+#: kitsune/sumo/jinja2/base.html:244
 msgid "iOS Browser"
 msgstr "Przeglądarka dla iOS"
 
-#: kitsune/sumo/jinja2/base.html:273
+#: kitsune/sumo/jinja2/base.html:245
 msgid "Focus Browser"
 msgstr "Przeglądarka Focus"
 
-#: kitsune/sumo/jinja2/base.html:278
+#: kitsune/sumo/jinja2/base.html:250
 msgid "Firefox for Developers"
 msgstr "Firefox dla programistów"
 
-#: kitsune/sumo/jinja2/base.html:280
+#: kitsune/sumo/jinja2/base.html:252
 msgid "Developer Edition"
 msgstr "Wersja dla programistów"
 
-#: kitsune/sumo/jinja2/base.html:281
+#: kitsune/sumo/jinja2/base.html:253
 msgid "Beta"
 msgstr "Beta"
 
-#: kitsune/sumo/jinja2/base.html:282
+#: kitsune/sumo/jinja2/base.html:254
 msgid "Beta for Android"
 msgstr "Wersja Beta dla Androida"
 
-#: kitsune/sumo/jinja2/base.html:283
+#: kitsune/sumo/jinja2/base.html:255
 msgid "Nightly"
 msgstr "Nightly"
 
-#: kitsune/sumo/jinja2/base.html:284
+#: kitsune/sumo/jinja2/base.html:256
 msgid "Nightly for Android"
 msgstr "Wersja Nightly dla Androida"
 
-#: kitsune/sumo/jinja2/base.html:291 kitsune/sumo/jinja2/includes/common_macros.html:224
+#: kitsune/sumo/jinja2/base.html:263 kitsune/sumo/jinja2/includes/common_macros.html:224
 msgid "Sign In/Up"
 msgstr "Zaloguj się/Zarejestruj się"
 
-#: kitsune/sumo/jinja2/base.html:292
+#: kitsune/sumo/jinja2/base.html:264
 msgid "Benefits"
 msgstr "Korzyści"
 
-#: kitsune/sumo/jinja2/base.html:293 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 msgid "Firefox Private Network"
 msgstr "Firefox Private Network"
 
-#: kitsune/sumo/jinja2/base.html:325
+#: kitsune/sumo/jinja2/base.html:297
 msgid "mozilla.org"
 msgstr "mozilla.org"
 
-#: kitsune/sumo/jinja2/base.html:326
+#: kitsune/sumo/jinja2/base.html:298
 msgid "Terms of Service"
 msgstr "Zasady usługi"
 
-#: kitsune/sumo/jinja2/base.html:329
+#: kitsune/sumo/jinja2/base.html:301
 msgid "Contact"
 msgstr "Kontakt"
 
-#: kitsune/sumo/jinja2/base.html:335
+#: kitsune/sumo/jinja2/base.html:307
 msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
 msgstr "Mozilla Corporation – firma powołana przez organizację non-profit Mozilla Foundation."
 
-#: kitsune/sumo/jinja2/base.html:337
+#: kitsune/sumo/jinja2/base.html:309
 #, fuzzy
 msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
 msgstr "Prawa autorskie &copy;1998–2019 fragmentów tej treści posiadają poszczególni autorzy mozilla.org. Treść udostępniana jest na zasadach licencji Creative Commons."

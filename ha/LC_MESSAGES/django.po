@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-09 03:39-0700\n"
+"POT-Creation-Date: 2020-07-13 19:04-0700\n"
 "PO-Revision-Date: 2015-05-27 13:12+0000\n"
 "Last-Translator: Devon <devon.bezuidenhout@rubric.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1357,7 +1357,7 @@ msgstr "Nemi Hoto"
 msgid "Show media for:"
 msgstr "Nuna kiɗa domin:"
 
-#: kitsune/gallery/jinja2/gallery/gallery.html:54 kitsune/gallery/jinja2/gallery/search.html:33 kitsune/sumo/jinja2/base.html:308
+#: kitsune/gallery/jinja2/gallery/gallery.html:54 kitsune/gallery/jinja2/gallery/search.html:33 kitsune/sumo/jinja2/base.html:280
 msgid "Go"
 msgstr "Tafi"
 
@@ -2439,7 +2439,7 @@ msgid "Ask a question"
 msgstr "Yi tambaya"
 
 #: kitsune/landings/jinja2/landings/home.html:14 kitsune/questions/jinja2/questions/question_details.html:304 kitsune/questions/jinja2/questions/question_list.html:43
-#: kitsune/search/jinja2/search/form.html:16 kitsune/search/jinja2/search/results.html:18 kitsune/sumo/jinja2/base.html:200
+#: kitsune/search/jinja2/search/form.html:16 kitsune/search/jinja2/search/results.html:18 kitsune/sumo/jinja2/base.html:172
 #, fuzzy
 msgid "Search Support"
 msgstr "Nemi Tallafin Mozilla"
@@ -2449,7 +2449,7 @@ msgstr "Nemi Tallafin Mozilla"
 msgid "Popular Searches:"
 msgstr "Maƙalolin masu bayar da gudun mawa"
 
-#: kitsune/landings/jinja2/landings/home.html:19 kitsune/sumo/jinja2/base.html:289 kitsune/sumo/jinja2/handlers/403.html:13
+#: kitsune/landings/jinja2/landings/home.html:19 kitsune/sumo/jinja2/base.html:261 kitsune/sumo/jinja2/handlers/403.html:13
 #, fuzzy
 msgid "Firefox Accounts"
 msgstr "Saita Firefox"
@@ -2880,7 +2880,7 @@ msgstr "Tsare-tsare da Yaruka"
 msgid "Release Notes"
 msgstr "Saki rubutu"
 
-#: kitsune/products/jinja2/products/product.html:146 kitsune/sumo/jinja2/base.html:327 kitsune/sumo/jinja2/includes/common_macros.html:342
+#: kitsune/products/jinja2/products/product.html:146 kitsune/sumo/jinja2/base.html:299 kitsune/sumo/jinja2/includes/common_macros.html:342
 msgid "Privacy"
 msgstr "Na Ƙashin kai"
 
@@ -2929,7 +2929,7 @@ msgstr "Batutuwa"
 msgid "All articles and threads"
 msgstr "Duk maƙaloli masu bakatar canje-canje..."
 
-#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:267
+#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:239
 msgid "Firefox"
 msgstr "Firefox"
 
@@ -2958,7 +2958,7 @@ msgstr "Gyara rashin sauri, kuskuren saƙwannin da sauran matsaloli"
 msgid "Tips and tricks"
 msgstr "Shawarwari da dabara"
 
-#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:328
+#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:300
 msgid "Cookies"
 msgstr "Cookies"
 
@@ -4446,7 +4446,7 @@ msgstr "Ba'a sami Abin nema ba"
 msgid "Relevant to"
 msgstr "Dacewa zuwa"
 
-#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:299 kitsune/sumo/jinja2/base.html:300
+#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:271 kitsune/sumo/jinja2/base.html:272
 msgid "Language"
 msgstr "Yare"
 
@@ -7779,137 +7779,137 @@ msgctxt "site_title"
 msgid "Mozilla Support"
 msgstr "Tallafin Mozilla"
 
-#: kitsune/sumo/jinja2/base.html:101
+#: kitsune/sumo/jinja2/base.html:85
 msgid "Skip to main content"
 msgstr "Tsallaka zuwa babban abin da ke ciki"
 
-#: kitsune/sumo/jinja2/base.html:102 kitsune/sumo/jinja2/sumo/locales.html:2
+#: kitsune/sumo/jinja2/base.html:86 kitsune/sumo/jinja2/sumo/locales.html:2
 msgid "Switch language"
 msgstr "Canja yare"
 
-#: kitsune/sumo/jinja2/base.html:103
+#: kitsune/sumo/jinja2/base.html:87
 msgid "Skip to search"
 msgstr "Tsallaka zuwa nema"
 
-#: kitsune/sumo/jinja2/base.html:109
+#: kitsune/sumo/jinja2/base.html:93
 #, fuzzy
 msgid "This is a staging site, the content gets overwritten on the 1st of every month.<br>The production site is <a href=\"https://support.mozilla.org\">here</a>."
 msgstr "Wannan dandali ne mai mataki, ana sake rubuta abin cikinsa a farkon ko wane wata.<br>dandalin samarwar shi ne <a href=\"http://support.mozilla.org\">here</a>."
 
-#: kitsune/sumo/jinja2/base.html:256 kitsune/sumo/jinja2/base.html:322
+#: kitsune/sumo/jinja2/base.html:228 kitsune/sumo/jinja2/base.html:294
 #, fuzzy
 msgid "Mozilla"
 msgstr "'Yan Mozilla"
 
-#: kitsune/sumo/jinja2/base.html:258
+#: kitsune/sumo/jinja2/base.html:230
 msgid "Report Trademark Abuse"
 msgstr "Kai Rahoton Saɓa Alamar Kasuwanci"
 
-#: kitsune/sumo/jinja2/base.html:259
+#: kitsune/sumo/jinja2/base.html:231
 #, fuzzy
 msgid "Source code"
 msgstr "Tushen Lamba"
 
-#: kitsune/sumo/jinja2/base.html:260 kitsune/users/jinja2/users/profile.html:74
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: kitsune/sumo/jinja2/base.html:261
+#: kitsune/sumo/jinja2/base.html:233
 #, fuzzy
 msgid "Join our Community"
 msgstr "Tambayi sauran masu bayar da gudun mawa"
 
-#: kitsune/sumo/jinja2/base.html:262
+#: kitsune/sumo/jinja2/base.html:234
 #, fuzzy
 msgid "Explore Help Articles"
 msgstr "Fassara Maƙaloli na Taimako"
 
-#: kitsune/sumo/jinja2/base.html:269
+#: kitsune/sumo/jinja2/base.html:241
 #, fuzzy
 msgid "Download"
 msgstr "sauke"
 
-#: kitsune/sumo/jinja2/base.html:270
+#: kitsune/sumo/jinja2/base.html:242
 #, fuzzy
 msgid "Firefox Desktop"
 msgstr "Firefox domin Kwamfutar kan tebur"
 
-#: kitsune/sumo/jinja2/base.html:271
+#: kitsune/sumo/jinja2/base.html:243
 #, fuzzy
 msgid "Android Browser"
 msgstr "Android"
 
-#: kitsune/sumo/jinja2/base.html:272
+#: kitsune/sumo/jinja2/base.html:244
 #, fuzzy
 msgid "iOS Browser"
 msgstr "ID na mai gewayawa"
 
-#: kitsune/sumo/jinja2/base.html:273
+#: kitsune/sumo/jinja2/base.html:245
 #, fuzzy
 msgid "Focus Browser"
 msgstr "ID na mai gewayawa"
 
-#: kitsune/sumo/jinja2/base.html:278
+#: kitsune/sumo/jinja2/base.html:250
 #, fuzzy
 msgid "Firefox for Developers"
 msgstr "Firefox domin Kwamfutar kan tebur"
 
-#: kitsune/sumo/jinja2/base.html:280
+#: kitsune/sumo/jinja2/base.html:252
 msgid "Developer Edition"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:281
+#: kitsune/sumo/jinja2/base.html:253
 msgid "Beta"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:282
+#: kitsune/sumo/jinja2/base.html:254
 #, fuzzy
 msgid "Beta for Android"
 msgstr "Firefox domin Android"
 
-#: kitsune/sumo/jinja2/base.html:283
+#: kitsune/sumo/jinja2/base.html:255
 msgid "Nightly"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:284
+#: kitsune/sumo/jinja2/base.html:256
 #, fuzzy
 msgid "Nightly for Android"
 msgstr "Firefox domin Android"
 
-#: kitsune/sumo/jinja2/base.html:291 kitsune/sumo/jinja2/includes/common_macros.html:224
+#: kitsune/sumo/jinja2/base.html:263 kitsune/sumo/jinja2/includes/common_macros.html:224
 #, fuzzy
 msgid "Sign In/Up"
 msgstr "Shiga"
 
-#: kitsune/sumo/jinja2/base.html:292
+#: kitsune/sumo/jinja2/base.html:264
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:293 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 #, fuzzy
 msgid "Firefox Private Network"
 msgstr "Saita Firefox"
 
-#: kitsune/sumo/jinja2/base.html:325
+#: kitsune/sumo/jinja2/base.html:297
 #, fuzzy
 msgid "mozilla.org"
 msgstr "'Yan Mozilla"
 
-#: kitsune/sumo/jinja2/base.html:326
+#: kitsune/sumo/jinja2/base.html:298
 #, fuzzy
 msgid "Terms of Service"
 msgstr "Yanayin maƙala"
 
-#: kitsune/sumo/jinja2/base.html:329
+#: kitsune/sumo/jinja2/base.html:301
 #, fuzzy
 msgid "Contact"
 msgstr "Abokan hulɗa"
 
-#: kitsune/sumo/jinja2/base.html:335
+#: kitsune/sumo/jinja2/base.html:307
 msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:337
+#: kitsune/sumo/jinja2/base.html:309
 #, fuzzy
 msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
 msgstr ""
