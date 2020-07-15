@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-13 19:04-0700\n"
+"POT-Creation-Date: 2020-07-14 19:04-0700\n"
 "PO-Revision-Date: 2020-06-12 15:05+0000\n"
 "Last-Translator: TrickyFoxy <roman.deev06@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -3122,8 +3122,9 @@ msgid "Fix problems with Firefox Private Network"
 msgstr "Решение проблем с Firefox Private Network"
 
 #: kitsune/questions/config.py:441 kitsune/questions/config.py:442
-msgid "Firefox Private Network Device-level Protection"
-msgstr "Firefox Private Network - Защита на уровне устройства"
+#, fuzzy
+msgid "Mozilla VPN"
+msgstr "Новости Mozilla"
 
 #: kitsune/questions/config.py:448
 msgid "Technical"
@@ -7667,7 +7668,7 @@ msgid "Find help..."
 msgstr "Найти помощь..."
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:32
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests."
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. Please report suspicious activity using the “Report Abuse” option."
 msgstr ""
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:54 kitsune/sumo/jinja2/includes/common_macros.html:104 kitsune/sumo/jinja2/includes/common_macros.html:169
@@ -10122,6 +10123,9 @@ msgstr "Расскажите поподробней."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Пожалуйста, предоставьте больше информации."
+
+#~ msgid "Firefox Private Network Device-level Protection"
+#~ msgstr "Firefox Private Network - Защита на уровне устройства"
 
 #~ msgid "Choose server"
 #~ msgstr "Выберите сервер"

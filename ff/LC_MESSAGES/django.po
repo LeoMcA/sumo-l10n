@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-13 19:04-0700\n"
+"POT-Creation-Date: 2020-07-14 19:04-0700\n"
 "PO-Revision-Date: 2020-05-13 14:40+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULA LOCALIZATION\n"
@@ -3105,8 +3105,9 @@ msgid "Fix problems with Firefox Private Network"
 msgstr "Ñawndu caɗeele e laylaytol suturo Firefox"
 
 #: kitsune/questions/config.py:441 kitsune/questions/config.py:442
-msgid "Firefox Private Network Device-level Protection"
-msgstr "Ndeenka tolno-kaɓirɗe laylaytol suturo Firefox"
+#, fuzzy
+msgid "Mozilla VPN"
+msgstr "Kabaruuji Mozilla"
 
 #: kitsune/questions/config.py:448
 msgid "Technical"
@@ -7723,7 +7724,7 @@ msgid "Find help..."
 msgstr ""
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:32
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests."
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. Please report suspicious activity using the “Report Abuse” option."
 msgstr ""
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:54 kitsune/sumo/jinja2/includes/common_macros.html:104 kitsune/sumo/jinja2/includes/common_macros.html:169
@@ -10252,6 +10253,9 @@ msgstr "Ɓeydan-min humpito."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Tiiɗno hokku tiitoonde"
+
+#~ msgid "Firefox Private Network Device-level Protection"
+#~ msgstr "Ndeenka tolno-kaɓirɗe laylaytol suturo Firefox"
 
 #~ msgid "Choose server"
 #~ msgstr "Suɓo sarworde"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-13 19:04-0700\n"
+"POT-Creation-Date: 2020-07-14 19:04-0700\n"
 "PO-Revision-Date: 2020-06-10 07:45+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: Hindi\n"
@@ -3192,8 +3192,8 @@ msgstr "iOS के लिए Firefox के साथ समस्याओं �
 
 #: kitsune/questions/config.py:441 kitsune/questions/config.py:442
 #, fuzzy
-msgid "Firefox Private Network Device-level Protection"
-msgstr "Firefox Reality"
+msgid "Mozilla VPN"
+msgstr "मोज़िल्ला की छवि"
 
 #: kitsune/questions/config.py:448
 msgid "Technical"
@@ -7823,7 +7823,7 @@ msgid "Find help..."
 msgstr "मदद ढूंढें..."
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:32
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests."
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. Please report suspicious activity using the “Report Abuse” option."
 msgstr ""
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:54 kitsune/sumo/jinja2/includes/common_macros.html:104 kitsune/sumo/jinja2/includes/common_macros.html:169
@@ -10377,6 +10377,10 @@ msgstr "हमें और जानकारी दें।"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "कृपया और जानकारी दें"
+
+#, fuzzy
+#~ msgid "Firefox Private Network Device-level Protection"
+#~ msgstr "Firefox Reality"
 
 #~ msgid "Choose server"
 #~ msgstr "सर्वर चुनें"

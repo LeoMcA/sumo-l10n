@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-13 19:04-0700\n"
+"POT-Creation-Date: 2020-07-14 19:04-0700\n"
 "PO-Revision-Date: 2017-11-24 16:36+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3148,8 +3148,8 @@ msgstr "பிழைத்திருத்தல் தகவல்"
 
 #: kitsune/questions/config.py:441 kitsune/questions/config.py:442
 #, fuzzy
-msgid "Firefox Private Network Device-level Protection"
-msgstr "பயர்பாக்ஸ் வணக்கம்"
+msgid "Mozilla VPN"
+msgstr "மொசிலியன்கள்"
 
 #: kitsune/questions/config.py:448
 msgid "Technical"
@@ -7712,7 +7712,7 @@ msgid "Find help..."
 msgstr ""
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:32
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests."
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. Please report suspicious activity using the “Report Abuse” option."
 msgstr ""
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:54 kitsune/sumo/jinja2/includes/common_macros.html:104 kitsune/sumo/jinja2/includes/common_macros.html:169
@@ -10147,6 +10147,10 @@ msgstr "எங்களுக்கு கூடுதல் விவரங்�
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "தயவு செய்து இன்னும் கூடுதல் விவரங்களை அளிக்கவும்"
+
+#, fuzzy
+#~ msgid "Firefox Private Network Device-level Protection"
+#~ msgstr "பயர்பாக்ஸ் வணக்கம்"
 
 #, fuzzy
 #~ msgid "Android VPN"

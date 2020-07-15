@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-13 19:04-0700\n"
+"POT-Creation-Date: 2020-07-14 19:04-0700\n"
 "PO-Revision-Date: 2018-07-13 16:04+0000\n"
 "Last-Translator: Kalpa Welivitigoda <callkalpa@gmail.com>\n"
 "Language-Team: Sinhala\n"
@@ -3373,7 +3373,7 @@ msgstr "Firefox උදව් සහ නිබන්දන"
 
 #: kitsune/questions/config.py:441 kitsune/questions/config.py:442
 #, fuzzy
-msgid "Firefox Private Network Device-level Protection"
+msgid "Mozilla VPN"
 msgstr "Firefox සහාය"
 
 #: kitsune/questions/config.py:448
@@ -8105,7 +8105,7 @@ msgid "Find help..."
 msgstr ""
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:32
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests."
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. Please report suspicious activity using the “Report Abuse” option."
 msgstr ""
 
 #: kitsune/sumo/jinja2/includes/common_macros.html:54 kitsune/sumo/jinja2/includes/common_macros.html:104 kitsune/sumo/jinja2/includes/common_macros.html:169
@@ -10737,6 +10737,10 @@ msgstr ""
 #, fuzzy
 msgid "Please provide more details"
 msgstr "පැණයක් අසන්න"
+
+#, fuzzy
+#~ msgid "Firefox Private Network Device-level Protection"
+#~ msgstr "Firefox සහාය"
 
 #, fuzzy
 #~ msgid "Windows VPN"
