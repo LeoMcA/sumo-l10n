@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-07-03 13:00+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu\n"
@@ -2701,13 +2701,15 @@ msgstr "స్వర ఆదేశాలు"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
-msgid "About firefox private network"
-msgstr ""
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
+#, fuzzy
+msgid "Manage devices"
+msgstr "మొబైల్ పరికరం"
 
 #: kitsune/products/jinja2/products/product.html:65
-msgid "Install extension"
-msgstr "పొడగింతను స్థాపించు"
+#, fuzzy
+msgid "Download VPN"
+msgstr "దింపుకోండి"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2715,18 +2717,13 @@ msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "పోస్ట్ ను నవీకరించు"
+msgid "Activate add-on"
+msgstr "పొడగింతల నిర్వహణ"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "చందా"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "మొబైల్ పరికరం"
+msgid "Update add-on"
+msgstr "నవీకరించబడింది"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2921,7 +2918,7 @@ msgstr "వెబ్ సైట్లు"
 msgid "Other"
 msgstr "ఇతర"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "ఆండ్రాయిడ్ కోసం ఫైర్ ఫాక్స్"
 
@@ -2998,10 +2995,10 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "ఇండోనేషియా కోసం మొబైల్ విహారిణి"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "ప్రారంభించడానికి"
 
@@ -3014,8 +3011,9 @@ msgid "Firefox for Enterprise"
 msgstr "ఎంటర్‌ప్రైజ్ కోసం ఫైర్‌ఫాక్స్"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr ""
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "వ్యాపారసంస్థల కోసం Firefox Quantum"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3038,8 +3036,9 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
-msgstr ""
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
+msgstr "వర్చువల్ రియాలిటీ హెడ్‌సెట్ల కోసం జాల విహారిణి"
 
 #: kitsune/questions/config.py:326
 msgid "Get started with Firefox Reality"
@@ -3050,8 +3049,13 @@ msgid "Troubleshooting Firefox Reality"
 msgstr ""
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "ఆండ్రాయిడ్ కోసం ఫైర్ ఫాక్స్"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 msgid "How do I use Firefox Preview"
@@ -3085,54 +3089,67 @@ msgstr "అమరికలు, అభిరుచులు"
 msgid "Advanced Settings"
 msgstr "ఉన్నత అమరికలు"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "స్థాపన, అమర్పు"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "అమరికల, ప్రవేశాల నిర్వహణ"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 #, fuzzy
 msgid "Fix problems with Firefox Lockwise"
 msgstr "iOS కోసం Firefox సమస్యలు పరిష్కరించుకోండి."
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 msgid "Firefox Private Network Browser-level Protection"
 msgstr ""
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr ""
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 #, fuzzy
 msgid "Fix problems with Firefox Private Network"
 msgstr "Firefox Fire TVతో సమస్యలను పరిష్కరించుకోండి"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "విండోస్ 8 టచ్ పరికరాల కోసం Firefox"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 msgid "Accounts"
 msgstr "ఖాతాలు"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "చెల్లింపులు"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "ట్రబుల్షూటింగ్"
 
@@ -10122,6 +10139,23 @@ msgstr "మాకు మరింత తెలియజేయండి."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "దయచేసి మరింత విషయాన్ని అందించండి"
+
+#~ msgid "Install extension"
+#~ msgstr "పొడగింతను స్థాపించు"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "పోస్ట్ ను నవీకరించు"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "చందా"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "ఇండోనేషియా కోసం మొబైల్ విహారిణి"
+
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
 
 #~ msgid "Screenshots"
 #~ msgstr "తెరపట్లు"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2015-07-28 18:59+0000\n"
 "Last-Translator: Theresa <tsedzro@uhas.edu.gh>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2739,15 +2739,15 @@ msgstr "Ele article me"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "Firefox Sync"
+msgid "Manage devices"
+msgstr "Kaƒomɔ"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "Installation ƒe nyawo"
+msgid "Download VPN"
+msgstr "download"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2755,18 +2755,13 @@ msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "Tu post ɖe dzi"
+msgid "Activate add-on"
+msgstr "Manage add-onwo"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "Dzedzeme"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "Kaƒomɔ"
+msgid "Update add-on"
+msgstr "Etuɖe dzi"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2973,7 +2968,7 @@ msgstr "Websitewo"
 msgid "Other"
 msgstr "Bubu"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 #, fuzzy
 msgid "Firefox for Android"
 msgstr "Firefox na Android"
@@ -3066,11 +3061,10 @@ msgid "Firefox Lite"
 msgstr "Firefox Sync"
 
 #: kitsune/questions/config.py:270
-#, fuzzy
-msgid "Mobile browser for Indonesia"
-msgstr "Firefox na Android"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 #, fuzzy
 msgid "Get started"
 msgstr "Dze egɔme"
@@ -3086,8 +3080,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox na Android"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr ""
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox na Mobile"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3113,7 +3108,7 @@ msgstr "Firefox Sync"
 
 #: kitsune/questions/config.py:320
 #, fuzzy
-msgid "Firefox for Virtual Reality"
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox Sync"
 
 #: kitsune/questions/config.py:326
@@ -3128,8 +3123,12 @@ msgstr "Troubleshoot vodada mesedzi le Firefox na iOS dzi"
 
 #: kitsune/questions/config.py:339
 #, fuzzy
-msgid "Firefox Preview"
-msgstr "Firefox Sync"
+msgid "Firefox for Android Beta"
+msgstr "Firefox na Android"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 #, fuzzy
@@ -3169,59 +3168,72 @@ msgstr "Ɖo ɖoɖowo kple didiwo ɖe wo lɔlɔnu"
 msgid "Advanced Settings"
 msgstr "Ɖoɖo kɔkɔwo"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 #, fuzzy
 msgid "Firefox Lockwise"
 msgstr "Firefox Sync"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 #, fuzzy
 msgid "Install and set up"
 msgstr "Install eye natu ɖedzi"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 #, fuzzy
 msgid "Manage settings and logins"
 msgstr "Manage wo didiwo kple add-onwo"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 #, fuzzy
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Troubleshoot vodada mesedzi le Firefox na iOS dzi"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 #, fuzzy
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox Sync"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr ""
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 #, fuzzy
 msgid "Fix problems with Firefox Private Network"
 msgstr "Troubleshoot vodada mesedzi le Firefox na iOS dzi"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozillianwo"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "Firefox na Windows 8 touch mɔwo"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "Account"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Fexexewo"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Troubleshooting"
 
@@ -10423,6 +10435,30 @@ msgstr "Gblɔ bubuwo na mi."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Meɖekuku na nutsotso bubuwo"
+
+#, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "Firefox Sync"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "Installation ƒe nyawo"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "Tu post ɖe dzi"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "Dzedzeme"
+
+#, fuzzy
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Firefox na Android"
+
+#, fuzzy
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Sync"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Device-level Protection"

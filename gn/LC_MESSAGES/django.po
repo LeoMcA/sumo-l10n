@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-07-08 17:44+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: none\n"
@@ -2704,13 +2704,15 @@ msgstr "Ñe’ẽ mbohapeha"
 msgid "Receive tabs"
 msgstr "Emog̃uahẽ tendayke"
 
-#: kitsune/products/jinja2/products/product.html:64
-msgid "About firefox private network"
-msgstr "Firefox ñanduti ñemi rehegua"
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
+#, fuzzy
+msgid "Manage devices"
+msgstr "Eñangareko jeguerororyvévare"
 
 #: kitsune/products/jinja2/products/product.html:65
-msgid "Install extension"
-msgstr "Emohenda jepysokue"
+#, fuzzy
+msgid "Download VPN"
+msgstr "Mboguejy"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2718,18 +2720,13 @@ msgstr "Tembe’y"
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "Marandu mbopyahu"
+msgid "Activate add-on"
+msgstr "Eñangareko moĩmbaháre"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "Mboheraguapy"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "Eñangareko jeguerororyvévare"
+msgid "Update add-on"
+msgstr "Mbohekopyahupyre"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2919,7 +2916,7 @@ msgstr "Ñanduti renda"
 msgid "Other"
 msgstr "Ambue"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox Android pegua"
 
@@ -2996,10 +2993,11 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "Kundaha oku’éva Indonesia peg̃uarã"
+#, fuzzy
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr "Kundaha oku’éva Indonesia, India, Filipinas ha Tailandia peg̃uarã"
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Mba'éicha eñepyrũta"
 
@@ -3012,8 +3010,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox mba’apohaguasúpe g̃uarã"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "Peteĩchagua Firefox mba’apohaguasúpe g̃uarã"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox Quantum mba’apohaguasúpe g̃uarã"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3036,7 +3035,8 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox Realidad Virtual rehegua"
 
 #: kitsune/questions/config.py:326
@@ -3048,8 +3048,14 @@ msgid "Troubleshooting Firefox Reality"
 msgstr "Emoĩporã Firefox Reality apañuãi"
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "Firefox Android pegua"
+
+#: kitsune/questions/config.py:340
+#, fuzzy
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr "Firefox kundahára ipyahúva Android peg̃uarã."
 
 #: kitsune/questions/config.py:351
 msgid "How do I use Firefox Preview"
@@ -3083,52 +3089,67 @@ msgstr "Ñemboheko ha jeguerohoryve"
 msgid "Advanced Settings"
 msgstr "Ñemboheko opapotáva"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+#, fuzzy
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr "Tembipuru’i oku’éva eikekuaaha ñe’ẽñemi eñongatuva’ekue Firefox-pe."
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "Mohenda ha mbohekopyahu"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "Eñangareko ñemboheko ha tembiapo ñepyrũre"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Emboyke apañuãi Firefox Lockwise ndive"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Emo'ã Firefox Private Network kundahára"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+#, fuzzy
+msgid "Browse securely on public Wi-Fi"
+msgstr "Eikundaha tekorosãme Wi-Fi opavaveguáva rupi"
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr "Eñangareko mba’ete ha mbohekopyahu rehe"
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 msgid "Fix problems with Firefox Private Network"
 msgstr "Emboyke apañuãi Firefox Private Network ndive"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "VPN mba’e’okápe Windows 10 ha Android ndive"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr "Aporeko"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 msgid "Accounts"
 msgstr "Accounts"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Jehepyme’ẽ"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Apañuãi ñemoĩporã"
 
@@ -10081,6 +10102,29 @@ msgstr "Emombe’uve."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Ikatúpa ereve mba’emimi"
+
+#~ msgid "About firefox private network"
+#~ msgstr "Firefox ñanduti ñemi rehegua"
+
+#~ msgid "Install extension"
+#~ msgstr "Emohenda jepysokue"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "Marandu mbopyahu"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "Mboheraguapy"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Kundaha oku’éva Indonesia peg̃uarã"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "Peteĩchagua Firefox mba’apohaguasúpe g̃uarã"
+
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
 
 #~ msgid "Firefox Private Network Device-level Protection"
 #~ msgstr "Emo'ã Firefox Private Network mba'e'oka"

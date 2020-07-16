@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-05-13 14:40+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULA LOCALIZATION\n"
@@ -2697,13 +2697,15 @@ msgstr "Jamirooje Daaɗe"
 msgid "Receive tabs"
 msgstr "Heɓ tabbe"
 
-#: kitsune/products/jinja2/products/product.html:64
-msgid "About firefox private network"
-msgstr "Baɗte laylaytol suturo Firefox"
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
+#, fuzzy
+msgid "Manage devices"
+msgstr "Toppito seedanteeji"
 
 #: kitsune/products/jinja2/products/product.html:65
-msgid "Install extension"
-msgstr "Aaf timmitere"
+#, fuzzy
+msgid "Download VPN"
+msgstr "Aawto"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2711,18 +2713,13 @@ msgstr "Keeri"
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "Hesɗitin winndannde"
+msgid "Activate add-on"
+msgstr "Toppito ɓeyditte"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "Lulnogol"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "Toppito seedanteeji"
+msgid "Update add-on"
+msgstr "Kesɗitinaaɗe"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2911,7 +2908,7 @@ msgstr "Lowe geese"
 msgid "Other"
 msgstr "Goɗɗum"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox ngam Android"
 
@@ -2988,10 +2985,10 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "Wanngorde cinndel ngam Endoneesi"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Fuɗɗo"
 
@@ -3004,8 +3001,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox mo Gollordu"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "Yamre Gollordu mo Firefox"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox 9 mo Cinndel"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3029,7 +3027,7 @@ msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
 #, fuzzy
-msgid "Firefox for Virtual Reality"
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Jaɓɓorgo Firefox"
 
 #: kitsune/questions/config.py:326
@@ -3041,8 +3039,13 @@ msgid "Troubleshooting Firefox Reality"
 msgstr "Ñawndugol Firefox Reality"
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "Firefox ngam Android"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 msgid "How do I use Firefox Preview"
@@ -3076,52 +3079,65 @@ msgstr "Teelte e Cuɓoraaɗe"
 msgid "Advanced Settings"
 msgstr "Teelte Ceeɓtore"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "Aaf etee teelto"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "Toppito teelte e ceŋorɗe"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Ñawndu caɗeele e Firefox Lockwise"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Ndeenka tolno-wanngorde laylaytol suturo Firefox"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr "Toppito konte e teelte"
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 msgid "Fix problems with Firefox Private Network"
 msgstr "Ñawndu caɗeele e laylaytol suturo Firefox"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Kabaruuji Mozilla"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "Firefox mo Android"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr "Karallo"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 msgid "Accounts"
 msgstr "Konte"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Joɓɗeele"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Ñawndugol caɗeele"
 
@@ -10253,6 +10269,29 @@ msgstr "Ɓeydan-min humpito."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Tiiɗno hokku tiitoonde"
+
+#~ msgid "About firefox private network"
+#~ msgstr "Baɗte laylaytol suturo Firefox"
+
+#~ msgid "Install extension"
+#~ msgstr "Aaf timmitere"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "Hesɗitin winndannde"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "Lulnogol"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Wanngorde cinndel ngam Endoneesi"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "Yamre Gollordu mo Firefox"
+
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
 
 #~ msgid "Firefox Private Network Device-level Protection"
 #~ msgstr "Ndeenka tolno-kaɓirɗe laylaytol suturo Firefox"

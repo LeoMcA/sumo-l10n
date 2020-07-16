@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 11:19+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: French\n"
@@ -2716,29 +2716,28 @@ msgstr "Commandes vocales"
 msgid "Receive tabs"
 msgstr "Recevoir des onglets"
 
-#: kitsune/products/jinja2/products/product.html:64
-msgid "About firefox private network"
-msgstr "À propos de Firefox Private Network"
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
+msgid "Manage devices"
+msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:65
-msgid "Install extension"
-msgstr "Installer une extension"
+#, fuzzy
+msgid "Download VPN"
+msgstr "Télécharger"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
 msgstr "Limites"
 
 #: kitsune/products/jinja2/products/product.html:69
-msgid "Update payment"
-msgstr ""
+#, fuzzy
+msgid "Activate add-on"
+msgstr "Gérer les modules complémentaires"
 
 #: kitsune/products/jinja2/products/product.html:70
-msgid "Cancel subscription"
-msgstr ""
-
-#: kitsune/products/jinja2/products/product.html:71
-msgid "Manage devices"
-msgstr ""
+#, fuzzy
+msgid "Update add-on"
+msgstr "Mis à jour"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2925,7 +2924,7 @@ msgstr "Sites web"
 msgid "Other"
 msgstr "Autre"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox pour Android"
 
@@ -3002,10 +3001,11 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "Navigateur mobile pour l’Indonésie"
+#, fuzzy
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr "Navigateur pour mobiles en Indonésie, Inde, Thaïlande et aux Philippines"
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Pour commencer"
 
@@ -3018,8 +3018,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox pour entreprise"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "Version de Firefox pour les entreprises"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox Quantum pour les entreprises"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3042,7 +3043,8 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox pour la réalité virtuelle"
 
 #: kitsune/questions/config.py:326
@@ -3054,8 +3056,14 @@ msgid "Troubleshooting Firefox Reality"
 msgstr "Résoudre les problèmes de Firefox Reality"
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "Firefox pour Android"
+
+#: kitsune/questions/config.py:340
+#, fuzzy
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr "Version anticipée d’un navigateur Firefox expérimental pour Android."
 
 #: kitsune/questions/config.py:351
 msgid "How do I use Firefox Preview"
@@ -3089,52 +3097,66 @@ msgstr "Paramètres et préférences"
 msgid "Advanced Settings"
 msgstr "Paramètres avancés"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+#, fuzzy
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr "Application pour mobile qui vous permet d’accéder aux mots de passe enregistrés dans Firefox."
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "Installation et mise à jour"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "Gérer les paramètres et les identifiants"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Résoudre les problèmes de Firefox Lockwise"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Protection au niveau du navigateur du réseau privé Firefox"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+#, fuzzy
+msgid "Browse securely on public Wi-Fi"
+msgstr "Naviguer en toute sécurité sur les réseaux Wi-Fi publics"
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr "Gérer les comptes et les paramètres"
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 msgid "Fix problems with Firefox Private Network"
 msgstr "Résoudre les problèmes de Firefox Private Network"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr ""
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr "Technique"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 msgid "Accounts"
 msgstr "Comptes"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Paiements"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Résolution de problèmes"
 
@@ -10075,6 +10097,21 @@ msgstr "Dites-nous en plus."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Veuillez fournir plus de détails"
+
+#~ msgid "About firefox private network"
+#~ msgstr "À propos de Firefox Private Network"
+
+#~ msgid "Install extension"
+#~ msgstr "Installer une extension"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Navigateur mobile pour l’Indonésie"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "Version de Firefox pour les entreprises"
+
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
 
 #~ msgid "Firefox Private Network Device-level Protection"
 #~ msgstr "Protection au niveau de l'appareil du réseau privé Firefox"

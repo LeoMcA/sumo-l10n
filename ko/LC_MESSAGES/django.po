@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-05-25 17:07+0000\n"
 "Last-Translator: eHyun <seroun123@gmail.com>\n"
 "Language-Team: Mozilla SUMO Korean Team\n"
@@ -2715,15 +2715,15 @@ msgstr "음성 명령"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "Firefox Lite"
+msgid "Manage devices"
+msgstr "인증서 관리"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "설치"
+msgid "Download VPN"
+msgstr "다운로드"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2731,18 +2731,13 @@ msgstr "제한"
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "게시물 변경"
+msgid "Activate add-on"
+msgstr "부가 기능 관리"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "구독"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "인증서 관리"
+msgid "Update add-on"
+msgstr "수정일"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2936,7 +2931,7 @@ msgstr "웹사이트"
 msgid "Other"
 msgstr "기타"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Android용 Firefox"
 
@@ -3013,10 +3008,11 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "인도네시아용 모바일 브라우저"
+#, fuzzy
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr "인도네시아와 인도, 필리핀, 태국에 최적화된 모바일 브라우저"
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "시작하기"
 
@@ -3029,8 +3025,9 @@ msgid "Firefox for Enterprise"
 msgstr "기업용 Firefox"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "기업용 버전 Firefox"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "기업용 Firefox Quantum"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3053,7 +3050,8 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "가상 현실을 위한 Firefox"
 
 #: kitsune/questions/config.py:326
@@ -3065,8 +3063,13 @@ msgid "Troubleshooting Firefox Reality"
 msgstr "Firefox Reality 문제 해결"
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "Android용 Firefox"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 msgid "How do I use Firefox Preview"
@@ -3100,55 +3103,69 @@ msgstr "환경 설정 및 맞춤 설정"
 msgid "Advanced Settings"
 msgstr "고급 설정"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "설치 및 설정"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "설정 및 로그인 관리"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Firefox Lockwise 문제 해결"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 #, fuzzy
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox Private 네트워크"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+#, fuzzy
+msgid "Browse securely on public Wi-Fi"
+msgstr "공용 Wi-Fi 안전하게 탐색하기"
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr "계정 및 설정 관리"
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 msgid "Fix problems with Firefox Private Network"
 msgstr "Firefox Private 네트워크 문제 해결"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla 새소식"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "Windows 10 및 Android 기기용 VPN"
+
+#: kitsune/questions/config.py:449
 #, fuzzy
 msgid "Technical"
 msgstr "너무 기술적임"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "계정"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "지불"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "문제 해결"
 
@@ -10114,6 +10131,31 @@ msgstr "더 자세히 알려주세요."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "상세 내용을 입력하세요."
+
+#, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "Firefox Lite"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "설치"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "게시물 변경"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "구독"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "인도네시아용 모바일 브라우저"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "기업용 버전 Firefox"
+
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Device-level Protection"

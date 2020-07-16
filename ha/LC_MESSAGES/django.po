@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2015-05-27 13:12+0000\n"
 "Last-Translator: Devon <devon.bezuidenhout@rubric.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2740,15 +2740,15 @@ msgstr "Maƙala ta ƙunshi"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "Saita Firefox"
+msgid "Manage devices"
+msgstr "Na'urar Wayar hannu"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "Batutuwan Sakawa"
+msgid "Download VPN"
+msgstr "sauke"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2756,18 +2756,13 @@ msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "Sabunta aike"
+msgid "Activate add-on"
+msgstr "Tafiyar da daɗe-daɗe"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "Kwatance"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "Na'urar Wayar hannu"
+msgid "Update add-on"
+msgstr "An sabunta"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2974,7 +2969,7 @@ msgstr "Dandalin yanar gizo"
 msgid "Other"
 msgstr "Wasu"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 #, fuzzy
 msgid "Firefox for Android"
 msgstr "Firefox domin Android"
@@ -3067,11 +3062,10 @@ msgid "Firefox Lite"
 msgstr "Saita Firefox"
 
 #: kitsune/questions/config.py:270
-#, fuzzy
-msgid "Mobile browser for Indonesia"
-msgstr "Firefox domin Android"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 #, fuzzy
 msgid "Get started"
 msgstr "Fara"
@@ -3087,8 +3081,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox domin Android"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr ""
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox domin Wayar hannu"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3114,7 +3109,7 @@ msgstr "Saita Firefox"
 
 #: kitsune/questions/config.py:320
 #, fuzzy
-msgid "Firefox for Virtual Reality"
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Saita Firefox"
 
 #: kitsune/questions/config.py:326
@@ -3129,8 +3124,12 @@ msgstr "Yi maganin matsalar saƙwanni a Firefox domin iOS"
 
 #: kitsune/questions/config.py:339
 #, fuzzy
-msgid "Firefox Preview"
-msgstr "Saita Firefox"
+msgid "Firefox for Android Beta"
+msgstr "Firefox domin Android"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 #, fuzzy
@@ -3170,59 +3169,72 @@ msgstr "Tsara saituna da abubuwan da aka fi so"
 msgid "Advanced Settings"
 msgstr "Nemi mai zurfi"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 #, fuzzy
 msgid "Firefox Lockwise"
 msgstr "Saita Firefox"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 #, fuzzy
 msgid "Install and set up"
 msgstr "Saka kuma ka sabunta"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 #, fuzzy
 msgid "Manage settings and logins"
 msgstr "Tafiyar da abubuwan da aka fi so da na daɗawa"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 #, fuzzy
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Yi maganin matsalar saƙwanni a Firefox domin iOS"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 #, fuzzy
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Saita Firefox"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr ""
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 #, fuzzy
 msgid "Fix problems with Firefox Private Network"
 msgstr "Yi maganin matsalar saƙwanni a Firefox domin iOS"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "'Yan Mozilla"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "Firefox domin na'urorin Windows 8 touch"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "Asusu"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Biya"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Warware matsala"
 
@@ -10435,6 +10447,30 @@ msgstr "Ƙara mana bayani."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Bayar da cikakken bayani"
+
+#, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "Saita Firefox"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "Batutuwan Sakawa"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "Sabunta aike"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "Kwatance"
+
+#, fuzzy
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Firefox domin Android"
+
+#, fuzzy
+#~ msgid "Firefox Preview"
+#~ msgstr "Saita Firefox"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Device-level Protection"

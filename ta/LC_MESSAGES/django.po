@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2017-11-24 16:36+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2704,15 +2704,15 @@ msgstr ""
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "பயர்பாக்ஸ் வணக்கம்"
+msgid "Manage devices"
+msgstr "கைபேசி சாதனம்"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "நிறுவல்"
+msgid "Download VPN"
+msgstr "பதிவிறக்கு"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2720,18 +2720,13 @@ msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "பதிவைப் புதுப்பிக்க"
+msgid "Activate add-on"
+msgstr "துணை நிரல்களை நிர்வகி"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "விளக்கம்"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "கைபேசி சாதனம்"
+msgid "Update add-on"
+msgstr "மேம்படுத்துத்தப்பட்டது"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2932,7 +2927,7 @@ msgstr "வலைதளங்கள்"
 msgid "Other"
 msgstr "மற்றவை"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "ஆண்ட்ராய்டிற்கான பயர்பாக்ஸ்"
 
@@ -3014,10 +3009,10 @@ msgid "Firefox Lite"
 msgstr "பயர்பாக்ஸ் வணக்கம்"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "இந்தோனேசியாவின் கைப்பேசி உலாவி"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr ""
 
@@ -3030,8 +3025,9 @@ msgid "Firefox for Enterprise"
 msgstr "ஆண்ட்ராய்டிற்கான பயர்பாக்சு"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr ""
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "ஆண்ட்ராய்டிற்கான பயர்பாக்சு"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3057,7 +3053,7 @@ msgstr "பயர்பாக்ஸ் வணக்கம்"
 
 #: kitsune/questions/config.py:320
 #, fuzzy
-msgid "Firefox for Virtual Reality"
+msgid "Firefox for Virtual Reality headsets"
 msgstr "பயர்பாக்ஸ் வணக்கம்"
 
 #: kitsune/questions/config.py:326
@@ -3072,8 +3068,12 @@ msgstr "பிழைத்திருத்தல் தகவல்"
 
 #: kitsune/questions/config.py:339
 #, fuzzy
-msgid "Firefox Preview"
-msgstr "பயர்பாக்ஸ் வணக்கம்"
+msgid "Firefox for Android Beta"
+msgstr "ஆண்ட்ராய்டிற்கான பயர்பாக்ஸ்"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 #, fuzzy
@@ -3112,59 +3112,71 @@ msgstr ""
 msgid "Advanced Settings"
 msgstr "மேம்பட்டத் தேடல்"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 #, fuzzy
 msgid "Firefox Lockwise"
 msgstr "பயர்பாக்ஸ் வணக்கம்"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 #, fuzzy
 msgid "Install and set up"
 msgstr "நிறுவுதல் மற்றும் மேம்படுத்துதல்"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 #, fuzzy
 msgid "Manage settings and logins"
 msgstr "செருகுநிரல்கள் மற்றும் முன்னுரிமைகளை நிர்வகிக்கலாம்"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 #, fuzzy
 msgid "Fix problems with Firefox Lockwise"
 msgstr "பிழைத்திருத்தல் தகவல்"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 #, fuzzy
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "பயர்பாக்ஸ் வணக்கம்"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr ""
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 #, fuzzy
 msgid "Fix problems with Firefox Private Network"
 msgstr "பிழைத்திருத்தல் தகவல்"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "மொசிலியன்கள்"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr ""
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "கணக்கு"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr ""
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr ""
 
@@ -10147,6 +10159,29 @@ msgstr "எங்களுக்கு கூடுதல் விவரங்�
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "தயவு செய்து இன்னும் கூடுதல் விவரங்களை அளிக்கவும்"
+
+#, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "பயர்பாக்ஸ் வணக்கம்"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "நிறுவல்"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "பதிவைப் புதுப்பிக்க"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "விளக்கம்"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "இந்தோனேசியாவின் கைப்பேசி உலாவி"
+
+#, fuzzy
+#~ msgid "Firefox Preview"
+#~ msgstr "பயர்பாக்ஸ் வணக்கம்"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Device-level Protection"

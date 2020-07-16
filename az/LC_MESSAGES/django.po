@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2018-10-06 01:17+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2700,34 +2700,28 @@ msgstr "Məqalələr"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "Firefox Reality"
+msgid "Manage devices"
+msgstr "Mobil cihaz"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "Administrasiya"
+msgid "Download VPN"
+msgstr "Pulsuz Endir"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
 msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
-#, fuzzy
-msgid "Update payment"
-msgstr "Mesajı yenilə"
+msgid "Activate add-on"
+msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "Açıqlama"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "Mobil cihaz"
+msgid "Update add-on"
+msgstr "Yenilənib"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2929,7 +2923,7 @@ msgstr "Saytlar"
 msgid "Other"
 msgstr "Digər"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Android üçün Firefox"
 
@@ -3011,10 +3005,10 @@ msgid "Firefox Lite"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Başla"
 
@@ -3027,8 +3021,9 @@ msgid "Firefox for Enterprise"
 msgstr "Şirkətlər üçün Firefox"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr ""
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Android üçün Firefox"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3051,7 +3046,8 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Virtual Reallıq üçün Firefox"
 
 #: kitsune/questions/config.py:326
@@ -3064,8 +3060,12 @@ msgstr "Firefox Reality problemlərini həll etmə"
 
 #: kitsune/questions/config.py:339
 #, fuzzy
-msgid "Firefox Preview"
-msgstr "Firefox Reality"
+msgid "Firefox for Android Beta"
+msgstr "Android üçün Firefox"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 #, fuzzy
@@ -3103,57 +3103,70 @@ msgstr ""
 msgid "Advanced Settings"
 msgstr "Şəkli düzəlt"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 #, fuzzy
 msgid "Firefox Lockwise"
 msgstr "Firefox Rocket"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr ""
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr ""
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 #, fuzzy
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Firefox Reality problemlərini həll etmə"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 #, fuzzy
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox Reality"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr ""
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 #, fuzzy
 msgid "Fix problems with Firefox Private Network"
 msgstr "Firefox Reality problemlərini həll etmə"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozillians"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "Windows 8 touch cihazlar üçün Firefox"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "Hesab"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Ödənişlər"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Problem həlli"
 
@@ -10198,6 +10211,26 @@ msgstr "Bizə özünüz haqqında danışın!"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr ""
+
+#, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "Firefox Reality"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "Administrasiya"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "Mesajı yenilə"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "Açıqlama"
+
+#, fuzzy
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Reality"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Device-level Protection"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2018-11-09 01:26+0000\n"
 "Last-Translator: Othman Wagiman <manxmensch@gmail.com>\n"
 "Language-Team: Malay\n"
@@ -2727,15 +2727,15 @@ msgstr "Artikel mengandungi"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "Firefox Lite"
+msgid "Manage devices"
+msgstr "Peranti mudah alih"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "Pemasangan"
+msgid "Download VPN"
+msgstr "muat turun"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2743,18 +2743,13 @@ msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "Kemaskini post"
+msgid "Activate add-on"
+msgstr "Mengurus add-ons"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "Keterangan"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "Peranti mudah alih"
+msgid "Update add-on"
+msgstr "Dikemaskini"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2960,7 +2955,7 @@ msgstr "Laman web"
 msgid "Other"
 msgstr "Lain-lain"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox untuk Android"
 
@@ -3037,10 +3032,11 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "Pelayar mudah alih untuk Indonesia"
+#, fuzzy
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr "Pelayar mudah alih untuk Indonesia, India, Filipina dan Thailand"
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Mulakan"
 
@@ -3053,8 +3049,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox untuk Perusahaan"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "Firefox versi Perusahaan"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox Quantum untuk perniagaan"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3078,7 +3075,8 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox untuk Realiti Maya"
 
 #: kitsune/questions/config.py:326
@@ -3091,8 +3089,12 @@ msgstr "Pencarisilapan Firefox Reality"
 
 #: kitsune/questions/config.py:339
 #, fuzzy
-msgid "Firefox Preview"
-msgstr "Firefox Lite"
+msgid "Firefox for Android Beta"
+msgstr "Firefox untuk Android"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 #, fuzzy
@@ -3132,59 +3134,72 @@ msgstr "Sesuaikan tetapan dan keutamaan"
 msgid "Advanced Settings"
 msgstr "Carian Lanjutan"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 #, fuzzy
 msgid "Firefox Lockwise"
 msgstr "Firefox Rocket"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 #, fuzzy
 msgid "Install and set up"
 msgstr "Pasang dan kemaskini"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 #, fuzzy
 msgid "Manage settings and logins"
 msgstr "Urus keutamaan dan add-ons"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 #, fuzzy
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Selesaikan masalah dengan Firefox Reality"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 #, fuzzy
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox Lite"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr ""
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 #, fuzzy
 msgid "Fix problems with Firefox Private Network"
 msgstr "Selesaikan masalah dengan Firefox Reality"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "peranti sentuh Firefox untuk Windows 8"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "Akaun"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Bayaran"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Pencarisilapan"
 
@@ -10220,6 +10235,32 @@ msgstr "Beritahu kami lebih lanjut."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Berikan lebih butiran"
+
+#, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "Firefox Lite"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "Pemasangan"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "Kemaskini post"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "Keterangan"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Pelayar mudah alih untuk Indonesia"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "Firefox versi Perusahaan"
+
+#, fuzzy
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Lite"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Device-level Protection"

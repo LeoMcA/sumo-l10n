@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 13:54+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2707,29 +2707,28 @@ msgstr "Tiludniwin n taɣect"
 msgid "Receive tabs"
 msgstr "Rmes accaren"
 
-#: kitsune/products/jinja2/products/product.html:64
-msgid "About firefox private network"
-msgstr "Γef uzeṭṭa uslig n Firefox"
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
+msgid "Manage devices"
+msgstr "Sefrek ibenkan"
 
 #: kitsune/products/jinja2/products/product.html:65
-msgid "Install extension"
-msgstr "Asbeddi n usiɣzef"
+#, fuzzy
+msgid "Download VPN"
+msgstr "Sider"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
 msgstr "Tilisa"
 
 #: kitsune/products/jinja2/products/product.html:69
-msgid "Update payment"
-msgstr "Leqqem asellek"
+#, fuzzy
+msgid "Activate add-on"
+msgstr "Sefrek izegrar"
 
 #: kitsune/products/jinja2/products/product.html:70
-msgid "Cancel subscription"
-msgstr "Sefsex ajerred"
-
-#: kitsune/products/jinja2/products/product.html:71
-msgid "Manage devices"
-msgstr "Sefrek ibenkan"
+#, fuzzy
+msgid "Update add-on"
+msgstr "Yettuleqqem"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2916,7 +2915,7 @@ msgstr "Ismal web"
 msgid "Other"
 msgstr "Ayen-nniḍen"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox i Android"
 
@@ -2993,10 +2992,11 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "Iminig aziraz i Andunizya"
+#, fuzzy
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr "Iminig i yizirazen deg Andunizya, Hend, Tayland akke Filipin"
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Bdu"
 
@@ -3009,8 +3009,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox i tkebbanit"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "Lqem n tkebbanit n Firefox"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox Quantum i tkebbaniyin"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3033,7 +3034,8 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox i tilawt tuhlist"
 
 #: kitsune/questions/config.py:326
@@ -3045,8 +3047,14 @@ msgid "Troubleshooting Firefox Reality"
 msgstr "Ferru n wuguren n Firefox Reality"
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "Firefox i Android"
+
+#: kitsune/questions/config.py:340
+#, fuzzy
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr "Lqem amezwaru n yiminig armitan n Firefox i Android"
 
 #: kitsune/questions/config.py:351
 msgid "How do I use Firefox Preview"
@@ -3080,52 +3088,67 @@ msgstr "Iɣewwaren d yismenyifen"
 msgid "Advanced Settings"
 msgstr "Iɣewwaṛen lqayen"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+#, fuzzy
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr "Asnas i uziraz ara k-yeǧǧen ad tkecmeḍ ɣer wawalen uffiren yettwaskelsen deg Firefox."
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "Sebded daɣen sbadu"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "Sekrek iɣewwaṛen d yinekcam"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Fru uguren s Firefox Lockwise"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Ammesten deg uswir n yiminig n uzeṭṭa uslig Firefox"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+#, fuzzy
+msgid "Browse securely on public Wi-Fi"
+msgstr "Inig s tɣellist def Wi-Fi azayaz"
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr "Sefrek imiḍanen d yiɣewwaren"
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 msgid "Fix problems with Firefox Private Network"
 msgstr "Fru uguren s uzeṭṭa Firefox Preview"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "VPN i windows 10, i Andrio d yibenkan n iOS"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr "Tatiknikt"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 msgid "Accounts"
 msgstr "Imiḍanen"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Lexlaṣ"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Ferru n wuguren"
 
@@ -10074,6 +10097,27 @@ msgstr "Ini-aɣ-d ugar."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Ttxil-k mudd-d ugar n telqayt"
+
+#~ msgid "About firefox private network"
+#~ msgstr "Γef uzeṭṭa uslig n Firefox"
+
+#~ msgid "Install extension"
+#~ msgstr "Asbeddi n usiɣzef"
+
+#~ msgid "Update payment"
+#~ msgstr "Leqqem asellek"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Sefsex ajerred"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Iminig aziraz i Andunizya"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "Lqem n tkebbanit n Firefox"
+
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
 
 #~ msgid "Firefox Private Network Device-level Protection"
 #~ msgstr "Ammesten deg uswir n yibenk n uzeṭṭa uslig Firefox"

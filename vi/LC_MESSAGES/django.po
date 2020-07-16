@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 14:30+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese\n"
@@ -2708,29 +2708,28 @@ msgstr "Khẩu lệnh bằng giọng nói"
 msgid "Receive tabs"
 msgstr "Các thẻ đã nhận"
 
-#: kitsune/products/jinja2/products/product.html:64
-msgid "About firefox private network"
-msgstr "Về firefox private network"
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
+msgid "Manage devices"
+msgstr "Quản lý thiết bị"
 
 #: kitsune/products/jinja2/products/product.html:65
-msgid "Install extension"
-msgstr "Cài đặt tiện ích mở rộng"
+#, fuzzy
+msgid "Download VPN"
+msgstr "Tải xuống"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
 msgstr "Giới hạn"
 
 #: kitsune/products/jinja2/products/product.html:69
-msgid "Update payment"
-msgstr "Cập nhật thanh toán"
+#, fuzzy
+msgid "Activate add-on"
+msgstr "Quản lý các tiện ích"
 
 #: kitsune/products/jinja2/products/product.html:70
-msgid "Cancel subscription"
-msgstr "Hủy đăng ký"
-
-#: kitsune/products/jinja2/products/product.html:71
-msgid "Manage devices"
-msgstr "Quản lý thiết bị"
+#, fuzzy
+msgid "Update add-on"
+msgstr "Đã cập nhật"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2917,7 +2916,7 @@ msgstr "Các trang web"
 msgid "Other"
 msgstr "Khác"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox dành cho Android"
 
@@ -2994,10 +2993,11 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "Trình duyệt di động cho Indonesia"
+#, fuzzy
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr "Trình duyệt di động cho Indonesia, Ấn Độ, Philippines và Thái Lan"
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Bắt đầu"
 
@@ -3010,8 +3010,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox dành cho doanh nghiệp"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "Phiên bản doanh nghiệp của Firefox"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox Quantum dành cho doanh nghiệp"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3034,7 +3035,8 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox cho thiết bị thực tế ảo"
 
 #: kitsune/questions/config.py:326
@@ -3046,8 +3048,14 @@ msgid "Troubleshooting Firefox Reality"
 msgstr "Xử lý sự cố về Firefox Reality"
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "Firefox dành cho Android"
+
+#: kitsune/questions/config.py:340
+#, fuzzy
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr "Phiên bản đầu của trình duyệt Firefox thử nghiệm dành cho Android."
 
 #: kitsune/questions/config.py:351
 msgid "How do I use Firefox Preview"
@@ -3081,52 +3089,67 @@ msgstr "Tùy chọn và tùy chỉnh"
 msgid "Advanced Settings"
 msgstr "Cài đặt nâng cao"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+#, fuzzy
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr "Ứng dụng di động cho phép bạn truy cập vào mật khẩu bạn đã lưu vào Firefox."
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "Cài đặt và thiết lập"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "Quản lý cài đặt và đăng nhập"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Sửa lỗi với Firefox Lockwise"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox Private Network bảo vệ cấp độ trình duyệt"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+#, fuzzy
+msgid "Browse securely on public Wi-Fi"
+msgstr "Duyệt an toàn trên Wi-Fi công cộng"
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr "Quản lý tài khoản và cài đặt"
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 msgid "Fix problems with Firefox Private Network"
 msgstr "Sửa lỗi với Firefox Private Network"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla Firefox"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "VPN cho thiết bị Windows 10 và Android"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr "Kỹ thuật"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 msgid "Accounts"
 msgstr "Tài khoản"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Thanh toán"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Gỡ rối vấn đề"
 
@@ -10072,6 +10095,27 @@ msgstr "Hãy cho chúng tôi biết thêm chi tiết."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Vui lòng cung cấp thêm chi tiết"
+
+#~ msgid "About firefox private network"
+#~ msgstr "Về firefox private network"
+
+#~ msgid "Install extension"
+#~ msgstr "Cài đặt tiện ích mở rộng"
+
+#~ msgid "Update payment"
+#~ msgstr "Cập nhật thanh toán"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Hủy đăng ký"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Trình duyệt di động cho Indonesia"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "Phiên bản doanh nghiệp của Firefox"
+
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
 
 #~ msgid "Firefox Private Network Device-level Protection"
 #~ msgstr "Firefox Private Network bảo vệ cấp độ thiết bị"

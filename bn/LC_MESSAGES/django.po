@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2019-11-08 11:52+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: Bengali\n"
@@ -2724,15 +2724,15 @@ msgstr "প্রবন্ধতে রয়েছে"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "সমস্যা সমাধান করুন Firefox Private Network বিষয়ক"
+msgid "Manage devices"
+msgstr "মোবাইল ডিভাইস"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "ইন্সটল করবার সমস্যা"
+msgid "Download VPN"
+msgstr "ডাউনলোড"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2740,18 +2740,13 @@ msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "আপডেট করা পোস্ট"
+msgid "Activate add-on"
+msgstr "add-ons পরিচালনা"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "বিবরণ"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "মোবাইল ডিভাইস"
+msgid "Update add-on"
+msgstr "আপডেট করা হয়েগেছে"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2952,7 +2947,7 @@ msgstr "ওয়েবসাইটসমূহ"
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox for Android"
 
@@ -3029,10 +3024,10 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "শুরু করুন"
 
@@ -3045,8 +3040,9 @@ msgid "Firefox for Enterprise"
 msgstr "Enterprise এর জন্য Firefox"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "ফায়ারফক্স এন্টারপ্রাইজ সংস্করণ"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox 8 মোবাইলের জন্য"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3069,7 +3065,8 @@ msgid "Firefox Reality"
 msgstr "Firefox রিয়েলিটি"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Virtual Reality এর জন্য Firefox"
 
 #: kitsune/questions/config.py:326
@@ -3081,7 +3078,12 @@ msgid "Troubleshooting Firefox Reality"
 msgstr "Firefox রিয়েলিটির সমস্যা নিবারণ"
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "Firefox for Android"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
 msgstr ""
 
 #: kitsune/questions/config.py:351
@@ -3116,54 +3118,67 @@ msgstr ""
 msgid "Advanced Settings"
 msgstr ""
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr ""
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "ইনস্টল এবং সেট আপ করুন"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "সেটিংস এবং লগইনগুলি পরিচালনা করুন"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 msgid "Fix problems with Firefox Lockwise"
 msgstr "সমস্যা সমাধান করুন Firefox Lockwise বিষয়ক"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 msgid "Firefox Private Network Browser-level Protection"
 msgstr ""
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr "অ্যাকাউন্ট এবং সেটিংস পরিচালনা করুন"
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 msgid "Fix problems with Firefox Private Network"
 msgstr "সমস্যা সমাধান করুন Firefox Private Network বিষয়ক"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla Firefox"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "Firefox for Windows 8 টাচ ডিভাইসসমূহ"
+
+#: kitsune/questions/config.py:449
 #, fuzzy
 msgid "Technical"
 msgstr "একটু বেশি প্রযুক্তিগত"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "অ্যাকাউন্ট"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "পেমেন্টসমূহ"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "ট্রাবল শুট"
 
@@ -10079,6 +10094,25 @@ msgid "Please provide more details"
 msgstr "অনুগ্রহ করে আরও বর্ণনা দিন"
 
 #, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "সমস্যা সমাধান করুন Firefox Private Network বিষয়ক"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "ইন্সটল করবার সমস্যা"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "আপডেট করা পোস্ট"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "বিবরণ"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "ফায়ারফক্স এন্টারপ্রাইজ সংস্করণ"
+
+#, fuzzy
 #~ msgid "Android VPN"
 #~ msgstr "Android"
 
@@ -11674,9 +11708,6 @@ msgstr "অনুগ্রহ করে আরও বর্ণনা দিন"
 
 #~ msgid "Firefox 10 for Mobile"
 #~ msgstr "Firefox 10 মোবাইলের জন্য"
-
-#~ msgid "Firefox 8 for Mobile"
-#~ msgstr "Firefox 8 মোবাইলের জন্য"
 
 #~ msgid "Firefox 7 for Mobile"
 #~ msgstr "Firefox 7 মোবাইলের জন্য"

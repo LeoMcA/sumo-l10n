@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2016-04-07 10:48+0000\n"
 "Last-Translator: Kristján Bjarni Guðmundsson <kristjanbjarni@gmail.com>\n"
 "Language-Team: Icelandic\n"
@@ -2741,15 +2741,15 @@ msgstr "Hershöfðingi"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "Firefox 8"
+msgid "Manage devices"
+msgstr "Yfirlit farsíma"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "Vandamál við uppsetningu"
+msgid "Download VPN"
+msgstr "Hala niður"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
@@ -2757,18 +2757,13 @@ msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
 #, fuzzy
-msgid "Update payment"
-msgstr "Uppfæra póst"
+msgid "Activate add-on"
+msgstr "Farsímaviðbætur"
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "Lýsing"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "Yfirlit farsíma"
+msgid "Update add-on"
+msgstr "Uppfært"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2975,7 +2970,7 @@ msgstr "Vefsvæði"
 msgid "Other"
 msgstr "Annað"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 #, fuzzy
 msgid "Firefox for Android"
 msgstr "Firefox fyrir Android"
@@ -3067,11 +3062,10 @@ msgid "Firefox Lite"
 msgstr "Firefox 8"
 
 #: kitsune/questions/config.py:270
-#, fuzzy
-msgid "Mobile browser for Indonesia"
-msgstr "Firefox fyrir Android"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 #, fuzzy
 msgid "Get started"
 msgstr "Byrjun"
@@ -3087,8 +3081,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox fyrir Android"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr ""
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox 9 fyrir farsíma"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3114,7 +3109,7 @@ msgstr "Firefox Home"
 
 #: kitsune/questions/config.py:320
 #, fuzzy
-msgid "Firefox for Virtual Reality"
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox Home"
 
 #: kitsune/questions/config.py:326
@@ -3129,8 +3124,12 @@ msgstr "Firefox heimasvæði fyrir iOS"
 
 #: kitsune/questions/config.py:339
 #, fuzzy
-msgid "Firefox Preview"
-msgstr "Firefox 8"
+msgid "Firefox for Android Beta"
+msgstr "Firefox fyrir Android"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 #, fuzzy
@@ -3169,60 +3168,73 @@ msgstr "Stýringar, stillingar, valkostir, kostir"
 msgid "Advanced Settings"
 msgstr "Ítarleg leit"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 #, fuzzy
 msgid "Firefox Lockwise"
 msgstr "Firefox Home"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 #, fuzzy
 msgid "Install and set up"
 msgstr "Vandamál við uppsetningu"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 #, fuzzy
 msgid "Manage settings and logins"
 msgstr "Uppfæra tengiforrit og viðbætur"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 #, fuzzy
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Firefox heimasvæði fyrir iOS"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 #, fuzzy
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox 8"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr ""
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 #, fuzzy
 msgid "Fix problems with Firefox Private Network"
 msgstr "Firefox heimasvæði fyrir iOS"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla fréttir"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "Firefox fyrir Android"
+
+#: kitsune/questions/config.py:449
 #, fuzzy
 msgid "Technical"
 msgstr "Of tæknilegt"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "Reikningur"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr ""
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Úrræðaleit"
 
@@ -10436,6 +10448,30 @@ msgstr "Segðu okkur meira."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Sláðu inn meiri upplýsingar"
+
+#, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "Firefox 8"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "Vandamál við uppsetningu"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "Uppfæra póst"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "Lýsing"
+
+#, fuzzy
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Firefox fyrir Android"
+
+#, fuzzy
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox 8"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Device-level Protection"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-05-28 20:06+0000\n"
 "Last-Translator: Quentí <quentinantonin@free.fr>\n"
 "Language-Team: Occitan\n"
@@ -2701,34 +2701,28 @@ msgstr "L'article conten"
 msgid "Receive tabs"
 msgstr ""
 
-#: kitsune/products/jinja2/products/product.html:64
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
 #, fuzzy
-msgid "About firefox private network"
-msgstr "Firefox Rocket"
+msgid "Manage devices"
+msgstr "Aparelh mobil"
 
 #: kitsune/products/jinja2/products/product.html:65
 #, fuzzy
-msgid "Install extension"
-msgstr "Installacion"
+msgid "Download VPN"
+msgstr "telecargament"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
 msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:69
-#, fuzzy
-msgid "Update payment"
-msgstr "Metre lo messatge a jorn"
+msgid "Activate add-on"
+msgstr ""
 
 #: kitsune/products/jinja2/products/product.html:70
 #, fuzzy
-msgid "Cancel subscription"
-msgstr "Descripcion"
-
-#: kitsune/products/jinja2/products/product.html:71
-#, fuzzy
-msgid "Manage devices"
-msgstr "Aparelh mobil"
+msgid "Update add-on"
+msgstr "Metre a jorn la responsa"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2934,7 +2928,7 @@ msgstr "Sites web"
 msgid "Other"
 msgstr "Autre"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr ""
 
@@ -3016,10 +3010,10 @@ msgid "Firefox Lite"
 msgstr "Firefox Rocket"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "Navigador mobil per Indonesia"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr ""
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Per començar"
 
@@ -3032,8 +3026,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox per entrepresa"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr ""
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox Quantum per las entrepresas."
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3058,7 +3053,7 @@ msgstr "Firefox Rocket"
 
 #: kitsune/questions/config.py:320
 #, fuzzy
-msgid "Firefox for Virtual Reality"
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox Rocket"
 
 #: kitsune/questions/config.py:326
@@ -3073,8 +3068,12 @@ msgstr "Informacions de depanatge"
 
 #: kitsune/questions/config.py:339
 #, fuzzy
-msgid "Firefox Preview"
-msgstr "Firefox Rocket"
+msgid "Firefox for Android Beta"
+msgstr "Firefox per Android"
+
+#: kitsune/questions/config.py:340
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr ""
 
 #: kitsune/questions/config.py:351
 #, fuzzy
@@ -3114,58 +3113,70 @@ msgstr "Personalizar los paramètres e preferéncias"
 msgid "Advanced Settings"
 msgstr "Recèrca avançada"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 #, fuzzy
 msgid "Firefox Lockwise"
 msgstr "Firefox Rocket"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr ""
+
+#: kitsune/questions/config.py:401
 #, fuzzy
 msgid "Install and set up"
 msgstr "Installacion e mesa a jorn"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr ""
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 #, fuzzy
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Informacions de depanatge"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 #, fuzzy
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox Rocket"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+msgid "Browse securely on public Wi-Fi"
+msgstr ""
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr ""
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 #, fuzzy
 msgid "Fix problems with Firefox Private Network"
 msgstr "Informacions de depanatge"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla Persona"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr ""
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Accounts"
 msgstr "Compte"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Pagaments"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Resolucion de problèmas"
 
@@ -10215,6 +10226,29 @@ msgstr "Digatz-nos-ne mai."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Provesissètz mai de detalhs"
+
+#, fuzzy
+#~ msgid "About firefox private network"
+#~ msgstr "Firefox Rocket"
+
+#, fuzzy
+#~ msgid "Install extension"
+#~ msgstr "Installacion"
+
+#, fuzzy
+#~ msgid "Update payment"
+#~ msgstr "Metre lo messatge a jorn"
+
+#, fuzzy
+#~ msgid "Cancel subscription"
+#~ msgstr "Descripcion"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Navigador mobil per Indonesia"
+
+#, fuzzy
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Rocket"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Device-level Protection"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-14 19:04-0700\n"
+"POT-Creation-Date: 2020-07-15 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 11:53+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -2710,29 +2710,28 @@ msgstr "Hangparancsok"
 msgid "Receive tabs"
 msgstr "Lapok fogadása"
 
-#: kitsune/products/jinja2/products/product.html:64
-msgid "About firefox private network"
-msgstr "A Firefox magánhálózatról"
+#: kitsune/products/jinja2/products/product.html:64 kitsune/products/jinja2/products/product.html:71
+msgid "Manage devices"
+msgstr "Eszközök kezelése"
 
 #: kitsune/products/jinja2/products/product.html:65
-msgid "Install extension"
-msgstr "Kiegészítő telepítése"
+#, fuzzy
+msgid "Download VPN"
+msgstr "Letöltés"
 
 #: kitsune/products/jinja2/products/product.html:66
 msgid "Limits"
 msgstr "Korlátok"
 
 #: kitsune/products/jinja2/products/product.html:69
-msgid "Update payment"
-msgstr "Fizetés frissítése"
+#, fuzzy
+msgid "Activate add-on"
+msgstr "Kiegészítők kezelése"
 
 #: kitsune/products/jinja2/products/product.html:70
-msgid "Cancel subscription"
-msgstr "Előfizetés lemondása"
-
-#: kitsune/products/jinja2/products/product.html:71
-msgid "Manage devices"
-msgstr "Eszközök kezelése"
+#, fuzzy
+msgid "Update add-on"
+msgstr "Frissítve"
 
 #: kitsune/products/jinja2/products/product.html:74
 msgid "Lockwise iOS"
@@ -2919,7 +2918,7 @@ msgstr "Weboldalak"
 msgid "Other"
 msgstr "Egyéb"
 
-#: kitsune/questions/config.py:92 kitsune/questions/config.py:340 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox for Android"
 
@@ -2996,10 +2995,11 @@ msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:270
-msgid "Mobile browser for Indonesia"
-msgstr "Mobil böngésző Indonéziának"
+#, fuzzy
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr "Mobil böngésző Indonéziának, Indiának, a Fülöp-szigeteknek és Thaiföldnek"
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:424
+#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
 msgid "Get started"
 msgstr "Kezdő lépések"
 
@@ -3012,8 +3012,9 @@ msgid "Firefox for Enterprise"
 msgstr "Firefox vállalatok számára"
 
 #: kitsune/questions/config.py:290
-msgid "Enterprise version of Firefox"
-msgstr "A Firefox vállalati verziója"
+#, fuzzy
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox Quantum a vállalatok számára"
 
 #: kitsune/questions/config.py:296
 msgid "Deploy"
@@ -3036,7 +3037,8 @@ msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
 #: kitsune/questions/config.py:320
-msgid "Firefox for Virtual Reality"
+#, fuzzy
+msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox for Virtual Reality"
 
 #: kitsune/questions/config.py:326
@@ -3048,8 +3050,14 @@ msgid "Troubleshooting Firefox Reality"
 msgstr "Hibaelhárítás a Firefox Realityben"
 
 #: kitsune/questions/config.py:339
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
+#, fuzzy
+msgid "Firefox for Android Beta"
+msgstr "Firefox for Android"
+
+#: kitsune/questions/config.py:340
+#, fuzzy
+msgid "Early version of an experimental Firefox browser for Android"
+msgstr "A kísérleti androidos Firefox böngésző korai verziója."
 
 #: kitsune/questions/config.py:351
 msgid "How do I use Firefox Preview"
@@ -3083,52 +3091,67 @@ msgstr "Beállítások"
 msgid "Advanced Settings"
 msgstr "Speciális beállítások"
 
-#: kitsune/questions/config.py:393 kitsune/questions/config.py:394 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:400
+#: kitsune/questions/config.py:394
+#, fuzzy
+msgid "Mobile app that gives you access to passwords you have saved to Firefox"
+msgstr "Mobil alkalmazás, amely hozzáférést biztosít a Firefoxba mentett jelszavakhoz."
+
+#: kitsune/questions/config.py:401
 msgid "Install and set up"
 msgstr "Telepítés és beállítás"
 
-#: kitsune/questions/config.py:405
+#: kitsune/questions/config.py:406
 msgid "Manage settings and logins"
 msgstr "Beállítások és bejelentkezések kezelése"
 
-#: kitsune/questions/config.py:410
+#: kitsune/questions/config.py:411
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Hibaelhárítás a Firefox Lockwise-ban"
 
-#: kitsune/questions/config.py:417 kitsune/questions/config.py:418
+#: kitsune/questions/config.py:418
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox Private Network böngészőszintű védelem"
 
-#: kitsune/questions/config.py:429
+#: kitsune/questions/config.py:419
+#, fuzzy
+msgid "Browse securely on public Wi-Fi"
+msgstr "Böngésszen biztonságosan nyilvános Wi-Fin"
+
+#: kitsune/questions/config.py:430
 msgid "Manage accounts and settings"
 msgstr "Fiókok és beállítások kezelése"
 
-#: kitsune/questions/config.py:434
+#: kitsune/questions/config.py:435
 msgid "Fix problems with Firefox Private Network"
 msgstr "Hibaelhárítás a Firefox Private Networkben"
 
-#: kitsune/questions/config.py:441 kitsune/questions/config.py:442
+#: kitsune/questions/config.py:442
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: kitsune/questions/config.py:448
+#: kitsune/questions/config.py:443
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "VPN Windows 10-hez és androidos és iOS-es eszközökhöz"
+
+#: kitsune/questions/config.py:449
 msgid "Technical"
 msgstr "Műszaki"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:454
 msgid "Accounts"
 msgstr "Fiókok"
 
-#: kitsune/questions/config.py:458
+#: kitsune/questions/config.py:459
 msgid "Payments"
 msgstr "Kifizetések"
 
-#: kitsune/questions/config.py:463 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
 msgid "Troubleshooting"
 msgstr "Hibakeresés"
 
@@ -10052,6 +10075,27 @@ msgstr "Mondja el."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Adjon részletesebb információt"
+
+#~ msgid "About firefox private network"
+#~ msgstr "A Firefox magánhálózatról"
+
+#~ msgid "Install extension"
+#~ msgstr "Kiegészítő telepítése"
+
+#~ msgid "Update payment"
+#~ msgstr "Fizetés frissítése"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Előfizetés lemondása"
+
+#~ msgid "Mobile browser for Indonesia"
+#~ msgstr "Mobil böngésző Indonéziának"
+
+#~ msgid "Enterprise version of Firefox"
+#~ msgstr "A Firefox vállalati verziója"
+
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
 
 #~ msgid "Firefox Private Network Device-level Protection"
 #~ msgstr "Firefox Private Network eszközszintű védelem"
