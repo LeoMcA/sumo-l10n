@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-15 19:04-0700\n"
+"POT-Creation-Date: 2020-07-20 19:04-0700\n"
 "PO-Revision-Date: 2020-06-19 13:38+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -3659,7 +3659,7 @@ msgstr ""
 "Για την αποτροπή ανεπιθύμητων μηνυμάτων, περιορίζουμε τον αριθμό απαντήσεων που μπορούν να δημοσιευθούν μέσα σε μια μικρή χρονική περίοδο. Αν θέλετε να δημοσιεύσετε περισσότερες, παρακαλούμε "
 "δημιουργήστε μια δημοσίευση στο <a href=\"%(url)s\">φόρουμ εθελοντών</a> ζητώντας να εξαιρεθείτε."
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:28 kitsune/questions/jinja2/questions/question_details.html:241
+#: kitsune/questions/jinja2/questions/email/new_answer.html:29 kitsune/questions/jinja2/questions/question_details.html:241
 msgid "Post a Reply"
 msgstr "Δημοσίευση απάντησης"
 
@@ -3912,18 +3912,18 @@ msgstr "Για να επιβεβαιώσετε τη συνδρομή σας, π�
 
 #: kitsune/questions/jinja2/questions/email/new_answer.html:23 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:29
 #, python-format
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. <a href=\"%(url)s\">Learn more here.</a>"
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. <a href=\"%(url)s\">Learn more here.</a>"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:30
+#: kitsune/questions/jinja2/questions/email/new_answer.html:31
 msgid "Browse for unsolved questions and help a fellow user"
 msgstr "Αναζητήστε άλυτες απορίες και βοηθήστε έναν άλλο χρήστη"
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:31 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:40
+#: kitsune/questions/jinja2/questions/email/new_answer.html:32 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:41
 msgid "Solving 1 issue helps up to 1,000 users a day!"
 msgstr "Η επίλυση 1 ζητήματος βοηθά έως και 1.000 χρήστες την ημέρα!"
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:34 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:43
+#: kitsune/questions/jinja2/questions/email/new_answer.html:35 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:44
 #, python-format
 msgid ""
 "This email is automatically sent by a robot. Our robot can’t respond to your question, but our forum contributors can! If you want to respond to them, please <a href=\"%(url)s\">click here</a>."
@@ -3949,7 +3949,7 @@ msgstr "Ο/Η {answerer} έγραψε:"
 
 #. This is in an email.
 #: kitsune/questions/jinja2/questions/email/new_answer.ltxt:21 kitsune/questions/jinja2/questions/email/new_answer_to_asker.ltxt:13
-msgid "Beware of phishing attacks: Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. Learn more:"
+msgid "Avoid support scams. We will never ask you to call or text a phone number or share personal information. Learn more:"
 msgstr ""
 
 #. This is in an email.
@@ -3972,15 +3972,15 @@ msgstr "Βοηθήστε άλλους χρήστες του Firefox αναζητ
 msgid "You might just make someone's day!"
 msgstr "Μόλις φτιάξατε την ημέρα κάποιου!"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:35
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:36
 msgid "Mark it as solved"
 msgstr "Επισήμανση ως λυμένη"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:36
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:37
 msgid "This doesn't solve my problem"
 msgstr "Αυτό δεν λύνει το πρόβλημά μου"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:39
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:40
 msgid "Browse for unsolved questions and help a Firefox user"
 msgstr "Περιηγηθείτε για άλυτες απορίες και βοηθήστε ένα χρήστη του Firefox"
 

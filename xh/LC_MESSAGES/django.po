@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-15 19:04-0700\n"
+"POT-Creation-Date: 2020-07-20 19:04-0700\n"
 "PO-Revision-Date: 2016-01-28 11:22+0000\n"
 "Last-Translator: Michał Dziewoński <mdziewonski@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3738,7 +3738,7 @@ msgstr ""
 "Ukuze uthintele i-spam, silinganisela inani leempendulo ezingathunyelwa kwisigaba esifutshane sexesha. Ukuba ukuthumela okuninzi yenza iposi kw<a href=\"%(url)s\">contributors forum</a> elicela "
 "ukuba ube kuluhlu olumhlophe."
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:28 kitsune/questions/jinja2/questions/question_details.html:241
+#: kitsune/questions/jinja2/questions/email/new_answer.html:29 kitsune/questions/jinja2/questions/question_details.html:241
 msgid "Post a Reply"
 msgstr "Thumela Impendulo"
 
@@ -3997,18 +3997,18 @@ msgstr "Ukuqinisekisa umrhumo wakho, nceda ucofe isinxulumanisi esingezantsi oka
 
 #: kitsune/questions/jinja2/questions/email/new_answer.html:23 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:29
 #, python-format
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. <a href=\"%(url)s\">Learn more here.</a>"
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. <a href=\"%(url)s\">Learn more here.</a>"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:30
+#: kitsune/questions/jinja2/questions/email/new_answer.html:31
 msgid "Browse for unsolved questions and help a fellow user"
 msgstr "Bhrawuza imibuzo engasonjululwanga ze uncede abasebenzisi"
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:31 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:40
+#: kitsune/questions/jinja2/questions/email/new_answer.html:32 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:41
 msgid "Solving 1 issue helps up to 1,000 users a day!"
 msgstr "Isombulula umba om-1 kunceda ukuya kubasebenzisi abali-1,000 ngosuku!"
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:34 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:43
+#: kitsune/questions/jinja2/questions/email/new_answer.html:35 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:44
 #, python-format
 msgid ""
 "This email is automatically sent by a robot. Our robot can’t respond to your question, but our forum contributors can! If you want to respond to them, please <a href=\"%(url)s\">click here</a>."
@@ -4034,7 +4034,7 @@ msgstr "{answerer} ubhale:"
 
 #. This is in an email.
 #: kitsune/questions/jinja2/questions/email/new_answer.ltxt:21 kitsune/questions/jinja2/questions/email/new_answer_to_asker.ltxt:13
-msgid "Beware of phishing attacks: Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. Learn more:"
+msgid "Avoid support scams. We will never ask you to call or text a phone number or share personal information. Learn more:"
 msgstr ""
 
 #. This is in an email.
@@ -4057,15 +4057,15 @@ msgstr "Nceda omnye umsebenzisi we-Firefox ngabhrawuza imibuzo engasonjululwanga
 msgid "You might just make someone's day!"
 msgstr "Usenokwenza mnandi usuku lomntu!"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:35
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:36
 msgid "Mark it as solved"
 msgstr "Yiphawule njengesonjululiweyo"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:36
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:37
 msgid "This doesn't solve my problem"
 msgstr "Oku akuyisombululi ingxaki yam"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:39
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:40
 msgid "Browse for unsolved questions and help a Firefox user"
 msgstr "Bhrawuza ngemibuzo engekasonjululwa ze uncede umsebenzisi we-Firefox"
 

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-15 19:04-0700\n"
+"POT-Creation-Date: 2020-07-20 19:04-0700\n"
 "PO-Revision-Date: 2016-12-02 09:27+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3661,7 +3661,7 @@ msgid ""
 "\">contributors forum</a> requesting that you be white-listed."
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:28 kitsune/questions/jinja2/questions/question_details.html:241
+#: kitsune/questions/jinja2/questions/email/new_answer.html:29 kitsune/questions/jinja2/questions/question_details.html:241
 msgid "Post a Reply"
 msgstr ""
 
@@ -3920,18 +3920,18 @@ msgstr ""
 
 #: kitsune/questions/jinja2/questions/email/new_answer.html:23 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:29
 #, python-format
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. <a href=\"%(url)s\">Learn more here.</a>"
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. <a href=\"%(url)s\">Learn more here.</a>"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:30
+#: kitsune/questions/jinja2/questions/email/new_answer.html:31
 msgid "Browse for unsolved questions and help a fellow user"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:31 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:40
+#: kitsune/questions/jinja2/questions/email/new_answer.html:32 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:41
 msgid "Solving 1 issue helps up to 1,000 users a day!"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:34 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:43
+#: kitsune/questions/jinja2/questions/email/new_answer.html:35 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:44
 #, python-format
 msgid ""
 "This email is automatically sent by a robot. Our robot can’t respond to your question, but our forum contributors can! If you want to respond to them, please <a href=\"%(url)s\">click here</a>."
@@ -3955,7 +3955,7 @@ msgstr ""
 
 #. This is in an email.
 #: kitsune/questions/jinja2/questions/email/new_answer.ltxt:21 kitsune/questions/jinja2/questions/email/new_answer_to_asker.ltxt:13
-msgid "Beware of phishing attacks: Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. Learn more:"
+msgid "Avoid support scams. We will never ask you to call or text a phone number or share personal information. Learn more:"
 msgstr ""
 
 #. This is in an email.
@@ -3978,15 +3978,15 @@ msgstr ""
 msgid "You might just make someone's day!"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:35
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:36
 msgid "Mark it as solved"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:36
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:37
 msgid "This doesn't solve my problem"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:39
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:40
 msgid "Browse for unsolved questions and help a Firefox user"
 msgstr ""
 

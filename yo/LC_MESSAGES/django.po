@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-15 19:04-0700\n"
+"POT-Creation-Date: 2020-07-20 19:04-0700\n"
 "PO-Revision-Date: 2015-06-02 14:54+0000\n"
 "Last-Translator: Tersha <tersha.smith@rubric.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3735,7 +3735,7 @@ msgstr ""
 "Kí a dẹ́kun ìwé àìbèèrèfún, a ń dín iye àwọn ìdáhùn tí a lè fọ̀rọ̀ránṣẹ́ ní àkókò kúkurú. Bí o bá fẹ́ fọ̀rọ̀ púpọ̀ ránṣẹ́ jọ̀wọ́ ṣẹ̀dá ìfọ̀rọ̀ránṣẹ́ ní <a href=\"%(url)s\">àpèjọ àwọn olùdásí</a> bèèrè pé kí a yọ "
 "orúkọ rẹ kúrò nínu àwọn ìbàjẹ́."
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:28 kitsune/questions/jinja2/questions/question_details.html:241
+#: kitsune/questions/jinja2/questions/email/new_answer.html:29 kitsune/questions/jinja2/questions/question_details.html:241
 msgid "Post a Reply"
 msgstr "Fọ̀rọ̀ Èsì ránṣẹ́"
 
@@ -3993,18 +3993,18 @@ msgstr "Láti jẹ́rì iforúkọsílẹ̀ rẹ, jọ̀wọ́ yára tẹ ì
 
 #: kitsune/questions/jinja2/questions/email/new_answer.html:23 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:29
 #, python-format
-msgid "<strong>Beware of phishing attacks:</strong> Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. <a href=\"%(url)s\">Learn more here.</a>"
+msgid "<strong>Avoid support scams.</strong> We will never ask you to call or text a phone number or share personal information. <a href=\"%(url)s\">Learn more here.</a>"
 msgstr ""
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:30
+#: kitsune/questions/jinja2/questions/email/new_answer.html:31
 msgid "Browse for unsolved questions and help a fellow user"
 msgstr "Gbàwálẹ̀ àwọn ìbéèrè àìyanjú kí o ran olùṣàmúlò ẹlẹgbẹ́ lọ́wọ́"
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:31 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:40
+#: kitsune/questions/jinja2/questions/email/new_answer.html:32 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:41
 msgid "Solving 1 issue helps up to 1,000 users a day!"
 msgstr "Ìyanjú ìṣòro 1 ṣèrànwọ́ bíi 1000 àwọn olùṣàmúlò lóòjọ́!"
 
-#: kitsune/questions/jinja2/questions/email/new_answer.html:34 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:43
+#: kitsune/questions/jinja2/questions/email/new_answer.html:35 kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:44
 #, python-format
 msgid ""
 "This email is automatically sent by a robot. Our robot can’t respond to your question, but our forum contributors can! If you want to respond to them, please <a href=\"%(url)s\">click here</a>."
@@ -4028,7 +4028,7 @@ msgstr "{answerer} kọ:"
 
 #. This is in an email.
 #: kitsune/questions/jinja2/questions/email/new_answer.ltxt:21 kitsune/questions/jinja2/questions/email/new_answer_to_asker.ltxt:13
-msgid "Beware of phishing attacks: Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. Learn more:"
+msgid "Avoid support scams. We will never ask you to call or text a phone number or share personal information. Learn more:"
 msgstr ""
 
 #. This is in an email.
@@ -4051,15 +4051,15 @@ msgstr "Ran àwọn olùṣàmúlò Firefox míìràn lọ́wọ́ fún
 msgid "You might just make someone's day!"
 msgstr "O lè mú inú ẹnìkan dùn lóójọ!"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:35
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:36
 msgid "Mark it as solved"
 msgstr "Ṣàmì rẹ̀ bí a ti yanjú"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:36
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:37
 msgid "This doesn't solve my problem"
 msgstr "Èyí kò tán ìṣòro mi"
 
-#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:39
+#: kitsune/questions/jinja2/questions/email/new_answer_to_asker.html:40
 msgid "Browse for unsolved questions and help a Firefox user"
 msgstr "Gbàwálẹ̀ fún àwọn ìbéèrè tí a kò tán àti ìrànwọ́ olùṣàmúlò Firefox"
 
