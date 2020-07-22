@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 19:04-0700\n"
+"POT-Creation-Date: 2020-07-21 19:04-0700\n"
 "PO-Revision-Date: 2020-03-03 13:25+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: Thai\n"
@@ -7847,10 +7847,10 @@ msgid "Older"
 msgstr "เก่ากว่า"
 
 #: kitsune/sumo/jinja2/includes/readonly_annoucement.html:1
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "This site will have limited functionality while we undergo maintenance to improve your experience. If an article doesn't solve your issue and you want to ask a question, we have our support "
-"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter, <a href=\"%(reddit)s\">/r/firefox</a> on Reddit, or live on our IRC channel <a href=\"%(irc_channel)s\">#sumo</a>."
+"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter and<a href=\"%(reddit)s\">/r/firefox</a> on Reddit."
 msgstr ""
 "ไซต์นี้จะมีฟังก์ชันจำกัดขณะที่เรากำลังบำรุงรักษาเพื่อปรับปรุงประสบการณ์ของคุณ หากบทความไม่แก่ไขปัญหาของคุณและคุณต้องการถามคำถาม เรามีชุมชนฝ่ายสนับสนุนที่รอช่วยคุณอยู่ที่ <a href=\"%(twitter)s\">@firefox</a> บนทวิตเตอร์, <a href="
 "\"%(reddit)s\">/r/firefox</a> บน Reddit, หรือแชทสดบนช่อง IRC ของเรา <a href=\"%(irc_channel)s\">#sumo</a>"

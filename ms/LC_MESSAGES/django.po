@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 19:04-0700\n"
+"POT-Creation-Date: 2020-07-21 19:04-0700\n"
 "PO-Revision-Date: 2018-11-09 01:26+0000\n"
 "Last-Translator: Othman Wagiman <manxmensch@gmail.com>\n"
 "Language-Team: Malay\n"
@@ -7924,10 +7924,10 @@ msgid "Older"
 msgstr "Lebih Lama"
 
 #: kitsune/sumo/jinja2/includes/readonly_annoucement.html:1
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "This site will have limited functionality while we undergo maintenance to improve your experience. If an article doesn't solve your issue and you want to ask a question, we have our support "
-"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter, <a href=\"%(reddit)s\">/r/firefox</a> on Reddit, or live on our IRC channel <a href=\"%(irc_channel)s\">#sumo</a>."
+"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter and<a href=\"%(reddit)s\">/r/firefox</a> on Reddit."
 msgstr ""
 "Fungsi laman ini akan terhad semasa kami menjalankan penyelenggaraan untuk meningkatkan pengalaman anda. Jika sesebuah artikel tidak menyelesaikan isu dan anda ingin bertanyakan soalan, komuniti "
 "sokongan kami sedia untuk membantu anda di <a href=\"%(twitter)s\">@firefox</a> Twitter, <a href=\"%(reddit)s\">/r/firefox</a> Reddit, atau saluran langsung IRC c<a href=\"%(irc_channel)s\">#sumo</"

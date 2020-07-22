@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 19:04-0700\n"
+"POT-Creation-Date: 2020-07-21 19:04-0700\n"
 "PO-Revision-Date: 2018-07-02 09:47+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: Bosnian\n"
@@ -8068,10 +8068,10 @@ msgid "Older"
 msgstr "Starije"
 
 #: kitsune/sumo/jinja2/includes/readonly_annoucement.html:1
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "This site will have limited functionality while we undergo maintenance to improve your experience. If an article doesn't solve your issue and you want to ask a question, we have our support "
-"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter, <a href=\"%(reddit)s\">/r/firefox</a> on Reddit, or live on our IRC channel <a href=\"%(irc_channel)s\">#sumo</a>."
+"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter and<a href=\"%(reddit)s\">/r/firefox</a> on Reddit."
 msgstr ""
 "Ova stranica ima ograničene funkcionalnosti dok prolazimo kroz održavanje da poboljšamo vaše iskustvo. Ako članak ne riješi vaš problem i želite postaviti pitanje, imamo našu zajednicu za podršku "
 "koja čeka da vam pomogne na <a href=\"%(twitter)s\">@firefox</a> na Twitter-u, <a href=\"%(reddit)s\">/r/firefox</a> na Reddit-u ili uživo na našem IRC kanalu <a href=\"%(irc_channel)s\">#sumo</a>."

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 19:04-0700\n"
+"POT-Creation-Date: 2020-07-21 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 13:54+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7787,10 +7787,10 @@ msgid "Older"
 msgstr "Aqbuṛ ugar"
 
 #: kitsune/sumo/jinja2/includes/readonly_annoucement.html:1
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "This site will have limited functionality while we undergo maintenance to improve your experience. If an article doesn't solve your issue and you want to ask a question, we have our support "
-"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter, <a href=\"%(reddit)s\">/r/firefox</a> on Reddit, or live on our IRC channel <a href=\"%(irc_channel)s\">#sumo</a>."
+"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter and<a href=\"%(reddit)s\">/r/firefox</a> on Reddit."
 msgstr ""
 "Asmel-a yesɛa talast deg tmahilin ticki nettṣeggim-it akken ad ak-d-nmudd ameẓlu yelhan. Ma yella amagrad ur yefri ara uguren-ik, daɣen tebɣiḍ ad tseqsiḍ, tarbaɛt-nneɣ n tallelt thegga ad d-terr i "
 "yisteqsieyn-ik deg  <a href=\"%(twitter)s\">@firefox</a> deg Twitter, <a href=\"%(reddit)s\">/r/firefox</a> neɣ Reddit, neɣ srid deg IRC <a href=\"%(irc_channel)s\">#sumo</a>."

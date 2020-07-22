@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 19:04-0700\n"
+"POT-Creation-Date: 2020-07-21 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 14:30+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese\n"
@@ -7787,10 +7787,10 @@ msgid "Older"
 msgstr "Cũ hơn"
 
 #: kitsune/sumo/jinja2/includes/readonly_annoucement.html:1
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "This site will have limited functionality while we undergo maintenance to improve your experience. If an article doesn't solve your issue and you want to ask a question, we have our support "
-"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter, <a href=\"%(reddit)s\">/r/firefox</a> on Reddit, or live on our IRC channel <a href=\"%(irc_channel)s\">#sumo</a>."
+"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter and<a href=\"%(reddit)s\">/r/firefox</a> on Reddit."
 msgstr ""
 "Trang web này sẽ có chức năng hạn chế trong khi chúng tôi trải qua bảo trì để cải thiện trải nghiệm của bạn. Nếu một bài viết không giải quyết được vấn đề của bạn và bạn muốn đặt câu hỏi, chúng tôi "
 "có cộng đồng hỗ trợ của chúng tôi đang chờ để giúp bạn tại <a href=\"%(twitter)s\">@firefox</a> trên Twitter, <a href=\"%(reddit)s\">/r/firefox</a> trên Reddit hoặc trực tiếp trên kênh IRC của "

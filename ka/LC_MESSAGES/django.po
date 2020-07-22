@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 19:04-0700\n"
+"POT-Creation-Date: 2020-07-21 19:04-0700\n"
 "PO-Revision-Date: 2020-06-21 07:06+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7823,10 +7823,10 @@ msgid "Older"
 msgstr "უფრო ძველი"
 
 #: kitsune/sumo/jinja2/includes/readonly_annoucement.html:1
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "This site will have limited functionality while we undergo maintenance to improve your experience. If an article doesn't solve your issue and you want to ask a question, we have our support "
-"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter, <a href=\"%(reddit)s\">/r/firefox</a> on Reddit, or live on our IRC channel <a href=\"%(irc_channel)s\">#sumo</a>."
+"community waiting to help you at <a href=\"%(twitter)s\">@firefox</a> on Twitter and<a href=\"%(reddit)s\">/r/firefox</a> on Reddit."
 msgstr ""
 "საიტის გასაუმჯობესებელი სამუშაოების მიმდინარეობისას, შესაძლებლობების ნაწილი შეიზღუდება. თუ სტატია ვერ დაგეხმარათ ხარვეზის გამოსწორებაში და შეკითხვის დასმა გსურთ, ჩვენი მხარდაჭერის გუნდი მზად იქნება "
 "დაგეხმაროთ <a href=\"%(twitter)s\">@firefox</a> Twitter-ზე, <a href=\"%(reddit)s\">/r/firefox</a> Reddit-ზე ან IRC პირდაპირ არხზე <a href=\"%(irc_channel)s\">#sumo</a>."
