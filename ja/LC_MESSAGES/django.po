@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-21 19:04-0700\n"
+"POT-Creation-Date: 2020-07-23 19:08-0700\n"
 "PO-Revision-Date: 2020-07-08 11:04+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -15,20 +15,20 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1446025690.0\n"
 
-#: kitsune/announcements/forms.py:16 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:20 kitsune/questions/jinja2/questions/confirm_answer_delete.html:17
+#: kitsune/announcements/forms.py:17 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:20 kitsune/questions/jinja2/questions/confirm_answer_delete.html:17
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:25
 msgid "Content"
 msgstr "内容"
 
-#: kitsune/announcements/forms.py:18
+#: kitsune/announcements/forms.py:19
 msgid "Show after"
 msgstr "表示開始"
 
-#: kitsune/announcements/forms.py:21
+#: kitsune/announcements/forms.py:22
 msgid "Show until"
 msgstr "表示期限"
 
-#: kitsune/announcements/tasks.py:33
+#: kitsune/announcements/tasks.py:34
 msgid "New announcement for {group}"
 msgstr "{group} の新着アナウンス"
 
@@ -323,51 +323,52 @@ msgstr "Twitter アカウント"
 msgid "Weekly meetings"
 msgstr "Weekly Meeting"
 
-#: kitsune/customercare/views.py:28 kitsune/dashboards/readouts.py:453
+#: kitsune/customercare/views.py:34 kitsune/dashboards/readouts.py:488
 msgid "Most Recent"
 msgstr "最近の投稿"
 
-#: kitsune/customercare/views.py:29
+#: kitsune/customercare/views.py:35
 msgid "Unanswered"
 msgstr "未回答"
 
-#: kitsune/customercare/views.py:30
+#: kitsune/customercare/views.py:36
 msgid "Answered"
 msgstr "回答済み"
 
-#: kitsune/customercare/views.py:31 kitsune/dashboards/jinja2/dashboards/includes/macros.html:262 kitsune/products/jinja2/products/includes/topic_macros.html:84
+#: kitsune/customercare/views.py:37 kitsune/dashboards/jinja2/dashboards/includes/macros.html:262 kitsune/products/jinja2/products/includes/topic_macros.html:84
 #: kitsune/products/jinja2/products/includes/topic_macros.html:131 kitsune/questions/jinja2/questions/metrics.html:25 kitsune/questions/jinja2/questions/metrics.html:27
 #: kitsune/questions/jinja2/questions/question_list.html:135 kitsune/questions/jinja2/questions/question_list.html:302
 msgid "All"
 msgstr "すべて"
 
 #. L10n: the tweet needs to be a reply to another tweet.
-#: kitsune/customercare/views.py:193
+#: kitsune/customercare/views.py:217
 msgid "Reply-to is empty"
 msgstr "Reply-to が空です"
 
-#: kitsune/customercare/views.py:197
+#: kitsune/customercare/views.py:221
 msgid "Tweet has already been replied to"
 msgstr "ツイートはすでに返信されています"
 
 #. L10n: the tweet has no content.
-#: kitsune/customercare/views.py:202
+#: kitsune/customercare/views.py:226
 msgid "Message is empty"
 msgstr "メッセージが空です"
 
-#: kitsune/customercare/views.py:205
+#: kitsune/customercare/views.py:229
 msgid "Message is too long"
 msgstr "メッセージが長すぎます"
 
-#: kitsune/customercare/views.py:222 kitsune/customercare/views.py:306
+#. L10n: {message} is an error coming from our twitter api library
+#: kitsune/customercare/views.py:242 kitsune/customercare/views.py:329
 msgid "An error occured: {message}"
 msgstr "エラーが発生しました: {message}"
 
-#: kitsune/customercare/views.py:289 kitsune/customercare/views.py:294
+#: kitsune/customercare/views.py:313 kitsune/customercare/views.py:318
 msgid "Invalid ID."
 msgstr "無効な ID です。"
 
-#: kitsune/customercare/views.py:298
+#: kitsune/customercare/views.py:322
 msgid "Tweets that are replies or have replies must not be hidden."
 msgstr "返信ツイートまたは返信のあるツイートは隠すべきではありません。"
 
@@ -583,240 +584,240 @@ msgstr "昨日"
 msgid "Overall"
 msgstr "全部"
 
-#: kitsune/dashboards/__init__.py:9
+#: kitsune/dashboards/__init__.py:10
 msgid "Last 7 days"
 msgstr "最近 7 日間"
 
-#: kitsune/dashboards/__init__.py:10
+#: kitsune/dashboards/__init__.py:11
 msgid "Last 30 days"
 msgstr "最近 30 日間"
 
-#: kitsune/dashboards/__init__.py:11
+#: kitsune/dashboards/__init__.py:12
 msgid "Last 90 days"
 msgstr "最近 90 日間"
 
-#: kitsune/dashboards/__init__.py:12
+#: kitsune/dashboards/__init__.py:13
 msgid "All Time"
 msgstr "全期間"
 
-#: kitsune/dashboards/models.py:83
+#: kitsune/dashboards/models.py:78
 msgid "Percent Localized: Top 20"
 msgstr "ローカライズの割合: トップ 20"
 
-#: kitsune/dashboards/models.py:84
+#: kitsune/dashboards/models.py:79
 msgid "Percent Localized: Top 100"
 msgstr "ローカライズの割合: トップ 100"
 
-#: kitsune/dashboards/models.py:85
+#: kitsune/dashboards/models.py:80
 msgid "Percent Localized: All"
 msgstr "ローカライズの割合: すべて"
 
 # 貢献者メニュー見出し
-#: kitsune/dashboards/models.py:87
+#: kitsune/dashboards/models.py:81
 msgid "Monthly Active Contributors"
 msgstr "月別の活動中の貢献者"
 
-#: kitsune/dashboards/readouts.py:71
+#: kitsune/dashboards/readouts.py:77
 msgid "Review Needed"
 msgstr "レビューが必要"
 
-#: kitsune/dashboards/readouts.py:75
+#: kitsune/dashboards/readouts.py:81
 msgid "Update Needed"
 msgstr "更新が必要"
 
-#: kitsune/dashboards/readouts.py:77
+#: kitsune/dashboards/readouts.py:82
 msgid "Immediate Update Needed"
 msgstr "今すぐ更新が必要"
 
-#: kitsune/dashboards/readouts.py:172
+#: kitsune/dashboards/readouts.py:181
 msgid "Translation Needed"
 msgstr "翻訳が必要"
 
-#: kitsune/dashboards/readouts.py:389
+#: kitsune/dashboards/readouts.py:420
 msgid "Top 20 Articles"
 msgstr "上位 20 本の記事"
 
-#: kitsune/dashboards/readouts.py:394
+#: kitsune/dashboards/readouts.py:424
 #, python-format
 msgid "These are the top 20 most visited articles in the last 30 days, which account for over 50% of the traffic to the Knowledge Base."
 msgstr "これらは、最近 30 日間のアクセス数が最も多いトップ 20 の記事です。これらの合計は、ナレッジベースの全トラフィックの 50% 以上を占めます。"
 
-#: kitsune/dashboards/readouts.py:399
+#: kitsune/dashboards/readouts.py:431
 msgid "Top 50 Articles"
 msgstr "上位 50 本の記事"
 
-#: kitsune/dashboards/readouts.py:404
+#: kitsune/dashboards/readouts.py:435
 msgid "These are the top 50 most visited articles in the last 30 days."
 msgstr "最近 30 日間の訪問数の上位 50 本の記事です。"
 
-#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:38 kitsune/dashboards/readouts.py:408
+#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:38 kitsune/dashboards/readouts.py:438
 msgid "Top 100 Articles"
 msgstr "上位 100 本の記事"
 
-#: kitsune/dashboards/readouts.py:413
+#: kitsune/dashboards/readouts.py:442
 #, python-format
 msgid "These are the top 100 most visited articles in the last 30 days, which account for over 99% of the traffic to the Knowledge Base."
 msgstr "これらは、最近 30 日間のアクセス数が最も多いトップ 100 の記事です。これらの合計は、ナレッジベースの全トラフィックの 99% 以上を占めます。"
 
-#: kitsune/dashboards/readouts.py:418 kitsune/dashboards/readouts.py:693 kitsune/dashboards/readouts.py:797 kitsune/dashboards/readouts.py:798 kitsune/sumo/jinja2/includes/common_macros.html:288
-#: kitsune/wiki/config.py:88
+#: kitsune/dashboards/readouts.py:449 kitsune/dashboards/readouts.py:735 kitsune/dashboards/readouts.py:842 kitsune/dashboards/readouts.py:843 kitsune/sumo/jinja2/includes/common_macros.html:288
+#: kitsune/wiki/config.py:84
 msgid "Templates"
 msgstr "テンプレート"
 
-#: kitsune/dashboards/readouts.py:423
+#: kitsune/dashboards/readouts.py:454
 msgid "Templates are a way of reusing pieces of content across KB articles. You can create and update a set of instructions in one place, and then refer to it in other pages."
 msgstr "テンプレートは、ナレッジベース記事間で再利用可能なコンテンツのパーツです。一つのテンプレートを作成して更新すれば、それを参照する他の記事でも更新されます。"
 
-#: kitsune/dashboards/readouts.py:429
+#: kitsune/dashboards/readouts.py:462
 msgid "All Knowledge Base Articles"
 msgstr "すべてのナレッジベース記事"
 
-#: kitsune/dashboards/readouts.py:433
+#: kitsune/dashboards/readouts.py:466
 msgid "This is the number of all Knowledge Base articles that are ready to be localized."
 msgstr "これは、翻訳準備が完了したすべてのナレッジベース記事数です。"
 
-#: kitsune/dashboards/readouts.py:450
+#: kitsune/dashboards/readouts.py:486
 msgid "Visits in last 30 days"
 msgstr "最近 30 日間のアクセス数"
 
-#: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:5 kitsune/dashboards/readouts.py:451 kitsune/wiki/jinja2/wiki/includes/revision_list.html:24
+#: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:5 kitsune/dashboards/readouts.py:487 kitsune/wiki/jinja2/wiki/includes/revision_list.html:24
 msgid "Status"
 msgstr "状態"
 
 # ダッシュボードの記事並べ替え。アクセス数順
-#: kitsune/dashboards/readouts.py:452 kitsune/dashboards/readouts.py:1063
+#: kitsune/dashboards/readouts.py:488 kitsune/dashboards/readouts.py:1117
 msgid "Most Viewed"
 msgstr "アクセス数"
 
-#: kitsune/dashboards/readouts.py:564 kitsune/dashboards/readouts.py:723
+#: kitsune/dashboards/readouts.py:604 kitsune/dashboards/readouts.py:766
 msgid "Most Visited"
 msgstr "アクセス数の多い記事"
 
-#: kitsune/dashboards/readouts.py:566
+#: kitsune/dashboards/readouts.py:606
 msgid "All knowledge base articles..."
 msgstr "すべてのナレッジベース記事..."
 
-#: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:4 kitsune/dashboards/readouts.py:568 kitsune/dashboards/readouts.py:633
+#: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:4 kitsune/dashboards/readouts.py:608 kitsune/dashboards/readouts.py:679
 msgid "Visits"
 msgstr "アクセス数"
 
-#: kitsune/dashboards/readouts.py:674
+#: kitsune/dashboards/readouts.py:717
 msgid "Changes Needed"
 msgstr "変更が必要な記事"
 
-#: kitsune/dashboards/readouts.py:677 kitsune/dashboards/readouts.py:986
+#: kitsune/dashboards/readouts.py:720 kitsune/dashboards/readouts.py:1030
 msgid "Changes Not Ready For Localization"
 msgstr "翻訳準備ができていない変更"
 
-#: kitsune/dashboards/readouts.py:695 kitsune/dashboards/readouts.py:800
+#: kitsune/dashboards/readouts.py:737 kitsune/dashboards/readouts.py:845
 msgid "All templates..."
 msgstr "すべてのテンプレート..."
 
-#: kitsune/dashboards/readouts.py:700
+#: kitsune/dashboards/readouts.py:742
 msgid "How To Contribute"
 msgstr "貢献者向け"
 
-#: kitsune/dashboards/readouts.py:702
+#: kitsune/dashboards/readouts.py:744
 msgid "All How To Contribute articles..."
 msgstr "すべての貢献者向け記事..."
 
-#: kitsune/dashboards/readouts.py:707 kitsune/wiki/config.py:86
+#: kitsune/dashboards/readouts.py:749 kitsune/wiki/config.py:82
 msgid "Administration"
 msgstr "管理用"
 
-#: kitsune/dashboards/readouts.py:709
+#: kitsune/dashboards/readouts.py:751
 msgid "All Administration articles..."
 msgstr "すべての管理用記事..."
 
-#: kitsune/dashboards/readouts.py:725
+#: kitsune/dashboards/readouts.py:768
 msgid "All translations..."
 msgstr "すべての翻訳記事..."
 
 #. L10n: Not just changes to translations but also unreviewed changes to
 #. docs in this locale that are not translations
-#: kitsune/dashboards/readouts.py:862
+#: kitsune/dashboards/readouts.py:899
 msgid "Unreviewed Changes"
 msgstr "レビュー待ちの更新された記事"
 
-#: kitsune/dashboards/readouts.py:864
+#: kitsune/dashboards/readouts.py:901
 msgctxt "document"
 msgid "Unreviewed"
 msgstr "レビュー待ち"
 
-#: kitsune/dashboards/readouts.py:865
+#: kitsune/dashboards/readouts.py:902
 msgid "All articles requiring review..."
 msgstr "すべてのレビュー待ちの記事..."
 
-#: kitsune/dashboards/readouts.py:867
+#: kitsune/dashboards/readouts.py:904
 msgid "Changed"
 msgstr "変更日"
 
-#: kitsune/dashboards/readouts.py:925
+#: kitsune/dashboards/readouts.py:965
 msgid "Unhelpful Documents"
 msgstr "評価の低い記事"
 
-#: kitsune/dashboards/readouts.py:927
+#: kitsune/dashboards/readouts.py:967
 msgctxt "document"
 msgid "Unhelpful"
 msgstr "低評価"
 
-#: kitsune/dashboards/readouts.py:928
+#: kitsune/dashboards/readouts.py:968
 msgid "All unhelpful articles..."
 msgstr "すべての評価の低い記事..."
 
-#: kitsune/dashboards/readouts.py:930
+#: kitsune/dashboards/readouts.py:970
 msgid "Total Votes"
 msgstr "投票総数"
 
-#: kitsune/dashboards/readouts.py:931
+#: kitsune/dashboards/readouts.py:971
 msgid "Helpfulness"
 msgstr "役立ち度"
 
-#: kitsune/dashboards/readouts.py:987
+#: kitsune/dashboards/readouts.py:1031
 msgid "Articles which have approved revisions newer than the latest ready-for-localization one"
 msgstr "最新の翻訳準備完了したリビジョンよりも新しい承認されたリビジョンを持つ記事"
 
-#: kitsune/dashboards/readouts.py:990
+#: kitsune/dashboards/readouts.py:1036
 msgid "All articles with changes not ready for localization..."
 msgstr "すべての翻訳準備ができていない記事..."
 
-#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:178 kitsune/dashboards/readouts.py:993 kitsune/wiki/jinja2/wiki/includes/revision_list.html:71
+#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:178 kitsune/dashboards/readouts.py:1038 kitsune/wiki/jinja2/wiki/includes/revision_list.html:71
 msgid "Approved"
 msgstr "承認済み"
 
-#: kitsune/dashboards/readouts.py:1057
+#: kitsune/dashboards/readouts.py:1111
 msgid "Need Changes"
 msgstr "変更が必要"
 
-#: kitsune/dashboards/readouts.py:1058
+#: kitsune/dashboards/readouts.py:1112
 msgid "Articles that require changes."
 msgstr "変更が必要な記事。"
 
-#: kitsune/dashboards/readouts.py:1060
+#: kitsune/dashboards/readouts.py:1114
 msgid "All articles that require changes..."
 msgstr "すべての変更が必要な記事..."
 
-#: kitsune/dashboards/readouts.py:1062 kitsune/wiki/jinja2/wiki/includes/recent_revisions_fragment.html:45 kitsune/wiki/jinja2/wiki/includes/revision_list.html:30
+#: kitsune/dashboards/readouts.py:1116 kitsune/wiki/jinja2/wiki/includes/recent_revisions_fragment.html:45 kitsune/wiki/jinja2/wiki/includes/revision_list.html:30
 msgid "Comment"
 msgstr "コメント"
 
-#: kitsune/dashboards/readouts.py:1111 kitsune/wiki/config.py:89
+#: kitsune/dashboards/readouts.py:1166 kitsune/wiki/config.py:85
 msgid "Canned Responses"
 msgstr "返信用定型文"
 
-#: kitsune/dashboards/readouts.py:1112
+#: kitsune/dashboards/readouts.py:1167
 msgid "Localization status of all canned responses"
 msgstr "返信用定型文の L10N ステータス"
 
-#: kitsune/dashboards/readouts.py:1114
+#: kitsune/dashboards/readouts.py:1169
 msgid "All canned responses articles..."
 msgstr "すべての返信用定型文..."
 
-#: kitsune/dashboards/jinja2/dashboards/contributors.html:4 kitsune/dashboards/views.py:59 kitsune/dashboards/views.py:74
+#: kitsune/dashboards/jinja2/dashboards/contributors.html:4 kitsune/dashboards/views.py:70 kitsune/dashboards/views.py:93
 msgid "Knowledge Base Dashboard"
 msgstr "ナレッジベースダッシュボード"
 
-#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:281 kitsune/dashboards/views.py:88
+#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:281 kitsune/dashboards/views.py:113
 msgid "Localization Dashboard"
 msgstr "L10N ダッシュボード"
 
@@ -866,8 +867,8 @@ msgstr "[{product}] ナレッジベースダッシュボード"
 
 #: kitsune/dashboards/jinja2/dashboards/contributors_old.html:4 kitsune/dashboards/jinja2/dashboards/includes/macros.html:199 kitsune/dashboards/jinja2/dashboards/includes/macros.html:214
 #: kitsune/dashboards/jinja2/dashboards/includes/macros.html:224 kitsune/dashboards/jinja2/dashboards/localization.html:4 kitsune/questions/jinja2/questions/product_list.html:41
-#: kitsune/questions/jinja2/questions/question_details.html:11 kitsune/questions/jinja2/questions/question_list.html:8 kitsune/search/jinja2/search/results.html:99 kitsune/search/views.py:190
-#: kitsune/search/views.py:535
+#: kitsune/questions/jinja2/questions/question_details.html:11 kitsune/questions/jinja2/questions/question_list.html:8 kitsune/search/jinja2/search/results.html:99 kitsune/search/views.py:188
+#: kitsune/search/views.py:539
 msgid "All Products"
 msgstr "すべての製品"
 
@@ -887,7 +888,7 @@ msgstr "役に立った評価数"
 msgid "[{locale}][{product}] Localization Dashboard"
 msgstr "[{locale}][{product}] L10N ダッシュボード"
 
-#: kitsune/dashboards/jinja2/dashboards/localization.html:15 kitsune/questions/jinja2/questions/metrics.html:21 kitsune/wiki/forms.py:340
+#: kitsune/dashboards/jinja2/dashboards/localization.html:15 kitsune/questions/jinja2/questions/metrics.html:21 kitsune/wiki/forms.py:374
 msgid "Locale:"
 msgstr "言語:"
 
@@ -957,12 +958,12 @@ msgid "Review Needed: {comment}"
 msgstr "レビューが必要: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:425 kitsune/sumo/views.py:59 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "はい"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:425 kitsune/sumo/views.py:60 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "いいえ"
 
@@ -1014,7 +1015,7 @@ msgstr "購読..."
 msgid "Waiting for review"
 msgstr "レビュー待ち"
 
-#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:179 kitsune/wiki/forms.py:313 kitsune/wiki/jinja2/wiki/includes/revision_list.html:28
+#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:179 kitsune/wiki/forms.py:346 kitsune/wiki/jinja2/wiki/includes/revision_list.html:28
 msgid "Ready for localization"
 msgstr "翻訳準備完了"
 
@@ -1026,7 +1027,7 @@ msgstr "これらは現在選択されている製品に固有の選択肢です
 msgid "Please note that you will be subscribed to these notifications for all products. If you are only interested in specific products, please go to the dashboard for that product."
 msgstr "これらは、すべての製品の通知を購読します。特定の製品のみに興味がある場合は、その製品のダッシュボードへ移動してください。"
 
-#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:243 kitsune/products/api.py:89 kitsune/products/api.py:91
+#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:243 kitsune/products/api.py:99 kitsune/products/api.py:101
 msgid "All Topics"
 msgstr "すべてのトピック"
 
@@ -1094,7 +1095,7 @@ msgstr "却下"
 msgid "You already flagged this content."
 msgstr "このコンテンツにはすでにフラグが設定されています。"
 
-#: kitsune/flagit/views.py:45
+#: kitsune/flagit/views.py:46
 msgid "You have flagged this content. A moderator will review your submission shortly."
 msgstr "このコンテンツにフラグを設定しました。近々モデレーターが確認します。"
 
@@ -1139,8 +1140,8 @@ msgid "View all deactivated users"
 msgstr "すべての無効化されたユーザーを表示する"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:277
-#: kitsune/wiki/forms.py:232 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "内容:"
 
@@ -1164,7 +1165,7 @@ msgid "Take Action:"
 msgstr "操作:"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
-#: kitsune/wiki/forms.py:90 kitsune/wiki/jinja2/wiki/translate.html:100
+#: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "タイトル:"
 
@@ -1196,80 +1197,80 @@ msgstr "新しいスレッド: {title}"
 msgid "%(author)s has posted a new thread in a forum you're watching. Here is the thread:"
 msgstr "監視中のフォーラムに %(author)s さんが新しいスレッドを立てました。以下はそのスレッドです:"
 
-#: kitsune/gallery/forms.py:10 kitsune/kbforums/forms.py:7 kitsune/wiki/forms.py:19
+#: kitsune/gallery/forms.py:10 kitsune/kbforums/forms.py:7 kitsune/wiki/forms.py:16
 msgid "Please provide a title."
 msgstr "タイトルを記入してください。"
 
-#: kitsune/gallery/forms.py:11 kitsune/wiki/forms.py:20
+#: kitsune/gallery/forms.py:11 kitsune/wiki/forms.py:17
 #, python-format
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "タイトルが短すぎます (現在 %(show_value)s 文字)。 %(limit_value)s 文字以上にしてください。"
 
-#: kitsune/gallery/forms.py:14 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "タイトルが長すぎます (%(show_value)s 文字)。%(limit_value)s 文字以下にしてください。"
 
-#: kitsune/gallery/forms.py:17
+#: kitsune/gallery/forms.py:19
 msgid "Please provide a description."
 msgstr "ページ説明を記入してください。"
 
-#: kitsune/gallery/forms.py:18
+#: kitsune/gallery/forms.py:20
 #, python-format
 msgid "Please keep the length of your description to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "ページ説明が長すぎます (現在 %(show_value)s 文字)。%(limit_value)s 文字以下にしてください。"
 
-#: kitsune/gallery/forms.py:21 kitsune/upload/forms.py:6
+#: kitsune/gallery/forms.py:24 kitsune/upload/forms.py:6
 msgid "You have not selected an image to upload."
 msgstr "アップロードする画像が選択されていません。"
 
-#: kitsune/gallery/forms.py:22 kitsune/upload/forms.py:7
+#: kitsune/gallery/forms.py:25 kitsune/upload/forms.py:7
 #, python-format
 msgid "Please keep the length of your image filename to %(max)s characters or less. It is currently %(length)s characters."
 msgstr "画像ファイルの名前が長すぎます (現在 %(length)s 文字)。%(max)s 文字以下にしてください。"
 
-#: kitsune/gallery/forms.py:25
+#: kitsune/gallery/forms.py:29
 msgid "Please select a different title."
 msgstr "別のタイトルを選択してください。"
 
-#: kitsune/gallery/forms.py:27
+#: kitsune/gallery/forms.py:31
 msgid "Include this in wiki syntax with [[Image:title]]"
 msgstr "これを Wiki 構文の [[Image:title]] にして挿入する"
 
-#: kitsune/gallery/forms.py:28
+#: kitsune/gallery/forms.py:32
 msgid "Provide a brief description of this media."
 msgstr "このメディアの簡単な説明を記入してください。"
 
-#: kitsune/gallery/forms.py:35 kitsune/questions/jinja2/questions/question_details.html:476 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
+#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:476 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
 msgid "Locale"
 msgstr "言語"
 
-#: kitsune/gallery/forms.py:41 kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:16 kitsune/kbforums/jinja2/kbforums/discussions.html:34 kitsune/kbforums/jinja2/kbforums/threads.html:35
+#: kitsune/gallery/forms.py:46 kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:16 kitsune/kbforums/jinja2/kbforums/discussions.html:34 kitsune/kbforums/jinja2/kbforums/threads.html:35
 #: kitsune/questions/jinja2/questions/confirm_question_delete.html:13 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:21 kitsune/wiki/jinja2/wiki/includes/recent_revisions_fragment.html:44
 msgid "Title"
 msgstr "タイトル"
 
-#: kitsune/gallery/forms.py:49 kitsune/gallery/jinja2/gallery/media.html:78
+#: kitsune/gallery/forms.py:58 kitsune/gallery/jinja2/gallery/media.html:78
 msgid "Description"
 msgstr "説明"
 
-#: kitsune/gallery/forms.py:71
+#: kitsune/gallery/forms.py:82
 msgid "Image"
 msgstr "画像"
 
-#: kitsune/gallery/forms.py:78
+#: kitsune/gallery/forms.py:89
 msgid "Accepted formats include: PNG, JPEG, GIF. <a target=\"_blank\" href=\"{learn_more}\">Learn more...</a>"
 msgstr "利用可能な画像形式は PNG, JPEG, GIF です。<a target=\"_blank\" href=\"{learn_more}\">詳しくはこちら...</a>"
 
-#: kitsune/gallery/views.py:86
+#: kitsune/gallery/views.py:91
 msgid "Unrecognized request or nothing to cancel."
 msgstr "認識できないリクエストまたはキャンセルなし。"
 
-#: kitsune/gallery/views.py:222
+#: kitsune/gallery/views.py:227
 msgid "Unrecognized media type."
 msgstr "認識できないメディア形式です。"
 
-#: kitsune/gallery/views.py:234
+#: kitsune/gallery/views.py:236
 msgid "Could not upload your image."
 msgstr "画像ファイルがアップロードできませんでした。"
 
@@ -1430,43 +1431,43 @@ msgstr "メディアのアップロードを続行"
 msgid "Your avatar will be resized to {size}x{size}"
 msgstr "アバターは {size}x{size} にサイズ変更されます"
 
-#: kitsune/groups/forms.py:46 kitsune/search/forms.py:127 kitsune/wiki/forms.py:330
+#: kitsune/groups/forms.py:46 kitsune/search/forms.py:153 kitsune/wiki/forms.py:361
 msgid "username"
 msgstr "ユーザー名"
 
-#: kitsune/groups/models.py:21 kitsune/users/models.py:42
+#: kitsune/groups/models.py:24 kitsune/users/models.py:51
 msgid "Avatar"
 msgstr "アバター"
 
-#: kitsune/groups/views.py:62
+#: kitsune/groups/views.py:69
 msgid "Group information updated successfully!"
 msgstr "グループ情報の更新が完了しました！"
 
-#: kitsune/groups/views.py:136
+#: kitsune/groups/views.py:141
 msgid "{users} added to the group successfully!"
 msgstr "{users} さんがグループに追加されました。"
 
-#: kitsune/groups/views.py:141
+#: kitsune/groups/views.py:145
 msgid "There were errors adding members to the group, see below."
 msgstr "グループにメンバーを追加する時にエラーが発生しました。以下を参照してください。"
 
-#: kitsune/groups/views.py:161
+#: kitsune/groups/views.py:165
 msgid "{user} removed from the group successfully!"
 msgstr "{user} さんがグループから削除されました。"
 
-#: kitsune/groups/views.py:186
+#: kitsune/groups/views.py:188
 msgid "{users} added to the group leaders successfully!"
 msgstr "{users} さんがグループリーダーに追加されました。"
 
-#: kitsune/groups/views.py:191
+#: kitsune/groups/views.py:194
 msgid "There were errors adding leaders to the group, see below."
 msgstr "グループにリーダーを追加する時にエラーが発生しました。以下を参照してください。"
 
-#: kitsune/groups/views.py:208
+#: kitsune/groups/views.py:211
 msgid "{user} removed from the group leaders successfully!"
 msgstr "{user} さんがグループリーダーから外されました。"
 
-#: kitsune/groups/views.py:225
+#: kitsune/groups/views.py:226
 msgid "You are now part of the Contributors group!"
 msgstr "貢献者グループに参加しました！"
 
@@ -1835,7 +1836,7 @@ msgstr "このロケールを監視"
 msgid "Watch"
 msgstr "監視"
 
-#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:83
+#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:92
 msgid "Replies"
 msgstr "返信"
 
@@ -1948,7 +1949,7 @@ msgstr "最後の返信者: "
 msgid "Sticky"
 msgstr "常駐"
 
-#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:75 kitsune/search/__init__.py:33 kitsune/search/forms.py:158
+#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:84 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
 msgid "Locked"
 msgstr "ロック"
 
@@ -2487,11 +2488,11 @@ msgstr "ボランティア"
 msgid "username1, username2,..."
 msgstr "ユーザー名1, ユーザー名2, ..."
 
-#: kitsune/messages/forms.py:13
+#: kitsune/messages/forms.py:14
 msgid "To:"
 msgstr "To:"
 
-#: kitsune/messages/forms.py:16
+#: kitsune/messages/forms.py:19
 msgid "Message:"
 msgstr "メッセージ:"
 
@@ -2499,19 +2500,19 @@ msgstr "メッセージ:"
 msgid "[SUMO] You have a new private message from [{sender}]"
 msgstr "[SUMO] [{sender}] さんからのプライベートメッセージが届いています。"
 
-#: kitsune/messages/views.py:82
+#: kitsune/messages/views.py:79
 msgid "Invalid username provided. Enter a new username below."
 msgstr "ユーザー名が不正です。別のユーザー名を入力してください。"
 
-#: kitsune/messages/views.py:114
+#: kitsune/messages/views.py:115
 msgid "No messages selected. Please try again."
 msgstr "メッセージが選択されていません。再度試してください。"
 
-#: kitsune/messages/views.py:149
+#: kitsune/messages/views.py:148
 msgid "Messages didn't add up. Try again."
 msgstr "メッセージが合いませんでした。再度試してください。"
 
-#: kitsune/messages/views.py:154
+#: kitsune/messages/views.py:152
 msgid "The message was deleted!"
 msgid_plural "The messages were deleted!"
 msgstr[0] "メッセージが削除されました！"
@@ -2644,7 +2645,7 @@ msgstr "購読解除しました"
 msgid "You have been unsubscribed."
 msgstr "変更通知を解除しました。"
 
-#: kitsune/products/models.py:95
+#: kitsune/products/models.py:103
 msgid "Whether this topic is shown to users in the AAQ or not."
 msgstr "このトピックは AAQ のユーザに表示されるかされないかのどちらかです。"
 
@@ -2668,12 +2669,12 @@ msgstr "Firefox をアップデート"
 msgid "Profiles"
 msgstr "プロファイル"
 
-#: kitsune/products/jinja2/products/product.html:41 kitsune/products/jinja2/products/product.html:44 kitsune/products/jinja2/products/product.html:111 kitsune/questions/config.py:79
-#: kitsune/questions/config.py:147
+#: kitsune/products/jinja2/products/product.html:41 kitsune/products/jinja2/products/product.html:44 kitsune/products/jinja2/products/product.html:111 kitsune/questions/config.py:97
+#: kitsune/questions/config.py:177
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: kitsune/products/jinja2/products/product.html:45 kitsune/products/jinja2/products/product.html:80 kitsune/questions/config.py:59 kitsune/questions/config.py:127
+#: kitsune/products/jinja2/products/product.html:45 kitsune/products/jinja2/products/product.html:80 kitsune/questions/config.py:77 kitsune/questions/config.py:157
 msgid "Bookmarks"
 msgstr "ブックマーク"
 
@@ -2875,7 +2876,7 @@ msgstr "サポートチームに連絡してヘルプを得る。"
 msgid "Ask a Question"
 msgstr "フォーラムで質問する"
 
-#: kitsune/products/jinja2/products/includes/topic_macros.html:84 kitsune/questions/jinja2/questions/metrics.html:60 kitsune/search/forms.py:92
+#: kitsune/products/jinja2/products/includes/topic_macros.html:84 kitsune/questions/jinja2/questions/metrics.html:60 kitsune/search/forms.py:104
 msgid "Topics"
 msgstr "トピック"
 
@@ -2883,320 +2884,320 @@ msgstr "トピック"
 msgid "All articles and threads"
 msgstr "すべての記事とスレッド"
 
-#: kitsune/questions/config.py:24 kitsune/sumo/jinja2/base.html:239
+#: kitsune/questions/config.py:27 kitsune/sumo/jinja2/base.html:239
 msgid "Firefox"
 msgstr "Firefox"
 
-#: kitsune/questions/config.py:25
+#: kitsune/questions/config.py:28
 msgid "Web browser for Windows, Mac and Linux"
 msgstr "Windows および Mac、Linux 向けのウェブブラウザー"
 
-#: kitsune/questions/config.py:33 kitsune/questions/config.py:101 kitsune/questions/config.py:234
+#: kitsune/questions/config.py:39 kitsune/questions/config.py:119 kitsune/questions/config.py:297
 msgid "Download, install and migration"
 msgstr "ダウンロードとインストール、データの移行"
 
-#: kitsune/questions/config.py:38 kitsune/questions/config.py:106 kitsune/questions/config.py:239
+#: kitsune/questions/config.py:47 kitsune/questions/config.py:127 kitsune/questions/config.py:305
 msgid "Privacy and security settings"
 msgstr "プライバシーとセキュリティの設定"
 
-#: kitsune/questions/config.py:43 kitsune/questions/config.py:111 kitsune/questions/config.py:244
+#: kitsune/questions/config.py:55 kitsune/questions/config.py:135 kitsune/questions/config.py:313
 msgid "Customize controls, options and add-ons"
 msgstr "ツールバーのカスタマイズと環境設定、アドオン"
 
-#: kitsune/questions/config.py:48 kitsune/questions/config.py:116 kitsune/questions/config.py:249
+#: kitsune/questions/config.py:63 kitsune/questions/config.py:143 kitsune/questions/config.py:321
 msgid "Fix slowness, crashing, error messages and other problems"
 msgstr "遅い動作、クラッシュ、エラーメッセージの解決と他の問題"
 
-#: kitsune/questions/config.py:54 kitsune/questions/config.py:122
+#: kitsune/questions/config.py:72 kitsune/questions/config.py:152
 msgid "Tips and tricks"
 msgstr "ヒントと活用法"
 
-#: kitsune/questions/config.py:64 kitsune/questions/config.py:132 kitsune/sumo/jinja2/base.html:300
+#: kitsune/questions/config.py:84 kitsune/questions/config.py:164 kitsune/sumo/jinja2/base.html:300
 msgid "Cookies"
 msgstr "Cookie"
 
-#: kitsune/questions/config.py:69 kitsune/questions/config.py:137
+#: kitsune/questions/config.py:86 kitsune/questions/config.py:166
 msgid "Tabs"
 msgstr "タブ"
 
-#: kitsune/questions/config.py:74 kitsune/questions/config.py:142
+#: kitsune/questions/config.py:90 kitsune/questions/config.py:170
 msgid "Websites"
 msgstr "ウェブサイト"
 
-#: kitsune/questions/config.py:84 kitsune/questions/config.py:152 kitsune/questions/config.py:261 kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:10
+#: kitsune/questions/config.py:99 kitsune/questions/config.py:179 kitsune/questions/config.py:337 kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:10
 msgid "Other"
 msgstr "その他"
 
-#: kitsune/questions/config.py:92 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:107 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Android 版 Firefox"
 
-#: kitsune/questions/config.py:93
+#: kitsune/questions/config.py:108
 msgid "Web browser for Android smartphones and tablets"
 msgstr "Android スマートフォンとタブレット向けのウェブブラウザー"
 
-#: kitsune/questions/config.py:160 kitsune/sumo/jinja2/includes/common_macros.html:67 kitsune/sumo/jinja2/includes/common_macros.html:86
+#: kitsune/questions/config.py:187 kitsune/sumo/jinja2/includes/common_macros.html:67 kitsune/sumo/jinja2/includes/common_macros.html:86
 msgid "Firefox for iOS"
 msgstr "iOS 版 Firefox"
 
-#: kitsune/questions/config.py:161
+#: kitsune/questions/config.py:188
 msgid "Firefox for iPhone, iPad and iPod touch devices"
 msgstr "iPhone、iPad、iPod touch 端末向け Firefox"
 
-#: kitsune/questions/config.py:167 kitsune/questions/config.py:346
+#: kitsune/questions/config.py:197 kitsune/questions/config.py:463
 msgid "Install and Update"
 msgstr "インストールと更新"
 
-#: kitsune/questions/config.py:172
+#: kitsune/questions/config.py:205
 msgid "How to use Firefox for iOS"
 msgstr "iOS 版 Firefox の使い方"
 
-#: kitsune/questions/config.py:177
+#: kitsune/questions/config.py:213
 msgid "Firefox for iOS is not working as expected"
 msgstr "iOS 版 Firefox が期待通りに動作しない"
 
-#: kitsune/questions/config.py:185
+#: kitsune/questions/config.py:225
 msgid "Firefox Focus"
 msgstr "Firefox Focus"
 
-#: kitsune/questions/config.py:186
+#: kitsune/questions/config.py:226
 msgid "Automatic privacy browser and content blocker"
 msgstr "自動プライバシーブラウザー兼コンテンツブロッカー"
 
-#: kitsune/questions/config.py:192
+#: kitsune/questions/config.py:235
 msgid "Firefox Focus for iOS"
 msgstr "iOS 版 Firefox Focus"
 
-#: kitsune/questions/config.py:197
+#: kitsune/questions/config.py:243
 msgid "Firefox Focus for Android"
 msgstr "Android 版 Firefox Focus"
 
-#: kitsune/questions/config.py:205
+#: kitsune/questions/config.py:255
 msgid "Firefox for Amazon Devices"
 msgstr "Amazon 端末向け Firefox"
 
-#: kitsune/questions/config.py:206
+#: kitsune/questions/config.py:256
 msgid "Browser for Amazon devices"
 msgstr "Amazon 端末向けブラウザー"
 
-#: kitsune/questions/config.py:212
+#: kitsune/questions/config.py:265
 msgid "Firefox for Fire TV"
 msgstr "Firefox for Fire TV"
 
-#: kitsune/questions/config.py:217
+#: kitsune/questions/config.py:273
 msgid "Firefox for Echo Show"
 msgstr "Firefox for Echo Show"
 
-#: kitsune/questions/config.py:225
+#: kitsune/questions/config.py:285
 msgid "Thunderbird"
 msgstr "Thunderbird"
 
-#: kitsune/questions/config.py:226
+#: kitsune/questions/config.py:286
 msgid "Email software for Windows, Mac and Linux"
 msgstr "Windows および Mac、Linux 向けのメールソフトウェア"
 
-#: kitsune/questions/config.py:256
+#: kitsune/questions/config.py:332
 msgid "Calendar"
 msgstr "カレンダー"
 
-#: kitsune/questions/config.py:269
+#: kitsune/questions/config.py:345
 msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
-#: kitsune/questions/config.py:270
+#: kitsune/questions/config.py:346
 #, fuzzy
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr "インドネシアおよびインド、フィリピン、タイのユーザー向けのモバイルブラウザー"
 
-#: kitsune/questions/config.py:276 kitsune/questions/config.py:425
+#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
 msgid "Get started"
 msgstr "はじめに"
 
-#: kitsune/questions/config.py:281
+#: kitsune/questions/config.py:365
 msgid "Fix problems"
 msgstr "問題を解決"
 
-#: kitsune/questions/config.py:289
+#: kitsune/questions/config.py:377
 msgid "Firefox for Enterprise"
 msgstr "法人向け Firefox"
 
-#: kitsune/questions/config.py:290
+#: kitsune/questions/config.py:378
 #, fuzzy
 msgid "Firefox Quantum for businesses"
 msgstr "法人向け Firefox Quantum"
 
-#: kitsune/questions/config.py:296
+#: kitsune/questions/config.py:387
 msgid "Deploy"
 msgstr "展開"
 
-#: kitsune/questions/config.py:301
+#: kitsune/questions/config.py:395
 msgid "Manage updates, policies & customization"
 msgstr "更新、ポリシー、カスタマイズの管理"
 
-#: kitsune/questions/config.py:306
+#: kitsune/questions/config.py:403
 msgid "Manage add-ons"
 msgstr "アドオンの管理"
 
-#: kitsune/questions/config.py:311
+#: kitsune/questions/config.py:411
 msgid "Manage certificates"
 msgstr "証明書の管理"
 
-#: kitsune/questions/config.py:319
+#: kitsune/questions/config.py:423
 msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
-#: kitsune/questions/config.py:320
+#: kitsune/questions/config.py:424
 #, fuzzy
 msgid "Firefox for Virtual Reality headsets"
 msgstr "仮想現実 (VR) 向け Firefox"
 
-#: kitsune/questions/config.py:326
+#: kitsune/questions/config.py:433
 msgid "Get started with Firefox Reality"
 msgstr "初めての Firefox Reality"
 
-#: kitsune/questions/config.py:331
+#: kitsune/questions/config.py:441
 msgid "Troubleshooting Firefox Reality"
 msgstr "Firefox Reality のトラブルシューティング"
 
-#: kitsune/questions/config.py:339
+#: kitsune/questions/config.py:453
 #, fuzzy
 msgid "Firefox for Android Beta"
 msgstr "Android 版 Firefox"
 
-#: kitsune/questions/config.py:340
+#: kitsune/questions/config.py:454
 #, fuzzy
 msgid "Early version of an experimental Firefox browser for Android"
 msgstr "Android 版 Firefox ブラウザーの実験的な早期バージョン。"
 
-#: kitsune/questions/config.py:351
+#: kitsune/questions/config.py:471
 msgid "How do I use Firefox Preview"
 msgstr "Firefox Preview の使い方"
 
-#: kitsune/questions/config.py:356
+#: kitsune/questions/config.py:479
 msgid "Browsing"
 msgstr "ブラウジング"
 
-#: kitsune/questions/config.py:361
+#: kitsune/questions/config.py:486
 msgid "Library"
 msgstr "ライブラリー"
 
-#: kitsune/questions/config.py:366
+#: kitsune/questions/config.py:490
 msgid "Sync"
 msgstr "Firefox Sync"
 
-#: kitsune/questions/config.py:371
+#: kitsune/questions/config.py:495
 msgid "Privacy and Security"
 msgstr "プライバシーとセキュリティ"
 
-#: kitsune/questions/config.py:376
+#: kitsune/questions/config.py:503
 msgid "Fix problems with Firefox Preview"
 msgstr "Firefox Preview の問題の解決"
 
-#: kitsune/questions/config.py:381
+#: kitsune/questions/config.py:511
 msgid "Settings and Preferences"
 msgstr "設定"
 
-#: kitsune/questions/config.py:386
+#: kitsune/questions/config.py:519
 msgid "Advanced Settings"
 msgstr "詳細設定"
 
-#: kitsune/questions/config.py:393 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:531 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:394
+#: kitsune/questions/config.py:532
 #, fuzzy
 msgid "Mobile app that gives you access to passwords you have saved to Firefox"
 msgstr "Firefox に保存したパスワードにアクセスできるモバイルアプリ。"
 
-#: kitsune/questions/config.py:401
+#: kitsune/questions/config.py:543
 msgid "Install and set up"
 msgstr "インストールとセットアップ"
 
-#: kitsune/questions/config.py:406
+#: kitsune/questions/config.py:551
 msgid "Manage settings and logins"
 msgstr "設定とログイン情報の管理"
 
-#: kitsune/questions/config.py:411
+#: kitsune/questions/config.py:559
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Firefox Lockwise の問題の解決"
 
-#: kitsune/questions/config.py:418
+#: kitsune/questions/config.py:571
 msgid "Firefox Private Network Browser-level Protection"
 msgstr "Firefox Private Network ブラウザーレベルの保護"
 
-#: kitsune/questions/config.py:419
+#: kitsune/questions/config.py:572
 #, fuzzy
 msgid "Browse securely on public Wi-Fi"
 msgstr "公共 Wi-Fi で安全にブラウジング"
 
-#: kitsune/questions/config.py:430
+#: kitsune/questions/config.py:589
 msgid "Manage accounts and settings"
 msgstr "アカウントの管理と設定"
 
-#: kitsune/questions/config.py:435
+#: kitsune/questions/config.py:597
 msgid "Fix problems with Firefox Private Network"
 msgstr "Firefox Private Network の問題の解決"
 
-#: kitsune/questions/config.py:442
+#: kitsune/questions/config.py:609
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla ニュース"
 
-#: kitsune/questions/config.py:443
+#: kitsune/questions/config.py:610
 #, fuzzy
 msgid "VPN for Windows 10, Android and iOS devices"
 msgstr "Windows 10 と Android 端末向け VPN"
 
-#: kitsune/questions/config.py:449
+#: kitsune/questions/config.py:619
 msgid "Technical"
 msgstr "技術"
 
-#: kitsune/questions/config.py:454
+#: kitsune/questions/config.py:627
 msgid "Accounts"
 msgstr "アカウント"
 
-#: kitsune/questions/config.py:459
+#: kitsune/questions/config.py:635
 msgid "Payments"
 msgstr "支払い"
 
-#: kitsune/questions/config.py:464 kitsune/wiki/config.py:83
+#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
 
-#: kitsune/questions/events.py:33
+#: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
 msgstr "あなたのメールアドレスのメールを確認してください"
 
-#: kitsune/questions/events.py:87
+#: kitsune/questions/events.py:93
 #, python-format
 msgid "%s posted an answer to your question \"%s\""
 msgstr "%s さんがあなたの質問 \"%s\" に回答しました"
 
-#: kitsune/questions/events.py:92
+#: kitsune/questions/events.py:98
 #, python-format
 msgid "Re: %s"
 msgstr "Re: %s"
 
-#: kitsune/questions/events.py:135
+#: kitsune/questions/events.py:142
 #, python-format
 msgid "New answers for question: %s"
 msgstr "質問への新しい回答: %s"
 
-#: kitsune/questions/events.py:151
+#: kitsune/questions/events.py:159
 msgid "Solution found to Firefox Help question"
 msgstr "解決策が見つかった Firefox ヘルプへの質問"
 
-#: kitsune/questions/events.py:189
+#: kitsune/questions/events.py:199
 #, python-format
 msgid "Solution found for question: %s"
 msgstr "解決策が見つかった質問: %s"
 
-#: kitsune/questions/feeds.py:38
+#: kitsune/questions/feeds.py:39
 msgid "Recently updated questions"
 msgstr "最近更新された質問"
 
-#: kitsune/questions/feeds.py:86
+#: kitsune/questions/feeds.py:87
 #, python-format
 msgid "Recently updated questions tagged %s"
 msgstr "%s タグの付きの最近更新された質問"
@@ -3302,123 +3303,123 @@ msgstr "ここに返信を記入してください。"
 msgid "Enter your email address here."
 msgstr "ここにあなたのメールアドレスを記入してください。"
 
-#: kitsune/questions/forms.py:162
+#: kitsune/questions/forms.py:152
 msgid " (optional):"
 msgstr ""
 
-#: kitsune/questions/forms.py:308
+#: kitsune/questions/forms.py:296
 msgid "Please provide an email."
 msgstr "メールアドレスを記入してください。"
 
-#: kitsune/questions/forms.py:322
+#: kitsune/questions/forms.py:310
 msgid "Interval"
 msgstr "期間"
 
-#: kitsune/questions/forms.py:325
+#: kitsune/questions/forms.py:313
 msgid "Start"
 msgstr "開始日"
 
-#: kitsune/questions/forms.py:326
+#: kitsune/questions/forms.py:314
 msgid "End"
 msgstr "終了日"
 
-#: kitsune/questions/views.py:60
+#: kitsune/questions/views.py:72
 msgid "That tag does not exist."
 msgstr "そのタグは存在しません。"
 
-#: kitsune/questions/views.py:61
+#: kitsune/questions/views.py:73
 msgid "Please provide a tag."
 msgstr "タグを記入してください。"
 
-#: kitsune/questions/views.py:65
+#: kitsune/questions/views.py:77
 msgid "Recently unanswered"
 msgstr "最近の未回答の質問"
 
-#: kitsune/questions/views.py:67
+#: kitsune/questions/views.py:79
 msgid "New"
 msgstr "新着"
 
-#: kitsune/questions/views.py:67
+#: kitsune/questions/views.py:79
 msgid "Answers didn't help"
 msgstr "助けにならなかった回答"
 
-#: kitsune/questions/views.py:71
+#: kitsune/questions/views.py:82
 msgid "Needs info"
 msgstr "情報が必要"
 
-#: kitsune/questions/views.py:72
+#: kitsune/questions/views.py:82
 msgid "Solution provided"
 msgstr "提供された解決策"
 
-#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:75 kitsune/search/forms.py:166 kitsune/search/jinja2/search/includes/result.html:20
+#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:84 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
 msgid "Solved"
 msgstr "解決済み"
 
-#: kitsune/questions/views.py:80
+#: kitsune/questions/views.py:89
 msgid "Updated"
 msgstr "更新日"
 
-#: kitsune/questions/views.py:81
+#: kitsune/questions/views.py:90
 msgid "Views"
 msgstr "表示回数"
 
-#: kitsune/questions/views.py:82 kitsune/search/forms.py:178
+#: kitsune/questions/views.py:91 kitsune/search/forms.py:243
 msgid "Votes"
 msgstr "投票"
 
-#: kitsune/questions/views.py:479
+#: kitsune/questions/views.py:471
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "質問フォーラムは {old_lang} で利用できません。{new_lang} の質問フォーラムへリダイレクトします。"
 
-#: kitsune/questions/views.py:528
+#: kitsune/questions/views.py:517
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "{product} の質問フォーラムは {old_lang} で利用できません。{new_lang} の質問フォーラムへリダイレクトします。"
 
-#: kitsune/questions/views.py:578
+#: kitsune/questions/views.py:566
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:782
+#: kitsune/questions/views.py:759
 msgid "Thank you for choosing a solution!"
 msgstr "解決策を選んでいただきありがとうございます！"
 
-#: kitsune/questions/views.py:787
+#: kitsune/questions/views.py:762
 msgid "This question already has a solution."
 msgstr "この質問はすでに解決しています。"
 
-#: kitsune/questions/views.py:813
+#: kitsune/questions/views.py:784
 msgid "The solution was undone successfully."
 msgstr "解決策はうまくいきませんでした。"
 
-#: kitsune/questions/views.py:889
+#: kitsune/questions/views.py:855
 msgid "Glad to hear it!"
 msgstr "ありがとうございます！"
 
-#: kitsune/questions/views.py:891 kitsune/wiki/views.py:1137
+#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "お役に立てず申し訳ありません。"
 
-#: kitsune/questions/views.py:911
+#: kitsune/questions/views.py:877
 msgid "You already voted on this reply."
 msgstr "この返信にはすでに投票済みです。"
 
-#: kitsune/questions/views.py:1208
+#: kitsune/questions/views.py:1160
 msgid "Could not send a message to that email address."
 msgstr "指定されたメールアドレスにメッセージを送信できませんでした。"
 
-#: kitsune/questions/views.py:1214
+#: kitsune/questions/views.py:1166
 msgid "You will be notified of updates by email."
 msgstr "メールによる更新通知を受け取ります。"
 
-#: kitsune/questions/views.py:1216
+#: kitsune/questions/views.py:1168
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "購読を確認するためのメールを送信しました。"
 
-#: kitsune/questions/views.py:1440
+#: kitsune/questions/views.py:1385
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr "{user} さんを画面共有セッションに招待しました。セッションが完了したらここにその後の情報を提供します。"
 
-#: kitsune/questions/views.py:1553
+#: kitsune/questions/views.py:1498
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -3716,11 +3717,11 @@ msgstr "フィードを購読する"
 msgid "Invite to share screen"
 msgstr "画面共有に招待する"
 
-#: kitsune/questions/jinja2/questions/question_details.html:386 kitsune/search/forms.py:183
+#: kitsune/questions/jinja2/questions/question_details.html:386 kitsune/search/forms.py:249
 msgid "Tags"
 msgstr "タグ"
 
-#: kitsune/questions/jinja2/questions/question_details.html:429 kitsune/tags/forms.py:120
+#: kitsune/questions/jinja2/questions/question_details.html:429 kitsune/tags/forms.py:125
 msgid "Add"
 msgstr "追加"
 
@@ -3828,7 +3829,7 @@ msgstr "完了"
 msgid "Contributed"
 msgstr "貢献"
 
-#: kitsune/questions/jinja2/questions/question_list.html:208 kitsune/search/forms.py:162
+#: kitsune/questions/jinja2/questions/question_list.html:208 kitsune/search/forms.py:208
 msgid "Archived"
 msgstr "アーカイブに保管済み"
 
@@ -4356,72 +4357,72 @@ msgstr "回答数"
 msgid "Helpful votes"
 msgstr "役に立つ評価数"
 
-#: kitsune/search/es_utils.py:875 kitsune/search/jinja2/search/down.html:5
+#: kitsune/search/es_utils.py:857 kitsune/search/jinja2/search/down.html:5
 msgid "Search Unavailable"
 msgstr "検索システムは現在利用できません"
 
-#: kitsune/search/forms.py:38 kitsune/search/forms.py:103
+#: kitsune/search/forms.py:42 kitsune/search/forms.py:119
 msgid "Relevant to"
 msgstr "関連性:"
 
-#: kitsune/search/forms.py:94 kitsune/sumo/jinja2/base.html:271 kitsune/sumo/jinja2/base.html:272
+#: kitsune/search/forms.py:107 kitsune/sumo/jinja2/base.html:271 kitsune/sumo/jinja2/base.html:272
 msgid "Language"
 msgstr "言語"
 
-#: kitsune/search/forms.py:99
+#: kitsune/search/forms.py:113
 msgid "Category"
 msgstr "カテゴリー"
 
-#: kitsune/search/forms.py:107
+#: kitsune/search/forms.py:123
 msgid "Include obsolete articles?"
 msgstr "古い記事を含む？"
 
-#: kitsune/search/forms.py:112 kitsune/search/forms.py:134 kitsune/search/forms.py:154
+#: kitsune/search/forms.py:129 kitsune/search/forms.py:161 kitsune/search/forms.py:190
 msgid "Sort results by"
 msgstr "結果の並び順"
 
-#: kitsune/search/forms.py:118
+#: kitsune/search/forms.py:138
 msgid "Created"
 msgstr "作成日"
 
-#: kitsune/search/forms.py:124
+#: kitsune/search/forms.py:148
 msgid "Last updated"
 msgstr "最終更新日時"
 
-#: kitsune/search/forms.py:138
+#: kitsune/search/forms.py:169
 msgid "Thread type"
 msgstr "スレッド形式"
 
-#: kitsune/search/forms.py:144
+#: kitsune/search/forms.py:177
 msgid "Search in forum"
 msgstr "対象のフォーラム"
 
-#: kitsune/search/forms.py:170
+#: kitsune/search/forms.py:226
 msgid "Has answers"
 msgstr "回答あり"
 
-#: kitsune/search/forms.py:174
+#: kitsune/search/forms.py:235
 msgid "Has helpful answers"
 msgstr "役立つ回答あり"
 
-#: kitsune/search/forms.py:181
+#: kitsune/search/forms.py:248
 msgid "tag1, tag2"
 msgstr "タグ1, タグ2"
 
-#: kitsune/search/views.py:42
+#: kitsune/search/views.py:41
 msgctxt "between search excerpts"
 msgid "..."
 msgstr "..."
 
-#: kitsune/search/views.py:154 kitsune/search/views.py:276
+#: kitsune/search/views.py:151 kitsune/search/views.py:276
 msgid "Invalid search data."
 msgstr "無効な検索データです。"
 
-#: kitsune/search/views.py:227 kitsune/search/views.py:574
+#: kitsune/search/views.py:225 kitsune/search/views.py:577
 msgid "No pages matched the search criteria"
 msgstr "検索条件に一致するページはありません"
 
-#: kitsune/search/views.py:615
+#: kitsune/search/views.py:619
 msgid "No title"
 msgstr "タイトルなし"
 
@@ -4569,252 +4570,252 @@ msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2021."
 msgstr "このバッジは 2021 年に英語版ナレッジベース記事の編集が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:20
+#: kitsune/sumo/db_strings.py:23
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 KB Badge"
 msgstr "2020 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:21
+#: kitsune/sumo/db_strings.py:24
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2020."
 msgstr "このバッジは 2020 年に英語版ナレッジベース記事の編集が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:22
+#: kitsune/sumo/db_strings.py:28
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 KB Badge"
 msgstr "2019 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:23
+#: kitsune/sumo/db_strings.py:29
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2019."
 msgstr "このバッジは 2019 年に英語版ナレッジベース記事の編集が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:24
+#: kitsune/sumo/db_strings.py:33
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 Support Forum Badge"
 msgstr "2020 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:25
+#: kitsune/sumo/db_strings.py:34
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2020."
 msgstr "このバッジは 2020 年にサポートフォーラムで 20 件の回答を行った貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:26
+#: kitsune/sumo/db_strings.py:38
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 Support Forum Badge"
 msgstr "2019 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:27
+#: kitsune/sumo/db_strings.py:39
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2019."
 msgstr "このバッジは 2019 年にサポートフォーラムで 20 件の回答を行った貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:28
+#: kitsune/sumo/db_strings.py:43
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 Army of Awesome Badge"
 msgstr "2020 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:29
+#: kitsune/sumo/db_strings.py:44
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2020."
 msgstr "このバッジは 2020 年に Army of Awesome で 50 回以上ツイートした貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:30
+#: kitsune/sumo/db_strings.py:48
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 Army of Awesome Badge"
 msgstr "2019 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:31
+#: kitsune/sumo/db_strings.py:49
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2019."
 msgstr "このバッジは 2019 年に Army of Awesome で 50 回以上ツイートした貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:32
+#: kitsune/sumo/db_strings.py:53
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 L10n Badge"
 msgstr "2020 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:33
+#: kitsune/sumo/db_strings.py:54
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2020."
 msgstr "このバッジは 2020 年にナレッジベースの翻訳が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:34
+#: kitsune/sumo/db_strings.py:58
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 L10n Badge"
 msgstr "2019 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:35
+#: kitsune/sumo/db_strings.py:59
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2019."
 msgstr "このバッジは 2019 年にナレッジベースの翻訳が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:36
+#: kitsune/sumo/db_strings.py:63
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 L10n Badge"
 msgstr "2018 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:37
+#: kitsune/sumo/db_strings.py:64
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2018."
 msgstr "このバッジは 2018 年にナレッジベースの翻訳が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:38
+#: kitsune/sumo/db_strings.py:68
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 KB Badge"
 msgstr "2018 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:39
+#: kitsune/sumo/db_strings.py:69
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2018."
 msgstr "このバッジは 2018 年に英語版ナレッジベース記事の編集が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:40
+#: kitsune/sumo/db_strings.py:73
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 Army of Awesome Badge"
 msgstr "2018 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:41
+#: kitsune/sumo/db_strings.py:74
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2018."
 msgstr "このバッジは 2018 年に Army of Awesome で 50 回以上ツイートした貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:42
+#: kitsune/sumo/db_strings.py:78
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 Support Forum Badge"
 msgstr "2018 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:43
+#: kitsune/sumo/db_strings.py:79
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2018."
 msgstr "このバッジは 2018 年にサポートフォーラムで 20 件の回答を行った貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:44
+#: kitsune/sumo/db_strings.py:83
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 L10n Badge"
 msgstr "2017 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:45
+#: kitsune/sumo/db_strings.py:84
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2017."
 msgstr "このバッジは 2017 年にナレッジベースの翻訳が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:46
+#: kitsune/sumo/db_strings.py:88
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 KB Badge"
 msgstr "2017 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:47
+#: kitsune/sumo/db_strings.py:89
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2017."
 msgstr "このバッジは 2017 年に英語版ナレッジベース記事の編集が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:48
+#: kitsune/sumo/db_strings.py:93
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 Army of Awesome Badge"
 msgstr "2017 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:49
+#: kitsune/sumo/db_strings.py:94
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2017."
 msgstr "このバッジは 2017 年に Army of Awesome で 50 回以上ツイートした貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:50
+#: kitsune/sumo/db_strings.py:98
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 Support Forum Badge"
 msgstr "2017 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:51
+#: kitsune/sumo/db_strings.py:99
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2017."
 msgstr "このバッジは 2017 年にサポートフォーラムで 20 件の回答を行った貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:52
+#: kitsune/sumo/db_strings.py:103
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 L10n Badge"
 msgstr "2016 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:53
+#: kitsune/sumo/db_strings.py:104
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2016."
 msgstr "このバッジは 2016 年にナレッジベースの翻訳が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:54
+#: kitsune/sumo/db_strings.py:108
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 Support Forum Badge"
 msgstr "2016 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:55
+#: kitsune/sumo/db_strings.py:109
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 30 support forum replies during 2016."
 msgstr "このバッジは 2016 年にサポートフォーラムで 30 件の回答を行った貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:56
+#: kitsune/sumo/db_strings.py:113
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 KB Badge"
 msgstr "2016 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:57
+#: kitsune/sumo/db_strings.py:114
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2016."
 msgstr "このバッジは 2016 年に英語版ナレッジベース記事の編集が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:58
+#: kitsune/sumo/db_strings.py:118
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 Army of Awesome Badge"
 msgstr "2016 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:59
+#: kitsune/sumo/db_strings.py:119
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2016."
 msgstr "このバッジは 2016 年に Army of Awesome で 50 回以上ツイートした貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:60
+#: kitsune/sumo/db_strings.py:123
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 Support Forum Badge"
 msgstr "2015 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:61
+#: kitsune/sumo/db_strings.py:124
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 30 support forum replies during 2015."
 msgstr "このバッジは 2015 年にサポートフォーラムで 30 件の回答を行った貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:62
+#: kitsune/sumo/db_strings.py:128
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 Army of Awesome Badge"
 msgstr "2015 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:63
+#: kitsune/sumo/db_strings.py:129
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2015."
 msgstr "このバッジは 2015 年に Army of Awesome で 50 回以上ツイートした貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:64
+#: kitsune/sumo/db_strings.py:133
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 KB Badge"
 msgstr "2015 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:65
+#: kitsune/sumo/db_strings.py:134
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2015."
 msgstr "このバッジは 2015 年に英語版ナレッジベース記事の編集が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:66
+#: kitsune/sumo/db_strings.py:138
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 L10n Badge"
 msgstr "2015 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:67
+#: kitsune/sumo/db_strings.py:139
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2015."
 msgstr "このバッジは 2015 年にナレッジベースの翻訳が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:68
+#: kitsune/sumo/db_strings.py:143
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 Army of Awesome Badge"
 msgstr "2014 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:69
+#: kitsune/sumo/db_strings.py:144
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2014 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2014; in this case: 50 Army of Awesome tweets.\n"
@@ -4825,12 +4826,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO Army of Awesome 2014 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:72
+#: kitsune/sumo/db_strings.py:150
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 L10n Badge"
 msgstr "2014 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:73
+#: kitsune/sumo/db_strings.py:151
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2014 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2014; in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -4841,12 +4842,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO L10n 2014 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:76
+#: kitsune/sumo/db_strings.py:157
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 KB Badge"
 msgstr "2014 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:77
+#: kitsune/sumo/db_strings.py:158
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2014 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2014; in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -4857,12 +4858,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO KB 2014 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:80
+#: kitsune/sumo/db_strings.py:164
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 Support Forum Badge"
 msgstr "2014 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:81
+#: kitsune/sumo/db_strings.py:165
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2014 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2014 in this case: 30 replies in the English SUMO Forum.\n"
@@ -4873,12 +4874,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO フォーラム 2014 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:84
+#: kitsune/sumo/db_strings.py:171
 msgctxt "DB: kbadge.Badge.title"
 msgid "Firefox 29 Launch Team"
 msgstr "Firefox 29 リリースチーム"
 
-#: kitsune/sumo/db_strings.py:85
+#: kitsune/sumo/db_strings.py:172
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "Awarded to support contributors who contributed (KB article documentation, answering Forum Questions, localizing KB article documentation, tweets, etc) to the launch of Firefox 29, thanks! \n"
@@ -4907,32 +4908,32 @@ msgstr ""
 "\n"
 "https://sumo.etherpad.mozilla.org/sumo-australis-badges"
 
-#: kitsune/sumo/db_strings.py:97
+#: kitsune/sumo/db_strings.py:187
 msgctxt "DB: kbadge.Badge.title"
 msgid "2008 L10n Badge"
 msgstr "2008 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:98
+#: kitsune/sumo/db_strings.py:188
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2008."
 msgstr "このバッジは 2008 年にナレッジベースの翻訳が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:99
+#: kitsune/sumo/db_strings.py:192
 msgctxt "DB: kbadge.Badge.title"
 msgid "2009 L10n Badge"
 msgstr "2009 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:100
+#: kitsune/sumo/db_strings.py:193
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2009."
 msgstr "このバッジは 2009 年にナレッジベースの翻訳が 10 件以上承認された貢献者に授与されます。"
 
-#: kitsune/sumo/db_strings.py:101
+#: kitsune/sumo/db_strings.py:197
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 Army of Awesome Badge"
 msgstr "2012 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:102
+#: kitsune/sumo/db_strings.py:198
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2012 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2012; in this case: 50 Army of Awesome tweets.\n"
@@ -4943,12 +4944,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO Army of Awesome 2012 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:105
+#: kitsune/sumo/db_strings.py:204
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 Army of Awesome Badge"
 msgstr "2013 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:106
+#: kitsune/sumo/db_strings.py:205
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2013 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2013; in this case: 50 Army of Awesome tweets.\n"
@@ -4959,12 +4960,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO Army of Awesome 2013 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:109
+#: kitsune/sumo/db_strings.py:211
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 Army of Awesome Badge"
 msgstr "2010 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:110
+#: kitsune/sumo/db_strings.py:212
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2010 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2010; in this case: 50 Army of Awesome tweets.\n"
@@ -4975,12 +4976,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO Army of Awesome 2010 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:113
+#: kitsune/sumo/db_strings.py:218
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 Army of Awesome Badge"
 msgstr "2011 Army of Awesome バッジ"
 
-#: kitsune/sumo/db_strings.py:114
+#: kitsune/sumo/db_strings.py:219
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2011 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2011; in this case: 50 Army of Awesome tweets.\n"
@@ -4991,12 +4992,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO Army of Awesome 2011 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:117
+#: kitsune/sumo/db_strings.py:225
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 Support Forum Badge"
 msgstr "2012 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:118
+#: kitsune/sumo/db_strings.py:226
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2012 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2012 in this case: 30 replies in the English SUMO Forum.\n"
@@ -5007,12 +5008,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO フォーラム 2012 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:121
+#: kitsune/sumo/db_strings.py:232
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 KB Badge"
 msgstr "2010 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:122
+#: kitsune/sumo/db_strings.py:233
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2010 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2010; in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -5023,12 +5024,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO KB 2010 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:125
+#: kitsune/sumo/db_strings.py:239
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 L10n Badge"
 msgstr "2010 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:126
+#: kitsune/sumo/db_strings.py:240
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2010 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2010; in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -5039,12 +5040,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO L10n 2010 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:129
+#: kitsune/sumo/db_strings.py:246
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 Support Forum Badge"
 msgstr "2010 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:130
+#: kitsune/sumo/db_strings.py:247
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2010 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2010 in this case: 30 replies in the English SUMO Forum.\n"
@@ -5055,12 +5056,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO フォーラム 2010 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:133
+#: kitsune/sumo/db_strings.py:253
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 KB Badge"
 msgstr "2011 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:134
+#: kitsune/sumo/db_strings.py:254
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2011 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2011; in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -5071,12 +5072,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO KB 2011 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:137
+#: kitsune/sumo/db_strings.py:260
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 L10n Badge"
 msgstr "2011 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:138
+#: kitsune/sumo/db_strings.py:261
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2011 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2011; in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -5087,12 +5088,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO L10n 2011 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:141
+#: kitsune/sumo/db_strings.py:267
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 Support Forum Badge"
 msgstr "2011 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:142
+#: kitsune/sumo/db_strings.py:268
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2011 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2011 in this case: 30 replies in the English SUMO Forum.\n"
@@ -5103,12 +5104,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO フォーラム 2011 バッジを授与します。\n"
 
-#: kitsune/sumo/db_strings.py:146
+#: kitsune/sumo/db_strings.py:275
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 KB Badge"
 msgstr "2012 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:147
+#: kitsune/sumo/db_strings.py:276
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2012 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2012; in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -5119,12 +5120,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO KB 2012 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:150
+#: kitsune/sumo/db_strings.py:282
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 KB Badge"
 msgstr "2013 ナレッジベースバッジ"
 
-#: kitsune/sumo/db_strings.py:151
+#: kitsune/sumo/db_strings.py:283
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2013 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2013 in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -5135,12 +5136,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO KB 2013 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:154
+#: kitsune/sumo/db_strings.py:289
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 L10n Badge"
 msgstr "2013 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:155
+#: kitsune/sumo/db_strings.py:290
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2013 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2013 in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -5151,12 +5152,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO L10n 2013 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:158
+#: kitsune/sumo/db_strings.py:296
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 Support Forum Badge"
 msgstr "2013 サポートフォーラムバッジ"
 
-#: kitsune/sumo/db_strings.py:159
+#: kitsune/sumo/db_strings.py:297
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2013 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2013 in this case: 30 replies in the English SUMO Forum.\n"
@@ -5167,12 +5168,12 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO フォーラム 2013 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:162
+#: kitsune/sumo/db_strings.py:303
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 L10n Badge"
 msgstr "2012 L10n バッジ"
 
-#: kitsune/sumo/db_strings.py:163
+#: kitsune/sumo/db_strings.py:304
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2012 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2012; in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -5183,2316 +5184,2316 @@ msgstr ""
 "\n"
 "Mozilla のミッションを促進したことを称え、SUMO L10n 2012 バッジを授与します。"
 
-#: kitsune/sumo/db_strings.py:166
+#: kitsune/sumo/db_strings.py:310
 msgctxt "DB: kbadge.Badge.title"
 msgid "Kitsune Contributor"
 msgstr "Kitsune の貢献者"
 
-#: kitsune/sumo/db_strings.py:167
+#: kitsune/sumo/db_strings.py:311
 msgctxt "DB: kbadge.Badge.description"
 msgid "Badge awarded to those who have contributed to the Kitsune code base."
 msgstr "Kitsune コードベースに貢献した人に授与されるバッジです。"
 
-#: kitsune/sumo/db_strings.py:168 kitsune/sumo/db_strings.py:296
+#: kitsune/sumo/db_strings.py:315 kitsune/sumo/db_strings.py:552
 msgctxt "DB: products.Topic.title"
 msgid "Learn the Basics: get started"
 msgstr "基本を学ぼう: はじめに"
 
-#: kitsune/sumo/db_strings.py:169
+#: kitsune/sumo/db_strings.py:316
 msgctxt "DB: products.Topic.description"
 msgid "Learn all you need to know to get started with Firefox."
 msgstr "Firefox を使い始めるのに必要なすべてのことを学びます。"
 
-#: kitsune/sumo/db_strings.py:170 kitsune/sumo/db_strings.py:340
+#: kitsune/sumo/db_strings.py:319 kitsune/sumo/db_strings.py:624
 msgctxt "DB: products.Topic.title"
 msgid "Bookmarks and tabs"
 msgstr "ブックマークとタブ"
 
-#: kitsune/sumo/db_strings.py:171
+#: kitsune/sumo/db_strings.py:320
 msgctxt "DB: products.Topic.description"
 msgid "Access and organize your favorite webpages easily with bookmarks and tabs"
 msgstr "ブックマークとタブを利用して、お気に入りのウェブページを簡単に開いたり整理したりしましょう"
 
-#: kitsune/sumo/db_strings.py:172 kitsune/sumo/db_strings.py:270 kitsune/sumo/db_strings.py:332
+#: kitsune/sumo/db_strings.py:324 kitsune/sumo/db_strings.py:504 kitsune/sumo/db_strings.py:613
 msgctxt "DB: products.Topic.title"
 msgid "Basic browsing"
 msgstr "基本的なブラウジング"
 
-#: kitsune/sumo/db_strings.py:173 kitsune/sumo/db_strings.py:271
+#: kitsune/sumo/db_strings.py:325 kitsune/sumo/db_strings.py:505
 msgctxt "DB: products.Topic.description"
 msgid "Search and navigate easily with these essential features"
 msgstr "基本機能を使用して簡単に検索や閲覧をしましょう"
 
-#: kitsune/sumo/db_strings.py:174
+#: kitsune/sumo/db_strings.py:329
 msgctxt "DB: products.Topic.title"
 msgid "Import settings from other browsers"
 msgstr "他のブラウザーから設定をインポートしましょう"
 
-#: kitsune/sumo/db_strings.py:175
+#: kitsune/sumo/db_strings.py:330
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to import or export your information between Firefox and another browser"
 msgstr "Firefox とその他のブラウザー間で情報をインポートまたはエクスポートする方法を学びます"
 
-#: kitsune/sumo/db_strings.py:176
+#: kitsune/sumo/db_strings.py:334
 msgctxt "DB: products.Topic.title"
 msgid "Video, audio and interactive settings"
 msgstr "Firefox が動画、アニメーション、音楽、その他のインタラクティブなコンテンツを制御する方法の変更"
 
-#: kitsune/sumo/db_strings.py:177
+#: kitsune/sumo/db_strings.py:335
 msgctxt "DB: products.Topic.description"
 msgid "Change how Firefox handles videos, animations, music and other interactive content"
 msgstr "Firefox が動画、アニメーション、音楽、その他のインタラクティブなコンテンツを制御する方法の変更。"
 
-#: kitsune/sumo/db_strings.py:178
+#: kitsune/sumo/db_strings.py:339
 msgctxt "DB: products.Topic.title"
 msgid "How to use Firefox"
 msgstr "Firefox の使い方"
 
-#: kitsune/sumo/db_strings.py:179
+#: kitsune/sumo/db_strings.py:340
 msgctxt "DB: products.Topic.description"
 msgid "How to browse, search and customize your settings"
 msgstr "ブラウジング、検索、設定のカスタマイズ方法"
 
-#: kitsune/sumo/db_strings.py:180 kitsune/sumo/db_strings.py:298 kitsune/sumo/db_strings.py:600
+#: kitsune/sumo/db_strings.py:341 kitsune/sumo/db_strings.py:557 kitsune/sumo/db_strings.py:1013
 msgctxt "DB: products.Topic.title"
 msgid "Download, install and migration"
 msgstr "ダウンロードとインストール、データの移行"
 
-#: kitsune/sumo/db_strings.py:181
+#: kitsune/sumo/db_strings.py:342
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to download Firefox on your desktop devices or move information to and from other browsers."
 msgstr "デスクトップで Firefox をダウンロードする方法とブラウザー間でデータを移行する方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:182 kitsune/sumo/db_strings.py:300 kitsune/sumo/db_strings.py:574
+#: kitsune/sumo/db_strings.py:346 kitsune/sumo/db_strings.py:562 kitsune/sumo/db_strings.py:975
 msgctxt "DB: products.Topic.title"
 msgid "Tips and tricks"
 msgstr "ヒントと活用法"
 
-#: kitsune/sumo/db_strings.py:183
+#: kitsune/sumo/db_strings.py:347
 msgctxt "DB: products.Topic.description"
 msgid "Go beyond the basics with these shortcuts and other tips."
 msgstr "これらのショートカットとヒントで基本から先へ進みましょう。"
 
-#: kitsune/sumo/db_strings.py:184 kitsune/sumo/db_strings.py:188 kitsune/sumo/db_strings.py:276 kitsune/sumo/db_strings.py:364
+#: kitsune/sumo/db_strings.py:351 kitsune/sumo/db_strings.py:358 kitsune/sumo/db_strings.py:515 kitsune/sumo/db_strings.py:656
 msgctxt "DB: products.Topic.title"
 msgid "Install and update"
 msgstr "インストールと更新"
 
-#: kitsune/sumo/db_strings.py:185
+#: kitsune/sumo/db_strings.py:352
 msgctxt "DB: products.Topic.description"
 msgid "How to install Firefox and keep it up to date"
 msgstr "Firefox をインストールして、最新に保つ方法"
 
-#: kitsune/sumo/db_strings.py:186
+#: kitsune/sumo/db_strings.py:353
 msgctxt "DB: products.Topic.title"
 msgid "Display and appearance"
 msgstr "表示と見た目"
 
-#: kitsune/sumo/db_strings.py:187
+#: kitsune/sumo/db_strings.py:354
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to change your toolbar, font sizes and browser colors"
 msgstr "ツールバー、フォントサイズ、ブラウザーの色を変更する方法を学びましょう"
 
-#: kitsune/sumo/db_strings.py:189
+#: kitsune/sumo/db_strings.py:359
 msgctxt "DB: products.Topic.description"
 msgid "Download or update Firefox for Windows, Mac and Linux."
 msgstr "Windows、Mac、Linux 向け Firefox をダウンロードもしくは更新しましょう。"
 
-#: kitsune/sumo/db_strings.py:190
+#: kitsune/sumo/db_strings.py:362
 msgctxt "DB: products.Topic.title"
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: kitsune/sumo/db_strings.py:191 kitsune/sumo/db_strings.py:305
+#: kitsune/sumo/db_strings.py:363 kitsune/sumo/db_strings.py:567
 msgctxt "DB: products.Topic.description"
 msgid "Firefox Sync settings"
 msgstr "Firefox Sync の設定"
 
-#: kitsune/sumo/db_strings.py:192
+#: kitsune/sumo/db_strings.py:364
 msgctxt "DB: products.Topic.title"
 msgid "Sync and save"
 msgstr "同期と保存"
 
-#: kitsune/sumo/db_strings.py:193
+#: kitsune/sumo/db_strings.py:365
 msgctxt "DB: products.Topic.description"
 msgid "Sync information on all your devices"
 msgstr "すべての端末で情報を同期しましょう"
 
-#: kitsune/sumo/db_strings.py:194 kitsune/sumo/db_strings.py:484
+#: kitsune/sumo/db_strings.py:366 kitsune/sumo/db_strings.py:831
 msgctxt "DB: products.Topic.title"
 msgid "Manage add-ons"
 msgstr "アドオンの管理"
 
-#: kitsune/sumo/db_strings.py:195
+#: kitsune/sumo/db_strings.py:367
 msgctxt "DB: products.Topic.description"
 msgid "Enhance Firefox's functionality and appearance with add-ons"
 msgstr "Firefox の機能や見た目をアドオンで拡張します"
 
-#: kitsune/sumo/db_strings.py:196
+#: kitsune/sumo/db_strings.py:371
 msgctxt "DB: products.Topic.title"
 msgid "Sync, share and save"
 msgstr "同期、共有、保存"
 
-#: kitsune/sumo/db_strings.py:197
+#: kitsune/sumo/db_strings.py:372
 msgctxt "DB: products.Topic.description"
 msgid "Sync browsing information and content across multiple devices with Firefox Accounts."
 msgstr "Firefox アカウントを使って複数の端末間でブラウジング情報やコンテンツを同期しましょう。"
 
-#: kitsune/sumo/db_strings.py:198
+#: kitsune/sumo/db_strings.py:376
 msgctxt "DB: products.Topic.title"
 msgid "Firefox settings"
 msgstr "Firefox の設定"
 
-#: kitsune/sumo/db_strings.py:199
+#: kitsune/sumo/db_strings.py:377
 msgctxt "DB: products.Topic.description"
 msgid "Privacy and personalization"
 msgstr "プライバシーとカスタマイズ"
 
-#: kitsune/sumo/db_strings.py:200
+#: kitsune/sumo/db_strings.py:378
 msgctxt "DB: products.Topic.title"
 msgid "Firefox Hello"
 msgstr "Firefox Hello"
 
-#: kitsune/sumo/db_strings.py:201
+#: kitsune/sumo/db_strings.py:379
 msgctxt "DB: products.Topic.description"
 msgid "Have video or voice conversations using the Firefox browser"
 msgstr "Firefox ブラウザーを使用して、動画または音声の会話ができます"
 
-#: kitsune/sumo/db_strings.py:202
+#: kitsune/sumo/db_strings.py:383
 msgctxt "DB: products.Topic.title"
 msgid "Chat and share"
 msgstr "チャットと共有"
 
-#: kitsune/sumo/db_strings.py:203
+#: kitsune/sumo/db_strings.py:384
 msgctxt "DB: products.Topic.description"
 msgid "Connect on video and share pages with your network"
 msgstr "ビデオチャットに接続してウェブページを友人と共有しましょう"
 
-#: kitsune/sumo/db_strings.py:204 kitsune/sumo/db_strings.py:208
+#: kitsune/sumo/db_strings.py:387 kitsune/sumo/db_strings.py:396
 msgctxt "DB: products.Topic.title"
 msgid "Personalize Firefox"
 msgstr "Firefox をパーソナライズ"
 
-#: kitsune/sumo/db_strings.py:205
+#: kitsune/sumo/db_strings.py:388
 msgctxt "DB: products.Topic.description"
 msgid "Make Firefox yours with these customization options."
 msgstr "これらのカスタマイズオプションで Firefox を完全に自分のものに。"
 
-#: kitsune/sumo/db_strings.py:206 kitsune/sumo/db_strings.py:310 kitsune/sumo/db_strings.py:590
+#: kitsune/sumo/db_strings.py:391 kitsune/sumo/db_strings.py:575 kitsune/sumo/db_strings.py:998
 msgctxt "DB: products.Topic.title"
 msgid "Customize controls, options and add-ons"
 msgstr "ツールバーのカスタマイズと環境設定、アドオン"
 
-#: kitsune/sumo/db_strings.py:207
+#: kitsune/sumo/db_strings.py:392
 msgctxt "DB: products.Topic.description"
 msgid "Make Firefox yours by adding and managing the features that you want."
 msgstr "お好みの機能を追加して、あなただけの Firefox にしましょう。"
 
-#: kitsune/sumo/db_strings.py:209
+#: kitsune/sumo/db_strings.py:397
 msgctxt "DB: products.Topic.description"
 msgid "Change Firefox's appearance, behavior and settings."
 msgstr "Firefox の見た目や挙動、設定を変更してみましょう。"
 
-#: kitsune/sumo/db_strings.py:210 kitsune/sumo/db_strings.py:308 kitsune/sumo/db_strings.py:608
+#: kitsune/sumo/db_strings.py:400 kitsune/sumo/db_strings.py:570 kitsune/sumo/db_strings.py:1027
 msgctxt "DB: products.Topic.title"
 msgid "Privacy and security settings"
 msgstr "プライバシーとセキュリティの設定"
 
-#: kitsune/sumo/db_strings.py:211
+#: kitsune/sumo/db_strings.py:401
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to keep your information safe and secure with Firefox's private browsing, password features and other security settings."
 msgstr "Firefox のプライベートブラウジング機能やパスワード保存機能、他のセキュリティ設定で個人情報を安全に守る方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:212 kitsune/sumo/db_strings.py:290
+#: kitsune/sumo/db_strings.py:405 kitsune/sumo/db_strings.py:538
 msgctxt "DB: products.Topic.title"
 msgid "Do more with apps"
 msgstr "アプリでもっと便利に"
 
-#: kitsune/sumo/db_strings.py:213
+#: kitsune/sumo/db_strings.py:406
 msgctxt "DB: products.Topic.description"
 msgid "Install open apps from the Marketplace to add more fun and functionality to your device"
 msgstr "Marketplace からオープンなアプリをインストールし、端末に楽しさと機能を追加できます"
 
-#: kitsune/sumo/db_strings.py:214 kitsune/sumo/db_strings.py:286
+#: kitsune/sumo/db_strings.py:410 kitsune/sumo/db_strings.py:531
 msgctxt "DB: products.Topic.title"
 msgid "Protect your privacy"
 msgstr "プライバシーを保護する"
 
-#: kitsune/sumo/db_strings.py:215
+#: kitsune/sumo/db_strings.py:411
 msgctxt "DB: products.Topic.description"
 msgid "Keep your information safe from prying eyes with the latest privacy and security features."
 msgstr "最新のプライバシー、セキュリティ機能で、個人情報を詮索の目から安全に守りましょう。"
 
-#: kitsune/sumo/db_strings.py:216 kitsune/sumo/db_strings.py:294 kitsune/sumo/db_strings.py:406 kitsune/sumo/db_strings.py:624
+#: kitsune/sumo/db_strings.py:415 kitsune/sumo/db_strings.py:550 kitsune/sumo/db_strings.py:725 kitsune/sumo/db_strings.py:1055
 msgctxt "DB: products.Topic.title"
 msgid "Get community support"
 msgstr "コミュニティのサポートを受ける"
 
-#: kitsune/sumo/db_strings.py:217 kitsune/sumo/db_strings.py:295 kitsune/sumo/db_strings.py:407 kitsune/sumo/db_strings.py:625
+#: kitsune/sumo/db_strings.py:416 kitsune/sumo/db_strings.py:551 kitsune/sumo/db_strings.py:726 kitsune/sumo/db_strings.py:1056
 msgctxt "DB: products.Topic.description"
 msgid "Get community support"
 msgstr "コミュニティのサポートを受ける"
 
-#: kitsune/sumo/db_strings.py:218
+#: kitsune/sumo/db_strings.py:417
 msgctxt "DB: products.Topic.title"
 msgid "Manage preferences and add-ons"
 msgstr "設定とアドオンの管理"
 
-#: kitsune/sumo/db_strings.py:219
+#: kitsune/sumo/db_strings.py:418
 msgctxt "DB: products.Topic.description"
 msgid "Make Firefox yours through customization settings and add-ons"
 msgstr "カスタマイズ設定とアドオンで Firefox をあなたの思い通りにできます"
 
-#: kitsune/sumo/db_strings.py:220 kitsune/sumo/db_strings.py:402 kitsune/sumo/db_strings.py:434 kitsune/sumo/db_strings.py:438 kitsune/sumo/db_strings.py:508 kitsune/sumo/db_strings.py:558
+#: kitsune/sumo/db_strings.py:422 kitsune/sumo/db_strings.py:718 kitsune/sumo/db_strings.py:756 kitsune/sumo/db_strings.py:760 kitsune/sumo/db_strings.py:877 kitsune/sumo/db_strings.py:959
 msgctxt "DB: products.Topic.title"
 msgid "Fix problems"
 msgstr "問題の解決方法"
 
-#: kitsune/sumo/db_strings.py:221
+#: kitsune/sumo/db_strings.py:423
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot slowness, crashing and error messages."
 msgstr "処理速度の低下やクラッシュ、エラーメッセージの問題を解決しましょう。"
 
-#: kitsune/sumo/db_strings.py:222 kitsune/sumo/db_strings.py:292 kitsune/sumo/db_strings.py:618
+#: kitsune/sumo/db_strings.py:426 kitsune/sumo/db_strings.py:543 kitsune/sumo/db_strings.py:1047
 msgctxt "DB: products.Topic.title"
 msgid "Fix slowness, crashing, error messages and other problems"
 msgstr "遅い動作、クラッシュ、エラーメッセージの解決と他の問題"
 
-#: kitsune/sumo/db_strings.py:223 kitsune/sumo/db_strings.py:293
+#: kitsune/sumo/db_strings.py:429 kitsune/sumo/db_strings.py:546
 msgctxt "DB: products.Topic.description"
 msgid "Fix slowness, crashing, error messages and other problems"
 msgstr "遅い動作、クラッシュ、エラーメッセージの解決と他の問題"
 
-#: kitsune/sumo/db_strings.py:224
+#: kitsune/sumo/db_strings.py:433
 msgctxt "DB: products.Topic.title"
 msgid "Advanced and experimental features"
 msgstr "高度な機能と実験的な機能"
 
-#: kitsune/sumo/db_strings.py:225
+#: kitsune/sumo/db_strings.py:434
 msgctxt "DB: products.Topic.description"
 msgid "Learn tips beyond the basics and try features before they're released to the public."
 msgstr "基本を超えたヒントを学んだり、一般公開前の新機能を試したりしてみましょう。"
 
-#: kitsune/sumo/db_strings.py:226 kitsune/sumo/db_strings.py:306
+#: kitsune/sumo/db_strings.py:438 kitsune/sumo/db_strings.py:568
 msgctxt "DB: products.Topic.title"
 msgid "Tab basics"
 msgstr "タブの基本"
 
-#: kitsune/sumo/db_strings.py:227 kitsune/sumo/db_strings.py:307
+#: kitsune/sumo/db_strings.py:439 kitsune/sumo/db_strings.py:569
 msgctxt "DB: products.Topic.description"
 msgid "Tab basics"
 msgstr "タブの基本"
 
-#: kitsune/sumo/db_strings.py:228
+#: kitsune/sumo/db_strings.py:440
 msgctxt "DB: products.Topic.title"
 msgid "Firefox versions and languages"
 msgstr "Firefox のバージョンと言語"
 
-#: kitsune/sumo/db_strings.py:229
+#: kitsune/sumo/db_strings.py:441
 msgctxt "DB: products.Topic.description"
 msgid "Firefox versions and languages"
 msgstr "Firefox のバージョンと言語"
 
-#: kitsune/sumo/db_strings.py:230
+#: kitsune/sumo/db_strings.py:442
 msgctxt "DB: products.Topic.title"
 msgid "Copy your personal information from one browser to another"
 msgstr "個人情報をブラウザー間でコピー"
 
-#: kitsune/sumo/db_strings.py:231
+#: kitsune/sumo/db_strings.py:445
 msgctxt "DB: products.Topic.description"
 msgid "Copy your personal information from one browser to another"
 msgstr "個人情報をブラウザー間でコピー"
 
-#: kitsune/sumo/db_strings.py:232
+#: kitsune/sumo/db_strings.py:449
 msgctxt "DB: products.Topic.title"
 msgid "Cookies and cache"
 msgstr "Cookie とキャッシュ"
 
-#: kitsune/sumo/db_strings.py:233
+#: kitsune/sumo/db_strings.py:450
 msgctxt "DB: products.Topic.description"
 msgid "Control the information that Firefox saves"
 msgstr "Firefox が保存する情報の制御"
 
-#: kitsune/sumo/db_strings.py:234
+#: kitsune/sumo/db_strings.py:451
 msgctxt "DB: products.Topic.title"
 msgid "Passwords, forms, search, and history - control what Firefox suggests"
 msgstr "パスワード、フォーム、検索、履歴 - Firefox の入力候補の制御"
 
-#: kitsune/sumo/db_strings.py:235
+#: kitsune/sumo/db_strings.py:455
 msgctxt "DB: products.Topic.description"
 msgid "Passwords, forms, search, and history - control what Firefox suggests"
 msgstr "パスワード、フォーム、検索、履歴 - Firefox の入力候補の制御"
 
-#: kitsune/sumo/db_strings.py:236 kitsune/sumo/db_strings.py:314
+#: kitsune/sumo/db_strings.py:459 kitsune/sumo/db_strings.py:582
 msgctxt "DB: products.Topic.title"
 msgid "Firefox controls and buttons"
 msgstr "Firefox のコントロールとボタン"
 
-#: kitsune/sumo/db_strings.py:237 kitsune/sumo/db_strings.py:315
+#: kitsune/sumo/db_strings.py:460 kitsune/sumo/db_strings.py:583
 msgctxt "DB: products.Topic.description"
 msgid "Firefox controls and buttons"
 msgstr "Firefox のコントロールとボタン"
 
-#: kitsune/sumo/db_strings.py:238 kitsune/sumo/db_strings.py:604
+#: kitsune/sumo/db_strings.py:461 kitsune/sumo/db_strings.py:1023
 msgctxt "DB: products.Topic.title"
 msgid "Tab settings"
 msgstr "タブ設定"
 
-#: kitsune/sumo/db_strings.py:239 kitsune/sumo/db_strings.py:605
+#: kitsune/sumo/db_strings.py:462 kitsune/sumo/db_strings.py:1024
 msgctxt "DB: products.Topic.description"
 msgid "Tab settings"
 msgstr "タブ設定"
 
-#: kitsune/sumo/db_strings.py:240 kitsune/sumo/db_strings.py:316
+#: kitsune/sumo/db_strings.py:463 kitsune/sumo/db_strings.py:584
 msgctxt "DB: products.Topic.title"
 msgid "Customize Firefox with add-ons, plugins, and extensions"
 msgstr "アドオン、プラグイン、拡張機能で Firefox をカスタマイズ"
 
-#: kitsune/sumo/db_strings.py:241 kitsune/sumo/db_strings.py:317
+#: kitsune/sumo/db_strings.py:464 kitsune/sumo/db_strings.py:585
 msgctxt "DB: products.Topic.description"
 msgid "Customize Firefox with add-ons, plugins, and extensions"
 msgstr "アドオン、プラグイン、拡張機能で Firefox をカスタマイズ"
 
-#: kitsune/sumo/db_strings.py:242
+#: kitsune/sumo/db_strings.py:467
 msgctxt "DB: products.Topic.title"
 msgid "Firefox options, preferences and settings"
 msgstr "Firefox のオプション、環境設定、設定"
 
-#: kitsune/sumo/db_strings.py:243
+#: kitsune/sumo/db_strings.py:468
 msgctxt "DB: products.Topic.description"
 msgid "Firefox options, preferences and settings"
 msgstr "Firefox のオプション、環境設定、設定"
 
-#: kitsune/sumo/db_strings.py:244
+#: kitsune/sumo/db_strings.py:469
 msgctxt "DB: products.Topic.title"
 msgid "Bookmark options"
 msgstr "ブックマークオプション"
 
-#: kitsune/sumo/db_strings.py:245
+#: kitsune/sumo/db_strings.py:470
 msgctxt "DB: products.Topic.description"
 msgid "Bookmark options"
 msgstr "ブックマークオプション"
 
-#: kitsune/sumo/db_strings.py:246 kitsune/sumo/db_strings.py:318
+#: kitsune/sumo/db_strings.py:471 kitsune/sumo/db_strings.py:588
 msgctxt "DB: products.Topic.title"
 msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
 msgstr "ウェブサイトで起こる問題の解決 (Facebook, YouTube, ウェブメールなど)"
 
-#: kitsune/sumo/db_strings.py:247 kitsune/sumo/db_strings.py:319
+#: kitsune/sumo/db_strings.py:474 kitsune/sumo/db_strings.py:591
 msgctxt "DB: products.Topic.description"
 msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
 msgstr "ウェブサイトで起こる問題の解決 (Facebook, YouTube, ウェブメールなど)"
 
-#: kitsune/sumo/db_strings.py:248 kitsune/sumo/db_strings.py:606
+#: kitsune/sumo/db_strings.py:478 kitsune/sumo/db_strings.py:1025
 msgctxt "DB: products.Topic.title"
 msgid "Error messages: what they mean and how to fix"
 msgstr "エラーメッセージ: メッセージの意味と解決方法"
 
-#: kitsune/sumo/db_strings.py:249
+#: kitsune/sumo/db_strings.py:479
 msgctxt "DB: products.Topic.description"
 msgid "How to troubleshoot error messages on Firefox"
 msgstr "Firefox のエラーメッセージのトラブルシューティング方法"
 
-#: kitsune/sumo/db_strings.py:250
+#: kitsune/sumo/db_strings.py:480
 msgctxt "DB: products.Topic.title"
 msgid "Unblock Firefox from connecting to the Internet"
 msgstr "Firefox がインターネット接続できるようにブロック解除する"
 
-#: kitsune/sumo/db_strings.py:251
+#: kitsune/sumo/db_strings.py:481
 msgctxt "DB: products.Topic.description"
 msgid "Unblock Firefox from connecting to the Internet"
 msgstr "Firefox がインターネット接続できるようにブロック解除する"
 
-#: kitsune/sumo/db_strings.py:252 kitsune/sumo/db_strings.py:412 kitsune/sumo/db_strings.py:616
+#: kitsune/sumo/db_strings.py:482 kitsune/sumo/db_strings.py:731 kitsune/sumo/db_strings.py:1045
 msgctxt "DB: products.Topic.title"
 msgid "Procedures to diagnose and fix problems"
 msgstr "問題の診断と解決の手順"
 
-#: kitsune/sumo/db_strings.py:253 kitsune/sumo/db_strings.py:413 kitsune/sumo/db_strings.py:617
+#: kitsune/sumo/db_strings.py:483 kitsune/sumo/db_strings.py:732 kitsune/sumo/db_strings.py:1046
 msgctxt "DB: products.Topic.description"
 msgid "Procedures to diagnose and fix problems"
 msgstr "問題の診断と解決の手順"
 
-#: kitsune/sumo/db_strings.py:254
+#: kitsune/sumo/db_strings.py:484
 msgctxt "DB: products.Topic.title"
 msgid "Videos, sound, pictures and animations don't work"
 msgstr "動画や音声、写真、アニメーションが見られない"
 
-#: kitsune/sumo/db_strings.py:255
+#: kitsune/sumo/db_strings.py:485
 msgctxt "DB: products.Topic.description"
 msgid "Videos, sound, pictures and animations don't work"
 msgstr "動画や音声、写真、アニメーションが見られない"
 
-#: kitsune/sumo/db_strings.py:256
+#: kitsune/sumo/db_strings.py:486
 msgctxt "DB: products.Topic.title"
 msgid "Firefox is slow or stops working"
 msgstr "Firefox の遅い動作とハングアップ"
 
-#: kitsune/sumo/db_strings.py:257
+#: kitsune/sumo/db_strings.py:487
 msgctxt "DB: products.Topic.description"
 msgid "Slowness or hanging"
 msgstr "遅い動作またはハングアップ"
 
-#: kitsune/sumo/db_strings.py:258 kitsune/sumo/db_strings.py:320
+#: kitsune/sumo/db_strings.py:488 kitsune/sumo/db_strings.py:595
 msgctxt "DB: products.Topic.title"
 msgid "Firefox crashes"
 msgstr "Firefox のクラッシュ"
 
-#: kitsune/sumo/db_strings.py:259 kitsune/sumo/db_strings.py:321
+#: kitsune/sumo/db_strings.py:489 kitsune/sumo/db_strings.py:596
 msgctxt "DB: products.Topic.description"
 msgid "Crashing"
 msgstr "クラッシュ"
 
-#: kitsune/sumo/db_strings.py:260
+#: kitsune/sumo/db_strings.py:490
 msgctxt "DB: products.Topic.title"
 msgid "Firefox won't save settings or remember information"
 msgstr "Firefox の設定が保存されない、情報が記憶されない"
 
-#: kitsune/sumo/db_strings.py:261
+#: kitsune/sumo/db_strings.py:491
 msgctxt "DB: products.Topic.description"
 msgid "Firefox won't save settings or remember information"
 msgstr "Firefox の設定が保存されない、情報が記憶されない"
 
-#: kitsune/sumo/db_strings.py:262 kitsune/sumo/db_strings.py:628
+#: kitsune/sumo/db_strings.py:494 kitsune/sumo/db_strings.py:1061
 msgctxt "DB: products.Topic.title"
 msgid "Problems with add-ons, plugins or unwanted software"
 msgstr "アドオン、プラグインまたは不要なソフトウェアで起こる問題"
 
-#: kitsune/sumo/db_strings.py:263 kitsune/sumo/db_strings.py:629
+#: kitsune/sumo/db_strings.py:495 kitsune/sumo/db_strings.py:1062
 msgctxt "DB: products.Topic.description"
 msgid "Problems with add-ons, plugins or unwanted software"
 msgstr "アドオン、プラグインまたは不要なソフトウェアで起こる問題"
 
-#: kitsune/sumo/db_strings.py:264 kitsune/sumo/db_strings.py:322 kitsune/sumo/db_strings.py:414
+#: kitsune/sumo/db_strings.py:498 kitsune/sumo/db_strings.py:597 kitsune/sumo/db_strings.py:733
 msgctxt "DB: products.Topic.title"
 msgid "Mozilla Persona"
 msgstr "Mozilla Persona"
 
-#: kitsune/sumo/db_strings.py:265 kitsune/sumo/db_strings.py:323 kitsune/sumo/db_strings.py:415 kitsune/sumo/db_strings.py:541
+#: kitsune/sumo/db_strings.py:499 kitsune/sumo/db_strings.py:598 kitsune/sumo/db_strings.py:734 kitsune/sumo/db_strings.py:942
 msgctxt "DB: products.Topic.description"
 msgid "Mozilla Persona"
 msgstr "Mozilla Persona"
 
-#: kitsune/sumo/db_strings.py:266 kitsune/sumo/db_strings.py:416
+#: kitsune/sumo/db_strings.py:500 kitsune/sumo/db_strings.py:735
 msgctxt "DB: products.Topic.title"
 msgid "Hot topics"
 msgstr "注目のトピック"
 
-#: kitsune/sumo/db_strings.py:267 kitsune/sumo/db_strings.py:417 kitsune/sumo/db_strings.py:543
+#: kitsune/sumo/db_strings.py:501 kitsune/sumo/db_strings.py:736 kitsune/sumo/db_strings.py:944
 msgctxt "DB: products.Topic.description"
 msgid "Hot topics"
 msgstr "注目のトピック"
 
-#: kitsune/sumo/db_strings.py:268 kitsune/sumo/db_strings.py:326 kitsune/sumo/db_strings.py:522 kitsune/sumo/db_strings.py:632
+#: kitsune/sumo/db_strings.py:502 kitsune/sumo/db_strings.py:601 kitsune/sumo/db_strings.py:905 kitsune/sumo/db_strings.py:1070
 msgctxt "DB: products.Topic.title"
 msgid "Other"
 msgstr "その他"
 
-#: kitsune/sumo/db_strings.py:269 kitsune/sumo/db_strings.py:327 kitsune/sumo/db_strings.py:633
+#: kitsune/sumo/db_strings.py:503 kitsune/sumo/db_strings.py:602 kitsune/sumo/db_strings.py:1071
 msgctxt "DB: products.Topic.description"
 msgid "Other"
 msgstr "その他"
 
-#: kitsune/sumo/db_strings.py:272
+#: kitsune/sumo/db_strings.py:509
 msgctxt "DB: products.Topic.title"
 msgid "How to use Firefox for Android"
 msgstr "Android 版 Firefox の使い方"
 
-#: kitsune/sumo/db_strings.py:273
+#: kitsune/sumo/db_strings.py:510
 msgctxt "DB: products.Topic.description"
 msgid "How to use Firefox for Android"
 msgstr "Android 版 Firefox の使い方です"
 
-#: kitsune/sumo/db_strings.py:274
+#: kitsune/sumo/db_strings.py:511
 msgctxt "DB: products.Topic.title"
 msgid "What's new in Firefox for Android"
 msgstr "Android 版 Firefox の新機能"
 
-#: kitsune/sumo/db_strings.py:275
+#: kitsune/sumo/db_strings.py:512
 msgctxt "DB: products.Topic.description"
 msgid "See what new features are available in each release"
 msgstr "リリースごとに追加された新機能を見る"
 
-#: kitsune/sumo/db_strings.py:277
+#: kitsune/sumo/db_strings.py:516
 msgctxt "DB: products.Topic.description"
 msgid "How to install and keep Firefox for Android up to date"
 msgstr "Android 版 Firefox のインストール方法と最新に保つ方法"
 
-#: kitsune/sumo/db_strings.py:278
+#: kitsune/sumo/db_strings.py:519
 msgctxt "DB: products.Topic.title"
 msgid "Save, share and sync"
 msgstr "保存、共有、同期"
 
-#: kitsune/sumo/db_strings.py:279
+#: kitsune/sumo/db_strings.py:520
 msgctxt "DB: products.Topic.description"
 msgid "Save, share and synchronize content with other devices"
 msgstr "コンテンツを他の端末に保存、共有、同期できます"
 
-#: kitsune/sumo/db_strings.py:280
+#: kitsune/sumo/db_strings.py:523
 msgctxt "DB: products.Topic.title"
 msgid "Changing your settings"
 msgstr "設定の変更"
 
-#: kitsune/sumo/db_strings.py:281
+#: kitsune/sumo/db_strings.py:524
 msgctxt "DB: products.Topic.description"
 msgid "Change Firefox's behavior."
 msgstr "Firefox の挙動を変えてみましょう。"
 
-#: kitsune/sumo/db_strings.py:282
+#: kitsune/sumo/db_strings.py:525
 msgctxt "DB: products.Topic.title"
 msgid "Cast to your TV"
 msgstr "TV にキャスト"
 
-#: kitsune/sumo/db_strings.py:283
+#: kitsune/sumo/db_strings.py:526
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to view content on another screen"
 msgstr "様々な画面でコンテンツを視聴する方法を学びます"
 
-#: kitsune/sumo/db_strings.py:284
+#: kitsune/sumo/db_strings.py:527
 msgctxt "DB: products.Topic.title"
 msgid "Popular articles"
 msgstr "よく読まれる記事"
 
-#: kitsune/sumo/db_strings.py:285
+#: kitsune/sumo/db_strings.py:528
 msgctxt "DB: products.Topic.description"
 msgid "Popular tips and solutions for Firefox for Android"
 msgstr "Android 版 Firefox 向けのよく読まれるヒントと解決策"
 
-#: kitsune/sumo/db_strings.py:287
+#: kitsune/sumo/db_strings.py:532
 msgctxt "DB: products.Topic.description"
 msgid "Control how your information is saved or tracked"
 msgstr "保存やトラッキングされた情報の制御方法"
 
-#: kitsune/sumo/db_strings.py:288
+#: kitsune/sumo/db_strings.py:533
 msgctxt "DB: products.Topic.title"
 msgid "Customize settings and preferences"
 msgstr "設定と見た目のカスタマイズ"
 
-#: kitsune/sumo/db_strings.py:289
+#: kitsune/sumo/db_strings.py:534
 msgctxt "DB: products.Topic.description"
 msgid "Make Firefox for Android yours with these customization options"
 msgstr "オープンアプリを見つけてインストールする方法を学び、端末を楽しく機能的にしましょう"
 
-#: kitsune/sumo/db_strings.py:291
+#: kitsune/sumo/db_strings.py:539
 msgctxt "DB: products.Topic.description"
 msgid "Learn to find and install open apps to add more fun and functionality to your device"
 msgstr "オープンアプリを見つけてインストールする方法を学び、端末に楽しく機能的なアプリを追加しましょう"
 
-#: kitsune/sumo/db_strings.py:297
+#: kitsune/sumo/db_strings.py:553
 msgctxt "DB: products.Topic.description"
 msgid "Learn all you need to know to get Firefox for Android up and running."
 msgstr "Android 版 Firefox を起動するのに必要なすべてのことを学びます。"
 
-#: kitsune/sumo/db_strings.py:299
+#: kitsune/sumo/db_strings.py:558
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to install and transfer information to Firefox for Android."
 msgstr "Android 版 Firefox のインストール方法とデータを移行する方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:301
+#: kitsune/sumo/db_strings.py:563
 msgctxt "DB: products.Topic.description"
 msgid "Tips and tricks"
 msgstr "ヒントと活用法"
 
-#: kitsune/sumo/db_strings.py:302
+#: kitsune/sumo/db_strings.py:564
 msgctxt "DB: products.Topic.title"
 msgid "Use bookmarks"
 msgstr "ブックマークの使い方"
 
-#: kitsune/sumo/db_strings.py:303
+#: kitsune/sumo/db_strings.py:565
 msgctxt "DB: products.Topic.description"
 msgid "The basics of using bookmarks"
 msgstr "ブックマークの基本的な使い方"
 
-#: kitsune/sumo/db_strings.py:304
+#: kitsune/sumo/db_strings.py:566
 msgctxt "DB: products.Topic.title"
 msgid "Firefox Sync settings"
 msgstr "Firefox Sync の設定"
 
-#: kitsune/sumo/db_strings.py:309
+#: kitsune/sumo/db_strings.py:571
 msgctxt "DB: products.Topic.description"
 msgid "Keep your information safe with Firefox for Android's privacy and security settings."
 msgstr "Android 版 Firefox のプライバシーとセキュリティ設定で個人情報を安全に守りましょう。"
 
-#: kitsune/sumo/db_strings.py:311
+#: kitsune/sumo/db_strings.py:576
 msgctxt "DB: products.Topic.description"
 msgid "Make Firefox for Android work the way you want through customization."
 msgstr "Android 版 Firefox をカスタマイズしてお好みの動作にしましょう。"
 
-#: kitsune/sumo/db_strings.py:312
+#: kitsune/sumo/db_strings.py:580
 msgctxt "DB: products.Topic.title"
 msgid "Cookies"
 msgstr "Cookie"
 
-#: kitsune/sumo/db_strings.py:313
+#: kitsune/sumo/db_strings.py:581
 msgctxt "DB: products.Topic.description"
 msgid "Cookies"
 msgstr "Cookie"
 
-#: kitsune/sumo/db_strings.py:324 kitsune/sumo/db_strings.py:388
+#: kitsune/sumo/db_strings.py:599 kitsune/sumo/db_strings.py:693
 msgctxt "DB: products.Topic.title"
 msgid "Marketplace"
 msgstr "Marketplace"
 
-#: kitsune/sumo/db_strings.py:325
+#: kitsune/sumo/db_strings.py:600
 msgctxt "DB: products.Topic.description"
 msgid "Firefox Marketplace"
 msgstr "Firefox Marketplace"
 
-#: kitsune/sumo/db_strings.py:328
+#: kitsune/sumo/db_strings.py:603
 msgctxt "DB: products.Topic.title"
 msgid "Install and Update"
 msgstr "インストールと更新"
 
-#: kitsune/sumo/db_strings.py:329
+#: kitsune/sumo/db_strings.py:604
 msgctxt "DB: products.Topic.description"
 msgid "Install and keep Firefox up to date on your iPad, iPhone or iPod Touch."
 msgstr "iPad、iPhone、iPod Touch に Firefox をインストールして更新する。"
 
-#: kitsune/sumo/db_strings.py:330
+#: kitsune/sumo/db_strings.py:608
 msgctxt "DB: products.Topic.title"
 msgid "Reader View and List"
 msgstr "リーダービューと後で読むリスト"
 
-#: kitsune/sumo/db_strings.py:331
+#: kitsune/sumo/db_strings.py:609
 msgctxt "DB: products.Topic.description"
 msgid "Read and save web pages in a clutter-free, reader-friendly view"
 msgstr "ウェブページをひとまとめに保存し、後で読みやすい表示で読みます"
 
-#: kitsune/sumo/db_strings.py:333
+#: kitsune/sumo/db_strings.py:614
 msgctxt "DB: products.Topic.description"
 msgid "How to use bookmarks, tabs and basic Firefox features on your iOS device"
 msgstr "iOS 版 Firefox のブックマークとタブ、基本機能の使い方"
 
-#: kitsune/sumo/db_strings.py:334
+#: kitsune/sumo/db_strings.py:618
 msgctxt "DB: products.Topic.title"
 msgid "History"
 msgstr "履歴"
 
-#: kitsune/sumo/db_strings.py:335
+#: kitsune/sumo/db_strings.py:619
 msgctxt "DB: products.Topic.description"
 msgid "Change your history settings on Firefox for iOS"
 msgstr "iOS 版 Firefox で履歴設定を変更しましょう"
 
-#: kitsune/sumo/db_strings.py:336
+#: kitsune/sumo/db_strings.py:620
 msgctxt "DB: products.Topic.title"
 msgid "How to use Firefox for iOS"
 msgstr "iOS 版 Firefox の使い方"
 
-#: kitsune/sumo/db_strings.py:337
+#: kitsune/sumo/db_strings.py:621
 msgctxt "DB: products.Topic.description"
 msgid "General usage questions"
 msgstr "一般的な使い方についての質問"
 
-#: kitsune/sumo/db_strings.py:338
+#: kitsune/sumo/db_strings.py:622
 msgctxt "DB: products.Topic.title"
 msgid "What's new in Firefox for iOS"
 msgstr "iOS 版 Firefox の新機能"
 
-#: kitsune/sumo/db_strings.py:339
+#: kitsune/sumo/db_strings.py:623
 msgctxt "DB: products.Topic.description"
 msgid "See what features are available in each release."
 msgstr "リリースごとに使える新機能を見る。"
 
-#: kitsune/sumo/db_strings.py:341
+#: kitsune/sumo/db_strings.py:625
 msgctxt "DB: products.Topic.description"
 msgid "Access websites easily with bookmarks and tab features"
 msgstr "ブックマークとタブ機能でウェブサイトに簡単にアクセスする"
 
-#: kitsune/sumo/db_strings.py:342
+#: kitsune/sumo/db_strings.py:628
 msgctxt "DB: products.Topic.title"
 msgid "Search"
 msgstr "検索"
 
-#: kitsune/sumo/db_strings.py:343
+#: kitsune/sumo/db_strings.py:629
 msgctxt "DB: products.Topic.description"
 msgid "Customize your search settings in Firefox for iOS"
 msgstr "iOS 版 Firefox で検索設定を変更する"
 
-#: kitsune/sumo/db_strings.py:344
+#: kitsune/sumo/db_strings.py:630
 msgctxt "DB: products.Topic.title"
 msgid "Firefox for iOS is not working as expected"
 msgstr "iOS 版 Firefox が期待通りに動作しない"
 
-#: kitsune/sumo/db_strings.py:345
+#: kitsune/sumo/db_strings.py:631
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot problems with Firefox for iOS."
 msgstr "iOS 版 Firefoxの問題解決。"
 
-#: kitsune/sumo/db_strings.py:346
+#: kitsune/sumo/db_strings.py:632
 msgctxt "DB: products.Topic.title"
 msgid "Privacy"
 msgstr "プライバシー"
 
-#: kitsune/sumo/db_strings.py:347
+#: kitsune/sumo/db_strings.py:633
 msgctxt "DB: products.Topic.description"
 msgid "Protect your information with Firefox's privacy settings on iOS"
 msgstr "iOS 版 Firefox のプライバシー設定で個人情報を安全に守りましょう"
 
-#: kitsune/sumo/db_strings.py:348
+#: kitsune/sumo/db_strings.py:637
 msgctxt "DB: products.Topic.title"
 msgid "Sync, save and share"
 msgstr "同期、保存、共有"
 
-#: kitsune/sumo/db_strings.py:349
+#: kitsune/sumo/db_strings.py:638
 msgctxt "DB: products.Topic.description"
 msgid "Share web pages on Firefox for iOS"
 msgstr "iOS 版 Firefox でウェブページを共有しましょう"
 
-#: kitsune/sumo/db_strings.py:350
+#: kitsune/sumo/db_strings.py:639
 msgctxt "DB: products.Topic.title"
 msgid "Customize preferences"
 msgstr "環境設定を変更する"
 
-#: kitsune/sumo/db_strings.py:351
+#: kitsune/sumo/db_strings.py:640
 msgctxt "DB: products.Topic.description"
 msgid "Customize preferences for Firefox for iOS"
 msgstr "iOS 版 Firefox の環境設定を変更する"
 
-#: kitsune/sumo/db_strings.py:352
+#: kitsune/sumo/db_strings.py:641
 msgctxt "DB: products.Topic.title"
 msgid "Crashes, errors and other issues"
 msgstr "クラッシュとエラー、その他の問題"
 
-#: kitsune/sumo/db_strings.py:353
+#: kitsune/sumo/db_strings.py:642
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot error message on Firefox for iOS"
 msgstr "iOS 版 Firefoxのエラーメッセージを解決します"
 
-#: kitsune/sumo/db_strings.py:354 kitsune/sumo/db_strings.py:366 kitsune/sumo/db_strings.py:430 kitsune/sumo/db_strings.py:432 kitsune/sumo/db_strings.py:526 kitsune/sumo/db_strings.py:548
-#: kitsune/sumo/db_strings.py:570
+#: kitsune/sumo/db_strings.py:643 kitsune/sumo/db_strings.py:660 kitsune/sumo/db_strings.py:752 kitsune/sumo/db_strings.py:754 kitsune/sumo/db_strings.py:912 kitsune/sumo/db_strings.py:949
+#: kitsune/sumo/db_strings.py:971
 msgctxt "DB: products.Topic.title"
 msgid "Get started"
 msgstr "はじめに"
 
-#: kitsune/sumo/db_strings.py:355
+#: kitsune/sumo/db_strings.py:644
 msgctxt "DB: products.Topic.description"
 msgid "Firefox OS basics"
 msgstr "Firefox OS の基本"
 
-#: kitsune/sumo/db_strings.py:356
+#: kitsune/sumo/db_strings.py:645
 msgctxt "DB: products.Topic.title"
 msgid "Basic Features"
 msgstr "基本的な機能"
 
-#: kitsune/sumo/db_strings.py:357
+#: kitsune/sumo/db_strings.py:646
 msgctxt "DB: products.Topic.description"
 msgid "Learn the basic functionality for your Firefox OS phone. "
 msgstr "Firefox OS 携帯端末の基本機能を学びます。"
 
-#: kitsune/sumo/db_strings.py:358
+#: kitsune/sumo/db_strings.py:650
 msgctxt "DB: products.Topic.title"
 msgid "Download and Manage Apps"
 msgstr "アプリのダウンロードと管理"
 
-#: kitsune/sumo/db_strings.py:359
+#: kitsune/sumo/db_strings.py:651
 msgctxt "DB: products.Topic.description"
 msgid "Download apps from the Marketplace"
 msgstr "Marketplace からアプリをダウンロード"
 
-#: kitsune/sumo/db_strings.py:360
+#: kitsune/sumo/db_strings.py:652
 msgctxt "DB: products.Topic.title"
 msgid "Date and Time"
 msgstr "日付と時刻"
 
-#: kitsune/sumo/db_strings.py:361
+#: kitsune/sumo/db_strings.py:653
 msgctxt "DB: products.Topic.description"
 msgid "Setting a date and time on your Firefox OS phone"
 msgstr "Firefox OS 携帯端末で日付と時刻を設定する"
 
-#: kitsune/sumo/db_strings.py:362
+#: kitsune/sumo/db_strings.py:654
 msgctxt "DB: products.Topic.title"
 msgid "Display"
 msgstr "画面表示"
 
-#: kitsune/sumo/db_strings.py:363
+#: kitsune/sumo/db_strings.py:655
 msgctxt "DB: products.Topic.description"
 msgid "Customize your screen on your Firefox OS device."
 msgstr "Firefox OS 携帯端末の画面をカスタマイズする。"
 
-#: kitsune/sumo/db_strings.py:365
+#: kitsune/sumo/db_strings.py:657
 msgctxt "DB: products.Topic.description"
 msgid "Download and install the mobile app on your device."
 msgstr "モバイルアプリのダウンロードとインストール。"
 
-#: kitsune/sumo/db_strings.py:367
+#: kitsune/sumo/db_strings.py:661
 #, fuzzy
 msgctxt "DB: products.Topic.description"
 msgid "Learn the basics"
 msgstr "基本を学ぼう: はじめに"
 
-#: kitsune/sumo/db_strings.py:368
+#: kitsune/sumo/db_strings.py:662
 msgctxt "DB: products.Topic.title"
 msgid "Calling and Contacts"
 msgstr "通話と連絡先"
 
-#: kitsune/sumo/db_strings.py:369
+#: kitsune/sumo/db_strings.py:663
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to add and manage contacts, as well as make one-to-one or conference calls on your Firefox OS phone."
 msgstr "Firefox OS 携帯端末で連絡先を追加、管理する方法と一対一の通話またはグループ通話をする方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:370
+#: kitsune/sumo/db_strings.py:667
 msgctxt "DB: products.Topic.title"
 msgid "Browsing"
 msgstr "ブラウジング"
 
-#: kitsune/sumo/db_strings.py:371
+#: kitsune/sumo/db_strings.py:668
 msgctxt "DB: products.Topic.description"
 msgid "Surf and navigate the Web on Firefox Preview"
 msgstr "Firefox Preview でウェブを閲覧する"
 
-#: kitsune/sumo/db_strings.py:372
+#: kitsune/sumo/db_strings.py:669
 msgctxt "DB: products.Topic.title"
 msgid "How do I use Firefox Preview?"
 msgstr "Firefox Preview の使い方"
 
-#: kitsune/sumo/db_strings.py:373
+#: kitsune/sumo/db_strings.py:670
 msgctxt "DB: products.Topic.description"
 msgid "Get help with using features in Firefox Preview."
 msgstr "Firefox Preview の機能を使用する手助けを得る。"
 
-#: kitsune/sumo/db_strings.py:374
+#: kitsune/sumo/db_strings.py:671
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Manage account"
 msgstr "Firefox アカウントを管理"
 
-#: kitsune/sumo/db_strings.py:375
+#: kitsune/sumo/db_strings.py:672
 #, fuzzy
 msgctxt "DB: products.Topic.description"
 msgid "How to change your account settings"
 msgstr "アカウントと設定の管理"
 
-#: kitsune/sumo/db_strings.py:376
+#: kitsune/sumo/db_strings.py:673
 msgctxt "DB: products.Topic.title"
 msgid "Email and Messages"
 msgstr "メールとメッセージ"
 
-#: kitsune/sumo/db_strings.py:377
+#: kitsune/sumo/db_strings.py:674
 msgctxt "DB: products.Topic.description"
 msgid "Keep in touch with your contacts through email and messaging."
 msgstr "メールとショートメッセージアプリから連絡先にアクセスする方法。"
 
-#: kitsune/sumo/db_strings.py:378
+#: kitsune/sumo/db_strings.py:678
 msgctxt "DB: products.Topic.title"
 msgid "Library"
 msgstr "ライブラリー"
 
-#: kitsune/sumo/db_strings.py:379
+#: kitsune/sumo/db_strings.py:679
 msgctxt "DB: products.Topic.description"
 msgid "Manage bookmarks and history"
 msgstr "ブックマークと履歴の管理"
 
-#: kitsune/sumo/db_strings.py:380
+#: kitsune/sumo/db_strings.py:680
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Services and Subscriptions"
 msgstr "説明を保存"
 
-#: kitsune/sumo/db_strings.py:381
+#: kitsune/sumo/db_strings.py:681
 msgctxt "DB: products.Topic.description"
 msgid "Free and premium privacy offerings"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:382
+#: kitsune/sumo/db_strings.py:682
 msgctxt "DB: products.Topic.title"
 msgid "Music, Photos and Video"
 msgstr "音楽、写真、動画"
 
-#: kitsune/sumo/db_strings.py:383
+#: kitsune/sumo/db_strings.py:683
 msgctxt "DB: products.Topic.description"
 msgid "Take pictures, record videos and listen to music on your Firefox OS phone."
 msgstr "Firefox OS 携帯端末で写真や動画を撮影したり、音楽を聴きましょう。"
 
-#: kitsune/sumo/db_strings.py:384
+#: kitsune/sumo/db_strings.py:687
 msgctxt "DB: products.Topic.title"
 msgid "Sync"
 msgstr "Sync"
 
-#: kitsune/sumo/db_strings.py:385
+#: kitsune/sumo/db_strings.py:688
 msgctxt "DB: products.Topic.description"
 msgid "Sync your browsing information across other devices."
 msgstr "他の端末とブラウジング情報を同期。"
 
-#: kitsune/sumo/db_strings.py:386
+#: kitsune/sumo/db_strings.py:691
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Troubleshoot"
 msgstr "トラブルシューティング"
 
-#: kitsune/sumo/db_strings.py:387
+#: kitsune/sumo/db_strings.py:692
 #, fuzzy
 msgctxt "DB: products.Topic.description"
 msgid "Fix problems with Firefox Accounts"
 msgstr "Firefox Lockwise の問題の解決"
 
-#: kitsune/sumo/db_strings.py:389
+#: kitsune/sumo/db_strings.py:694
 msgctxt "DB: products.Topic.description"
 msgid "How to download, manage and use your favorite apps on your Firefox OS phone."
 msgstr "Firefox OS 携帯端末でお好みのアプリをダウンロードして管理する方法。"
 
-#: kitsune/sumo/db_strings.py:390 kitsune/sumo/db_strings.py:392
+#: kitsune/sumo/db_strings.py:698 kitsune/sumo/db_strings.py:703
 msgctxt "DB: products.Topic.title"
 msgid "Privacy and security"
 msgstr "プライバシーとセキュリティ"
 
-#: kitsune/sumo/db_strings.py:391
+#: kitsune/sumo/db_strings.py:699
 msgctxt "DB: products.Topic.description"
 msgid "Keep your information safe with Firefox OS locks, privacy features and more."
 msgstr "Firefox OS のロック機能やプライバシー保護機能で個人情報を安全に守りましょう。"
 
-#: kitsune/sumo/db_strings.py:393
+#: kitsune/sumo/db_strings.py:704
 msgctxt "DB: products.Topic.description"
 msgid "Protect your privacy on Firefox Preview."
 msgstr "Firefox Preview 上のプライバシーを保護する。"
 
-#: kitsune/sumo/db_strings.py:394 kitsune/sumo/db_strings.py:518
+#: kitsune/sumo/db_strings.py:705 kitsune/sumo/db_strings.py:895
 msgctxt "DB: products.Topic.title"
 msgid "Settings"
 msgstr "設定"
 
-#: kitsune/sumo/db_strings.py:395
+#: kitsune/sumo/db_strings.py:706
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to configure the Internet connection, display and time on your Firefox OS device."
 msgstr "Firefox OS　端末でインターネット接続や画面表示、時刻を設定する方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:396
+#: kitsune/sumo/db_strings.py:710
 msgctxt "DB: products.Topic.title"
 msgid "Internet and Connections"
 msgstr "インターネットと接続設定"
 
-#: kitsune/sumo/db_strings.py:397
+#: kitsune/sumo/db_strings.py:711
 msgctxt "DB: products.Topic.description"
 msgid "Learn more about Wi-Fi, Bluetooth and NFC connections."
 msgstr "Wi-Fi, Bluetooth, NFC 接続について学ぶ。"
 
-#: kitsune/sumo/db_strings.py:398
+#: kitsune/sumo/db_strings.py:714
 msgctxt "DB: products.Topic.title"
 msgid "Settings and preferences"
 msgstr "設定"
 
-#: kitsune/sumo/db_strings.py:399
+#: kitsune/sumo/db_strings.py:715
 msgctxt "DB: products.Topic.description"
 msgid "Manage themes and search settings"
 msgstr "テーマと検索設定の管理"
 
-#: kitsune/sumo/db_strings.py:400
+#: kitsune/sumo/db_strings.py:716
 msgctxt "DB: products.Topic.title"
 msgid "Fix problems with Firefox Preview"
 msgstr "Firefox Preview の問題の解決"
 
-#: kitsune/sumo/db_strings.py:401
+#: kitsune/sumo/db_strings.py:717
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot issues with Firefox Preview"
 msgstr "Firefox Preview のトラブルシューティング"
 
-#: kitsune/sumo/db_strings.py:403
+#: kitsune/sumo/db_strings.py:719
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to troubleshoot issues on your Firefox OS phone."
 msgstr "Firefox OS 携帯端末で起こる問題を解決する方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:404
+#: kitsune/sumo/db_strings.py:723
 msgctxt "DB: products.Topic.title"
 msgid "Advanced Settings"
 msgstr "詳細設定"
 
-#: kitsune/sumo/db_strings.py:405
+#: kitsune/sumo/db_strings.py:724
 msgctxt "DB: products.Topic.description"
 msgid "Do more with Firefox Preview"
 msgstr "Firefox Preview でできるさらに多くのこと"
 
-#: kitsune/sumo/db_strings.py:408
+#: kitsune/sumo/db_strings.py:727
 msgctxt "DB: products.Topic.title"
 msgid "View all Firefox OS articles"
 msgstr "すべての Firefox OS の記事を見る"
 
-#: kitsune/sumo/db_strings.py:409
+#: kitsune/sumo/db_strings.py:728
 msgctxt "DB: products.Topic.description"
 msgid "View a list of all Firefox OS articles"
 msgstr "すべての Firefox OS の記事一覧を見る"
 
-#: kitsune/sumo/db_strings.py:410
+#: kitsune/sumo/db_strings.py:729
 msgctxt "DB: products.Topic.title"
 msgid "Working with messages"
 msgstr "メッセージの扱い方"
 
-#: kitsune/sumo/db_strings.py:411
+#: kitsune/sumo/db_strings.py:730
 msgctxt "DB: products.Topic.description"
 msgid "Firefox OS SMS & email"
 msgstr "Firefox OS のショートメッセージとメール"
 
-#: kitsune/sumo/db_strings.py:418
+#: kitsune/sumo/db_strings.py:737
 msgctxt "DB: products.Topic.title"
 msgid "Technical"
 msgstr "技術"
 
-#: kitsune/sumo/db_strings.py:419
+#: kitsune/sumo/db_strings.py:738
 msgctxt "DB: products.Topic.description"
 msgid "Find solutions for how to use the Firefox Private Network VPN"
 msgstr "Firefox Private Network VPN を使用する方法の解決策を見つける"
 
-#: kitsune/sumo/db_strings.py:420
+#: kitsune/sumo/db_strings.py:742
 msgctxt "DB: products.Topic.title"
 msgid "Accounts"
 msgstr "アカウント"
 
-#: kitsune/sumo/db_strings.py:421
+#: kitsune/sumo/db_strings.py:743
 msgctxt "DB: products.Topic.description"
 msgid "Find solutions on managing your account"
 msgstr "アカウント管理に関する解決策を探す"
 
-#: kitsune/sumo/db_strings.py:422
+#: kitsune/sumo/db_strings.py:744
 msgctxt "DB: products.Topic.title"
 msgid "Payments"
 msgstr "支払い"
 
-#: kitsune/sumo/db_strings.py:423
+#: kitsune/sumo/db_strings.py:745
 msgctxt "DB: products.Topic.description"
 msgid "Manage your payment and subscription"
 msgstr "支払いとサブスクリプションを管理する"
 
-#: kitsune/sumo/db_strings.py:424 kitsune/sumo/db_strings.py:538
+#: kitsune/sumo/db_strings.py:746 kitsune/sumo/db_strings.py:939
 msgctxt "DB: products.Topic.title"
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
 
-#: kitsune/sumo/db_strings.py:425
+#: kitsune/sumo/db_strings.py:747
 msgctxt "DB: products.Topic.description"
 msgid "Fix problems with Firefox Private Network VPN"
 msgstr "Firefox Private Network VPN の問題を修復する"
 
-#: kitsune/sumo/db_strings.py:426
+#: kitsune/sumo/db_strings.py:748
 msgctxt "DB: products.Topic.title"
 msgid "Firefox for Fire TV"
 msgstr "Firefox for Fire TV"
 
-#: kitsune/sumo/db_strings.py:427
+#: kitsune/sumo/db_strings.py:749
 msgctxt "DB: products.Topic.description"
 msgid "Browser for the Amazon Fire TV."
 msgstr "Amazon Fire TV 向けのブラウザー"
 
-#: kitsune/sumo/db_strings.py:428
+#: kitsune/sumo/db_strings.py:750
 msgctxt "DB: products.Topic.title"
 msgid "Firefox for Echo Show"
 msgstr "Firefox for Echo Show"
 
-#: kitsune/sumo/db_strings.py:429
+#: kitsune/sumo/db_strings.py:751
 msgctxt "DB: products.Topic.description"
 msgid "Browser for the Amazon Echo Show"
 msgstr "Amazon Echo Show 向けのブラウザー"
 
-#: kitsune/sumo/db_strings.py:431
+#: kitsune/sumo/db_strings.py:753
 msgctxt "DB: products.Topic.description"
 msgid "Get Started with Firefox for Fire TV"
 msgstr "Firefox for Fire TV の基本的な使い方"
 
-#: kitsune/sumo/db_strings.py:433
+#: kitsune/sumo/db_strings.py:755
 msgctxt "DB: products.Topic.description"
 msgid "Basics for using Firefox Private Network."
 msgstr "Firefox Private Network を使うための基本。"
 
-#: kitsune/sumo/db_strings.py:435
+#: kitsune/sumo/db_strings.py:757
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot problems with Firefox Fire TV"
 msgstr "Firefox Fire TV のトラブルシューティング"
 
-#: kitsune/sumo/db_strings.py:436
+#: kitsune/sumo/db_strings.py:758
 msgctxt "DB: products.Topic.title"
 msgid "Manage account and settings"
 msgstr "アカウントと設定の管理"
 
-#: kitsune/sumo/db_strings.py:437
+#: kitsune/sumo/db_strings.py:759
 msgctxt "DB: products.Topic.description"
 msgid "Change account and settings for Private Network."
 msgstr "Private Network のアカウントと設定を管理します。"
 
-#: kitsune/sumo/db_strings.py:439
+#: kitsune/sumo/db_strings.py:761
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot issues for Private Network"
 msgstr "Private Network の問題のトラブルシューティング"
 
-#: kitsune/sumo/db_strings.py:440
+#: kitsune/sumo/db_strings.py:762
 msgctxt "DB: products.Topic.title"
 msgid "Popcorn Maker"
 msgstr "Popcorn Maker"
 
-#: kitsune/sumo/db_strings.py:441
+#: kitsune/sumo/db_strings.py:763
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to remix web video, audio and images into mashups that you can embed on other websites. "
 msgstr "ウェブ上の動画や音楽、画像をマッシュアップして他のウェブサイトに埋め込めるようにする方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:442
+#: kitsune/sumo/db_strings.py:767
 msgctxt "DB: products.Topic.title"
 msgid "Webmaker for Android"
 msgstr "Android 版 Webmaker"
 
-#: kitsune/sumo/db_strings.py:443
+#: kitsune/sumo/db_strings.py:768
 msgctxt "DB: products.Topic.description"
 msgid "Get help with the Webmaker app for Android."
 msgstr "Android 向けの Webmaker アプリのヘルプです。"
 
-#: kitsune/sumo/db_strings.py:444
+#: kitsune/sumo/db_strings.py:769
 msgctxt "DB: products.Topic.title"
 msgid "Intro to Open Badges"
 msgstr "オープンバッジ入門"
 
-#: kitsune/sumo/db_strings.py:445
+#: kitsune/sumo/db_strings.py:770
 msgctxt "DB: products.Topic.description"
 msgid "Learn the basic about Open Badges"
 msgstr "オープンバッジについての基本を学びます。"
 
-#: kitsune/sumo/db_strings.py:446
+#: kitsune/sumo/db_strings.py:771
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Release notes"
 msgstr "リリースノート"
 
-#: kitsune/sumo/db_strings.py:447
+#: kitsune/sumo/db_strings.py:772
 msgctxt "DB: products.Topic.description"
 msgid "Where to find release notes and upcoming features."
 msgstr "リリースノートや最新の機能を確認。"
 
-#: kitsune/sumo/db_strings.py:448
+#: kitsune/sumo/db_strings.py:775
 msgctxt "DB: products.Topic.title"
 msgid "Windows"
 msgstr "Windows"
 
-#: kitsune/sumo/db_strings.py:449
+#: kitsune/sumo/db_strings.py:776
 msgctxt "DB: products.Topic.description"
 msgid "Deploying Firefox on Windows computers."
 msgstr "Windows コンピューター上に Firefox を展開。"
 
-#: kitsune/sumo/db_strings.py:450
+#: kitsune/sumo/db_strings.py:777
 msgctxt "DB: products.Topic.title"
 msgid "Manage certificates"
 msgstr "証明書の管理"
 
-#: kitsune/sumo/db_strings.py:451
+#: kitsune/sumo/db_strings.py:778
 msgctxt "DB: products.Topic.description"
 msgid "Set up certificates on Firefox for your organization."
 msgstr "Firefoxで組織の証明書を設定する。"
 
-#: kitsune/sumo/db_strings.py:452
+#: kitsune/sumo/db_strings.py:781
 msgctxt "DB: products.Topic.title"
 msgid "Thimble"
 msgstr "Thimble"
 
-#: kitsune/sumo/db_strings.py:453
+#: kitsune/sumo/db_strings.py:782
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to create and share your own webpages quickly and easily."
 msgstr "自分だけのウェブページをすばやく簡単に作成して共有する方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:454
+#: kitsune/sumo/db_strings.py:786
 msgctxt "DB: products.Topic.title"
 msgid "BadgeKit"
 msgstr "BadgeKit"
 
-#: kitsune/sumo/db_strings.py:455
+#: kitsune/sumo/db_strings.py:787
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to create, assess and issue badges"
 msgstr "バッジを作成、評価、発行する方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:456
+#: kitsune/sumo/db_strings.py:788
 msgctxt "DB: products.Topic.title"
 msgid "Customization of Firefox in an enterprise environment"
 msgstr "法人組織における Firefox のカスタマイズ"
 
-#: kitsune/sumo/db_strings.py:457
+#: kitsune/sumo/db_strings.py:789
 msgctxt "DB: products.Topic.description"
 msgid "Customization of Firefox in an enterprise environment"
 msgstr "法人組織における Firefox のカスタマイズ"
 
-#: kitsune/sumo/db_strings.py:458
+#: kitsune/sumo/db_strings.py:792
 msgctxt "DB: products.Topic.title"
 msgid "Installation"
 msgstr "インストール"
 
-#: kitsune/sumo/db_strings.py:459
+#: kitsune/sumo/db_strings.py:793
 msgctxt "DB: products.Topic.description"
 msgid "How to install Firefox for Enterprise"
 msgstr "法人向け Firefox のインストール方法"
 
-#: kitsune/sumo/db_strings.py:460
+#: kitsune/sumo/db_strings.py:794
 msgctxt "DB: products.Topic.title"
 msgid "Explore"
 msgstr "検討"
 
-#: kitsune/sumo/db_strings.py:461
+#: kitsune/sumo/db_strings.py:795
 msgctxt "DB: products.Topic.description"
 msgid "Learn about Firefox for Enterprise"
 msgstr "法人向け Firefoxについて学ぶ"
 
-#: kitsune/sumo/db_strings.py:462
+#: kitsune/sumo/db_strings.py:796
 msgctxt "DB: products.Topic.title"
 msgid "Mac"
 msgstr "Mac"
 
-#: kitsune/sumo/db_strings.py:463
+#: kitsune/sumo/db_strings.py:797
 msgctxt "DB: products.Topic.description"
 msgid "Deploy Firefox on your organization's Mac computers"
 msgstr "組織の Mac コンピューターに Firefox を配備する"
 
-#: kitsune/sumo/db_strings.py:464
+#: kitsune/sumo/db_strings.py:800
 msgctxt "DB: products.Topic.title"
 msgid "Policies overview"
 msgstr "ポリシーの概要"
 
-#: kitsune/sumo/db_strings.py:465
+#: kitsune/sumo/db_strings.py:801
 msgctxt "DB: products.Topic.description"
 msgid "How to set up policies on Firefox for your organization."
 msgstr "組織のためのポリシーを Firefox で設定する方法。"
 
-#: kitsune/sumo/db_strings.py:466
+#: kitsune/sumo/db_strings.py:805
 msgctxt "DB: products.Topic.title"
 msgid "X-Ray Goggles"
 msgstr "X-Ray ゴーグル"
 
-#: kitsune/sumo/db_strings.py:467
+#: kitsune/sumo/db_strings.py:806
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to inspect the code behind every webpage."
 msgstr "すべてのウェブページの裏側にあるコードを調べる方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:468
+#: kitsune/sumo/db_strings.py:809
 msgctxt "DB: products.Topic.title"
 msgid "Get Involved"
 msgstr "参加する"
 
-#: kitsune/sumo/db_strings.py:469
+#: kitsune/sumo/db_strings.py:810
 msgctxt "DB: products.Topic.description"
 msgid "Help the Open Badges community"
 msgstr "オープンバッジコミュニティを手助けします。"
 
-#: kitsune/sumo/db_strings.py:470
+#: kitsune/sumo/db_strings.py:811
 msgctxt "DB: products.Topic.title"
 msgid "Deploy"
 msgstr "展開"
 
-#: kitsune/sumo/db_strings.py:471
+#: kitsune/sumo/db_strings.py:812
 msgctxt "DB: products.Topic.description"
 msgid "Deployment of Firefox in an enterprise environment"
 msgstr "法人組織における Firefox の展開"
 
-#: kitsune/sumo/db_strings.py:472
+#: kitsune/sumo/db_strings.py:815
 msgctxt "DB: products.Topic.title"
 msgid "Manage updates, policies & customization"
 msgstr "更新、ポリシー、カスタマイズの管理"
 
-#: kitsune/sumo/db_strings.py:473
+#: kitsune/sumo/db_strings.py:816
 msgctxt "DB: products.Topic.description"
 msgid "Policies for Firefox for Enterprise"
 msgstr "企業向け Firefox のポリシー"
 
-#: kitsune/sumo/db_strings.py:474
+#: kitsune/sumo/db_strings.py:817
 msgctxt "DB: products.Topic.title"
 msgid "Autoconfiguration"
 msgstr "自動設定"
 
-#: kitsune/sumo/db_strings.py:475
+#: kitsune/sumo/db_strings.py:818
 msgctxt "DB: products.Topic.description"
 msgid "How to configure Firefox for Enterprise"
 msgstr "法人向け Firefox の設定方法"
 
-#: kitsune/sumo/db_strings.py:476
+#: kitsune/sumo/db_strings.py:819
 msgctxt "DB: products.Topic.title"
 msgid "Linux"
 msgstr "Linux"
 
-#: kitsune/sumo/db_strings.py:477
+#: kitsune/sumo/db_strings.py:820
 msgctxt "DB: products.Topic.description"
 msgid "Deploy Firefox on your organization's Linux machines."
 msgstr "組織の Linux マシンに Firefox を配備する。"
 
-#: kitsune/sumo/db_strings.py:478
+#: kitsune/sumo/db_strings.py:823
 msgctxt "DB: products.Topic.title"
 msgid "Manage settings via policy"
 msgstr "ポリシーを介した設定の管理"
 
-#: kitsune/sumo/db_strings.py:479
+#: kitsune/sumo/db_strings.py:824
 msgctxt "DB: products.Topic.description"
 msgid "Change Firefox's settings using policies."
 msgstr "ポリシーを使用して Firefox の設定を変更します。"
 
-#: kitsune/sumo/db_strings.py:480
+#: kitsune/sumo/db_strings.py:825
 msgctxt "DB: products.Topic.title"
 msgid "Get the most from webmaker.org"
 msgstr "webmaker.org を使いこなす"
 
-#: kitsune/sumo/db_strings.py:481
+#: kitsune/sumo/db_strings.py:826
 msgctxt "DB: products.Topic.description"
 msgid "Help or get help on a Webmaker project."
 msgstr "Webmaker プロジェクトに参加して相互に助け合いましょう。"
 
-#: kitsune/sumo/db_strings.py:482
+#: kitsune/sumo/db_strings.py:827
 msgctxt "DB: products.Topic.title"
 msgid "Earn Badges"
 msgstr "バッジの取得"
 
-#: kitsune/sumo/db_strings.py:483
+#: kitsune/sumo/db_strings.py:828
 msgctxt "DB: products.Topic.description"
 msgid "Earn Badges for the skills you learn online and offline"
 msgstr "オンラインやオフラインで学んだスキルのバッジを獲得しましょう。"
 
-#: kitsune/sumo/db_strings.py:485
+#: kitsune/sumo/db_strings.py:832
 msgctxt "DB: products.Topic.description"
 msgid "Working with add-ons on Firefox for your organization."
 msgstr "組織向けの Firefox 上でアドオンを動作させる。"
 
-#: kitsune/sumo/db_strings.py:486
+#: kitsune/sumo/db_strings.py:835
 msgctxt "DB: products.Topic.title"
 msgid "Events and help for Mentors"
 msgstr "メンター向けのイベントとヘルプ"
 
-#: kitsune/sumo/db_strings.py:487
+#: kitsune/sumo/db_strings.py:836
 msgctxt "DB: products.Topic.description"
 msgid "Help teach digital skills and share creative ways of teaching technology."
 msgstr "デジタルスキルを教えたり、技術を教えるクリエイティブな手段を共有しましょう。"
 
-#: kitsune/sumo/db_strings.py:488
+#: kitsune/sumo/db_strings.py:840
 msgctxt "DB: products.Topic.title"
 msgid "Issue Badges"
 msgstr "バッジの発行"
 
-#: kitsune/sumo/db_strings.py:489
+#: kitsune/sumo/db_strings.py:841
 msgctxt "DB: products.Topic.description"
 msgid "Issue digital badges to acknowledge new skills and achievements"
 msgstr "新しいスキルと達成を認めてデジタルバッジを発行しましょう。"
 
-#: kitsune/sumo/db_strings.py:490
+#: kitsune/sumo/db_strings.py:845
 msgctxt "DB: products.Topic.title"
 msgid "Display Badges"
 msgstr "バッジの表示"
 
-#: kitsune/sumo/db_strings.py:491
+#: kitsune/sumo/db_strings.py:846
 msgctxt "DB: products.Topic.description"
 msgid "Display your digital badges on your social networks, job sites and your own website."
 msgstr "デジタルバッジをソーシャルネットワークや仕事のサイト、自分のウェブサイトに表示しましょう。"
 
-#: kitsune/sumo/db_strings.py:492
+#: kitsune/sumo/db_strings.py:850
 msgctxt "DB: products.Topic.title"
 msgid "Knowledge Base"
 msgstr "ナレッジベース"
 
-#: kitsune/sumo/db_strings.py:493
+#: kitsune/sumo/db_strings.py:851
 msgctxt "DB: products.Topic.description"
 msgid "Windows 8 Touch support articles"
 msgstr "Windows 8 Touch のサポート記事"
 
-#: kitsune/sumo/db_strings.py:494
+#: kitsune/sumo/db_strings.py:852
 msgctxt "DB: products.Topic.title"
 msgid "Pocket Basics"
 msgstr "Pocket の基本的な使い方"
 
-#: kitsune/sumo/db_strings.py:495
+#: kitsune/sumo/db_strings.py:853
 msgctxt "DB: products.Topic.description"
 msgid "New to Pocket? Start here."
 msgstr "Pocket のご利用は初めてですか？ ここから始めましょう。"
 
-#: kitsune/sumo/db_strings.py:496
+#: kitsune/sumo/db_strings.py:854
 msgctxt "DB: products.Topic.title"
 msgid "Install and set up"
 msgstr "インストールとセットアップ"
 
-#: kitsune/sumo/db_strings.py:497
+#: kitsune/sumo/db_strings.py:855
 msgctxt "DB: products.Topic.description"
 msgid "Sync your logins across Firefox and your apps."
 msgstr "Firefox とアプリ間でログイン情報を同期します。"
 
-#: kitsune/sumo/db_strings.py:498
+#: kitsune/sumo/db_strings.py:856
 msgctxt "DB: products.Topic.title"
 msgid "About Data Sharing"
 msgstr "データ共有について"
 
-#: kitsune/sumo/db_strings.py:499
+#: kitsune/sumo/db_strings.py:857
 msgctxt "DB: products.Topic.description"
 msgid ""
 "In order to process or provide our products and services to you, we share your information with the following business partners. These entities are contractually obligated to handle the data in "
 "ways that are approved by Mozilla."
 msgstr "製品とサービスを使用または提供するために、以下のビジネスパートナーと情報を共有します。これらの企業は、契約上 Mozilla によって承認された方法でデータを処理する義務があります。"
 
-#: kitsune/sumo/db_strings.py:500
+#: kitsune/sumo/db_strings.py:861
 msgctxt "DB: products.Topic.title"
 msgid "Pocket for Mobile"
 msgstr "Pocket for Mobile"
 
-#: kitsune/sumo/db_strings.py:501
+#: kitsune/sumo/db_strings.py:862
 msgctxt "DB: products.Topic.description"
 msgid "How to use Pocket on your iPhone, iPad, Android or Kobo."
 msgstr "Pocket を iPhone や iPad、Android、Kobo で使う方法。"
 
-#: kitsune/sumo/db_strings.py:502
+#: kitsune/sumo/db_strings.py:866
 msgctxt "DB: products.Topic.title"
 msgid "Manage settings and logins"
 msgstr "設定とログイン情報の管理"
 
-#: kitsune/sumo/db_strings.py:503
+#: kitsune/sumo/db_strings.py:867
 msgctxt "DB: products.Topic.description"
 msgid "Setting up your device to work with Firefox Lockwise"
 msgstr "Firefox Lockwise が動作するようにセットアップする"
 
-#: kitsune/sumo/db_strings.py:504
+#: kitsune/sumo/db_strings.py:870
 msgctxt "DB: products.Topic.title"
 msgid "Managing Your Data"
 msgstr "データの管理"
 
-#: kitsune/sumo/db_strings.py:505
+#: kitsune/sumo/db_strings.py:871
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to manage your data (including deleting) for specific products or services."
 msgstr "特定の製品やサービスのデータを管理  (または削除) する方法を学んでください。"
 
-#: kitsune/sumo/db_strings.py:506
+#: kitsune/sumo/db_strings.py:875
 msgctxt "DB: products.Topic.title"
 msgid "Pocket for your Computer"
 msgstr "コンピューターに Pocket"
 
-#: kitsune/sumo/db_strings.py:507
+#: kitsune/sumo/db_strings.py:876
 msgctxt "DB: products.Topic.description"
 msgid "Using Pocket on the Web."
 msgstr "ウェブで Pocket を使う。"
 
-#: kitsune/sumo/db_strings.py:509
+#: kitsune/sumo/db_strings.py:878
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot issues with Firefox Lockwise"
 msgstr "Firefox Lockwise の問題のトラブルシューティング"
 
-#: kitsune/sumo/db_strings.py:510
+#: kitsune/sumo/db_strings.py:879
 msgctxt "DB: products.Topic.title"
 msgid "Sensible Settings"
 msgstr "プライバシー設定"
 
-#: kitsune/sumo/db_strings.py:511
+#: kitsune/sumo/db_strings.py:880
 msgctxt "DB: products.Topic.description"
 msgid "Give our users actionable and informed choices by informing and educating at the point of collection and providing a choice to opt-out whenever possible. "
 msgstr "個人情報が収集される際にそれを知らせて啓発し、可能な限りオプトアウトの選択肢を提供することで、ユーザーに実行可能で情報に基づいた選択肢を提供します。"
 
-#: kitsune/sumo/db_strings.py:512
+#: kitsune/sumo/db_strings.py:884
 msgctxt "DB: products.Topic.title"
 msgid "Advanced"
 msgstr "詳細検索"
 
-#: kitsune/sumo/db_strings.py:513
+#: kitsune/sumo/db_strings.py:885
 msgctxt "DB: products.Topic.description"
 msgid "Information for Developers and Beta users."
 msgstr "開発者およびベータユーザー向けの情報。"
 
-#: kitsune/sumo/db_strings.py:514
+#: kitsune/sumo/db_strings.py:886
 msgctxt "DB: products.Topic.title"
 msgid "Defense in Depth"
 msgstr "徹底的に守る"
 
-#: kitsune/sumo/db_strings.py:515
+#: kitsune/sumo/db_strings.py:887
 msgctxt "DB: products.Topic.description"
 msgid "Make privacy a key factor in selecting and interacting with partners. "
 msgstr "パートナーを選び、その企業とやりとりを行う際に、プライバシーを重要なポイントとします。"
 
-#: kitsune/sumo/db_strings.py:516
+#: kitsune/sumo/db_strings.py:891
 msgctxt "DB: products.Topic.title"
 msgid "How does it work?"
 msgstr "どのように動作しますか？"
 
-#: kitsune/sumo/db_strings.py:517
+#: kitsune/sumo/db_strings.py:892
 msgctxt "DB: products.Topic.description"
 msgid "Basics to get started with Firefox for Windows 8 Touch."
 msgstr "Windows 8 Touch 版 Firefox の基本的な使い方。"
 
-#: kitsune/sumo/db_strings.py:519
+#: kitsune/sumo/db_strings.py:896
 msgctxt "DB: products.Topic.description"
 msgid "How to configure and customize Firefox for Windows 8 Touch."
 msgstr "Windows 8 Touch 版 Firefox の設定とカスタマイズの方法。"
 
-#: kitsune/sumo/db_strings.py:520
+#: kitsune/sumo/db_strings.py:900
 msgctxt "DB: products.Topic.title"
 msgid "Problems with websites"
 msgstr "ウェブサイトの問題"
 
-#: kitsune/sumo/db_strings.py:521
+#: kitsune/sumo/db_strings.py:901
 msgctxt "DB: products.Topic.description"
 msgid "Problems with websites that don't work well in Firefox for Windows 8 Touch."
 msgstr "Windows 8 Touch 版 Firefox でうまく動作しないウェブサイトの問題。"
 
-#: kitsune/sumo/db_strings.py:523
+#: kitsune/sumo/db_strings.py:906
 msgctxt "DB: products.Topic.description"
 msgid "Other questions with Firefox for Windows 8 Touch."
 msgstr "Windows 8 Touch 版 Firefox についての他の質問。"
 
-#: kitsune/sumo/db_strings.py:524
+#: kitsune/sumo/db_strings.py:907
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "General contribution"
 msgstr "自分の貢献"
 
-#: kitsune/sumo/db_strings.py:525
+#: kitsune/sumo/db_strings.py:908
 msgctxt "DB: products.Topic.description"
 msgid "Topic for any KB articles related to the contribution in general"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:527
+#: kitsune/sumo/db_strings.py:913
 msgctxt "DB: products.Topic.description"
 msgid "How to use Firefox Reality"
 msgstr "Firefox Reality の使い方"
 
-#: kitsune/sumo/db_strings.py:528
+#: kitsune/sumo/db_strings.py:914
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Forum Support"
 msgstr "サポート"
 
-#: kitsune/sumo/db_strings.py:529
+#: kitsune/sumo/db_strings.py:915
 msgctxt "DB: products.Topic.description"
 msgid "Topic for any KB articles related to the Forum Support contribution"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:530
+#: kitsune/sumo/db_strings.py:919
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Social Support"
 msgstr "モバイル版サポート"
 
-#: kitsune/sumo/db_strings.py:531
+#: kitsune/sumo/db_strings.py:920
 msgctxt "DB: products.Topic.description"
 msgid "Topic for any KB articles related to the Social Support Program"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:532
+#: kitsune/sumo/db_strings.py:924
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Localization"
 msgstr "ローカライズ"
 
-#: kitsune/sumo/db_strings.py:533
+#: kitsune/sumo/db_strings.py:925
 msgctxt "DB: products.Topic.description"
 msgid "Topic for any KB articles related to the Localization contribution"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:534
+#: kitsune/sumo/db_strings.py:929
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "KB Contribution"
 msgstr "貢献"
 
-#: kitsune/sumo/db_strings.py:535
+#: kitsune/sumo/db_strings.py:930
 msgctxt "DB: products.Topic.description"
 msgid "Topic for any KB articles related to the KB articles contribution"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:536
+#: kitsune/sumo/db_strings.py:934
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Respond tool"
 msgstr "返答あり"
 
-#: kitsune/sumo/db_strings.py:537
+#: kitsune/sumo/db_strings.py:935
 msgctxt "DB: products.Topic.description"
 msgid "Topic for any KB articles related to the Respond Tool contribution"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:539
+#: kitsune/sumo/db_strings.py:940
 msgctxt "DB: products.Topic.description"
 msgid "Fix problems with Firefox Reality"
 msgstr "Firefox Reality の問題の解決"
 
-#: kitsune/sumo/db_strings.py:540
+#: kitsune/sumo/db_strings.py:941
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "[Obsolete] Mozilla Persona"
 msgstr "Mozilla Persona"
 
-#: kitsune/sumo/db_strings.py:542
+#: kitsune/sumo/db_strings.py:943
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "[Obsolete] Hot topics"
 msgstr "注目のトピック"
 
-#: kitsune/sumo/db_strings.py:544
+#: kitsune/sumo/db_strings.py:945
 msgctxt "DB: products.Topic.title"
 msgid "Get Started"
 msgstr "はじめに"
 
-#: kitsune/sumo/db_strings.py:545
+#: kitsune/sumo/db_strings.py:946
 msgctxt "DB: products.Topic.description"
 msgid "Klar verwenden"
 msgstr "Klar verwenden"
 
-#: kitsune/sumo/db_strings.py:546
+#: kitsune/sumo/db_strings.py:947
 msgctxt "DB: products.Topic.title"
 msgid "Firefox Klar for iOS"
 msgstr "iOS 版 Firefox Klar"
 
-#: kitsune/sumo/db_strings.py:547
+#: kitsune/sumo/db_strings.py:948
 msgctxt "DB: products.Topic.description"
 msgid "Privacy browser for iOS"
 msgstr "iOS 向けプライバシー保護ブラウザー"
 
-#: kitsune/sumo/db_strings.py:549
+#: kitsune/sumo/db_strings.py:950
 msgctxt "DB: products.Topic.description"
 msgid "Everything you need to know to use Firefox Lite."
 msgstr "Firefox Lite を使い始めるのに必要なすべてのことを学びます。"
 
-#: kitsune/sumo/db_strings.py:550
+#: kitsune/sumo/db_strings.py:951
 msgctxt "DB: products.Topic.title"
 msgid "Features"
 msgstr "機能"
 
-#: kitsune/sumo/db_strings.py:551
+#: kitsune/sumo/db_strings.py:952
 msgctxt "DB: products.Topic.description"
 msgid "Getting started with Hubs"
 msgstr "はじめての Hubs"
 
-#: kitsune/sumo/db_strings.py:552
+#: kitsune/sumo/db_strings.py:953
 msgctxt "DB: products.Topic.title"
 msgid "Firefox Klar for Android"
 msgstr "Android 版 Firefox Klar"
 
-#: kitsune/sumo/db_strings.py:553 kitsune/sumo/db_strings.py:569
+#: kitsune/sumo/db_strings.py:954 kitsune/sumo/db_strings.py:970
 msgctxt "DB: products.Topic.description"
 msgid "Privacy browser for Android"
 msgstr "Android 向けプライバシー保護ブラウザー"
 
-#: kitsune/sumo/db_strings.py:554
+#: kitsune/sumo/db_strings.py:955
 msgctxt "DB: products.Topic.title"
 msgid "Preferences"
 msgstr "設定"
 
-#: kitsune/sumo/db_strings.py:555
+#: kitsune/sumo/db_strings.py:956
 msgctxt "DB: products.Topic.description"
 msgid "Customize Firefox Lite to your desired settings"
 msgstr "Firefox Lite をカスタマイズして希望の設定にする"
 
-#: kitsune/sumo/db_strings.py:556
+#: kitsune/sumo/db_strings.py:957
 msgctxt "DB: products.Topic.title"
 msgid "Controls"
 msgstr "コントロール"
 
-#: kitsune/sumo/db_strings.py:557
+#: kitsune/sumo/db_strings.py:958
 msgctxt "DB: products.Topic.description"
 msgid "How to navigate Hubs"
 msgstr "Hubs を閲覧する方法"
 
-#: kitsune/sumo/db_strings.py:559
+#: kitsune/sumo/db_strings.py:960
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot problems with Firefox Lite."
 msgstr "Firefox Lite のトラブルシューティング。"
 
-#: kitsune/sumo/db_strings.py:560
+#: kitsune/sumo/db_strings.py:961
 msgctxt "DB: products.Topic.title"
 msgid "Moderation"
 msgstr "モデレート"
 
-#: kitsune/sumo/db_strings.py:561
+#: kitsune/sumo/db_strings.py:962
 msgctxt "DB: products.Topic.description"
 msgid "Tools for making Hubs a good experience for all."
 msgstr "Hubs でより良い体験をするためのツール。"
 
-#: kitsune/sumo/db_strings.py:562
+#: kitsune/sumo/db_strings.py:963
 msgctxt "DB: products.Topic.title"
 msgid "Spoke"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:563
+#: kitsune/sumo/db_strings.py:964
 msgctxt "DB: products.Topic.description"
 msgid "Build scenes with Spoke"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:564
+#: kitsune/sumo/db_strings.py:965
 #, fuzzy
 msgctxt "DB: products.Topic.title"
 msgid "Creators"
 msgstr "作成者"
 
-#: kitsune/sumo/db_strings.py:565
+#: kitsune/sumo/db_strings.py:966
 msgctxt "DB: products.Topic.description"
 msgid "Advanced Hubs customization for creators"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:566
+#: kitsune/sumo/db_strings.py:967
 msgctxt "DB: products.Topic.title"
 msgid "Firefox Focus for iOS"
 msgstr "iOS 版 Firefox Focus"
 
-#: kitsune/sumo/db_strings.py:567
+#: kitsune/sumo/db_strings.py:968
 msgctxt "DB: products.Topic.description"
 msgid "Firefox Focus for iOS"
 msgstr "iOS 版 Firefox Focus"
 
-#: kitsune/sumo/db_strings.py:568
+#: kitsune/sumo/db_strings.py:969
 msgctxt "DB: products.Topic.title"
 msgid "Firefox Focus for Android"
 msgstr "Android 版 Firefox Focus"
 
-#: kitsune/sumo/db_strings.py:571
+#: kitsune/sumo/db_strings.py:972
 msgctxt "DB: products.Topic.description"
 msgid "Learn the basics about ScreenshotGo"
 msgstr "ScreenshotGo についての基本を学びましょう"
 
-#: kitsune/sumo/db_strings.py:572
+#: kitsune/sumo/db_strings.py:973
 msgctxt "DB: products.Topic.title"
 msgid "Learn the Basics. Get Started"
 msgstr "基本を学ぼう。 はじめに"
 
-#: kitsune/sumo/db_strings.py:573
+#: kitsune/sumo/db_strings.py:974
 msgctxt "DB: products.Topic.description"
 msgid "Learn the Basics. Get Started"
 msgstr "基本を学ぼう。 はじめに"
 
-#: kitsune/sumo/db_strings.py:575
+#: kitsune/sumo/db_strings.py:976
 msgctxt "DB: products.Topic.description"
 msgid "Learn tips and shortcuts to help you work faster"
 msgstr "作業の効率化を助けるヒントとショートカットを学びましょう"
 
-#: kitsune/sumo/db_strings.py:576
+#: kitsune/sumo/db_strings.py:977
 msgctxt "DB: products.Topic.title"
 msgid "Set up email"
 msgstr "メールをセットアップする"
 
-#: kitsune/sumo/db_strings.py:577
+#: kitsune/sumo/db_strings.py:978
 msgctxt "DB: products.Topic.description"
 msgid "Add and configure your email accounts on Thunderbird"
 msgstr "Thunderbird のメールアカウントの追加と設定"
 
-#: kitsune/sumo/db_strings.py:578
+#: kitsune/sumo/db_strings.py:981
 msgctxt "DB: products.Topic.title"
 msgid "Install, Migrate and Update"
 msgstr "インストール、移行、更新"
 
-#: kitsune/sumo/db_strings.py:579
+#: kitsune/sumo/db_strings.py:982
 msgctxt "DB: products.Topic.description"
 msgid "How to install and keep Thunderbird up to date"
 msgstr "Thunderbird をインストールし、最新に保つ方法"
 
-#: kitsune/sumo/db_strings.py:580
+#: kitsune/sumo/db_strings.py:983
 msgctxt "DB: products.Topic.title"
 msgid "Read, send and organize emails"
 msgstr "メールの送受信と管理"
 
-#: kitsune/sumo/db_strings.py:581
+#: kitsune/sumo/db_strings.py:984
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to manage your email messages"
 msgstr "メールを管理する方法を学びます"
 
-#: kitsune/sumo/db_strings.py:582
+#: kitsune/sumo/db_strings.py:985
 msgctxt "DB: products.Topic.title"
 msgid "Emails"
 msgstr "メール"
 
-#: kitsune/sumo/db_strings.py:583
+#: kitsune/sumo/db_strings.py:986
 msgctxt "DB: products.Topic.description"
 msgid "Learn to set up accounts, read, send and manage emails"
 msgstr "アカウントのセットアップ、メールの送受信および管理方法を学びます"
 
-#: kitsune/sumo/db_strings.py:584
+#: kitsune/sumo/db_strings.py:989
 msgctxt "DB: products.Topic.title"
 msgid "News Feeds (RSS), Blogs and Social"
 msgstr "ニュースフィード (RSS)、ブログ、ソーシャル"
 
-#: kitsune/sumo/db_strings.py:585
+#: kitsune/sumo/db_strings.py:990
 msgctxt "DB: products.Topic.description"
 msgid "Stay up to date with news feeds, blogs and social features"
 msgstr "ニュースフィード、ブログ、ソーシャル機能で最新の情報を入手できます"
 
-#: kitsune/sumo/db_strings.py:586
+#: kitsune/sumo/db_strings.py:994
 msgctxt "DB: products.Topic.title"
 msgid "Contacts"
 msgstr "連絡先"
 
-#: kitsune/sumo/db_strings.py:587
+#: kitsune/sumo/db_strings.py:995
 msgctxt "DB: products.Topic.description"
 msgid "How to use the address book on Thunderbird"
 msgstr "Thunderbird でアドレス帳を使用する方法"
 
-#: kitsune/sumo/db_strings.py:588
+#: kitsune/sumo/db_strings.py:996
 msgctxt "DB: products.Topic.title"
 msgid "Calendar"
 msgstr "カレンダー"
 
-#: kitsune/sumo/db_strings.py:589
+#: kitsune/sumo/db_strings.py:997
 msgctxt "DB: products.Topic.description"
 msgid "Related to the Lightning add-on for Calendar"
 msgstr "Lightning アドオンのカレンダー関連"
 
-#: kitsune/sumo/db_strings.py:591
+#: kitsune/sumo/db_strings.py:999
 msgctxt "DB: products.Topic.description"
 msgid "Customize controls, options and add-ons"
 msgstr "ツールバーのカスタマイズと環境設定、アドオン"
 
-#: kitsune/sumo/db_strings.py:592
+#: kitsune/sumo/db_strings.py:1000
 msgctxt "DB: products.Topic.title"
 msgid "Thunderbird versions and languages"
 msgstr "Thunderbird のバージョンと言語"
 
-#: kitsune/sumo/db_strings.py:593
+#: kitsune/sumo/db_strings.py:1001
 msgctxt "DB: products.Topic.description"
 msgid "Thunderbird versions and languages"
 msgstr "Thunderbird のバージョンと言語"
 
-#: kitsune/sumo/db_strings.py:594
+#: kitsune/sumo/db_strings.py:1002
 msgctxt "DB: products.Topic.title"
 msgid "Passwords, forms and search"
 msgstr "パスワード、フォーム、検索"
 
-#: kitsune/sumo/db_strings.py:595
+#: kitsune/sumo/db_strings.py:1003
 msgctxt "DB: products.Topic.description"
 msgid "Passwords, forms and search"
 msgstr "パスワード、フォーム、検索"
 
-#: kitsune/sumo/db_strings.py:596
+#: kitsune/sumo/db_strings.py:1004
 msgctxt "DB: products.Topic.title"
 msgid "Thunderbird controls and buttons "
 msgstr "Thunderbird のコントロールとボタン"
 
-#: kitsune/sumo/db_strings.py:597
+#: kitsune/sumo/db_strings.py:1005
 msgctxt "DB: products.Topic.description"
 msgid "Learn all about Thunderbird controls and functionality."
 msgstr "Thunderbird のすべてのコントロールと機能について学びます。"
 
-#: kitsune/sumo/db_strings.py:598
+#: kitsune/sumo/db_strings.py:1008
 msgctxt "DB: products.Topic.title"
 msgid "Fix problems with email providers (gmail, Yahoo, etc.) "
 msgstr "メールプロバイダー (Gmail、Yahoo! メールなど) に関する問題の解決"
 
-#: kitsune/sumo/db_strings.py:599
+#: kitsune/sumo/db_strings.py:1009
 msgctxt "DB: products.Topic.description"
 msgid "Learn how to fix problems with Gmail, Yahoo and other email providers"
 msgstr "Gmail や Yahoo、他のメールプロバイダーで起こる問題を解決する方法を学びます。"
 
-#: kitsune/sumo/db_strings.py:601
+#: kitsune/sumo/db_strings.py:1014
 msgctxt "DB: products.Topic.description"
 msgid "Download, install and Migration"
 msgstr "ダウンロードとインストール、データの移行"
 
-#: kitsune/sumo/db_strings.py:602
+#: kitsune/sumo/db_strings.py:1015
 msgctxt "DB: products.Topic.title"
 msgid "Copy your personal information from  one Thunderbird to another"
 msgstr "個人情報を Thunderbird から別の Thunderbird へコピー"
 
-#: kitsune/sumo/db_strings.py:603
+#: kitsune/sumo/db_strings.py:1019
 msgctxt "DB: products.Topic.description"
 msgid "Copy your personal information from  one Thunderbird to another"
 msgstr "個人情報を Thunderbird から別の Thunderbird へコピー"
 
-#: kitsune/sumo/db_strings.py:607
+#: kitsune/sumo/db_strings.py:1026
 msgctxt "DB: products.Topic.description"
 msgid "Error messages: what they mean and how to fix"
 msgstr "エラーメッセージ: メッセージの意味と解決方法"
 
-#: kitsune/sumo/db_strings.py:609
+#: kitsune/sumo/db_strings.py:1028
 msgctxt "DB: products.Topic.description"
 msgid "Keep your information safe with password and security settings"
 msgstr "パスワード保護とセキュリティ設定で個人情報を安全に守りましょう。"
 
-#: kitsune/sumo/db_strings.py:610
+#: kitsune/sumo/db_strings.py:1032
 msgctxt "DB: products.Topic.title"
 msgid "Customize Thunderbird with add-ons, plugins, and extensions"
 msgstr "アドオン、プラグイン、拡張機能で Thunderbird をカスタマイズ"
 
-#: kitsune/sumo/db_strings.py:611
+#: kitsune/sumo/db_strings.py:1035
 msgctxt "DB: products.Topic.description"
 msgid "Customize Thunderbird with add-ons, plugins, and extensions"
 msgstr "アドオン、プラグイン、拡張機能で Thunderbird をカスタマイズ"
 
-#: kitsune/sumo/db_strings.py:612
+#: kitsune/sumo/db_strings.py:1039
 msgctxt "DB: products.Topic.title"
 msgid "Unblock Thunderbird from connecting to the Internet"
 msgstr "Thunderbird のインターネット接続をブロック解除する"
 
-#: kitsune/sumo/db_strings.py:613
+#: kitsune/sumo/db_strings.py:1040
 msgctxt "DB: products.Topic.description"
 msgid "Unblock Thunderbird from connecting to the Internet"
 msgstr "Thunderbird のインターネット接続をブロック解除する"
 
-#: kitsune/sumo/db_strings.py:614
+#: kitsune/sumo/db_strings.py:1043
 msgctxt "DB: products.Topic.title"
 msgid "Thunderbird options, preferences and settings "
 msgstr "Thunderbird のオプション、環境設定、設定"
 
-#: kitsune/sumo/db_strings.py:615
+#: kitsune/sumo/db_strings.py:1044
 msgctxt "DB: products.Topic.description"
 msgid "Thunderbird options, preferences and settings "
 msgstr "Thunderbird のオプション、環境設定、設定"
 
-#: kitsune/sumo/db_strings.py:619
+#: kitsune/sumo/db_strings.py:1050
 msgctxt "DB: products.Topic.description"
 msgid "Troubleshoot error messages on Thunderbird."
 msgstr "Thunderbird のエラーメッセージを解決します。"
 
-#: kitsune/sumo/db_strings.py:620
+#: kitsune/sumo/db_strings.py:1051
 msgctxt "DB: products.Topic.title"
 msgid "Thunderbird is slow or stops working"
 msgstr "Thunderbird の遅い動作とハングアップ"
 
-#: kitsune/sumo/db_strings.py:621
+#: kitsune/sumo/db_strings.py:1052
 msgctxt "DB: products.Topic.description"
 msgid "Thunderbird is slow or stops working"
 msgstr "Thunderbird の遅い動作とハングアップ"
 
-#: kitsune/sumo/db_strings.py:622
+#: kitsune/sumo/db_strings.py:1053
 msgctxt "DB: products.Topic.title"
 msgid "Thunderbird crashes"
 msgstr "Thunderbird のクラッシュ"
 
-#: kitsune/sumo/db_strings.py:623
+#: kitsune/sumo/db_strings.py:1054
 msgctxt "DB: products.Topic.description"
 msgid "Thunderbird crashes"
 msgstr "Thunderbird のクラッシュ"
 
-#: kitsune/sumo/db_strings.py:626
+#: kitsune/sumo/db_strings.py:1057
 msgctxt "DB: products.Topic.title"
 msgid "Thunderbird won't save settings or remember information"
 msgstr "Thunderbird の設定が保存されない、情報が記憶されない"
 
-#: kitsune/sumo/db_strings.py:627
+#: kitsune/sumo/db_strings.py:1058
 msgctxt "DB: products.Topic.description"
 msgid "Thunderbird won't save settings or remember information"
 msgstr "Thunderbird の設定が保存されない、情報が記憶されない"
 
-#: kitsune/sumo/db_strings.py:630
+#: kitsune/sumo/db_strings.py:1065
 msgctxt "DB: products.Topic.title"
 msgid "How To"
 msgstr "操作方法"
 
-#: kitsune/sumo/db_strings.py:631
+#: kitsune/sumo/db_strings.py:1066
 msgctxt "DB: products.Topic.description"
 msgid "Articles that tell you how you can do more with Thunderbird"
 msgstr "Thunderbird に対してあなたが協力できることを紹介する記事"
 
-#: kitsune/sumo/db_strings.py:634
+#: kitsune/sumo/db_strings.py:1072
 msgctxt "DB: products.Product.title"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: kitsune/sumo/db_strings.py:635
+#: kitsune/sumo/db_strings.py:1073
 msgctxt "DB: products.Product.description"
 msgid "Web browser for Windows, Mac and Linux"
 msgstr "Windows および Mac、Linux 向けのウェブブラウザー"
 
-#: kitsune/sumo/db_strings.py:636
+#: kitsune/sumo/db_strings.py:1074
 msgctxt "DB: products.Product.title"
 msgid "Firefox for Android"
 msgstr "Android 版 Firefox"
 
-#: kitsune/sumo/db_strings.py:637
+#: kitsune/sumo/db_strings.py:1075
 msgctxt "DB: products.Product.description"
 msgid "Web browser for Android smartphones and tablets"
 msgstr "Android スマートフォンとタブレット向けのウェブブラウザー"
 
-#: kitsune/sumo/db_strings.py:638
+#: kitsune/sumo/db_strings.py:1076
 msgctxt "DB: products.Product.title"
 msgid "Firefox for iOS"
 msgstr "iOS 版 Firefox"
 
-#: kitsune/sumo/db_strings.py:639
+#: kitsune/sumo/db_strings.py:1077
 msgctxt "DB: products.Product.description"
 msgid "Firefox for iPhone, iPad and iPod touch devices"
 msgstr "iPhone、iPad、iPod touch 端末向け Firefox"
 
-#: kitsune/sumo/db_strings.py:640
+#: kitsune/sumo/db_strings.py:1078
 #, fuzzy
 msgctxt "DB: products.Product.title"
 msgid "Firefox Accounts"
 msgstr "Firefox アカウント"
 
-#: kitsune/sumo/db_strings.py:641
+#: kitsune/sumo/db_strings.py:1079
 msgctxt "DB: products.Product.description"
 msgid "Privacy-first products for desktop and mobile"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:642
+#: kitsune/sumo/db_strings.py:1080
 msgctxt "DB: products.Product.title"
 msgid "Firefox OS"
 msgstr "Firefox OS"
 
-#: kitsune/sumo/db_strings.py:643
+#: kitsune/sumo/db_strings.py:1081
 msgctxt "DB: products.Product.description"
 msgid "Mobile OS for smartphones"
 msgstr "スマートフォン向けのモバイル OS"
 
-#: kitsune/sumo/db_strings.py:644
+#: kitsune/sumo/db_strings.py:1082
 msgctxt "DB: products.Product.title"
 msgid "Firefox Preview"
 msgstr "Firefox Preview"
 
-#: kitsune/sumo/db_strings.py:645
+#: kitsune/sumo/db_strings.py:1083
 msgctxt "DB: products.Product.description"
 msgid "Early version of an experimental Firefox browser for Android."
 msgstr "Android 版 Firefox ブラウザーの実験的な早期バージョン。"
 
-#: kitsune/sumo/db_strings.py:646
+#: kitsune/sumo/db_strings.py:1087
 #, fuzzy
 msgctxt "DB: products.Product.title"
 msgid "Mozilla VPN"
 msgstr "Mozilla ニュース"
 
-#: kitsune/sumo/db_strings.py:647
+#: kitsune/sumo/db_strings.py:1088
 #, fuzzy
 msgctxt "DB: products.Product.description"
 msgid "VPN for Windows 10, Android, and iOS devices"
 msgstr "Windows 10 と Android 端末向け VPN"
 
-#: kitsune/sumo/db_strings.py:648
+#: kitsune/sumo/db_strings.py:1089
 msgctxt "DB: products.Product.title"
 msgid "Firefox for Amazon Devices"
 msgstr "Amazon 端末向け Firefox"
 
-#: kitsune/sumo/db_strings.py:649
+#: kitsune/sumo/db_strings.py:1090
 msgctxt "DB: products.Product.description"
 msgid "Browser for Amazon devices"
 msgstr "Amazon 端末向けブラウザー"
 
-#: kitsune/sumo/db_strings.py:650
+#: kitsune/sumo/db_strings.py:1091
 msgctxt "DB: products.Product.title"
 msgid "Firefox for Fire TV"
 msgstr "Firefox for Fire TV"
 
-#: kitsune/sumo/db_strings.py:651
+#: kitsune/sumo/db_strings.py:1092
 msgctxt "DB: products.Product.description"
 msgid "Browser for Amazon Fire TV"
 msgstr "Amazon Fire TV 向けのブラウザー"
 
-#: kitsune/sumo/db_strings.py:652
+#: kitsune/sumo/db_strings.py:1093
 msgctxt "DB: products.Product.title"
 msgid "Firefox Private Network Browser-level protection"
 msgstr "Firefox Private Network Browser-level protection"
 
-#: kitsune/sumo/db_strings.py:653
+#: kitsune/sumo/db_strings.py:1094
 msgctxt "DB: products.Product.description"
 msgid "Browse securely on public Wi-Fi"
 msgstr "公共 Wi-Fi で安全にブラウジング"
 
-#: kitsune/sumo/db_strings.py:654
+#: kitsune/sumo/db_strings.py:1095
 msgctxt "DB: products.Product.title"
 msgid "Firefox for Enterprise"
 msgstr "法人向け Firefox"
 
-#: kitsune/sumo/db_strings.py:655
+#: kitsune/sumo/db_strings.py:1096
 msgctxt "DB: products.Product.description"
 msgid "Firefox Quantum for businesses"
 msgstr "法人向け Firefox Quantum"
 
-#: kitsune/sumo/db_strings.py:656
+#: kitsune/sumo/db_strings.py:1097
 msgctxt "DB: products.Product.title"
 msgid "Open Badges"
 msgstr "オープンバッジ"
 
-#: kitsune/sumo/db_strings.py:657
+#: kitsune/sumo/db_strings.py:1098
 msgctxt "DB: products.Product.description"
 msgid "A new online standard to recognize and verify learning"
 msgstr "学習を受け入れて認めるための新しいオンライン標準"
 
-#: kitsune/sumo/db_strings.py:658
+#: kitsune/sumo/db_strings.py:1102
 msgctxt "DB: products.Product.title"
 msgid "Webmaker"
 msgstr "Webmaker"
 
-#: kitsune/sumo/db_strings.py:659
+#: kitsune/sumo/db_strings.py:1103
 msgctxt "DB: products.Product.description"
 msgid "Webmaker and other tools for teaching and learning the Web"
 msgstr "Web を教え学ぶための Webmaker と他のツール"
 
-#: kitsune/sumo/db_strings.py:660
+#: kitsune/sumo/db_strings.py:1107
 #, fuzzy
 msgctxt "DB: products.Product.title"
 msgid "Firefox for Android (ESR)"
 msgstr "Android 版 Firefox"
 
-#: kitsune/sumo/db_strings.py:661
+#: kitsune/sumo/db_strings.py:1108
 msgctxt "DB: products.Product.description"
 msgid "Older version of Firefox for Android (no longer supported)"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:662
+#: kitsune/sumo/db_strings.py:1112
 msgctxt "DB: products.Product.title"
 msgid "Firefox for Windows 8 Touch"
 msgstr "Windows 8 Touch 版 Firefox"
 
-#: kitsune/sumo/db_strings.py:663
+#: kitsune/sumo/db_strings.py:1113
 msgctxt "DB: products.Product.description"
 msgid "Firefox for Windows 8 touch devices"
 msgstr "Windows 8 タッチ端末版 Firefox"
 
-#: kitsune/sumo/db_strings.py:664
+#: kitsune/sumo/db_strings.py:1114
 msgctxt "DB: products.Product.title"
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/sumo/db_strings.py:665
+#: kitsune/sumo/db_strings.py:1115
 msgctxt "DB: products.Product.description"
 msgid "Mobile app that gives you access to passwords you've saved to Firefox."
 msgstr "Firefox に保存したパスワードにアクセスできるモバイルアプリ。"
 
-#: kitsune/sumo/db_strings.py:666
+#: kitsune/sumo/db_strings.py:1119
 msgctxt "DB: products.Product.title"
 msgid "Pocket"
 msgstr "Pocket"
 
-#: kitsune/sumo/db_strings.py:667
+#: kitsune/sumo/db_strings.py:1120
 msgctxt "DB: products.Product.description"
 msgid "Discover and save stories for later"
 msgstr "見つけたページを後で読みましょう"
 
-#: kitsune/sumo/db_strings.py:668
+#: kitsune/sumo/db_strings.py:1121
 msgctxt "DB: products.Product.title"
 msgid "Privacy and Security"
 msgstr "プライバシーとセキュリティ"
 
-#: kitsune/sumo/db_strings.py:669
+#: kitsune/sumo/db_strings.py:1122
 msgctxt "DB: products.Product.description"
 msgid "Learn more about Mozilla's privacy and security practices."
 msgstr "Mozilla のプライバシーとセキュリティの実践について詳しく学ぶ。"
 
-#: kitsune/sumo/db_strings.py:670
+#: kitsune/sumo/db_strings.py:1126
 msgctxt "DB: products.Product.title"
 msgid "Contributors"
 msgstr "貢献者"
 
-#: kitsune/sumo/db_strings.py:671
+#: kitsune/sumo/db_strings.py:1127
 msgctxt "DB: products.Product.description"
 msgid "Contributor articles"
 msgstr "貢献者向けの記事"
 
-#: kitsune/sumo/db_strings.py:672
+#: kitsune/sumo/db_strings.py:1128
 msgctxt "DB: products.Product.title"
 msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
-#: kitsune/sumo/db_strings.py:673
+#: kitsune/sumo/db_strings.py:1129
 msgctxt "DB: products.Product.description"
 msgid "Web browser for virtual reality headsets"
 msgstr "VR ヘッドセット向けウェブブラウザー"
 
-#: kitsune/sumo/db_strings.py:674
+#: kitsune/sumo/db_strings.py:1130
 msgctxt "DB: products.Product.title"
 msgid "Firefox Send"
 msgstr "Firefox Send"
 
-#: kitsune/sumo/db_strings.py:675
+#: kitsune/sumo/db_strings.py:1131
 msgctxt "DB: products.Product.description"
 msgid "An app for sending files to anyone."
 msgstr "誰にでもファイルを送信できるアプリ。"
 
-#: kitsune/sumo/db_strings.py:676
+#: kitsune/sumo/db_strings.py:1132
 msgctxt "DB: products.Product.title"
 msgid "Firefox Klar"
 msgstr "Firefox Klar"
 
-#: kitsune/sumo/db_strings.py:677
+#: kitsune/sumo/db_strings.py:1133
 msgctxt "DB: products.Product.description"
 msgid "Was ist Firefox Klar?"
 msgstr "Firefox Klar とは？"
 
-#: kitsune/sumo/db_strings.py:678
+#: kitsune/sumo/db_strings.py:1134
 msgctxt "DB: products.Product.title"
 msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
-#: kitsune/sumo/db_strings.py:679
+#: kitsune/sumo/db_strings.py:1135
 msgctxt "DB: products.Product.description"
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr "インドネシアおよびインド、フィリピン、タイのユーザー向けのモバイルブラウザー"
 
-#: kitsune/sumo/db_strings.py:680
+#: kitsune/sumo/db_strings.py:1139
 msgctxt "DB: products.Product.title"
 msgid "Hubs"
 msgstr "Hubs"
 
-#: kitsune/sumo/db_strings.py:681
+#: kitsune/sumo/db_strings.py:1140
 msgctxt "DB: products.Product.description"
 msgid "Social virtual reality for headsets and browsers"
 msgstr "ヘッドセットとブラウザー向けソーシャル仮想現実"
 
-#: kitsune/sumo/db_strings.py:682
+#: kitsune/sumo/db_strings.py:1143
 msgctxt "DB: products.Product.title"
 msgid "Firefox Focus"
 msgstr "Firefox Focus"
 
-#: kitsune/sumo/db_strings.py:683
+#: kitsune/sumo/db_strings.py:1144
 msgctxt "DB: products.Product.description"
 msgid "Automatic privacy browser and content blocker"
 msgstr "自動プライバシーブラウザー兼コンテンツブロッカー"
 
-#: kitsune/sumo/db_strings.py:684
+#: kitsune/sumo/db_strings.py:1145
 msgctxt "DB: products.Product.title"
 msgid "Firefox ScreenshotGo"
 msgstr "Firefox ScreenshotGo"
 
-#: kitsune/sumo/db_strings.py:685
+#: kitsune/sumo/db_strings.py:1146
 msgctxt "DB: products.Product.description"
 msgid "Screenshot app for mobile"
 msgstr "モバイル向けスクリーンショットアプリ"
 
-#: kitsune/sumo/db_strings.py:686
+#: kitsune/sumo/db_strings.py:1147
 msgctxt "DB: products.Product.title"
 msgid "Thunderbird"
 msgstr "Thunderbird"
 
-#: kitsune/sumo/db_strings.py:687
+#: kitsune/sumo/db_strings.py:1148
 msgctxt "DB: products.Product.description"
 msgid "Email software for Windows, Mac and Linux"
 msgstr "Windows および Mac、Linux 向けのメールソフトウェア"
 
-#: kitsune/sumo/db_strings.py:689
+#: kitsune/sumo/db_strings.py:1150
 msgctxt "DB: karma.Title.name"
 msgid "Administrator"
 msgstr "管理者"
 
-#: kitsune/sumo/db_strings.py:691
+#: kitsune/sumo/db_strings.py:1152
 msgctxt "DB: karma.Title.name"
 msgid "Buddy of the Month! (10/2015)"
 msgstr "今月の Buddy！(10月 /2015年)"
 
-#: kitsune/sumo/db_strings.py:693
+#: kitsune/sumo/db_strings.py:1154
 msgctxt "DB: karma.Title.name"
 msgid "Locale Leader"
 msgstr "ロケールリーダー"
 
-#: kitsune/sumo/db_strings.py:695
+#: kitsune/sumo/db_strings.py:1156
 msgctxt "DB: karma.Title.name"
 msgid "Moderator"
 msgstr "モデレーター"
 
-#: kitsune/sumo/db_strings.py:697
+#: kitsune/sumo/db_strings.py:1158
 msgctxt "DB: karma.Title.name"
 msgid "SUMO Warrior"
 msgstr "SUMO 戦士"
 
-#: kitsune/sumo/db_strings.py:699
+#: kitsune/sumo/db_strings.py:1160
 msgctxt "DB: karma.Title.name"
 msgid "Top 10 Contributor"
 msgstr "トップ 10 の貢献者"
 
-#: kitsune/sumo/db_strings.py:701
+#: kitsune/sumo/db_strings.py:1162
 msgctxt "DB: karma.Title.name"
 msgid "Top 25 Contributor"
 msgstr "トップ 25 の貢献者"
 
-#: kitsune/sumo/form_fields.py:60
+#: kitsune/sumo/form_fields.py:61
 msgid "To field is required."
 msgstr "To フィールドは入力必須です。"
 
-#: kitsune/sumo/form_fields.py:72
+#: kitsune/sumo/form_fields.py:73
 msgid "{username} is not a valid username."
 msgstr "{username} は正しいユーザー名ではありません。"
 
-#: kitsune/sumo/json_utils.py:69
+#: kitsune/sumo/json_utils.py:74
 msgid "Invalid callback function."
 msgstr "無効なコールバック関数です。"
 
-#: kitsune/sumo/parser.py:289
+#: kitsune/sumo/parser.py:302
 msgid "Page does not exist."
 msgstr "ページが存在しません。"
 
-#: kitsune/sumo/parser.py:300
+#: kitsune/sumo/parser.py:314
 #, python-format
 msgid "The image \"%s\" does not exist."
 msgstr "画像 \"%s\" は存在しません。"
 
-#: kitsune/sumo/parser.py:317
+#: kitsune/sumo/parser.py:330
 #, python-format
 msgid "The video \"%s\" does not exist."
 msgstr "\"%s\" の動画は存在しません。"
 
-#: kitsune/sumo/parser.py:349
+#: kitsune/sumo/parser.py:362
 #, python-format
 msgid "Button of type \"%s\" does not exist."
 msgstr "\"%s\" というボタンテンプレートは存在しません。"
 
-#: kitsune/sumo/views.py:57
+#: kitsune/sumo/views.py:55
 #, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "このページを %(language)s で表示しますか？"
@@ -7837,67 +7838,67 @@ msgstr "ウェブサイトをメンテナンスしている間、この機能は
 msgid "Some features on this page are temporarily disabled while we perform website maintenance. Please try again a little later."
 msgstr "ウェブサイトをメンテナンスしている間、このページの一部の機能は一時的に無効化されています。後で再度お試しください。"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:155
+#: kitsune/sumo/templatetags/jinja_helpers.py:140
 msgid "read more"
 msgstr "続きを読む"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:282
+#: kitsune/sumo/templatetags/jinja_helpers.py:264
 #, python-format
 msgid "Today at %s"
 msgstr "今日 %s"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:372
+#: kitsune/sumo/templatetags/jinja_helpers.py:352
 #, python-format
 msgid "%(number)d year ago"
 msgid_plural "%(number)d years ago"
 msgstr[0] "%(number)d 年前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:376
+#: kitsune/sumo/templatetags/jinja_helpers.py:356
 #, python-format
 msgid "%(number)d month ago"
 msgid_plural "%(number)d months ago"
 msgstr[0] "%(number)d か月前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:380
+#: kitsune/sumo/templatetags/jinja_helpers.py:358
 #, python-format
 msgid "%(number)d week ago"
 msgid_plural "%(number)d weeks ago"
 msgstr[0] "%(number)d 週間前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:384
+#: kitsune/sumo/templatetags/jinja_helpers.py:359
 #, python-format
 msgid "%(number)d day ago"
 msgid_plural "%(number)d days ago"
 msgstr[0] "%(number)d 日前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:388
+#: kitsune/sumo/templatetags/jinja_helpers.py:360
 #, python-format
 msgid "%(number)d hour ago"
 msgid_plural "%(number)d hours ago"
 msgstr[0] "%(number)d 時間前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:390
+#: kitsune/sumo/templatetags/jinja_helpers.py:361
 #, python-format
 msgid "%(number)d minute ago"
 msgid_plural "%(number)d minutes ago"
 msgstr[0] "%(number)d 分前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:391
+#: kitsune/sumo/templatetags/jinja_helpers.py:362
 #, python-format
 msgid "%(number)d second ago"
 msgid_plural "%(number)d seconds ago"
 msgstr[0] "%(number)d 秒前"
 
-#: kitsune/upload/utils.py:25
+#: kitsune/upload/utils.py:24
 #, python-format
 msgid "\"%s\" is too large (%sKB), the limit is %sKB"
 msgstr "\"%s\" のサイズが大きすぎます (%sKB)。 アップロード可能なサイズは %sKB 以下に制限されています。"
 
-#: kitsune/upload/views.py:28
+#: kitsune/upload/views.py:32
 msgid "Model not allowed."
 msgstr "モデルが許可されていません。"
 
-#: kitsune/upload/views.py:39
+#: kitsune/upload/views.py:42
 msgid "Object does not exist."
 msgstr "オブジェクトが存在しません。"
 
@@ -7909,11 +7910,11 @@ msgstr "不正または画像ファイルではありません。"
 msgid "You are not logged in."
 msgstr "ログインしていません。"
 
-#: kitsune/upload/views.py:72
+#: kitsune/upload/views.py:71
 msgid "The requested image could not be found."
 msgstr "要求された画像は見つかりませんでした。"
 
-#: kitsune/upload/views.py:78
+#: kitsune/upload/views.py:75
 msgid "You do not have permission to do that."
 msgstr "この操作を行う権限がありません。"
 
@@ -7942,16 +7943,16 @@ msgstr "アップロード"
 msgid "We are having trouble reaching your email address. Please try a different address or contact an administrator."
 msgstr "あなたのメールアドレスが確認できませんでした。別のメールアドレスを試すか管理者に問い合わせてください。"
 
-#: kitsune/users/auth.py:74
+#: kitsune/users/auth.py:72
 #, fuzzy
 msgid "<strong>Welcome!</strong> You are now logged in using Firefox Accounts. {a_profile}Edit your profile.{a_close}<br>Already have a different Mozilla Support Account? {a_more}Read more.{a_close}"
 msgstr "Firefox を使用してログインしています。Mozilla Support アカウントを持っていましたか？"
 
-#: kitsune/users/auth.py:157
+#: kitsune/users/auth.py:154
 msgid "This Firefox Account is already used in another profile."
 msgstr "この Firefox アカウントは別のプロファイルですでに使用されています。"
 
-#: kitsune/users/auth.py:173
+#: kitsune/users/auth.py:170
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr "この Firefox アカウントで使用されているメールアドレスは別のプロファイルとすでにリンクしています。"
 
@@ -8007,63 +8008,63 @@ msgstr "開始したフォーラムスレッドを監視する"
 msgid "Watch forum threads I comment in"
 msgstr "コメントしたフォーラムスレッドを監視する"
 
-#: kitsune/users/forms.py:51
+#: kitsune/users/forms.py:50
 msgid "Watch KB discussion threads I start"
 msgstr "開始したナレッジベースの議論スレッドを監視する"
 
-#: kitsune/users/forms.py:55
+#: kitsune/users/forms.py:53
 msgid "Watch KB discussion threads I comment in"
 msgstr "コメントしたナレッジベースの議論スレッドを監視する"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:56
 msgid "Watch Question threads I comment in"
 msgstr "コメントした質問スレッドを監視する"
 
-#: kitsune/users/forms.py:62
+#: kitsune/users/forms.py:59
 msgid "Send emails for private messages"
 msgstr "プライベートメッセージを送信"
 
-#: kitsune/users/forms.py:80 kitsune/users/models.py:76
+#: kitsune/users/forms.py:77 kitsune/users/models.py:100
 msgid "Involved with Mozilla from"
 msgstr "Mozilla に参加:"
 
-#: kitsune/users/forms.py:118
+#: kitsune/users/forms.py:113
 msgid "Please enter a facebook.com URL."
 msgstr "facebook.com の URL を入力してください。"
 
-#: kitsune/users/forms.py:145
+#: kitsune/users/forms.py:140
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "入力されたユーザー名は不適切です。別のユーザー名を入力し、私たちのヘルパーはあなたのような Firefox ユーザであることを考慮してください。"
 
-#: kitsune/users/hashers.py:29
+#: kitsune/users/hashers.py:31
 msgid "algorithm"
 msgstr "アルゴリズム"
 
-#: kitsune/users/hashers.py:30
+#: kitsune/users/hashers.py:32
 msgid "salt"
 msgstr "ソルト"
 
-#: kitsune/users/hashers.py:31
+#: kitsune/users/hashers.py:33
 msgid "hash"
 msgstr "ハッシュ"
 
-#: kitsune/users/models.py:36 kitsune/users/models.py:331
+#: kitsune/users/models.py:39 kitsune/users/models.py:339
 msgid "User"
 msgstr "ユーザー"
 
-#: kitsune/users/models.py:38
+#: kitsune/users/models.py:42
 msgid "Display name"
 msgstr "表示名"
 
-#: kitsune/users/models.py:40
+#: kitsune/users/models.py:45
 msgid "Make my email public"
 msgstr "メールアドレスを公開する"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:57
 msgid "Biography"
 msgstr "あなたについて"
 
-#: kitsune/users/models.py:46
+#: kitsune/users/models.py:58
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
@@ -8071,80 +8072,80 @@ msgstr ""
 "いくつかの HTML が使用可能です: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; "
 "&#x3C;strong&#x3E; &#x3C;ul&#x3E;。リンクは禁止です。"
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:53
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
 msgid "Website"
 msgstr "ウェブサイト"
 
-#: kitsune/users/models.py:55
+#: kitsune/users/models.py:73
 msgid "Twitter Username"
 msgstr "Twitter ユーザー名"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:76
 msgid "Facebook URL"
 msgstr "Facebook URL"
 
-#: kitsune/users/models.py:59
+#: kitsune/users/models.py:79
 msgid "Mozillians Username"
 msgstr "Mozillians のユーザー名"
 
-#: kitsune/users/models.py:61
+#: kitsune/users/models.py:82
 msgid "IRC nickname"
 msgstr "IRC ニックネーム"
 
-#: kitsune/users/models.py:63
+#: kitsune/users/models.py:85
 msgid "Timezone"
 msgstr "タイムゾーン"
 
-#: kitsune/users/models.py:65
+#: kitsune/users/models.py:88
 msgid "Country"
 msgstr "国"
 
-#: kitsune/users/models.py:68
+#: kitsune/users/models.py:91
 msgid "City"
 msgstr "都市"
 
-#: kitsune/users/models.py:70
+#: kitsune/users/models.py:92
 msgid "Preferred language"
 msgstr "優先する言語"
 
-#: kitsune/users/models.py:72
+#: kitsune/users/models.py:94
 msgid "Has been sent a first answer contribution email."
 msgstr "はじめての回答に貢献したメールが送信されました。"
 
-#: kitsune/users/models.py:74
+#: kitsune/users/models.py:97
 msgid "Has been sent a first revision contribution email."
 msgstr "はじめてのナレッジベース編集に貢献したメールが送信されました。"
 
-#: kitsune/users/models.py:78
+#: kitsune/users/models.py:105
 msgid "When the user was sent a community health survey"
 msgstr "ユーザーがコミュニティ現状調査を受け取ったとき"
 
-#: kitsune/users/models.py:285
+#: kitsune/users/models.py:297
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
 # ？
-#: kitsune/users/models.py:336
+#: kitsune/users/models.py:343
 msgid "Value"
 msgstr "値"
 
-#: kitsune/users/models.py:370 kitsune/users/models.py:405 kitsune/users/models.py:416
+#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
 msgid "user"
 msgstr "ユーザー"
 
-#: kitsune/users/models.py:371 kitsune/users/models.py:406
+#: kitsune/users/models.py:382 kitsune/users/models.py:419
 msgid "activation key"
 msgstr "アクティベーションキー"
 
-#: kitsune/users/models.py:375
+#: kitsune/users/models.py:385
 msgid "registration profile"
 msgstr "登録プロファイル"
 
-#: kitsune/users/models.py:376
+#: kitsune/users/models.py:386
 msgid "registration profiles"
 msgstr "登録プロファイル"
 
-#: kitsune/users/models.py:418
+#: kitsune/users/models.py:435
 msgid "moderator"
 msgstr "モデレーター"
 
@@ -8153,11 +8154,11 @@ msgstr "モデレーター"
 msgid "Welcome to SUMO!"
 msgstr "SUMO へようこそ！"
 
-#: kitsune/users/views.py:187
+#: kitsune/users/views.py:199
 msgid "Your settings have been saved."
 msgstr "設定が保存されました。"
 
-#: kitsune/users/views.py:336
+#: kitsune/users/views.py:346
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8563,19 +8564,19 @@ msgstr "プライベートメッセージ"
 msgid "Minor details that don't affect the instructions"
 msgstr "説明に影響しない細かい変更"
 
-#: kitsune/wiki/config.py:46
+#: kitsune/wiki/config.py:44
 msgid "Content changes that don't require immediate translation"
 msgstr "すぐに翻訳に反映させる必要のない変更"
 
-#: kitsune/wiki/config.py:50
+#: kitsune/wiki/config.py:47
 msgid "Major content changes that will make older translations inaccurate"
 msgstr "古い翻訳を不正確にする大きな内容の変更"
 
-#: kitsune/wiki/config.py:55
+#: kitsune/wiki/config.py:52
 msgid "These minor changes are not important for localizers and they will not be notified."
 msgstr "この細かい変更は、ローカライザーにとって重要な内容ではなく、注意を払う必要はありません。"
 
-#: kitsune/wiki/config.py:59
+#: kitsune/wiki/config.py:55
 msgid ""
 "This will notify localizers and translations will be marked as \"needing updates\" on dashboards. Most changes&mdash;updating an image, fixing {for} markup, adding or removing non-critical "
 "sections&mdash;should use this."
@@ -8583,7 +8584,7 @@ msgstr ""
 "この変更は、ローカライザーと翻訳者に通知され、「更新が必要な記事」としてダッシュボード上に表示されます。ほとんどの変更 (画像の更新、{for} マークアップの修正、重要でないセクションの追加や削除) は、こ"
 "れに該当します。"
 
-#: kitsune/wiki/config.py:65
+#: kitsune/wiki/config.py:61
 msgid ""
 "This will notify localizers and translations will be marked \"out of date\" on dashboards. Translations will show a warning to users that they are out of date and that the English version is the "
 "most accurate. Use this when the old instructions are completely unusable."
@@ -8591,200 +8592,200 @@ msgstr ""
 "この変更は、ローカライザーと翻訳者に通知され、「有効期限切れの記事」としてダッシュボード上に表示されます。翻訳記事の上部に警告が表示され、英語版の記事が最も正確であることをユーザーに知らせます。説明"
 "が古く完全に役立たずである場合は、これに該当します。"
 
-#: kitsune/wiki/config.py:84
+#: kitsune/wiki/config.py:80
 msgid "How to"
 msgstr "操作方法"
 
-#: kitsune/wiki/config.py:85
+#: kitsune/wiki/config.py:81
 msgid "How to contribute"
 msgstr "協力するには"
 
-#: kitsune/wiki/config.py:87
+#: kitsune/wiki/config.py:83
 msgid "Navigation"
 msgstr "ナビゲーション"
 
-#: kitsune/wiki/config.py:94
+#: kitsune/wiki/config.py:90
 #, python-format
 msgid "%(old)s Redirect %(number)i"
 msgstr "%(old)s Redirect %(number)i"
 
-#: kitsune/wiki/config.py:95
+#: kitsune/wiki/config.py:91
 #, python-format
 msgid "%(old)s-redirect-%(number)i"
 msgstr "%(old)s-redirect-%(number)i"
 
-#: kitsune/wiki/events.py:91
+#: kitsune/wiki/events.py:89
 msgid "{title} was edited by {creator}"
 msgstr "{title} は {creator} により編集されました"
 
-#: kitsune/wiki/events.py:210
+#: kitsune/wiki/events.py:202
 msgid "{title} is ready for review ({creator})"
 msgstr "{title} はレビュー待ちです ({creator})"
 
-#: kitsune/wiki/events.py:250 kitsune/wiki/events.py:322
+#: kitsune/wiki/events.py:240 kitsune/wiki/events.py:306
 msgid "{title} has a revision ready for localization"
 msgstr "{title} の記事に翻訳準備が完了したリビジョンがあります"
 
-#: kitsune/wiki/events.py:337
+#: kitsune/wiki/events.py:321
 msgid "{title} ({locale}) has a new approved revision ({reviewer})"
 msgstr "{title} ({locale}) に新たに承認されたリビジョンがあります ({reviewer})"
 
-#: kitsune/wiki/forms.py:22
+#: kitsune/wiki/forms.py:21
 #, python-format
 msgid "Please keep the length of the title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "タイトルが長すぎます (現在 %(show_value)s 文字)。 %(limit_value)s 文字以下にしてください。"
 
-#: kitsune/wiki/forms.py:25
+#: kitsune/wiki/forms.py:26
 msgid "Please provide a slug."
 msgstr "スラッグ (記事の URL) を記入してください。"
 
-#: kitsune/wiki/forms.py:26
+#: kitsune/wiki/forms.py:27
 msgid "The slug provided is not valid."
 msgstr "入力されたスラッグは正しくありません。"
 
-#: kitsune/wiki/forms.py:27
+#: kitsune/wiki/forms.py:28
 #, python-format
 msgid "The slug is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "スラッグが短すぎます (%(show_value)s 文字)。%(limit_value)s 文字以上にしてください。"
 
-#: kitsune/wiki/forms.py:29
+#: kitsune/wiki/forms.py:32
 #, python-format
 msgid "Please keep the length of the slug to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "スラッグが長すぎます (%(show_value)s 文字)。%(limit_value)s 文字以内にしてください。"
 
-#: kitsune/wiki/forms.py:32
+#: kitsune/wiki/forms.py:37
 msgid "Please provide a summary."
 msgstr "要約を記入してください。"
 
-#: kitsune/wiki/forms.py:33
+#: kitsune/wiki/forms.py:38
 #, python-format
 msgid "The summary is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "要約が短すぎます (現在 %(show_value)s 文字)。 %(limit_value)s 文字以上にしてください。"
 
-#: kitsune/wiki/forms.py:35
+#: kitsune/wiki/forms.py:42
 #, python-format
 msgid "Please keep the length of the summary to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "要約が長すぎます (現在 %(show_value)s 文字)。 %(limit_value)s 文字以下にしてください。"
 
-#: kitsune/wiki/forms.py:38
+#: kitsune/wiki/forms.py:47
 msgid "Please provide content."
 msgstr "記事本文を記入してください。"
 
-#: kitsune/wiki/forms.py:39
+#: kitsune/wiki/forms.py:48
 #, python-format
 msgid "The content is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "本文が短すぎます (現在 %(show_value)s 文字)。 %(limit_value)s 文字以上にしてください。"
 
-#: kitsune/wiki/forms.py:41
+#: kitsune/wiki/forms.py:52
 #, python-format
 msgid "Please keep the length of the content to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "本文が長すぎます (現在 %(show_value)s 文字)。 %(limit_value)s 文字以下にしてください。"
 
-#: kitsune/wiki/forms.py:44
+#: kitsune/wiki/forms.py:57
 #, python-format
 msgid "Please keep the length of the comment to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "コメントが長すぎます (現在 %(show_value)s 文字)。 %(limit_value)s 文字以下にしてください。"
 
-#: kitsune/wiki/forms.py:47
+#: kitsune/wiki/forms.py:62
 msgid "Please select at least one product."
 msgstr "少なくとも一つの製品を選択してください。"
 
-#: kitsune/wiki/forms.py:48
+#: kitsune/wiki/forms.py:63
 msgid "Please select at least one topic."
 msgstr "少なくとも一つのトピックを選択してください。"
 
-#: kitsune/wiki/forms.py:91
+#: kitsune/wiki/forms.py:108
 msgid "Title of article"
 msgstr "記事のタイトル"
 
-#: kitsune/wiki/forms.py:102 kitsune/wiki/jinja2/wiki/translate.html:110
+#: kitsune/wiki/forms.py:123 kitsune/wiki/jinja2/wiki/translate.html:110
 msgid "Slug:"
 msgstr "スラッグ:"
 
-#: kitsune/wiki/forms.py:103
+#: kitsune/wiki/forms.py:124
 msgid "Article URL"
 msgstr "記事の URL"
 
-#: kitsune/wiki/forms.py:109
+#: kitsune/wiki/forms.py:133
 msgid "Relevant to:"
 msgstr "関連性:"
 
-#: kitsune/wiki/forms.py:115
+#: kitsune/wiki/forms.py:137
 msgid "Allow translations:"
 msgstr "翻訳を許可する:"
 
 # 「記事を廃棄」でもいいか
 # 削除はされないので「アーカイブ行き」とか
-#: kitsune/wiki/forms.py:119
+#: kitsune/wiki/forms.py:140
 msgid "Obsolete:"
 msgstr "廃止:"
 
-#: kitsune/wiki/forms.py:123
+#: kitsune/wiki/forms.py:143
 msgid "Allow discussion on this article?"
 msgstr "この記事の議論を許可する？"
 
-#: kitsune/wiki/forms.py:132 kitsune/wiki/jinja2/wiki/history.html:18
+#: kitsune/wiki/forms.py:151 kitsune/wiki/jinja2/wiki/history.html:18
 msgid "Category:"
 msgstr "カテゴリー:"
 
-#: kitsune/wiki/forms.py:133
+#: kitsune/wiki/forms.py:152
 msgid "Type of article"
 msgstr "記事の種類"
 
-#: kitsune/wiki/forms.py:136
+#: kitsune/wiki/forms.py:156
 msgid "Topics:"
 msgstr "トピック:"
 
-#: kitsune/wiki/forms.py:141
+#: kitsune/wiki/forms.py:160
 msgid "Related documents:"
 msgstr "関連文書:"
 
-#: kitsune/wiki/forms.py:148
+#: kitsune/wiki/forms.py:165
 msgid "Needs change:"
 msgstr "変更が必要:"
 
-#: kitsune/wiki/forms.py:153 kitsune/wiki/forms.py:242 kitsune/wiki/forms.py:299 kitsune/wiki/forms.py:322 kitsune/wiki/jinja2/wiki/revision.html:31
+#: kitsune/wiki/forms.py:168 kitsune/wiki/forms.py:270 kitsune/wiki/forms.py:330 kitsune/wiki/forms.py:352 kitsune/wiki/jinja2/wiki/revision.html:31
 msgid "Comment:"
 msgstr "コメント:"
 
-#: kitsune/wiki/forms.py:218 kitsune/wiki/jinja2/wiki/includes/document_macros.html:172 kitsune/wiki/jinja2/wiki/review_revision.html:69 kitsune/wiki/jinja2/wiki/review_translation.html:81
+#: kitsune/wiki/forms.py:240 kitsune/wiki/jinja2/wiki/includes/document_macros.html:172 kitsune/wiki/jinja2/wiki/review_revision.html:69 kitsune/wiki/jinja2/wiki/review_translation.html:81
 #: kitsune/wiki/jinja2/wiki/translate.html:173
 msgid "Keywords:"
 msgstr "キーワード:"
 
-#: kitsune/wiki/forms.py:219
+#: kitsune/wiki/forms.py:240
 msgid "Affects search results"
 msgstr "検索結果に影響します"
 
-#: kitsune/wiki/forms.py:224 kitsune/wiki/jinja2/wiki/translate.html:183
+#: kitsune/wiki/forms.py:247 kitsune/wiki/jinja2/wiki/translate.html:183
 msgid "Search result summary:"
 msgstr "検索結果に表示する要約:"
 
-#: kitsune/wiki/forms.py:225
+#: kitsune/wiki/forms.py:248
 msgid "Only displayed on search results page"
 msgstr "検索結果のページにのみ表示されます"
 
-#: kitsune/wiki/forms.py:239
+#: kitsune/wiki/forms.py:268
 msgid "Expiry date:"
 msgstr "有効期限:"
 
-#: kitsune/wiki/forms.py:304
+#: kitsune/wiki/forms.py:336
 msgid "Significance:"
 msgstr "重要性:"
 
-#: kitsune/wiki/forms.py:317
+#: kitsune/wiki/forms.py:349
 msgid "Needs change"
 msgstr "変更が必要"
 
-#: kitsune/wiki/forms.py:342
+#: kitsune/wiki/forms.py:375
 msgid "Users:"
 msgstr "ユーザー:"
 
-#: kitsune/wiki/forms.py:343
+#: kitsune/wiki/forms.py:376
 msgid "Start:"
 msgstr "開始日:"
 
-#: kitsune/wiki/forms.py:344
+#: kitsune/wiki/forms.py:377
 msgid "End:"
 msgstr "終了日:"
 
@@ -8792,77 +8793,77 @@ msgstr "終了日:"
 msgid "{users} added successfully!"
 msgstr "{users} さんがグループに追加されました。"
 
-#: kitsune/wiki/locale_views.py:76
+#: kitsune/wiki/locale_views.py:75
 msgid "There were errors adding users, see below."
 msgstr "ユーザーの追加時にエラーが発生しました。以下を参照してください。"
 
-#: kitsune/wiki/locale_views.py:93
+#: kitsune/wiki/locale_views.py:92
 msgid "{user} removed from successfully!"
 msgstr "{user} さんがグループから削除されました。"
 
 # これの続きは？
-#: kitsune/wiki/models.py:99
+#: kitsune/wiki/models.py:117
 msgid "If checked, this wiki page will be hidden from basic searches and dashboards. When viewed, the page will warn that it is no longer maintained."
 msgstr "チェックを入れた場合、この Wiki ページが検索対象とダッシュボードから外されます。ページには、もうメンテナンスされていないという旨の警告文が表示されます。"
 
-#: kitsune/wiki/models.py:106
+#: kitsune/wiki/models.py:127
 msgid "If checked, this document allows discussion in an associated forum. Uncheck to hide/disable the forum."
 msgstr "チェックを入れた場合、このドキュメントに関連付けられたフォーラムでの議論を許可します。チェックを外すと、議論フォーラムを隠し、無効にします。"
 
-#: kitsune/wiki/models.py:120
+#: kitsune/wiki/models.py:144
 msgid "If checked, this document needs updates."
 msgstr "チェックを入れた場合、このドキュメントは更新する必要があります。"
 
-#: kitsune/wiki/models.py:219
+#: kitsune/wiki/models.py:249
 msgid "Please choose a category."
 msgstr "カテゴリーを選択してください。"
 
-#: kitsune/wiki/models.py:226
+#: kitsune/wiki/models.py:258
 msgid "Documents in the Template category must have titles that start with \"{prefix}\". (Current title is \"{title}\")"
 msgstr "テンプレートカテゴリーのドキュメントのタイトルは、\"{prefix}\" で始めなければなりません。(現在のタイトルは \"{title}\")"
 
-#: kitsune/wiki/models.py:231
+#: kitsune/wiki/models.py:266
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr "タイトルが「{prefix}」で始まるドキュメントはテンプレートカテゴリーに含めなければなりません。(現在のカテゴリーは「{category}」で、タイトルは「{title}」となっています)"
 
-#: kitsune/wiki/models.py:928
+#: kitsune/wiki/models.py:981
 #, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "リビジョンは英語記事がベースでなければなりません。リビジョン ID %(id)s はこの基準に合いません。"
 
-#: kitsune/wiki/parser.py:63
+#: kitsune/wiki/parser.py:58
 msgid "Table of Contents"
 msgstr "目次"
 
 #. L10n: This error is displayed if a template is included into itself.
-#: kitsune/wiki/parser.py:362
+#: kitsune/wiki/parser.py:355
 #, python-format
 msgid "[Recursive inclusion of \"%s\"]"
 msgstr "[Recursive inclusion of \"%s\"]"
 
-#: kitsune/wiki/parser.py:421
+#: kitsune/wiki/parser.py:414
 #, python-format
 msgid "The document \"%s\" does not exist."
 msgstr "\"%s\" のドキュメントは存在しません。"
 
-#: kitsune/wiki/parser.py:451
+#: kitsune/wiki/parser.py:441
 #, python-format
 msgid "The template \"%s\" does not exist or has no approved revision."
 msgstr "このテンプレート \"%s\" は存在しないか承認されていません。"
 
-#: kitsune/wiki/tasks.py:64
+#: kitsune/wiki/tasks.py:69
 msgid "Your revision has been approved: {title}"
 msgstr "あなたの編集リビジョンが承認されました: {title}"
 
-#: kitsune/wiki/tasks.py:66
+#: kitsune/wiki/tasks.py:71
 msgid "Your revision has been reviewed: {title}"
 msgstr "あなたの編集リビジョンがレビューされました: {title}"
 
-#: kitsune/wiki/tasks.py:120
+#: kitsune/wiki/tasks.py:128
 msgid "A revision you contributed to has been approved: {title}"
 msgstr "あなたの編集リビジョンが承認されました: {title}"
 
-#: kitsune/wiki/tasks.py:123
+#: kitsune/wiki/tasks.py:130
 msgid "A revision you contributed to has been reviewed: {title}"
 msgstr "あなたの編集リビジョンがレビューされました: {title}"
 
@@ -8902,44 +8903,44 @@ msgstr "ダウンロード"
 msgid "browserID"
 msgstr "BrowserID"
 
-#: kitsune/wiki/views.py:805
+#: kitsune/wiki/views.py:851
 msgid "You cannot translate this document."
 msgstr "このドキュメントは翻訳が許可されていません。"
 
-#: kitsune/wiki/views.py:1134
+#: kitsune/wiki/views.py:1178
 msgid "Great to hear &mdash; thanks for the feedback! <br /><span disabled class=helpful-button>&#x1F44D;</span>"
 msgstr ""
 
-#: kitsune/wiki/views.py:1160
+#: kitsune/wiki/views.py:1206
 msgid "You already voted on this Article."
 msgstr "この記事にはすでに投票済みです。"
 
-#: kitsune/wiki/views.py:1192
+#: kitsune/wiki/views.py:1235
 msgid "Thanks for making us better!"
 msgstr "ご投票ありがとうございます。"
 
-#: kitsune/wiki/views.py:1265
+#: kitsune/wiki/views.py:1301
 #, python-format
 msgid "Revision %s"
 msgstr "リビジョン %s"
 
-#: kitsune/wiki/views.py:1274
+#: kitsune/wiki/views.py:1310
 msgid "Firefox Releases"
 msgstr "Firefox リリース"
 
-#: kitsune/wiki/views.py:1280
+#: kitsune/wiki/views.py:1314
 msgid "Article Revisions"
 msgstr "記事のリビジョン"
 
-#: kitsune/wiki/views.py:1383
+#: kitsune/wiki/views.py:1418
 msgid "{users} added to the contributors successfully!"
 msgstr "{users} さんが貢献者に追加されました。"
 
-#: kitsune/wiki/views.py:1390
+#: kitsune/wiki/views.py:1425
 msgid "There were errors adding new contributors, see below."
 msgstr "新しい貢献者を追加する時にエラーが発生しました。以下を参照してください。"
 
-#: kitsune/wiki/views.py:1409
+#: kitsune/wiki/views.py:1443
 msgid "{user} removed from the contributors successfully!"
 msgstr "{user} さんが貢献者から削除されました。"
 
