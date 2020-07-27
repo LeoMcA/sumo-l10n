@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-23 19:08-0700\n"
+"POT-Creation-Date: 2020-07-26 19:04-0700\n"
 "PO-Revision-Date: 2020-06-12 15:05+0000\n"
 "Last-Translator: TrickyFoxy <roman.deev06@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -1135,7 +1135,7 @@ msgid "View all deactivated users"
 msgstr "Показать всех деактивированных пользователей"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
 #: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "Содержимое:"
@@ -1159,7 +1159,7 @@ msgstr "Отмечено:"
 msgid "Take Action:"
 msgstr "Произвести действие:"
 
-#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
+#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:57 kitsune/kbforums/forms.py:84
 #: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "Заголовок:"
@@ -1201,7 +1201,7 @@ msgstr "Пожалуйста, введите заголовок."
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Заголовок слишком короткий (%(show_value)s символов). Он должен быть по крайней мере %(limit_value)s символов."
 
-#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:13
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Пожалуйста, ограничьте длину вашего заголовка %(limit_value)s символами. В данный момент его длина %(show_value)s символов."
@@ -1712,20 +1712,20 @@ msgstr "Вы были награждены значком %(title)s!"
 msgid "See all the details:"
 msgstr "Посмотреть все подробности:"
 
-#: kitsune/kbforums/events.py:26
+#: kitsune/kbforums/events.py:28
 msgid "Re: {forum} - {thread}"
 msgstr "Re: {forum} - {thread}"
 
-#: kitsune/kbforums/events.py:47
+#: kitsune/kbforums/events.py:52
 msgid "{forum} - {thread}"
 msgstr "{forum} - {thread}"
 
-#: kitsune/kbforums/feeds.py:22
+#: kitsune/kbforums/feeds.py:21
 #, python-format
 msgid "Recently updated threads about %s"
 msgstr "Недавно обновленные темы о %s"
 
-#: kitsune/kbforums/feeds.py:52
+#: kitsune/kbforums/feeds.py:49
 #, python-format
 msgid "Recent posts in %s"
 msgstr "Последние сообщения в %s"
@@ -1735,16 +1735,16 @@ msgstr "Последние сообщения в %s"
 msgid "Your title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Ваш заголовок слишком короткий (%(show_value)s символов). Он должен быть не менее %(limit_value)s символов."
 
-#: kitsune/kbforums/forms.py:14
+#: kitsune/kbforums/forms.py:18
 msgid "Please provide a message."
 msgstr "Пожалуйста, введите сообщение."
 
-#: kitsune/kbforums/forms.py:15
+#: kitsune/kbforums/forms.py:19
 #, python-format
 msgid "Your message is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Ваше сообщение слишком короткое (%(show_value)s символов). Оно должно быть не менее %(limit_value)s символов."
 
-#: kitsune/kbforums/forms.py:18
+#: kitsune/kbforums/forms.py:24
 #, python-format
 msgid "Please keep the length of your message to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Пожалуйста, ограничьте длину вашего сообщения %(limit_value)s символами. В данный момент его длина %(show_value)s символов."
@@ -3228,7 +3228,7 @@ msgstr ""
 msgid "Troubleshooting Information"
 msgstr "Информация для решения проблем"
 
-#: kitsune/questions/forms.py:30
+#: kitsune/questions/forms.py:30 kitsune/questions/jinja2/questions/includes/aaq_macros.html:168
 msgid "This information gives details about the internal workings of your browser that will help in answering your question."
 msgstr "Эта информация дает подробные сведения о внутренней работе вашего браузера, которая поможет ответить на ваш вопрос."
 
@@ -3366,59 +3366,59 @@ msgstr "Просмотры"
 msgid "Votes"
 msgstr "Голоса"
 
-#: kitsune/questions/views.py:471
+#: kitsune/questions/views.py:472
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Форум для вопросов недоступен на {old_lang}, мы перенаправили вас на форум для вопросов на {new_lang}."
 
-#: kitsune/questions/views.py:517
+#: kitsune/questions/views.py:518
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Форум для вопросов по {product} недоступен на {old_lang}, мы перенаправили вас на форум для вопросов на {new_lang}."
 
-#: kitsune/questions/views.py:566
+#: kitsune/questions/views.py:567
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:759
+#: kitsune/questions/views.py:760
 msgid "Thank you for choosing a solution!"
 msgstr "Спасибо за выбор решения!"
 
-#: kitsune/questions/views.py:762
+#: kitsune/questions/views.py:763
 msgid "This question already has a solution."
 msgstr "Для этого вопроса уже есть решение."
 
-#: kitsune/questions/views.py:784
+#: kitsune/questions/views.py:785
 msgid "The solution was undone successfully."
 msgstr "Решение было успешно отменено."
 
-#: kitsune/questions/views.py:855
+#: kitsune/questions/views.py:856
 msgid "Glad to hear it!"
 msgstr "Рады это слышать!"
 
-#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Нам жаль это слышать."
 
-#: kitsune/questions/views.py:877
+#: kitsune/questions/views.py:878
 msgid "You already voted on this reply."
 msgstr "Вы уже проголосовали по этому ответу."
 
-#: kitsune/questions/views.py:1160
+#: kitsune/questions/views.py:1161
 msgid "Could not send a message to that email address."
 msgstr "Не удалось отправить сообщение на этот адрес эл. почты."
 
-#: kitsune/questions/views.py:1166
+#: kitsune/questions/views.py:1167
 msgid "You will be notified of updates by email."
 msgstr "Вас будут уведомлять об обновлениях по эл. почте."
 
-#: kitsune/questions/views.py:1168
+#: kitsune/questions/views.py:1169
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "В ближайшее время вы должны получить письмо по эл. почте для подтверждения вашей подписки."
 
-#: kitsune/questions/views.py:1385
+#: kitsune/questions/views.py:1386
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr "Я пригласил {user} на сеанс общего доступа к экрану, и я обновлю тут статус, как только мы закончим."
 
-#: kitsune/questions/views.py:1498
+#: kitsune/questions/views.py:1499
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -4110,19 +4110,9 @@ msgstr "Популярные статьи"
 msgid "Share Data"
 msgstr "Поделиться данными"
 
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:158
-#, fuzzy
-msgid "Show info"
-msgstr "Показывая"
-
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:163
-#, fuzzy
-msgid ""
-"This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. If "
-"the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:159
+msgid "We can't automatically get your browser's troubleshooting data, please <a href=\"https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox\">try these manual steps</a>."
 msgstr ""
-"В верхнем углу откроется окно. Щёлкните Разрешить, а затем щёлкните Установить. Если автоматизированный способ не сработает, <a class=\"expander\" href=\"%(url)s\">попробуйте вручную выполнить эти "
-"шаги</a>."
 
 #: kitsune/questions/jinja2/questions/includes/answer.html:19
 msgid "Question owner"
@@ -7633,12 +7623,16 @@ msgid "Contact"
 msgstr "Контакты"
 
 #: kitsune/sumo/jinja2/base.html:307
-msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
-msgstr "Владельцем Mozilla Corporation является некоммерческая организаия Mozilla Foundation."
+msgid ""
+"Visit <a href=\"https://www.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Corporation\">Mozilla Corporation’s</a> not-for-profit parent, the <a href="
+"\"https://foundation.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Foundation\">Mozilla Foundation</a>."
+msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:309
+#: kitsune/sumo/jinja2/base.html:313
 #, fuzzy
-msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
+msgid ""
+"Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a <a rel=\"external noopener\" href=\"https://www.mozilla.org/foundation/licensing/website-"
+"content/\">Creative Commons license</a>."
 msgstr "Части этого содержимого c.1998–2019 созданы участниками проекта mozilla.org. Содержимое доступно на условиях лицензии Creative Commons."
 
 #: kitsune/sumo/jinja2/email/base.html:247
@@ -10145,6 +10139,21 @@ msgstr "Расскажите поподробней."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Пожалуйста, предоставьте больше информации."
+
+#, fuzzy
+#~ msgid "Show info"
+#~ msgstr "Показывая"
+
+#, fuzzy
+#~ msgid ""
+#~ "This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. "
+#~ "If the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#~ msgstr ""
+#~ "В верхнем углу откроется окно. Щёлкните Разрешить, а затем щёлкните Установить. Если автоматизированный способ не сработает, <a class=\"expander\" href=\"%(url)s\">попробуйте вручную выполнить "
+#~ "эти шаги</a>."
+
+#~ msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
+#~ msgstr "Владельцем Mozilla Corporation является некоммерческая организаия Mozilla Foundation."
 
 #~ msgid "About firefox private network"
 #~ msgstr "О firefox private network"

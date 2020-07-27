@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-23 19:08-0700\n"
+"POT-Creation-Date: 2020-07-26 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 14:30+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese\n"
@@ -1129,7 +1129,7 @@ msgid "View all deactivated users"
 msgstr "Xem tất cả tài khoản thành viên đã xóa"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
 #: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "Nội dung:"
@@ -1153,7 +1153,7 @@ msgstr "Được gắn cờ:"
 msgid "Take Action:"
 msgstr "Thực hiện thao tác:"
 
-#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
+#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:57 kitsune/kbforums/forms.py:84
 #: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "Tiêu đề:"
@@ -1195,7 +1195,7 @@ msgstr "Vui lòng cung cấp một tiêu đề."
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Tiêu đề quá ngắn (%(show_value)s kí tự). Nó phải có ít nhất %(limit_value)s kí tự."
 
-#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:13
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Vui lòng giữ độ dài tiêu đề từ %(limit_value)s kí tự trở xuống. Hiện nó đang có %(show_value)s kí tự."
@@ -1706,20 +1706,20 @@ msgstr "Bạn đã được trao huy hiệu %(title)s!"
 msgid "See all the details:"
 msgstr "Xem tất cả các chi tiết:"
 
-#: kitsune/kbforums/events.py:26
+#: kitsune/kbforums/events.py:28
 msgid "Re: {forum} - {thread}"
 msgstr "Trả lời: {forum} - {thread}"
 
-#: kitsune/kbforums/events.py:47
+#: kitsune/kbforums/events.py:52
 msgid "{forum} - {thread}"
 msgstr "{forum} - {thread}"
 
-#: kitsune/kbforums/feeds.py:22
+#: kitsune/kbforums/feeds.py:21
 #, python-format
 msgid "Recently updated threads about %s"
 msgstr "Chủ đề được cập nhật gần đây về %s"
 
-#: kitsune/kbforums/feeds.py:52
+#: kitsune/kbforums/feeds.py:49
 #, python-format
 msgid "Recent posts in %s"
 msgstr "Bài đăng gần đây trong %s"
@@ -1729,16 +1729,16 @@ msgstr "Bài đăng gần đây trong %s"
 msgid "Your title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Tiêu đề quá ngắn (%(show_value)s kí tự). Nó phải có ít nhất %(limit_value)s kí tự."
 
-#: kitsune/kbforums/forms.py:14
+#: kitsune/kbforums/forms.py:18
 msgid "Please provide a message."
 msgstr "Vui lòng cung cấp một thông điệp."
 
-#: kitsune/kbforums/forms.py:15
+#: kitsune/kbforums/forms.py:19
 #, python-format
 msgid "Your message is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Thông điệp của bạn quá ngắn (%(show_value)s kí tự). Nó phải có ít nhất %(limit_value)s kí tự."
 
-#: kitsune/kbforums/forms.py:18
+#: kitsune/kbforums/forms.py:24
 #, python-format
 msgid "Please keep the length of your message to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Vui lòng giữ độ dài thông điệp từ %(limit_value)s kí tự trở xuống. Hiện nó đang có %(show_value)s kí tự."
@@ -3218,7 +3218,7 @@ msgstr ""
 msgid "Troubleshooting Information"
 msgstr "Thông tin gỡ rối"
 
-#: kitsune/questions/forms.py:30
+#: kitsune/questions/forms.py:30 kitsune/questions/jinja2/questions/includes/aaq_macros.html:168
 msgid "This information gives details about the internal workings of your browser that will help in answering your question."
 msgstr "Thông tin này cung cấp chi tiết về hoạt động nội bộ của trình duyệt của bạn sẽ giúp trả lời câu hỏi của bạn."
 
@@ -3354,61 +3354,61 @@ msgstr "Lượt xem"
 msgid "Votes"
 msgstr "Số phiếu"
 
-#: kitsune/questions/views.py:471
+#: kitsune/questions/views.py:472
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Diễn đàn câu hỏi không có sẵn trong ngôn ngữ {old_lang}, chúng tôi đã chuyển hướng bạn đến diễn đàn câu hỏi ngôn ngữ {new_lang}."
 
-#: kitsune/questions/views.py:517
+#: kitsune/questions/views.py:518
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Diễn đàn câu hỏi không có sẵn cho {product} trong ngôn ngữ {old_lang}, chúng tôi đã chuyển hướng bạn đến diễn đàn câu hỏi ngôn ngữ {new_lang}."
 
-#: kitsune/questions/views.py:566
+#: kitsune/questions/views.py:567
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 "Hoàn tất! Câu hỏi của bạn hiện được đăng trên diễn đàn hỗ trợ cộng đồng Mozilla. Bạn có thể xem bài đăng của mình bất cứ lúc nào bằng cách truy cập trang {a_open}Câu hỏi của tôi{a_close} trong hồ "
 "sơ của bạn."
 
-#: kitsune/questions/views.py:759
+#: kitsune/questions/views.py:760
 msgid "Thank you for choosing a solution!"
 msgstr "Cảm ơn vì bạn đã chọn một giải pháp!"
 
-#: kitsune/questions/views.py:762
+#: kitsune/questions/views.py:763
 msgid "This question already has a solution."
 msgstr "Câu hỏi này đã có một giải pháp."
 
-#: kitsune/questions/views.py:784
+#: kitsune/questions/views.py:785
 msgid "The solution was undone successfully."
 msgstr "Giải pháp đã được hoàn tác thành công."
 
-#: kitsune/questions/views.py:855
+#: kitsune/questions/views.py:856
 msgid "Glad to hear it!"
 msgstr "Vui mừng khi nghe nó!"
 
-#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Rất tiếc khi biết điều đó."
 
-#: kitsune/questions/views.py:877
+#: kitsune/questions/views.py:878
 msgid "You already voted on this reply."
 msgstr "Bạn đã bình chọn cho câu trả lời này."
 
-#: kitsune/questions/views.py:1160
+#: kitsune/questions/views.py:1161
 msgid "Could not send a message to that email address."
 msgstr "Không thể gửi tin nhắn đến địa chỉ email đó."
 
-#: kitsune/questions/views.py:1166
+#: kitsune/questions/views.py:1167
 msgid "You will be notified of updates by email."
 msgstr "Bạn sẽ được thông báo cập nhật qua email."
 
-#: kitsune/questions/views.py:1168
+#: kitsune/questions/views.py:1169
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "Bạn sẽ sớm nhận được email để xác nhận đăng ký của mình."
 
-#: kitsune/questions/views.py:1385
+#: kitsune/questions/views.py:1386
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr "Tôi đã mời {user} đến một phiên chia sẻ màn hình và tôi sẽ cập nhật tại đây sau khi chúng tôi hoàn thành."
 
-#: kitsune/questions/views.py:1498
+#: kitsune/questions/views.py:1499
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr "Người điều hành phải tự phê duyệt bài đăng của bạn trước khi nó được hiển thị."
 
@@ -4086,17 +4086,9 @@ msgstr "Các bài viết phổ biến"
 msgid "Share Data"
 msgstr "Chia sẻ dữ liệu"
 
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:158
-#, fuzzy
-msgid "Show info"
-msgstr "Hiện:"
-
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:163
-#, fuzzy
-msgid ""
-"This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. If "
-"the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
-msgstr "Một cửa sổ sẽ mở ở góc trên cùng. Bấm Cho phép, rồi bấm Cài đặt. Nếu cách tự động không hoạt động, hãy <a class=\"expander\" href=\"%(url)s\">thử các bước thủ công này</a>."
+#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:159
+msgid "We can't automatically get your browser's troubleshooting data, please <a href=\"https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox\">try these manual steps</a>."
+msgstr ""
 
 #: kitsune/questions/jinja2/questions/includes/answer.html:19
 msgid "Question owner"
@@ -7599,12 +7591,16 @@ msgid "Contact"
 msgstr "Liên hệ"
 
 #: kitsune/sumo/jinja2/base.html:307
-msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
-msgstr "Tập đoàn phi lợi nhuận của tập đoàn Mozilla, Tổ chức Mozilla."
+msgid ""
+"Visit <a href=\"https://www.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Corporation\">Mozilla Corporation’s</a> not-for-profit parent, the <a href="
+"\"https://foundation.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Foundation\">Mozilla Foundation</a>."
+msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:309
+#: kitsune/sumo/jinja2/base.html:313
 #, fuzzy
-msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
+msgid ""
+"Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a <a rel=\"external noopener\" href=\"https://www.mozilla.org/foundation/licensing/website-"
+"content/\">Creative Commons license</a>."
 msgstr "Các phần của nội dung này được giữ bản quyền c.1998–2019 bởi những người đóng góp trên mozilla.org. Nội dung có sẵn theo giấy phép Creative Common."
 
 #: kitsune/sumo/jinja2/email/base.html:247
@@ -10096,6 +10092,19 @@ msgstr "Hãy cho chúng tôi biết thêm chi tiết."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Vui lòng cung cấp thêm chi tiết"
+
+#, fuzzy
+#~ msgid "Show info"
+#~ msgstr "Hiện:"
+
+#, fuzzy
+#~ msgid ""
+#~ "This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. "
+#~ "If the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#~ msgstr "Một cửa sổ sẽ mở ở góc trên cùng. Bấm Cho phép, rồi bấm Cài đặt. Nếu cách tự động không hoạt động, hãy <a class=\"expander\" href=\"%(url)s\">thử các bước thủ công này</a>."
+
+#~ msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
+#~ msgstr "Tập đoàn phi lợi nhuận của tập đoàn Mozilla, Tổ chức Mozilla."
 
 #~ msgid "Beware of phishing attacks: Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. Learn more:"
 #~ msgstr "Cảnh giác với các cuộc tấn công lừa đảo: Mozilla sẽ không bao giờ yêu cầu bạn gọi một số hoặc truy cập trang web không phải của Mozilla. Hãy bỏ qua các yêu cầu như vậy. Tìm hiểu thêm:"

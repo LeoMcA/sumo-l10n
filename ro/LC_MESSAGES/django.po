@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-23 19:08-0700\n"
+"POT-Creation-Date: 2020-07-26 19:04-0700\n"
 "PO-Revision-Date: 2020-06-09 11:35+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: Romanian <LL@li.org>\n"
@@ -1164,7 +1164,7 @@ msgid "View all deactivated users"
 msgstr "Afișează toți utilizatorii dezactivați"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
 #: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "Conținut:"
@@ -1188,7 +1188,7 @@ msgstr "Semnalat:"
 msgid "Take Action:"
 msgstr "Ia măsuri:"
 
-#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
+#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:57 kitsune/kbforums/forms.py:84
 #: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "Titlu:"
@@ -1230,7 +1230,7 @@ msgstr "Te rugăm să dai un titlu."
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Titlul este prea scurt  (%(show_value)s caractere). Trebuie să fie de cel puțin %(limit_value)s caractere."
 
-#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:13
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Te rugăm să limitezi lungimea titlului la %(limit_value)s (de) caractere. Acum are %(show_value)s (de) caractere."
@@ -1741,20 +1741,20 @@ msgstr "Ți s-a acordat insigna %(title)s!"
 msgid "See all the details:"
 msgstr "Vezi toate detaliile:"
 
-#: kitsune/kbforums/events.py:26
+#: kitsune/kbforums/events.py:28
 msgid "Re: {forum} - {thread}"
 msgstr "Re: {forum} - {thread}"
 
-#: kitsune/kbforums/events.py:47
+#: kitsune/kbforums/events.py:52
 msgid "{forum} - {thread}"
 msgstr "{forum} - {thread}"
 
-#: kitsune/kbforums/feeds.py:22
+#: kitsune/kbforums/feeds.py:21
 #, python-format
 msgid "Recently updated threads about %s"
 msgstr "Fire de discuție actualizate recent despre %s"
 
-#: kitsune/kbforums/feeds.py:52
+#: kitsune/kbforums/feeds.py:49
 #, python-format
 msgid "Recent posts in %s"
 msgstr "Postări recente în %s"
@@ -1764,16 +1764,16 @@ msgstr "Postări recente în %s"
 msgid "Your title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Titlul tău este prea scurt (%(show_value)s characters). Trebuie să aibă cel puțin %(limit_value)s (de) caractere."
 
-#: kitsune/kbforums/forms.py:14
+#: kitsune/kbforums/forms.py:18
 msgid "Please provide a message."
 msgstr "Te rugăm să scrii un mesaj."
 
-#: kitsune/kbforums/forms.py:15
+#: kitsune/kbforums/forms.py:19
 #, python-format
 msgid "Your message is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Mesajul tău este prea scurt (%(show_value)s caractere). Trebuie să aibă cel puțin %(limit_value)s (de) caractere."
 
-#: kitsune/kbforums/forms.py:18
+#: kitsune/kbforums/forms.py:24
 #, python-format
 msgid "Please keep the length of your message to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Limitează lungimea mesajului la %(limit_value)s caractere sau mai puțin. Aceasta are momentan %(show_value)s caractere."
@@ -3260,7 +3260,7 @@ msgstr ""
 msgid "Troubleshooting Information"
 msgstr "Informații pentru depanare"
 
-#: kitsune/questions/forms.py:30
+#: kitsune/questions/forms.py:30 kitsune/questions/jinja2/questions/includes/aaq_macros.html:168
 msgid "This information gives details about the internal workings of your browser that will help in answering your question."
 msgstr "Aceste informații conțin detalii despre măruntaiele browserului tău care vor ajuta în răspunderea întrebării."
 
@@ -3398,59 +3398,59 @@ msgstr "Vizualizări"
 msgid "Votes"
 msgstr "Voturi"
 
-#: kitsune/questions/views.py:471
+#: kitsune/questions/views.py:472
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Forumul de întrebări nu este disponibil în {old_lang}, te-am redirecționat la forumul de întrebări în {new_lang} ."
 
-#: kitsune/questions/views.py:517
+#: kitsune/questions/views.py:518
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Forumul de întrebări nu este disponibil pentru {product} în {old_lang}, te-am redirecționat la forumul de întrebări în {new_lang} ."
 
-#: kitsune/questions/views.py:566
+#: kitsune/questions/views.py:567
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:759
+#: kitsune/questions/views.py:760
 msgid "Thank you for choosing a solution!"
 msgstr "Îți mulțumim pentru alegerea unei soluții!"
 
-#: kitsune/questions/views.py:762
+#: kitsune/questions/views.py:763
 msgid "This question already has a solution."
 msgstr "Această întrebare are deja o soluție."
 
-#: kitsune/questions/views.py:784
+#: kitsune/questions/views.py:785
 msgid "The solution was undone successfully."
 msgstr "Soluția a fost anulată cu succes."
 
-#: kitsune/questions/views.py:855
+#: kitsune/questions/views.py:856
 msgid "Glad to hear it!"
 msgstr "Ne bucurăm să auzim asta!"
 
-#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Ne pare rău să auzim asta."
 
-#: kitsune/questions/views.py:877
+#: kitsune/questions/views.py:878
 msgid "You already voted on this reply."
 msgstr "Ai votat deja acest răspuns."
 
-#: kitsune/questions/views.py:1160
+#: kitsune/questions/views.py:1161
 msgid "Could not send a message to that email address."
 msgstr "Nu s-a putut trimite un mesaj la acea adresă de e-mail."
 
-#: kitsune/questions/views.py:1166
+#: kitsune/questions/views.py:1167
 msgid "You will be notified of updates by email."
 msgstr "Vei fi notificat de actualizări prin e-mail."
 
-#: kitsune/questions/views.py:1168
+#: kitsune/questions/views.py:1169
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "Trebuie să primești în scurt timp un mesaj pe e-mail pentru a confirma abonarea."
 
-#: kitsune/questions/views.py:1385
+#: kitsune/questions/views.py:1386
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr "L-am invitat pe {user} la o sesiune cu partajarea ecranului și voi oferi o actualizare după ce terminăm."
 
-#: kitsune/questions/views.py:1498
+#: kitsune/questions/views.py:1499
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -4142,18 +4142,9 @@ msgstr "Articole populare"
 msgid "Share Data"
 msgstr "Partajează datele"
 
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:158
-#, fuzzy
-msgid "Show info"
-msgstr "Afișează:"
-
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:163
-#, fuzzy
-msgid ""
-"This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. If "
-"the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:159
+msgid "We can't automatically get your browser's troubleshooting data, please <a href=\"https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox\">try these manual steps</a>."
 msgstr ""
-"Se va deschide o fereastră în colțul de sus. Dă clic pe „Permite” și apoi clic pe „Instalează”. Dacă nu merge în automat, <a class=\"expander\" href=\"%(url)s\">încearcă acești pași manuali</a>."
 
 #: kitsune/questions/jinja2/questions/includes/answer.html:19
 msgid "Question owner"
@@ -7663,12 +7654,16 @@ msgid "Contact"
 msgstr "Contact"
 
 #: kitsune/sumo/jinja2/base.html:307
-msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
-msgstr "Firma-mamă nonprofit a Corporației Mozilla, Fundația Mozilla."
+msgid ""
+"Visit <a href=\"https://www.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Corporation\">Mozilla Corporation’s</a> not-for-profit parent, the <a href="
+"\"https://foundation.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Foundation\">Mozilla Foundation</a>."
+msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:309
+#: kitsune/sumo/jinja2/base.html:313
 #, fuzzy
-msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
+msgid ""
+"Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a <a rel=\"external noopener\" href=\"https://www.mozilla.org/foundation/licensing/website-"
+"content/\">Creative Commons license</a>."
 msgstr "Porțiuni din acest conținut sunt c.1998–2019 de către colaboratori individuali mozilla.org. Conținutul este disponibil sub o licență Creative Common."
 
 #: kitsune/sumo/jinja2/email/base.html:247
@@ -10181,6 +10176,20 @@ msgstr "Spune-ne mai multe."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Te rugăm să precizezi mai multe detalii."
+
+#, fuzzy
+#~ msgid "Show info"
+#~ msgstr "Afișează:"
+
+#, fuzzy
+#~ msgid ""
+#~ "This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. "
+#~ "If the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#~ msgstr ""
+#~ "Se va deschide o fereastră în colțul de sus. Dă clic pe „Permite” și apoi clic pe „Instalează”. Dacă nu merge în automat, <a class=\"expander\" href=\"%(url)s\">încearcă acești pași manuali</a>."
+
+#~ msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
+#~ msgstr "Firma-mamă nonprofit a Corporației Mozilla, Fundația Mozilla."
 
 #~ msgid "About firefox private network"
 #~ msgstr "Despre Firefox Private Network"

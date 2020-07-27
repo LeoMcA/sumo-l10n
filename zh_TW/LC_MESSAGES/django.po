@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-23 19:08-0700\n"
+"POT-Creation-Date: 2020-07-26 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 14:33+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: Chinese (traditional)\n"
@@ -1123,7 +1123,7 @@ msgid "View all deactivated users"
 msgstr "檢視所有停用的使用者"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
 #: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "內容："
@@ -1147,7 +1147,7 @@ msgstr "已標示:"
 msgid "Take Action:"
 msgstr "採取行動:"
 
-#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
+#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:57 kitsune/kbforums/forms.py:84
 #: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "標題:"
@@ -1189,7 +1189,7 @@ msgstr "請賦予一個標題。"
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "這個標題 (%(show_value)s 個字) 太短。它必須至少有 %(limit_value)s 個字以上。"
 
-#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:13
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "請確認你的標題在 %(limit_value)s 個字之內。目前共 %(show_value)s 個字。"
@@ -1700,20 +1700,20 @@ msgstr "你已經被授予 %(title)s 徽章！"
 msgid "See all the details:"
 msgstr "觀看所有細節內容："
 
-#: kitsune/kbforums/events.py:26
+#: kitsune/kbforums/events.py:28
 msgid "Re: {forum} - {thread}"
 msgstr "Re: {forum} - {thread}"
 
-#: kitsune/kbforums/events.py:47
+#: kitsune/kbforums/events.py:52
 msgid "{forum} - {thread}"
 msgstr "{forum} - {thread}"
 
-#: kitsune/kbforums/feeds.py:22
+#: kitsune/kbforums/feeds.py:21
 #, python-format
 msgid "Recently updated threads about %s"
 msgstr "最近更新的關於 %s 的討論串"
 
-#: kitsune/kbforums/feeds.py:52
+#: kitsune/kbforums/feeds.py:49
 #, python-format
 msgid "Recent posts in %s"
 msgstr "%s 的最新文章"
@@ -1723,16 +1723,16 @@ msgstr "%s 的最新文章"
 msgid "Your title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "你的標題太短了 (%(show_value)s 個字元)。最少需要有 %(limit_value)s 個字元。"
 
-#: kitsune/kbforums/forms.py:14
+#: kitsune/kbforums/forms.py:18
 msgid "Please provide a message."
 msgstr "請提供訊息內文。"
 
-#: kitsune/kbforums/forms.py:15
+#: kitsune/kbforums/forms.py:19
 #, python-format
 msgid "Your message is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "你的訊息內文太短了 (%(show_value)s 個字元)。最少需要有 %(limit_value)s 個字元。"
 
-#: kitsune/kbforums/forms.py:18
+#: kitsune/kbforums/forms.py:24
 #, python-format
 msgid "Please keep the length of your message to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "請讓您的訊息長度維持在 %(limit_value)s 個字元之內。目前共有 %(show_value)s 個字元。"
@@ -3196,7 +3196,7 @@ msgstr ""
 msgid "Troubleshooting Information"
 msgstr "疑難排解資訊"
 
-#: kitsune/questions/forms.py:30
+#: kitsune/questions/forms.py:30 kitsune/questions/jinja2/questions/includes/aaq_macros.html:168
 msgid "This information gives details about the internal workings of your browser that will help in answering your question."
 msgstr "這份資訊會提供瀏覽器內部運作的詳情，以幫助解決您的問題。"
 
@@ -3332,59 +3332,59 @@ msgstr "檢視"
 msgid "Votes"
 msgstr "投票"
 
-#: kitsune/questions/views.py:471
+#: kitsune/questions/views.py:472
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "討論區目前不支援 {old_lang} 語言，我們將為你導頁至 {new_lang} 的討論區。"
 
-#: kitsune/questions/views.py:517
+#: kitsune/questions/views.py:518
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "{product} 產品的討論區目前不支援 {old_lang} 語言，我們將帶您前往 {new_lang} 的討論區。"
 
-#: kitsune/questions/views.py:566
+#: kitsune/questions/views.py:567
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:759
+#: kitsune/questions/views.py:760
 msgid "Thank you for choosing a solution!"
 msgstr "感謝您選擇解決方式！"
 
-#: kitsune/questions/views.py:762
+#: kitsune/questions/views.py:763
 msgid "This question already has a solution."
 msgstr "這個問題已有解決方式。"
 
-#: kitsune/questions/views.py:784
+#: kitsune/questions/views.py:785
 msgid "The solution was undone successfully."
 msgstr "已成功還原解決方式。"
 
-#: kitsune/questions/views.py:855
+#: kitsune/questions/views.py:856
 msgid "Glad to hear it!"
 msgstr "太開心聽到這個了！"
 
-#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "很抱歉聽到這消息。"
 
-#: kitsune/questions/views.py:877
+#: kitsune/questions/views.py:878
 msgid "You already voted on this reply."
 msgstr "這篇文章您已經投票過了。"
 
-#: kitsune/questions/views.py:1160
+#: kitsune/questions/views.py:1161
 msgid "Could not send a message to that email address."
 msgstr "無法傳送訊息到這個電子郵件信箱。"
 
-#: kitsune/questions/views.py:1166
+#: kitsune/questions/views.py:1167
 msgid "You will be notified of updates by email."
 msgstr "你將收到更新通知的郵件。"
 
-#: kitsune/questions/views.py:1168
+#: kitsune/questions/views.py:1169
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "你待會會收到關於你的訂閱確認信。"
 
-#: kitsune/questions/views.py:1385
+#: kitsune/questions/views.py:1386
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr "我邀請了 {user} 加入畫面分享視訊會議，將在完成後於此更新。"
 
-#: kitsune/questions/views.py:1498
+#: kitsune/questions/views.py:1499
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -4051,15 +4051,9 @@ msgstr "熱門主題"
 msgid "Share Data"
 msgstr "分享資料"
 
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:158
-msgid "Show info"
-msgstr "顯示資訊"
-
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:163
-msgid ""
-"This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. If "
-"the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
-msgstr "此資訊包含瀏覽器內部運作的詳細資訊，可幫助解答您遇到的問題。將在最上方開啟視窗。請點擊「允許」，然後點擊「安裝」。如果無法自動填寫，請<a href=\"#\">嘗試下列手動步驟</a>。"
+#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:159
+msgid "We can't automatically get your browser's troubleshooting data, please <a href=\"https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox\">try these manual steps</a>."
+msgstr ""
 
 #: kitsune/questions/jinja2/questions/includes/answer.html:19
 msgid "Question owner"
@@ -7533,11 +7527,16 @@ msgid "Contact"
 msgstr "聯絡我們"
 
 #: kitsune/sumo/jinja2/base.html:307
-msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
-msgstr "Mozilla Corporation 的非營利母公司: Mozilla Foundation。"
+msgid ""
+"Visit <a href=\"https://www.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Corporation\">Mozilla Corporation’s</a> not-for-profit parent, the <a href="
+"\"https://foundation.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Foundation\">Mozilla Foundation</a>."
+msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:309
-msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
+#: kitsune/sumo/jinja2/base.html:313
+#, fuzzy
+msgid ""
+"Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a <a rel=\"external noopener\" href=\"https://www.mozilla.org/foundation/licensing/website-"
+"content/\">Creative Commons license</a>."
 msgstr "本頁的部分內容著作權為 &copy;1998–2019 由個別 mozilla.org 貢獻者所有。使用創用 CC 授權條款授權大眾使用。"
 
 #: kitsune/sumo/jinja2/email/base.html:247
@@ -9997,6 +9996,17 @@ msgstr "告訴我們更多資訊。"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "請提供更多詳情。"
+
+#~ msgid "Show info"
+#~ msgstr "顯示資訊"
+
+#~ msgid ""
+#~ "This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. "
+#~ "If the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#~ msgstr "此資訊包含瀏覽器內部運作的詳細資訊，可幫助解答您遇到的問題。將在最上方開啟視窗。請點擊「允許」，然後點擊「安裝」。如果無法自動填寫，請<a href=\"#\">嘗試下列手動步驟</a>。"
+
+#~ msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
+#~ msgstr "Mozilla Corporation 的非營利母公司: Mozilla Foundation。"
 
 #~ msgid "About firefox private network"
 #~ msgstr "關於 Firefox Private Network"

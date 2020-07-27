@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-23 19:08-0700\n"
+"POT-Creation-Date: 2020-07-26 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 11:53+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -1134,7 +1134,7 @@ msgid "View all deactivated users"
 msgstr "Összes deaktivált felhasználó megjelenítése"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
 #: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "Tartalom:"
@@ -1158,7 +1158,7 @@ msgstr "Megjelölve:"
 msgid "Take Action:"
 msgstr "Művelet:"
 
-#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
+#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:57 kitsune/kbforums/forms.py:84
 #: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "Cím:"
@@ -1200,7 +1200,7 @@ msgstr "Kérem adjon meg egy címet."
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "A cím túl rövid (%(show_value)s karakter). Legalább %(limit_value)s karakternek kell lennie."
 
-#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:13
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "A cím %(limit_value)s vagy annál kevesebb karaktert kell, hogy tartalmazzon. Jelenleg ez %(show_value)s karakter hosszú."
@@ -1711,20 +1711,20 @@ msgstr "Megkapta a(z) %(title)s kitűzőt!"
 msgid "See all the details:"
 msgstr "Minden részlet megjelenítése:"
 
-#: kitsune/kbforums/events.py:26
+#: kitsune/kbforums/events.py:28
 msgid "Re: {forum} - {thread}"
 msgstr "Vá: {forum} - {thread}"
 
-#: kitsune/kbforums/events.py:47
+#: kitsune/kbforums/events.py:52
 msgid "{forum} - {thread}"
 msgstr "{forum} - {thread}"
 
-#: kitsune/kbforums/feeds.py:22
+#: kitsune/kbforums/feeds.py:21
 #, python-format
 msgid "Recently updated threads about %s"
 msgstr "Legutóbb említett témacsoport erről: %s"
 
-#: kitsune/kbforums/feeds.py:52
+#: kitsune/kbforums/feeds.py:49
 #, python-format
 msgid "Recent posts in %s"
 msgstr "Legutóbbi bejegyzések ebben: %s"
@@ -1734,16 +1734,16 @@ msgstr "Legutóbbi bejegyzések ebben: %s"
 msgid "Your title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "A cím túl rövid (%(show_value)s karakter). Legalább %(limit_value)s karakternek kell lennie."
 
-#: kitsune/kbforums/forms.py:14
+#: kitsune/kbforums/forms.py:18
 msgid "Please provide a message."
 msgstr "Adja meg az üzenetet."
 
-#: kitsune/kbforums/forms.py:15
+#: kitsune/kbforums/forms.py:19
 #, python-format
 msgid "Your message is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Az üzenet túl rövid (%(show_value)s karakter). Legalább %(limit_value)s karakternek kell lennie."
 
-#: kitsune/kbforums/forms.py:18
+#: kitsune/kbforums/forms.py:24
 #, python-format
 msgid "Please keep the length of your message to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Az üzenet legfeljebb %(limit_value)s vagy annál kevesebb karakter hosszúságú lehet. Jelenlegi hossza %(show_value)s karakter."
@@ -3220,7 +3220,7 @@ msgstr ""
 msgid "Troubleshooting Information"
 msgstr "Hibakeresési információk"
 
-#: kitsune/questions/forms.py:30
+#: kitsune/questions/forms.py:30 kitsune/questions/jinja2/questions/includes/aaq_macros.html:168
 msgid "This information gives details about the internal workings of your browser that will help in answering your question."
 msgstr "Ez az információ bepillantást enged böngészője belső működésébe, ami segíthet választ találni a kérdésére."
 
@@ -3356,59 +3356,59 @@ msgstr "Megjelenítés"
 msgid "Votes"
 msgstr "Szavazatok"
 
-#: kitsune/questions/views.py:471
+#: kitsune/questions/views.py:472
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "A kérdésekhez tartozó fórum nem érhető el {old_lang} nyelven, átirányítottuk a(z) {new_lang} fórumába."
 
-#: kitsune/questions/views.py:517
+#: kitsune/questions/views.py:518
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "A(z) {product} kérdésekhez tartozó fóruma nem érhető el {old_lang} nyelven, átirányítottuk a(z) {new_lang} fórumába."
 
-#: kitsune/questions/views.py:566
+#: kitsune/questions/views.py:567
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr "Kész! A kérdése közzé lett téve a Mozilla közösségi támogatási fórumán. Bármikor megtekintheti a bejegyzést, ha felkeresi a {a_open}Saját kérdések{a_close} lapot a profilján."
 
-#: kitsune/questions/views.py:759
+#: kitsune/questions/views.py:760
 msgid "Thank you for choosing a solution!"
 msgstr "Köszönjük, hogy kiválasztott egy megoldást!"
 
-#: kitsune/questions/views.py:762
+#: kitsune/questions/views.py:763
 msgid "This question already has a solution."
 msgstr "A kérdésnek már van megoldása."
 
-#: kitsune/questions/views.py:784
+#: kitsune/questions/views.py:785
 msgid "The solution was undone successfully."
 msgstr "A megoldás sikeresen visszavonva."
 
-#: kitsune/questions/views.py:855
+#: kitsune/questions/views.py:856
 msgid "Glad to hear it!"
 msgstr "Jó tudni róla!"
 
-#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Sajnálattal halljuk."
 
-#: kitsune/questions/views.py:877
+#: kitsune/questions/views.py:878
 msgid "You already voted on this reply."
 msgstr "Már szavazott erre a válaszra."
 
-#: kitsune/questions/views.py:1160
+#: kitsune/questions/views.py:1161
 msgid "Could not send a message to that email address."
 msgstr "Nem sikerült üzenetet küldeni a megadott e-mail címre."
 
-#: kitsune/questions/views.py:1166
+#: kitsune/questions/views.py:1167
 msgid "You will be notified of updates by email."
 msgstr "Értesítéseket fog kapni e-mailben."
 
-#: kitsune/questions/views.py:1168
+#: kitsune/questions/views.py:1169
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "Hamarosan kapnia kell egy e-mailt a feliratkozás megerősítéséhez."
 
-#: kitsune/questions/views.py:1385
+#: kitsune/questions/views.py:1386
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr "Meghívtam {user}-t egy képernyőmegosztás munkamenetre, és értesítés fogok küldeni amikor végeztünk."
 
-#: kitsune/questions/views.py:1498
+#: kitsune/questions/views.py:1499
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr "Egy moderátornak kézileg jóvá kell hagynia a bejegyzését, mielőtt az látható lesz."
 
@@ -4086,17 +4086,9 @@ msgstr "Népszerű témák"
 msgid "Share Data"
 msgstr "Adatok megosztása"
 
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:158
-msgid "Show info"
-msgstr "Információ megjelenítése"
-
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:163
-msgid ""
-"This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. If "
-"the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:159
+msgid "We can't automatically get your browser's troubleshooting data, please <a href=\"https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox\">try these manual steps</a>."
 msgstr ""
-"Ez az információ részleteket tartalmaz a böngésző belső működéséről, melyek segítenek megválaszolni a kérdést. Egy ablak nyílik meg a felső sarokban. Kattintson az Engedélyezés, majd a Telepítés "
-"gombra. Ha automatikusan nem működik, <a class=\"expander\" href=\"%(url)s\">próbálkozzon ezekkel a lépésekkel</a>."
 
 #: kitsune/questions/jinja2/questions/includes/answer.html:19
 msgid "Question owner"
@@ -7579,11 +7571,16 @@ msgid "Contact"
 msgstr "Kapcsolat"
 
 #: kitsune/sumo/jinja2/base.html:307
-msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
-msgstr "A Mozilla Corporation nonprofit anyavállalata, a Mozilla Alapítvány."
+msgid ""
+"Visit <a href=\"https://www.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Corporation\">Mozilla Corporation’s</a> not-for-profit parent, the <a href="
+"\"https://foundation.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Foundation\">Mozilla Foundation</a>."
+msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:309
-msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
+#: kitsune/sumo/jinja2/base.html:313
+#, fuzzy
+msgid ""
+"Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a <a rel=\"external noopener\" href=\"https://www.mozilla.org/foundation/licensing/website-"
+"content/\">Creative Commons license</a>."
 msgstr "A tartalom egyes részeire a következő vonatkozik: &copy;1998–2019 egyéni mozilla.org közreműködők. A tartalom Creative Commons licenc alatt érhető el."
 
 #: kitsune/sumo/jinja2/email/base.html:247
@@ -10074,6 +10071,19 @@ msgstr "Mondja el."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Adjon részletesebb információt"
+
+#~ msgid "Show info"
+#~ msgstr "Információ megjelenítése"
+
+#~ msgid ""
+#~ "This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. "
+#~ "If the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#~ msgstr ""
+#~ "Ez az információ részleteket tartalmaz a böngésző belső működéséről, melyek segítenek megválaszolni a kérdést. Egy ablak nyílik meg a felső sarokban. Kattintson az Engedélyezés, majd a Telepítés "
+#~ "gombra. Ha automatikusan nem működik, <a class=\"expander\" href=\"%(url)s\">próbálkozzon ezekkel a lépésekkel</a>."
+
+#~ msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
+#~ msgstr "A Mozilla Corporation nonprofit anyavállalata, a Mozilla Alapítvány."
 
 #~ msgid "Beware of phishing attacks: Mozilla will never ask you to call a number or visit a non-Mozilla website. Please ignore such requests. Learn more:"
 #~ msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-23 19:08-0700\n"
+"POT-Creation-Date: 2020-07-26 19:04-0700\n"
 "PO-Revision-Date: 2015-05-29 09:44+0000\n"
 "Last-Translator: Devon <devon.bezuidenhout@rubric.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1141,7 +1141,7 @@ msgid "View all deactivated users"
 msgstr "Buka bonke abasebenzisi abacishiwe"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
 #: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "Okuqukethwe:"
@@ -1165,7 +1165,7 @@ msgstr "Okufulegiwe:"
 msgid "Take Action:"
 msgstr "Yenza okuthile:"
 
-#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
+#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:57 kitsune/kbforums/forms.py:84
 #: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "Isihloko:"
@@ -1207,7 +1207,7 @@ msgstr "Uyacelwa unikeze isihloko."
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Isihloko sifishane kakhulu (%(show_value)s amanani ezinhlamvu). Kufanele kube okungenani %(limit_value)s amanani izinhlamvu."
 
-#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:13
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Uyacelwa ugcine ubude besihloko sakho ku %(limit_value)s izinhlamvu noma ngaphansi. Njengamanje siyi %(show_value)s izinhlamvu."
@@ -1719,20 +1719,20 @@ msgstr "Uhlonyuliswe ngebheji %(title)s!"
 msgid "See all the details:"
 msgstr "Buka yonke imininingwane:"
 
-#: kitsune/kbforums/events.py:26
+#: kitsune/kbforums/events.py:28
 msgid "Re: {forum} - {thread}"
 msgstr "Re: {forum} - {thread}"
 
-#: kitsune/kbforums/events.py:47
+#: kitsune/kbforums/events.py:52
 msgid "{forum} - {thread}"
 msgstr "{forum} - {thread}"
 
-#: kitsune/kbforums/feeds.py:22
+#: kitsune/kbforums/feeds.py:21
 #, python-format
 msgid "Recently updated threads about %s"
 msgstr "Usanda kuvuselela uchungechunge mayelana ne-%s"
 
-#: kitsune/kbforums/feeds.py:52
+#: kitsune/kbforums/feeds.py:49
 #, python-format
 msgid "Recent posts in %s"
 msgstr "Amaphosti amasha ku-%s"
@@ -1742,16 +1742,16 @@ msgstr "Amaphosti amasha ku-%s"
 msgid "Your title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Isihloko sifishane kakhulu (%(show_value)s ezinhlamvu). Kufanele okungenani zibe %(limit_value)s ezinhlamvu."
 
-#: kitsune/kbforums/forms.py:14
+#: kitsune/kbforums/forms.py:18
 msgid "Please provide a message."
 msgstr "Uyacelwa ukuba uhlinzeke ngomyalezo."
 
-#: kitsune/kbforums/forms.py:15
+#: kitsune/kbforums/forms.py:19
 #, python-format
 msgid "Your message is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Umyalezo mfishane kakhulu (%(show_value)s izinhlamvu). Kufanele okungenani %(limit_value)s izinhlamvu."
 
-#: kitsune/kbforums/forms.py:18
+#: kitsune/kbforums/forms.py:24
 #, python-format
 msgid "Please keep the length of your message to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Uyacelwa ukuba ugcine ubude bomyalezo wakho ungadluli ku %(limit_value)s wezinhlamvu noma ngaphansi. Njengamanje umi ku %(show_value)s wezinhlamvu."
@@ -3309,7 +3309,7 @@ msgstr ""
 msgid "Troubleshooting Information"
 msgstr "Imininingwane yokulandelela izinkinga"
 
-#: kitsune/questions/forms.py:30
+#: kitsune/questions/forms.py:30 kitsune/questions/jinja2/questions/includes/aaq_macros.html:168
 msgid "This information gives details about the internal workings of your browser that will help in answering your question."
 msgstr "Le mininingwane inikeza ulwazi mayelana nokusebenza kwangaphakathi kwesiphequluli sakho esizokusiza ukuphendula umbuzo wakho."
 
@@ -3447,59 +3447,59 @@ msgstr "Ukubukwa"
 msgid "Votes"
 msgstr "Amavoti"
 
-#: kitsune/questions/views.py:471
+#: kitsune/questions/views.py:472
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Isithangami semibuzo asitholakali nge-{old_lang}, sikuqondise ku-{new_lang} isithangami semibuzo."
 
-#: kitsune/questions/views.py:517
+#: kitsune/questions/views.py:518
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Isithangami semibuzo asitholakali ku{product} nge-{old_lang}, sikuqondise ku-{new_lang} isithangami semibuzo."
 
-#: kitsune/questions/views.py:566
+#: kitsune/questions/views.py:567
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:759
+#: kitsune/questions/views.py:760
 msgid "Thank you for choosing a solution!"
 msgstr "Siyabonga ngokukhetha isisombululo!"
 
-#: kitsune/questions/views.py:762
+#: kitsune/questions/views.py:763
 msgid "This question already has a solution."
 msgstr "Lo mbuzo usunaso isisombululo vele."
 
-#: kitsune/questions/views.py:784
+#: kitsune/questions/views.py:785
 msgid "The solution was undone successfully."
 msgstr "Isisombululo senziwe ngempumelelo."
 
-#: kitsune/questions/views.py:855
+#: kitsune/questions/views.py:856
 msgid "Glad to hear it!"
 msgstr "Kwayintokozo ukuzwa lokho!"
 
-#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Kwakubi ukuzwa lokho."
 
-#: kitsune/questions/views.py:877
+#: kitsune/questions/views.py:878
 msgid "You already voted on this reply."
 msgstr "Usuvotele le mpendulo vele."
 
-#: kitsune/questions/views.py:1160
+#: kitsune/questions/views.py:1161
 msgid "Could not send a message to that email address."
 msgstr "Asikwazanga ukuthumela umyalezo kuleli kheli le-imeyli."
 
-#: kitsune/questions/views.py:1166
+#: kitsune/questions/views.py:1167
 msgid "You will be notified of updates by email."
 msgstr "Uzokwaziswa ngokwenzeka nge-imeyli."
 
-#: kitsune/questions/views.py:1168
+#: kitsune/questions/views.py:1169
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "Uzothola i-imeyli kungekudala nje ukuqinisekisa ngokubhalisa kwakho."
 
-#: kitsune/questions/views.py:1385
+#: kitsune/questions/views.py:1386
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr ""
 
-#: kitsune/questions/views.py:1498
+#: kitsune/questions/views.py:1499
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -4201,19 +4201,9 @@ msgstr "Amathuluzi onegalelo"
 msgid "Share Data"
 msgstr "Yaba Imininingo"
 
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:158
-#, fuzzy
-msgid "Show info"
-msgstr "Veza imidiya ye:"
-
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:163
-#, fuzzy
-msgid ""
-"This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. If "
-"the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:159
+msgid "We can't automatically get your browser's troubleshooting data, please <a href=\"https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox\">try these manual steps</a>."
 msgstr ""
-"Iwindi lizovuleka ekhoneni eliphezulu. Chofoza ukuthi Vumela, bese uchofoza ukuthi Fakela. Uma indlela ehlelwe ngaphambilini ingasebenzi, <a class=\"expander\" href=\"%(url)s\">zama lezi zitephu "
-"ezimanuwali</a>."
 
 #: kitsune/questions/jinja2/questions/includes/answer.html:19
 msgid "Question owner"
@@ -7927,12 +7917,16 @@ msgid "Contact"
 msgstr "Izinombolo zabangathintwa"
 
 #: kitsune/sumo/jinja2/base.html:307
-msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
+msgid ""
+"Visit <a href=\"https://www.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Corporation\">Mozilla Corporation’s</a> not-for-profit parent, the <a href="
+"\"https://foundation.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Foundation\">Mozilla Foundation</a>."
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:309
+#: kitsune/sumo/jinja2/base.html:313
 #, fuzzy
-msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
+msgid ""
+"Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a <a rel=\"external noopener\" href=\"https://www.mozilla.org/foundation/licensing/website-"
+"content/\">Creative Commons license</a>."
 msgstr ""
 "Izingxenye zalolu lwazi zi &copy;1998–2015 <br>yi-mozilla.org contributors. Okuqukethwe<br>itholakala ngaphansi kwe<a href=\"//www.mozilla.org/foundation/licensing/website-content.html\">I-Creative "
 "Commons license</a>."
@@ -10457,6 +10451,18 @@ msgstr "Sitshele kabanzi."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Uyacelwa uhlinzeke ngeminye imininingwane"
+
+#, fuzzy
+#~ msgid "Show info"
+#~ msgstr "Veza imidiya ye:"
+
+#, fuzzy
+#~ msgid ""
+#~ "This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. "
+#~ "If the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#~ msgstr ""
+#~ "Iwindi lizovuleka ekhoneni eliphezulu. Chofoza ukuthi Vumela, bese uchofoza ukuthi Fakela. Uma indlela ehlelwe ngaphambilini ingasebenzi, <a class=\"expander\" href=\"%(url)s\">zama lezi zitephu "
+#~ "ezimanuwali</a>."
 
 #, fuzzy
 #~ msgid "About firefox private network"

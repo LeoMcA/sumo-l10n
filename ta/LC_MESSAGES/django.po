@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-23 19:08-0700\n"
+"POT-Creation-Date: 2020-07-26 19:04-0700\n"
 "PO-Revision-Date: 2017-11-24 16:36+0000\n"
 "Last-Translator: Mohammed Ammar <ksmammar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1118,7 +1118,7 @@ msgid "View all deactivated users"
 msgstr "அனைத்து செயலிழந்த பயனரை காண்க"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
 #: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "உள்ளடக்கம்:"
@@ -1142,7 +1142,7 @@ msgstr "கொடியிடபட்டவை:"
 msgid "Take Action:"
 msgstr "நடவடிக்கை எடு:"
 
-#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
+#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:57 kitsune/kbforums/forms.py:84
 #: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "தலைப்பு:"
@@ -1184,7 +1184,7 @@ msgstr "தலைப்பை வழங்கவும்."
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "தலைப்பு மிகவும் குறுகியதாக உள்ளது (%(show_value)s எழுத்துக்கள்). அது குறைந்த பட்சம் %(limit_value)s எழுத்துக்களாக இருத்தல் வேண்டும்."
 
-#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:13
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "தயவு செய்து உங்கள் தலைப்பின் நீளத்தை %(limit_value)s எழுத்துக்கள் அல்லது அதற்கும் குறைவானதாக வைக்கவும். அது தற்போது %(show_value)s எழுத்துக்களாக உள்ளது."
@@ -1696,20 +1696,20 @@ msgstr "உங்களுக்கு <strong>%(title)s</strong> பதக்�
 msgid "See all the details:"
 msgstr "அனைத்து விவரங்களையும் பார்..."
 
-#: kitsune/kbforums/events.py:26
+#: kitsune/kbforums/events.py:28
 msgid "Re: {forum} - {thread}"
 msgstr ""
 
-#: kitsune/kbforums/events.py:47
+#: kitsune/kbforums/events.py:52
 msgid "{forum} - {thread}"
 msgstr "{forum} - {thread}"
 
-#: kitsune/kbforums/feeds.py:22
+#: kitsune/kbforums/feeds.py:21
 #, python-format
 msgid "Recently updated threads about %s"
 msgstr "%s பற்றி சமீபத்கில் மேம்படுத்தப்பட்ட இழைகள்"
 
-#: kitsune/kbforums/feeds.py:52
+#: kitsune/kbforums/feeds.py:49
 #, python-format
 msgid "Recent posts in %s"
 msgstr "%s -ல் உள்ள சமீபத்தியப் பதிவுகள்"
@@ -1719,16 +1719,16 @@ msgstr "%s -ல் உள்ள சமீபத்தியப் பதிவ�
 msgid "Your title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "உங்கள் தலைப்பு மிகவும் குறுகியதாக உள்ளது(%(show_value)s எழுத்துக்கள்). அது குறைந்த பட்சம் %(limit_value)s எழுத்துக்களாக இருப்பது அவசியம்."
 
-#: kitsune/kbforums/forms.py:14
+#: kitsune/kbforums/forms.py:18
 msgid "Please provide a message."
 msgstr "ஒரு செய்தியை வழங்கவும்."
 
-#: kitsune/kbforums/forms.py:15
+#: kitsune/kbforums/forms.py:19
 #, python-format
 msgid "Your message is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "உங்கள் செய்தி மிகவும் குறுகியதாக உள்ளது (%(show_value)s எழுத்துக்கள்). அது குறைந்த பட்சம் %(limit_value)s எழுத்துக்களாக இருத்தல் வேண்டும்."
 
-#: kitsune/kbforums/forms.py:18
+#: kitsune/kbforums/forms.py:24
 #, python-format
 msgid "Please keep the length of your message to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "தயவு செய்து உங்கள் செய்தியின் நீளத்தை %(limit_value)s எழுத்துக்கள் அல்லது அதற்கும் குறைவானதாக வைக்கவும். அது தற்போது %(show_value)s எழுத்துக்களாக உள்ளது."
@@ -3242,7 +3242,7 @@ msgstr ""
 msgid "Troubleshooting Information"
 msgstr "பிழைத்திருத்தல் தகவல்"
 
-#: kitsune/questions/forms.py:30
+#: kitsune/questions/forms.py:30 kitsune/questions/jinja2/questions/includes/aaq_macros.html:168
 msgid "This information gives details about the internal workings of your browser that will help in answering your question."
 msgstr ""
 
@@ -3379,59 +3379,59 @@ msgstr "பார்வைகள்"
 msgid "Votes"
 msgstr "வாக்குகள்"
 
-#: kitsune/questions/views.py:471
+#: kitsune/questions/views.py:472
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr ""
 
-#: kitsune/questions/views.py:517
+#: kitsune/questions/views.py:518
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr ""
 
-#: kitsune/questions/views.py:566
+#: kitsune/questions/views.py:567
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:759
+#: kitsune/questions/views.py:760
 msgid "Thank you for choosing a solution!"
 msgstr "ஒரு தீர்வை தேர்ந்தெடுத்தமைக்கு நன்றி!"
 
-#: kitsune/questions/views.py:762
+#: kitsune/questions/views.py:763
 msgid "This question already has a solution."
 msgstr "இந்தக் கேள்விக்கு ஏற்கனவே ஒரு தீர்வு இருக்கிறது."
 
-#: kitsune/questions/views.py:784
+#: kitsune/questions/views.py:785
 msgid "The solution was undone successfully."
 msgstr "தீர்வு வெற்றிகரமாக மீளச்செய்யப்பட்டது."
 
-#: kitsune/questions/views.py:855
+#: kitsune/questions/views.py:856
 msgid "Glad to hear it!"
 msgstr ""
 
-#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr ""
 
-#: kitsune/questions/views.py:877
+#: kitsune/questions/views.py:878
 msgid "You already voted on this reply."
 msgstr ""
 
-#: kitsune/questions/views.py:1160
+#: kitsune/questions/views.py:1161
 msgid "Could not send a message to that email address."
 msgstr ""
 
-#: kitsune/questions/views.py:1166
+#: kitsune/questions/views.py:1167
 msgid "You will be notified of updates by email."
 msgstr ""
 
-#: kitsune/questions/views.py:1168
+#: kitsune/questions/views.py:1169
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr ""
 
-#: kitsune/questions/views.py:1385
+#: kitsune/questions/views.py:1386
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr ""
 
-#: kitsune/questions/views.py:1498
+#: kitsune/questions/views.py:1499
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -4118,15 +4118,8 @@ msgstr "பிரபலமான கட்டுரைகள்"
 msgid "Share Data"
 msgstr "தரவை பகிர்"
 
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:158
-#, fuzzy
-msgid "Show info"
-msgstr "வரலாற்றை காட்டுக"
-
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:163
-msgid ""
-"This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. If "
-"the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:159
+msgid "We can't automatically get your browser's troubleshooting data, please <a href=\"https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox\">try these manual steps</a>."
 msgstr ""
 
 #: kitsune/questions/jinja2/questions/includes/answer.html:19
@@ -7669,11 +7662,15 @@ msgid "Contact"
 msgstr "தொடர்புகள்"
 
 #: kitsune/sumo/jinja2/base.html:307
-msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
+msgid ""
+"Visit <a href=\"https://www.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Corporation\">Mozilla Corporation’s</a> not-for-profit parent, the <a href="
+"\"https://foundation.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Foundation\">Mozilla Foundation</a>."
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:309
-msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
+#: kitsune/sumo/jinja2/base.html:313
+msgid ""
+"Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a <a rel=\"external noopener\" href=\"https://www.mozilla.org/foundation/licensing/website-"
+"content/\">Creative Commons license</a>."
 msgstr ""
 
 #: kitsune/sumo/jinja2/email/base.html:247
@@ -10160,6 +10157,10 @@ msgstr "எங்களுக்கு கூடுதல் விவரங்�
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "தயவு செய்து இன்னும் கூடுதல் விவரங்களை அளிக்கவும்"
+
+#, fuzzy
+#~ msgid "Show info"
+#~ msgstr "வரலாற்றை காட்டுக"
 
 #, fuzzy
 #~ msgid "About firefox private network"

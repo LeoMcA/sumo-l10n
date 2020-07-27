@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-23 19:08-0700\n"
+"POT-Creation-Date: 2020-07-26 19:04-0700\n"
 "PO-Revision-Date: 2015-03-28 23:20+0000\n"
 "Last-Translator: wo-SN01_Mady <pamaboca@yahoo.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1141,7 +1141,7 @@ msgid "View all deactivated users"
 msgstr "Wone jëfandikukat yiñ dakkal yépp"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:26 kitsune/kbforums/forms.py:51 kitsune/kbforums/forms.py:80 kitsune/questions/forms.py:265
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
 #: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "Ëmbiit:"
@@ -1165,7 +1165,7 @@ msgstr "Defug raaya:"
 msgid "Take Action:"
 msgstr "Amalu jëf:"
 
-#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:42 kitsune/kbforums/forms.py:63
+#: kitsune/flagit/jinja2/flagit/includes/flagged_post.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_question.html:2 kitsune/kbforums/forms.py:57 kitsune/kbforums/forms.py:84
 #: kitsune/wiki/forms.py:107 kitsune/wiki/jinja2/wiki/translate.html:100
 msgid "Title:"
 msgstr "Tur:"
@@ -1207,7 +1207,7 @@ msgstr "Joxeel aw tur."
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Tur wii daa gudd lool (%(show_value)s characters). War na am gën gaa néew %(limit_value)s araf."
 
-#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:11
+#: kitsune/gallery/forms.py:15 kitsune/kbforums/forms.py:13
 #, python-format
 msgid "Please keep the length of your title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Jéemal fexe ba sob guddaayu tur yam ci %(limit_value)s araf walla lu ko yées. Fimne nii mu ngi ci %(show_value)s araf."
@@ -1719,20 +1719,20 @@ msgstr "Jox nañu la badsu %(title)s!"
 msgid "See all the details:"
 msgstr "Gis leeral yépp:"
 
-#: kitsune/kbforums/events.py:26
+#: kitsune/kbforums/events.py:28
 msgid "Re: {forum} - {thread}"
 msgstr "Ton: {forum} - {thread}"
 
-#: kitsune/kbforums/events.py:47
+#: kitsune/kbforums/events.py:52
 msgid "{forum} - {thread}"
 msgstr "{forum} - {thread}"
 
-#: kitsune/kbforums/feeds.py:22
+#: kitsune/kbforums/feeds.py:21
 #, python-format
 msgid "Recently updated threads about %s"
 msgstr "Tombi waxtaan yuñ yeesal te jëm ci %s"
 
-#: kitsune/kbforums/feeds.py:52
+#: kitsune/kbforums/feeds.py:49
 #, python-format
 msgid "Recent posts in %s"
 msgstr "Siiwal yi mujj ci %s"
@@ -1742,16 +1742,16 @@ msgstr "Siiwal yi mujj ci %s"
 msgid "Your title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Sa tur wi daa gàtt lool (%(show_value)s araf). War na am gën gaa néew %(limit_value)s araf."
 
-#: kitsune/kbforums/forms.py:14
+#: kitsune/kbforums/forms.py:18
 msgid "Please provide a message."
 msgstr "Joxeel benn bataaxal."
 
-#: kitsune/kbforums/forms.py:15
+#: kitsune/kbforums/forms.py:19
 #, python-format
 msgid "Your message is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Sa bataaxal bi daa gàtt lool (%(show_value)s araf). War na am gën gaa néew %(limit_value)s araf."
 
-#: kitsune/kbforums/forms.py:18
+#: kitsune/kbforums/forms.py:24
 #, python-format
 msgid "Please keep the length of your message to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Jéemal a yamale sa guddaayu bataaxal ci %(limit_value)s araf walla lu ko yées. Mu ngi ci %(show_value)s araf."
@@ -3301,7 +3301,7 @@ msgstr ""
 msgid "Troubleshooting Information"
 msgstr "Leerali saafara jafe-jafe"
 
-#: kitsune/questions/forms.py:30
+#: kitsune/questions/forms.py:30 kitsune/questions/jinja2/questions/includes/aaq_macros.html:168
 msgid "This information gives details about the internal workings of your browser that will help in answering your question."
 msgstr "Leeral bii di joxe ay tegatal ni sa joowukaay di doxee ci biir ñoo lay dimbali sa tontug sa laaj."
 
@@ -3439,59 +3439,59 @@ msgstr "Xool yi"
 msgid "Votes"
 msgstr "Sànni kàrt"
 
-#: kitsune/questions/views.py:471
+#: kitsune/questions/views.py:472
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Pencu laaj bi jàppandiwul ci {old_lang}, yóbbuna nu la ci pencu laaju {new_lang}."
 
-#: kitsune/questions/views.py:517
+#: kitsune/questions/views.py:518
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Pencu laaj bi jàppandiwul ci costéefu {old_lang}, yóbbuna nu la ci pencu laaju {new_lang}."
 
-#: kitsune/questions/views.py:566
+#: kitsune/questions/views.py:567
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:759
+#: kitsune/questions/views.py:760
 msgid "Thank you for choosing a solution!"
 msgstr "Sant nañu la ci saafara bi nga tànn!"
 
-#: kitsune/questions/views.py:762
+#: kitsune/questions/views.py:763
 msgid "This question already has a solution."
 msgstr "Lii nga sàkku am na saafara ba noppi."
 
-#: kitsune/questions/views.py:784
+#: kitsune/questions/views.py:785
 msgid "The solution was undone successfully."
 msgstr "Bàyyi nañu saafara bi."
 
-#: kitsune/questions/views.py:855
+#: kitsune/questions/views.py:856
 msgid "Glad to hear it!"
 msgstr "Loolu neex naa dégg!"
 
-#: kitsune/questions/views.py:857 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Loolu du neexul a dégg."
 
-#: kitsune/questions/views.py:877
+#: kitsune/questions/views.py:878
 msgid "You already voted on this reply."
 msgstr "Sànnil nga kàrt tontu lii."
 
-#: kitsune/questions/views.py:1160
+#: kitsune/questions/views.py:1161
 msgid "Could not send a message to that email address."
 msgstr "Mënul yónnee bataaxal ci adares imeel boobu."
 
-#: kitsune/questions/views.py:1166
+#: kitsune/questions/views.py:1167
 msgid "You will be notified of updates by email."
 msgstr "Dina ñu la yónnee imeel ngir yëgal la yeesal yi."
 
-#: kitsune/questions/views.py:1168
+#: kitsune/questions/views.py:1169
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "Leegi nga jot bataaxal bu dëggal sag bindu."
 
-#: kitsune/questions/views.py:1385
+#: kitsune/questions/views.py:1386
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr ""
 
-#: kitsune/questions/views.py:1498
+#: kitsune/questions/views.py:1499
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -4183,17 +4183,9 @@ msgstr "Jukkiy jàppalekat bi"
 msgid "Share Data"
 msgstr "Séddoo Njoxe"
 
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:158
-#, fuzzy
-msgid "Show info"
-msgstr "Wone mejaa ngir:"
-
-#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:163
-#, fuzzy
-msgid ""
-"This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. If "
-"the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
-msgstr "Ab polanteer dina feeñ ci koñu kaw gi. Bësal Nangu, ba noppi nga bës Samp. Sudee yoonu masin boobu doxul, <a class=\"expander\" href=\"%(url)s\">jéem koo defal sa bopp</a>."
+#: kitsune/questions/jinja2/questions/includes/aaq_macros.html:159
+msgid "We can't automatically get your browser's troubleshooting data, please <a href=\"https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox\">try these manual steps</a>."
+msgstr ""
 
 #: kitsune/questions/jinja2/questions/includes/answer.html:19
 msgid "Question owner"
@@ -7902,12 +7894,16 @@ msgid "Contact"
 msgstr "Xame yi"
 
 #: kitsune/sumo/jinja2/base.html:307
-msgid "Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation."
+msgid ""
+"Visit <a href=\"https://www.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Corporation\">Mozilla Corporation’s</a> not-for-profit parent, the <a href="
+"\"https://foundation.mozilla.org\" rel=\"external noopener\" data-link-type=\"footer\" data-link-name=\"Mozilla Foundation\">Mozilla Foundation</a>."
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:309
+#: kitsune/sumo/jinja2/base.html:313
 #, fuzzy
-msgid "Portions of this content are c.1998–2019 by individual mozilla.org contributors. Content available under a Creative Common license."
+msgid ""
+"Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a <a rel=\"external noopener\" href=\"https://www.mozilla.org/foundation/licensing/website-"
+"content/\">Creative Commons license</a>."
 msgstr ""
 "Ñenn ci ñiy jàppale mozilla.org ñoo &copy;1998–2015 <br>yenn ëmbiit yii. Ëmbiit li <br>yi jàppandi ci <a href=\"//www.mozilla.org/foundation/licensing/website-content.html\">daganalu Creative "
 "Commons</a>."
@@ -10414,6 +10410,16 @@ msgstr "Wax nu ci yeneen mbir."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Dolli ci yeneen leeral"
+
+#, fuzzy
+#~ msgid "Show info"
+#~ msgstr "Wone mejaa ngir:"
+
+#, fuzzy
+#~ msgid ""
+#~ "This information gives details about the internal workings of your browser that will help in answering your question. A window will open in the top corner. Click Allow, and then click Install. "
+#~ "If the automated way doesn't work, <a href=\"#\">try these manual steps</a>."
+#~ msgstr "Ab polanteer dina feeñ ci koñu kaw gi. Bësal Nangu, ba noppi nga bës Samp. Sudee yoonu masin boobu doxul, <a class=\"expander\" href=\"%(url)s\">jéem koo defal sa bopp</a>."
 
 #, fuzzy
 #~ msgid "About firefox private network"
