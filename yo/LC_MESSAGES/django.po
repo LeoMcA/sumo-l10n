@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 19:04-0700\n"
+"POT-Creation-Date: 2020-07-27 19:04-0700\n"
 "PO-Revision-Date: 2015-06-02 14:54+0000\n"
 "Last-Translator: Tersha <tersha.smith@rubric.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -956,12 +956,12 @@ msgid "Review Needed: {comment}"
 msgstr "Nílò Àtúnyẹ́wò: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "Bẹ́ẹ̀ni"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "Rárá"
 
@@ -7761,7 +7761,7 @@ msgstr "Kòsí fídíò náà \"%s\"."
 msgid "Button of type \"%s\" does not exist."
 msgstr "Kòsí irufẹ́ bọ́tìnì \"%s\"."
 
-#: kitsune/sumo/views.py:55
+#: kitsune/sumo/views.py:47
 #, fuzzy, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "Ṣé wà fẹ́ láti wo ojú ewé yìí ní %àwọn(language) dípò?"
@@ -9129,7 +9129,7 @@ msgstr ""
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr ""
 
-#: kitsune/wiki/models.py:981
+#: kitsune/wiki/models.py:979
 #, fuzzy, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "Àtúnyẹ̀wò gbọ́dọ̀ dálé aròkọ Gẹ̀ẹ́sì. Àtúnyẹ̀wò ÌDÁMỌ̀ %àwọn(id) kò bá àmúyẹ yii lọ."

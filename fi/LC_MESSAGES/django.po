@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 19:04-0700\n"
+"POT-Creation-Date: 2020-07-27 19:04-0700\n"
 "PO-Revision-Date: 2020-06-16 17:17+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: Finnish\n"
@@ -952,12 +952,12 @@ msgid "Review Needed: {comment}"
 msgstr "Tarkistus vaaditaan: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "Kyllä"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "Ei"
 
@@ -7550,7 +7550,7 @@ msgstr "Videota \"%s\" ei ole olemassa."
 msgid "Button of type \"%s\" does not exist."
 msgstr "”%s” -tyyppistä painiketta ei ole."
 
-#: kitsune/sumo/views.py:55
+#: kitsune/sumo/views.py:47
 #, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "Haluaisitko mahdollisesti nähdä tämän sivun kielellä %(language)s?"
@@ -8906,7 +8906,7 @@ msgstr "Mallit-kategoriassa dokumenttien otsikon täytyy alkaa \"{prefix}\". (Ny
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr "Dokumentit, jotka alkavat \"{prefix}\", täytyy olla Mallit-kategoriassa. (Nykyinen kategoria on \"{category}\". Nykyinen otsikko on \"{title}\".)"
 
-#: kitsune/wiki/models.py:981
+#: kitsune/wiki/models.py:979
 #, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "Muutoksen pitää pohjautua englanninkieliseen artikkeliin. Muutostunnus %(id)s ei täytä tätä vaatimusta."

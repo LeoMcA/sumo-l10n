@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 19:04-0700\n"
+"POT-Creation-Date: 2020-07-27 19:04-0700\n"
 "PO-Revision-Date: 2020-07-03 13:00+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu\n"
@@ -946,12 +946,12 @@ msgid "Review Needed: {comment}"
 msgstr "సమీక్షించాలి: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "అవును"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "కాదు"
 
@@ -7523,7 +7523,7 @@ msgstr "వీడియో \"%s\" ఉనికిలో లేదు."
 msgid "Button of type \"%s\" does not exist."
 msgstr "రకమైన బటన్ \"%s\" ఉనికిలో లేదు."
 
-#: kitsune/sumo/views.py:55
+#: kitsune/sumo/views.py:47
 #, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "ఈ పేజీని %(language)s భాషలో బదులుగా చూడాలనుకుంటున్నారా?"
@@ -8856,7 +8856,7 @@ msgstr "టెంప్లేట్ కేటగిరిలో పత్రా�
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr "\"{prefix}\" తో ప్రారంభమైన టైటిల్స్ పత్రాలు టెంప్లేట్లు వర్గంలో ఉండాలి. (ప్రస్తుత వర్గం \"{category}\". ప్రస్తుత టైటిల్ \"{title}\" ఇది.)"
 
-#: kitsune/wiki/models.py:981
+#: kitsune/wiki/models.py:979
 #, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "ఒక పునర్విమర్శ ఇంగ్లీష్ వ్యాసం ఆధారంగా ఉండాలి. పునర్విమర్శ ID%(id)s ఈ ప్రమాణం సరిపోదు."

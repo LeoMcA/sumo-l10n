@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 19:04-0700\n"
+"POT-Creation-Date: 2020-07-27 19:04-0700\n"
 "PO-Revision-Date: 2020-05-04 07:21+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: Czech\n"
@@ -953,12 +953,12 @@ msgid "Review Needed: {comment}"
 msgstr "Vyžadována kontrola: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "Ano"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "Ne"
 
@@ -7497,7 +7497,7 @@ msgstr "Video \"%s\" neexistuje."
 msgid "Button of type \"%s\" does not exist."
 msgstr "Tlačítko typu \"%s\" neexistuje."
 
-#: kitsune/sumo/views.py:55
+#: kitsune/sumo/views.py:47
 #, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "Nechcete tuto stránku raději vidět v jazyce %(language)s?"
@@ -8847,7 +8847,7 @@ msgstr "Nadpisy dokumentů v kategorii Šablony musí začínat prefixem \"{pref
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr "Nadpisy dokumentů začínající prefixem \"{prefix}\" musí být v kategorii šablon. (Aktuální kategorie je \"{category}\", aktuální nadpis je \"{title}\".)"
 
-#: kitsune/wiki/models.py:981
+#: kitsune/wiki/models.py:979
 #, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "Revize musí být založena na článku v angličtině. Revize s ID %(id)s toto kritérium nesplňuje."

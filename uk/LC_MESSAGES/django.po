@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 19:04-0700\n"
+"POT-Creation-Date: 2020-07-27 19:04-0700\n"
 "PO-Revision-Date: 2020-07-08 05:23+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: Ukrainian team\n"
@@ -955,12 +955,12 @@ msgid "Review Needed: {comment}"
 msgstr "Потрібний перегляд: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "Так"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "Ні"
 
@@ -7512,7 +7512,7 @@ msgstr "Відео \"%s\" не існує."
 msgid "Button of type \"%s\" does not exist."
 msgstr "Кнопка типу \"%s\" не існує."
 
-#: kitsune/sumo/views.py:55
+#: kitsune/sumo/views.py:47
 #, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "Бажаєте натомість переглянути цю сторінку %(language)s?"
@@ -8868,7 +8868,7 @@ msgstr "Документи в категорії Шаблон повинні м�
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr "Документи із заголовками, які починаються з \"{prefix}\" повинні бути в категорії шаблонів. (Поточна категорія \"{category}\". Поточний заголовок \"{title}\".)"
 
-#: kitsune/wiki/models.py:981
+#: kitsune/wiki/models.py:979
 #, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "Редакція повинна бути заснована на англійській статті. Редакція з ID %(id)s не підходить під цей критерій."

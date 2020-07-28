@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 19:04-0700\n"
+"POT-Creation-Date: 2020-07-27 19:04-0700\n"
 "PO-Revision-Date: 2019-11-08 11:52+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: Bengali\n"
@@ -948,12 +948,12 @@ msgid "Review Needed: {comment}"
 msgstr "পর্যালোচনা দরকার: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "হ্যাঁ"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "না"
 
@@ -7458,7 +7458,7 @@ msgstr "\"%s\" ভিডিওটির কোনো অস্তিত্ব �
 msgid "Button of type \"%s\" does not exist."
 msgstr "\"%s\" ধরনের বাটন বিদ্যমান নয়।"
 
-#: kitsune/sumo/views.py:55
+#: kitsune/sumo/views.py:47
 #, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "পরিবর্তে কি আপনি %(language)s-এ পেজটা দেখতে চান?"
@@ -8808,7 +8808,7 @@ msgstr ""
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr ""
 
-#: kitsune/wiki/models.py:981
+#: kitsune/wiki/models.py:979
 #, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "একটি রিভিশন অবশ্যই ইংরাজী প্রবন্ধের ওপরে ভিত্তি করে। রিভিশন আইডি %(id)s এই নির্ণায়কের জন্য সঠিক নয়।"

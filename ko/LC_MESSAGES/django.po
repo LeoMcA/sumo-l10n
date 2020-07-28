@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 19:04-0700\n"
+"POT-Creation-Date: 2020-07-27 19:04-0700\n"
 "PO-Revision-Date: 2020-05-25 17:07+0000\n"
 "Last-Translator: eHyun <seroun123@gmail.com>\n"
 "Language-Team: Mozilla SUMO Korean Team\n"
@@ -947,12 +947,12 @@ msgid "Review Needed: {comment}"
 msgstr "검토가 필요함: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "예"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "아니오"
 
@@ -7504,7 +7504,7 @@ msgstr "\"%s\" 동영상이 없습니다."
 msgid "Button of type \"%s\" does not exist."
 msgstr "\"%s\" 버튼 형식이 존재하지 않습니다."
 
-#: kitsune/sumo/views.py:55
+#: kitsune/sumo/views.py:47
 #, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "%(language)s 언어로 이 페이지를 보시겠습니까?"
@@ -8846,7 +8846,7 @@ msgstr "템플릿 카테고리에 있는 문서는 반드시 \"{prefix}\"로 시
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr "제목이 \"{prefix}\" 로 시작하는 문서는 템플릿 카테고리에 속합니다. (현재 카테고리는 \"{category}\"입니다. 현재 제목은 \"{title}\"입니다.)"
 
-#: kitsune/wiki/models.py:981
+#: kitsune/wiki/models.py:979
 #, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "변경 사항은 영문 문서에 기반해야 합니다. 변경 사항 ID %(id)s는 현재 조건에 맞지 않습니다."

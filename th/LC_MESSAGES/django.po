@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 19:04-0700\n"
+"POT-Creation-Date: 2020-07-27 19:04-0700\n"
 "PO-Revision-Date: 2020-03-03 13:25+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: Thai\n"
@@ -942,12 +942,12 @@ msgid "Review Needed: {comment}"
 msgstr "จำเป็นต้องได้รับการตรวจทาน: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:56 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "ใช่"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:57 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "ไม่"
 
@@ -7508,7 +7508,7 @@ msgstr "ไม่พบวิดีโอ \"%s\""
 msgid "Button of type \"%s\" does not exist."
 msgstr "ไม่มีปุ่มชนิด \"%s\" อยู่"
 
-#: kitsune/sumo/views.py:55
+#: kitsune/sumo/views.py:47
 #, python-format
 msgid "Would you like to view this page in %(language)s instead?"
 msgstr "คุณต้องการดูหน้านี้ในภาษา %(language)s แทนหรือไม่?"
@@ -8847,7 +8847,7 @@ msgstr "เอกสารในหมวดหมู่แม่แบบต้
 msgid "Documents with titles that start with \"{prefix}\" must be in the templates category. (Current category is \"{category}\". Current title is \"{title}\".)"
 msgstr "เอกสารที่มีชื่อเรื่องที่ขึ้นต้นด้วย \"{prefix}\" จะต้องอยู่ในหมวดหมู่แม่แบบ (หมวดหมู่ปัจจุบันคือ \"{category}\" ชื่อเรื่องปัจจุบันคือ \"{title}\")"
 
-#: kitsune/wiki/models.py:981
+#: kitsune/wiki/models.py:979
 #, python-format
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "การแก้ไขเพิ่มเติมต้องอยู่บนบทความภาษาอังกฤษ ​ID ซึ่งการแก้ไข %(id)s ไม่ตรงกับเกณฑ์ที่กำหนด"
