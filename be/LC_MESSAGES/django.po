@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2020-05-20 18:50+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2974,7 +2974,7 @@ msgstr ""
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr ""
 
@@ -3083,45 +3083,36 @@ msgstr ""
 msgid "Fix problems with Firefox Lockwise"
 msgstr ""
 
-#: kitsune/questions/config.py:571
-#, fuzzy
-msgid "Firefox Private Network Browser-level Protection"
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+msgid "Firefox Private Network"
 msgstr "Firefox Private Network"
 
 #: kitsune/questions/config.py:572
 msgid "Browse securely on public Wi-Fi"
 msgstr ""
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
-msgstr ""
-
-#: kitsune/questions/config.py:597
-msgid "Fix problems with Firefox Private Network"
-msgstr ""
-
-#: kitsune/questions/config.py:609
-msgid "Mozilla VPN"
-msgstr ""
-
-#: kitsune/questions/config.py:610
-msgid "VPN for Windows 10, Android and iOS devices"
-msgstr ""
-
-#: kitsune/questions/config.py:619
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:627
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
 msgid "Accounts"
 msgstr "Уліковыя запісы"
 
-#: kitsune/questions/config.py:635
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
 msgid "Payments"
 msgstr ""
 
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
 msgid "Troubleshooting"
+msgstr ""
+
+#: kitsune/questions/config.py:617
+msgid "Mozilla VPN"
+msgstr ""
+
+#: kitsune/questions/config.py:618
+msgid "VPN for Windows 10, Android and iOS devices"
 msgstr ""
 
 #: kitsune/questions/events.py:34
@@ -7466,10 +7457,6 @@ msgstr "Увайсці"
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-msgid "Firefox Private Network"
-msgstr "Firefox Private Network"
-
 #: kitsune/sumo/jinja2/base.html:297
 msgid "mozilla.org"
 msgstr ""
@@ -9967,6 +9954,10 @@ msgstr ""
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Firefox Private Network Browser-level Protection"
+#~ msgstr "Firefox Private Network"
 
 #, fuzzy
 #~ msgid "Show info"

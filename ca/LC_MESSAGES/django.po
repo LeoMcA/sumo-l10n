@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2020-06-20 18:46+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: Catalan\n"
@@ -2986,7 +2986,7 @@ msgstr ""
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr ""
 
@@ -3096,45 +3096,38 @@ msgstr ""
 msgid "Fix problems with Firefox Lockwise"
 msgstr ""
 
-#: kitsune/questions/config.py:571
-msgid "Firefox Private Network Browser-level Protection"
-msgstr ""
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+#, fuzzy
+msgid "Firefox Private Network"
+msgstr "Firefox 4 per a mòbils"
 
 #: kitsune/questions/config.py:572
 msgid "Browse securely on public Wi-Fi"
 msgstr ""
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
+msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:597
-msgid "Fix problems with Firefox Private Network"
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
+msgid "Accounts"
 msgstr ""
 
-#: kitsune/questions/config.py:609
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
+msgid "Payments"
+msgstr ""
+
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
+msgid "Troubleshooting"
+msgstr ""
+
+#: kitsune/questions/config.py:617
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Quant al Firefox"
 
-#: kitsune/questions/config.py:610
+#: kitsune/questions/config.py:618
 msgid "VPN for Windows 10, Android and iOS devices"
-msgstr ""
-
-#: kitsune/questions/config.py:619
-msgid "Technical"
-msgstr ""
-
-#: kitsune/questions/config.py:627
-msgid "Accounts"
-msgstr ""
-
-#: kitsune/questions/config.py:635
-msgid "Payments"
-msgstr ""
-
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
-msgid "Troubleshooting"
 msgstr ""
 
 #: kitsune/questions/events.py:34
@@ -7486,11 +7479,6 @@ msgstr "Inicia una sessió"
 #: kitsune/sumo/jinja2/base.html:264
 msgid "Benefits"
 msgstr ""
-
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-#, fuzzy
-msgid "Firefox Private Network"
-msgstr "Firefox 4 per a mòbils"
 
 #: kitsune/sumo/jinja2/base.html:297
 msgid "mozilla.org"

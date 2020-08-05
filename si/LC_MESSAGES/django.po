@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2018-07-13 16:04+0000\n"
 "Last-Translator: Kalpa Welivitigoda <callkalpa@gmail.com>\n"
 "Language-Team: Sinhala\n"
@@ -3237,7 +3237,7 @@ msgstr "Firefox සහාය"
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr ""
 
@@ -3360,50 +3360,41 @@ msgstr ""
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Firefox උදව් සහ නිබන්දන"
 
-#: kitsune/questions/config.py:571
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 #, fuzzy
-msgid "Firefox Private Network Browser-level Protection"
+msgid "Firefox Private Network"
 msgstr "Firefox සහාය"
 
 #: kitsune/questions/config.py:572
 msgid "Browse securely on public Wi-Fi"
 msgstr ""
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
-msgstr ""
-
-#: kitsune/questions/config.py:597
-#, fuzzy
-msgid "Fix problems with Firefox Private Network"
-msgstr "Firefox උදව් සහ නිබන්දන"
-
-#: kitsune/questions/config.py:609
-#, fuzzy
-msgid "Mozilla VPN"
-msgstr "Firefox සහාය"
-
-#: kitsune/questions/config.py:610
-#, fuzzy
-msgid "VPN for Windows 10, Android and iOS devices"
-msgstr "Firefox උදව් සහ නිබන්දන"
-
-#: kitsune/questions/config.py:619
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:627
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
 #, fuzzy
 msgid "Accounts"
 msgstr "මගේ ගිණුම"
 
-#: kitsune/questions/config.py:635
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
 msgid "Payments"
 msgstr ""
 
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
 msgid "Troubleshooting"
 msgstr ""
+
+#: kitsune/questions/config.py:617
+#, fuzzy
+msgid "Mozilla VPN"
+msgstr "Firefox සහාය"
+
+#: kitsune/questions/config.py:618
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "Firefox උදව් සහ නිබන්දන"
 
 #: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
@@ -8032,11 +8023,6 @@ msgstr "පිටවීම"
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-#, fuzzy
-msgid "Firefox Private Network"
-msgstr "Firefox සහාය"
-
 #: kitsune/sumo/jinja2/base.html:297
 #, fuzzy
 msgid "mozilla.org"
@@ -10746,6 +10732,14 @@ msgstr ""
 #, fuzzy
 msgid "Please provide more details"
 msgstr "පැණයක් අසන්න"
+
+#, fuzzy
+#~ msgid "Firefox Private Network Browser-level Protection"
+#~ msgstr "Firefox සහාය"
+
+#, fuzzy
+#~ msgid "Fix problems with Firefox Private Network"
+#~ msgstr "Firefox උදව් සහ නිබන්දන"
 
 #, fuzzy
 #~ msgid "Show info"

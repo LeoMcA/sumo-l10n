@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2020-03-18 23:43+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2989,7 +2989,7 @@ msgstr ""
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr "Titikirisäx"
 
@@ -3099,47 +3099,39 @@ msgstr ""
 msgid "Fix problems with Firefox Lockwise"
 msgstr ""
 
-#: kitsune/questions/config.py:571
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 #, fuzzy
-msgid "Firefox Private Network Browser-level Protection"
+msgid "Firefox Private Network"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:572
 msgid "Browse securely on public Wi-Fi"
 msgstr ""
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
+msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:597
-msgid "Fix problems with Firefox Private Network"
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
+msgid "Accounts"
+msgstr "Rub'i' taqoya'l"
+
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
+msgid "Payments"
 msgstr ""
 
-#: kitsune/questions/config.py:609
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
+msgid "Troubleshooting"
+msgstr "Kisolik taq k'ayewal"
+
+#: kitsune/questions/config.py:617
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla"
 
-#: kitsune/questions/config.py:610
+#: kitsune/questions/config.py:618
 msgid "VPN for Windows 10, Android and iOS devices"
 msgstr ""
-
-#: kitsune/questions/config.py:619
-msgid "Technical"
-msgstr ""
-
-#: kitsune/questions/config.py:627
-msgid "Accounts"
-msgstr "Rub'i' taqoya'l"
-
-#: kitsune/questions/config.py:635
-msgid "Payments"
-msgstr ""
-
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
-msgid "Troubleshooting"
-msgstr "Kisolik taq k'ayewal"
 
 #: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
@@ -7488,11 +7480,6 @@ msgstr "Titikirisäx Molojri'ïl"
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-#, fuzzy
-msgid "Firefox Private Network"
-msgstr "Firefox Lite"
-
 #: kitsune/sumo/jinja2/base.html:297
 #, fuzzy
 msgid "mozilla.org"
@@ -9985,6 +9972,10 @@ msgstr ""
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Firefox Private Network Browser-level Protection"
+#~ msgstr "Firefox Lite"
 
 #, fuzzy
 #~ msgid "Show info"

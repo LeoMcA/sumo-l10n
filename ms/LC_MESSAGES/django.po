@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2018-11-09 01:26+0000\n"
 "Last-Translator: Othman Wagiman <manxmensch@gmail.com>\n"
 "Language-Team: Malay\n"
@@ -3037,7 +3037,7 @@ msgstr "Firefox Lite"
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr "Pelayar mudah alih untuk Indonesia, India, Filipina dan Thailand"
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr "Mulakan"
 
@@ -3159,50 +3159,41 @@ msgstr "Urus keutamaan dan add-ons"
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Selesaikan masalah dengan Firefox Reality"
 
-#: kitsune/questions/config.py:571
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 #, fuzzy
-msgid "Firefox Private Network Browser-level Protection"
+msgid "Firefox Private Network"
 msgstr "Firefox Lite"
 
 #: kitsune/questions/config.py:572
 msgid "Browse securely on public Wi-Fi"
 msgstr ""
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
-msgstr ""
-
-#: kitsune/questions/config.py:597
-#, fuzzy
-msgid "Fix problems with Firefox Private Network"
-msgstr "Selesaikan masalah dengan Firefox Reality"
-
-#: kitsune/questions/config.py:609
-#, fuzzy
-msgid "Mozilla VPN"
-msgstr "Mozilla"
-
-#: kitsune/questions/config.py:610
-#, fuzzy
-msgid "VPN for Windows 10, Android and iOS devices"
-msgstr "peranti sentuh Firefox untuk Windows 8"
-
-#: kitsune/questions/config.py:619
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:627
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
 #, fuzzy
 msgid "Accounts"
 msgstr "Akaun"
 
-#: kitsune/questions/config.py:635
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
 msgid "Payments"
 msgstr "Bayaran"
 
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
 msgid "Troubleshooting"
 msgstr "Pencarisilapan"
+
+#: kitsune/questions/config.py:617
+#, fuzzy
+msgid "Mozilla VPN"
+msgstr "Mozilla"
+
+#: kitsune/questions/config.py:618
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "peranti sentuh Firefox untuk Windows 8"
 
 #: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
@@ -7695,11 +7686,6 @@ msgstr "Daftar Masuk"
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-#, fuzzy
-msgid "Firefox Private Network"
-msgstr "Firefox Lite"
-
 #: kitsune/sumo/jinja2/base.html:297
 #, fuzzy
 msgid "mozilla.org"
@@ -10232,6 +10218,14 @@ msgstr "Beritahu kami lebih lanjut."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Berikan lebih butiran"
+
+#, fuzzy
+#~ msgid "Firefox Private Network Browser-level Protection"
+#~ msgstr "Firefox Lite"
+
+#, fuzzy
+#~ msgid "Fix problems with Firefox Private Network"
+#~ msgstr "Selesaikan masalah dengan Firefox Reality"
 
 #, fuzzy
 #~ msgid "Show info"

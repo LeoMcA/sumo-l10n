@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2020-06-04 23:16+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3010,7 +3010,7 @@ msgstr "Firefox Lite"
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr "Navigator mobile pro Indonesia, India, Philippines e Thailandia"
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr "Comenciar"
 
@@ -3123,48 +3123,40 @@ msgstr "Gerer parametros e credentiales"
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Remediar problemas sur Firefox Reality"
 
-#: kitsune/questions/config.py:571
-msgid "Firefox Private Network Browser-level Protection"
-msgstr "Firefox Private Network: Protection a nivello de navigator"
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+msgid "Firefox Private Network"
+msgstr "Firefox Private Network"
 
 #: kitsune/questions/config.py:572
 #, fuzzy
 msgid "Browse securely on public Wi-Fi"
 msgstr "Naviga con securitate sur wifi public"
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
-msgstr "Gerer contos e parametros"
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
+msgid "Technical"
+msgstr "Technic"
 
-#: kitsune/questions/config.py:597
-msgid "Fix problems with Firefox Private Network"
-msgstr "Reparar problemas con Firefox Private Network"
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
+msgid "Accounts"
+msgstr "Contos"
 
-#: kitsune/questions/config.py:609
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
+msgid "Payments"
+msgstr "Pagamentos"
+
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
+msgid "Troubleshooting"
+msgstr "Diagnostico"
+
+#: kitsune/questions/config.py:617
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla"
 
-#: kitsune/questions/config.py:610
+#: kitsune/questions/config.py:618
 #, fuzzy
 msgid "VPN for Windows 10, Android and iOS devices"
 msgstr "VPN pro Windows 10 e apparatos Android"
-
-#: kitsune/questions/config.py:619
-msgid "Technical"
-msgstr "Technic"
-
-#: kitsune/questions/config.py:627
-msgid "Accounts"
-msgstr "Contos"
-
-#: kitsune/questions/config.py:635
-msgid "Payments"
-msgstr "Pagamentos"
-
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
-msgid "Troubleshooting"
-msgstr "Diagnostico"
 
 #: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
@@ -7612,10 +7604,6 @@ msgstr "Acceder o registrar se"
 msgid "Benefits"
 msgstr "Beneficios"
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-msgid "Firefox Private Network"
-msgstr "Firefox Private Network"
-
 #: kitsune/sumo/jinja2/base.html:297
 msgid "mozilla.org"
 msgstr "mozilla.org"
@@ -10135,6 +10123,15 @@ msgstr "Conta nos plus."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Per favor forni plus de detalios"
+
+#~ msgid "Firefox Private Network Browser-level Protection"
+#~ msgstr "Firefox Private Network: Protection a nivello de navigator"
+
+#~ msgid "Manage accounts and settings"
+#~ msgstr "Gerer contos e parametros"
+
+#~ msgid "Fix problems with Firefox Private Network"
+#~ msgstr "Reparar problemas con Firefox Private Network"
 
 #, fuzzy
 #~ msgid "Show info"

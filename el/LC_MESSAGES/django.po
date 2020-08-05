@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2020-06-19 13:38+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -3007,7 +3007,7 @@ msgstr "Firefox Lite"
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr "Για την Ινδονησία, την Ινδία, τις Φιλιππίνες και την Ταϊλάνδη"
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr "Ξεκινήστε"
 
@@ -3120,48 +3120,40 @@ msgstr "Διαχείριση ρυθμίσεων και συνδέσεων"
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Διόρθωση προβλημάτων του Firefox Lockwise"
 
-#: kitsune/questions/config.py:571
-msgid "Firefox Private Network Browser-level Protection"
-msgstr "Firefox Private Network - Προστασία σε επίπεδο προγράμματος περιήγησης"
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+msgid "Firefox Private Network"
+msgstr "Firefox Private Network"
 
 #: kitsune/questions/config.py:572
 #, fuzzy
 msgid "Browse securely on public Wi-Fi"
 msgstr "Ασφαλής περιήγηση σε δημόσια Wi-Fi"
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
-msgstr "Διαχείριση λογαριασμών και ρυθμίσεων"
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
+msgid "Technical"
+msgstr "Τεχνικά"
 
-#: kitsune/questions/config.py:597
-msgid "Fix problems with Firefox Private Network"
-msgstr "Διόρθωση προβλημάτων του Firefox Private Network"
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
+msgid "Accounts"
+msgstr "Λογαριασμοί"
 
-#: kitsune/questions/config.py:609
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
+msgid "Payments"
+msgstr "Πληρωμές"
+
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
+msgid "Troubleshooting"
+msgstr "Αντιμετώπιση προβλημάτων"
+
+#: kitsune/questions/config.py:617
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla"
 
-#: kitsune/questions/config.py:610
+#: kitsune/questions/config.py:618
 #, fuzzy
 msgid "VPN for Windows 10, Android and iOS devices"
 msgstr "VPN για Windows 10 και συσκευές Android"
-
-#: kitsune/questions/config.py:619
-msgid "Technical"
-msgstr "Τεχνικά"
-
-#: kitsune/questions/config.py:627
-msgid "Accounts"
-msgstr "Λογαριασμοί"
-
-#: kitsune/questions/config.py:635
-msgid "Payments"
-msgstr "Πληρωμές"
-
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
-msgid "Troubleshooting"
-msgstr "Αντιμετώπιση προβλημάτων"
 
 #: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
@@ -7604,10 +7596,6 @@ msgstr "Σύνδεση/Εγγραφή"
 msgid "Benefits"
 msgstr "Οφέλη"
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-msgid "Firefox Private Network"
-msgstr "Firefox Private Network"
-
 #: kitsune/sumo/jinja2/base.html:297
 msgid "mozilla.org"
 msgstr "mozilla.org"
@@ -10136,6 +10124,15 @@ msgstr "Πείτε μάς περισσότερα."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Παρακαλώ παραθέστε περισσότερες λεπτομέρειες"
+
+#~ msgid "Firefox Private Network Browser-level Protection"
+#~ msgstr "Firefox Private Network - Προστασία σε επίπεδο προγράμματος περιήγησης"
+
+#~ msgid "Manage accounts and settings"
+#~ msgstr "Διαχείριση λογαριασμών και ρυθμίσεων"
+
+#~ msgid "Fix problems with Firefox Private Network"
+#~ msgstr "Διόρθωση προβλημάτων του Firefox Private Network"
 
 #, fuzzy
 #~ msgid "Show info"

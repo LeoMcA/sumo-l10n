@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2016-03-30 20:28+0000\n"
 "Last-Translator: Amir Farsi <amir_farsi@ymail.com>\n"
 "Language-Team: Persian\n"
@@ -3056,7 +3056,7 @@ msgstr "كمك خاص"
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 #, fuzzy
 msgid "Get started"
 msgstr "آغاز کنید"
@@ -3182,51 +3182,42 @@ msgstr "سيار"
 msgid "Fix problems with Firefox Lockwise"
 msgstr "خودمسيرياب"
 
-#: kitsune/questions/config.py:571
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 #, fuzzy
-msgid "Firefox Private Network Browser-level Protection"
+msgid "Firefox Private Network"
 msgstr "كمك خاص"
 
 #: kitsune/questions/config.py:572
 msgid "Browse securely on public Wi-Fi"
 msgstr ""
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
-msgstr ""
-
-#: kitsune/questions/config.py:597
-#, fuzzy
-msgid "Fix problems with Firefox Private Network"
-msgstr "خودمسيرياب"
-
-#: kitsune/questions/config.py:609
-#, fuzzy
-msgid "Mozilla VPN"
-msgstr "اخبار موزیلا"
-
-#: kitsune/questions/config.py:610
-#, fuzzy
-msgid "VPN for Windows 10, Android and iOS devices"
-msgstr "فایرفاکس برای آندروید"
-
-#: kitsune/questions/config.py:619
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
 msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:627
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
 #, fuzzy
 msgid "Accounts"
 msgstr "Firefox Focus"
 
-#: kitsune/questions/config.py:635
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
 msgid "Payments"
 msgstr ""
 
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
 #, fuzzy
 msgid "Troubleshooting"
 msgstr "خودمسيرياب"
+
+#: kitsune/questions/config.py:617
+#, fuzzy
+msgid "Mozilla VPN"
+msgstr "اخبار موزیلا"
+
+#: kitsune/questions/config.py:618
+#, fuzzy
+msgid "VPN for Windows 10, Android and iOS devices"
+msgstr "فایرفاکس برای آندروید"
 
 #: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
@@ -7867,11 +7858,6 @@ msgstr "ورود"
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-#, fuzzy
-msgid "Firefox Private Network"
-msgstr "كمك خاص"
-
 #: kitsune/sumo/jinja2/base.html:297
 #, fuzzy
 msgid "mozilla.org"
@@ -10582,6 +10568,14 @@ msgstr "درباره خودتان برایمان بگویید!"
 #, fuzzy
 msgid "Please provide more details"
 msgstr "لطفا يك شناسه فراهم كنيد"
+
+#, fuzzy
+#~ msgid "Firefox Private Network Browser-level Protection"
+#~ msgstr "كمك خاص"
+
+#, fuzzy
+#~ msgid "Fix problems with Firefox Private Network"
+#~ msgstr "خودمسيرياب"
 
 #, fuzzy
 #~ msgid "Show info"

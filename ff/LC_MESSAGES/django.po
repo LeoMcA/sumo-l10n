@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2020-05-13 14:40+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULA LOCALIZATION\n"
@@ -2989,7 +2989,7 @@ msgstr "Firefox Lite"
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr "Fuɗɗo"
 
@@ -3100,47 +3100,40 @@ msgstr "Toppito teelte e ceŋorɗe"
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Ñawndu caɗeele e Firefox Lockwise"
 
-#: kitsune/questions/config.py:571
-msgid "Firefox Private Network Browser-level Protection"
-msgstr "Ndeenka tolno-wanngorde laylaytol suturo Firefox"
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+#, fuzzy
+msgid "Firefox Private Network"
+msgstr "Firefox 8"
 
 #: kitsune/questions/config.py:572
 msgid "Browse securely on public Wi-Fi"
 msgstr ""
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
-msgstr "Toppito konte e teelte"
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
+msgid "Technical"
+msgstr "Karallo"
 
-#: kitsune/questions/config.py:597
-msgid "Fix problems with Firefox Private Network"
-msgstr "Ñawndu caɗeele e laylaytol suturo Firefox"
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
+msgid "Accounts"
+msgstr "Konte"
 
-#: kitsune/questions/config.py:609
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
+msgid "Payments"
+msgstr "Joɓɗeele"
+
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
+msgid "Troubleshooting"
+msgstr "Ñawndugol caɗeele"
+
+#: kitsune/questions/config.py:617
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Kabaruuji Mozilla"
 
-#: kitsune/questions/config.py:610
+#: kitsune/questions/config.py:618
 #, fuzzy
 msgid "VPN for Windows 10, Android and iOS devices"
 msgstr "Firefox mo Android"
-
-#: kitsune/questions/config.py:619
-msgid "Technical"
-msgstr "Karallo"
-
-#: kitsune/questions/config.py:627
-msgid "Accounts"
-msgstr "Konte"
-
-#: kitsune/questions/config.py:635
-msgid "Payments"
-msgstr "Joɓɗeele"
-
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
-msgid "Troubleshooting"
-msgstr "Ñawndugol caɗeele"
 
 #: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
@@ -7651,11 +7644,6 @@ msgstr "Winndito"
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-#, fuzzy
-msgid "Firefox Private Network"
-msgstr "Firefox 8"
-
 #: kitsune/sumo/jinja2/base.html:297
 #, fuzzy
 msgid "mozilla.org"
@@ -10266,6 +10254,15 @@ msgstr "Ɓeydan-min humpito."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Tiiɗno hokku tiitoonde"
+
+#~ msgid "Firefox Private Network Browser-level Protection"
+#~ msgstr "Ndeenka tolno-wanngorde laylaytol suturo Firefox"
+
+#~ msgid "Manage accounts and settings"
+#~ msgstr "Toppito konte e teelte"
+
+#~ msgid "Fix problems with Firefox Private Network"
+#~ msgstr "Ñawndu caɗeele e laylaytol suturo Firefox"
 
 #, fuzzy
 #~ msgid "Show info"

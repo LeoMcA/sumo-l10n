@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 19:04-0700\n"
+"POT-Creation-Date: 2020-08-04 19:04-0700\n"
 "PO-Revision-Date: 2020-07-03 13:00+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu\n"
@@ -2999,7 +2999,7 @@ msgstr "Firefox Lite"
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr ""
 
-#: kitsune/questions/config.py:357 kitsune/questions/config.py:581
+#: kitsune/questions/config.py:357
 msgid "Get started"
 msgstr "ప్రారంభించడానికి"
 
@@ -3111,48 +3111,39 @@ msgstr "అమరికల, ప్రవేశాల నిర్వహణ"
 msgid "Fix problems with Firefox Lockwise"
 msgstr "iOS కోసం Firefox సమస్యలు పరిష్కరించుకోండి."
 
-#: kitsune/questions/config.py:571
-msgid "Firefox Private Network Browser-level Protection"
+#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+msgid "Firefox Private Network"
 msgstr ""
 
 #: kitsune/questions/config.py:572
 msgid "Browse securely on public Wi-Fi"
 msgstr ""
 
-#: kitsune/questions/config.py:589
-msgid "Manage accounts and settings"
+#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
+msgid "Technical"
 msgstr ""
 
-#: kitsune/questions/config.py:597
-#, fuzzy
-msgid "Fix problems with Firefox Private Network"
-msgstr "Firefox Fire TVతో సమస్యలను పరిష్కరించుకోండి"
+#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
+msgid "Accounts"
+msgstr "ఖాతాలు"
 
-#: kitsune/questions/config.py:609
+#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
+msgid "Payments"
+msgstr "చెల్లింపులు"
+
+#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
+msgid "Troubleshooting"
+msgstr "ట్రబుల్షూటింగ్"
+
+#: kitsune/questions/config.py:617
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla"
 
-#: kitsune/questions/config.py:610
+#: kitsune/questions/config.py:618
 #, fuzzy
 msgid "VPN for Windows 10, Android and iOS devices"
 msgstr "విండోస్ 8 టచ్ పరికరాల కోసం Firefox"
-
-#: kitsune/questions/config.py:619
-msgid "Technical"
-msgstr ""
-
-#: kitsune/questions/config.py:627
-msgid "Accounts"
-msgstr "ఖాతాలు"
-
-#: kitsune/questions/config.py:635
-msgid "Payments"
-msgstr "చెల్లింపులు"
-
-#: kitsune/questions/config.py:643 kitsune/wiki/config.py:79
-msgid "Troubleshooting"
-msgstr "ట్రబుల్షూటింగ్"
 
 #: kitsune/questions/events.py:34
 msgid "Please confirm your email address"
@@ -7630,10 +7621,6 @@ msgstr "ప్రవేశించు"
 msgid "Benefits"
 msgstr ""
 
-#: kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
-msgid "Firefox Private Network"
-msgstr ""
-
 #: kitsune/sumo/jinja2/base.html:297
 msgid "mozilla.org"
 msgstr "mozilla.org"
@@ -10136,6 +10123,10 @@ msgstr "మాకు మరింత తెలియజేయండి."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "దయచేసి మరింత విషయాన్ని అందించండి"
+
+#, fuzzy
+#~ msgid "Fix problems with Firefox Private Network"
+#~ msgstr "Firefox Fire TVతో సమస్యలను పరిష్కరించుకోండి"
 
 #, fuzzy
 #~ msgid "Show info"
