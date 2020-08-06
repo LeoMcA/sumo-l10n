@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-04 19:04-0700\n"
+"POT-Creation-Date: 2020-08-05 19:04-0700\n"
 "PO-Revision-Date: 2020-04-17 21:40+0000\n"
 "Last-Translator: Sonia <soniasingla.1812@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@list.sf.net>\n"
@@ -4588,302 +4588,2677 @@ msgid_plural "{n} new this week"
 msgstr[0] "1 ਨਵਾ ਇਸ ਹਫ਼ਤੇ"
 msgstr[1] "{n} ਨਵੇ ਇਸ ਹਫ਼ਤੇ"
 
-#: kitsune/sumo/db_strings.py:18
+#: kitsune/sumo/db_strings.py:19
+msgctxt "DB: karma.Title.name"
+msgid "Administrator"
+msgstr "ਪਰਬੰਧਕ"
+
+#: kitsune/sumo/db_strings.py:21
+msgctxt "DB: karma.Title.name"
+msgid "Buddy of the Month! (10/2015)"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:23
+msgctxt "DB: karma.Title.name"
+msgid "Locale Leader"
+msgstr "ਲੋਕੇਲ ਆਗੂ"
+
+#: kitsune/sumo/db_strings.py:25
+msgctxt "DB: karma.Title.name"
+msgid "Moderator"
+msgstr "ਵਿਚੋਲਾ"
+
+#: kitsune/sumo/db_strings.py:27
+msgctxt "DB: karma.Title.name"
+msgid "SUMO Warrior"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:29
+msgctxt "DB: karma.Title.name"
+msgid "Top 10 Contributor"
+msgstr "ਉੱਚ 10 ਯੋਗਦਾਨੀ"
+
+#: kitsune/sumo/db_strings.py:31
+msgctxt "DB: karma.Title.name"
+msgid "Top 25 Contributor"
+msgstr "ਉੱਚ 25 ਯੋਗਦਾਨੀ"
+
+#: kitsune/sumo/db_strings.py:32
+msgctxt "DB: products.Product.title"
+msgid "Firefox"
+msgstr "ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:33
+msgctxt "DB: products.Product.description"
+msgid "Web browser for Windows, Mac and Linux"
+msgstr "ਵਿੰਡੋਜ਼, ਮੈਕ, ਅਤੇ ਲੀਨਕਸ ਲਈ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
+
+#: kitsune/sumo/db_strings.py:34
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Android"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:35
+msgctxt "DB: products.Product.description"
+msgid "Web browser for Android smartphones and tablets"
+msgstr "ਐਨਡਰਾਇਡ ਸਮਾਰਟ ਫੋਨ ਅਤੇ ਟੇਬਲੇਟ ਲਈ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
+
+#: kitsune/sumo/db_strings.py:36
+msgctxt "DB: products.Product.title"
+msgid "Firefox for iOS"
+msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ"
+
+#: kitsune/sumo/db_strings.py:37
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "Firefox for iPhone, iPad and iPod touch devices"
+msgstr "Windows 8 ਚ ਜੰਤਰਾ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:38
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox Accounts"
+msgstr "ਫਾਇਰਫਾਕਸ ਐਡ-ਆਨ"
+
+#: kitsune/sumo/db_strings.py:39
+msgctxt "DB: products.Product.description"
+msgid "Privacy-first products for desktop and mobile"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:40
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Android Beta"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:41
+msgctxt "DB: products.Product.description"
+msgid "Early version of an experimental Firefox browser for Android."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:45
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Enterprise"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:46
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "Firefox Quantum for businesses"
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:47
+msgctxt "DB: products.Product.title"
+msgid "Firefox OS"
+msgstr "ਫਾਇਰਫਾਕਸ OS"
+
+#: kitsune/sumo/db_strings.py:48
+msgctxt "DB: products.Product.description"
+msgid "Mobile OS for smartphones"
+msgstr "ਮੋਬਾਇਲ ਸਮਾਰਟ ਫੋਨਾ ਲਈ OS"
+
+#: kitsune/sumo/db_strings.py:49
+msgctxt "DB: products.Product.title"
+msgid "Firefox Lite"
+msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
+
+#: kitsune/sumo/db_strings.py:50
+msgctxt "DB: products.Product.description"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:54
+msgctxt "DB: products.Product.title"
+msgid "Contributors"
+msgstr "ਯੋਗਦਾਨੀ"
+
+#: kitsune/sumo/db_strings.py:55
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "Contributor articles"
+msgstr "ਸਹਿਯੋਗੀਆਂ ਦੀ ਫੋਰਮ"
+
+#: kitsune/sumo/db_strings.py:56
+msgctxt "DB: products.Product.title"
+msgid "Firefox Reality"
+msgstr "ਫਾਇਰਫਾਕਸ ਅਸਲੀਅਤ"
+
+#: kitsune/sumo/db_strings.py:57
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "Web browser for virtual reality headsets"
+msgstr "ਐਨਡਰਾਇਡ ਸਮਾਰਟ ਫੋਨ ਅਤੇ ਟੇਬਲੇਟ ਲਈ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
+
+#: kitsune/sumo/db_strings.py:58
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Mozilla VPN"
+msgstr "ਮੋਜ਼ੀਲਾ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:59
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "VPN for Windows 10, Android, and iOS devices"
+msgstr "Windows 8 ਚ ਜੰਤਰਾ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:60
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox Private Network"
+msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
+
+#: kitsune/sumo/db_strings.py:61
+msgctxt "DB: products.Product.description"
+msgid "Browse securely on public Wi-Fi using a Firefox add-on."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:65
+msgctxt "DB: products.Product.title"
+msgid "Open Badges"
+msgstr "ਓਪਨ ਬਿੱਲੇ"
+
+#: kitsune/sumo/db_strings.py:66
+msgctxt "DB: products.Product.description"
+msgid "A new online standard to recognize and verify learning"
+msgstr "ਇੱਨ ਨਵਾ ਆਨਲਾਇਨ ਮਿਆਰੀ ਮਾਨਤਾ ਦੇਣ ਅਤੇ ਸਿੱਖਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦਾ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:70
+msgctxt "DB: products.Product.title"
+msgid "Webmaker"
+msgstr "ਵੈਬਮੇਕਰ"
+
+#: kitsune/sumo/db_strings.py:71
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "Webmaker and other tools for teaching and learning the Web"
+msgstr "ਵੈੱਬ ਨੂੰ ਬਣਾਉਣ ਅਤੇ ਉਪਦੇਸ਼ ਲਈ ਟੂਲ"
+
+#: kitsune/sumo/db_strings.py:75
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Android (ESR)"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:76
+msgctxt "DB: products.Product.description"
+msgid "Older version of Firefox for Android (no longer supported)"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:80
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Windows 8 Touch"
+msgstr "Windows 8 ਟੱਚ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:81
+msgctxt "DB: products.Product.description"
+msgid "Firefox for Windows 8 touch devices"
+msgstr "Windows 8 ਚ ਜੰਤਰਾ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:82
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox Lockwise"
+msgstr "ਫਾਇਰਫੌਕਸ ਰੌਕੇਟ"
+
+#: kitsune/sumo/db_strings.py:83
+msgctxt "DB: products.Product.description"
+msgid "Mobile app that gives you access to passwords you've saved to Firefox."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:87
+msgctxt "DB: products.Product.title"
+msgid "Pocket"
+msgstr "ਪਾਕੇਟ"
+
+#: kitsune/sumo/db_strings.py:88
+msgctxt "DB: products.Product.description"
+msgid "Discover and save stories for later"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:89
+msgctxt "DB: products.Product.title"
+msgid "Privacy and Security"
+msgstr "ਪਰਦੇਦਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ"
+
+#: kitsune/sumo/db_strings.py:90
+msgctxt "DB: products.Product.description"
+msgid "Learn more about Mozilla's privacy and security practices."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:94
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox ScreenshotGo"
+msgstr "ਫਾਇਰਫਾਕਸ ਕਰੈਸ"
+
+#: kitsune/sumo/db_strings.py:95
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "Screenshot app for mobile"
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:96
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox Send"
+msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ"
+
+#: kitsune/sumo/db_strings.py:97
+msgctxt "DB: products.Product.description"
+msgid "An app for sending files to anyone."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:98
+msgctxt "DB: products.Product.title"
+msgid "Firefox Klar"
+msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਰ"
+
+#: kitsune/sumo/db_strings.py:99
+msgctxt "DB: products.Product.description"
+msgid "Was ist Firefox Klar?"
+msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਰ ਕੀ ਹੈ?"
+
+#: kitsune/sumo/db_strings.py:100
+msgctxt "DB: products.Product.title"
+msgid "Hubs"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:101
+msgctxt "DB: products.Product.description"
+msgid "Social virtual reality for headsets and browsers"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:104
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Amazon Devices"
+msgstr "ਐਮੇਜ਼ੋਨ ਫਾਇਰ TV ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:105
+msgctxt "DB: products.Product.description"
+msgid "Browser for Amazon devices"
+msgstr "ਐਮੇਜ਼ਾਨ ਡਿਵਾਈਸ ਲਈ ਬਰਾਊਜ਼ਰ"
+
+#: kitsune/sumo/db_strings.py:106
+msgctxt "DB: products.Product.title"
+msgid "Thunderbird"
+msgstr "ਥੰਡਰਬਰਡ"
+
+#: kitsune/sumo/db_strings.py:107
+msgctxt "DB: products.Product.description"
+msgid "Email software for Windows, Mac and Linux"
+msgstr "ਵਿੰਡੋਜ਼, ਮੈਕ, ਅਤੇ ਲੀਨਕਸ ਲਈ ਈਮੇਲ ਸਾਫਟਵੇਅਰ"
+
+#: kitsune/sumo/db_strings.py:108
+msgctxt "DB: products.Product.title"
+msgid "Firefox Focus"
+msgstr "ਫਾਇਰਫੌਕਸ ਫੋਕਸ"
+
+#: kitsune/sumo/db_strings.py:109
+msgctxt "DB: products.Product.description"
+msgid "Automatic privacy browser and content blocker"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:110
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Fire TV"
+msgstr "ਫਾਇਰ ਟੀਵੀ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:111
+msgctxt "DB: products.Product.description"
+msgid "Browser for Amazon Fire TV"
+msgstr "ਐਮੇਜ਼ਾਨ ਫਾਇਰ ਟੀਵੀ ਲਈ ਬਰਾਊਜ਼ਰ"
+
+#: kitsune/sumo/db_strings.py:112 kitsune/sumo/db_strings.py:349
+msgctxt "DB: products.Topic.title"
+msgid "Learn the Basics: get started"
+msgstr "ਬੇਸਿਕ ਸਿੱਖੋ: ਸ਼ੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:113
+msgctxt "DB: products.Topic.description"
+msgid "Learn all you need to know to get started with Firefox."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:116 kitsune/sumo/db_strings.py:421
+msgctxt "DB: products.Topic.title"
+msgid "Bookmarks and tabs"
+msgstr "ਵਰਕਾ ਨਿਸ਼ਾਨੀਆਂ ਅਤੇ ਪੱਲ੍ਹੇ"
+
+#: kitsune/sumo/db_strings.py:117
+msgctxt "DB: products.Topic.description"
+msgid "Access and organize your favorite webpages easily with bookmarks and tabs"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:121 kitsune/sumo/db_strings.py:301 kitsune/sumo/db_strings.py:410
+msgctxt "DB: products.Topic.title"
+msgid "Basic browsing"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:122 kitsune/sumo/db_strings.py:302
+msgctxt "DB: products.Topic.description"
+msgid "Search and navigate easily with these essential features"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:126
+msgctxt "DB: products.Topic.title"
+msgid "Import settings from other browsers"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:127
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to import or export your information between Firefox and another browser"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:131
+msgctxt "DB: products.Topic.title"
+msgid "Video, audio and interactive settings"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:132
+msgctxt "DB: products.Topic.description"
+msgid "Change how Firefox handles videos, animations, music and other interactive content"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:136
+msgctxt "DB: products.Topic.title"
+msgid "How to use Firefox"
+msgstr "ਫਾਇਰਫੌਕਸ ਨੂੰ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
+
+#: kitsune/sumo/db_strings.py:137
+msgctxt "DB: products.Topic.description"
+msgid "How to browse, search and customize your settings"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:138 kitsune/sumo/db_strings.py:354 kitsune/sumo/db_strings.py:809
+msgctxt "DB: products.Topic.title"
+msgid "Download, install and migration"
+msgstr "ਡਾਊਨਲੋਡ, ਇੰਸਟਾਲ ਅਤੇ ਮਾਈਗਰੇਸ਼ਨ"
+
+#: kitsune/sumo/db_strings.py:139
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to download Firefox on your desktop devices or move information to and from other browsers."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:143 kitsune/sumo/db_strings.py:359 kitsune/sumo/db_strings.py:771
+msgctxt "DB: products.Topic.title"
+msgid "Tips and tricks"
+msgstr "ਟਿੱਪਸ ਅਤੇ ਟਰਿਕਸ"
+
+#: kitsune/sumo/db_strings.py:144
+msgctxt "DB: products.Topic.description"
+msgid "Go beyond the basics with these shortcuts and other tips."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:148 kitsune/sumo/db_strings.py:155 kitsune/sumo/db_strings.py:312 kitsune/sumo/db_strings.py:463
+msgctxt "DB: products.Topic.title"
+msgid "Install and update"
+msgstr "ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਨਵਿਆਉ"
+
+#: kitsune/sumo/db_strings.py:149
+msgctxt "DB: products.Topic.description"
+msgid "How to install Firefox and keep it up to date"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:150
+msgctxt "DB: products.Topic.title"
+msgid "Display and appearance"
+msgstr "ਪਰਦਰਸ਼ਨੀ ਅਤੇ ਵਿਖਾਲਾ"
+
+#: kitsune/sumo/db_strings.py:151
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to change your toolbar, font sizes and browser colors"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:156
+msgctxt "DB: products.Topic.description"
+msgid "Download or update Firefox for Windows, Mac and Linux."
+msgstr "ਵਿੰਡੋਜ਼, ਮੈਕ, ਅਤੇ ਲੀਨਕਸ ਲਈ ਫਾਇਰਫੌਕਸ ਲਾਹੋ ਤੇ ਨਵਿਆਉ।"
+
+#: kitsune/sumo/db_strings.py:159
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Sync"
+msgstr "ਫਾਇਰਫੌਕਸ ਸਿੰਕ"
+
+#: kitsune/sumo/db_strings.py:160 kitsune/sumo/db_strings.py:364
+msgctxt "DB: products.Topic.description"
+msgid "Firefox Sync settings"
+msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ ਸੈਟਿਗਾ"
+
+#: kitsune/sumo/db_strings.py:161
+msgctxt "DB: products.Topic.title"
+msgid "Sync and save"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:162
+msgctxt "DB: products.Topic.description"
+msgid "Sync information on all your devices"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:163 kitsune/sumo/db_strings.py:525
+msgctxt "DB: products.Topic.title"
+msgid "Manage add-ons"
+msgstr "ਐਡ-ਆਨਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:164
+msgctxt "DB: products.Topic.description"
+msgid "Enhance Firefox's functionality and appearance with add-ons"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:168
+msgctxt "DB: products.Topic.title"
+msgid "Sync, share and save"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:169
+msgctxt "DB: products.Topic.description"
+msgid "Sync browsing information and content across multiple devices with Firefox Accounts."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:173
+msgctxt "DB: products.Topic.title"
+msgid "Firefox settings"
+msgstr "ਫਾਇਰਫੌਕਸ ਸੈਟਿੰਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:174
+msgctxt "DB: products.Topic.description"
+msgid "Privacy and personalization"
+msgstr "ਪਰਦੇਦਾਰੀ ਅਤੇ ਮਨਪਸੰਦ ਬਦਲਾਅ"
+
+#: kitsune/sumo/db_strings.py:175
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Hello"
+msgstr "ਫਾਇਰਫੌਕਸ ਹੈਲੋ"
+
+#: kitsune/sumo/db_strings.py:176
+msgctxt "DB: products.Topic.description"
+msgid "Have video or voice conversations using the Firefox browser"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:180
+msgctxt "DB: products.Topic.title"
+msgid "Chat and share"
+msgstr "ਗੱਲਬਾਤ ਅਤੇ ਸਾਂਝਾ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:181
+msgctxt "DB: products.Topic.description"
+msgid "Connect on video and share pages with your network"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:184 kitsune/sumo/db_strings.py:193
+msgctxt "DB: products.Topic.title"
+msgid "Personalize Firefox"
+msgstr "ਫਾਇਰਫੌਕਸ ਵਿੱਚ ਮਨਪਸੰਦ ਬਦਲਾਅ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:185
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox yours with these customization options."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:188 kitsune/sumo/db_strings.py:372 kitsune/sumo/db_strings.py:794
+msgctxt "DB: products.Topic.title"
+msgid "Customize controls, options and add-ons"
+msgstr "ਕੰਟਰੋਲ ਦੀ ਸੋਧ ਕਰੋ, ਚੋਣ ਅਤੇ ਐਡ-ਆਨ"
+
+#: kitsune/sumo/db_strings.py:189
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox yours by adding and managing the features that you want."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:194
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Change Firefox's appearance, behavior and settings."
+msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:197 kitsune/sumo/db_strings.py:367 kitsune/sumo/db_strings.py:823
+msgctxt "DB: products.Topic.title"
+msgid "Privacy and security settings"
+msgstr "ਪਰਦੇਦਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ ਵਿਵਸਥਾਵਾ"
+
+#: kitsune/sumo/db_strings.py:198
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to keep your information safe and secure with Firefox's private browsing, password features and other security settings."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:202 kitsune/sumo/db_strings.py:335
+msgctxt "DB: products.Topic.title"
+msgid "Do more with apps"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:203
+msgctxt "DB: products.Topic.description"
+msgid "Install open apps from the Marketplace to add more fun and functionality to your device"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:207 kitsune/sumo/db_strings.py:328
+msgctxt "DB: products.Topic.title"
+msgid "Protect your privacy"
+msgstr "ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ"
+
+#: kitsune/sumo/db_strings.py:208
+msgctxt "DB: products.Topic.description"
+msgid "Keep your information safe from prying eyes with the latest privacy and security features."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:212 kitsune/sumo/db_strings.py:347 kitsune/sumo/db_strings.py:567 kitsune/sumo/db_strings.py:851
+msgctxt "DB: products.Topic.title"
+msgid "Get community support"
+msgstr "ਕਮਿਉਨਿੱਟੀ ਸਹਿਯੋਗ ਲਵੋ"
+
+#: kitsune/sumo/db_strings.py:213 kitsune/sumo/db_strings.py:348 kitsune/sumo/db_strings.py:568 kitsune/sumo/db_strings.py:852
+msgctxt "DB: products.Topic.description"
+msgid "Get community support"
+msgstr "ਕੰਮਿਉਨਿਟੀ ਸਹਿਯੋਗ ਲਵੋ"
+
+#: kitsune/sumo/db_strings.py:214
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Manage preferences and add-ons"
+msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
+
+#: kitsune/sumo/db_strings.py:215
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox yours through customization settings and add-ons"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:219 kitsune/sumo/db_strings.py:560 kitsune/sumo/db_strings.py:583 kitsune/sumo/db_strings.py:717 kitsune/sumo/db_strings.py:874
+msgctxt "DB: products.Topic.title"
+msgid "Fix problems"
+msgstr "ਸਮੱਸਿਆਵਾ ਦਾ ਹੱਲ"
+
+#: kitsune/sumo/db_strings.py:220
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot slowness, crashing and error messages."
+msgstr "ਸੁਸਤੀ, ਕਰੈਸ਼ਿੰਗ, ਗਲਤੀ ਸੁਨੇਹੇ ਅਤੇ ਹੋਰ ਸਮੱਸਿਆਵਾ ਨੂੰ ਹੱਲ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:223 kitsune/sumo/db_strings.py:340 kitsune/sumo/db_strings.py:843
+msgctxt "DB: products.Topic.title"
+msgid "Fix slowness, crashing, error messages and other problems"
+msgstr "ਸੁਸਤੀ, ਕਰੈਸ਼ਿੰਗ, ਗਲਤੀ ਸੁਨੇਹੇ ਅਤੇ ਹੋਰ ਸਮੱਸਿਆਵਾ ਨੂੰ ਫਿਕਸ਼ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:226 kitsune/sumo/db_strings.py:343
+msgctxt "DB: products.Topic.description"
+msgid "Fix slowness, crashing, error messages and other problems"
+msgstr "ਸੁਸਤੀ, ਕਰੈਸ਼ਿੰਗ, ਗਲਤੀ ਸੁਨੇਹੇ ਅਤੇ ਹੋਰ ਸਮੱਸਿਆਵਾ ਨੂੰ ਫਿਕਸ਼ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:230
+msgctxt "DB: products.Topic.title"
+msgid "Advanced and experimental features"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:231
+msgctxt "DB: products.Topic.description"
+msgid "Learn tips beyond the basics and try features before they're released to the public."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:235 kitsune/sumo/db_strings.py:365
+msgctxt "DB: products.Topic.title"
+msgid "Tab basics"
+msgstr "ਟੈਬ ਬੁਨਿਆਦ"
+
+#: kitsune/sumo/db_strings.py:236 kitsune/sumo/db_strings.py:366
+msgctxt "DB: products.Topic.description"
+msgid "Tab basics"
+msgstr "ਟੈਬ ਬੁਨਿਆਦ"
+
+#: kitsune/sumo/db_strings.py:237
+msgctxt "DB: products.Topic.title"
+msgid "Firefox versions and languages"
+msgstr "ਫਾਇਰਫਾਕਸ ਵਰਜਨ ਅਤੇ ਭਾਸ਼ਾਵਾ"
+
+#: kitsune/sumo/db_strings.py:238
+msgctxt "DB: products.Topic.description"
+msgid "Firefox versions and languages"
+msgstr "ਫਾਇਰਫਾਕਸ ਵਰਜਨ ਅਤੇ ਭਾਸ਼ਾਵਾ"
+
+#: kitsune/sumo/db_strings.py:239
+msgctxt "DB: products.Topic.title"
+msgid "Copy your personal information from one browser to another"
+msgstr "ਆਪਣੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਇੱਕ ਬਰਾਊਜ਼ਰ ਤੋ ਦੂਸਰੇ ਵਿੱਚ ਕਾਪੀ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:242
+msgctxt "DB: products.Topic.description"
+msgid "Copy your personal information from one browser to another"
+msgstr "ਆਪਣੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਇੱਕ ਬਰਾਊਜ਼ਰ ਤੋ ਦੂਸਰੇ ਵਿੱਚ ਕਾਪੀ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:246
+msgctxt "DB: products.Topic.title"
+msgid "Cookies and cache"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:247
+msgctxt "DB: products.Topic.description"
+msgid "Control the information that Firefox saves"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:248
+msgctxt "DB: products.Topic.title"
+msgid "Passwords, forms, search, and history - control what Firefox suggests"
+msgstr "ਪਾਸਵਰਡ, ਫਾਰਮ, ਖੋਜ, ਅਤੇ ਇਤਿਹਾਸ - ਕੰਟਰੋਲ ਫਾਇਰਫਾਕਸ ਕੀ ਸੁਝਾਅ ਦਿੰਦਾ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:252
+msgctxt "DB: products.Topic.description"
+msgid "Passwords, forms, search, and history - control what Firefox suggests"
+msgstr "ਪਾਸਵਰਡ, ਫਾਰਮ, ਖੋਜ, ਅਤੇ ਇਤਿਹਾਸ - ਕੰਟਰੋਲ ਫਾਇਰਫਾਕਸ ਕੀ ਸੁਝਾਅ ਦਿੰਦਾ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:256 kitsune/sumo/db_strings.py:379
+msgctxt "DB: products.Topic.title"
+msgid "Firefox controls and buttons"
+msgstr "ਫਾਇਰਫਾਕਸ ਕੰਟਰੋਲ ਅਤੇ ਬਟਨਾ"
+
+#: kitsune/sumo/db_strings.py:257 kitsune/sumo/db_strings.py:380
+msgctxt "DB: products.Topic.description"
+msgid "Firefox controls and buttons"
+msgstr "ਫਾਇਰਫਾਕਸ ਕੰਟਰੋਲ ਅਤੇ ਬਟਨਾ"
+
+#: kitsune/sumo/db_strings.py:258 kitsune/sumo/db_strings.py:819
+msgctxt "DB: products.Topic.title"
+msgid "Tab settings"
+msgstr "ਟੈਬ ਸੈਟਿਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:259 kitsune/sumo/db_strings.py:820
+msgctxt "DB: products.Topic.description"
+msgid "Tab settings"
+msgstr "ਟੈਬ ਸੈਟਿਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:260 kitsune/sumo/db_strings.py:381
+msgctxt "DB: products.Topic.title"
+msgid "Customize Firefox with add-ons, plugins, and extensions"
+msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨ ਨਾਲ ਫਾਇਰਫਾਕਸ ਨੂੰ ਕਸਟਮਾਈਜ਼ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:261 kitsune/sumo/db_strings.py:382
+msgctxt "DB: products.Topic.description"
+msgid "Customize Firefox with add-ons, plugins, and extensions"
+msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ ਹੈ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨ ਨਾਲ ਫਾਇਰਫਾਕਸ ਨੂੰ ਕਸਟਮਾਈਜ਼ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:264
+msgctxt "DB: products.Topic.title"
+msgid "Firefox options, preferences and settings"
+msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:265
+msgctxt "DB: products.Topic.description"
+msgid "Firefox options, preferences and settings"
+msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:266
+msgctxt "DB: products.Topic.title"
+msgid "Bookmark options"
+msgstr "ਬੁੱਕਮਾਰਕ ਵਿਕਲਪ"
+
+#: kitsune/sumo/db_strings.py:267
+msgctxt "DB: products.Topic.description"
+msgid "Bookmark options"
+msgstr "ਬੁੱਕਮਾਰਕ ਵਿਕਲਪ"
+
+#: kitsune/sumo/db_strings.py:268 kitsune/sumo/db_strings.py:385
+msgctxt "DB: products.Topic.title"
+msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
+msgstr "ਵੈੱਬਸਾਈਟ ਦੇ ਨਾਲ ਸਮੱਸਿਆ ਦਾ ਹੱਲ (ਫੇਸਬੁੱਕ, ਯੂਟਿਊਬ, ਵੈਬਮੇਲ ਆਦਿ)"
+
+#: kitsune/sumo/db_strings.py:271 kitsune/sumo/db_strings.py:388
+msgctxt "DB: products.Topic.description"
+msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
+msgstr "ਵੈੱਬਸਾਈਟ ਦੇ ਨਾਲ ਸਮੱਸਿਆ ਦਾ ਹੱਲ (ਫੇਸਬੁੱਕ, ਯੂਟਿਊਬ, ਵੈਬਮੇਲ ਆਦਿ)"
+
+#: kitsune/sumo/db_strings.py:275 kitsune/sumo/db_strings.py:821
+msgctxt "DB: products.Topic.title"
+msgid "Error messages: what they mean and how to fix"
+msgstr "ਗਲਤੀ ਸੁਨੇਹੇ: ਇਹਨਾ ਦਾ ਕੀ ਮਤਲਬ ਹੈ ਅਤੇ ਕਿਵੇ ਠੀਕ ਕਰਨਾ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:276
+msgctxt "DB: products.Topic.description"
+msgid "How to troubleshoot error messages on Firefox"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:277
+msgctxt "DB: products.Topic.title"
+msgid "Unblock Firefox from connecting to the Internet"
+msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਫਾਇਰਫਾਕਸ ਨੂੰ ਅਨ-ਬਲੋਕ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:278
+msgctxt "DB: products.Topic.description"
+msgid "Unblock Firefox from connecting to the Internet"
+msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਫਾਇਰਫਾਕਸ ਨੂੰ ਅਨ-ਬਲੋਕ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:279 kitsune/sumo/db_strings.py:573 kitsune/sumo/db_strings.py:841
+msgctxt "DB: products.Topic.title"
+msgid "Procedures to diagnose and fix problems"
+msgstr "ਸਮੱਸਿਆਵਾ ਦਾ ਹੱਲ ਅਤੇ ਇਲਾਜ਼ ਕਰਨ ਲਈ ਤਰੀਕੇ"
+
+#: kitsune/sumo/db_strings.py:280 kitsune/sumo/db_strings.py:574 kitsune/sumo/db_strings.py:842
+msgctxt "DB: products.Topic.description"
+msgid "Procedures to diagnose and fix problems"
+msgstr "ਸਮੱਸਿਆਵਾ ਦਾ ਹੱਲ ਅਤੇ ਇਲਾਜ਼ ਕਰਨ ਲਈ ਤਰੀਕੇ"
+
+#: kitsune/sumo/db_strings.py:281
+msgctxt "DB: products.Topic.title"
+msgid "Videos, sound, pictures and animations don't work"
+msgstr "ਵੀਡੀਓ, ਆਵਾਜ਼, ਤਸਵੀਰਾ ਅਤੇ ਐਨੀਮੇਸ਼ਨ ਕੰਮ ਨਹੀ ਕਰਦੇ"
+
+#: kitsune/sumo/db_strings.py:282
+msgctxt "DB: products.Topic.description"
+msgid "Videos, sound, pictures and animations don't work"
+msgstr "ਵੀਡੀਓ, ਆਵਾਜ਼, ਤਸਵੀਰ ਅਤੇ ਐਨੀਮੇਸ਼ਨ ਕੰਮ ਨਹੀ ਕਰਦੇ "
+
+#: kitsune/sumo/db_strings.py:283
+msgctxt "DB: products.Topic.title"
+msgid "Firefox is slow or stops working"
+msgstr "ਫਾਇਰਫਾਕਸ ਹੋਲੀ ਹੈ ਜਾ ਕੰਮ ਕਰਨਾ ਬੰਦ ਕਰ ਰਿਹਾ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:284
+msgctxt "DB: products.Topic.description"
+msgid "Slowness or hanging"
+msgstr "ਹੋਲੀ ਜਾ ਹੈਗ ਹੋ ਰਿਹਾ"
+
+#: kitsune/sumo/db_strings.py:285 kitsune/sumo/db_strings.py:392
+msgctxt "DB: products.Topic.title"
+msgid "Firefox crashes"
+msgstr "ਫਾਇਰਫਾਕਸ ਕਰੈਸ"
+
+#: kitsune/sumo/db_strings.py:286 kitsune/sumo/db_strings.py:393
+msgctxt "DB: products.Topic.description"
+msgid "Crashing"
+msgstr "ਕਰੈਸਿ਼ਗ"
+
+#: kitsune/sumo/db_strings.py:287
+msgctxt "DB: products.Topic.title"
+msgid "Firefox won't save settings or remember information"
+msgstr "ਫਾਇਰਫਾਕਸ ਸੈਟਿੰਗਾ ਨੂੰ ਸੰਭਾਲਣ ਜਾ ਜਾਣਕਾਰੀ ਯਾਦ ਨਹੀ ਕਰੇਗਾ"
+
+#: kitsune/sumo/db_strings.py:288
+msgctxt "DB: products.Topic.description"
+msgid "Firefox won't save settings or remember information"
+msgstr "ਫਾਇਰਫਾਕਸ ਸੈਟਿੰਗਾ ਨੂੰ ਸੰਭਾਲਣ ਜਾ ਜਾਣਕਾਰੀ ਯਾਦ ਨਹੀ ਕਰੇਗਾ"
+
+#: kitsune/sumo/db_strings.py:291 kitsune/sumo/db_strings.py:857
+msgctxt "DB: products.Topic.title"
+msgid "Problems with add-ons, plugins or unwanted software"
+msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ ਜਾ ਅਣਚਾਹੇ ਸਾਫਟਵੇਅਰ ਨਾਲ ਸਮੱਸਿਆ"
+
+#: kitsune/sumo/db_strings.py:292 kitsune/sumo/db_strings.py:858
+msgctxt "DB: products.Topic.description"
+msgid "Problems with add-ons, plugins or unwanted software"
+msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ ਜ ਅਣਚਾਹੇ ਸਾਫਟਵੇਅਰ ਨਾਲ ਸਮੱਸਿਆ"
+
+#: kitsune/sumo/db_strings.py:295 kitsune/sumo/db_strings.py:394 kitsune/sumo/db_strings.py:575
+msgctxt "DB: products.Topic.title"
+msgid "Mozilla Persona"
+msgstr "ਮੋਜ਼ੀਲਾ Persona"
+
+#: kitsune/sumo/db_strings.py:296 kitsune/sumo/db_strings.py:395 kitsune/sumo/db_strings.py:576 kitsune/sumo/db_strings.py:620
+msgctxt "DB: products.Topic.description"
+msgid "Mozilla Persona"
+msgstr "ਮੋਜ਼ੀਲਾ Persona"
+
+#: kitsune/sumo/db_strings.py:297 kitsune/sumo/db_strings.py:577
+msgctxt "DB: products.Topic.title"
+msgid "Hot topics"
+msgstr "ਗਰਮ ਵਿਸ਼ੇ:"
+
+#: kitsune/sumo/db_strings.py:298 kitsune/sumo/db_strings.py:578 kitsune/sumo/db_strings.py:622
+msgctxt "DB: products.Topic.description"
+msgid "Hot topics"
+msgstr "ਗਰਮ ਵਿਸ਼ੇ:"
+
+#: kitsune/sumo/db_strings.py:299 kitsune/sumo/db_strings.py:398 kitsune/sumo/db_strings.py:745 kitsune/sumo/db_strings.py:866
+msgctxt "DB: products.Topic.title"
+msgid "Other"
+msgstr "ਹੋਰ"
+
+#: kitsune/sumo/db_strings.py:300 kitsune/sumo/db_strings.py:399 kitsune/sumo/db_strings.py:867
+msgctxt "DB: products.Topic.description"
+msgid "Other"
+msgstr "ਹੋਰ"
+
+#: kitsune/sumo/db_strings.py:306
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "How to use Firefox for Android"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:307
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to use Firefox for Android"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:308
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "What's new in Firefox for Android"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:309
+msgctxt "DB: products.Topic.description"
+msgid "See what new features are available in each release"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:313
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to install and keep Firefox for Android up to date"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:316
+msgctxt "DB: products.Topic.title"
+msgid "Save, share and sync"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:317
+msgctxt "DB: products.Topic.description"
+msgid "Save, share and synchronize content with other devices"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:320
+msgctxt "DB: products.Topic.title"
+msgid "Changing your settings"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:321
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Change Firefox's behavior."
+msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:322
+msgctxt "DB: products.Topic.title"
+msgid "Cast to your TV"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:323
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to view content on another screen"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:324
+msgctxt "DB: products.Topic.title"
+msgid "Popular articles"
+msgstr "ਮਕਬੂਲ ਲੇਖ"
+
+#: kitsune/sumo/db_strings.py:325
+msgctxt "DB: products.Topic.description"
+msgid "Popular tips and solutions for Firefox for Android"
+msgstr "ਐਂਡਰਾਈਡ ਲਈ ਫਾਇਰਫਾਕਸ ਵਾਸਤੇ ਹਰਮਨਪਿਆਰੇ ਗੁਰ ਤੇ ਹੱਲ਼"
+
+#: kitsune/sumo/db_strings.py:329
+msgctxt "DB: products.Topic.description"
+msgid "Control how your information is saved or tracked"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:330
+msgctxt "DB: products.Topic.title"
+msgid "Customize settings and preferences"
+msgstr "ਸੈਟਿੰਗਾਂ ਅਤੇ ਮਨਪਸੰਦਾਂ ਨੂੰ ਆਪਣੇ ਮੁਤਾਬਕ ਢਾਲੋ"
+
+#: kitsune/sumo/db_strings.py:331
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox for Android yours with these customization options"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:336
+msgctxt "DB: products.Topic.description"
+msgid "Learn to find and install open apps to add more fun and functionality to your device"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:350
+msgctxt "DB: products.Topic.description"
+msgid "Learn all you need to know to get Firefox for Android up and running."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:355
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to install and transfer information to Firefox for Android."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:360
+msgctxt "DB: products.Topic.description"
+msgid "Tips and tricks"
+msgstr "ਟਿੱਪਸ ਅਤੇ ਟਰਿਕਸ"
+
+#: kitsune/sumo/db_strings.py:361
+msgctxt "DB: products.Topic.title"
+msgid "Use bookmarks"
+msgstr "ਬੁੱਕਮਾਰਕਾ ਨੂੰ ਵਰਤੋ"
+
+#: kitsune/sumo/db_strings.py:362
+msgctxt "DB: products.Topic.description"
+msgid "The basics of using bookmarks"
+msgstr "ਬੁੱਕਮਾਰਕ ਵਰਤਨ ਦੀ ਬੁਨਿਆਦ"
+
+#: kitsune/sumo/db_strings.py:363
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Sync settings"
+msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ ਸੈਟਿਗਾ"
+
+#: kitsune/sumo/db_strings.py:368
+msgctxt "DB: products.Topic.description"
+msgid "Keep your information safe with Firefox for Android's privacy and security settings."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:373
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox for Android work the way you want through customization."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:377
+msgctxt "DB: products.Topic.title"
+msgid "Cookies"
+msgstr "ਕੂਕੀਜ਼"
+
+#: kitsune/sumo/db_strings.py:378
+msgctxt "DB: products.Topic.description"
+msgid "Cookies"
+msgstr "ਕੂਕੀਜ਼"
+
+#: kitsune/sumo/db_strings.py:396 kitsune/sumo/db_strings.py:535
+msgctxt "DB: products.Topic.title"
+msgid "Marketplace"
+msgstr "ਮਾਰਕਿਟਪਲੇਸ"
+
+#: kitsune/sumo/db_strings.py:397
+msgctxt "DB: products.Topic.description"
+msgid "Firefox Marketplace"
+msgstr "ਫਾਇਰਫਾਕਸ ਮਾਰਕਿਟਪਲੇਸ"
+
+#: kitsune/sumo/db_strings.py:400
+msgctxt "DB: products.Topic.title"
+msgid "Install and Update"
+msgstr "ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਨਵਿਆਉ"
+
+#: kitsune/sumo/db_strings.py:401
+msgctxt "DB: products.Topic.description"
+msgid "Install and keep Firefox up to date on your iPad, iPhone or iPod Touch."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:405
+msgctxt "DB: products.Topic.title"
+msgid "Reader View and List"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:406
+msgctxt "DB: products.Topic.description"
+msgid "Read and save web pages in a clutter-free, reader-friendly view"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:411
+msgctxt "DB: products.Topic.description"
+msgid "How to use bookmarks, tabs and basic Firefox features on your iOS device"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:415
+msgctxt "DB: products.Topic.title"
+msgid "History"
+msgstr "ਅਤੀਤ"
+
+#: kitsune/sumo/db_strings.py:416
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Change your history settings on Firefox for iOS"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਯੰਤਰ ਉੱਤੇ ਆਪਣੀ ਸਕਰੀਨ ਮਨਪਸੰਦ ਮੁਤਾਬਕ ਢਾਲੋ।"
+
+#: kitsune/sumo/db_strings.py:417
+msgctxt "DB: products.Topic.title"
+msgid "How to use Firefox for iOS"
+msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
+
+#: kitsune/sumo/db_strings.py:418
+msgctxt "DB: products.Topic.description"
+msgid "General usage questions"
+msgstr "ਆਮ ਵਰਤੋਂ ਸਵਾਲ"
+
+#: kitsune/sumo/db_strings.py:419
+msgctxt "DB: products.Topic.title"
+msgid "What's new in Firefox for iOS"
+msgstr "iOS ਲਈ ਫਾਇਰਫਾਕਸ 'ਚ ਨਵਾਂ ਕੀ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:420
+msgctxt "DB: products.Topic.description"
+msgid "See what features are available in each release."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:422
+msgctxt "DB: products.Topic.description"
+msgid "Access websites easily with bookmarks and tab features"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:425
+msgctxt "DB: products.Topic.title"
+msgid "Search"
+msgstr "ਖੋਜ"
+
+#: kitsune/sumo/db_strings.py:426
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Customize your search settings in Firefox for iOS"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਯੰਤਰ ਉੱਤੇ ਆਪਣੀ ਸਕਰੀਨ ਮਨਪਸੰਦ ਮੁਤਾਬਕ ਢਾਲੋ।"
+
+#: kitsune/sumo/db_strings.py:427
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Firefox for iOS is not working as expected"
+msgstr "ਉਮੀਦ ਮੁਤਾਬਕ ਕੰਮ ਨਹੀ ਕੀਤਾ"
+
+#: kitsune/sumo/db_strings.py:428
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot problems with Firefox for iOS."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:429
+msgctxt "DB: products.Topic.title"
+msgid "Privacy"
+msgstr "ਪਰਦੇਦਾਰੀ"
+
+#: kitsune/sumo/db_strings.py:430
+msgctxt "DB: products.Topic.description"
+msgid "Protect your information with Firefox's privacy settings on iOS"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:434
+msgctxt "DB: products.Topic.title"
+msgid "Sync, save and share"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:435
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Share web pages on Firefox for iOS"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:436
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Customize preferences"
+msgstr "ਕੰਟਰੋਲ, ਚੋਣ, ਵਿਵਸਥਾ ਅਤੇ ਪਸੰਦ ਨੂੰ ਤਬਦੀਲ"
+
+#: kitsune/sumo/db_strings.py:437
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Customize preferences for Firefox for iOS"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਯੰਤਰ ਉੱਤੇ ਆਪਣੀ ਸਕਰੀਨ ਮਨਪਸੰਦ ਮੁਤਾਬਕ ਢਾਲੋ।"
+
+#: kitsune/sumo/db_strings.py:438
+msgctxt "DB: products.Topic.title"
+msgid "Crashes, errors and other issues"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:439
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot error message on Firefox for iOS"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:440 kitsune/sumo/db_strings.py:467 kitsune/sumo/db_strings.py:579 kitsune/sumo/db_strings.py:590 kitsune/sumo/db_strings.py:747 kitsune/sumo/db_strings.py:870
+msgctxt "DB: products.Topic.title"
+msgid "Get started"
+msgstr "ਸੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:441
+msgctxt "DB: products.Topic.description"
+msgid "Firefox OS basics"
+msgstr "ਫਾਇਰਫਾਕਸ OS ਬੇਸਿਕਸ"
+
+#: kitsune/sumo/db_strings.py:442
+msgctxt "DB: products.Topic.title"
+msgid "Basic Features"
+msgstr "ਮੁੱਢਲੇ ਫੀਚਰ"
+
+#: kitsune/sumo/db_strings.py:443
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Learn the basic functionality for your Firefox OS phone. "
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਲਈ ਮੁੱਢਲੇ ਕੰਮਾਂ ਬਾਰੇ ਸਿੱਖੋ।"
+
+#: kitsune/sumo/db_strings.py:447
+msgctxt "DB: products.Topic.title"
+msgid "Download and Manage Apps"
+msgstr "ਐਪ ਡਾਊਨਲੋਡ ਤੇ ਪਰਬੰਧ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:448
+msgctxt "DB: products.Topic.description"
+msgid "Download apps from the Marketplace"
+msgstr "ਮੰਡੀ ਤੋਂ ਐਪ ਡਾਊਨਲੋਡ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:449
+msgctxt "DB: products.Topic.title"
+msgid "Date and Time"
+msgstr "ਮਿਤੀ ਤੇ ਸਮਾਂ"
+
+#: kitsune/sumo/db_strings.py:450
+msgctxt "DB: products.Topic.description"
+msgid "Setting a date and time on your Firefox OS phone"
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਉੱਤੇ ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈੱਟ ਕਰਨਾ"
+
+#: kitsune/sumo/db_strings.py:451
+msgctxt "DB: products.Topic.title"
+msgid "Display"
+msgstr "ਡਿਸਪਲੇਅ"
+
+#: kitsune/sumo/db_strings.py:452
+msgctxt "DB: products.Topic.description"
+msgid "Customize your screen on your Firefox OS device."
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਯੰਤਰ ਉੱਤੇ ਆਪਣੀ ਸਕਰੀਨ ਮਨਪਸੰਦ ਮੁਤਾਬਕ ਢਾਲੋ।"
+
+#: kitsune/sumo/db_strings.py:453
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Release notes"
+msgstr "ਰੀਲਿਜ਼ ਨੋਟਿਸ"
+
+#: kitsune/sumo/db_strings.py:454
+msgctxt "DB: products.Topic.description"
+msgid "Where to find release notes and upcoming features."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:457
+msgctxt "DB: products.Topic.title"
+msgid "Windows"
+msgstr "ਵਿੰਡੋਜ਼"
+
+#: kitsune/sumo/db_strings.py:458
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Deploying Firefox on Windows computers."
+msgstr "Windows 8 ਟੱਚ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:459
+msgctxt "DB: products.Topic.title"
+msgid "Manage certificates"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:460
+msgctxt "DB: products.Topic.description"
+msgid "Set up certificates on Firefox for your organization."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:464
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Download and install the mobile app on your device."
+msgstr "ਐਪਸ ਡਾਊਨਲੋਡ ਕਰੋ ਅਤੇ ਇੰਸਟਾਲ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:468
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Learn the basics"
+msgstr "ਬੇਸਿਕ ਸਿੱਖੋ: ਸ਼ੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:469
+msgctxt "DB: products.Topic.title"
+msgid "Calling and Contacts"
+msgstr "ਜਾਣੋ ਕਿ ਸੰਪਰਕ ਕਿਵੇਂ ਜੋੜੀਏ ਤੇ ਪਰਬੰਧ ਕਰੀਏ, ਇਸ ਦੇ ਨਾਲ ਹੀ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਉੱਤੇ ਸਿੱਧੀ ਕਾਲ ਜਾਂ ਕਨਫਰੰਸ ਕਾਲ ਕਰਨ ਬਾਰੇ ਵੀ ਸਿੱਖੋ।"
+
+#: kitsune/sumo/db_strings.py:470
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to add and manage contacts, as well as make one-to-one or conference calls on your Firefox OS phone."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:474
+msgctxt "DB: products.Topic.title"
+msgid "Customization of Firefox in an enterprise environment"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:475
+msgctxt "DB: products.Topic.description"
+msgid "Customization of Firefox in an enterprise environment"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:478
+msgctxt "DB: products.Topic.title"
+msgid "Installation"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ"
+
+#: kitsune/sumo/db_strings.py:479
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to install Firefox for Enterprise"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:480
+msgctxt "DB: products.Topic.title"
+msgid "Explore"
+msgstr "ਪੜਚੋਲ"
+
+#: kitsune/sumo/db_strings.py:481
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Learn about Firefox for Enterprise"
+msgstr "ਐਂਟਰਪਰਾਈਜ਼ ਲਈ ਫਾਇਰਫੌਕਸ"
+
+#: kitsune/sumo/db_strings.py:482
+msgctxt "DB: products.Topic.title"
+msgid "Mac"
+msgstr "ਮੈਕ"
+
+#: kitsune/sumo/db_strings.py:483
+msgctxt "DB: products.Topic.description"
+msgid "Deploy Firefox on your organization's Mac computers"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:486
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Policies overview"
+msgstr "ਨੀਤੀਆਂ"
+
+#: kitsune/sumo/db_strings.py:487
+msgctxt "DB: products.Topic.description"
+msgid "How to set up policies on Firefox for your organization."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:491
+msgctxt "DB: products.Topic.title"
+msgid "Browsing"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:492
+msgctxt "DB: products.Topic.description"
+msgid "Surf and navigate the Web on Firefox Preview"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:493
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "How do I use Firefox Preview?"
+msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
+
+#: kitsune/sumo/db_strings.py:494
+msgctxt "DB: products.Topic.description"
+msgid "Get help with using features in Firefox Preview."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:495
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Manage account"
+msgstr "ਐਡ-ਆਨਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:496
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to change your account settings"
+msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
+
+#: kitsune/sumo/db_strings.py:497
+msgctxt "DB: products.Topic.title"
+msgid "Email and Messages"
+msgstr "ਈਮੇਲ ਅਤੇ ਸੁਨੇਹੇ"
+
+#: kitsune/sumo/db_strings.py:498
+msgctxt "DB: products.Topic.description"
+msgid "Keep in touch with your contacts through email and messaging."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:502
+msgctxt "DB: products.Topic.title"
+msgid "Deploy"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:503
+msgctxt "DB: products.Topic.description"
+msgid "Deployment of Firefox in an enterprise environment"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:506
+msgctxt "DB: products.Topic.title"
+msgid "Manage updates, policies & customization"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:507
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Policies for Firefox for Enterprise"
+msgstr "ਐਂਟਰਪਰਾਈਜ਼ ਲਈ ਫਾਇਰਫੌਕਸ"
+
+#: kitsune/sumo/db_strings.py:508
+msgctxt "DB: products.Topic.title"
+msgid "Autoconfiguration"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:509
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to configure Firefox for Enterprise"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:510
+msgctxt "DB: products.Topic.title"
+msgid "Linux"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:511
+msgctxt "DB: products.Topic.description"
+msgid "Deploy Firefox on your organization's Linux machines."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:514
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Manage settings via policy"
+msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
+
+#: kitsune/sumo/db_strings.py:515
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Change Firefox's settings using policies."
+msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:516
+msgctxt "DB: products.Topic.title"
+msgid "Library"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:517
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Manage bookmarks and history"
+msgstr "ਵਰਕਾ ਨਿਸ਼ਾਨੀਆਂ ਅਤੇ ਪੱਲ੍ਹੇ"
+
+#: kitsune/sumo/db_strings.py:518
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Services and Subscriptions"
+msgstr "ਵਿਵਰਨ ਸੰਭਾਲੋ"
+
+#: kitsune/sumo/db_strings.py:519
+msgctxt "DB: products.Topic.description"
+msgid "Free and premium privacy offerings"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:520
+msgctxt "DB: products.Topic.title"
+msgid "Music, Photos and Video"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:521
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Take pictures, record videos and listen to music on your Firefox OS phone."
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਉੱਤੇ ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈੱਟ ਕਰਨਾ"
+
+#: kitsune/sumo/db_strings.py:526
+msgctxt "DB: products.Topic.description"
+msgid "Working with add-ons on Firefox for your organization."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:529
+msgctxt "DB: products.Topic.title"
+msgid "Sync"
+msgstr "ਸਿੰਕ"
+
+#: kitsune/sumo/db_strings.py:530
+msgctxt "DB: products.Topic.description"
+msgid "Sync your browsing information across other devices."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:533
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Troubleshoot"
+msgstr "ਸਮੱਸਿਆ ਨਿਵਾਰਨ"
+
+#: kitsune/sumo/db_strings.py:534
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Fix problems with Firefox Accounts"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:536
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to download, manage and use your favorite apps on your Firefox OS phone."
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਉੱਤੇ ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈੱਟ ਕਰਨਾ"
+
+#: kitsune/sumo/db_strings.py:540 kitsune/sumo/db_strings.py:545
+msgctxt "DB: products.Topic.title"
+msgid "Privacy and security"
+msgstr "ਪਰਦੇਦਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ"
+
+#: kitsune/sumo/db_strings.py:541
+msgctxt "DB: products.Topic.description"
+msgid "Keep your information safe with Firefox OS locks, privacy features and more."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:546
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Protect your privacy on Firefox Preview."
+msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
+
+#: kitsune/sumo/db_strings.py:547 kitsune/sumo/db_strings.py:735
+msgctxt "DB: products.Topic.title"
+msgid "Settings"
+msgstr "ਸੈਟਿੰਗਾ"
+
+#: kitsune/sumo/db_strings.py:548
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to configure the Internet connection, display and time on your Firefox OS device."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:552
+msgctxt "DB: products.Topic.title"
+msgid "Internet and Connections"
+msgstr "ਇੰਟਰਨੈਟ ਅਤੇ ਕਨੈਕਸ਼ਨ"
+
+#: kitsune/sumo/db_strings.py:553
+msgctxt "DB: products.Topic.description"
+msgid "Learn more about Wi-Fi, Bluetooth and NFC connections."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:556
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Settings and preferences"
+msgstr "ਸੈਟਿੰਗਾਂ ਅਤੇ ਮਨਪਸੰਦਾਂ ਨੂੰ ਆਪਣੇ ਮੁਤਾਬਕ ਢਾਲੋ"
+
+#: kitsune/sumo/db_strings.py:557
+msgctxt "DB: products.Topic.description"
+msgid "Manage themes and search settings"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:558
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Fix problems with Firefox Preview"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:559
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot issues with Firefox Preview"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:561
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to troubleshoot issues on your Firefox OS phone."
+msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਲਈ ਮੁੱਢਲੇ ਕੰਮਾਂ ਬਾਰੇ ਸਿੱਖੋ।"
+
+#: kitsune/sumo/db_strings.py:565
+msgctxt "DB: products.Topic.title"
+msgid "Advanced Settings"
+msgstr "ਤਕਨੀਕੀ ਸੈਟਿੰਗਾਂ"
+
+#: kitsune/sumo/db_strings.py:566
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Do more with Firefox Preview"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:569
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "View all Firefox OS articles"
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:570
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "View a list of all Firefox OS articles"
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:571
+msgctxt "DB: products.Topic.title"
+msgid "Working with messages"
+msgstr "ਸੁਨੇਹੇ ਦੇ ਨਾਲ ਕੰਮ ਕਰਨਾ"
+
+#: kitsune/sumo/db_strings.py:572
+msgctxt "DB: products.Topic.description"
+msgid "Firefox OS SMS & email"
+msgstr "ਫਾਇਰਫਾਕਸ OS ਐਸਐਮਐਸ ਅਤੇ ਈਮੇਲ"
+
+#: kitsune/sumo/db_strings.py:580
+msgctxt "DB: products.Topic.description"
+msgid "Everything you need to know to use Firefox Lite."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:581
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Preferences"
+msgstr "ਫ਼ਰਕ"
+
+#: kitsune/sumo/db_strings.py:582
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Customize Firefox Lite to your desired settings"
+msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ ਹੈ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨ ਨਾਲ ਫਾਇਰਫਾਕਸ ਨੂੰ ਕਸਟਮਾਈਜ਼ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:584
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot problems with Firefox Lite."
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:585
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "General contribution"
+msgstr "ਮੇਰਾ ਯੋਗਦਾਨ"
+
+#: kitsune/sumo/db_strings.py:586
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the contribution in general"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:591
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to use Firefox Reality"
+msgstr "ਫਾਇਰਫੌਕਸ ਨੂੰ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
+
+#: kitsune/sumo/db_strings.py:592
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Forum Support"
+msgstr "ਸਹਿਯੋਗ"
+
+#: kitsune/sumo/db_strings.py:593
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the Forum Support contribution"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:597
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Social Support"
+msgstr "ਮੋਬਾਇਲ ਸਹਿਯੋਗ"
+
+#: kitsune/sumo/db_strings.py:598
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the Social Support Program"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:602
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Localization"
+msgstr "ਸਥਾਨੀਕਰਨ"
+
+#: kitsune/sumo/db_strings.py:603
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the Localization contribution"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:607
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "KB Contribution"
+msgstr "ਯੋਗਦਾਨੀਆਂ "
+
+#: kitsune/sumo/db_strings.py:608
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the KB articles contribution"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:612
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Respond tool"
+msgstr "ਜਵਾਬ"
+
+#: kitsune/sumo/db_strings.py:613
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the Respond Tool contribution"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:617 kitsune/sumo/db_strings.py:629 kitsune/sumo/db_strings.py:668
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Troubleshooting"
+msgstr "ਸਮੱਸਿਆ ਨਿਵਾਰਨ"
+
+#: kitsune/sumo/db_strings.py:618
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Fix problems with Firefox Reality"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:619
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "[Obsolete] Mozilla Persona"
+msgstr "ਮੋਜ਼ੀਲਾ Persona"
+
+#: kitsune/sumo/db_strings.py:621
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "[Obsolete] Hot topics"
+msgstr "ਗਰਮ ਵਿਸ਼ੇ:"
+
+#: kitsune/sumo/db_strings.py:623 kitsune/sumo/db_strings.py:640
+msgctxt "DB: products.Topic.title"
+msgid "Technical"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:624
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Find solutions for how to use the Mozilla VPN."
+msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
+
+#: kitsune/sumo/db_strings.py:625 kitsune/sumo/db_strings.py:652
+msgctxt "DB: products.Topic.title"
+msgid "Accounts"
+msgstr "ਖਾਤੇ"
+
+#: kitsune/sumo/db_strings.py:626
+msgctxt "DB: products.Topic.description"
+msgid "Find solutions on managing your account"
+msgstr "ਆਪਣੇ ਖਾਤੇ ਦੇ ਪ੍ਰਬੰਧਨ ਬਾਰੇ ਹੱਲ ਲੱਭੋ"
+
+#: kitsune/sumo/db_strings.py:627 kitsune/sumo/db_strings.py:660
+msgctxt "DB: products.Topic.title"
+msgid "Payments"
+msgstr "ਭੁਗਤਾਨ"
+
+#: kitsune/sumo/db_strings.py:628 kitsune/sumo/db_strings.py:661
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Manage your payment and subscription"
+msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
+
+#: kitsune/sumo/db_strings.py:630
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Fix problems with Firefox Private Network VPN"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:631
+msgctxt "DB: products.Topic.title"
+msgid "Popcorn Maker"
+msgstr "ਪੋਪਕੋਰਨ ਬਣਾਉਣ ਵਾਲਾ"
+
+#: kitsune/sumo/db_strings.py:632
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to remix web video, audio and images into mashups that you can embed on other websites. "
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:636
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Webmaker for Android"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:637
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Get help with the Webmaker app for Android."
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:638
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Intro to Open Badges"
+msgstr "ਓਪਨ ਬਿੱਲੇ"
+
+#: kitsune/sumo/db_strings.py:639
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Learn the basic about Open Badges"
+msgstr "ਬੈਸਿਕ ਸਿੱਖੋ। ਸ਼ੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:641
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Find solutions for how to use the Firefox Private Network add-on."
+msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
+
+#: kitsune/sumo/db_strings.py:645
+msgctxt "DB: products.Topic.title"
+msgid "Thimble"
+msgstr "ਨੋਕ"
+
+#: kitsune/sumo/db_strings.py:646
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to create and share your own webpages quickly and easily."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:650
+msgctxt "DB: products.Topic.title"
+msgid "BadgeKit"
+msgstr "BadgeKit"
+
+#: kitsune/sumo/db_strings.py:651
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to create, assess and issue badges"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:653
+msgctxt "DB: products.Topic.description"
+msgid "Change account and settings for Private Network."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:654
+msgctxt "DB: products.Topic.title"
+msgid "X-Ray Goggles"
+msgstr "ਐਕਸ-ਰੇ ਗੂਗਲਸ"
+
+#: kitsune/sumo/db_strings.py:655
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to inspect the code behind every webpage."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:658
+msgctxt "DB: products.Topic.title"
+msgid "Get Involved"
+msgstr "ਸਾਥ ਦਿਓ"
+
+#: kitsune/sumo/db_strings.py:659
+msgctxt "DB: products.Topic.description"
+msgid "Help the Open Badges community"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:662
+msgctxt "DB: products.Topic.title"
+msgid "Get the most from webmaker.org"
+msgstr "Webmaker.org ਤੋ ਜਿਆਦਾ ਲਵੋ"
+
+#: kitsune/sumo/db_strings.py:663
+msgctxt "DB: products.Topic.description"
+msgid "Help or get help on a Webmaker project."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:664
+msgctxt "DB: products.Topic.title"
+msgid "Earn Badges"
+msgstr "ਬਿੱਲੇ ਕਮਾਓ"
+
+#: kitsune/sumo/db_strings.py:665
+msgctxt "DB: products.Topic.description"
+msgid "Earn Badges for the skills you learn online and offline"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:669
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot issues for Private Network"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:670
+msgctxt "DB: products.Topic.title"
+msgid "Events and help for Mentors"
+msgstr "ਮੇਨਟਰ ਲਈ ਸਮਾਗਮ ਅਤੇ ਮਦਦ"
+
+#: kitsune/sumo/db_strings.py:671
+msgctxt "DB: products.Topic.description"
+msgid "Help teach digital skills and share creative ways of teaching technology."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:675
+msgctxt "DB: products.Topic.title"
+msgid "Issue Badges"
+msgstr "ਇਸ਼ੂ ਬਿੱਲੇ"
+
+#: kitsune/sumo/db_strings.py:676
+msgctxt "DB: products.Topic.description"
+msgid "Issue digital badges to acknowledge new skills and achievements"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:680
+msgctxt "DB: products.Topic.title"
+msgid "Display Badges"
+msgstr "ਡਿਸਪਲੇਅ ਬਿੱਲੇ"
+
+#: kitsune/sumo/db_strings.py:681
+msgctxt "DB: products.Topic.description"
+msgid "Display your digital badges on your social networks, job sites and your own website."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:685
+msgctxt "DB: products.Topic.title"
+msgid "Knowledge Base"
+msgstr "ਨਾਲੇਜ ਬੇਸ"
+
+#: kitsune/sumo/db_strings.py:686
+msgctxt "DB: products.Topic.description"
+msgid "Windows 8 Touch support articles"
+msgstr "ਵਿੰਡੋ 8 ਟੱਚ ਸਹਿਯੋਗ ਲੇਖ"
+
+#: kitsune/sumo/db_strings.py:687
+msgctxt "DB: products.Topic.title"
+msgid "Pocket Basics"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:688
+msgctxt "DB: products.Topic.description"
+msgid "New to Pocket? Start here."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:689
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Install and set up"
+msgstr "ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਨਵਿਆਉ"
+
+#: kitsune/sumo/db_strings.py:690
+msgctxt "DB: products.Topic.description"
+msgid "Sync your logins across Firefox and your apps."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:691
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Older versions of Firefox for Android"
+msgstr "ਐਂਡਰਾਈਡ ਲਈ ਫਾਇਰਫਾਕਸ ਵਾਸਤੇ ਹਰਮਨਪਿਆਰੇ ਗੁਰ ਤੇ ਹੱਲ਼"
+
+#: kitsune/sumo/db_strings.py:692
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "See articles for an unsupported version of Firefox for Android."
+msgstr "ਐਂਡਰਾਈਡ ਲਈ ਫਾਇਰਫਾਕਸ ਵਾਸਤੇ ਹਰਮਨਪਿਆਰੇ ਗੁਰ ਤੇ ਹੱਲ਼"
+
+#: kitsune/sumo/db_strings.py:696
+msgctxt "DB: products.Topic.title"
+msgid "About Data Sharing"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:697
+msgctxt "DB: products.Topic.description"
+msgid ""
+"In order to process or provide our products and services to you, we share your information with the following business partners. These entities are contractually obligated to handle the data in "
+"ways that are approved by Mozilla."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:701
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Pocket for Mobile"
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:702
+msgctxt "DB: products.Topic.description"
+msgid "How to use Pocket on your iPhone, iPad, Android or Kobo."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:706
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Manage settings and logins"
+msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
+
+#: kitsune/sumo/db_strings.py:707
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Setting up your device to work with Firefox Lockwise"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:710
+msgctxt "DB: products.Topic.title"
+msgid "Managing Your Data"
+msgstr "ਤੁਹਾਡੇ ਡਾਟੇ ਦਾ ਪ੍ਰਬੰਧਨ"
+
+#: kitsune/sumo/db_strings.py:711
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to manage your data (including deleting) for specific products or services."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:715
+msgctxt "DB: products.Topic.title"
+msgid "Pocket for your Computer"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:716
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Using Pocket on the Web."
+msgstr "Popcorn ਬਣਾਉਣ ਦਾ ਇਸਤੇਮਾਲ ਕਰਕੇ"
+
+#: kitsune/sumo/db_strings.py:718
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot issues with Firefox Lockwise"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:719
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Sensible Settings"
+msgstr "ਸੈਟਿਗਾ ਸੋਧ"
+
+#: kitsune/sumo/db_strings.py:720
+msgctxt "DB: products.Topic.description"
+msgid "Give our users actionable and informed choices by informing and educating at the point of collection and providing a choice to opt-out whenever possible. "
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:724
+msgctxt "DB: products.Topic.title"
+msgid "Advanced"
+msgstr "ਤਕਨੀਕੀ"
+
+#: kitsune/sumo/db_strings.py:725
+msgctxt "DB: products.Topic.description"
+msgid "Information for Developers and Beta users."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:726
+msgctxt "DB: products.Topic.title"
+msgid "Defense in Depth"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:727
+msgctxt "DB: products.Topic.description"
+msgid "Make privacy a key factor in selecting and interacting with partners. "
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:731
+msgctxt "DB: products.Topic.title"
+msgid "How does it work?"
+msgstr "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ?"
+
+#: kitsune/sumo/db_strings.py:732
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Basics to get started with Firefox for Windows 8 Touch."
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:736
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to configure and customize Firefox for Windows 8 Touch."
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:740
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Problems with websites"
+msgstr "ਫਾਇਰਫਾਕਸ ਸਹਿਯੋਗ ਮੁੱਖ ਸਫ਼ਾ"
+
+#: kitsune/sumo/db_strings.py:741
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Problems with websites that don't work well in Firefox for Windows 8 Touch."
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:746
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Other questions with Firefox for Windows 8 Touch."
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:748
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Learn the basics about ScreenshotGo"
+msgstr "ਬੈਸਿਕ ਸਿੱਖੋ। ਸ਼ੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:749
+msgctxt "DB: products.Topic.title"
+msgid "Get Started"
+msgstr "ਸੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:750
+msgctxt "DB: products.Topic.description"
+msgid "Klar verwenden"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:751
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Klar for iOS"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:752
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Privacy browser for iOS"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:753
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Features"
+msgstr "ਫ਼ੀਚਰ"
+
+#: kitsune/sumo/db_strings.py:754
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Getting started with Hubs"
+msgstr "ਸੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:755
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Klar for Android"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:756 kitsune/sumo/db_strings.py:873
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Privacy browser for Android"
+msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:757
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Controls"
+msgstr "ਵਰਤੋਂਕਾਰ ਕੰਟਰੋਲ"
+
+#: kitsune/sumo/db_strings.py:758
+msgctxt "DB: products.Topic.description"
+msgid "How to navigate Hubs"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:759
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Moderation"
+msgstr "ਵਿਚੋਲਾ"
+
+#: kitsune/sumo/db_strings.py:760
+msgctxt "DB: products.Topic.description"
+msgid "Tools for making Hubs a good experience for all."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:761
+msgctxt "DB: products.Topic.title"
+msgid "Spoke"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:762
+msgctxt "DB: products.Topic.description"
+msgid "Build scenes with Spoke"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:763
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Creators"
+msgstr "ਬਣਾਉਣ ਵਾਲਾ"
+
+#: kitsune/sumo/db_strings.py:764
+msgctxt "DB: products.Topic.description"
+msgid "Advanced Hubs customization for creators"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:765
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Firefox for Fire TV"
+msgstr "ਫਾਇਰਫਾਕਸ ਵਰਜਨ"
+
+#: kitsune/sumo/db_strings.py:766
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Browser for the Amazon Fire TV."
+msgstr " ਛਵੀ ਅੱਪਲੌੜ ਕਰਨ ਲਈ ਬਰਾਉਜ ਕਰੋ।"
+
+#: kitsune/sumo/db_strings.py:767
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Firefox for Echo Show"
+msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ"
+
+#: kitsune/sumo/db_strings.py:768
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Browser for the Amazon Echo Show"
+msgstr " ਛਵੀ ਅੱਪਲੌੜ ਕਰਨ ਲਈ ਬਰਾਉਜ ਕਰੋ।"
+
+#: kitsune/sumo/db_strings.py:769
+msgctxt "DB: products.Topic.title"
+msgid "Learn the Basics. Get Started"
+msgstr "ਬੇਸਿਕ ਸਿੱਖੋ। ਸ਼ੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:770
+msgctxt "DB: products.Topic.description"
+msgid "Learn the Basics. Get Started"
+msgstr "ਬੈਸਿਕ ਸਿੱਖੋ। ਸ਼ੁਰੂ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:772
+msgctxt "DB: products.Topic.description"
+msgid "Learn tips and shortcuts to help you work faster"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:773
+msgctxt "DB: products.Topic.title"
+msgid "Set up email"
+msgstr "ਈ-ਪਤਾ ਪੱਕਾ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:774
+msgctxt "DB: products.Topic.description"
+msgid "Add and configure your email accounts on Thunderbird"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:777
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Install, Migrate and Update"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਸਮੱਸਿਆਵਾ"
+
+#: kitsune/sumo/db_strings.py:778
+msgctxt "DB: products.Topic.description"
+msgid "How to install and keep Thunderbird up to date"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:779
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Read, send and organize emails"
+msgstr "ਖਾਂਤਾ ਪੁਸ਼ਟਿਕਰਣ ਈਮੇਲ ਫੇਰ ਭੇਜੋ"
+
+#: kitsune/sumo/db_strings.py:780
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to manage your email messages"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:781
+msgctxt "DB: products.Topic.title"
+msgid "Emails"
+msgstr "ਈ-ਚਿੱਠੀਆਂ"
+
+#: kitsune/sumo/db_strings.py:782
+msgctxt "DB: products.Topic.description"
+msgid "Learn to set up accounts, read, send and manage emails"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:785
+msgctxt "DB: products.Topic.title"
+msgid "News Feeds (RSS), Blogs and Social"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:786
+msgctxt "DB: products.Topic.description"
+msgid "Stay up to date with news feeds, blogs and social features"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:790
+msgctxt "DB: products.Topic.title"
+msgid "Contacts"
+msgstr "ਸੰਪਰਕ"
+
+#: kitsune/sumo/db_strings.py:791
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to use the address book on Thunderbird"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:792
+msgctxt "DB: products.Topic.title"
+msgid "Calendar"
+msgstr "ਕੈਲੰਡਰ"
+
+#: kitsune/sumo/db_strings.py:793
+msgctxt "DB: products.Topic.description"
+msgid "Related to the Lightning add-on for Calendar"
+msgstr "ਐਡ-ਆਨ ਕੈਲੰਡਰ ਲਈ ਸੰਬੰਧਿਤ ਲਾਇਟਾ"
+
+#: kitsune/sumo/db_strings.py:795
+msgctxt "DB: products.Topic.description"
+msgid "Customize controls, options and add-ons"
+msgstr "ਕੰਟਰੋਲ ਦੀ ਸੋਧ ਕਰੋ, ਚੋਣ ਅਤੇ ਐਡ-ਆਨ"
+
+#: kitsune/sumo/db_strings.py:796
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird versions and languages"
+msgstr "ਥੰਡਰਬਰਡ ਵਰਜਨ ਅਤੇ ਭਾਸ਼ਾਵਾ"
+
+#: kitsune/sumo/db_strings.py:797
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird versions and languages"
+msgstr "ਥੰਡਰਬਰਡ ਵਰਜਨ ਅਤੇ ਭਾਸ਼ਾਵਾ"
+
+#: kitsune/sumo/db_strings.py:798
+msgctxt "DB: products.Topic.title"
+msgid "Passwords, forms and search"
+msgstr "ਪਾਸਵਰਡ, ਫੋਰਮ ਅਤੇ ਖੋਜ"
+
+#: kitsune/sumo/db_strings.py:799
+msgctxt "DB: products.Topic.description"
+msgid "Passwords, forms and search"
+msgstr "ਪਾਸਵਰਡ, ਫੋਰਮ ਅਤੇ ਖੋਜ"
+
+#: kitsune/sumo/db_strings.py:800
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird controls and buttons "
+msgstr "ਥੰਡਰਬਰਡ ਕੰਟਰੋਲ ਅਤੇ ਬਟਨਾ"
+
+#: kitsune/sumo/db_strings.py:801
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Learn all about Thunderbird controls and functionality."
+msgstr "ਫਾਇਰਫਾਕਸ ਵਰਜਨ"
+
+#: kitsune/sumo/db_strings.py:804
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Fix problems with email providers (gmail, Yahoo, etc.) "
+msgstr "ਈਮੇਲ ਪਰ੍ਦਾਤਾ ਨਾਲ ਸਮੱਸਿਆ ਦਾ ਹੱਲ (ਜੀਮੇਲ, ਯਾਹੂ, ਆਦਿ)"
+
+#: kitsune/sumo/db_strings.py:805
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to fix problems with Gmail, Yahoo and other email providers"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:810
+msgctxt "DB: products.Topic.description"
+msgid "Download, install and Migration"
+msgstr "ਡਾਊਨਲੋਡ, ਇੰਸਟਾਲ ਅਤੇ ਮਾਈਗਰੇਸ਼ਨ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:811
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Copy your personal information from  one Thunderbird to another"
+msgstr "ਇੱਕ ਥੰਡਰਬਰਡ ਤੋ ਦੁਸਰੇ ਵਿੱਚ ਆਪਣੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਕਾਪੀ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:815
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Copy your personal information from  one Thunderbird to another"
+msgstr "ਇੱਕ ਥੰਡਰਬਰਡ ਤੋ ਦੁਸਰੇ ਵਿੱਚ ਆਪਣੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਕਾਪੀ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:822
+msgctxt "DB: products.Topic.description"
+msgid "Error messages: what they mean and how to fix"
+msgstr "ਗਲਤੀ ਸੁਨੇਹੇ: ਉਹਨਾ ਦਾ ਕੀ ਮਤਲਬ ਹੈ ਅਤੇ ਕਿਸ ਤਰਾ ਠੀਕ ਕਰਨਾ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:824
+msgctxt "DB: products.Topic.description"
+msgid "Keep your information safe with password and security settings"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:828
+msgctxt "DB: products.Topic.title"
+msgid "Customize Thunderbird with add-ons, plugins, and extensions"
+msgstr "ਥੰਡਰਬਰਡ ਨਾਲ ਐਡ-ਆਨ, ਪਲੱਗਇਨ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨਾ ਦੀ ਸੋਧ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:831
+msgctxt "DB: products.Topic.description"
+msgid "Customize Thunderbird with add-ons, plugins, and extensions"
+msgstr "ਥੰਡਰਬਰਡ ਨਾਲ ਐਡ-ਆਨ, ਪਲੱਗਇਨ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨਾ ਦੀ ਸੋਧ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:835
+msgctxt "DB: products.Topic.title"
+msgid "Unblock Thunderbird from connecting to the Internet"
+msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਥੰਡਰਬਰਡ ਨੂੰ ਅਨ ਬਲੋਕ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:836
+msgctxt "DB: products.Topic.description"
+msgid "Unblock Thunderbird from connecting to the Internet"
+msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਥੰਡਰਬਰਡ ਨੂੰ ਅਨ ਬਲੋਕ ਕਰੋ"
+
+#: kitsune/sumo/db_strings.py:839
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird options, preferences and settings "
+msgstr "ਥੰਡਰਬਰਡ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾ"
+
+#: kitsune/sumo/db_strings.py:840
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird options, preferences and settings "
+msgstr "ਥੰਡਰਬਰਡ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾ"
+
+#: kitsune/sumo/db_strings.py:846
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot error messages on Thunderbird."
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:847
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird is slow or stops working"
+msgstr "ਥੰਡਰਬਰਡ ਹੌਲੀ ਹੈ ਜਾ ਕੰਮ ਕਰਨ ਨੂੰ ਰੋਕਦਾ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:848
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird is slow or stops working"
+msgstr "ਥੰਡਰਬਰਡ ਹੌਲੀ ਹੈ ਜਾ ਕੰਮ ਕਰਨ ਨੂੰ ਰੋਕਦਾ ਹੈ"
+
+#: kitsune/sumo/db_strings.py:849
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird crashes"
+msgstr "ਥੰਡਰਬਰਡ ਕਰੈਸ਼"
+
+#: kitsune/sumo/db_strings.py:850
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird crashes"
+msgstr "ਥੰਡਰਬਰਡ ਕਰੈਸ਼"
+
+#: kitsune/sumo/db_strings.py:853
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird won't save settings or remember information"
+msgstr "ਥੰਡਰਬਰਡ ਸੈਟਿੰਗ ਨੂੰ ਸੰਭਾਲਣ ਜਾ ਜਾਣਕਾਰੀ ਨੂੰ ਯਾਦ ਨਹੀ ਕਰੇਗਾ"
+
+#: kitsune/sumo/db_strings.py:854
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird won't save settings or remember information"
+msgstr "ਥੰਡਰਬਰਡ ਸੈਟਿੰਗ ਨੂੰ ਸੰਭਾਲਣ ਜ ਜਾਣਕਾਰੀ ਨੂੰ ਯਾਦ ਨਹੀ ਕਰੇਗਾ"
+
+#: kitsune/sumo/db_strings.py:861
+msgctxt "DB: products.Topic.title"
+msgid "How To"
+msgstr "ਕਿਵੇਂ"
+
+#: kitsune/sumo/db_strings.py:862
+msgctxt "DB: products.Topic.description"
+msgid "Articles that tell you how you can do more with Thunderbird"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:868
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Focus for iOS"
+msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਫੋਕਸ"
+
+#: kitsune/sumo/db_strings.py:869
+msgctxt "DB: products.Topic.description"
+msgid "Firefox Focus for iOS"
+msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਫੋਕਸ"
+
+#: kitsune/sumo/db_strings.py:871
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Get Started with Firefox for Fire TV"
+msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#: kitsune/sumo/db_strings.py:872
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Focus for Android"
+msgstr "ਐਂਡਰੌਇਡ ਲਈ ਫਾਇਰਫੌਕਸ ਫੋਕਸ"
+
+#: kitsune/sumo/db_strings.py:875
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot problems with Firefox Fire TV"
+msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
+
+#: kitsune/sumo/db_strings.py:876
 msgctxt "DB: kbadge.Badge.title"
 msgid "2021 KB Badge"
 msgstr "2021 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:19
+#: kitsune/sumo/db_strings.py:877
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2021."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:23
+#: kitsune/sumo/db_strings.py:881
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 KB Badge"
 msgstr "2020 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:24
+#: kitsune/sumo/db_strings.py:882
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2020."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:28
+#: kitsune/sumo/db_strings.py:886
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 KB Badge"
 msgstr "2019 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:29
+#: kitsune/sumo/db_strings.py:887
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2019."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:33
+#: kitsune/sumo/db_strings.py:891
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 Support Forum Badge"
 msgstr "2010 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:34
+#: kitsune/sumo/db_strings.py:892
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2020."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:38
+#: kitsune/sumo/db_strings.py:896
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 Support Forum Badge"
 msgstr "2014 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:39
+#: kitsune/sumo/db_strings.py:897
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2019."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:43
+#: kitsune/sumo/db_strings.py:901
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 Army of Awesome Badge"
 msgstr "2010 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:44
+#: kitsune/sumo/db_strings.py:902
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2020."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:48
+#: kitsune/sumo/db_strings.py:906
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 Army of Awesome Badge"
 msgstr "2014 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਦਾ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:49
+#: kitsune/sumo/db_strings.py:907
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2019."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:53
+#: kitsune/sumo/db_strings.py:911
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 L10n Badge"
 msgstr "2010 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:54
+#: kitsune/sumo/db_strings.py:912
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2020."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:58
+#: kitsune/sumo/db_strings.py:916
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 L10n Badge"
 msgstr "2019 L10n ਬਿੱਲਾ"
 
-#: kitsune/sumo/db_strings.py:59
+#: kitsune/sumo/db_strings.py:917
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2019."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:63
+#: kitsune/sumo/db_strings.py:921
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 L10n Badge"
 msgstr "2018 L10n ਬਿੱਲਾ"
 
-#: kitsune/sumo/db_strings.py:64
+#: kitsune/sumo/db_strings.py:922
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2018."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:68
+#: kitsune/sumo/db_strings.py:926
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 KB Badge"
 msgstr "2018 KB ਬਿੱਲਾ"
 
-#: kitsune/sumo/db_strings.py:69
+#: kitsune/sumo/db_strings.py:927
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2018."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:73
+#: kitsune/sumo/db_strings.py:931
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 Army of Awesome Badge"
 msgstr "2018 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਦਾ ਬਿੱਲਾ"
 
-#: kitsune/sumo/db_strings.py:74
+#: kitsune/sumo/db_strings.py:932
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2018."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:78
+#: kitsune/sumo/db_strings.py:936
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 Support Forum Badge"
 msgstr "2014 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:79
+#: kitsune/sumo/db_strings.py:937
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2018."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:83
+#: kitsune/sumo/db_strings.py:941
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 L10n Badge"
 msgstr "2017 L10n ਬਿੱਲਾ"
 
-#: kitsune/sumo/db_strings.py:84
+#: kitsune/sumo/db_strings.py:942
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2017."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:88
+#: kitsune/sumo/db_strings.py:946
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 KB Badge"
 msgstr "2017 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:89
+#: kitsune/sumo/db_strings.py:947
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2017."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:93
+#: kitsune/sumo/db_strings.py:951
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 Army of Awesome Badge"
 msgstr "2014 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਦਾ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:94
+#: kitsune/sumo/db_strings.py:952
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2017."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:98
+#: kitsune/sumo/db_strings.py:956
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 Support Forum Badge"
 msgstr "2014 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:99
+#: kitsune/sumo/db_strings.py:957
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2017."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:103
+#: kitsune/sumo/db_strings.py:961
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 L10n Badge"
 msgstr "2014 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:104
+#: kitsune/sumo/db_strings.py:962
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2016."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:108
+#: kitsune/sumo/db_strings.py:966
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 Support Forum Badge"
 msgstr "2014 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:109
+#: kitsune/sumo/db_strings.py:967
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 30 support forum replies during 2016."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:113
+#: kitsune/sumo/db_strings.py:971
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 KB Badge"
 msgstr "2016 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:114
+#: kitsune/sumo/db_strings.py:972
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2016."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:118
+#: kitsune/sumo/db_strings.py:976
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 Army of Awesome Badge"
 msgstr "2014 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਦਾ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:119
+#: kitsune/sumo/db_strings.py:977
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2016."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:123
+#: kitsune/sumo/db_strings.py:981
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 Support Forum Badge"
 msgstr "2014 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:124
+#: kitsune/sumo/db_strings.py:982
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 30 support forum replies during 2015."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:128
+#: kitsune/sumo/db_strings.py:986
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 Army of Awesome Badge"
 msgstr "2014 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਦਾ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:129
+#: kitsune/sumo/db_strings.py:987
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2015."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:133
+#: kitsune/sumo/db_strings.py:991
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 KB Badge"
 msgstr "2014 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:134
+#: kitsune/sumo/db_strings.py:992
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2015."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:138
+#: kitsune/sumo/db_strings.py:996
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 L10n Badge"
 msgstr "2015 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:139
+#: kitsune/sumo/db_strings.py:997
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2015."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:143
+#: kitsune/sumo/db_strings.py:1001
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 Army of Awesome Badge"
 msgstr "2014 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਦਾ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:144
+#: kitsune/sumo/db_strings.py:1002
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -4894,13 +7269,13 @@ msgstr ""
 "The SUMO 2014 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਦਾ ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2014 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: 50 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਨੇ ਟਵੀਟ ਕੀਤਾ। SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2014 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:150
+#: kitsune/sumo/db_strings.py:1008
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 L10n Badge"
 msgstr "2014 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:151
+#: kitsune/sumo/db_strings.py:1009
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -4911,12 +7286,12 @@ msgstr ""
 "The SUMO L10n 2014 ਮਿੰਨੀ-ਬੈਜ SUMO ਦੀ ਲੜੀ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2014 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: SUMO ਨੌਲੇਜ ਬੇਸ ਦੇ 10 ਲੇਖ਼ਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ।ਸਾਰਿਆ SUMO L10n 2014 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:157
+#: kitsune/sumo/db_strings.py:1015
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 KB Badge"
 msgstr "2014 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:158
+#: kitsune/sumo/db_strings.py:1016
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -4927,13 +7302,13 @@ msgstr ""
 "The SUMO KB 2014 ਮਿੰਨੀ-ਬੈਜ SUMO ਦੀ ਲੜੀ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2014 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: 10 ਲੇਖ਼ਾ ਨੂੰ ਅੰਗਰੇਜ਼ੀ SUMO ਨੌਲੇਜ ਬੇਸ ਨੇ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ।ਸਾਰਿਆ SUMO KB 2014 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ "
 "ਅੱਗੇ ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:164
+#: kitsune/sumo/db_strings.py:1022
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 Support Forum Badge"
 msgstr "2014 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:165
+#: kitsune/sumo/db_strings.py:1023
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -4942,13 +7317,13 @@ msgid ""
 "Congrats to all SUMO Forum 2014 badge earners for advancing the Mozilla Mission!"
 msgstr "The SUMO ਫੋਰਮ 2014 ਮਿੰਨੀ-ਬੈਜ SUMO ਦੀ ਲੜੀ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2014 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ: 30 ਜਵਾਬ ਅੰਗਰੇਜੀ SUMO ਫੋਰਮ ਵਿੱਚ। ਮੋਜ਼ੀਲਾ ਮਿਸ਼ਨ ਆਧਾਖਰਤ ਲਈ ਸਭ ਸੂਮੋ ਫੋਰਮ 2014 ਬੈਜ earners ਨੂੰ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:171
+#: kitsune/sumo/db_strings.py:1029
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "Firefox 29 Launch Team"
 msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
 
-#: kitsune/sumo/db_strings.py:172
+#: kitsune/sumo/db_strings.py:1030
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "Awarded to support contributors who contributed (KB article documentation, answering Forum Questions, localizing KB article documentation, tweets, etc) to the launch of Firefox 29, thanks! \n"
@@ -4965,35 +7340,35 @@ msgid ""
 "https://sumo.etherpad.mozilla.org/sumo-australis-badges"
 msgstr ""
 
-#: kitsune/sumo/db_strings.py:187
+#: kitsune/sumo/db_strings.py:1045
 msgctxt "DB: kbadge.Badge.title"
 msgid "2008 L10n Badge"
 msgstr "2008 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:188
+#: kitsune/sumo/db_strings.py:1046
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2008."
 msgstr "2008 ਦੇ ਦੌਰਾਨ ਇਹ ਬੈਜ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦੀ ਯੋਗਦਾਨਿਆ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:192
+#: kitsune/sumo/db_strings.py:1050
 msgctxt "DB: kbadge.Badge.title"
 msgid "2009 L10n Badge"
 msgstr "2009 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:193
+#: kitsune/sumo/db_strings.py:1051
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2009."
 msgstr "ਇਹ ਬੈਜ ਯੋਗਦਾਨਿਆ ਨੂੰ 2009 ਵਿੱਚ 10 ਪ੍ਰਵਾਨਗੀ ਅਨੁਵਾਦਾ ਲਈ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
-#: kitsune/sumo/db_strings.py:197
+#: kitsune/sumo/db_strings.py:1055
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 Army of Awesome Badge"
 msgstr "2012 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:198
+#: kitsune/sumo/db_strings.py:1056
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5004,13 +7379,13 @@ msgstr ""
 "The SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2012 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2012 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: 50 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਨੇ ਟਵਿੱਟ ਕੀਤਾ। SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2012 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:204
+#: kitsune/sumo/db_strings.py:1062
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 Army of Awesome Badge"
 msgstr "2013 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:205
+#: kitsune/sumo/db_strings.py:1063
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5021,13 +7396,13 @@ msgstr ""
 "The SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2013 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2013 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: 50 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਨੇ ਟਵਿੱਟ ਕੀਤਾ। SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2013 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:211
+#: kitsune/sumo/db_strings.py:1069
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 Army of Awesome Badge"
 msgstr "2010 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:212
+#: kitsune/sumo/db_strings.py:1070
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5038,13 +7413,13 @@ msgstr ""
 "The SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2010 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2010 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: 50 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਨੇ ਟਵਿੱਟ ਕੀਤਾ। SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2010 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:218
+#: kitsune/sumo/db_strings.py:1076
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 Army of Awesome Badge"
 msgstr "2011 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:219
+#: kitsune/sumo/db_strings.py:1077
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5055,13 +7430,13 @@ msgstr ""
 "The SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2011 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2011 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: 50 ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ ਨੇ ਟਵੀਟ ਕੀਤਾ। SUMO ਸਿਰਕੱਢਾਂ ਦੀ ਫੌਜ 2011 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:225
+#: kitsune/sumo/db_strings.py:1083
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 Support Forum Badge"
 msgstr "2012 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:226
+#: kitsune/sumo/db_strings.py:1084
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5070,12 +7445,12 @@ msgid ""
 "Congrats to all SUMO Forum 2012 badge earners for advancing the Mozilla Mission!"
 msgstr "The SUMO 2014 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਸ ਕੇਸ ਵਿੱਚ ਇਹ 2012 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ: 30 ਜਬਾਬ ਇੰਗਲਿਸ SUMO ਫੋਰਮ ਵਿੱਚ ਹਨ। SUMO ਫੋਰਮ 2012 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:232
+#: kitsune/sumo/db_strings.py:1090
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 KB Badge"
 msgstr "2010 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:233
+#: kitsune/sumo/db_strings.py:1091
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5086,12 +7461,12 @@ msgstr ""
 "The SUMO KB 2010 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2010 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: 10 ਅੰਗਰੇਜ਼ੀ SUMO ਨੌਲੇਜ ਬੇਸ ਦੇ 10 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO KB 2010 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ "
 "ਨੂੰ ਅੱਗੇ ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:239
+#: kitsune/sumo/db_strings.py:1097
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 L10n Badge"
 msgstr "2010 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:240
+#: kitsune/sumo/db_strings.py:1098
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5102,13 +7477,13 @@ msgstr ""
 "The SUMO L10n 2010 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2010 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: SUMO ਨੌਲੇਜ ਬੇਸ ਦੇ 10 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO L10n 2010 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:246
+#: kitsune/sumo/db_strings.py:1104
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 Support Forum Badge"
 msgstr "2010 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:247
+#: kitsune/sumo/db_strings.py:1105
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5117,12 +7492,12 @@ msgid ""
 "Congrats to all SUMO Forum 2010 badge earners for advancing the Mozilla Mission!"
 msgstr "The SUMO ਫੋਰਮ 2010 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਸ ਕੇਸ ਵਿੱਚ ਇਹ 2010 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ: ਅੰਗਰੇਜੀ SUMO ਫੋਰਮ ਦੇ 30 ਜਵਾਬ। SUMO ਫੋਰਮ 2010 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:253
+#: kitsune/sumo/db_strings.py:1111
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 KB Badge"
 msgstr "2011 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:254
+#: kitsune/sumo/db_strings.py:1112
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5133,13 +7508,13 @@ msgstr ""
 "The SUMO KB 2011 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਸ ਕੇਸ ਵਿੱਚ ਇਹ 2011 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ: SUMO ਨੌਲੇਜ ਬੇਸ ਅੰਗਰੇਜੀ ਦੇ 10 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO KB 2011 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:260
+#: kitsune/sumo/db_strings.py:1118
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 L10n Badge"
 msgstr "2011 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:261
+#: kitsune/sumo/db_strings.py:1119
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5150,13 +7525,13 @@ msgstr ""
 "The SUMO L10n 2011 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2011 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: SUMO ਨੌਲੇਜ ਬੇਸ ਨੇ10 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO L10n  2011 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:267
+#: kitsune/sumo/db_strings.py:1125
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 Support Forum Badge"
 msgstr "2011 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:268
+#: kitsune/sumo/db_strings.py:1126
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5167,12 +7542,12 @@ msgstr ""
 "The SUMO Forum 2011 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2011 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: ਇੰਗਲਿਸ਼ SUMO ਨੌਲੇਜ ਬੇਸ ਨੈ 30 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO L10n 2011 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ "
 "ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:275
+#: kitsune/sumo/db_strings.py:1133
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 KB Badge"
 msgstr "2012 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:276
+#: kitsune/sumo/db_strings.py:1134
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5183,12 +7558,12 @@ msgstr ""
 "The SUMO KB 2012 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2011 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: ਇੰਗਲਿਸ਼ SUMO ਨੌਲੇਜ ਬੇਸ ਨੈ 30 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO KB 2012 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ "
 "ਅੱਗੇ ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:282
+#: kitsune/sumo/db_strings.py:1140
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 KB Badge"
 msgstr "2013 KB ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:283
+#: kitsune/sumo/db_strings.py:1141
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5199,12 +7574,12 @@ msgstr ""
 "The SUMO KB 2013 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2011 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: ਅੰਗਰੇਜ਼ੀ SUMO ਨੌਲੇਜ ਬੇਸ ਨੇ 10 ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO KB 2013 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ ਲਿਆਣ ਲਈ "
 "ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:289
+#: kitsune/sumo/db_strings.py:1147
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 L10n Badge"
 msgstr "2013 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:290
+#: kitsune/sumo/db_strings.py:1148
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5215,13 +7590,13 @@ msgstr ""
 "The SUMO L10n 2013 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਸ ਕੇਸ ਵਿੱਚ ਇਹ 2013 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ: SUMO ਨੌਲੇਜ ਬੇਸ 10 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO L10n 2013 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:296
+#: kitsune/sumo/db_strings.py:1154
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 Support Forum Badge"
 msgstr "2013 ਸਹਿਯੋਗ ਫੋਰਮ ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:297
+#: kitsune/sumo/db_strings.py:1155
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5232,12 +7607,12 @@ msgstr ""
 "The SUMO ਫੋਰਮ 2013 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਸ ਕੇਸ ਵਿੱਚ ਇਹ 2013 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ: SUMO ਨੌਲੇਜ ਬੇਸ ਅੰਗਰੇਜੀ ਦੇ 0 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO ਫੋਰਮ 2013 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ "
 "ਅੱਗੇ ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:303
+#: kitsune/sumo/db_strings.py:1161
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 L10n Badge"
 msgstr "2012 L10n ਬੈਜ"
 
-#: kitsune/sumo/db_strings.py:304
+#: kitsune/sumo/db_strings.py:1162
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
@@ -5248,2387 +7623,17 @@ msgstr ""
 "The SUMO L10n 2012 ਮਿੰਨੀ-ਬੈਜ SUMO ਸੀਰਿਜ ਦਾ ਹਿੱਸਾ ਹੈ। ਇਹ 2012 ਵਿੱਚ SUMO ਦੇ ਯੋਗਦਾਨ ਦੀ ਨੁਮਾਇੰਦਗੀ ਕਰਦਾ ਹੈ; ਇਸ ਕੇਸ ਵਿੱਚ: SUMO ਨੌਲੇਜ ਬੇਸ ਦੇ 10 ਸੋਧੇ ਹੋਏ ਲੇਖਾ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦੇ ਦਿੱਤੀ ਹੈ। SUMO L10n 2012 ਬੈਜ ਪਾ੍ਪਤ ਕਰਤਾ ਨੂੰ ਮੌਜਿਲਾ ਮਿਸ਼ਨ ਨੂੰ ਅੱਗੇ "
 "ਲਿਆਣ ਲਈ ਵਧਾਇਆ!"
 
-#: kitsune/sumo/db_strings.py:310
+#: kitsune/sumo/db_strings.py:1168
 #, fuzzy
 msgctxt "DB: kbadge.Badge.title"
 msgid "Kitsune Contributor"
 msgstr "Kitsune ਹਿੱਸੇਦਾਰੀ"
 
-#: kitsune/sumo/db_strings.py:311
+#: kitsune/sumo/db_strings.py:1169
 #, fuzzy
 msgctxt "DB: kbadge.Badge.description"
 msgid "Badge awarded to those who have contributed to the Kitsune code base."
 msgstr "ਬੈਜ ਨਾਲ ਉਸ ਨੂੰ ਸਨਮਾਨਿਤ ਕੀਤਾ ਗਿਆ ਜਿਹਨਾ ਨੇ Kitsune ਕੋਡ ਬੇਸ ਵਿੱਚ ਯੋਗਦਾਨ ਪਾਇਆ ਹੈ।"
-
-#: kitsune/sumo/db_strings.py:315 kitsune/sumo/db_strings.py:552
-msgctxt "DB: products.Topic.title"
-msgid "Learn the Basics: get started"
-msgstr "ਬੇਸਿਕ ਸਿੱਖੋ: ਸ਼ੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:316
-msgctxt "DB: products.Topic.description"
-msgid "Learn all you need to know to get started with Firefox."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:319 kitsune/sumo/db_strings.py:624
-msgctxt "DB: products.Topic.title"
-msgid "Bookmarks and tabs"
-msgstr "ਵਰਕਾ ਨਿਸ਼ਾਨੀਆਂ ਅਤੇ ਪੱਲ੍ਹੇ"
-
-#: kitsune/sumo/db_strings.py:320
-msgctxt "DB: products.Topic.description"
-msgid "Access and organize your favorite webpages easily with bookmarks and tabs"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:324 kitsune/sumo/db_strings.py:504 kitsune/sumo/db_strings.py:613
-msgctxt "DB: products.Topic.title"
-msgid "Basic browsing"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:325 kitsune/sumo/db_strings.py:505
-msgctxt "DB: products.Topic.description"
-msgid "Search and navigate easily with these essential features"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:329
-msgctxt "DB: products.Topic.title"
-msgid "Import settings from other browsers"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:330
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to import or export your information between Firefox and another browser"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:334
-msgctxt "DB: products.Topic.title"
-msgid "Video, audio and interactive settings"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:335
-msgctxt "DB: products.Topic.description"
-msgid "Change how Firefox handles videos, animations, music and other interactive content"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:339
-msgctxt "DB: products.Topic.title"
-msgid "How to use Firefox"
-msgstr "ਫਾਇਰਫੌਕਸ ਨੂੰ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
-
-#: kitsune/sumo/db_strings.py:340
-msgctxt "DB: products.Topic.description"
-msgid "How to browse, search and customize your settings"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:341 kitsune/sumo/db_strings.py:557 kitsune/sumo/db_strings.py:1013
-msgctxt "DB: products.Topic.title"
-msgid "Download, install and migration"
-msgstr "ਡਾਊਨਲੋਡ, ਇੰਸਟਾਲ ਅਤੇ ਮਾਈਗਰੇਸ਼ਨ"
-
-#: kitsune/sumo/db_strings.py:342
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to download Firefox on your desktop devices or move information to and from other browsers."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:346 kitsune/sumo/db_strings.py:562 kitsune/sumo/db_strings.py:975
-msgctxt "DB: products.Topic.title"
-msgid "Tips and tricks"
-msgstr "ਟਿੱਪਸ ਅਤੇ ਟਰਿਕਸ"
-
-#: kitsune/sumo/db_strings.py:347
-msgctxt "DB: products.Topic.description"
-msgid "Go beyond the basics with these shortcuts and other tips."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:351 kitsune/sumo/db_strings.py:358 kitsune/sumo/db_strings.py:515 kitsune/sumo/db_strings.py:656
-msgctxt "DB: products.Topic.title"
-msgid "Install and update"
-msgstr "ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਨਵਿਆਉ"
-
-#: kitsune/sumo/db_strings.py:352
-msgctxt "DB: products.Topic.description"
-msgid "How to install Firefox and keep it up to date"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:353
-msgctxt "DB: products.Topic.title"
-msgid "Display and appearance"
-msgstr "ਪਰਦਰਸ਼ਨੀ ਅਤੇ ਵਿਖਾਲਾ"
-
-#: kitsune/sumo/db_strings.py:354
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to change your toolbar, font sizes and browser colors"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:359
-msgctxt "DB: products.Topic.description"
-msgid "Download or update Firefox for Windows, Mac and Linux."
-msgstr "ਵਿੰਡੋਜ਼, ਮੈਕ, ਅਤੇ ਲੀਨਕਸ ਲਈ ਫਾਇਰਫੌਕਸ ਲਾਹੋ ਤੇ ਨਵਿਆਉ।"
-
-#: kitsune/sumo/db_strings.py:362
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Sync"
-msgstr "ਫਾਇਰਫੌਕਸ ਸਿੰਕ"
-
-#: kitsune/sumo/db_strings.py:363 kitsune/sumo/db_strings.py:567
-msgctxt "DB: products.Topic.description"
-msgid "Firefox Sync settings"
-msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ ਸੈਟਿਗਾ"
-
-#: kitsune/sumo/db_strings.py:364
-msgctxt "DB: products.Topic.title"
-msgid "Sync and save"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:365
-msgctxt "DB: products.Topic.description"
-msgid "Sync information on all your devices"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:366 kitsune/sumo/db_strings.py:831
-msgctxt "DB: products.Topic.title"
-msgid "Manage add-ons"
-msgstr "ਐਡ-ਆਨਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:367
-msgctxt "DB: products.Topic.description"
-msgid "Enhance Firefox's functionality and appearance with add-ons"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:371
-msgctxt "DB: products.Topic.title"
-msgid "Sync, share and save"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:372
-msgctxt "DB: products.Topic.description"
-msgid "Sync browsing information and content across multiple devices with Firefox Accounts."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:376
-msgctxt "DB: products.Topic.title"
-msgid "Firefox settings"
-msgstr "ਫਾਇਰਫੌਕਸ ਸੈਟਿੰਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:377
-msgctxt "DB: products.Topic.description"
-msgid "Privacy and personalization"
-msgstr "ਪਰਦੇਦਾਰੀ ਅਤੇ ਮਨਪਸੰਦ ਬਦਲਾਅ"
-
-#: kitsune/sumo/db_strings.py:378
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Hello"
-msgstr "ਫਾਇਰਫੌਕਸ ਹੈਲੋ"
-
-#: kitsune/sumo/db_strings.py:379
-msgctxt "DB: products.Topic.description"
-msgid "Have video or voice conversations using the Firefox browser"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:383
-msgctxt "DB: products.Topic.title"
-msgid "Chat and share"
-msgstr "ਗੱਲਬਾਤ ਅਤੇ ਸਾਂਝਾ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:384
-msgctxt "DB: products.Topic.description"
-msgid "Connect on video and share pages with your network"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:387 kitsune/sumo/db_strings.py:396
-msgctxt "DB: products.Topic.title"
-msgid "Personalize Firefox"
-msgstr "ਫਾਇਰਫੌਕਸ ਵਿੱਚ ਮਨਪਸੰਦ ਬਦਲਾਅ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:388
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox yours with these customization options."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:391 kitsune/sumo/db_strings.py:575 kitsune/sumo/db_strings.py:998
-msgctxt "DB: products.Topic.title"
-msgid "Customize controls, options and add-ons"
-msgstr "ਕੰਟਰੋਲ ਦੀ ਸੋਧ ਕਰੋ, ਚੋਣ ਅਤੇ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:392
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox yours by adding and managing the features that you want."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:397
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Change Firefox's appearance, behavior and settings."
-msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:400 kitsune/sumo/db_strings.py:570 kitsune/sumo/db_strings.py:1027
-msgctxt "DB: products.Topic.title"
-msgid "Privacy and security settings"
-msgstr "ਪਰਦੇਦਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ ਵਿਵਸਥਾਵਾ"
-
-#: kitsune/sumo/db_strings.py:401
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to keep your information safe and secure with Firefox's private browsing, password features and other security settings."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:405 kitsune/sumo/db_strings.py:538
-msgctxt "DB: products.Topic.title"
-msgid "Do more with apps"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:406
-msgctxt "DB: products.Topic.description"
-msgid "Install open apps from the Marketplace to add more fun and functionality to your device"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:410 kitsune/sumo/db_strings.py:531
-msgctxt "DB: products.Topic.title"
-msgid "Protect your privacy"
-msgstr "ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ"
-
-#: kitsune/sumo/db_strings.py:411
-msgctxt "DB: products.Topic.description"
-msgid "Keep your information safe from prying eyes with the latest privacy and security features."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:415 kitsune/sumo/db_strings.py:550 kitsune/sumo/db_strings.py:725 kitsune/sumo/db_strings.py:1055
-msgctxt "DB: products.Topic.title"
-msgid "Get community support"
-msgstr "ਕਮਿਉਨਿੱਟੀ ਸਹਿਯੋਗ ਲਵੋ"
-
-#: kitsune/sumo/db_strings.py:416 kitsune/sumo/db_strings.py:551 kitsune/sumo/db_strings.py:726 kitsune/sumo/db_strings.py:1056
-msgctxt "DB: products.Topic.description"
-msgid "Get community support"
-msgstr "ਕੰਮਿਉਨਿਟੀ ਸਹਿਯੋਗ ਲਵੋ"
-
-#: kitsune/sumo/db_strings.py:417
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Manage preferences and add-ons"
-msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:418
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox yours through customization settings and add-ons"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:422 kitsune/sumo/db_strings.py:718 kitsune/sumo/db_strings.py:756 kitsune/sumo/db_strings.py:760 kitsune/sumo/db_strings.py:877 kitsune/sumo/db_strings.py:959
-msgctxt "DB: products.Topic.title"
-msgid "Fix problems"
-msgstr "ਸਮੱਸਿਆਵਾ ਦਾ ਹੱਲ"
-
-#: kitsune/sumo/db_strings.py:423
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot slowness, crashing and error messages."
-msgstr "ਸੁਸਤੀ, ਕਰੈਸ਼ਿੰਗ, ਗਲਤੀ ਸੁਨੇਹੇ ਅਤੇ ਹੋਰ ਸਮੱਸਿਆਵਾ ਨੂੰ ਹੱਲ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:426 kitsune/sumo/db_strings.py:543 kitsune/sumo/db_strings.py:1047
-msgctxt "DB: products.Topic.title"
-msgid "Fix slowness, crashing, error messages and other problems"
-msgstr "ਸੁਸਤੀ, ਕਰੈਸ਼ਿੰਗ, ਗਲਤੀ ਸੁਨੇਹੇ ਅਤੇ ਹੋਰ ਸਮੱਸਿਆਵਾ ਨੂੰ ਫਿਕਸ਼ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:429 kitsune/sumo/db_strings.py:546
-msgctxt "DB: products.Topic.description"
-msgid "Fix slowness, crashing, error messages and other problems"
-msgstr "ਸੁਸਤੀ, ਕਰੈਸ਼ਿੰਗ, ਗਲਤੀ ਸੁਨੇਹੇ ਅਤੇ ਹੋਰ ਸਮੱਸਿਆਵਾ ਨੂੰ ਫਿਕਸ਼ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:433
-msgctxt "DB: products.Topic.title"
-msgid "Advanced and experimental features"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:434
-msgctxt "DB: products.Topic.description"
-msgid "Learn tips beyond the basics and try features before they're released to the public."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:438 kitsune/sumo/db_strings.py:568
-msgctxt "DB: products.Topic.title"
-msgid "Tab basics"
-msgstr "ਟੈਬ ਬੁਨਿਆਦ"
-
-#: kitsune/sumo/db_strings.py:439 kitsune/sumo/db_strings.py:569
-msgctxt "DB: products.Topic.description"
-msgid "Tab basics"
-msgstr "ਟੈਬ ਬੁਨਿਆਦ"
-
-#: kitsune/sumo/db_strings.py:440
-msgctxt "DB: products.Topic.title"
-msgid "Firefox versions and languages"
-msgstr "ਫਾਇਰਫਾਕਸ ਵਰਜਨ ਅਤੇ ਭਾਸ਼ਾਵਾ"
-
-#: kitsune/sumo/db_strings.py:441
-msgctxt "DB: products.Topic.description"
-msgid "Firefox versions and languages"
-msgstr "ਫਾਇਰਫਾਕਸ ਵਰਜਨ ਅਤੇ ਭਾਸ਼ਾਵਾ"
-
-#: kitsune/sumo/db_strings.py:442
-msgctxt "DB: products.Topic.title"
-msgid "Copy your personal information from one browser to another"
-msgstr "ਆਪਣੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਇੱਕ ਬਰਾਊਜ਼ਰ ਤੋ ਦੂਸਰੇ ਵਿੱਚ ਕਾਪੀ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:445
-msgctxt "DB: products.Topic.description"
-msgid "Copy your personal information from one browser to another"
-msgstr "ਆਪਣੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਇੱਕ ਬਰਾਊਜ਼ਰ ਤੋ ਦੂਸਰੇ ਵਿੱਚ ਕਾਪੀ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:449
-msgctxt "DB: products.Topic.title"
-msgid "Cookies and cache"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:450
-msgctxt "DB: products.Topic.description"
-msgid "Control the information that Firefox saves"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:451
-msgctxt "DB: products.Topic.title"
-msgid "Passwords, forms, search, and history - control what Firefox suggests"
-msgstr "ਪਾਸਵਰਡ, ਫਾਰਮ, ਖੋਜ, ਅਤੇ ਇਤਿਹਾਸ - ਕੰਟਰੋਲ ਫਾਇਰਫਾਕਸ ਕੀ ਸੁਝਾਅ ਦਿੰਦਾ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:455
-msgctxt "DB: products.Topic.description"
-msgid "Passwords, forms, search, and history - control what Firefox suggests"
-msgstr "ਪਾਸਵਰਡ, ਫਾਰਮ, ਖੋਜ, ਅਤੇ ਇਤਿਹਾਸ - ਕੰਟਰੋਲ ਫਾਇਰਫਾਕਸ ਕੀ ਸੁਝਾਅ ਦਿੰਦਾ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:459 kitsune/sumo/db_strings.py:582
-msgctxt "DB: products.Topic.title"
-msgid "Firefox controls and buttons"
-msgstr "ਫਾਇਰਫਾਕਸ ਕੰਟਰੋਲ ਅਤੇ ਬਟਨਾ"
-
-#: kitsune/sumo/db_strings.py:460 kitsune/sumo/db_strings.py:583
-msgctxt "DB: products.Topic.description"
-msgid "Firefox controls and buttons"
-msgstr "ਫਾਇਰਫਾਕਸ ਕੰਟਰੋਲ ਅਤੇ ਬਟਨਾ"
-
-#: kitsune/sumo/db_strings.py:461 kitsune/sumo/db_strings.py:1023
-msgctxt "DB: products.Topic.title"
-msgid "Tab settings"
-msgstr "ਟੈਬ ਸੈਟਿਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:462 kitsune/sumo/db_strings.py:1024
-msgctxt "DB: products.Topic.description"
-msgid "Tab settings"
-msgstr "ਟੈਬ ਸੈਟਿਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:463 kitsune/sumo/db_strings.py:584
-msgctxt "DB: products.Topic.title"
-msgid "Customize Firefox with add-ons, plugins, and extensions"
-msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨ ਨਾਲ ਫਾਇਰਫਾਕਸ ਨੂੰ ਕਸਟਮਾਈਜ਼ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:464 kitsune/sumo/db_strings.py:585
-msgctxt "DB: products.Topic.description"
-msgid "Customize Firefox with add-ons, plugins, and extensions"
-msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ ਹੈ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨ ਨਾਲ ਫਾਇਰਫਾਕਸ ਨੂੰ ਕਸਟਮਾਈਜ਼ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:467
-msgctxt "DB: products.Topic.title"
-msgid "Firefox options, preferences and settings"
-msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:468
-msgctxt "DB: products.Topic.description"
-msgid "Firefox options, preferences and settings"
-msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:469
-msgctxt "DB: products.Topic.title"
-msgid "Bookmark options"
-msgstr "ਬੁੱਕਮਾਰਕ ਵਿਕਲਪ"
-
-#: kitsune/sumo/db_strings.py:470
-msgctxt "DB: products.Topic.description"
-msgid "Bookmark options"
-msgstr "ਬੁੱਕਮਾਰਕ ਵਿਕਲਪ"
-
-#: kitsune/sumo/db_strings.py:471 kitsune/sumo/db_strings.py:588
-msgctxt "DB: products.Topic.title"
-msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
-msgstr "ਵੈੱਬਸਾਈਟ ਦੇ ਨਾਲ ਸਮੱਸਿਆ ਦਾ ਹੱਲ (ਫੇਸਬੁੱਕ, ਯੂਟਿਊਬ, ਵੈਬਮੇਲ ਆਦਿ)"
-
-#: kitsune/sumo/db_strings.py:474 kitsune/sumo/db_strings.py:591
-msgctxt "DB: products.Topic.description"
-msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
-msgstr "ਵੈੱਬਸਾਈਟ ਦੇ ਨਾਲ ਸਮੱਸਿਆ ਦਾ ਹੱਲ (ਫੇਸਬੁੱਕ, ਯੂਟਿਊਬ, ਵੈਬਮੇਲ ਆਦਿ)"
-
-#: kitsune/sumo/db_strings.py:478 kitsune/sumo/db_strings.py:1025
-msgctxt "DB: products.Topic.title"
-msgid "Error messages: what they mean and how to fix"
-msgstr "ਗਲਤੀ ਸੁਨੇਹੇ: ਇਹਨਾ ਦਾ ਕੀ ਮਤਲਬ ਹੈ ਅਤੇ ਕਿਵੇ ਠੀਕ ਕਰਨਾ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:479
-msgctxt "DB: products.Topic.description"
-msgid "How to troubleshoot error messages on Firefox"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:480
-msgctxt "DB: products.Topic.title"
-msgid "Unblock Firefox from connecting to the Internet"
-msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਫਾਇਰਫਾਕਸ ਨੂੰ ਅਨ-ਬਲੋਕ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:481
-msgctxt "DB: products.Topic.description"
-msgid "Unblock Firefox from connecting to the Internet"
-msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਫਾਇਰਫਾਕਸ ਨੂੰ ਅਨ-ਬਲੋਕ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:482 kitsune/sumo/db_strings.py:731 kitsune/sumo/db_strings.py:1045
-msgctxt "DB: products.Topic.title"
-msgid "Procedures to diagnose and fix problems"
-msgstr "ਸਮੱਸਿਆਵਾ ਦਾ ਹੱਲ ਅਤੇ ਇਲਾਜ਼ ਕਰਨ ਲਈ ਤਰੀਕੇ"
-
-#: kitsune/sumo/db_strings.py:483 kitsune/sumo/db_strings.py:732 kitsune/sumo/db_strings.py:1046
-msgctxt "DB: products.Topic.description"
-msgid "Procedures to diagnose and fix problems"
-msgstr "ਸਮੱਸਿਆਵਾ ਦਾ ਹੱਲ ਅਤੇ ਇਲਾਜ਼ ਕਰਨ ਲਈ ਤਰੀਕੇ"
-
-#: kitsune/sumo/db_strings.py:484
-msgctxt "DB: products.Topic.title"
-msgid "Videos, sound, pictures and animations don't work"
-msgstr "ਵੀਡੀਓ, ਆਵਾਜ਼, ਤਸਵੀਰਾ ਅਤੇ ਐਨੀਮੇਸ਼ਨ ਕੰਮ ਨਹੀ ਕਰਦੇ"
-
-#: kitsune/sumo/db_strings.py:485
-msgctxt "DB: products.Topic.description"
-msgid "Videos, sound, pictures and animations don't work"
-msgstr "ਵੀਡੀਓ, ਆਵਾਜ਼, ਤਸਵੀਰ ਅਤੇ ਐਨੀਮੇਸ਼ਨ ਕੰਮ ਨਹੀ ਕਰਦੇ "
-
-#: kitsune/sumo/db_strings.py:486
-msgctxt "DB: products.Topic.title"
-msgid "Firefox is slow or stops working"
-msgstr "ਫਾਇਰਫਾਕਸ ਹੋਲੀ ਹੈ ਜਾ ਕੰਮ ਕਰਨਾ ਬੰਦ ਕਰ ਰਿਹਾ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:487
-msgctxt "DB: products.Topic.description"
-msgid "Slowness or hanging"
-msgstr "ਹੋਲੀ ਜਾ ਹੈਗ ਹੋ ਰਿਹਾ"
-
-#: kitsune/sumo/db_strings.py:488 kitsune/sumo/db_strings.py:595
-msgctxt "DB: products.Topic.title"
-msgid "Firefox crashes"
-msgstr "ਫਾਇਰਫਾਕਸ ਕਰੈਸ"
-
-#: kitsune/sumo/db_strings.py:489 kitsune/sumo/db_strings.py:596
-msgctxt "DB: products.Topic.description"
-msgid "Crashing"
-msgstr "ਕਰੈਸਿ਼ਗ"
-
-#: kitsune/sumo/db_strings.py:490
-msgctxt "DB: products.Topic.title"
-msgid "Firefox won't save settings or remember information"
-msgstr "ਫਾਇਰਫਾਕਸ ਸੈਟਿੰਗਾ ਨੂੰ ਸੰਭਾਲਣ ਜਾ ਜਾਣਕਾਰੀ ਯਾਦ ਨਹੀ ਕਰੇਗਾ"
-
-#: kitsune/sumo/db_strings.py:491
-msgctxt "DB: products.Topic.description"
-msgid "Firefox won't save settings or remember information"
-msgstr "ਫਾਇਰਫਾਕਸ ਸੈਟਿੰਗਾ ਨੂੰ ਸੰਭਾਲਣ ਜਾ ਜਾਣਕਾਰੀ ਯਾਦ ਨਹੀ ਕਰੇਗਾ"
-
-#: kitsune/sumo/db_strings.py:494 kitsune/sumo/db_strings.py:1061
-msgctxt "DB: products.Topic.title"
-msgid "Problems with add-ons, plugins or unwanted software"
-msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ ਜਾ ਅਣਚਾਹੇ ਸਾਫਟਵੇਅਰ ਨਾਲ ਸਮੱਸਿਆ"
-
-#: kitsune/sumo/db_strings.py:495 kitsune/sumo/db_strings.py:1062
-msgctxt "DB: products.Topic.description"
-msgid "Problems with add-ons, plugins or unwanted software"
-msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ ਜ ਅਣਚਾਹੇ ਸਾਫਟਵੇਅਰ ਨਾਲ ਸਮੱਸਿਆ"
-
-#: kitsune/sumo/db_strings.py:498 kitsune/sumo/db_strings.py:597 kitsune/sumo/db_strings.py:733
-msgctxt "DB: products.Topic.title"
-msgid "Mozilla Persona"
-msgstr "ਮੋਜ਼ੀਲਾ Persona"
-
-#: kitsune/sumo/db_strings.py:499 kitsune/sumo/db_strings.py:598 kitsune/sumo/db_strings.py:734 kitsune/sumo/db_strings.py:942
-msgctxt "DB: products.Topic.description"
-msgid "Mozilla Persona"
-msgstr "ਮੋਜ਼ੀਲਾ Persona"
-
-#: kitsune/sumo/db_strings.py:500 kitsune/sumo/db_strings.py:735
-msgctxt "DB: products.Topic.title"
-msgid "Hot topics"
-msgstr "ਗਰਮ ਵਿਸ਼ੇ:"
-
-#: kitsune/sumo/db_strings.py:501 kitsune/sumo/db_strings.py:736 kitsune/sumo/db_strings.py:944
-msgctxt "DB: products.Topic.description"
-msgid "Hot topics"
-msgstr "ਗਰਮ ਵਿਸ਼ੇ:"
-
-#: kitsune/sumo/db_strings.py:502 kitsune/sumo/db_strings.py:601 kitsune/sumo/db_strings.py:905 kitsune/sumo/db_strings.py:1070
-msgctxt "DB: products.Topic.title"
-msgid "Other"
-msgstr "ਹੋਰ"
-
-#: kitsune/sumo/db_strings.py:503 kitsune/sumo/db_strings.py:602 kitsune/sumo/db_strings.py:1071
-msgctxt "DB: products.Topic.description"
-msgid "Other"
-msgstr "ਹੋਰ"
-
-#: kitsune/sumo/db_strings.py:509
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "How to use Firefox for Android"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:510
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to use Firefox for Android"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:511
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "What's new in Firefox for Android"
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:512
-msgctxt "DB: products.Topic.description"
-msgid "See what new features are available in each release"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:516
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to install and keep Firefox for Android up to date"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:519
-msgctxt "DB: products.Topic.title"
-msgid "Save, share and sync"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:520
-msgctxt "DB: products.Topic.description"
-msgid "Save, share and synchronize content with other devices"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:523
-msgctxt "DB: products.Topic.title"
-msgid "Changing your settings"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:524
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Change Firefox's behavior."
-msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:525
-msgctxt "DB: products.Topic.title"
-msgid "Cast to your TV"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:526
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to view content on another screen"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:527
-msgctxt "DB: products.Topic.title"
-msgid "Popular articles"
-msgstr "ਮਕਬੂਲ ਲੇਖ"
-
-#: kitsune/sumo/db_strings.py:528
-msgctxt "DB: products.Topic.description"
-msgid "Popular tips and solutions for Firefox for Android"
-msgstr "ਐਂਡਰਾਈਡ ਲਈ ਫਾਇਰਫਾਕਸ ਵਾਸਤੇ ਹਰਮਨਪਿਆਰੇ ਗੁਰ ਤੇ ਹੱਲ਼"
-
-#: kitsune/sumo/db_strings.py:532
-msgctxt "DB: products.Topic.description"
-msgid "Control how your information is saved or tracked"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:533
-msgctxt "DB: products.Topic.title"
-msgid "Customize settings and preferences"
-msgstr "ਸੈਟਿੰਗਾਂ ਅਤੇ ਮਨਪਸੰਦਾਂ ਨੂੰ ਆਪਣੇ ਮੁਤਾਬਕ ਢਾਲੋ"
-
-#: kitsune/sumo/db_strings.py:534
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox for Android yours with these customization options"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:539
-msgctxt "DB: products.Topic.description"
-msgid "Learn to find and install open apps to add more fun and functionality to your device"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:553
-msgctxt "DB: products.Topic.description"
-msgid "Learn all you need to know to get Firefox for Android up and running."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:558
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to install and transfer information to Firefox for Android."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:563
-msgctxt "DB: products.Topic.description"
-msgid "Tips and tricks"
-msgstr "ਟਿੱਪਸ ਅਤੇ ਟਰਿਕਸ"
-
-#: kitsune/sumo/db_strings.py:564
-msgctxt "DB: products.Topic.title"
-msgid "Use bookmarks"
-msgstr "ਬੁੱਕਮਾਰਕਾ ਨੂੰ ਵਰਤੋ"
-
-#: kitsune/sumo/db_strings.py:565
-msgctxt "DB: products.Topic.description"
-msgid "The basics of using bookmarks"
-msgstr "ਬੁੱਕਮਾਰਕ ਵਰਤਨ ਦੀ ਬੁਨਿਆਦ"
-
-#: kitsune/sumo/db_strings.py:566
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Sync settings"
-msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ ਸੈਟਿਗਾ"
-
-#: kitsune/sumo/db_strings.py:571
-msgctxt "DB: products.Topic.description"
-msgid "Keep your information safe with Firefox for Android's privacy and security settings."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:576
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox for Android work the way you want through customization."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:580
-msgctxt "DB: products.Topic.title"
-msgid "Cookies"
-msgstr "ਕੂਕੀਜ਼"
-
-#: kitsune/sumo/db_strings.py:581
-msgctxt "DB: products.Topic.description"
-msgid "Cookies"
-msgstr "ਕੂਕੀਜ਼"
-
-#: kitsune/sumo/db_strings.py:599 kitsune/sumo/db_strings.py:693
-msgctxt "DB: products.Topic.title"
-msgid "Marketplace"
-msgstr "ਮਾਰਕਿਟਪਲੇਸ"
-
-#: kitsune/sumo/db_strings.py:600
-msgctxt "DB: products.Topic.description"
-msgid "Firefox Marketplace"
-msgstr "ਫਾਇਰਫਾਕਸ ਮਾਰਕਿਟਪਲੇਸ"
-
-#: kitsune/sumo/db_strings.py:603
-msgctxt "DB: products.Topic.title"
-msgid "Install and Update"
-msgstr "ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਨਵਿਆਉ"
-
-#: kitsune/sumo/db_strings.py:604
-msgctxt "DB: products.Topic.description"
-msgid "Install and keep Firefox up to date on your iPad, iPhone or iPod Touch."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:608
-msgctxt "DB: products.Topic.title"
-msgid "Reader View and List"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:609
-msgctxt "DB: products.Topic.description"
-msgid "Read and save web pages in a clutter-free, reader-friendly view"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:614
-msgctxt "DB: products.Topic.description"
-msgid "How to use bookmarks, tabs and basic Firefox features on your iOS device"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:618
-msgctxt "DB: products.Topic.title"
-msgid "History"
-msgstr "ਅਤੀਤ"
-
-#: kitsune/sumo/db_strings.py:619
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Change your history settings on Firefox for iOS"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਯੰਤਰ ਉੱਤੇ ਆਪਣੀ ਸਕਰੀਨ ਮਨਪਸੰਦ ਮੁਤਾਬਕ ਢਾਲੋ।"
-
-#: kitsune/sumo/db_strings.py:620
-msgctxt "DB: products.Topic.title"
-msgid "How to use Firefox for iOS"
-msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
-
-#: kitsune/sumo/db_strings.py:621
-msgctxt "DB: products.Topic.description"
-msgid "General usage questions"
-msgstr "ਆਮ ਵਰਤੋਂ ਸਵਾਲ"
-
-#: kitsune/sumo/db_strings.py:622
-msgctxt "DB: products.Topic.title"
-msgid "What's new in Firefox for iOS"
-msgstr "iOS ਲਈ ਫਾਇਰਫਾਕਸ 'ਚ ਨਵਾਂ ਕੀ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:623
-msgctxt "DB: products.Topic.description"
-msgid "See what features are available in each release."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:625
-msgctxt "DB: products.Topic.description"
-msgid "Access websites easily with bookmarks and tab features"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:628
-msgctxt "DB: products.Topic.title"
-msgid "Search"
-msgstr "ਖੋਜ"
-
-#: kitsune/sumo/db_strings.py:629
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Customize your search settings in Firefox for iOS"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਯੰਤਰ ਉੱਤੇ ਆਪਣੀ ਸਕਰੀਨ ਮਨਪਸੰਦ ਮੁਤਾਬਕ ਢਾਲੋ।"
-
-#: kitsune/sumo/db_strings.py:630
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Firefox for iOS is not working as expected"
-msgstr "ਉਮੀਦ ਮੁਤਾਬਕ ਕੰਮ ਨਹੀ ਕੀਤਾ"
-
-#: kitsune/sumo/db_strings.py:631
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot problems with Firefox for iOS."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:632
-msgctxt "DB: products.Topic.title"
-msgid "Privacy"
-msgstr "ਪਰਦੇਦਾਰੀ"
-
-#: kitsune/sumo/db_strings.py:633
-msgctxt "DB: products.Topic.description"
-msgid "Protect your information with Firefox's privacy settings on iOS"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:637
-msgctxt "DB: products.Topic.title"
-msgid "Sync, save and share"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:638
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Share web pages on Firefox for iOS"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:639
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Customize preferences"
-msgstr "ਕੰਟਰੋਲ, ਚੋਣ, ਵਿਵਸਥਾ ਅਤੇ ਪਸੰਦ ਨੂੰ ਤਬਦੀਲ"
-
-#: kitsune/sumo/db_strings.py:640
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Customize preferences for Firefox for iOS"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਯੰਤਰ ਉੱਤੇ ਆਪਣੀ ਸਕਰੀਨ ਮਨਪਸੰਦ ਮੁਤਾਬਕ ਢਾਲੋ।"
-
-#: kitsune/sumo/db_strings.py:641
-msgctxt "DB: products.Topic.title"
-msgid "Crashes, errors and other issues"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:642
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot error message on Firefox for iOS"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:643 kitsune/sumo/db_strings.py:660 kitsune/sumo/db_strings.py:752 kitsune/sumo/db_strings.py:754 kitsune/sumo/db_strings.py:912 kitsune/sumo/db_strings.py:949
-#: kitsune/sumo/db_strings.py:971
-msgctxt "DB: products.Topic.title"
-msgid "Get started"
-msgstr "ਸੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:644
-msgctxt "DB: products.Topic.description"
-msgid "Firefox OS basics"
-msgstr "ਫਾਇਰਫਾਕਸ OS ਬੇਸਿਕਸ"
-
-#: kitsune/sumo/db_strings.py:645
-msgctxt "DB: products.Topic.title"
-msgid "Basic Features"
-msgstr "ਮੁੱਢਲੇ ਫੀਚਰ"
-
-#: kitsune/sumo/db_strings.py:646
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Learn the basic functionality for your Firefox OS phone. "
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਲਈ ਮੁੱਢਲੇ ਕੰਮਾਂ ਬਾਰੇ ਸਿੱਖੋ।"
-
-#: kitsune/sumo/db_strings.py:650
-msgctxt "DB: products.Topic.title"
-msgid "Download and Manage Apps"
-msgstr "ਐਪ ਡਾਊਨਲੋਡ ਤੇ ਪਰਬੰਧ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:651
-msgctxt "DB: products.Topic.description"
-msgid "Download apps from the Marketplace"
-msgstr "ਮੰਡੀ ਤੋਂ ਐਪ ਡਾਊਨਲੋਡ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:652
-msgctxt "DB: products.Topic.title"
-msgid "Date and Time"
-msgstr "ਮਿਤੀ ਤੇ ਸਮਾਂ"
-
-#: kitsune/sumo/db_strings.py:653
-msgctxt "DB: products.Topic.description"
-msgid "Setting a date and time on your Firefox OS phone"
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਉੱਤੇ ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈੱਟ ਕਰਨਾ"
-
-#: kitsune/sumo/db_strings.py:654
-msgctxt "DB: products.Topic.title"
-msgid "Display"
-msgstr "ਡਿਸਪਲੇਅ"
-
-#: kitsune/sumo/db_strings.py:655
-msgctxt "DB: products.Topic.description"
-msgid "Customize your screen on your Firefox OS device."
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਯੰਤਰ ਉੱਤੇ ਆਪਣੀ ਸਕਰੀਨ ਮਨਪਸੰਦ ਮੁਤਾਬਕ ਢਾਲੋ।"
-
-#: kitsune/sumo/db_strings.py:657
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Download and install the mobile app on your device."
-msgstr "ਐਪਸ ਡਾਊਨਲੋਡ ਕਰੋ ਅਤੇ ਇੰਸਟਾਲ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:661
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Learn the basics"
-msgstr "ਬੇਸਿਕ ਸਿੱਖੋ: ਸ਼ੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:662
-msgctxt "DB: products.Topic.title"
-msgid "Calling and Contacts"
-msgstr "ਜਾਣੋ ਕਿ ਸੰਪਰਕ ਕਿਵੇਂ ਜੋੜੀਏ ਤੇ ਪਰਬੰਧ ਕਰੀਏ, ਇਸ ਦੇ ਨਾਲ ਹੀ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਉੱਤੇ ਸਿੱਧੀ ਕਾਲ ਜਾਂ ਕਨਫਰੰਸ ਕਾਲ ਕਰਨ ਬਾਰੇ ਵੀ ਸਿੱਖੋ।"
-
-#: kitsune/sumo/db_strings.py:663
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to add and manage contacts, as well as make one-to-one or conference calls on your Firefox OS phone."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:667
-msgctxt "DB: products.Topic.title"
-msgid "Browsing"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:668
-msgctxt "DB: products.Topic.description"
-msgid "Surf and navigate the Web on Firefox Preview"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:669
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "How do I use Firefox Preview?"
-msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
-
-#: kitsune/sumo/db_strings.py:670
-msgctxt "DB: products.Topic.description"
-msgid "Get help with using features in Firefox Preview."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:671
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Manage account"
-msgstr "ਐਡ-ਆਨਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:672
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to change your account settings"
-msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:673
-msgctxt "DB: products.Topic.title"
-msgid "Email and Messages"
-msgstr "ਈਮੇਲ ਅਤੇ ਸੁਨੇਹੇ"
-
-#: kitsune/sumo/db_strings.py:674
-msgctxt "DB: products.Topic.description"
-msgid "Keep in touch with your contacts through email and messaging."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:678
-msgctxt "DB: products.Topic.title"
-msgid "Library"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:679
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Manage bookmarks and history"
-msgstr "ਵਰਕਾ ਨਿਸ਼ਾਨੀਆਂ ਅਤੇ ਪੱਲ੍ਹੇ"
-
-#: kitsune/sumo/db_strings.py:680
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Services and Subscriptions"
-msgstr "ਵਿਵਰਨ ਸੰਭਾਲੋ"
-
-#: kitsune/sumo/db_strings.py:681
-msgctxt "DB: products.Topic.description"
-msgid "Free and premium privacy offerings"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:682
-msgctxt "DB: products.Topic.title"
-msgid "Music, Photos and Video"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:683
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Take pictures, record videos and listen to music on your Firefox OS phone."
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਉੱਤੇ ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈੱਟ ਕਰਨਾ"
-
-#: kitsune/sumo/db_strings.py:687
-msgctxt "DB: products.Topic.title"
-msgid "Sync"
-msgstr "ਸਿੰਕ"
-
-#: kitsune/sumo/db_strings.py:688
-msgctxt "DB: products.Topic.description"
-msgid "Sync your browsing information across other devices."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:691
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Troubleshoot"
-msgstr "ਸਮੱਸਿਆ ਨਿਵਾਰਨ"
-
-#: kitsune/sumo/db_strings.py:692
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Fix problems with Firefox Accounts"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:694
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to download, manage and use your favorite apps on your Firefox OS phone."
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਉੱਤੇ ਮਿਤੀ ਤੇ ਸਮਾਂ ਸੈੱਟ ਕਰਨਾ"
-
-#: kitsune/sumo/db_strings.py:698 kitsune/sumo/db_strings.py:703
-msgctxt "DB: products.Topic.title"
-msgid "Privacy and security"
-msgstr "ਪਰਦੇਦਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ"
-
-#: kitsune/sumo/db_strings.py:699
-msgctxt "DB: products.Topic.description"
-msgid "Keep your information safe with Firefox OS locks, privacy features and more."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:704
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Protect your privacy on Firefox Preview."
-msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
-
-#: kitsune/sumo/db_strings.py:705 kitsune/sumo/db_strings.py:895
-msgctxt "DB: products.Topic.title"
-msgid "Settings"
-msgstr "ਸੈਟਿੰਗਾ"
-
-#: kitsune/sumo/db_strings.py:706
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to configure the Internet connection, display and time on your Firefox OS device."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:710
-msgctxt "DB: products.Topic.title"
-msgid "Internet and Connections"
-msgstr "ਇੰਟਰਨੈਟ ਅਤੇ ਕਨੈਕਸ਼ਨ"
-
-#: kitsune/sumo/db_strings.py:711
-msgctxt "DB: products.Topic.description"
-msgid "Learn more about Wi-Fi, Bluetooth and NFC connections."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:714
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Settings and preferences"
-msgstr "ਸੈਟਿੰਗਾਂ ਅਤੇ ਮਨਪਸੰਦਾਂ ਨੂੰ ਆਪਣੇ ਮੁਤਾਬਕ ਢਾਲੋ"
-
-#: kitsune/sumo/db_strings.py:715
-msgctxt "DB: products.Topic.description"
-msgid "Manage themes and search settings"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:716
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Fix problems with Firefox Preview"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:717
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot issues with Firefox Preview"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:719
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to troubleshoot issues on your Firefox OS phone."
-msgstr "ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਓ.ਸਿ. ਫ਼ੋਨ ਲਈ ਮੁੱਢਲੇ ਕੰਮਾਂ ਬਾਰੇ ਸਿੱਖੋ।"
-
-#: kitsune/sumo/db_strings.py:723
-msgctxt "DB: products.Topic.title"
-msgid "Advanced Settings"
-msgstr "ਤਕਨੀਕੀ ਸੈਟਿੰਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:724
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Do more with Firefox Preview"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:727
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "View all Firefox OS articles"
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:728
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "View a list of all Firefox OS articles"
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:729
-msgctxt "DB: products.Topic.title"
-msgid "Working with messages"
-msgstr "ਸੁਨੇਹੇ ਦੇ ਨਾਲ ਕੰਮ ਕਰਨਾ"
-
-#: kitsune/sumo/db_strings.py:730
-msgctxt "DB: products.Topic.description"
-msgid "Firefox OS SMS & email"
-msgstr "ਫਾਇਰਫਾਕਸ OS ਐਸਐਮਐਸ ਅਤੇ ਈਮੇਲ"
-
-#: kitsune/sumo/db_strings.py:737
-msgctxt "DB: products.Topic.title"
-msgid "Technical"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:738
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Find solutions for how to use the Firefox Private Network VPN"
-msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
-
-#: kitsune/sumo/db_strings.py:742
-msgctxt "DB: products.Topic.title"
-msgid "Accounts"
-msgstr "ਖਾਤੇ"
-
-#: kitsune/sumo/db_strings.py:743
-msgctxt "DB: products.Topic.description"
-msgid "Find solutions on managing your account"
-msgstr "ਆਪਣੇ ਖਾਤੇ ਦੇ ਪ੍ਰਬੰਧਨ ਬਾਰੇ ਹੱਲ ਲੱਭੋ"
-
-#: kitsune/sumo/db_strings.py:744
-msgctxt "DB: products.Topic.title"
-msgid "Payments"
-msgstr "ਭੁਗਤਾਨ"
-
-#: kitsune/sumo/db_strings.py:745
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Manage your payment and subscription"
-msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:746 kitsune/sumo/db_strings.py:939
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Troubleshooting"
-msgstr "ਸਮੱਸਿਆ ਨਿਵਾਰਨ"
-
-#: kitsune/sumo/db_strings.py:747
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Fix problems with Firefox Private Network VPN"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:748
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Firefox for Fire TV"
-msgstr "ਫਾਇਰਫਾਕਸ ਵਰਜਨ"
-
-#: kitsune/sumo/db_strings.py:749
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Browser for the Amazon Fire TV."
-msgstr " ਛਵੀ ਅੱਪਲੌੜ ਕਰਨ ਲਈ ਬਰਾਉਜ ਕਰੋ।"
-
-#: kitsune/sumo/db_strings.py:750
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Firefox for Echo Show"
-msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ"
-
-#: kitsune/sumo/db_strings.py:751
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Browser for the Amazon Echo Show"
-msgstr " ਛਵੀ ਅੱਪਲੌੜ ਕਰਨ ਲਈ ਬਰਾਉਜ ਕਰੋ।"
-
-#: kitsune/sumo/db_strings.py:753
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Get Started with Firefox for Fire TV"
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:755
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Basics for using Firefox Private Network."
-msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
-
-#: kitsune/sumo/db_strings.py:757
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot problems with Firefox Fire TV"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:758
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Manage account and settings"
-msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:759
-msgctxt "DB: products.Topic.description"
-msgid "Change account and settings for Private Network."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:761
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot issues for Private Network"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:762
-msgctxt "DB: products.Topic.title"
-msgid "Popcorn Maker"
-msgstr "ਪੋਪਕੋਰਨ ਬਣਾਉਣ ਵਾਲਾ"
-
-#: kitsune/sumo/db_strings.py:763
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to remix web video, audio and images into mashups that you can embed on other websites. "
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:767
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Webmaker for Android"
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:768
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Get help with the Webmaker app for Android."
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:769
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Intro to Open Badges"
-msgstr "ਓਪਨ ਬਿੱਲੇ"
-
-#: kitsune/sumo/db_strings.py:770
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Learn the basic about Open Badges"
-msgstr "ਬੈਸਿਕ ਸਿੱਖੋ। ਸ਼ੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:771
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Release notes"
-msgstr "ਰੀਲਿਜ਼ ਨੋਟਿਸ"
-
-#: kitsune/sumo/db_strings.py:772
-msgctxt "DB: products.Topic.description"
-msgid "Where to find release notes and upcoming features."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:775
-msgctxt "DB: products.Topic.title"
-msgid "Windows"
-msgstr "ਵਿੰਡੋਜ਼"
-
-#: kitsune/sumo/db_strings.py:776
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Deploying Firefox on Windows computers."
-msgstr "Windows 8 ਟੱਚ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:777
-msgctxt "DB: products.Topic.title"
-msgid "Manage certificates"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:778
-msgctxt "DB: products.Topic.description"
-msgid "Set up certificates on Firefox for your organization."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:781
-msgctxt "DB: products.Topic.title"
-msgid "Thimble"
-msgstr "ਨੋਕ"
-
-#: kitsune/sumo/db_strings.py:782
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to create and share your own webpages quickly and easily."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:786
-msgctxt "DB: products.Topic.title"
-msgid "BadgeKit"
-msgstr "BadgeKit"
-
-#: kitsune/sumo/db_strings.py:787
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to create, assess and issue badges"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:788
-msgctxt "DB: products.Topic.title"
-msgid "Customization of Firefox in an enterprise environment"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:789
-msgctxt "DB: products.Topic.description"
-msgid "Customization of Firefox in an enterprise environment"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:792
-msgctxt "DB: products.Topic.title"
-msgid "Installation"
-msgstr "ਇੰਸਟਾਲੇਸ਼ਨ"
-
-#: kitsune/sumo/db_strings.py:793
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to install Firefox for Enterprise"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:794
-msgctxt "DB: products.Topic.title"
-msgid "Explore"
-msgstr "ਪੜਚੋਲ"
-
-#: kitsune/sumo/db_strings.py:795
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Learn about Firefox for Enterprise"
-msgstr "ਐਂਟਰਪਰਾਈਜ਼ ਲਈ ਫਾਇਰਫੌਕਸ"
-
-#: kitsune/sumo/db_strings.py:796
-msgctxt "DB: products.Topic.title"
-msgid "Mac"
-msgstr "ਮੈਕ"
-
-#: kitsune/sumo/db_strings.py:797
-msgctxt "DB: products.Topic.description"
-msgid "Deploy Firefox on your organization's Mac computers"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:800
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Policies overview"
-msgstr "ਨੀਤੀਆਂ"
-
-#: kitsune/sumo/db_strings.py:801
-msgctxt "DB: products.Topic.description"
-msgid "How to set up policies on Firefox for your organization."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:805
-msgctxt "DB: products.Topic.title"
-msgid "X-Ray Goggles"
-msgstr "ਐਕਸ-ਰੇ ਗੂਗਲਸ"
-
-#: kitsune/sumo/db_strings.py:806
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to inspect the code behind every webpage."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:809
-msgctxt "DB: products.Topic.title"
-msgid "Get Involved"
-msgstr "ਸਾਥ ਦਿਓ"
-
-#: kitsune/sumo/db_strings.py:810
-msgctxt "DB: products.Topic.description"
-msgid "Help the Open Badges community"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:811
-msgctxt "DB: products.Topic.title"
-msgid "Deploy"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:812
-msgctxt "DB: products.Topic.description"
-msgid "Deployment of Firefox in an enterprise environment"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:815
-msgctxt "DB: products.Topic.title"
-msgid "Manage updates, policies & customization"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:816
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Policies for Firefox for Enterprise"
-msgstr "ਐਂਟਰਪਰਾਈਜ਼ ਲਈ ਫਾਇਰਫੌਕਸ"
-
-#: kitsune/sumo/db_strings.py:817
-msgctxt "DB: products.Topic.title"
-msgid "Autoconfiguration"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:818
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to configure Firefox for Enterprise"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:819
-msgctxt "DB: products.Topic.title"
-msgid "Linux"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:820
-msgctxt "DB: products.Topic.description"
-msgid "Deploy Firefox on your organization's Linux machines."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:823
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Manage settings via policy"
-msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:824
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Change Firefox's settings using policies."
-msgstr "ਫਾਇਰਫਾਕਸ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾਂ"
-
-#: kitsune/sumo/db_strings.py:825
-msgctxt "DB: products.Topic.title"
-msgid "Get the most from webmaker.org"
-msgstr "Webmaker.org ਤੋ ਜਿਆਦਾ ਲਵੋ"
-
-#: kitsune/sumo/db_strings.py:826
-msgctxt "DB: products.Topic.description"
-msgid "Help or get help on a Webmaker project."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:827
-msgctxt "DB: products.Topic.title"
-msgid "Earn Badges"
-msgstr "ਬਿੱਲੇ ਕਮਾਓ"
-
-#: kitsune/sumo/db_strings.py:828
-msgctxt "DB: products.Topic.description"
-msgid "Earn Badges for the skills you learn online and offline"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:832
-msgctxt "DB: products.Topic.description"
-msgid "Working with add-ons on Firefox for your organization."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:835
-msgctxt "DB: products.Topic.title"
-msgid "Events and help for Mentors"
-msgstr "ਮੇਨਟਰ ਲਈ ਸਮਾਗਮ ਅਤੇ ਮਦਦ"
-
-#: kitsune/sumo/db_strings.py:836
-msgctxt "DB: products.Topic.description"
-msgid "Help teach digital skills and share creative ways of teaching technology."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:840
-msgctxt "DB: products.Topic.title"
-msgid "Issue Badges"
-msgstr "ਇਸ਼ੂ ਬਿੱਲੇ"
-
-#: kitsune/sumo/db_strings.py:841
-msgctxt "DB: products.Topic.description"
-msgid "Issue digital badges to acknowledge new skills and achievements"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:845
-msgctxt "DB: products.Topic.title"
-msgid "Display Badges"
-msgstr "ਡਿਸਪਲੇਅ ਬਿੱਲੇ"
-
-#: kitsune/sumo/db_strings.py:846
-msgctxt "DB: products.Topic.description"
-msgid "Display your digital badges on your social networks, job sites and your own website."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:850
-msgctxt "DB: products.Topic.title"
-msgid "Knowledge Base"
-msgstr "ਨਾਲੇਜ ਬੇਸ"
-
-#: kitsune/sumo/db_strings.py:851
-msgctxt "DB: products.Topic.description"
-msgid "Windows 8 Touch support articles"
-msgstr "ਵਿੰਡੋ 8 ਟੱਚ ਸਹਿਯੋਗ ਲੇਖ"
-
-#: kitsune/sumo/db_strings.py:852
-msgctxt "DB: products.Topic.title"
-msgid "Pocket Basics"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:853
-msgctxt "DB: products.Topic.description"
-msgid "New to Pocket? Start here."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:854
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Install and set up"
-msgstr "ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਨਵਿਆਉ"
-
-#: kitsune/sumo/db_strings.py:855
-msgctxt "DB: products.Topic.description"
-msgid "Sync your logins across Firefox and your apps."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:856
-msgctxt "DB: products.Topic.title"
-msgid "About Data Sharing"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:857
-msgctxt "DB: products.Topic.description"
-msgid ""
-"In order to process or provide our products and services to you, we share your information with the following business partners. These entities are contractually obligated to handle the data in "
-"ways that are approved by Mozilla."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:861
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Pocket for Mobile"
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:862
-msgctxt "DB: products.Topic.description"
-msgid "How to use Pocket on your iPhone, iPad, Android or Kobo."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:866
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Manage settings and logins"
-msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:867
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Setting up your device to work with Firefox Lockwise"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:870
-msgctxt "DB: products.Topic.title"
-msgid "Managing Your Data"
-msgstr "ਤੁਹਾਡੇ ਡਾਟੇ ਦਾ ਪ੍ਰਬੰਧਨ"
-
-#: kitsune/sumo/db_strings.py:871
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to manage your data (including deleting) for specific products or services."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:875
-msgctxt "DB: products.Topic.title"
-msgid "Pocket for your Computer"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:876
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Using Pocket on the Web."
-msgstr "Popcorn ਬਣਾਉਣ ਦਾ ਇਸਤੇਮਾਲ ਕਰਕੇ"
-
-#: kitsune/sumo/db_strings.py:878
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot issues with Firefox Lockwise"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:879
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Sensible Settings"
-msgstr "ਸੈਟਿਗਾ ਸੋਧ"
-
-#: kitsune/sumo/db_strings.py:880
-msgctxt "DB: products.Topic.description"
-msgid "Give our users actionable and informed choices by informing and educating at the point of collection and providing a choice to opt-out whenever possible. "
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:884
-msgctxt "DB: products.Topic.title"
-msgid "Advanced"
-msgstr "ਤਕਨੀਕੀ"
-
-#: kitsune/sumo/db_strings.py:885
-msgctxt "DB: products.Topic.description"
-msgid "Information for Developers and Beta users."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:886
-msgctxt "DB: products.Topic.title"
-msgid "Defense in Depth"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:887
-msgctxt "DB: products.Topic.description"
-msgid "Make privacy a key factor in selecting and interacting with partners. "
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:891
-msgctxt "DB: products.Topic.title"
-msgid "How does it work?"
-msgstr "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ?"
-
-#: kitsune/sumo/db_strings.py:892
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Basics to get started with Firefox for Windows 8 Touch."
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:896
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to configure and customize Firefox for Windows 8 Touch."
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:900
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Problems with websites"
-msgstr "ਫਾਇਰਫਾਕਸ ਸਹਿਯੋਗ ਮੁੱਖ ਸਫ਼ਾ"
-
-#: kitsune/sumo/db_strings.py:901
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Problems with websites that don't work well in Firefox for Windows 8 Touch."
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:906
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Other questions with Firefox for Windows 8 Touch."
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:907
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "General contribution"
-msgstr "ਮੇਰਾ ਯੋਗਦਾਨ"
-
-#: kitsune/sumo/db_strings.py:908
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the contribution in general"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:913
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to use Firefox Reality"
-msgstr "ਫਾਇਰਫੌਕਸ ਨੂੰ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਵੇ"
-
-#: kitsune/sumo/db_strings.py:914
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Forum Support"
-msgstr "ਸਹਿਯੋਗ"
-
-#: kitsune/sumo/db_strings.py:915
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the Forum Support contribution"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:919
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Social Support"
-msgstr "ਮੋਬਾਇਲ ਸਹਿਯੋਗ"
-
-#: kitsune/sumo/db_strings.py:920
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the Social Support Program"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:924
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Localization"
-msgstr "ਸਥਾਨੀਕਰਨ"
-
-#: kitsune/sumo/db_strings.py:925
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the Localization contribution"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:929
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "KB Contribution"
-msgstr "ਯੋਗਦਾਨੀਆਂ "
-
-#: kitsune/sumo/db_strings.py:930
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the KB articles contribution"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:934
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Respond tool"
-msgstr "ਜਵਾਬ"
-
-#: kitsune/sumo/db_strings.py:935
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the Respond Tool contribution"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:940
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Fix problems with Firefox Reality"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:941
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "[Obsolete] Mozilla Persona"
-msgstr "ਮੋਜ਼ੀਲਾ Persona"
-
-#: kitsune/sumo/db_strings.py:943
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "[Obsolete] Hot topics"
-msgstr "ਗਰਮ ਵਿਸ਼ੇ:"
-
-#: kitsune/sumo/db_strings.py:945
-msgctxt "DB: products.Topic.title"
-msgid "Get Started"
-msgstr "ਸੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:946
-msgctxt "DB: products.Topic.description"
-msgid "Klar verwenden"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:947
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Klar for iOS"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:948
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Privacy browser for iOS"
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:950
-msgctxt "DB: products.Topic.description"
-msgid "Everything you need to know to use Firefox Lite."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:951
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Features"
-msgstr "ਫ਼ੀਚਰ"
-
-#: kitsune/sumo/db_strings.py:952
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Getting started with Hubs"
-msgstr "ਸੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:953
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Klar for Android"
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:954 kitsune/sumo/db_strings.py:970
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Privacy browser for Android"
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:955
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Preferences"
-msgstr "ਫ਼ਰਕ"
-
-#: kitsune/sumo/db_strings.py:956
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Customize Firefox Lite to your desired settings"
-msgstr "ਐਡ-ਆਨ, ਪਲੱਗਇਨ ਹੈ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨ ਨਾਲ ਫਾਇਰਫਾਕਸ ਨੂੰ ਕਸਟਮਾਈਜ਼ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:957
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Controls"
-msgstr "ਵਰਤੋਂਕਾਰ ਕੰਟਰੋਲ"
-
-#: kitsune/sumo/db_strings.py:958
-msgctxt "DB: products.Topic.description"
-msgid "How to navigate Hubs"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:960
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot problems with Firefox Lite."
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:961
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Moderation"
-msgstr "ਵਿਚੋਲਾ"
-
-#: kitsune/sumo/db_strings.py:962
-msgctxt "DB: products.Topic.description"
-msgid "Tools for making Hubs a good experience for all."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:963
-msgctxt "DB: products.Topic.title"
-msgid "Spoke"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:964
-msgctxt "DB: products.Topic.description"
-msgid "Build scenes with Spoke"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:965
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Creators"
-msgstr "ਬਣਾਉਣ ਵਾਲਾ"
-
-#: kitsune/sumo/db_strings.py:966
-msgctxt "DB: products.Topic.description"
-msgid "Advanced Hubs customization for creators"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:967
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Focus for iOS"
-msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਫੋਕਸ"
-
-#: kitsune/sumo/db_strings.py:968
-msgctxt "DB: products.Topic.description"
-msgid "Firefox Focus for iOS"
-msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ ਫੋਕਸ"
-
-#: kitsune/sumo/db_strings.py:969
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Focus for Android"
-msgstr "ਐਂਡਰੌਇਡ ਲਈ ਫਾਇਰਫੌਕਸ ਫੋਕਸ"
-
-#: kitsune/sumo/db_strings.py:972
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Learn the basics about ScreenshotGo"
-msgstr "ਬੈਸਿਕ ਸਿੱਖੋ। ਸ਼ੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:973
-msgctxt "DB: products.Topic.title"
-msgid "Learn the Basics. Get Started"
-msgstr "ਬੇਸਿਕ ਸਿੱਖੋ। ਸ਼ੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:974
-msgctxt "DB: products.Topic.description"
-msgid "Learn the Basics. Get Started"
-msgstr "ਬੈਸਿਕ ਸਿੱਖੋ। ਸ਼ੁਰੂ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:976
-msgctxt "DB: products.Topic.description"
-msgid "Learn tips and shortcuts to help you work faster"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:977
-msgctxt "DB: products.Topic.title"
-msgid "Set up email"
-msgstr "ਈ-ਪਤਾ ਪੱਕਾ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:978
-msgctxt "DB: products.Topic.description"
-msgid "Add and configure your email accounts on Thunderbird"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:981
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Install, Migrate and Update"
-msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਸਮੱਸਿਆਵਾ"
-
-#: kitsune/sumo/db_strings.py:982
-msgctxt "DB: products.Topic.description"
-msgid "How to install and keep Thunderbird up to date"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:983
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Read, send and organize emails"
-msgstr "ਖਾਂਤਾ ਪੁਸ਼ਟਿਕਰਣ ਈਮੇਲ ਫੇਰ ਭੇਜੋ"
-
-#: kitsune/sumo/db_strings.py:984
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to manage your email messages"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:985
-msgctxt "DB: products.Topic.title"
-msgid "Emails"
-msgstr "ਈ-ਚਿੱਠੀਆਂ"
-
-#: kitsune/sumo/db_strings.py:986
-msgctxt "DB: products.Topic.description"
-msgid "Learn to set up accounts, read, send and manage emails"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:989
-msgctxt "DB: products.Topic.title"
-msgid "News Feeds (RSS), Blogs and Social"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:990
-msgctxt "DB: products.Topic.description"
-msgid "Stay up to date with news feeds, blogs and social features"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:994
-msgctxt "DB: products.Topic.title"
-msgid "Contacts"
-msgstr "ਸੰਪਰਕ"
-
-#: kitsune/sumo/db_strings.py:995
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to use the address book on Thunderbird"
-msgstr "ਫਾਇਰਫਾਕਸ ਘਰ"
-
-#: kitsune/sumo/db_strings.py:996
-msgctxt "DB: products.Topic.title"
-msgid "Calendar"
-msgstr "ਕੈਲੰਡਰ"
-
-#: kitsune/sumo/db_strings.py:997
-msgctxt "DB: products.Topic.description"
-msgid "Related to the Lightning add-on for Calendar"
-msgstr "ਐਡ-ਆਨ ਕੈਲੰਡਰ ਲਈ ਸੰਬੰਧਿਤ ਲਾਇਟਾ"
-
-#: kitsune/sumo/db_strings.py:999
-msgctxt "DB: products.Topic.description"
-msgid "Customize controls, options and add-ons"
-msgstr "ਕੰਟਰੋਲ ਦੀ ਸੋਧ ਕਰੋ, ਚੋਣ ਅਤੇ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:1000
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird versions and languages"
-msgstr "ਥੰਡਰਬਰਡ ਵਰਜਨ ਅਤੇ ਭਾਸ਼ਾਵਾ"
-
-#: kitsune/sumo/db_strings.py:1001
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird versions and languages"
-msgstr "ਥੰਡਰਬਰਡ ਵਰਜਨ ਅਤੇ ਭਾਸ਼ਾਵਾ"
-
-#: kitsune/sumo/db_strings.py:1002
-msgctxt "DB: products.Topic.title"
-msgid "Passwords, forms and search"
-msgstr "ਪਾਸਵਰਡ, ਫੋਰਮ ਅਤੇ ਖੋਜ"
-
-#: kitsune/sumo/db_strings.py:1003
-msgctxt "DB: products.Topic.description"
-msgid "Passwords, forms and search"
-msgstr "ਪਾਸਵਰਡ, ਫੋਰਮ ਅਤੇ ਖੋਜ"
-
-#: kitsune/sumo/db_strings.py:1004
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird controls and buttons "
-msgstr "ਥੰਡਰਬਰਡ ਕੰਟਰੋਲ ਅਤੇ ਬਟਨਾ"
-
-#: kitsune/sumo/db_strings.py:1005
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Learn all about Thunderbird controls and functionality."
-msgstr "ਫਾਇਰਫਾਕਸ ਵਰਜਨ"
-
-#: kitsune/sumo/db_strings.py:1008
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Fix problems with email providers (gmail, Yahoo, etc.) "
-msgstr "ਈਮੇਲ ਪਰ੍ਦਾਤਾ ਨਾਲ ਸਮੱਸਿਆ ਦਾ ਹੱਲ (ਜੀਮੇਲ, ਯਾਹੂ, ਆਦਿ)"
-
-#: kitsune/sumo/db_strings.py:1009
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to fix problems with Gmail, Yahoo and other email providers"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1014
-msgctxt "DB: products.Topic.description"
-msgid "Download, install and Migration"
-msgstr "ਡਾਊਨਲੋਡ, ਇੰਸਟਾਲ ਅਤੇ ਮਾਈਗਰੇਸ਼ਨ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:1015
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Copy your personal information from  one Thunderbird to another"
-msgstr "ਇੱਕ ਥੰਡਰਬਰਡ ਤੋ ਦੁਸਰੇ ਵਿੱਚ ਆਪਣੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਕਾਪੀ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:1019
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Copy your personal information from  one Thunderbird to another"
-msgstr "ਇੱਕ ਥੰਡਰਬਰਡ ਤੋ ਦੁਸਰੇ ਵਿੱਚ ਆਪਣੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਕਾਪੀ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:1026
-msgctxt "DB: products.Topic.description"
-msgid "Error messages: what they mean and how to fix"
-msgstr "ਗਲਤੀ ਸੁਨੇਹੇ: ਉਹਨਾ ਦਾ ਕੀ ਮਤਲਬ ਹੈ ਅਤੇ ਕਿਸ ਤਰਾ ਠੀਕ ਕਰਨਾ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:1028
-msgctxt "DB: products.Topic.description"
-msgid "Keep your information safe with password and security settings"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1032
-msgctxt "DB: products.Topic.title"
-msgid "Customize Thunderbird with add-ons, plugins, and extensions"
-msgstr "ਥੰਡਰਬਰਡ ਨਾਲ ਐਡ-ਆਨ, ਪਲੱਗਇਨ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨਾ ਦੀ ਸੋਧ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:1035
-msgctxt "DB: products.Topic.description"
-msgid "Customize Thunderbird with add-ons, plugins, and extensions"
-msgstr "ਥੰਡਰਬਰਡ ਨਾਲ ਐਡ-ਆਨ, ਪਲੱਗਇਨ, ਅਤੇ ਇਕਸਟੈਨਸ਼ਨਾ ਦੀ ਸੋਧ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:1039
-msgctxt "DB: products.Topic.title"
-msgid "Unblock Thunderbird from connecting to the Internet"
-msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਥੰਡਰਬਰਡ ਨੂੰ ਅਨ ਬਲੋਕ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:1040
-msgctxt "DB: products.Topic.description"
-msgid "Unblock Thunderbird from connecting to the Internet"
-msgstr "ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਥੰਡਰਬਰਡ ਨੂੰ ਅਨ ਬਲੋਕ ਕਰੋ"
-
-#: kitsune/sumo/db_strings.py:1043
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird options, preferences and settings "
-msgstr "ਥੰਡਰਬਰਡ ਦੇ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾ"
-
-#: kitsune/sumo/db_strings.py:1044
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird options, preferences and settings "
-msgstr "ਥੰਡਰਬਰਡ ਵਿਕਲਪ, ਪਸੰਦ ਅਤੇ ਸੈਟਿੰਗਾ"
-
-#: kitsune/sumo/db_strings.py:1050
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot error messages on Thunderbird."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1051
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird is slow or stops working"
-msgstr "ਥੰਡਰਬਰਡ ਹੌਲੀ ਹੈ ਜਾ ਕੰਮ ਕਰਨ ਨੂੰ ਰੋਕਦਾ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:1052
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird is slow or stops working"
-msgstr "ਥੰਡਰਬਰਡ ਹੌਲੀ ਹੈ ਜਾ ਕੰਮ ਕਰਨ ਨੂੰ ਰੋਕਦਾ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:1053
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird crashes"
-msgstr "ਥੰਡਰਬਰਡ ਕਰੈਸ਼"
-
-#: kitsune/sumo/db_strings.py:1054
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird crashes"
-msgstr "ਥੰਡਰਬਰਡ ਕਰੈਸ਼"
-
-#: kitsune/sumo/db_strings.py:1057
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird won't save settings or remember information"
-msgstr "ਥੰਡਰਬਰਡ ਸੈਟਿੰਗ ਨੂੰ ਸੰਭਾਲਣ ਜਾ ਜਾਣਕਾਰੀ ਨੂੰ ਯਾਦ ਨਹੀ ਕਰੇਗਾ"
-
-#: kitsune/sumo/db_strings.py:1058
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird won't save settings or remember information"
-msgstr "ਥੰਡਰਬਰਡ ਸੈਟਿੰਗ ਨੂੰ ਸੰਭਾਲਣ ਜ ਜਾਣਕਾਰੀ ਨੂੰ ਯਾਦ ਨਹੀ ਕਰੇਗਾ"
-
-#: kitsune/sumo/db_strings.py:1065
-msgctxt "DB: products.Topic.title"
-msgid "How To"
-msgstr "ਕਿਵੇਂ"
-
-#: kitsune/sumo/db_strings.py:1066
-msgctxt "DB: products.Topic.description"
-msgid "Articles that tell you how you can do more with Thunderbird"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1072
-msgctxt "DB: products.Product.title"
-msgid "Firefox"
-msgstr "ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1073
-msgctxt "DB: products.Product.description"
-msgid "Web browser for Windows, Mac and Linux"
-msgstr "ਵਿੰਡੋਜ਼, ਮੈਕ, ਅਤੇ ਲੀਨਕਸ ਲਈ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
-
-#: kitsune/sumo/db_strings.py:1074
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Android"
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1075
-msgctxt "DB: products.Product.description"
-msgid "Web browser for Android smartphones and tablets"
-msgstr "ਐਨਡਰਾਇਡ ਸਮਾਰਟ ਫੋਨ ਅਤੇ ਟੇਬਲੇਟ ਲਈ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
-
-#: kitsune/sumo/db_strings.py:1076
-msgctxt "DB: products.Product.title"
-msgid "Firefox for iOS"
-msgstr "iOS ਲਈ ਫਾਇਰਫੌਕਸ"
-
-#: kitsune/sumo/db_strings.py:1077
-#, fuzzy
-msgctxt "DB: products.Product.description"
-msgid "Firefox for iPhone, iPad and iPod touch devices"
-msgstr "Windows 8 ਚ ਜੰਤਰਾ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1078
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox Accounts"
-msgstr "ਫਾਇਰਫਾਕਸ ਐਡ-ਆਨ"
-
-#: kitsune/sumo/db_strings.py:1079
-msgctxt "DB: products.Product.description"
-msgid "Privacy-first products for desktop and mobile"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1080
-msgctxt "DB: products.Product.title"
-msgid "Firefox OS"
-msgstr "ਫਾਇਰਫਾਕਸ OS"
-
-#: kitsune/sumo/db_strings.py:1081
-msgctxt "DB: products.Product.description"
-msgid "Mobile OS for smartphones"
-msgstr "ਮੋਬਾਇਲ ਸਮਾਰਟ ਫੋਨਾ ਲਈ OS"
-
-#: kitsune/sumo/db_strings.py:1082
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox Preview"
-msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
-
-#: kitsune/sumo/db_strings.py:1083
-msgctxt "DB: products.Product.description"
-msgid "Early version of an experimental Firefox browser for Android."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1087
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Mozilla VPN"
-msgstr "ਮੋਜ਼ੀਲਾ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1088
-#, fuzzy
-msgctxt "DB: products.Product.description"
-msgid "VPN for Windows 10, Android, and iOS devices"
-msgstr "Windows 8 ਚ ਜੰਤਰਾ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1089
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Amazon Devices"
-msgstr "ਐਮੇਜ਼ੋਨ ਫਾਇਰ TV ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1090
-msgctxt "DB: products.Product.description"
-msgid "Browser for Amazon devices"
-msgstr "ਐਮੇਜ਼ਾਨ ਡਿਵਾਈਸ ਲਈ ਬਰਾਊਜ਼ਰ"
-
-#: kitsune/sumo/db_strings.py:1091
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Fire TV"
-msgstr "ਫਾਇਰ ਟੀਵੀ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1092
-msgctxt "DB: products.Product.description"
-msgid "Browser for Amazon Fire TV"
-msgstr "ਐਮੇਜ਼ਾਨ ਫਾਇਰ ਟੀਵੀ ਲਈ ਬਰਾਊਜ਼ਰ"
-
-#: kitsune/sumo/db_strings.py:1093
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox Private Network Browser-level protection"
-msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
-
-#: kitsune/sumo/db_strings.py:1094
-msgctxt "DB: products.Product.description"
-msgid "Browse securely on public Wi-Fi"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1095
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Enterprise"
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1096
-#, fuzzy
-msgctxt "DB: products.Product.description"
-msgid "Firefox Quantum for businesses"
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1097
-msgctxt "DB: products.Product.title"
-msgid "Open Badges"
-msgstr "ਓਪਨ ਬਿੱਲੇ"
-
-#: kitsune/sumo/db_strings.py:1098
-msgctxt "DB: products.Product.description"
-msgid "A new online standard to recognize and verify learning"
-msgstr "ਇੱਨ ਨਵਾ ਆਨਲਾਇਨ ਮਿਆਰੀ ਮਾਨਤਾ ਦੇਣ ਅਤੇ ਸਿੱਖਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦਾ ਹੈ"
-
-#: kitsune/sumo/db_strings.py:1102
-msgctxt "DB: products.Product.title"
-msgid "Webmaker"
-msgstr "ਵੈਬਮੇਕਰ"
-
-#: kitsune/sumo/db_strings.py:1103
-#, fuzzy
-msgctxt "DB: products.Product.description"
-msgid "Webmaker and other tools for teaching and learning the Web"
-msgstr "ਵੈੱਬ ਨੂੰ ਬਣਾਉਣ ਅਤੇ ਉਪਦੇਸ਼ ਲਈ ਟੂਲ"
-
-#: kitsune/sumo/db_strings.py:1107
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Android (ESR)"
-msgstr "ਐਨਡਰਾਇਡ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1108
-msgctxt "DB: products.Product.description"
-msgid "Older version of Firefox for Android (no longer supported)"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1112
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Windows 8 Touch"
-msgstr "Windows 8 ਟੱਚ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1113
-msgctxt "DB: products.Product.description"
-msgid "Firefox for Windows 8 touch devices"
-msgstr "Windows 8 ਚ ਜੰਤਰਾ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1114
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox Lockwise"
-msgstr "ਫਾਇਰਫੌਕਸ ਰੌਕੇਟ"
-
-#: kitsune/sumo/db_strings.py:1115
-msgctxt "DB: products.Product.description"
-msgid "Mobile app that gives you access to passwords you've saved to Firefox."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1119
-msgctxt "DB: products.Product.title"
-msgid "Pocket"
-msgstr "ਪਾਕੇਟ"
-
-#: kitsune/sumo/db_strings.py:1120
-msgctxt "DB: products.Product.description"
-msgid "Discover and save stories for later"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1121
-msgctxt "DB: products.Product.title"
-msgid "Privacy and Security"
-msgstr "ਪਰਦੇਦਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ"
-
-#: kitsune/sumo/db_strings.py:1122
-msgctxt "DB: products.Product.description"
-msgid "Learn more about Mozilla's privacy and security practices."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1126
-msgctxt "DB: products.Product.title"
-msgid "Contributors"
-msgstr "ਯੋਗਦਾਨੀ"
-
-#: kitsune/sumo/db_strings.py:1127
-#, fuzzy
-msgctxt "DB: products.Product.description"
-msgid "Contributor articles"
-msgstr "ਸਹਿਯੋਗੀਆਂ ਦੀ ਫੋਰਮ"
-
-#: kitsune/sumo/db_strings.py:1128
-msgctxt "DB: products.Product.title"
-msgid "Firefox Reality"
-msgstr "ਫਾਇਰਫਾਕਸ ਅਸਲੀਅਤ"
-
-#: kitsune/sumo/db_strings.py:1129
-#, fuzzy
-msgctxt "DB: products.Product.description"
-msgid "Web browser for virtual reality headsets"
-msgstr "ਐਨਡਰਾਇਡ ਸਮਾਰਟ ਫੋਨ ਅਤੇ ਟੇਬਲੇਟ ਲਈ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
-
-#: kitsune/sumo/db_strings.py:1130
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox Send"
-msgstr "ਫਾਇਰਫਾਕਸ ਸਿੰਕ"
-
-#: kitsune/sumo/db_strings.py:1131
-msgctxt "DB: products.Product.description"
-msgid "An app for sending files to anyone."
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1132
-msgctxt "DB: products.Product.title"
-msgid "Firefox Klar"
-msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਰ"
-
-#: kitsune/sumo/db_strings.py:1133
-msgctxt "DB: products.Product.description"
-msgid "Was ist Firefox Klar?"
-msgstr "ਫਾਇਰਫਾਕਸ ਕਲਾਰ ਕੀ ਹੈ?"
-
-#: kitsune/sumo/db_strings.py:1134
-msgctxt "DB: products.Product.title"
-msgid "Firefox Lite"
-msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
-
-#: kitsune/sumo/db_strings.py:1135
-msgctxt "DB: products.Product.description"
-msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1139
-msgctxt "DB: products.Product.title"
-msgid "Hubs"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1140
-msgctxt "DB: products.Product.description"
-msgid "Social virtual reality for headsets and browsers"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1143
-msgctxt "DB: products.Product.title"
-msgid "Firefox Focus"
-msgstr "ਫਾਇਰਫੌਕਸ ਫੋਕਸ"
-
-#: kitsune/sumo/db_strings.py:1144
-msgctxt "DB: products.Product.description"
-msgid "Automatic privacy browser and content blocker"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1145
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox ScreenshotGo"
-msgstr "ਫਾਇਰਫਾਕਸ ਕਰੈਸ"
-
-#: kitsune/sumo/db_strings.py:1146
-#, fuzzy
-msgctxt "DB: products.Product.description"
-msgid "Screenshot app for mobile"
-msgstr "ਮੋਬਾਇਲ ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: kitsune/sumo/db_strings.py:1147
-msgctxt "DB: products.Product.title"
-msgid "Thunderbird"
-msgstr "ਥੰਡਰਬਰਡ"
-
-#: kitsune/sumo/db_strings.py:1148
-msgctxt "DB: products.Product.description"
-msgid "Email software for Windows, Mac and Linux"
-msgstr "ਵਿੰਡੋਜ਼, ਮੈਕ, ਅਤੇ ਲੀਨਕਸ ਲਈ ਈਮੇਲ ਸਾਫਟਵੇਅਰ"
-
-#: kitsune/sumo/db_strings.py:1150
-msgctxt "DB: karma.Title.name"
-msgid "Administrator"
-msgstr "ਪਰਬੰਧਕ"
-
-#: kitsune/sumo/db_strings.py:1152
-msgctxt "DB: karma.Title.name"
-msgid "Buddy of the Month! (10/2015)"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1154
-msgctxt "DB: karma.Title.name"
-msgid "Locale Leader"
-msgstr "ਲੋਕੇਲ ਆਗੂ"
-
-#: kitsune/sumo/db_strings.py:1156
-msgctxt "DB: karma.Title.name"
-msgid "Moderator"
-msgstr "ਵਿਚੋਲਾ"
-
-#: kitsune/sumo/db_strings.py:1158
-msgctxt "DB: karma.Title.name"
-msgid "SUMO Warrior"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1160
-msgctxt "DB: karma.Title.name"
-msgid "Top 10 Contributor"
-msgstr "ਉੱਚ 10 ਯੋਗਦਾਨੀ"
-
-#: kitsune/sumo/db_strings.py:1162
-msgctxt "DB: karma.Title.name"
-msgid "Top 25 Contributor"
-msgstr "ਉੱਚ 25 ਯੋਗਦਾਨੀ"
 
 #: kitsune/sumo/form_fields.py:61
 msgid "To field is required."
@@ -10313,6 +10318,26 @@ msgstr "ਸਾਨੂੰ ਹੋਰ ਦੱਸੋ।"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਹੋਰ ਜਾਣਕਾਰਿਆ ਦਿਉ"
+
+#, fuzzy
+#~ msgctxt "DB: products.Topic.description"
+#~ msgid "Basics for using Firefox Private Network."
+#~ msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
+
+#, fuzzy
+#~ msgctxt "DB: products.Topic.title"
+#~ msgid "Manage account and settings"
+#~ msgstr "ਮੋਬਾਇਲ ਐਡ-ਆਨ"
+
+#, fuzzy
+#~ msgctxt "DB: products.Product.title"
+#~ msgid "Firefox Preview"
+#~ msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
+
+#, fuzzy
+#~ msgctxt "DB: products.Product.title"
+#~ msgid "Firefox Private Network Browser-level protection"
+#~ msgstr "ਫਾਇਰਫਾਕਸ ਲਾਈਟ"
 
 #, fuzzy
 #~ msgid "Firefox Private Network Browser-level Protection"

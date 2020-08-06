@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-04 19:04-0700\n"
+"POT-Creation-Date: 2020-08-05 19:04-0700\n"
 "PO-Revision-Date: 2020-07-06 22:00+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: Serbian\n"
@@ -4555,262 +4555,2542 @@ msgstr[0] "{n} нов ове недеље"
 msgstr[1] "{n} нових ове недеље"
 msgstr[2] "{n} нових ове недеље"
 
-#: kitsune/sumo/db_strings.py:18
+#: kitsune/sumo/db_strings.py:19
+msgctxt "DB: karma.Title.name"
+msgid "Administrator"
+msgstr "Администратор"
+
+#: kitsune/sumo/db_strings.py:21
+msgctxt "DB: karma.Title.name"
+msgid "Buddy of the Month! (10/2015)"
+msgstr "Пријатељ месеца! (10/2015)"
+
+#: kitsune/sumo/db_strings.py:23
+msgctxt "DB: karma.Title.name"
+msgid "Locale Leader"
+msgstr "Вођа локала"
+
+#: kitsune/sumo/db_strings.py:25
+msgctxt "DB: karma.Title.name"
+msgid "Moderator"
+msgstr "Модератор"
+
+#: kitsune/sumo/db_strings.py:27
+msgctxt "DB: karma.Title.name"
+msgid "SUMO Warrior"
+msgstr "SUMO ратник"
+
+#: kitsune/sumo/db_strings.py:29
+msgctxt "DB: karma.Title.name"
+msgid "Top 10 Contributor"
+msgstr "10 најбољих сарадника"
+
+#: kitsune/sumo/db_strings.py:31
+msgctxt "DB: karma.Title.name"
+msgid "Top 25 Contributor"
+msgstr "25 најбољих сарадника"
+
+#: kitsune/sumo/db_strings.py:32
+msgctxt "DB: products.Product.title"
+msgid "Firefox"
+msgstr "Firefox"
+
+#: kitsune/sumo/db_strings.py:33
+msgctxt "DB: products.Product.description"
+msgid "Web browser for Windows, Mac and Linux"
+msgstr "Веб прегледач за Windows, Mac и Linux"
+
+#: kitsune/sumo/db_strings.py:34
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Android"
+msgstr "Firefox за Android"
+
+#: kitsune/sumo/db_strings.py:35
+msgctxt "DB: products.Product.description"
+msgid "Web browser for Android smartphones and tablets"
+msgstr "Веб прегледач за Android паметне телефоне и таблете"
+
+#: kitsune/sumo/db_strings.py:36
+msgctxt "DB: products.Product.title"
+msgid "Firefox for iOS"
+msgstr "Firefox за iOS"
+
+#: kitsune/sumo/db_strings.py:37
+msgctxt "DB: products.Product.description"
+msgid "Firefox for iPhone, iPad and iPod touch devices"
+msgstr "Firefox за iPhone, iPad и iPod уређаје на додир"
+
+#: kitsune/sumo/db_strings.py:38
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox Accounts"
+msgstr "Firefox налози"
+
+#: kitsune/sumo/db_strings.py:39
+msgctxt "DB: products.Product.description"
+msgid "Privacy-first products for desktop and mobile"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:40
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Android Beta"
+msgstr "Firefox за Android"
+
+#: kitsune/sumo/db_strings.py:41
+msgctxt "DB: products.Product.description"
+msgid "Early version of an experimental Firefox browser for Android."
+msgstr "Рана верзија експерименталног Firefox прегледача за Андроид."
+
+#: kitsune/sumo/db_strings.py:45
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Enterprise"
+msgstr "Firefox за Enterprise"
+
+#: kitsune/sumo/db_strings.py:46
+msgctxt "DB: products.Product.description"
+msgid "Firefox Quantum for businesses"
+msgstr "Firefox Quantum за бизнисе"
+
+#: kitsune/sumo/db_strings.py:47
+msgctxt "DB: products.Product.title"
+msgid "Firefox OS"
+msgstr "Firefox OS"
+
+#: kitsune/sumo/db_strings.py:48
+msgctxt "DB: products.Product.description"
+msgid "Mobile OS for smartphones"
+msgstr "Мобилни OS за паметне телефоне"
+
+#: kitsune/sumo/db_strings.py:49
+msgctxt "DB: products.Product.title"
+msgid "Firefox Lite"
+msgstr "Firefox Lite"
+
+#: kitsune/sumo/db_strings.py:50
+msgctxt "DB: products.Product.description"
+msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
+msgstr "Мобилни прегледач за Индонезију, Индију, Филипине и Тајланд"
+
+#: kitsune/sumo/db_strings.py:54
+msgctxt "DB: products.Product.title"
+msgid "Contributors"
+msgstr "Сарадници"
+
+#: kitsune/sumo/db_strings.py:55
+msgctxt "DB: products.Product.description"
+msgid "Contributor articles"
+msgstr "Чланци сарадника"
+
+#: kitsune/sumo/db_strings.py:56
+msgctxt "DB: products.Product.title"
+msgid "Firefox Reality"
+msgstr "Firefox Reality"
+
+#: kitsune/sumo/db_strings.py:57
+msgctxt "DB: products.Product.description"
+msgid "Web browser for virtual reality headsets"
+msgstr "Веб прегледач за наочаре за виртуелну реалност"
+
+#: kitsune/sumo/db_strings.py:58
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Mozilla VPN"
+msgstr "Mozilla"
+
+#: kitsune/sumo/db_strings.py:59
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "VPN for Windows 10, Android, and iOS devices"
+msgstr "VPN за Windows 10 и Андроид уређаје"
+
+#: kitsune/sumo/db_strings.py:60
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox Private Network"
+msgstr "Firefox приватна мрежа"
+
+#: kitsune/sumo/db_strings.py:61
+#, fuzzy
+msgctxt "DB: products.Product.description"
+msgid "Browse securely on public Wi-Fi using a Firefox add-on."
+msgstr "Прегледајте безбедно на јавним Wi-Fi мрежама"
+
+#: kitsune/sumo/db_strings.py:65
+msgctxt "DB: products.Product.title"
+msgid "Open Badges"
+msgstr "Значке"
+
+#: kitsune/sumo/db_strings.py:66
+msgctxt "DB: products.Product.description"
+msgid "A new online standard to recognize and verify learning"
+msgstr "Нови онлајн стандар који препознаје и потврђује учење"
+
+#: kitsune/sumo/db_strings.py:70
+msgctxt "DB: products.Product.title"
+msgid "Webmaker"
+msgstr "Webmaker"
+
+#: kitsune/sumo/db_strings.py:71
+msgctxt "DB: products.Product.description"
+msgid "Webmaker and other tools for teaching and learning the Web"
+msgstr "Webmaker и други алати за креирање и учење веба"
+
+#: kitsune/sumo/db_strings.py:75
+#, fuzzy
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Android (ESR)"
+msgstr "Firefox за Android"
+
+#: kitsune/sumo/db_strings.py:76
+msgctxt "DB: products.Product.description"
+msgid "Older version of Firefox for Android (no longer supported)"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:80
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Windows 8 Touch"
+msgstr "Firefox за Windows 8 Touch"
+
+#: kitsune/sumo/db_strings.py:81
+msgctxt "DB: products.Product.description"
+msgid "Firefox for Windows 8 touch devices"
+msgstr "Firefox за Windows 8 touch уређаје"
+
+#: kitsune/sumo/db_strings.py:82
+msgctxt "DB: products.Product.title"
+msgid "Firefox Lockwise"
+msgstr "Firefox Lockwise"
+
+#: kitsune/sumo/db_strings.py:83
+msgctxt "DB: products.Product.description"
+msgid "Mobile app that gives you access to passwords you've saved to Firefox."
+msgstr "Апликација која вам омогућава приступ лозинкама сачуваним у Firefox-у."
+
+#: kitsune/sumo/db_strings.py:87
+msgctxt "DB: products.Product.title"
+msgid "Pocket"
+msgstr "Pocket"
+
+#: kitsune/sumo/db_strings.py:88
+msgctxt "DB: products.Product.description"
+msgid "Discover and save stories for later"
+msgstr "Откријте и сачувајте приче за касније"
+
+#: kitsune/sumo/db_strings.py:89
+msgctxt "DB: products.Product.title"
+msgid "Privacy and Security"
+msgstr "Приватност и сигурност"
+
+#: kitsune/sumo/db_strings.py:90
+msgctxt "DB: products.Product.description"
+msgid "Learn more about Mozilla's privacy and security practices."
+msgstr "Сазнајте више о Mozilla полисама за приватност и безбедност."
+
+#: kitsune/sumo/db_strings.py:94
+msgctxt "DB: products.Product.title"
+msgid "Firefox ScreenshotGo"
+msgstr "Firefox ScreenshotGo"
+
+#: kitsune/sumo/db_strings.py:95
+msgctxt "DB: products.Product.description"
+msgid "Screenshot app for mobile"
+msgstr "Апликација снимака екрана за мобилни"
+
+#: kitsune/sumo/db_strings.py:96
+msgctxt "DB: products.Product.title"
+msgid "Firefox Send"
+msgstr "Firefox Send"
+
+#: kitsune/sumo/db_strings.py:97
+msgctxt "DB: products.Product.description"
+msgid "An app for sending files to anyone."
+msgstr "Апликација за слање датотека било коме."
+
+#: kitsune/sumo/db_strings.py:98
+msgctxt "DB: products.Product.title"
+msgid "Firefox Klar"
+msgstr "Firefox Clear"
+
+#: kitsune/sumo/db_strings.py:99
+msgctxt "DB: products.Product.description"
+msgid "Was ist Firefox Klar?"
+msgstr "Шта је Firefox Clear?"
+
+#: kitsune/sumo/db_strings.py:100
+msgctxt "DB: products.Product.title"
+msgid "Hubs"
+msgstr "Hub-ови"
+
+#: kitsune/sumo/db_strings.py:101
+msgctxt "DB: products.Product.description"
+msgid "Social virtual reality for headsets and browsers"
+msgstr "Друштвена виртуална стварност за ВР наочале и прегледаче"
+
+#: kitsune/sumo/db_strings.py:104
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Amazon Devices"
+msgstr "Firefox за Amazon уређаје"
+
+#: kitsune/sumo/db_strings.py:105
+msgctxt "DB: products.Product.description"
+msgid "Browser for Amazon devices"
+msgstr "Прегледач за Amazon уређаје"
+
+#: kitsune/sumo/db_strings.py:106
+msgctxt "DB: products.Product.title"
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: kitsune/sumo/db_strings.py:107
+msgctxt "DB: products.Product.description"
+msgid "Email software for Windows, Mac and Linux"
+msgstr "Софтвер за е-пошту за Windows, Mac и Linux"
+
+#: kitsune/sumo/db_strings.py:108
+msgctxt "DB: products.Product.title"
+msgid "Firefox Focus"
+msgstr "Firefox Focus"
+
+#: kitsune/sumo/db_strings.py:109
+msgctxt "DB: products.Product.description"
+msgid "Automatic privacy browser and content blocker"
+msgstr "Аутоматско приватно прегледање и блокирање садржаја"
+
+#: kitsune/sumo/db_strings.py:110
+msgctxt "DB: products.Product.title"
+msgid "Firefox for Fire TV"
+msgstr "Firefox за Fire TV"
+
+#: kitsune/sumo/db_strings.py:111
+msgctxt "DB: products.Product.description"
+msgid "Browser for Amazon Fire TV"
+msgstr "Прегледач за Amazon Fire TV"
+
+#: kitsune/sumo/db_strings.py:112 kitsune/sumo/db_strings.py:349
+msgctxt "DB: products.Topic.title"
+msgid "Learn the Basics: get started"
+msgstr "Научите основе: почните"
+
+#: kitsune/sumo/db_strings.py:113
+msgctxt "DB: products.Topic.description"
+msgid "Learn all you need to know to get started with Firefox."
+msgstr "Сазнајте све што требате знати о томе како почети са Firefox-ом."
+
+#: kitsune/sumo/db_strings.py:116 kitsune/sumo/db_strings.py:421
+msgctxt "DB: products.Topic.title"
+msgid "Bookmarks and tabs"
+msgstr "Забелешке и језичци"
+
+#: kitsune/sumo/db_strings.py:117
+msgctxt "DB: products.Topic.description"
+msgid "Access and organize your favorite webpages easily with bookmarks and tabs"
+msgstr "Приступите и организујте омиљене веб странице лако уз помоћ забелешки и језичака"
+
+#: kitsune/sumo/db_strings.py:121 kitsune/sumo/db_strings.py:301 kitsune/sumo/db_strings.py:410
+msgctxt "DB: products.Topic.title"
+msgid "Basic browsing"
+msgstr "Основе прегледања"
+
+#: kitsune/sumo/db_strings.py:122 kitsune/sumo/db_strings.py:302
+msgctxt "DB: products.Topic.description"
+msgid "Search and navigate easily with these essential features"
+msgstr "Претражите и лако се крећите са овим основним могућностима"
+
+#: kitsune/sumo/db_strings.py:126
+msgctxt "DB: products.Topic.title"
+msgid "Import settings from other browsers"
+msgstr "Увезите поставке из других прегледача"
+
+#: kitsune/sumo/db_strings.py:127
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to import or export your information between Firefox and another browser"
+msgstr "Сазнајте како да увезете или извезете информације између Firefox-а и другог веб прегледача"
+
+#: kitsune/sumo/db_strings.py:131
+msgctxt "DB: products.Topic.title"
+msgid "Video, audio and interactive settings"
+msgstr "Видео, аудио и интерактивне поставке"
+
+#: kitsune/sumo/db_strings.py:132
+msgctxt "DB: products.Topic.description"
+msgid "Change how Firefox handles videos, animations, music and other interactive content"
+msgstr "Промените како Firefox рукује са видео снимцима, анимацијама, музиком и другим интерактивним садржајем"
+
+#: kitsune/sumo/db_strings.py:136
+msgctxt "DB: products.Topic.title"
+msgid "How to use Firefox"
+msgstr "Како да користите Firefox"
+
+#: kitsune/sumo/db_strings.py:137
+msgctxt "DB: products.Topic.description"
+msgid "How to browse, search and customize your settings"
+msgstr "Како да сурфујете, претражујете и прилагодите ваше поставке"
+
+#: kitsune/sumo/db_strings.py:138 kitsune/sumo/db_strings.py:354 kitsune/sumo/db_strings.py:809
+msgctxt "DB: products.Topic.title"
+msgid "Download, install and migration"
+msgstr "Преузимања, инсталације и миграција"
+
+#: kitsune/sumo/db_strings.py:139
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to download Firefox on your desktop devices or move information to and from other browsers."
+msgstr "Сазнајте како да преузмете Firefox на Ваш десктоп уређај или како померити информације на и са других веб прегледача."
+
+#: kitsune/sumo/db_strings.py:143 kitsune/sumo/db_strings.py:359 kitsune/sumo/db_strings.py:771
+msgctxt "DB: products.Topic.title"
+msgid "Tips and tricks"
+msgstr "Савети и трикови"
+
+#: kitsune/sumo/db_strings.py:144
+msgctxt "DB: products.Topic.description"
+msgid "Go beyond the basics with these shortcuts and other tips."
+msgstr "Користите ове пречици и друге савете."
+
+#: kitsune/sumo/db_strings.py:148 kitsune/sumo/db_strings.py:155 kitsune/sumo/db_strings.py:312 kitsune/sumo/db_strings.py:463
+msgctxt "DB: products.Topic.title"
+msgid "Install and update"
+msgstr "Инсталирај и ажурирај"
+
+#: kitsune/sumo/db_strings.py:149
+msgctxt "DB: products.Topic.description"
+msgid "How to install Firefox and keep it up to date"
+msgstr "Како инсталирати Firefox и одржати га ажурираним"
+
+#: kitsune/sumo/db_strings.py:150
+msgctxt "DB: products.Topic.title"
+msgid "Display and appearance"
+msgstr "Приказ и изглед"
+
+#: kitsune/sumo/db_strings.py:151
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to change your toolbar, font sizes and browser colors"
+msgstr "Сазнајте како да промените алатну траку, величину фонта и боје прегледача"
+
+#: kitsune/sumo/db_strings.py:156
+msgctxt "DB: products.Topic.description"
+msgid "Download or update Firefox for Windows, Mac and Linux."
+msgstr "Преузмите или ажурирајте Firefox за Windows, Mac и Linux."
+
+#: kitsune/sumo/db_strings.py:159
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Sync"
+msgstr "Firefox Sync"
+
+#: kitsune/sumo/db_strings.py:160 kitsune/sumo/db_strings.py:364
+msgctxt "DB: products.Topic.description"
+msgid "Firefox Sync settings"
+msgstr "Подешавања Firefox синхронизације"
+
+#: kitsune/sumo/db_strings.py:161
+msgctxt "DB: products.Topic.title"
+msgid "Sync and save"
+msgstr "Синхронизуј и сними"
+
+#: kitsune/sumo/db_strings.py:162
+msgctxt "DB: products.Topic.description"
+msgid "Sync information on all your devices"
+msgstr "Синхронизујте информације на свим уређајима"
+
+#: kitsune/sumo/db_strings.py:163 kitsune/sumo/db_strings.py:525
+msgctxt "DB: products.Topic.title"
+msgid "Manage add-ons"
+msgstr "Управљај додацима"
+
+#: kitsune/sumo/db_strings.py:164
+msgctxt "DB: products.Topic.description"
+msgid "Enhance Firefox's functionality and appearance with add-ons"
+msgstr "Обогатите Firefox могућности и изглед са додацима"
+
+#: kitsune/sumo/db_strings.py:168
+msgctxt "DB: products.Topic.title"
+msgid "Sync, share and save"
+msgstr "Синхронизуј, подели и сачувај"
+
+#: kitsune/sumo/db_strings.py:169
+msgctxt "DB: products.Topic.description"
+msgid "Sync browsing information and content across multiple devices with Firefox Accounts."
+msgstr "Синхронизујте информације прегледања и садржај преко више уређаја са Firefox налозима."
+
+#: kitsune/sumo/db_strings.py:173
+msgctxt "DB: products.Topic.title"
+msgid "Firefox settings"
+msgstr "Firefox поставке"
+
+#: kitsune/sumo/db_strings.py:174
+msgctxt "DB: products.Topic.description"
+msgid "Privacy and personalization"
+msgstr "Приватност и прилагодљивост"
+
+#: kitsune/sumo/db_strings.py:175
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Hello"
+msgstr "Firefox Hello"
+
+#: kitsune/sumo/db_strings.py:176
+msgctxt "DB: products.Topic.description"
+msgid "Have video or voice conversations using the Firefox browser"
+msgstr "Имајте видео или гласовни разговор користећи Firefox прегледач"
+
+#: kitsune/sumo/db_strings.py:180
+msgctxt "DB: products.Topic.title"
+msgid "Chat and share"
+msgstr "Четујте и делите"
+
+#: kitsune/sumo/db_strings.py:181
+msgctxt "DB: products.Topic.description"
+msgid "Connect on video and share pages with your network"
+msgstr "Повежите се на видео и поделите страницу на вашој мрежи"
+
+#: kitsune/sumo/db_strings.py:184 kitsune/sumo/db_strings.py:193
+msgctxt "DB: products.Topic.title"
+msgid "Personalize Firefox"
+msgstr "Прилагодите Firefox"
+
+#: kitsune/sumo/db_strings.py:185
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox yours with these customization options."
+msgstr "Учините Firefox вашим са овим подешавањима прилагођења."
+
+#: kitsune/sumo/db_strings.py:188 kitsune/sumo/db_strings.py:372 kitsune/sumo/db_strings.py:794
+msgctxt "DB: products.Topic.title"
+msgid "Customize controls, options and add-ons"
+msgstr "Подесите контроле, опције и додатке"
+
+#: kitsune/sumo/db_strings.py:189
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox yours by adding and managing the features that you want."
+msgstr "Учините Firefox вашим додавањем и управљањем функција које ви желите."
+
+#: kitsune/sumo/db_strings.py:194
+msgctxt "DB: products.Topic.description"
+msgid "Change Firefox's appearance, behavior and settings."
+msgstr "Измените изглед, понашање и поставке Firefox-а."
+
+#: kitsune/sumo/db_strings.py:197 kitsune/sumo/db_strings.py:367 kitsune/sumo/db_strings.py:823
+msgctxt "DB: products.Topic.title"
+msgid "Privacy and security settings"
+msgstr "Подешавања сигурности и приватности"
+
+#: kitsune/sumo/db_strings.py:198
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to keep your information safe and secure with Firefox's private browsing, password features and other security settings."
+msgstr "Научите како да сачувате своје информације помоћу Firefox-овог приватног прегледања, могућностима са лозинкама и другим поставкама безбедности."
+
+#: kitsune/sumo/db_strings.py:202 kitsune/sumo/db_strings.py:335
+msgctxt "DB: products.Topic.title"
+msgid "Do more with apps"
+msgstr "Урадите више са апликацијама"
+
+#: kitsune/sumo/db_strings.py:203
+msgctxt "DB: products.Topic.description"
+msgid "Install open apps from the Marketplace to add more fun and functionality to your device"
+msgstr "Инсталирајте отворене апликације са Marketplace-а да додате више забаве и могућности на ваш уређај"
+
+#: kitsune/sumo/db_strings.py:207 kitsune/sumo/db_strings.py:328
+msgctxt "DB: products.Topic.title"
+msgid "Protect your privacy"
+msgstr "Заштитите приватност"
+
+#: kitsune/sumo/db_strings.py:208
+msgctxt "DB: products.Topic.description"
+msgid "Keep your information safe from prying eyes with the latest privacy and security features."
+msgstr "Држите своје информације на безбедном са последњим могућностима за приватност и безбедност."
+
+#: kitsune/sumo/db_strings.py:212 kitsune/sumo/db_strings.py:347 kitsune/sumo/db_strings.py:567 kitsune/sumo/db_strings.py:851
+msgctxt "DB: products.Topic.title"
+msgid "Get community support"
+msgstr "Потражите подршку заједнице"
+
+#: kitsune/sumo/db_strings.py:213 kitsune/sumo/db_strings.py:348 kitsune/sumo/db_strings.py:568 kitsune/sumo/db_strings.py:852
+msgctxt "DB: products.Topic.description"
+msgid "Get community support"
+msgstr "Потражите подршку заједнице"
+
+#: kitsune/sumo/db_strings.py:214
+msgctxt "DB: products.Topic.title"
+msgid "Manage preferences and add-ons"
+msgstr "Управљај поставкама и додацима"
+
+#: kitsune/sumo/db_strings.py:215
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox yours through customization settings and add-ons"
+msgstr "Учините Firefox вашим кроз прилагођавање поставки са додацима"
+
+#: kitsune/sumo/db_strings.py:219 kitsune/sumo/db_strings.py:560 kitsune/sumo/db_strings.py:583 kitsune/sumo/db_strings.py:717 kitsune/sumo/db_strings.py:874
+msgctxt "DB: products.Topic.title"
+msgid "Fix problems"
+msgstr "Решите проблеме"
+
+#: kitsune/sumo/db_strings.py:220
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot slowness, crashing and error messages."
+msgstr "Поправите спорост, рушење и поруке о грешкама."
+
+#: kitsune/sumo/db_strings.py:223 kitsune/sumo/db_strings.py:340 kitsune/sumo/db_strings.py:843
+msgctxt "DB: products.Topic.title"
+msgid "Fix slowness, crashing, error messages and other problems"
+msgstr "Поправите успореност, падове, грешке и друге проблеме"
+
+#: kitsune/sumo/db_strings.py:226 kitsune/sumo/db_strings.py:343
+msgctxt "DB: products.Topic.description"
+msgid "Fix slowness, crashing, error messages and other problems"
+msgstr "Поправите успореност, падове, грешке и друге проблеме"
+
+#: kitsune/sumo/db_strings.py:230
+msgctxt "DB: products.Topic.title"
+msgid "Advanced and experimental features"
+msgstr "Напредне и експерименталне могућности"
+
+#: kitsune/sumo/db_strings.py:231
+msgctxt "DB: products.Topic.description"
+msgid "Learn tips beyond the basics and try features before they're released to the public."
+msgstr "Сазнајте за нове трикове и испробајте могућности пре него што буду јавно доступне."
+
+#: kitsune/sumo/db_strings.py:235 kitsune/sumo/db_strings.py:365
+msgctxt "DB: products.Topic.title"
+msgid "Tab basics"
+msgstr "Основе о језичцима"
+
+#: kitsune/sumo/db_strings.py:236 kitsune/sumo/db_strings.py:366
+msgctxt "DB: products.Topic.description"
+msgid "Tab basics"
+msgstr "Основе о језичцима"
+
+#: kitsune/sumo/db_strings.py:237
+msgctxt "DB: products.Topic.title"
+msgid "Firefox versions and languages"
+msgstr "Firefox верзије и језици"
+
+#: kitsune/sumo/db_strings.py:238
+msgctxt "DB: products.Topic.description"
+msgid "Firefox versions and languages"
+msgstr "Firefox верзије и језици"
+
+#: kitsune/sumo/db_strings.py:239
+msgctxt "DB: products.Topic.title"
+msgid "Copy your personal information from one browser to another"
+msgstr "Копирајте Ваше личне информације са једног прегледача на други"
+
+#: kitsune/sumo/db_strings.py:242
+msgctxt "DB: products.Topic.description"
+msgid "Copy your personal information from one browser to another"
+msgstr "Копирајте ваше личне информације са једног прегледача на други"
+
+#: kitsune/sumo/db_strings.py:246
+msgctxt "DB: products.Topic.title"
+msgid "Cookies and cache"
+msgstr "Колачићи и кеш"
+
+#: kitsune/sumo/db_strings.py:247
+msgctxt "DB: products.Topic.description"
+msgid "Control the information that Firefox saves"
+msgstr "Контролишите информације које Firefox снима"
+
+#: kitsune/sumo/db_strings.py:248
+msgctxt "DB: products.Topic.title"
+msgid "Passwords, forms, search, and history - control what Firefox suggests"
+msgstr "Лозинке, форме, претрага, и историјат - контролишите шта Firefox предлаже"
+
+#: kitsune/sumo/db_strings.py:252
+msgctxt "DB: products.Topic.description"
+msgid "Passwords, forms, search, and history - control what Firefox suggests"
+msgstr "Лозинке, форме, претрага, и историјат - контролишите шта Firefox предлаже"
+
+#: kitsune/sumo/db_strings.py:256 kitsune/sumo/db_strings.py:379
+msgctxt "DB: products.Topic.title"
+msgid "Firefox controls and buttons"
+msgstr "Firefox контроле и дугмад"
+
+#: kitsune/sumo/db_strings.py:257 kitsune/sumo/db_strings.py:380
+msgctxt "DB: products.Topic.description"
+msgid "Firefox controls and buttons"
+msgstr "Firefox контроле и дугмад"
+
+#: kitsune/sumo/db_strings.py:258 kitsune/sumo/db_strings.py:819
+msgctxt "DB: products.Topic.title"
+msgid "Tab settings"
+msgstr "Поставке језичака"
+
+#: kitsune/sumo/db_strings.py:259 kitsune/sumo/db_strings.py:820
+msgctxt "DB: products.Topic.description"
+msgid "Tab settings"
+msgstr "Поставке језичака"
+
+#: kitsune/sumo/db_strings.py:260 kitsune/sumo/db_strings.py:381
+msgctxt "DB: products.Topic.title"
+msgid "Customize Firefox with add-ons, plugins, and extensions"
+msgstr "Прилагодите Firefox са додацима, прикључцима и екстензијама"
+
+#: kitsune/sumo/db_strings.py:261 kitsune/sumo/db_strings.py:382
+msgctxt "DB: products.Topic.description"
+msgid "Customize Firefox with add-ons, plugins, and extensions"
+msgstr "Прилагодите Firefox са додацима, прикључцима и екстензијама"
+
+#: kitsune/sumo/db_strings.py:264
+msgctxt "DB: products.Topic.title"
+msgid "Firefox options, preferences and settings"
+msgstr "Firefox опције, преформансе и подешавања"
+
+#: kitsune/sumo/db_strings.py:265
+msgctxt "DB: products.Topic.description"
+msgid "Firefox options, preferences and settings"
+msgstr "Firefox опције, преформансе и подешавања"
+
+#: kitsune/sumo/db_strings.py:266
+msgctxt "DB: products.Topic.title"
+msgid "Bookmark options"
+msgstr "Поставке забелешки"
+
+#: kitsune/sumo/db_strings.py:267
+msgctxt "DB: products.Topic.description"
+msgid "Bookmark options"
+msgstr "Поставке забелешки"
+
+#: kitsune/sumo/db_strings.py:268 kitsune/sumo/db_strings.py:385
+msgctxt "DB: products.Topic.title"
+msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
+msgstr "Исправите проблеме уз помоћ веб сајтова (Facebook, YouTube, webmail итд.)"
+
+#: kitsune/sumo/db_strings.py:271 kitsune/sumo/db_strings.py:388
+msgctxt "DB: products.Topic.description"
+msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
+msgstr "Исправите проблеме уз помоћ веб сајтова (Facebook, YouTube, webmail итд.)"
+
+#: kitsune/sumo/db_strings.py:275 kitsune/sumo/db_strings.py:821
+msgctxt "DB: products.Topic.title"
+msgid "Error messages: what they mean and how to fix"
+msgstr "Порука о грешци: шта су мислили и како поправити"
+
+#: kitsune/sumo/db_strings.py:276
+msgctxt "DB: products.Topic.description"
+msgid "How to troubleshoot error messages on Firefox"
+msgstr "Како решити проблем порука о грешкама у Firefox-у"
+
+#: kitsune/sumo/db_strings.py:277
+msgctxt "DB: products.Topic.title"
+msgid "Unblock Firefox from connecting to the Internet"
+msgstr "Одблокирајте Firefox од повезивања на интернет"
+
+#: kitsune/sumo/db_strings.py:278
+msgctxt "DB: products.Topic.description"
+msgid "Unblock Firefox from connecting to the Internet"
+msgstr "Одблокирајте Firefox од повезивања на интернет"
+
+#: kitsune/sumo/db_strings.py:279 kitsune/sumo/db_strings.py:573 kitsune/sumo/db_strings.py:841
+msgctxt "DB: products.Topic.title"
+msgid "Procedures to diagnose and fix problems"
+msgstr "Процедуре за дијагнозу и решавање проблема"
+
+#: kitsune/sumo/db_strings.py:280 kitsune/sumo/db_strings.py:574 kitsune/sumo/db_strings.py:842
+msgctxt "DB: products.Topic.description"
+msgid "Procedures to diagnose and fix problems"
+msgstr "Процедуре за дијагнозу и решавање проблема"
+
+#: kitsune/sumo/db_strings.py:281
+msgctxt "DB: products.Topic.title"
+msgid "Videos, sound, pictures and animations don't work"
+msgstr "Видео, звук, слике и анимације не раде"
+
+#: kitsune/sumo/db_strings.py:282
+msgctxt "DB: products.Topic.description"
+msgid "Videos, sound, pictures and animations don't work"
+msgstr "Видео, звук, слике и анимације не раде"
+
+#: kitsune/sumo/db_strings.py:283
+msgctxt "DB: products.Topic.title"
+msgid "Firefox is slow or stops working"
+msgstr "Firefox је спор или престаје да ради"
+
+#: kitsune/sumo/db_strings.py:284
+msgctxt "DB: products.Topic.description"
+msgid "Slowness or hanging"
+msgstr "Спорост или падање"
+
+#: kitsune/sumo/db_strings.py:285 kitsune/sumo/db_strings.py:392
+msgctxt "DB: products.Topic.title"
+msgid "Firefox crashes"
+msgstr "Firefox се руши"
+
+#: kitsune/sumo/db_strings.py:286 kitsune/sumo/db_strings.py:393
+msgctxt "DB: products.Topic.description"
+msgid "Crashing"
+msgstr "Падови"
+
+#: kitsune/sumo/db_strings.py:287
+msgctxt "DB: products.Topic.title"
+msgid "Firefox won't save settings or remember information"
+msgstr "Firefox неће да сачува подешавања или запамти информације"
+
+#: kitsune/sumo/db_strings.py:288
+msgctxt "DB: products.Topic.description"
+msgid "Firefox won't save settings or remember information"
+msgstr "Firefox неће да сачува подешавања или запамти информације"
+
+#: kitsune/sumo/db_strings.py:291 kitsune/sumo/db_strings.py:857
+msgctxt "DB: products.Topic.title"
+msgid "Problems with add-ons, plugins or unwanted software"
+msgstr "Проблеми са додацима, прикључцима или нежељеним софтвером"
+
+#: kitsune/sumo/db_strings.py:292 kitsune/sumo/db_strings.py:858
+msgctxt "DB: products.Topic.description"
+msgid "Problems with add-ons, plugins or unwanted software"
+msgstr "Проблеми са додацима, прикључцима или нежељеним софтвером"
+
+#: kitsune/sumo/db_strings.py:295 kitsune/sumo/db_strings.py:394 kitsune/sumo/db_strings.py:575
+msgctxt "DB: products.Topic.title"
+msgid "Mozilla Persona"
+msgstr "Mozilla Persona"
+
+#: kitsune/sumo/db_strings.py:296 kitsune/sumo/db_strings.py:395 kitsune/sumo/db_strings.py:576 kitsune/sumo/db_strings.py:620
+msgctxt "DB: products.Topic.description"
+msgid "Mozilla Persona"
+msgstr "Mozilla Persona"
+
+#: kitsune/sumo/db_strings.py:297 kitsune/sumo/db_strings.py:577
+msgctxt "DB: products.Topic.title"
+msgid "Hot topics"
+msgstr "Популарне теме"
+
+#: kitsune/sumo/db_strings.py:298 kitsune/sumo/db_strings.py:578 kitsune/sumo/db_strings.py:622
+msgctxt "DB: products.Topic.description"
+msgid "Hot topics"
+msgstr "Популарне теме"
+
+#: kitsune/sumo/db_strings.py:299 kitsune/sumo/db_strings.py:398 kitsune/sumo/db_strings.py:745 kitsune/sumo/db_strings.py:866
+msgctxt "DB: products.Topic.title"
+msgid "Other"
+msgstr "Остало"
+
+#: kitsune/sumo/db_strings.py:300 kitsune/sumo/db_strings.py:399 kitsune/sumo/db_strings.py:867
+msgctxt "DB: products.Topic.description"
+msgid "Other"
+msgstr "Остало"
+
+#: kitsune/sumo/db_strings.py:306
+msgctxt "DB: products.Topic.title"
+msgid "How to use Firefox for Android"
+msgstr "Како да користим Firefox за Android"
+
+#: kitsune/sumo/db_strings.py:307
+msgctxt "DB: products.Topic.description"
+msgid "How to use Firefox for Android"
+msgstr "Како да користим Firefox за Android"
+
+#: kitsune/sumo/db_strings.py:308
+msgctxt "DB: products.Topic.title"
+msgid "What's new in Firefox for Android"
+msgstr "Шта је ново у Firefox-у за Android"
+
+#: kitsune/sumo/db_strings.py:309
+msgctxt "DB: products.Topic.description"
+msgid "See what new features are available in each release"
+msgstr "Погледајте које нове могућности су доступне у сваком издању"
+
+#: kitsune/sumo/db_strings.py:313
+msgctxt "DB: products.Topic.description"
+msgid "How to install and keep Firefox for Android up to date"
+msgstr "Како инсталирати и пренети информације на Firefox за Android"
+
+#: kitsune/sumo/db_strings.py:316
+msgctxt "DB: products.Topic.title"
+msgid "Save, share and sync"
+msgstr "Сними, подели и синхронизуј"
+
+#: kitsune/sumo/db_strings.py:317
+msgctxt "DB: products.Topic.description"
+msgid "Save, share and synchronize content with other devices"
+msgstr "Сними, подели и синхронизуј садржај са другим уређајима"
+
+#: kitsune/sumo/db_strings.py:320
+msgctxt "DB: products.Topic.title"
+msgid "Changing your settings"
+msgstr "Мењајте ваше поставке"
+
+#: kitsune/sumo/db_strings.py:321
+msgctxt "DB: products.Topic.description"
+msgid "Change Firefox's behavior."
+msgstr "Промените понашање Firefox-а."
+
+#: kitsune/sumo/db_strings.py:322
+msgctxt "DB: products.Topic.title"
+msgid "Cast to your TV"
+msgstr "Пребаци на TV"
+
+#: kitsune/sumo/db_strings.py:323
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to view content on another screen"
+msgstr "Сазнајте више о томе како да видите садржај на другом екрану"
+
+#: kitsune/sumo/db_strings.py:324
+msgctxt "DB: products.Topic.title"
+msgid "Popular articles"
+msgstr "Чланци сарадника"
+
+#: kitsune/sumo/db_strings.py:325
+msgctxt "DB: products.Topic.description"
+msgid "Popular tips and solutions for Firefox for Android"
+msgstr "Сазнајте како да инсталирате и пренесете информације на Firefox за Android."
+
+#: kitsune/sumo/db_strings.py:329
+msgctxt "DB: products.Topic.description"
+msgid "Control how your information is saved or tracked"
+msgstr "Контролишите како се ваше информације снимају или прате"
+
+#: kitsune/sumo/db_strings.py:330
+msgctxt "DB: products.Topic.title"
+msgid "Customize settings and preferences"
+msgstr "Прилагодите поставке"
+
+#: kitsune/sumo/db_strings.py:331
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox for Android yours with these customization options"
+msgstr "Нека Firefox за Android ради како ви желите кроз могућности прилагођавања"
+
+#: kitsune/sumo/db_strings.py:336
+msgctxt "DB: products.Topic.description"
+msgid "Learn to find and install open apps to add more fun and functionality to your device"
+msgstr "Сазнајте како да пронађете и инсталирате отворене апликације да би додали могућности и учинили уређај забавнијим"
+
+#: kitsune/sumo/db_strings.py:350
+msgctxt "DB: products.Topic.description"
+msgid "Learn all you need to know to get Firefox for Android up and running."
+msgstr "Сазнајте све што Вам треба да би сте покренули и користили Firefox за Android."
+
+#: kitsune/sumo/db_strings.py:355
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to install and transfer information to Firefox for Android."
+msgstr "Сазнајте како да инсталирате и пренесете информације на Firefox за Android."
+
+#: kitsune/sumo/db_strings.py:360
+msgctxt "DB: products.Topic.description"
+msgid "Tips and tricks"
+msgstr "Савети и трикови"
+
+#: kitsune/sumo/db_strings.py:361
+msgctxt "DB: products.Topic.title"
+msgid "Use bookmarks"
+msgstr "Користи забелешке"
+
+#: kitsune/sumo/db_strings.py:362
+msgctxt "DB: products.Topic.description"
+msgid "The basics of using bookmarks"
+msgstr "Основе коришћења забелешки"
+
+#: kitsune/sumo/db_strings.py:363
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Sync settings"
+msgstr "Подешавања Firefox синхронизације"
+
+#: kitsune/sumo/db_strings.py:368
+msgctxt "DB: products.Topic.description"
+msgid "Keep your information safe with Firefox for Android's privacy and security settings."
+msgstr "Држите своје информације на безбедном помоћу поставки за приватност и безбедност унутар Firefox-а за Android."
+
+#: kitsune/sumo/db_strings.py:373
+msgctxt "DB: products.Topic.description"
+msgid "Make Firefox for Android work the way you want through customization."
+msgstr "Нека Firefox за Android ради како ви желите кроз прилагођавање."
+
+#: kitsune/sumo/db_strings.py:377
+msgctxt "DB: products.Topic.title"
+msgid "Cookies"
+msgstr "Колачићи"
+
+#: kitsune/sumo/db_strings.py:378
+msgctxt "DB: products.Topic.description"
+msgid "Cookies"
+msgstr "Колачићи"
+
+#: kitsune/sumo/db_strings.py:396 kitsune/sumo/db_strings.py:535
+msgctxt "DB: products.Topic.title"
+msgid "Marketplace"
+msgstr "Marketplace"
+
+#: kitsune/sumo/db_strings.py:397
+msgctxt "DB: products.Topic.description"
+msgid "Firefox Marketplace"
+msgstr "Firefox Marketplace"
+
+#: kitsune/sumo/db_strings.py:400
+msgctxt "DB: products.Topic.title"
+msgid "Install and Update"
+msgstr "Инсталирај и ажурирај"
+
+#: kitsune/sumo/db_strings.py:401
+msgctxt "DB: products.Topic.description"
+msgid "Install and keep Firefox up to date on your iPad, iPhone or iPod Touch."
+msgstr "Инсталирајте Firefox на ваш iPad, iPhone или iPod Touch."
+
+#: kitsune/sumo/db_strings.py:405
+msgctxt "DB: products.Topic.title"
+msgid "Reader View and List"
+msgstr "Приказ читача и листе"
+
+#: kitsune/sumo/db_strings.py:406
+msgctxt "DB: products.Topic.description"
+msgid "Read and save web pages in a clutter-free, reader-friendly view"
+msgstr "Читајте и снимите веб странице користећи прегледан приказ читача"
+
+#: kitsune/sumo/db_strings.py:411
+msgctxt "DB: products.Topic.description"
+msgid "How to use bookmarks, tabs and basic Firefox features on your iOS device"
+msgstr "Како да користите забелешке, језичке и основне Firefox могућности на iOS уређају"
+
+#: kitsune/sumo/db_strings.py:415
+msgctxt "DB: products.Topic.title"
+msgid "History"
+msgstr "Историја"
+
+#: kitsune/sumo/db_strings.py:416
+msgctxt "DB: products.Topic.description"
+msgid "Change your history settings on Firefox for iOS"
+msgstr "Промените поставке за историјат на Firefox за iOS уређају"
+
+#: kitsune/sumo/db_strings.py:417
+msgctxt "DB: products.Topic.title"
+msgid "How to use Firefox for iOS"
+msgstr "Firefox за iOS"
+
+#: kitsune/sumo/db_strings.py:418
+msgctxt "DB: products.Topic.description"
+msgid "General usage questions"
+msgstr "Скоро ажурирана питања"
+
+#: kitsune/sumo/db_strings.py:419
+msgctxt "DB: products.Topic.title"
+msgid "What's new in Firefox for iOS"
+msgstr "Шта је ново у Firefox-у за iOS"
+
+#: kitsune/sumo/db_strings.py:420
+msgctxt "DB: products.Topic.description"
+msgid "See what features are available in each release."
+msgstr "Погледајте које могућности су доступне у сваком издању."
+
+#: kitsune/sumo/db_strings.py:422
+msgctxt "DB: products.Topic.description"
+msgid "Access websites easily with bookmarks and tab features"
+msgstr "Приступите веб сајтовима лако са забелешкама и могућностима за језичке"
+
+#: kitsune/sumo/db_strings.py:425
+msgctxt "DB: products.Topic.title"
+msgid "Search"
+msgstr "Претражи"
+
+#: kitsune/sumo/db_strings.py:426
+msgctxt "DB: products.Topic.description"
+msgid "Customize your search settings in Firefox for iOS"
+msgstr "Прилагодите поставке претраге на Firefox за iOS уређају"
+
+#: kitsune/sumo/db_strings.py:427
+msgctxt "DB: products.Topic.title"
+msgid "Firefox for iOS is not working as expected"
+msgstr "Није радило како се очекивало"
+
+#: kitsune/sumo/db_strings.py:428
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot problems with Firefox for iOS."
+msgstr "Решите поруке о грешкама у Firefox-у за iOS"
+
+#: kitsune/sumo/db_strings.py:429
+msgctxt "DB: products.Topic.title"
+msgid "Privacy"
+msgstr "Приватност"
+
+#: kitsune/sumo/db_strings.py:430
+msgctxt "DB: products.Topic.description"
+msgid "Protect your information with Firefox's privacy settings on iOS"
+msgstr "Заштитите информације са поставкама за приватност на Firefox за iOS"
+
+#: kitsune/sumo/db_strings.py:434
+msgctxt "DB: products.Topic.title"
+msgid "Sync, save and share"
+msgstr "Синхронизу, сними и подели"
+
+#: kitsune/sumo/db_strings.py:435
+msgctxt "DB: products.Topic.description"
+msgid "Share web pages on Firefox for iOS"
+msgstr "Поделите веб странице на Firefox-у за iOS"
+
+#: kitsune/sumo/db_strings.py:436
+msgctxt "DB: products.Topic.title"
+msgid "Customize preferences"
+msgstr "Прилагодите поставке"
+
+#: kitsune/sumo/db_strings.py:437
+msgctxt "DB: products.Topic.description"
+msgid "Customize preferences for Firefox for iOS"
+msgstr "Прилагодите поставке за Firefox за iOS"
+
+#: kitsune/sumo/db_strings.py:438
+msgctxt "DB: products.Topic.title"
+msgid "Crashes, errors and other issues"
+msgstr "Рушења, грешке и други проблеми"
+
+#: kitsune/sumo/db_strings.py:439
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot error message on Firefox for iOS"
+msgstr "Решите поруке о грешкама у Firefox-у за iOS"
+
+#: kitsune/sumo/db_strings.py:440 kitsune/sumo/db_strings.py:467 kitsune/sumo/db_strings.py:579 kitsune/sumo/db_strings.py:590 kitsune/sumo/db_strings.py:747 kitsune/sumo/db_strings.py:870
+msgctxt "DB: products.Topic.title"
+msgid "Get started"
+msgstr "Започните"
+
+#: kitsune/sumo/db_strings.py:441
+msgctxt "DB: products.Topic.description"
+msgid "Firefox OS basics"
+msgstr "Основе Firefox OS-а"
+
+#: kitsune/sumo/db_strings.py:442
+msgctxt "DB: products.Topic.title"
+msgid "Basic Features"
+msgstr "Основне функције"
+
+#: kitsune/sumo/db_strings.py:443
+msgctxt "DB: products.Topic.description"
+msgid "Learn the basic functionality for your Firefox OS phone. "
+msgstr "Научите основне функционалности Firefox OS телефона. "
+
+#: kitsune/sumo/db_strings.py:447
+msgctxt "DB: products.Topic.title"
+msgid "Download and Manage Apps"
+msgstr "Преузмите и управљајте са апликацијама"
+
+#: kitsune/sumo/db_strings.py:448
+msgctxt "DB: products.Topic.description"
+msgid "Download apps from the Marketplace"
+msgstr "Преузмите апликације са Marketplace-а"
+
+#: kitsune/sumo/db_strings.py:449
+msgctxt "DB: products.Topic.title"
+msgid "Date and Time"
+msgstr "Датум и време"
+
+#: kitsune/sumo/db_strings.py:450
+msgctxt "DB: products.Topic.description"
+msgid "Setting a date and time on your Firefox OS phone"
+msgstr "Подешавање датума и времена на Firefox OS телефону"
+
+#: kitsune/sumo/db_strings.py:451
+msgctxt "DB: products.Topic.title"
+msgid "Display"
+msgstr "Приказ"
+
+#: kitsune/sumo/db_strings.py:452
+msgctxt "DB: products.Topic.description"
+msgid "Customize your screen on your Firefox OS device."
+msgstr "Измените екран на Firefox OS уређају."
+
+#: kitsune/sumo/db_strings.py:453
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Release notes"
+msgstr "Белешке о издању"
+
+#: kitsune/sumo/db_strings.py:454
+msgctxt "DB: products.Topic.description"
+msgid "Where to find release notes and upcoming features."
+msgstr "Где пронаћи биљешке о издању и надолазећим функцијама."
+
+#: kitsune/sumo/db_strings.py:457
+msgctxt "DB: products.Topic.title"
+msgid "Windows"
+msgstr "Windows"
+
+#: kitsune/sumo/db_strings.py:458
+msgctxt "DB: products.Topic.description"
+msgid "Deploying Firefox on Windows computers."
+msgstr "Имплементирање Firefox-а на Windows рачунарима."
+
+#: kitsune/sumo/db_strings.py:459
+msgctxt "DB: products.Topic.title"
+msgid "Manage certificates"
+msgstr "Управљајте сертификатима"
+
+#: kitsune/sumo/db_strings.py:460
+msgctxt "DB: products.Topic.description"
+msgid "Set up certificates on Firefox for your organization."
+msgstr "Поставите сертификате у Firefox-у за вашу организацију."
+
+#: kitsune/sumo/db_strings.py:464
+msgctxt "DB: products.Topic.description"
+msgid "Download and install the mobile app on your device."
+msgstr "Преузмите и инсталирајте апликацију на мобилни уређај."
+
+#: kitsune/sumo/db_strings.py:468
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Learn the basics"
+msgstr "Научите основe: започните"
+
+#: kitsune/sumo/db_strings.py:469
+msgctxt "DB: products.Topic.title"
+msgid "Calling and Contacts"
+msgstr "Позивање и контакти"
+
+#: kitsune/sumo/db_strings.py:470
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to add and manage contacts, as well as make one-to-one or conference calls on your Firefox OS phone."
+msgstr "Научите како да додате и управљате контактима, као и како да направите један-на-један или групне позиве на Firefox OS телефону."
+
+#: kitsune/sumo/db_strings.py:474
+msgctxt "DB: products.Topic.title"
+msgid "Customization of Firefox in an enterprise environment"
+msgstr "Прилагођавање Firefox-а у пословном окружењу"
+
+#: kitsune/sumo/db_strings.py:475
+msgctxt "DB: products.Topic.description"
+msgid "Customization of Firefox in an enterprise environment"
+msgstr "Прилагођавање Firefox-а у пословном окружењу"
+
+#: kitsune/sumo/db_strings.py:478
+msgctxt "DB: products.Topic.title"
+msgid "Installation"
+msgstr "Инсталација"
+
+#: kitsune/sumo/db_strings.py:479
+msgctxt "DB: products.Topic.description"
+msgid "How to install Firefox for Enterprise"
+msgstr "Како да инсталирате Firefox за Enterprise"
+
+#: kitsune/sumo/db_strings.py:480
+msgctxt "DB: products.Topic.title"
+msgid "Explore"
+msgstr "Истражите"
+
+#: kitsune/sumo/db_strings.py:481
+msgctxt "DB: products.Topic.description"
+msgid "Learn about Firefox for Enterprise"
+msgstr "Сазнајте више о Firefox-у за предузећа"
+
+#: kitsune/sumo/db_strings.py:482
+msgctxt "DB: products.Topic.title"
+msgid "Mac"
+msgstr "Mac"
+
+#: kitsune/sumo/db_strings.py:483
+msgctxt "DB: products.Topic.description"
+msgid "Deploy Firefox on your organization's Mac computers"
+msgstr "Имплементирајте Firefox на Mac рачунарима ваше организације"
+
+#: kitsune/sumo/db_strings.py:486
+msgctxt "DB: products.Topic.title"
+msgid "Policies overview"
+msgstr "Преглед политика"
+
+#: kitsune/sumo/db_strings.py:487
+msgctxt "DB: products.Topic.description"
+msgid "How to set up policies on Firefox for your organization."
+msgstr "Како поставити политике у Firefox-у за вашу организацију."
+
+#: kitsune/sumo/db_strings.py:491
+msgctxt "DB: products.Topic.title"
+msgid "Browsing"
+msgstr "Прегледање"
+
+#: kitsune/sumo/db_strings.py:492
+msgctxt "DB: products.Topic.description"
+msgid "Surf and navigate the Web on Firefox Preview"
+msgstr "Сурфујте вебом помоћу Firefox Preview-а"
+
+#: kitsune/sumo/db_strings.py:493
+msgctxt "DB: products.Topic.title"
+msgid "How do I use Firefox Preview?"
+msgstr "Како користити Firefox Preview?"
+
+#: kitsune/sumo/db_strings.py:494
+msgctxt "DB: products.Topic.description"
+msgid "Get help with using features in Firefox Preview."
+msgstr "Потражите помоћ за Firefox Preview функције"
+
+#: kitsune/sumo/db_strings.py:495
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Manage account"
+msgstr "Управљајте Firefox налогом"
+
+#: kitsune/sumo/db_strings.py:496
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "How to change your account settings"
+msgstr "Управљајте налогом и подешавањима"
+
+#: kitsune/sumo/db_strings.py:497
+msgctxt "DB: products.Topic.title"
+msgid "Email and Messages"
+msgstr "Е-пошта и поруке"
+
+#: kitsune/sumo/db_strings.py:498
+msgctxt "DB: products.Topic.description"
+msgid "Keep in touch with your contacts through email and messaging."
+msgstr "Останите у току са контактима кроз е-пошту и поруке."
+
+#: kitsune/sumo/db_strings.py:502
+msgctxt "DB: products.Topic.title"
+msgid "Deploy"
+msgstr "Имплементирајте"
+
+#: kitsune/sumo/db_strings.py:503
+msgctxt "DB: products.Topic.description"
+msgid "Deployment of Firefox in an enterprise environment"
+msgstr "Постављање Firefox-а у пословном окружењу"
+
+#: kitsune/sumo/db_strings.py:506
+msgctxt "DB: products.Topic.title"
+msgid "Manage updates, policies & customization"
+msgstr "Управљајте ажурирањима, политикама и подешавањима"
+
+#: kitsune/sumo/db_strings.py:507
+msgctxt "DB: products.Topic.description"
+msgid "Policies for Firefox for Enterprise"
+msgstr "Политике за Firefox за предузећа"
+
+#: kitsune/sumo/db_strings.py:508
+msgctxt "DB: products.Topic.title"
+msgid "Autoconfiguration"
+msgstr "Аутоконфигурисање"
+
+#: kitsune/sumo/db_strings.py:509
+msgctxt "DB: products.Topic.description"
+msgid "How to configure Firefox for Enterprise"
+msgstr "Како да конфигуришете Firefox за Enterprise"
+
+#: kitsune/sumo/db_strings.py:510
+msgctxt "DB: products.Topic.title"
+msgid "Linux"
+msgstr "Linux"
+
+#: kitsune/sumo/db_strings.py:511
+msgctxt "DB: products.Topic.description"
+msgid "Deploy Firefox on your organization's Linux machines."
+msgstr "Имплементирајте Firefox на Linux рачунарима ваше организације."
+
+#: kitsune/sumo/db_strings.py:514
+msgctxt "DB: products.Topic.title"
+msgid "Manage settings via policy"
+msgstr "Управљај подешавањима преко политике"
+
+#: kitsune/sumo/db_strings.py:515
+msgctxt "DB: products.Topic.description"
+msgid "Change Firefox's settings using policies."
+msgstr "Промените Firefox подешавања преко политика."
+
+#: kitsune/sumo/db_strings.py:516
+msgctxt "DB: products.Topic.title"
+msgid "Library"
+msgstr "Библиотека"
+
+#: kitsune/sumo/db_strings.py:517
+msgctxt "DB: products.Topic.description"
+msgid "Manage bookmarks and history"
+msgstr "Управљајте обележивачима и историјом"
+
+#: kitsune/sumo/db_strings.py:518
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Services and Subscriptions"
+msgstr "Сачувај опис"
+
+#: kitsune/sumo/db_strings.py:519
+msgctxt "DB: products.Topic.description"
+msgid "Free and premium privacy offerings"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:520
+msgctxt "DB: products.Topic.title"
+msgid "Music, Photos and Video"
+msgstr "Музика, слике и видео снимци"
+
+#: kitsune/sumo/db_strings.py:521
+msgctxt "DB: products.Topic.description"
+msgid "Take pictures, record videos and listen to music on your Firefox OS phone."
+msgstr "Сликајте фотографије, снимајте снимке и слушајте музику на Firefox OS телефону."
+
+#: kitsune/sumo/db_strings.py:526
+msgctxt "DB: products.Topic.description"
+msgid "Working with add-ons on Firefox for your organization."
+msgstr "Радите с Firefox додацима за вашу организацију."
+
+#: kitsune/sumo/db_strings.py:529
+msgctxt "DB: products.Topic.title"
+msgid "Sync"
+msgstr "Синхронизација"
+
+#: kitsune/sumo/db_strings.py:530
+msgctxt "DB: products.Topic.description"
+msgid "Sync your browsing information across other devices."
+msgstr "Синхронизујте податке прегледања на свим уређајима."
+
+#: kitsune/sumo/db_strings.py:533
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Troubleshoot"
+msgstr "Решавање проблема"
+
+#: kitsune/sumo/db_strings.py:534
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Fix problems with Firefox Accounts"
+msgstr "Решите проблеме уз Firefox Lockwise"
+
+#: kitsune/sumo/db_strings.py:536
+msgctxt "DB: products.Topic.description"
+msgid "How to download, manage and use your favorite apps on your Firefox OS phone."
+msgstr "Како да преузмете, управљате и користите омиљене апликације на Firefox OS телефону."
+
+#: kitsune/sumo/db_strings.py:540 kitsune/sumo/db_strings.py:545
+msgctxt "DB: products.Topic.title"
+msgid "Privacy and security"
+msgstr "Приватност и сигурност"
+
+#: kitsune/sumo/db_strings.py:541
+msgctxt "DB: products.Topic.description"
+msgid "Keep your information safe with Firefox OS locks, privacy features and more."
+msgstr "Држите своје информације на безбедном са кључевима, поставкама приватности и другим на Firefox OS-у."
+
+#: kitsune/sumo/db_strings.py:546
+msgctxt "DB: products.Topic.description"
+msgid "Protect your privacy on Firefox Preview."
+msgstr "Заштитите вашу приватност у Firefox Preview-у."
+
+#: kitsune/sumo/db_strings.py:547 kitsune/sumo/db_strings.py:735
+msgctxt "DB: products.Topic.title"
+msgid "Settings"
+msgstr "Поставке"
+
+#: kitsune/sumo/db_strings.py:548
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to configure the Internet connection, display and time on your Firefox OS device."
+msgstr "Научите како да подесите интернет конекцију, екран и време на Firefox OS уређају."
+
+#: kitsune/sumo/db_strings.py:552
+msgctxt "DB: products.Topic.title"
+msgid "Internet and Connections"
+msgstr "Интернет и везе"
+
+#: kitsune/sumo/db_strings.py:553
+msgctxt "DB: products.Topic.description"
+msgid "Learn more about Wi-Fi, Bluetooth and NFC connections."
+msgstr "Научите више о Wi-Fi, Bluetooth и NFC конекцијама."
+
+#: kitsune/sumo/db_strings.py:556
+msgctxt "DB: products.Topic.title"
+msgid "Settings and preferences"
+msgstr "Подешавања и преференце"
+
+#: kitsune/sumo/db_strings.py:557
+msgctxt "DB: products.Topic.description"
+msgid "Manage themes and search settings"
+msgstr "Управљајте темама и подешавањима претраге"
+
+#: kitsune/sumo/db_strings.py:558
+msgctxt "DB: products.Topic.title"
+msgid "Fix problems with Firefox Preview"
+msgstr "Решите проблеме уз Firefox Preview"
+
+#: kitsune/sumo/db_strings.py:559
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot issues with Firefox Preview"
+msgstr "Решите проблеме уз Firefox Preview"
+
+#: kitsune/sumo/db_strings.py:561
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to troubleshoot issues on your Firefox OS phone."
+msgstr "Научите како да решавате проблеме на Firefox OS телефону."
+
+#: kitsune/sumo/db_strings.py:565
+msgctxt "DB: products.Topic.title"
+msgid "Advanced Settings"
+msgstr "Напредна подешавања"
+
+#: kitsune/sumo/db_strings.py:566
+msgctxt "DB: products.Topic.description"
+msgid "Do more with Firefox Preview"
+msgstr "Обавите више уз Firefox Preview"
+
+#: kitsune/sumo/db_strings.py:569
+msgctxt "DB: products.Topic.title"
+msgid "View all Firefox OS articles"
+msgstr "Погледај све Firefox OS чланке"
+
+#: kitsune/sumo/db_strings.py:570
+msgctxt "DB: products.Topic.description"
+msgid "View a list of all Firefox OS articles"
+msgstr "Погледај листу свих Firefox OS чланака"
+
+#: kitsune/sumo/db_strings.py:571
+msgctxt "DB: products.Topic.title"
+msgid "Working with messages"
+msgstr "Рад са порукама"
+
+#: kitsune/sumo/db_strings.py:572
+msgctxt "DB: products.Topic.description"
+msgid "Firefox OS SMS & email"
+msgstr "Firefox OS SMS и е-пошта"
+
+#: kitsune/sumo/db_strings.py:580
+msgctxt "DB: products.Topic.description"
+msgid "Everything you need to know to use Firefox Lite."
+msgstr "Сазнајте све што требате знати о Firefox Lite употреби"
+
+#: kitsune/sumo/db_strings.py:581
+msgctxt "DB: products.Topic.title"
+msgid "Preferences"
+msgstr "Преференце"
+
+#: kitsune/sumo/db_strings.py:582
+msgctxt "DB: products.Topic.description"
+msgid "Customize Firefox Lite to your desired settings"
+msgstr "Прилагодите Firefox Lite према вашим жељама"
+
+#: kitsune/sumo/db_strings.py:584
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot problems with Firefox Lite."
+msgstr "Решите проблеме уз Firefox Lite."
+
+#: kitsune/sumo/db_strings.py:585
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "General contribution"
+msgstr "Моји доприноси"
+
+#: kitsune/sumo/db_strings.py:586
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the contribution in general"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:591
+msgctxt "DB: products.Topic.description"
+msgid "How to use Firefox Reality"
+msgstr "Како да користите Firefox Reality"
+
+#: kitsune/sumo/db_strings.py:592
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Forum Support"
+msgstr "Подршка"
+
+#: kitsune/sumo/db_strings.py:593
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the Forum Support contribution"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:597
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Social Support"
+msgstr "Mozilla подршка"
+
+#: kitsune/sumo/db_strings.py:598
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the Social Support Program"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:602
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Localization"
+msgstr "Локализација"
+
+#: kitsune/sumo/db_strings.py:603
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the Localization contribution"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:607
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "KB Contribution"
+msgstr "Доприноси"
+
+#: kitsune/sumo/db_strings.py:608
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the KB articles contribution"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:612
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Respond tool"
+msgstr "Одговорено"
+
+#: kitsune/sumo/db_strings.py:613
+msgctxt "DB: products.Topic.description"
+msgid "Topic for any KB articles related to the Respond Tool contribution"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:617 kitsune/sumo/db_strings.py:629 kitsune/sumo/db_strings.py:668
+msgctxt "DB: products.Topic.title"
+msgid "Troubleshooting"
+msgstr "Решавање проблема"
+
+#: kitsune/sumo/db_strings.py:618
+msgctxt "DB: products.Topic.description"
+msgid "Fix problems with Firefox Reality"
+msgstr "Решите проблеме уз Firefox Reality"
+
+#: kitsune/sumo/db_strings.py:619
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "[Obsolete] Mozilla Persona"
+msgstr "Mozilla Persona"
+
+#: kitsune/sumo/db_strings.py:621
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "[Obsolete] Hot topics"
+msgstr "Популарне теме"
+
+#: kitsune/sumo/db_strings.py:623 kitsune/sumo/db_strings.py:640
+msgctxt "DB: products.Topic.title"
+msgid "Technical"
+msgstr "Техничко"
+
+#: kitsune/sumo/db_strings.py:624
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Find solutions for how to use the Mozilla VPN."
+msgstr "Пронађите решења за употребу Firefox VPN приватне мреже"
+
+#: kitsune/sumo/db_strings.py:625 kitsune/sumo/db_strings.py:652
+msgctxt "DB: products.Topic.title"
+msgid "Accounts"
+msgstr "Налози"
+
+#: kitsune/sumo/db_strings.py:626
+msgctxt "DB: products.Topic.description"
+msgid "Find solutions on managing your account"
+msgstr "Пронађите решења за управљање налогом"
+
+#: kitsune/sumo/db_strings.py:627 kitsune/sumo/db_strings.py:660
+msgctxt "DB: products.Topic.title"
+msgid "Payments"
+msgstr "Плаћања"
+
+#: kitsune/sumo/db_strings.py:628 kitsune/sumo/db_strings.py:661
+msgctxt "DB: products.Topic.description"
+msgid "Manage your payment and subscription"
+msgstr "Управљајте вашим плаћањем и претплатом"
+
+#: kitsune/sumo/db_strings.py:630
+msgctxt "DB: products.Topic.description"
+msgid "Fix problems with Firefox Private Network VPN"
+msgstr "Решите проблеме уз Firefox VPN приватну мрежу"
+
+#: kitsune/sumo/db_strings.py:631
+msgctxt "DB: products.Topic.title"
+msgid "Popcorn Maker"
+msgstr "Popcorn Maker"
+
+#: kitsune/sumo/db_strings.py:632
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to remix web video, audio and images into mashups that you can embed on other websites. "
+msgstr "Научите како да ремиксујете веб снимке, звуке и слике у микс који можете уградити на друге веб сајтове. "
+
+#: kitsune/sumo/db_strings.py:636
+msgctxt "DB: products.Topic.title"
+msgid "Webmaker for Android"
+msgstr "Webmaker за Android"
+
+#: kitsune/sumo/db_strings.py:637
+msgctxt "DB: products.Topic.description"
+msgid "Get help with the Webmaker app for Android."
+msgstr "Пронађите помоћ са Webmaker апликацијом за Android."
+
+#: kitsune/sumo/db_strings.py:638
+msgctxt "DB: products.Topic.title"
+msgid "Intro to Open Badges"
+msgstr "Увод у Open Badges"
+
+#: kitsune/sumo/db_strings.py:639
+msgctxt "DB: products.Topic.description"
+msgid "Learn the basic about Open Badges"
+msgstr "Научите основе о Open Badges"
+
+#: kitsune/sumo/db_strings.py:641
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "Find solutions for how to use the Firefox Private Network add-on."
+msgstr "Пронађите решења за употребу Firefox VPN приватне мреже"
+
+#: kitsune/sumo/db_strings.py:645
+msgctxt "DB: products.Topic.title"
+msgid "Thimble"
+msgstr "Thimble"
+
+#: kitsune/sumo/db_strings.py:646
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to create and share your own webpages quickly and easily."
+msgstr "Научите брзо и лако да креирате и поделите своје веб странице."
+
+#: kitsune/sumo/db_strings.py:650
+msgctxt "DB: products.Topic.title"
+msgid "BadgeKit"
+msgstr "BadgeKit"
+
+#: kitsune/sumo/db_strings.py:651
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to create, assess and issue badges"
+msgstr "Научите како да креирате, процените и издате значке"
+
+#: kitsune/sumo/db_strings.py:653
+msgctxt "DB: products.Topic.description"
+msgid "Change account and settings for Private Network."
+msgstr "Промените налог и подешавања за приватну мрежу."
+
+#: kitsune/sumo/db_strings.py:654
+msgctxt "DB: products.Topic.title"
+msgid "X-Ray Goggles"
+msgstr "X-Ray Goggles"
+
+#: kitsune/sumo/db_strings.py:655
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to inspect the code behind every webpage."
+msgstr "Научите како да испитате код иза сваке веб странице."
+
+#: kitsune/sumo/db_strings.py:658
+msgctxt "DB: products.Topic.title"
+msgid "Get Involved"
+msgstr "Укључите се"
+
+#: kitsune/sumo/db_strings.py:659
+msgctxt "DB: products.Topic.description"
+msgid "Help the Open Badges community"
+msgstr "Помозите Open Badges заједници"
+
+#: kitsune/sumo/db_strings.py:662
+msgctxt "DB: products.Topic.title"
+msgid "Get the most from webmaker.org"
+msgstr "Извуците најбоље из webmaker.org"
+
+#: kitsune/sumo/db_strings.py:663
+msgctxt "DB: products.Topic.description"
+msgid "Help or get help on a Webmaker project."
+msgstr "Помозите или нађите помоћ на Webmaker пројекту."
+
+#: kitsune/sumo/db_strings.py:664
+msgctxt "DB: products.Topic.title"
+msgid "Earn Badges"
+msgstr "Заради значке"
+
+#: kitsune/sumo/db_strings.py:665
+msgctxt "DB: products.Topic.description"
+msgid "Earn Badges for the skills you learn online and offline"
+msgstr "Зарадите значке за вештине које научите на и ван мреже"
+
+#: kitsune/sumo/db_strings.py:669
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot issues for Private Network"
+msgstr "Решите проблеме за Firefox приватну мрежу"
+
+#: kitsune/sumo/db_strings.py:670
+msgctxt "DB: products.Topic.title"
+msgid "Events and help for Mentors"
+msgstr "Догађаји и помоћ за менторе"
+
+#: kitsune/sumo/db_strings.py:671
+msgctxt "DB: products.Topic.description"
+msgid "Help teach digital skills and share creative ways of teaching technology."
+msgstr "Помозите у учењу дигиталних вештина и поделите креативне начине учења технологије."
+
+#: kitsune/sumo/db_strings.py:675
+msgctxt "DB: products.Topic.title"
+msgid "Issue Badges"
+msgstr "Издај значке"
+
+#: kitsune/sumo/db_strings.py:676
+msgctxt "DB: products.Topic.description"
+msgid "Issue digital badges to acknowledge new skills and achievements"
+msgstr "Издајте дигиталне значке како бисте признали нове вештине и достигнућа"
+
+#: kitsune/sumo/db_strings.py:680
+msgctxt "DB: products.Topic.title"
+msgid "Display Badges"
+msgstr "Прикажи значке"
+
+#: kitsune/sumo/db_strings.py:681
+msgctxt "DB: products.Topic.description"
+msgid "Display your digital badges on your social networks, job sites and your own website."
+msgstr "Прикажите своје дигиталне значке на друштвеним мрежама, сајтовима за запошљавање и на вашем веб сајту."
+
+#: kitsune/sumo/db_strings.py:685
+msgctxt "DB: products.Topic.title"
+msgid "Knowledge Base"
+msgstr "База знања"
+
+#: kitsune/sumo/db_strings.py:686
+msgctxt "DB: products.Topic.description"
+msgid "Windows 8 Touch support articles"
+msgstr "Windows 8 Touch чланци подршке"
+
+#: kitsune/sumo/db_strings.py:687
+msgctxt "DB: products.Topic.title"
+msgid "Pocket Basics"
+msgstr "Основе Pocket-а"
+
+#: kitsune/sumo/db_strings.py:688
+msgctxt "DB: products.Topic.description"
+msgid "New to Pocket? Start here."
+msgstr "Нови сте на Pocket-у? Почните овде."
+
+#: kitsune/sumo/db_strings.py:689
+msgctxt "DB: products.Topic.title"
+msgid "Install and set up"
+msgstr "Инсталирајте и поставите"
+
+#: kitsune/sumo/db_strings.py:690
+msgctxt "DB: products.Topic.description"
+msgid "Sync your logins across Firefox and your apps."
+msgstr "Синхронизујте ваше пријаве између Firefox-а и апликација."
+
+#: kitsune/sumo/db_strings.py:691
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Older versions of Firefox for Android"
+msgstr "Сазнајте како да инсталирате и пренесете информације на Firefox за Android."
+
+#: kitsune/sumo/db_strings.py:692
+#, fuzzy
+msgctxt "DB: products.Topic.description"
+msgid "See articles for an unsupported version of Firefox for Android."
+msgstr "Сазнајте како да инсталирате и пренесете информације на Firefox за Android."
+
+#: kitsune/sumo/db_strings.py:696
+msgctxt "DB: products.Topic.title"
+msgid "About Data Sharing"
+msgstr "О дељењу података"
+
+#: kitsune/sumo/db_strings.py:697
+msgctxt "DB: products.Topic.description"
+msgid ""
+"In order to process or provide our products and services to you, we share your information with the following business partners. These entities are contractually obligated to handle the data in "
+"ways that are approved by Mozilla."
+msgstr ""
+"Како бисмо обрадили податке или пружили наше производе и услуге, делимо ваше податке са следећим пословним партнерима. Они су уговорно дужни да податке обрађују на начин који је одобрила Mozilla."
+
+#: kitsune/sumo/db_strings.py:701
+msgctxt "DB: products.Topic.title"
+msgid "Pocket for Mobile"
+msgstr "Pocket за мобилни"
+
+#: kitsune/sumo/db_strings.py:702
+msgctxt "DB: products.Topic.description"
+msgid "How to use Pocket on your iPhone, iPad, Android or Kobo."
+msgstr "Како да користите Pocket на вашем iPhone, iPad, Android или Kobo уређајима."
+
+#: kitsune/sumo/db_strings.py:706
+msgctxt "DB: products.Topic.title"
+msgid "Manage settings and logins"
+msgstr "Управљајте подешавањима и пријавама"
+
+#: kitsune/sumo/db_strings.py:707
+msgctxt "DB: products.Topic.description"
+msgid "Setting up your device to work with Firefox Lockwise"
+msgstr "Постављање вашег уређаја за рад с Firefox Lockwise-ом"
+
+#: kitsune/sumo/db_strings.py:710
+msgctxt "DB: products.Topic.title"
+msgid "Managing Your Data"
+msgstr "Управљајте вашим подацима"
+
+#: kitsune/sumo/db_strings.py:711
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to manage your data (including deleting) for specific products or services."
+msgstr "Сазнајте како управљати подацима (укључујући брисање) за одређене производе или услуге."
+
+#: kitsune/sumo/db_strings.py:715
+msgctxt "DB: products.Topic.title"
+msgid "Pocket for your Computer"
+msgstr "Pocket за ваш рачунар"
+
+#: kitsune/sumo/db_strings.py:716
+msgctxt "DB: products.Topic.description"
+msgid "Using Pocket on the Web."
+msgstr "Коришћење Pocket-а на вебу."
+
+#: kitsune/sumo/db_strings.py:718
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot issues with Firefox Lockwise"
+msgstr "Решите проблеме уз Firefox Lockwise"
+
+#: kitsune/sumo/db_strings.py:719
+msgctxt "DB: products.Topic.title"
+msgid "Sensible Settings"
+msgstr "Подешавања"
+
+#: kitsune/sumo/db_strings.py:720
+msgctxt "DB: products.Topic.description"
+msgid "Give our users actionable and informed choices by informing and educating at the point of collection and providing a choice to opt-out whenever possible. "
+msgstr "Дајте нашим корисницима корисне одговоре на месту прикупљања информација. "
+
+#: kitsune/sumo/db_strings.py:724
+msgctxt "DB: products.Topic.title"
+msgid "Advanced"
+msgstr "Напредно"
+
+#: kitsune/sumo/db_strings.py:725
+msgctxt "DB: products.Topic.description"
+msgid "Information for Developers and Beta users."
+msgstr "Информације за програмере и бета кориснике."
+
+#: kitsune/sumo/db_strings.py:726
+msgctxt "DB: products.Topic.title"
+msgid "Defense in Depth"
+msgstr "Одбрана"
+
+#: kitsune/sumo/db_strings.py:727
+msgctxt "DB: products.Topic.description"
+msgid "Make privacy a key factor in selecting and interacting with partners. "
+msgstr "Нека приватност буде кључан фактор за интеграција са партнерима. "
+
+#: kitsune/sumo/db_strings.py:731
+msgctxt "DB: products.Topic.title"
+msgid "How does it work?"
+msgstr "Како функционише?"
+
+#: kitsune/sumo/db_strings.py:732
+msgctxt "DB: products.Topic.description"
+msgid "Basics to get started with Firefox for Windows 8 Touch."
+msgstr "Основе за започињање са Firefox-ом за Windows 8 Touch."
+
+#: kitsune/sumo/db_strings.py:736
+msgctxt "DB: products.Topic.description"
+msgid "How to configure and customize Firefox for Windows 8 Touch."
+msgstr "Како подесити и прилагодити Firefox за Windows 8 Touch."
+
+#: kitsune/sumo/db_strings.py:740
+msgctxt "DB: products.Topic.title"
+msgid "Problems with websites"
+msgstr "Проблеми са веб сајтовима"
+
+#: kitsune/sumo/db_strings.py:741
+msgctxt "DB: products.Topic.description"
+msgid "Problems with websites that don't work well in Firefox for Windows 8 Touch."
+msgstr "Проблеми са веб сајтовима који не функционишу добро у Firefox for Windows 8 Touch."
+
+#: kitsune/sumo/db_strings.py:746
+msgctxt "DB: products.Topic.description"
+msgid "Other questions with Firefox for Windows 8 Touch."
+msgstr "Друга питања о Firefox-у за Windows 8 Touch."
+
+#: kitsune/sumo/db_strings.py:748
+msgctxt "DB: products.Topic.description"
+msgid "Learn the basics about ScreenshotGo"
+msgstr "Научите основе о ScreenshotGo"
+
+#: kitsune/sumo/db_strings.py:749
+msgctxt "DB: products.Topic.title"
+msgid "Get Started"
+msgstr "Започните"
+
+#: kitsune/sumo/db_strings.py:750
+msgctxt "DB: products.Topic.description"
+msgid "Klar verwenden"
+msgstr "Користи Focus"
+
+#: kitsune/sumo/db_strings.py:751
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Klar for iOS"
+msgstr "Firefox Klar за iOS"
+
+#: kitsune/sumo/db_strings.py:752
+msgctxt "DB: products.Topic.description"
+msgid "Privacy browser for iOS"
+msgstr "Прегледач приватности за iOS"
+
+#: kitsune/sumo/db_strings.py:753
+msgctxt "DB: products.Topic.title"
+msgid "Features"
+msgstr "Функције"
+
+#: kitsune/sumo/db_strings.py:754
+msgctxt "DB: products.Topic.description"
+msgid "Getting started with Hubs"
+msgstr "Започните са Hub-овима"
+
+#: kitsune/sumo/db_strings.py:755
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Klar for Android"
+msgstr "Firefox Klar за Android"
+
+#: kitsune/sumo/db_strings.py:756 kitsune/sumo/db_strings.py:873
+msgctxt "DB: products.Topic.description"
+msgid "Privacy browser for Android"
+msgstr "Прегледач приватности за Android"
+
+#: kitsune/sumo/db_strings.py:757
+msgctxt "DB: products.Topic.title"
+msgid "Controls"
+msgstr "Контроле"
+
+#: kitsune/sumo/db_strings.py:758
+msgctxt "DB: products.Topic.description"
+msgid "How to navigate Hubs"
+msgstr "Како се кретати кроз Hub-ове"
+
+#: kitsune/sumo/db_strings.py:759
+msgctxt "DB: products.Topic.title"
+msgid "Moderation"
+msgstr "Менаџмент"
+
+#: kitsune/sumo/db_strings.py:760
+msgctxt "DB: products.Topic.description"
+msgid "Tools for making Hubs a good experience for all."
+msgstr "Алати који свакоме омогућавају добро искуство за Hub-ове."
+
+#: kitsune/sumo/db_strings.py:761
+msgctxt "DB: products.Topic.title"
+msgid "Spoke"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:762
+msgctxt "DB: products.Topic.description"
+msgid "Build scenes with Spoke"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:763
+#, fuzzy
+msgctxt "DB: products.Topic.title"
+msgid "Creators"
+msgstr "Аутор"
+
+#: kitsune/sumo/db_strings.py:764
+msgctxt "DB: products.Topic.description"
+msgid "Advanced Hubs customization for creators"
+msgstr ""
+
+#: kitsune/sumo/db_strings.py:765
+msgctxt "DB: products.Topic.title"
+msgid "Firefox for Fire TV"
+msgstr "Firefox за Fire TV"
+
+#: kitsune/sumo/db_strings.py:766
+msgctxt "DB: products.Topic.description"
+msgid "Browser for the Amazon Fire TV."
+msgstr "Прегледач за Amazon Fire TV."
+
+#: kitsune/sumo/db_strings.py:767
+msgctxt "DB: products.Topic.title"
+msgid "Firefox for Echo Show"
+msgstr "Firefox за Echo Show"
+
+#: kitsune/sumo/db_strings.py:768
+msgctxt "DB: products.Topic.description"
+msgid "Browser for the Amazon Echo Show"
+msgstr "Прегледач за Amazon Echo Show"
+
+#: kitsune/sumo/db_strings.py:769
+msgctxt "DB: products.Topic.title"
+msgid "Learn the Basics. Get Started"
+msgstr "Научите основе. Започните"
+
+#: kitsune/sumo/db_strings.py:770
+msgctxt "DB: products.Topic.description"
+msgid "Learn the Basics. Get Started"
+msgstr "Научите основе. Започните"
+
+#: kitsune/sumo/db_strings.py:772
+msgctxt "DB: products.Topic.description"
+msgid "Learn tips and shortcuts to help you work faster"
+msgstr "Научите пречице и сазнајте о саветима како да учините рад бржим"
+
+#: kitsune/sumo/db_strings.py:773
+msgctxt "DB: products.Topic.title"
+msgid "Set up email"
+msgstr "Подеси е-пошту"
+
+#: kitsune/sumo/db_strings.py:774
+msgctxt "DB: products.Topic.description"
+msgid "Add and configure your email accounts on Thunderbird"
+msgstr "Додајте и конфигуришите налоге е-поште на Thunderbird"
+
+#: kitsune/sumo/db_strings.py:777
+msgctxt "DB: products.Topic.title"
+msgid "Install, Migrate and Update"
+msgstr "Инсталација, миграција и ажурирање"
+
+#: kitsune/sumo/db_strings.py:778
+msgctxt "DB: products.Topic.description"
+msgid "How to install and keep Thunderbird up to date"
+msgstr "Како да инсталирам и одржим ажурним Thunderbird"
+
+#: kitsune/sumo/db_strings.py:779
+msgctxt "DB: products.Topic.title"
+msgid "Read, send and organize emails"
+msgstr "Прочитајте, пошаљите и организујете е-поште"
+
+#: kitsune/sumo/db_strings.py:780
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to manage your email messages"
+msgstr "Научите како да управљате са порукама"
+
+#: kitsune/sumo/db_strings.py:781
+msgctxt "DB: products.Topic.title"
+msgid "Emails"
+msgstr "Е-поште"
+
+#: kitsune/sumo/db_strings.py:782
+msgctxt "DB: products.Topic.description"
+msgid "Learn to set up accounts, read, send and manage emails"
+msgstr "Сазнајте како да подесите налоге, прочитате или шаљете е-поште"
+
+#: kitsune/sumo/db_strings.py:785
+msgctxt "DB: products.Topic.title"
+msgid "News Feeds (RSS), Blogs and Social"
+msgstr "Извор вести (RSS), блогови и друштвено"
+
+#: kitsune/sumo/db_strings.py:786
+msgctxt "DB: products.Topic.description"
+msgid "Stay up to date with news feeds, blogs and social features"
+msgstr "Останите у току са вестима, блоговима и друштвеним могућностима"
+
+#: kitsune/sumo/db_strings.py:790
+msgctxt "DB: products.Topic.title"
+msgid "Contacts"
+msgstr "Контакти"
+
+#: kitsune/sumo/db_strings.py:791
+msgctxt "DB: products.Topic.description"
+msgid "How to use the address book on Thunderbird"
+msgstr "Како да користим Thunderbird адресар"
+
+#: kitsune/sumo/db_strings.py:792
+msgctxt "DB: products.Topic.title"
+msgid "Calendar"
+msgstr "Календар"
+
+#: kitsune/sumo/db_strings.py:793
+msgctxt "DB: products.Topic.description"
+msgid "Related to the Lightning add-on for Calendar"
+msgstr "Повезано са Lightning додатком за календар"
+
+#: kitsune/sumo/db_strings.py:795
+msgctxt "DB: products.Topic.description"
+msgid "Customize controls, options and add-ons"
+msgstr "Подесите контроле, опције и додатке"
+
+#: kitsune/sumo/db_strings.py:796
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird versions and languages"
+msgstr "Thunderbird верзије и језици"
+
+#: kitsune/sumo/db_strings.py:797
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird versions and languages"
+msgstr "Thunderbird верзије и језици"
+
+#: kitsune/sumo/db_strings.py:798
+msgctxt "DB: products.Topic.title"
+msgid "Passwords, forms and search"
+msgstr "Лозинке, форме и претрага"
+
+#: kitsune/sumo/db_strings.py:799
+msgctxt "DB: products.Topic.description"
+msgid "Passwords, forms and search"
+msgstr "Лозинке, форме и претрага"
+
+#: kitsune/sumo/db_strings.py:800
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird controls and buttons "
+msgstr "Thunderbird контроле и дугмад "
+
+#: kitsune/sumo/db_strings.py:801
+msgctxt "DB: products.Topic.description"
+msgid "Learn all about Thunderbird controls and functionality."
+msgstr "Сазнајте све о управљању и функционалности Thunderbird-а."
+
+#: kitsune/sumo/db_strings.py:804
+msgctxt "DB: products.Topic.title"
+msgid "Fix problems with email providers (gmail, Yahoo, etc.) "
+msgstr "Исправите проблеме уз помоћ прoвајдера (gmail, Yahoo итд.) "
+
+#: kitsune/sumo/db_strings.py:805
+msgctxt "DB: products.Topic.description"
+msgid "Learn how to fix problems with Gmail, Yahoo and other email providers"
+msgstr "Научите како да поправите проблеме са Gmail, Yahoo и другим провајдерима е-поште"
+
+#: kitsune/sumo/db_strings.py:810
+msgctxt "DB: products.Topic.description"
+msgid "Download, install and Migration"
+msgstr "Преузимање, инсталација и миграција"
+
+#: kitsune/sumo/db_strings.py:811
+msgctxt "DB: products.Topic.title"
+msgid "Copy your personal information from  one Thunderbird to another"
+msgstr "Копирајте личне информације са  једног Thunderbird-а на други"
+
+#: kitsune/sumo/db_strings.py:815
+msgctxt "DB: products.Topic.description"
+msgid "Copy your personal information from  one Thunderbird to another"
+msgstr "Копирајте личне информације са  једног Thunderbird-а на други"
+
+#: kitsune/sumo/db_strings.py:822
+msgctxt "DB: products.Topic.description"
+msgid "Error messages: what they mean and how to fix"
+msgstr "Порука о грешци: шта су мислили и како поправити"
+
+#: kitsune/sumo/db_strings.py:824
+msgctxt "DB: products.Topic.description"
+msgid "Keep your information safe with password and security settings"
+msgstr "Држите своје информације на безбедном са лозинкама и поставкама безбедности"
+
+#: kitsune/sumo/db_strings.py:828
+msgctxt "DB: products.Topic.title"
+msgid "Customize Thunderbird with add-ons, plugins, and extensions"
+msgstr "Прилагодите Thunderbird са додацима, прикључцима и екстензијама"
+
+#: kitsune/sumo/db_strings.py:831
+msgctxt "DB: products.Topic.description"
+msgid "Customize Thunderbird with add-ons, plugins, and extensions"
+msgstr "Прилагодите Thunderbird са додацима, прикључцима и екстензијама"
+
+#: kitsune/sumo/db_strings.py:835
+msgctxt "DB: products.Topic.title"
+msgid "Unblock Thunderbird from connecting to the Internet"
+msgstr "Одблокирајте Thunderbird од повезивања на интернет"
+
+#: kitsune/sumo/db_strings.py:836
+msgctxt "DB: products.Topic.description"
+msgid "Unblock Thunderbird from connecting to the Internet"
+msgstr "Одблокирајте Thunderbird од повезивања на интернет"
+
+#: kitsune/sumo/db_strings.py:839
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird options, preferences and settings "
+msgstr "Thunderbird опције, преформансе и поставке "
+
+#: kitsune/sumo/db_strings.py:840
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird options, preferences and settings "
+msgstr "Thunderbird опције, преформансе и поставке "
+
+#: kitsune/sumo/db_strings.py:846
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot error messages on Thunderbird."
+msgstr "Решите поруке о грешкама у Thunderbird-у."
+
+#: kitsune/sumo/db_strings.py:847
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird is slow or stops working"
+msgstr "Thunderbird је спор или престаје да ради"
+
+#: kitsune/sumo/db_strings.py:848
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird is slow or stops working"
+msgstr "Thunderbird је спор или престаје да ради"
+
+#: kitsune/sumo/db_strings.py:849
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird crashes"
+msgstr "Thunderbird рушења"
+
+#: kitsune/sumo/db_strings.py:850
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird crashes"
+msgstr "Thunderbird рушења"
+
+#: kitsune/sumo/db_strings.py:853
+msgctxt "DB: products.Topic.title"
+msgid "Thunderbird won't save settings or remember information"
+msgstr "Thunderbird неће да сачува поставке или запамти информације"
+
+#: kitsune/sumo/db_strings.py:854
+msgctxt "DB: products.Topic.description"
+msgid "Thunderbird won't save settings or remember information"
+msgstr "Thunderbird неће да сачува поставке или запамти информације"
+
+#: kitsune/sumo/db_strings.py:861
+msgctxt "DB: products.Topic.title"
+msgid "How To"
+msgstr "Како да"
+
+#: kitsune/sumo/db_strings.py:862
+msgctxt "DB: products.Topic.description"
+msgid "Articles that tell you how you can do more with Thunderbird"
+msgstr "Чланци који говоре како можете учинити више користећи Thunderbird"
+
+#: kitsune/sumo/db_strings.py:868
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Focus for iOS"
+msgstr "Firefox Focus за iOS"
+
+#: kitsune/sumo/db_strings.py:869
+msgctxt "DB: products.Topic.description"
+msgid "Firefox Focus for iOS"
+msgstr "Firefox Focus за iOS"
+
+#: kitsune/sumo/db_strings.py:871
+msgctxt "DB: products.Topic.description"
+msgid "Get Started with Firefox for Fire TV"
+msgstr "Започните са Firefox-ом за Fire TV"
+
+#: kitsune/sumo/db_strings.py:872
+msgctxt "DB: products.Topic.title"
+msgid "Firefox Focus for Android"
+msgstr "Firefox Focus за Android"
+
+#: kitsune/sumo/db_strings.py:875
+msgctxt "DB: products.Topic.description"
+msgid "Troubleshoot problems with Firefox Fire TV"
+msgstr "Решите проблеме уз Firefox Fire TV"
+
+#: kitsune/sumo/db_strings.py:876
 msgctxt "DB: kbadge.Badge.title"
 msgid "2021 KB Badge"
 msgstr "Беџ базе знања за 2021. годину"
 
-#: kitsune/sumo/db_strings.py:19
+#: kitsune/sumo/db_strings.py:877
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2021."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених чланака на енглеском током 2021. године."
 
-#: kitsune/sumo/db_strings.py:23
+#: kitsune/sumo/db_strings.py:881
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 KB Badge"
 msgstr "Беџ базе знања за 2020. годину"
 
-#: kitsune/sumo/db_strings.py:24
+#: kitsune/sumo/db_strings.py:882
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2020."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених чланака на енглеском током 2020. године."
 
-#: kitsune/sumo/db_strings.py:28
+#: kitsune/sumo/db_strings.py:886
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 KB Badge"
 msgstr "Беџ базе знања за 2019. годину"
 
-#: kitsune/sumo/db_strings.py:29
+#: kitsune/sumo/db_strings.py:887
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2019."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених чланака на енглеском током 2019. године."
 
-#: kitsune/sumo/db_strings.py:33
+#: kitsune/sumo/db_strings.py:891
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 Support Forum Badge"
 msgstr "Беџ форума подршке за 2020. годину"
 
-#: kitsune/sumo/db_strings.py:34
+#: kitsune/sumo/db_strings.py:892
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2020."
 msgstr "Овај беџ је додељен доприносиоцима са 20 одговора на форуму подршке током 2020. године."
 
-#: kitsune/sumo/db_strings.py:38
+#: kitsune/sumo/db_strings.py:896
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 Support Forum Badge"
 msgstr "Беџ форума подршке за 2019. годину"
 
-#: kitsune/sumo/db_strings.py:39
+#: kitsune/sumo/db_strings.py:897
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2019."
 msgstr "Овај беџ је додељен доприносиоцима са 20 одговора на форуму подршке током 2019. године."
 
-#: kitsune/sumo/db_strings.py:43
+#: kitsune/sumo/db_strings.py:901
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2020. годину"
 
-#: kitsune/sumo/db_strings.py:44
+#: kitsune/sumo/db_strings.py:902
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2020."
 msgstr "Овај беџ је додељен доприносиоцима са 50 Army of Awesome твитова током 2020. године."
 
-#: kitsune/sumo/db_strings.py:48
+#: kitsune/sumo/db_strings.py:906
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2019. годину"
 
-#: kitsune/sumo/db_strings.py:49
+#: kitsune/sumo/db_strings.py:907
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2019."
 msgstr "Овај беџ је додељен доприносиоцима са 50 Army of Awesome твитова током 2019. године."
 
-#: kitsune/sumo/db_strings.py:53
+#: kitsune/sumo/db_strings.py:911
 msgctxt "DB: kbadge.Badge.title"
 msgid "2020 L10n Badge"
 msgstr "L10n беџ локализације за 2020. годину"
 
-#: kitsune/sumo/db_strings.py:54
+#: kitsune/sumo/db_strings.py:912
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2020."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених превода током 2020. године."
 
-#: kitsune/sumo/db_strings.py:58
+#: kitsune/sumo/db_strings.py:916
 msgctxt "DB: kbadge.Badge.title"
 msgid "2019 L10n Badge"
 msgstr "L10n беџ локализације за 2019. годину"
 
-#: kitsune/sumo/db_strings.py:59
+#: kitsune/sumo/db_strings.py:917
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2019."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених превода током 2019. године."
 
-#: kitsune/sumo/db_strings.py:63
+#: kitsune/sumo/db_strings.py:921
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 L10n Badge"
 msgstr "L10n беџ локализације за 2018. годину"
 
-#: kitsune/sumo/db_strings.py:64
+#: kitsune/sumo/db_strings.py:922
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2018."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених превода током 2018. године."
 
-#: kitsune/sumo/db_strings.py:68
+#: kitsune/sumo/db_strings.py:926
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 KB Badge"
 msgstr "Беџ базе знања за 2018. годину"
 
-#: kitsune/sumo/db_strings.py:69
+#: kitsune/sumo/db_strings.py:927
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2018."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених чланака на енглеском током 2018. године."
 
-#: kitsune/sumo/db_strings.py:73
+#: kitsune/sumo/db_strings.py:931
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2018. годину"
 
-#: kitsune/sumo/db_strings.py:74
+#: kitsune/sumo/db_strings.py:932
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2018."
 msgstr "Овај беџ је додељен доприносиоцима са 50 Army of Awesome твитова током 2018. године."
 
-#: kitsune/sumo/db_strings.py:78
+#: kitsune/sumo/db_strings.py:936
 msgctxt "DB: kbadge.Badge.title"
 msgid "2018 Support Forum Badge"
 msgstr "Беџ форума подршке за 2018. годину"
 
-#: kitsune/sumo/db_strings.py:79
+#: kitsune/sumo/db_strings.py:937
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2018."
 msgstr "Овај беџ је додељен доприносиоцима са 20 одговора на форуму подршке током 2018. године."
 
-#: kitsune/sumo/db_strings.py:83
+#: kitsune/sumo/db_strings.py:941
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 L10n Badge"
 msgstr "L10n беџ локализације за 2017. годину"
 
-#: kitsune/sumo/db_strings.py:84
+#: kitsune/sumo/db_strings.py:942
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2017."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених превода током 2017. године."
 
-#: kitsune/sumo/db_strings.py:88
+#: kitsune/sumo/db_strings.py:946
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 KB Badge"
 msgstr "Беџ базе знања за 2017. годину"
 
-#: kitsune/sumo/db_strings.py:89
+#: kitsune/sumo/db_strings.py:947
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2017."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених чланака на енглеском током 2017. године."
 
-#: kitsune/sumo/db_strings.py:93
+#: kitsune/sumo/db_strings.py:951
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2017. годину"
 
-#: kitsune/sumo/db_strings.py:94
+#: kitsune/sumo/db_strings.py:952
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2017."
 msgstr "Овај беџ је додељен доприносиоцима са 50 Army of Awesome твитова током 2017. године."
 
-#: kitsune/sumo/db_strings.py:98
+#: kitsune/sumo/db_strings.py:956
 msgctxt "DB: kbadge.Badge.title"
 msgid "2017 Support Forum Badge"
 msgstr "Беџ форума подршке за 2017. годину"
 
-#: kitsune/sumo/db_strings.py:99
+#: kitsune/sumo/db_strings.py:957
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 20 support forum replies during 2017."
 msgstr "Овај беџ је додељен доприносиоцима са 20 одговора на форуму подршке током 2017. године."
 
-#: kitsune/sumo/db_strings.py:103
+#: kitsune/sumo/db_strings.py:961
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 L10n Badge"
 msgstr "L10n беџ локализације за 2016. годину"
 
-#: kitsune/sumo/db_strings.py:104
+#: kitsune/sumo/db_strings.py:962
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2016."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених превода током 2016. године."
 
-#: kitsune/sumo/db_strings.py:108
+#: kitsune/sumo/db_strings.py:966
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 Support Forum Badge"
 msgstr "Беџ форума подршке за 2016. годину"
 
-#: kitsune/sumo/db_strings.py:109
+#: kitsune/sumo/db_strings.py:967
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 30 support forum replies during 2016."
 msgstr "Овај беџ је додељен доприносиоцима са 30 одговора на форуму подршке током 2016. године."
 
-#: kitsune/sumo/db_strings.py:113
+#: kitsune/sumo/db_strings.py:971
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 KB Badge"
 msgstr "Беџ базе знања за 2016. годину"
 
-#: kitsune/sumo/db_strings.py:114
+#: kitsune/sumo/db_strings.py:972
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2016."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених чланака на енглеском током 2016. године."
 
-#: kitsune/sumo/db_strings.py:118
+#: kitsune/sumo/db_strings.py:976
 msgctxt "DB: kbadge.Badge.title"
 msgid "2016 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2016. годину"
 
-#: kitsune/sumo/db_strings.py:119
+#: kitsune/sumo/db_strings.py:977
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2016."
 msgstr "Овај беџ је додељен доприносиоцима са 50 Army of Awesome твитова током 2016. године."
 
-#: kitsune/sumo/db_strings.py:123
+#: kitsune/sumo/db_strings.py:981
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 Support Forum Badge"
 msgstr "Беџ форума подршке за 2015. годину"
 
-#: kitsune/sumo/db_strings.py:124
+#: kitsune/sumo/db_strings.py:982
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 30 support forum replies during 2015."
 msgstr "Овај беџ је додељен доприносиоцима са 30 одговора на форуму подршке током 2015. године."
 
-#: kitsune/sumo/db_strings.py:128
+#: kitsune/sumo/db_strings.py:986
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2015. годину"
 
-#: kitsune/sumo/db_strings.py:129
+#: kitsune/sumo/db_strings.py:987
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 50 Army of Awesome tweets during 2015."
 msgstr "Овај беџ је додељен доприносиоцима са 50 Army of Awesome твитова током 2015. године."
 
-#: kitsune/sumo/db_strings.py:133
+#: kitsune/sumo/db_strings.py:991
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 KB Badge"
 msgstr "Беџ базе знања за 2015. годину"
 
-#: kitsune/sumo/db_strings.py:134
+#: kitsune/sumo/db_strings.py:992
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved English edits during 2015."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених чланака на енглеском током 2015. године."
 
-#: kitsune/sumo/db_strings.py:138
+#: kitsune/sumo/db_strings.py:996
 msgctxt "DB: kbadge.Badge.title"
 msgid "2015 L10n Badge"
 msgstr "L10n беџ локализације за 2015. годину"
 
-#: kitsune/sumo/db_strings.py:139
+#: kitsune/sumo/db_strings.py:997
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2015."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених превода током 2015. године."
 
-#: kitsune/sumo/db_strings.py:143
+#: kitsune/sumo/db_strings.py:1001
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2014. годину"
 
-#: kitsune/sumo/db_strings.py:144
+#: kitsune/sumo/db_strings.py:1002
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2014 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2014; in this case: 50 Army of Awesome tweets.\n"
@@ -4821,12 +7101,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO Army of Awesome беџа за 2014. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:150
+#: kitsune/sumo/db_strings.py:1008
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 L10n Badge"
 msgstr "L10n беџ локализације за 2014. годину"
 
-#: kitsune/sumo/db_strings.py:151
+#: kitsune/sumo/db_strings.py:1009
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2014 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2014; in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -4837,12 +7117,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO L10n беџа локализације за 2014. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:157
+#: kitsune/sumo/db_strings.py:1015
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 KB Badge"
 msgstr "Беџ базе знања за 2014. годину"
 
-#: kitsune/sumo/db_strings.py:158
+#: kitsune/sumo/db_strings.py:1016
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2014 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2014; in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -4853,12 +7133,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа базе знања за 2014. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:164
+#: kitsune/sumo/db_strings.py:1022
 msgctxt "DB: kbadge.Badge.title"
 msgid "2014 Support Forum Badge"
 msgstr "Беџ форума подршке за 2014. годину"
 
-#: kitsune/sumo/db_strings.py:165
+#: kitsune/sumo/db_strings.py:1023
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2014 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2014 in this case: 30 replies in the English SUMO Forum.\n"
@@ -4869,12 +7149,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа форума подршке за 2014. године за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:171
+#: kitsune/sumo/db_strings.py:1029
 msgctxt "DB: kbadge.Badge.title"
 msgid "Firefox 29 Launch Team"
 msgstr "Тим за лансирање Firefox 29"
 
-#: kitsune/sumo/db_strings.py:172
+#: kitsune/sumo/db_strings.py:1030
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "Awarded to support contributors who contributed (KB article documentation, answering Forum Questions, localizing KB article documentation, tweets, etc) to the launch of Firefox 29, thanks! \n"
@@ -4903,32 +7183,32 @@ msgstr ""
 "\n"
 "https://sumo.etherpad.mozilla.org/sumo-australis-badges"
 
-#: kitsune/sumo/db_strings.py:187
+#: kitsune/sumo/db_strings.py:1045
 msgctxt "DB: kbadge.Badge.title"
 msgid "2008 L10n Badge"
 msgstr "L10n беџ локализације за 2008. годину"
 
-#: kitsune/sumo/db_strings.py:188
+#: kitsune/sumo/db_strings.py:1046
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2008."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених превода током 2008. године."
 
-#: kitsune/sumo/db_strings.py:192
+#: kitsune/sumo/db_strings.py:1050
 msgctxt "DB: kbadge.Badge.title"
 msgid "2009 L10n Badge"
 msgstr "L10n беџ локализације за 2009. годину"
 
-#: kitsune/sumo/db_strings.py:193
+#: kitsune/sumo/db_strings.py:1051
 msgctxt "DB: kbadge.Badge.description"
 msgid "This badge is awarded to contributors with 10 approved translations edits during 2009."
 msgstr "Овај беџ је додељен доприносиоцима са 10 одобрених превода током 2009. године."
 
-#: kitsune/sumo/db_strings.py:197
+#: kitsune/sumo/db_strings.py:1055
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2012. годину"
 
-#: kitsune/sumo/db_strings.py:198
+#: kitsune/sumo/db_strings.py:1056
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2012 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2012; in this case: 50 Army of Awesome tweets.\n"
@@ -4939,12 +7219,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO Army of Awesome беџа за 2012. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:204
+#: kitsune/sumo/db_strings.py:1062
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2013. годину"
 
-#: kitsune/sumo/db_strings.py:205
+#: kitsune/sumo/db_strings.py:1063
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2013 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2013; in this case: 50 Army of Awesome tweets.\n"
@@ -4955,12 +7235,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO Army of Awesome беџа за 2013. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:211
+#: kitsune/sumo/db_strings.py:1069
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2010. годину"
 
-#: kitsune/sumo/db_strings.py:212
+#: kitsune/sumo/db_strings.py:1070
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2010 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2010; in this case: 50 Army of Awesome tweets.\n"
@@ -4971,12 +7251,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO Army of Awesome беџа за 2010. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:218
+#: kitsune/sumo/db_strings.py:1076
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 Army of Awesome Badge"
 msgstr "Army of Awesome беџ за 2011. годину"
 
-#: kitsune/sumo/db_strings.py:219
+#: kitsune/sumo/db_strings.py:1077
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Army of Awesome 2011 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2011; in this case: 50 Army of Awesome tweets.\n"
@@ -4987,12 +7267,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO Army of Awesome беџа за 2011. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:225
+#: kitsune/sumo/db_strings.py:1083
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 Support Forum Badge"
 msgstr "Беџ форума подршке за 2012. годину"
 
-#: kitsune/sumo/db_strings.py:226
+#: kitsune/sumo/db_strings.py:1084
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2012 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2012 in this case: 30 replies in the English SUMO Forum.\n"
@@ -5003,12 +7283,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа форума подршке за 2012. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:232
+#: kitsune/sumo/db_strings.py:1090
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 KB Badge"
 msgstr "Беџ базе знања за 2010. годину"
 
-#: kitsune/sumo/db_strings.py:233
+#: kitsune/sumo/db_strings.py:1091
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2010 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2010; in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -5019,12 +7299,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа базе знања за 2010. годину за унапређивање Mozilla мисије"
 
-#: kitsune/sumo/db_strings.py:239
+#: kitsune/sumo/db_strings.py:1097
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 L10n Badge"
 msgstr "L10n беџ локализације за 2010. годину"
 
-#: kitsune/sumo/db_strings.py:240
+#: kitsune/sumo/db_strings.py:1098
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2010 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2010; in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -5035,12 +7315,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO L10n беџа локализације за 2010. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:246
+#: kitsune/sumo/db_strings.py:1104
 msgctxt "DB: kbadge.Badge.title"
 msgid "2010 Support Forum Badge"
 msgstr "Беџ форума подршке за 2010. годину"
 
-#: kitsune/sumo/db_strings.py:247
+#: kitsune/sumo/db_strings.py:1105
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2010 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2010 in this case: 30 replies in the English SUMO Forum.\n"
@@ -5051,12 +7331,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа форума подршке за 2010. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:253
+#: kitsune/sumo/db_strings.py:1111
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 KB Badge"
 msgstr "Беџ базе знања за 2011. годину"
 
-#: kitsune/sumo/db_strings.py:254
+#: kitsune/sumo/db_strings.py:1112
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2011 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2011; in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -5067,12 +7347,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа базе знања за 2011. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:260
+#: kitsune/sumo/db_strings.py:1118
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 L10n Badge"
 msgstr "L10n беџ локализације за 2011. годину"
 
-#: kitsune/sumo/db_strings.py:261
+#: kitsune/sumo/db_strings.py:1119
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2011 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2011; in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -5083,12 +7363,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO L10n беџа локализације за 2011. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:267
+#: kitsune/sumo/db_strings.py:1125
 msgctxt "DB: kbadge.Badge.title"
 msgid "2011 Support Forum Badge"
 msgstr "Беџ форума подршке за 2011. годину"
 
-#: kitsune/sumo/db_strings.py:268
+#: kitsune/sumo/db_strings.py:1126
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2011 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2011 in this case: 30 replies in the English SUMO Forum.\n"
@@ -5099,12 +7379,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа форума подршке за 2011. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:275
+#: kitsune/sumo/db_strings.py:1133
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 KB Badge"
 msgstr "Беџ базе знања за 2012. годину"
 
-#: kitsune/sumo/db_strings.py:276
+#: kitsune/sumo/db_strings.py:1134
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2012 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2012; in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -5115,12 +7395,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа базе знања за 2012. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:282
+#: kitsune/sumo/db_strings.py:1140
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 KB Badge"
 msgstr "Беџ базе знања за 2013. годину"
 
-#: kitsune/sumo/db_strings.py:283
+#: kitsune/sumo/db_strings.py:1141
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO KB 2013 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2013 in this case: 10 approved edits of the English SUMO Knowledge Base.\n"
@@ -5131,12 +7411,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа базе знања за 2013. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:289
+#: kitsune/sumo/db_strings.py:1147
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 L10n Badge"
 msgstr "L10n беџ локализације за 2013. годину"
 
-#: kitsune/sumo/db_strings.py:290
+#: kitsune/sumo/db_strings.py:1148
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2013 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2013 in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -5147,12 +7427,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO L10n беџа локализације за 2013. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:296
+#: kitsune/sumo/db_strings.py:1154
 msgctxt "DB: kbadge.Badge.title"
 msgid "2013 Support Forum Badge"
 msgstr "Беџ форума подршке за 2013. годину"
 
-#: kitsune/sumo/db_strings.py:297
+#: kitsune/sumo/db_strings.py:1155
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO Forum 2013 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2013 in this case: 30 replies in the English SUMO Forum.\n"
@@ -5163,12 +7443,12 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO беџа форума подршке за 2013. годину за унапређивање Mozilla мисије"
 
-#: kitsune/sumo/db_strings.py:303
+#: kitsune/sumo/db_strings.py:1161
 msgctxt "DB: kbadge.Badge.title"
 msgid "2012 L10n Badge"
 msgstr "L10n беџ локализације 2012. годину"
 
-#: kitsune/sumo/db_strings.py:304
+#: kitsune/sumo/db_strings.py:1162
 msgctxt "DB: kbadge.Badge.description"
 msgid ""
 "The SUMO L10n 2012 mini-badge is part of the SUMO series. It represents contribution to SUMO in 2012; in this case: 10 approved translation edits of the SUMO Knowledge Base.\n"
@@ -5179,2284 +7459,15 @@ msgstr ""
 "\n"
 "Честитамо свим добитницима SUMO L10n беџа локализације за 2012. годину за унапређивање Mozilla мисије!"
 
-#: kitsune/sumo/db_strings.py:310
+#: kitsune/sumo/db_strings.py:1168
 msgctxt "DB: kbadge.Badge.title"
 msgid "Kitsune Contributor"
 msgstr "Kitsune сарадник"
 
-#: kitsune/sumo/db_strings.py:311
+#: kitsune/sumo/db_strings.py:1169
 msgctxt "DB: kbadge.Badge.description"
 msgid "Badge awarded to those who have contributed to the Kitsune code base."
 msgstr "Беџ се додељује онима који су допринели Kitsune-овој бази кодова."
-
-#: kitsune/sumo/db_strings.py:315 kitsune/sumo/db_strings.py:552
-msgctxt "DB: products.Topic.title"
-msgid "Learn the Basics: get started"
-msgstr "Научите основе: почните"
-
-#: kitsune/sumo/db_strings.py:316
-msgctxt "DB: products.Topic.description"
-msgid "Learn all you need to know to get started with Firefox."
-msgstr "Сазнајте све што требате знати о томе како почети са Firefox-ом."
-
-#: kitsune/sumo/db_strings.py:319 kitsune/sumo/db_strings.py:624
-msgctxt "DB: products.Topic.title"
-msgid "Bookmarks and tabs"
-msgstr "Забелешке и језичци"
-
-#: kitsune/sumo/db_strings.py:320
-msgctxt "DB: products.Topic.description"
-msgid "Access and organize your favorite webpages easily with bookmarks and tabs"
-msgstr "Приступите и организујте омиљене веб странице лако уз помоћ забелешки и језичака"
-
-#: kitsune/sumo/db_strings.py:324 kitsune/sumo/db_strings.py:504 kitsune/sumo/db_strings.py:613
-msgctxt "DB: products.Topic.title"
-msgid "Basic browsing"
-msgstr "Основе прегледања"
-
-#: kitsune/sumo/db_strings.py:325 kitsune/sumo/db_strings.py:505
-msgctxt "DB: products.Topic.description"
-msgid "Search and navigate easily with these essential features"
-msgstr "Претражите и лако се крећите са овим основним могућностима"
-
-#: kitsune/sumo/db_strings.py:329
-msgctxt "DB: products.Topic.title"
-msgid "Import settings from other browsers"
-msgstr "Увезите поставке из других прегледача"
-
-#: kitsune/sumo/db_strings.py:330
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to import or export your information between Firefox and another browser"
-msgstr "Сазнајте како да увезете или извезете информације између Firefox-а и другог веб прегледача"
-
-#: kitsune/sumo/db_strings.py:334
-msgctxt "DB: products.Topic.title"
-msgid "Video, audio and interactive settings"
-msgstr "Видео, аудио и интерактивне поставке"
-
-#: kitsune/sumo/db_strings.py:335
-msgctxt "DB: products.Topic.description"
-msgid "Change how Firefox handles videos, animations, music and other interactive content"
-msgstr "Промените како Firefox рукује са видео снимцима, анимацијама, музиком и другим интерактивним садржајем"
-
-#: kitsune/sumo/db_strings.py:339
-msgctxt "DB: products.Topic.title"
-msgid "How to use Firefox"
-msgstr "Како да користите Firefox"
-
-#: kitsune/sumo/db_strings.py:340
-msgctxt "DB: products.Topic.description"
-msgid "How to browse, search and customize your settings"
-msgstr "Како да сурфујете, претражујете и прилагодите ваше поставке"
-
-#: kitsune/sumo/db_strings.py:341 kitsune/sumo/db_strings.py:557 kitsune/sumo/db_strings.py:1013
-msgctxt "DB: products.Topic.title"
-msgid "Download, install and migration"
-msgstr "Преузимања, инсталације и миграција"
-
-#: kitsune/sumo/db_strings.py:342
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to download Firefox on your desktop devices or move information to and from other browsers."
-msgstr "Сазнајте како да преузмете Firefox на Ваш десктоп уређај или како померити информације на и са других веб прегледача."
-
-#: kitsune/sumo/db_strings.py:346 kitsune/sumo/db_strings.py:562 kitsune/sumo/db_strings.py:975
-msgctxt "DB: products.Topic.title"
-msgid "Tips and tricks"
-msgstr "Савети и трикови"
-
-#: kitsune/sumo/db_strings.py:347
-msgctxt "DB: products.Topic.description"
-msgid "Go beyond the basics with these shortcuts and other tips."
-msgstr "Користите ове пречици и друге савете."
-
-#: kitsune/sumo/db_strings.py:351 kitsune/sumo/db_strings.py:358 kitsune/sumo/db_strings.py:515 kitsune/sumo/db_strings.py:656
-msgctxt "DB: products.Topic.title"
-msgid "Install and update"
-msgstr "Инсталирај и ажурирај"
-
-#: kitsune/sumo/db_strings.py:352
-msgctxt "DB: products.Topic.description"
-msgid "How to install Firefox and keep it up to date"
-msgstr "Како инсталирати Firefox и одржати га ажурираним"
-
-#: kitsune/sumo/db_strings.py:353
-msgctxt "DB: products.Topic.title"
-msgid "Display and appearance"
-msgstr "Приказ и изглед"
-
-#: kitsune/sumo/db_strings.py:354
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to change your toolbar, font sizes and browser colors"
-msgstr "Сазнајте како да промените алатну траку, величину фонта и боје прегледача"
-
-#: kitsune/sumo/db_strings.py:359
-msgctxt "DB: products.Topic.description"
-msgid "Download or update Firefox for Windows, Mac and Linux."
-msgstr "Преузмите или ажурирајте Firefox за Windows, Mac и Linux."
-
-#: kitsune/sumo/db_strings.py:362
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Sync"
-msgstr "Firefox Sync"
-
-#: kitsune/sumo/db_strings.py:363 kitsune/sumo/db_strings.py:567
-msgctxt "DB: products.Topic.description"
-msgid "Firefox Sync settings"
-msgstr "Подешавања Firefox синхронизације"
-
-#: kitsune/sumo/db_strings.py:364
-msgctxt "DB: products.Topic.title"
-msgid "Sync and save"
-msgstr "Синхронизуј и сними"
-
-#: kitsune/sumo/db_strings.py:365
-msgctxt "DB: products.Topic.description"
-msgid "Sync information on all your devices"
-msgstr "Синхронизујте информације на свим уређајима"
-
-#: kitsune/sumo/db_strings.py:366 kitsune/sumo/db_strings.py:831
-msgctxt "DB: products.Topic.title"
-msgid "Manage add-ons"
-msgstr "Управљај додацима"
-
-#: kitsune/sumo/db_strings.py:367
-msgctxt "DB: products.Topic.description"
-msgid "Enhance Firefox's functionality and appearance with add-ons"
-msgstr "Обогатите Firefox могућности и изглед са додацима"
-
-#: kitsune/sumo/db_strings.py:371
-msgctxt "DB: products.Topic.title"
-msgid "Sync, share and save"
-msgstr "Синхронизуј, подели и сачувај"
-
-#: kitsune/sumo/db_strings.py:372
-msgctxt "DB: products.Topic.description"
-msgid "Sync browsing information and content across multiple devices with Firefox Accounts."
-msgstr "Синхронизујте информације прегледања и садржај преко више уређаја са Firefox налозима."
-
-#: kitsune/sumo/db_strings.py:376
-msgctxt "DB: products.Topic.title"
-msgid "Firefox settings"
-msgstr "Firefox поставке"
-
-#: kitsune/sumo/db_strings.py:377
-msgctxt "DB: products.Topic.description"
-msgid "Privacy and personalization"
-msgstr "Приватност и прилагодљивост"
-
-#: kitsune/sumo/db_strings.py:378
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Hello"
-msgstr "Firefox Hello"
-
-#: kitsune/sumo/db_strings.py:379
-msgctxt "DB: products.Topic.description"
-msgid "Have video or voice conversations using the Firefox browser"
-msgstr "Имајте видео или гласовни разговор користећи Firefox прегледач"
-
-#: kitsune/sumo/db_strings.py:383
-msgctxt "DB: products.Topic.title"
-msgid "Chat and share"
-msgstr "Четујте и делите"
-
-#: kitsune/sumo/db_strings.py:384
-msgctxt "DB: products.Topic.description"
-msgid "Connect on video and share pages with your network"
-msgstr "Повежите се на видео и поделите страницу на вашој мрежи"
-
-#: kitsune/sumo/db_strings.py:387 kitsune/sumo/db_strings.py:396
-msgctxt "DB: products.Topic.title"
-msgid "Personalize Firefox"
-msgstr "Прилагодите Firefox"
-
-#: kitsune/sumo/db_strings.py:388
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox yours with these customization options."
-msgstr "Учините Firefox вашим са овим подешавањима прилагођења."
-
-#: kitsune/sumo/db_strings.py:391 kitsune/sumo/db_strings.py:575 kitsune/sumo/db_strings.py:998
-msgctxt "DB: products.Topic.title"
-msgid "Customize controls, options and add-ons"
-msgstr "Подесите контроле, опције и додатке"
-
-#: kitsune/sumo/db_strings.py:392
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox yours by adding and managing the features that you want."
-msgstr "Учините Firefox вашим додавањем и управљањем функција које ви желите."
-
-#: kitsune/sumo/db_strings.py:397
-msgctxt "DB: products.Topic.description"
-msgid "Change Firefox's appearance, behavior and settings."
-msgstr "Измените изглед, понашање и поставке Firefox-а."
-
-#: kitsune/sumo/db_strings.py:400 kitsune/sumo/db_strings.py:570 kitsune/sumo/db_strings.py:1027
-msgctxt "DB: products.Topic.title"
-msgid "Privacy and security settings"
-msgstr "Подешавања сигурности и приватности"
-
-#: kitsune/sumo/db_strings.py:401
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to keep your information safe and secure with Firefox's private browsing, password features and other security settings."
-msgstr "Научите како да сачувате своје информације помоћу Firefox-овог приватног прегледања, могућностима са лозинкама и другим поставкама безбедности."
-
-#: kitsune/sumo/db_strings.py:405 kitsune/sumo/db_strings.py:538
-msgctxt "DB: products.Topic.title"
-msgid "Do more with apps"
-msgstr "Урадите више са апликацијама"
-
-#: kitsune/sumo/db_strings.py:406
-msgctxt "DB: products.Topic.description"
-msgid "Install open apps from the Marketplace to add more fun and functionality to your device"
-msgstr "Инсталирајте отворене апликације са Marketplace-а да додате више забаве и могућности на ваш уређај"
-
-#: kitsune/sumo/db_strings.py:410 kitsune/sumo/db_strings.py:531
-msgctxt "DB: products.Topic.title"
-msgid "Protect your privacy"
-msgstr "Заштитите приватност"
-
-#: kitsune/sumo/db_strings.py:411
-msgctxt "DB: products.Topic.description"
-msgid "Keep your information safe from prying eyes with the latest privacy and security features."
-msgstr "Држите своје информације на безбедном са последњим могућностима за приватност и безбедност."
-
-#: kitsune/sumo/db_strings.py:415 kitsune/sumo/db_strings.py:550 kitsune/sumo/db_strings.py:725 kitsune/sumo/db_strings.py:1055
-msgctxt "DB: products.Topic.title"
-msgid "Get community support"
-msgstr "Потражите подршку заједнице"
-
-#: kitsune/sumo/db_strings.py:416 kitsune/sumo/db_strings.py:551 kitsune/sumo/db_strings.py:726 kitsune/sumo/db_strings.py:1056
-msgctxt "DB: products.Topic.description"
-msgid "Get community support"
-msgstr "Потражите подршку заједнице"
-
-#: kitsune/sumo/db_strings.py:417
-msgctxt "DB: products.Topic.title"
-msgid "Manage preferences and add-ons"
-msgstr "Управљај поставкама и додацима"
-
-#: kitsune/sumo/db_strings.py:418
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox yours through customization settings and add-ons"
-msgstr "Учините Firefox вашим кроз прилагођавање поставки са додацима"
-
-#: kitsune/sumo/db_strings.py:422 kitsune/sumo/db_strings.py:718 kitsune/sumo/db_strings.py:756 kitsune/sumo/db_strings.py:760 kitsune/sumo/db_strings.py:877 kitsune/sumo/db_strings.py:959
-msgctxt "DB: products.Topic.title"
-msgid "Fix problems"
-msgstr "Решите проблеме"
-
-#: kitsune/sumo/db_strings.py:423
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot slowness, crashing and error messages."
-msgstr "Поправите спорост, рушење и поруке о грешкама."
-
-#: kitsune/sumo/db_strings.py:426 kitsune/sumo/db_strings.py:543 kitsune/sumo/db_strings.py:1047
-msgctxt "DB: products.Topic.title"
-msgid "Fix slowness, crashing, error messages and other problems"
-msgstr "Поправите успореност, падове, грешке и друге проблеме"
-
-#: kitsune/sumo/db_strings.py:429 kitsune/sumo/db_strings.py:546
-msgctxt "DB: products.Topic.description"
-msgid "Fix slowness, crashing, error messages and other problems"
-msgstr "Поправите успореност, падове, грешке и друге проблеме"
-
-#: kitsune/sumo/db_strings.py:433
-msgctxt "DB: products.Topic.title"
-msgid "Advanced and experimental features"
-msgstr "Напредне и експерименталне могућности"
-
-#: kitsune/sumo/db_strings.py:434
-msgctxt "DB: products.Topic.description"
-msgid "Learn tips beyond the basics and try features before they're released to the public."
-msgstr "Сазнајте за нове трикове и испробајте могућности пре него што буду јавно доступне."
-
-#: kitsune/sumo/db_strings.py:438 kitsune/sumo/db_strings.py:568
-msgctxt "DB: products.Topic.title"
-msgid "Tab basics"
-msgstr "Основе о језичцима"
-
-#: kitsune/sumo/db_strings.py:439 kitsune/sumo/db_strings.py:569
-msgctxt "DB: products.Topic.description"
-msgid "Tab basics"
-msgstr "Основе о језичцима"
-
-#: kitsune/sumo/db_strings.py:440
-msgctxt "DB: products.Topic.title"
-msgid "Firefox versions and languages"
-msgstr "Firefox верзије и језици"
-
-#: kitsune/sumo/db_strings.py:441
-msgctxt "DB: products.Topic.description"
-msgid "Firefox versions and languages"
-msgstr "Firefox верзије и језици"
-
-#: kitsune/sumo/db_strings.py:442
-msgctxt "DB: products.Topic.title"
-msgid "Copy your personal information from one browser to another"
-msgstr "Копирајте Ваше личне информације са једног прегледача на други"
-
-#: kitsune/sumo/db_strings.py:445
-msgctxt "DB: products.Topic.description"
-msgid "Copy your personal information from one browser to another"
-msgstr "Копирајте ваше личне информације са једног прегледача на други"
-
-#: kitsune/sumo/db_strings.py:449
-msgctxt "DB: products.Topic.title"
-msgid "Cookies and cache"
-msgstr "Колачићи и кеш"
-
-#: kitsune/sumo/db_strings.py:450
-msgctxt "DB: products.Topic.description"
-msgid "Control the information that Firefox saves"
-msgstr "Контролишите информације које Firefox снима"
-
-#: kitsune/sumo/db_strings.py:451
-msgctxt "DB: products.Topic.title"
-msgid "Passwords, forms, search, and history - control what Firefox suggests"
-msgstr "Лозинке, форме, претрага, и историјат - контролишите шта Firefox предлаже"
-
-#: kitsune/sumo/db_strings.py:455
-msgctxt "DB: products.Topic.description"
-msgid "Passwords, forms, search, and history - control what Firefox suggests"
-msgstr "Лозинке, форме, претрага, и историјат - контролишите шта Firefox предлаже"
-
-#: kitsune/sumo/db_strings.py:459 kitsune/sumo/db_strings.py:582
-msgctxt "DB: products.Topic.title"
-msgid "Firefox controls and buttons"
-msgstr "Firefox контроле и дугмад"
-
-#: kitsune/sumo/db_strings.py:460 kitsune/sumo/db_strings.py:583
-msgctxt "DB: products.Topic.description"
-msgid "Firefox controls and buttons"
-msgstr "Firefox контроле и дугмад"
-
-#: kitsune/sumo/db_strings.py:461 kitsune/sumo/db_strings.py:1023
-msgctxt "DB: products.Topic.title"
-msgid "Tab settings"
-msgstr "Поставке језичака"
-
-#: kitsune/sumo/db_strings.py:462 kitsune/sumo/db_strings.py:1024
-msgctxt "DB: products.Topic.description"
-msgid "Tab settings"
-msgstr "Поставке језичака"
-
-#: kitsune/sumo/db_strings.py:463 kitsune/sumo/db_strings.py:584
-msgctxt "DB: products.Topic.title"
-msgid "Customize Firefox with add-ons, plugins, and extensions"
-msgstr "Прилагодите Firefox са додацима, прикључцима и екстензијама"
-
-#: kitsune/sumo/db_strings.py:464 kitsune/sumo/db_strings.py:585
-msgctxt "DB: products.Topic.description"
-msgid "Customize Firefox with add-ons, plugins, and extensions"
-msgstr "Прилагодите Firefox са додацима, прикључцима и екстензијама"
-
-#: kitsune/sumo/db_strings.py:467
-msgctxt "DB: products.Topic.title"
-msgid "Firefox options, preferences and settings"
-msgstr "Firefox опције, преформансе и подешавања"
-
-#: kitsune/sumo/db_strings.py:468
-msgctxt "DB: products.Topic.description"
-msgid "Firefox options, preferences and settings"
-msgstr "Firefox опције, преформансе и подешавања"
-
-#: kitsune/sumo/db_strings.py:469
-msgctxt "DB: products.Topic.title"
-msgid "Bookmark options"
-msgstr "Поставке забелешки"
-
-#: kitsune/sumo/db_strings.py:470
-msgctxt "DB: products.Topic.description"
-msgid "Bookmark options"
-msgstr "Поставке забелешки"
-
-#: kitsune/sumo/db_strings.py:471 kitsune/sumo/db_strings.py:588
-msgctxt "DB: products.Topic.title"
-msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
-msgstr "Исправите проблеме уз помоћ веб сајтова (Facebook, YouTube, webmail итд.)"
-
-#: kitsune/sumo/db_strings.py:474 kitsune/sumo/db_strings.py:591
-msgctxt "DB: products.Topic.description"
-msgid "Fix problems with websites (Facebook, YouTube, webmail etc.)"
-msgstr "Исправите проблеме уз помоћ веб сајтова (Facebook, YouTube, webmail итд.)"
-
-#: kitsune/sumo/db_strings.py:478 kitsune/sumo/db_strings.py:1025
-msgctxt "DB: products.Topic.title"
-msgid "Error messages: what they mean and how to fix"
-msgstr "Порука о грешци: шта су мислили и како поправити"
-
-#: kitsune/sumo/db_strings.py:479
-msgctxt "DB: products.Topic.description"
-msgid "How to troubleshoot error messages on Firefox"
-msgstr "Како решити проблем порука о грешкама у Firefox-у"
-
-#: kitsune/sumo/db_strings.py:480
-msgctxt "DB: products.Topic.title"
-msgid "Unblock Firefox from connecting to the Internet"
-msgstr "Одблокирајте Firefox од повезивања на интернет"
-
-#: kitsune/sumo/db_strings.py:481
-msgctxt "DB: products.Topic.description"
-msgid "Unblock Firefox from connecting to the Internet"
-msgstr "Одблокирајте Firefox од повезивања на интернет"
-
-#: kitsune/sumo/db_strings.py:482 kitsune/sumo/db_strings.py:731 kitsune/sumo/db_strings.py:1045
-msgctxt "DB: products.Topic.title"
-msgid "Procedures to diagnose and fix problems"
-msgstr "Процедуре за дијагнозу и решавање проблема"
-
-#: kitsune/sumo/db_strings.py:483 kitsune/sumo/db_strings.py:732 kitsune/sumo/db_strings.py:1046
-msgctxt "DB: products.Topic.description"
-msgid "Procedures to diagnose and fix problems"
-msgstr "Процедуре за дијагнозу и решавање проблема"
-
-#: kitsune/sumo/db_strings.py:484
-msgctxt "DB: products.Topic.title"
-msgid "Videos, sound, pictures and animations don't work"
-msgstr "Видео, звук, слике и анимације не раде"
-
-#: kitsune/sumo/db_strings.py:485
-msgctxt "DB: products.Topic.description"
-msgid "Videos, sound, pictures and animations don't work"
-msgstr "Видео, звук, слике и анимације не раде"
-
-#: kitsune/sumo/db_strings.py:486
-msgctxt "DB: products.Topic.title"
-msgid "Firefox is slow or stops working"
-msgstr "Firefox је спор или престаје да ради"
-
-#: kitsune/sumo/db_strings.py:487
-msgctxt "DB: products.Topic.description"
-msgid "Slowness or hanging"
-msgstr "Спорост или падање"
-
-#: kitsune/sumo/db_strings.py:488 kitsune/sumo/db_strings.py:595
-msgctxt "DB: products.Topic.title"
-msgid "Firefox crashes"
-msgstr "Firefox се руши"
-
-#: kitsune/sumo/db_strings.py:489 kitsune/sumo/db_strings.py:596
-msgctxt "DB: products.Topic.description"
-msgid "Crashing"
-msgstr "Падови"
-
-#: kitsune/sumo/db_strings.py:490
-msgctxt "DB: products.Topic.title"
-msgid "Firefox won't save settings or remember information"
-msgstr "Firefox неће да сачува подешавања или запамти информације"
-
-#: kitsune/sumo/db_strings.py:491
-msgctxt "DB: products.Topic.description"
-msgid "Firefox won't save settings or remember information"
-msgstr "Firefox неће да сачува подешавања или запамти информације"
-
-#: kitsune/sumo/db_strings.py:494 kitsune/sumo/db_strings.py:1061
-msgctxt "DB: products.Topic.title"
-msgid "Problems with add-ons, plugins or unwanted software"
-msgstr "Проблеми са додацима, прикључцима или нежељеним софтвером"
-
-#: kitsune/sumo/db_strings.py:495 kitsune/sumo/db_strings.py:1062
-msgctxt "DB: products.Topic.description"
-msgid "Problems with add-ons, plugins or unwanted software"
-msgstr "Проблеми са додацима, прикључцима или нежељеним софтвером"
-
-#: kitsune/sumo/db_strings.py:498 kitsune/sumo/db_strings.py:597 kitsune/sumo/db_strings.py:733
-msgctxt "DB: products.Topic.title"
-msgid "Mozilla Persona"
-msgstr "Mozilla Persona"
-
-#: kitsune/sumo/db_strings.py:499 kitsune/sumo/db_strings.py:598 kitsune/sumo/db_strings.py:734 kitsune/sumo/db_strings.py:942
-msgctxt "DB: products.Topic.description"
-msgid "Mozilla Persona"
-msgstr "Mozilla Persona"
-
-#: kitsune/sumo/db_strings.py:500 kitsune/sumo/db_strings.py:735
-msgctxt "DB: products.Topic.title"
-msgid "Hot topics"
-msgstr "Популарне теме"
-
-#: kitsune/sumo/db_strings.py:501 kitsune/sumo/db_strings.py:736 kitsune/sumo/db_strings.py:944
-msgctxt "DB: products.Topic.description"
-msgid "Hot topics"
-msgstr "Популарне теме"
-
-#: kitsune/sumo/db_strings.py:502 kitsune/sumo/db_strings.py:601 kitsune/sumo/db_strings.py:905 kitsune/sumo/db_strings.py:1070
-msgctxt "DB: products.Topic.title"
-msgid "Other"
-msgstr "Остало"
-
-#: kitsune/sumo/db_strings.py:503 kitsune/sumo/db_strings.py:602 kitsune/sumo/db_strings.py:1071
-msgctxt "DB: products.Topic.description"
-msgid "Other"
-msgstr "Остало"
-
-#: kitsune/sumo/db_strings.py:509
-msgctxt "DB: products.Topic.title"
-msgid "How to use Firefox for Android"
-msgstr "Како да користим Firefox за Android"
-
-#: kitsune/sumo/db_strings.py:510
-msgctxt "DB: products.Topic.description"
-msgid "How to use Firefox for Android"
-msgstr "Како да користим Firefox за Android"
-
-#: kitsune/sumo/db_strings.py:511
-msgctxt "DB: products.Topic.title"
-msgid "What's new in Firefox for Android"
-msgstr "Шта је ново у Firefox-у за Android"
-
-#: kitsune/sumo/db_strings.py:512
-msgctxt "DB: products.Topic.description"
-msgid "See what new features are available in each release"
-msgstr "Погледајте које нове могућности су доступне у сваком издању"
-
-#: kitsune/sumo/db_strings.py:516
-msgctxt "DB: products.Topic.description"
-msgid "How to install and keep Firefox for Android up to date"
-msgstr "Како инсталирати и пренети информације на Firefox за Android"
-
-#: kitsune/sumo/db_strings.py:519
-msgctxt "DB: products.Topic.title"
-msgid "Save, share and sync"
-msgstr "Сними, подели и синхронизуј"
-
-#: kitsune/sumo/db_strings.py:520
-msgctxt "DB: products.Topic.description"
-msgid "Save, share and synchronize content with other devices"
-msgstr "Сними, подели и синхронизуј садржај са другим уређајима"
-
-#: kitsune/sumo/db_strings.py:523
-msgctxt "DB: products.Topic.title"
-msgid "Changing your settings"
-msgstr "Мењајте ваше поставке"
-
-#: kitsune/sumo/db_strings.py:524
-msgctxt "DB: products.Topic.description"
-msgid "Change Firefox's behavior."
-msgstr "Промените понашање Firefox-а."
-
-#: kitsune/sumo/db_strings.py:525
-msgctxt "DB: products.Topic.title"
-msgid "Cast to your TV"
-msgstr "Пребаци на TV"
-
-#: kitsune/sumo/db_strings.py:526
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to view content on another screen"
-msgstr "Сазнајте више о томе како да видите садржај на другом екрану"
-
-#: kitsune/sumo/db_strings.py:527
-msgctxt "DB: products.Topic.title"
-msgid "Popular articles"
-msgstr "Чланци сарадника"
-
-#: kitsune/sumo/db_strings.py:528
-msgctxt "DB: products.Topic.description"
-msgid "Popular tips and solutions for Firefox for Android"
-msgstr "Сазнајте како да инсталирате и пренесете информације на Firefox за Android."
-
-#: kitsune/sumo/db_strings.py:532
-msgctxt "DB: products.Topic.description"
-msgid "Control how your information is saved or tracked"
-msgstr "Контролишите како се ваше информације снимају или прате"
-
-#: kitsune/sumo/db_strings.py:533
-msgctxt "DB: products.Topic.title"
-msgid "Customize settings and preferences"
-msgstr "Прилагодите поставке"
-
-#: kitsune/sumo/db_strings.py:534
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox for Android yours with these customization options"
-msgstr "Нека Firefox за Android ради како ви желите кроз могућности прилагођавања"
-
-#: kitsune/sumo/db_strings.py:539
-msgctxt "DB: products.Topic.description"
-msgid "Learn to find and install open apps to add more fun and functionality to your device"
-msgstr "Сазнајте како да пронађете и инсталирате отворене апликације да би додали могућности и учинили уређај забавнијим"
-
-#: kitsune/sumo/db_strings.py:553
-msgctxt "DB: products.Topic.description"
-msgid "Learn all you need to know to get Firefox for Android up and running."
-msgstr "Сазнајте све што Вам треба да би сте покренули и користили Firefox за Android."
-
-#: kitsune/sumo/db_strings.py:558
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to install and transfer information to Firefox for Android."
-msgstr "Сазнајте како да инсталирате и пренесете информације на Firefox за Android."
-
-#: kitsune/sumo/db_strings.py:563
-msgctxt "DB: products.Topic.description"
-msgid "Tips and tricks"
-msgstr "Савети и трикови"
-
-#: kitsune/sumo/db_strings.py:564
-msgctxt "DB: products.Topic.title"
-msgid "Use bookmarks"
-msgstr "Користи забелешке"
-
-#: kitsune/sumo/db_strings.py:565
-msgctxt "DB: products.Topic.description"
-msgid "The basics of using bookmarks"
-msgstr "Основе коришћења забелешки"
-
-#: kitsune/sumo/db_strings.py:566
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Sync settings"
-msgstr "Подешавања Firefox синхронизације"
-
-#: kitsune/sumo/db_strings.py:571
-msgctxt "DB: products.Topic.description"
-msgid "Keep your information safe with Firefox for Android's privacy and security settings."
-msgstr "Држите своје информације на безбедном помоћу поставки за приватност и безбедност унутар Firefox-а за Android."
-
-#: kitsune/sumo/db_strings.py:576
-msgctxt "DB: products.Topic.description"
-msgid "Make Firefox for Android work the way you want through customization."
-msgstr "Нека Firefox за Android ради како ви желите кроз прилагођавање."
-
-#: kitsune/sumo/db_strings.py:580
-msgctxt "DB: products.Topic.title"
-msgid "Cookies"
-msgstr "Колачићи"
-
-#: kitsune/sumo/db_strings.py:581
-msgctxt "DB: products.Topic.description"
-msgid "Cookies"
-msgstr "Колачићи"
-
-#: kitsune/sumo/db_strings.py:599 kitsune/sumo/db_strings.py:693
-msgctxt "DB: products.Topic.title"
-msgid "Marketplace"
-msgstr "Marketplace"
-
-#: kitsune/sumo/db_strings.py:600
-msgctxt "DB: products.Topic.description"
-msgid "Firefox Marketplace"
-msgstr "Firefox Marketplace"
-
-#: kitsune/sumo/db_strings.py:603
-msgctxt "DB: products.Topic.title"
-msgid "Install and Update"
-msgstr "Инсталирај и ажурирај"
-
-#: kitsune/sumo/db_strings.py:604
-msgctxt "DB: products.Topic.description"
-msgid "Install and keep Firefox up to date on your iPad, iPhone or iPod Touch."
-msgstr "Инсталирајте Firefox на ваш iPad, iPhone или iPod Touch."
-
-#: kitsune/sumo/db_strings.py:608
-msgctxt "DB: products.Topic.title"
-msgid "Reader View and List"
-msgstr "Приказ читача и листе"
-
-#: kitsune/sumo/db_strings.py:609
-msgctxt "DB: products.Topic.description"
-msgid "Read and save web pages in a clutter-free, reader-friendly view"
-msgstr "Читајте и снимите веб странице користећи прегледан приказ читача"
-
-#: kitsune/sumo/db_strings.py:614
-msgctxt "DB: products.Topic.description"
-msgid "How to use bookmarks, tabs and basic Firefox features on your iOS device"
-msgstr "Како да користите забелешке, језичке и основне Firefox могућности на iOS уређају"
-
-#: kitsune/sumo/db_strings.py:618
-msgctxt "DB: products.Topic.title"
-msgid "History"
-msgstr "Историја"
-
-#: kitsune/sumo/db_strings.py:619
-msgctxt "DB: products.Topic.description"
-msgid "Change your history settings on Firefox for iOS"
-msgstr "Промените поставке за историјат на Firefox за iOS уређају"
-
-#: kitsune/sumo/db_strings.py:620
-msgctxt "DB: products.Topic.title"
-msgid "How to use Firefox for iOS"
-msgstr "Firefox за iOS"
-
-#: kitsune/sumo/db_strings.py:621
-msgctxt "DB: products.Topic.description"
-msgid "General usage questions"
-msgstr "Скоро ажурирана питања"
-
-#: kitsune/sumo/db_strings.py:622
-msgctxt "DB: products.Topic.title"
-msgid "What's new in Firefox for iOS"
-msgstr "Шта је ново у Firefox-у за iOS"
-
-#: kitsune/sumo/db_strings.py:623
-msgctxt "DB: products.Topic.description"
-msgid "See what features are available in each release."
-msgstr "Погледајте које могућности су доступне у сваком издању."
-
-#: kitsune/sumo/db_strings.py:625
-msgctxt "DB: products.Topic.description"
-msgid "Access websites easily with bookmarks and tab features"
-msgstr "Приступите веб сајтовима лако са забелешкама и могућностима за језичке"
-
-#: kitsune/sumo/db_strings.py:628
-msgctxt "DB: products.Topic.title"
-msgid "Search"
-msgstr "Претражи"
-
-#: kitsune/sumo/db_strings.py:629
-msgctxt "DB: products.Topic.description"
-msgid "Customize your search settings in Firefox for iOS"
-msgstr "Прилагодите поставке претраге на Firefox за iOS уређају"
-
-#: kitsune/sumo/db_strings.py:630
-msgctxt "DB: products.Topic.title"
-msgid "Firefox for iOS is not working as expected"
-msgstr "Није радило како се очекивало"
-
-#: kitsune/sumo/db_strings.py:631
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot problems with Firefox for iOS."
-msgstr "Решите поруке о грешкама у Firefox-у за iOS"
-
-#: kitsune/sumo/db_strings.py:632
-msgctxt "DB: products.Topic.title"
-msgid "Privacy"
-msgstr "Приватност"
-
-#: kitsune/sumo/db_strings.py:633
-msgctxt "DB: products.Topic.description"
-msgid "Protect your information with Firefox's privacy settings on iOS"
-msgstr "Заштитите информације са поставкама за приватност на Firefox за iOS"
-
-#: kitsune/sumo/db_strings.py:637
-msgctxt "DB: products.Topic.title"
-msgid "Sync, save and share"
-msgstr "Синхронизу, сними и подели"
-
-#: kitsune/sumo/db_strings.py:638
-msgctxt "DB: products.Topic.description"
-msgid "Share web pages on Firefox for iOS"
-msgstr "Поделите веб странице на Firefox-у за iOS"
-
-#: kitsune/sumo/db_strings.py:639
-msgctxt "DB: products.Topic.title"
-msgid "Customize preferences"
-msgstr "Прилагодите поставке"
-
-#: kitsune/sumo/db_strings.py:640
-msgctxt "DB: products.Topic.description"
-msgid "Customize preferences for Firefox for iOS"
-msgstr "Прилагодите поставке за Firefox за iOS"
-
-#: kitsune/sumo/db_strings.py:641
-msgctxt "DB: products.Topic.title"
-msgid "Crashes, errors and other issues"
-msgstr "Рушења, грешке и други проблеми"
-
-#: kitsune/sumo/db_strings.py:642
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot error message on Firefox for iOS"
-msgstr "Решите поруке о грешкама у Firefox-у за iOS"
-
-#: kitsune/sumo/db_strings.py:643 kitsune/sumo/db_strings.py:660 kitsune/sumo/db_strings.py:752 kitsune/sumo/db_strings.py:754 kitsune/sumo/db_strings.py:912 kitsune/sumo/db_strings.py:949
-#: kitsune/sumo/db_strings.py:971
-msgctxt "DB: products.Topic.title"
-msgid "Get started"
-msgstr "Започните"
-
-#: kitsune/sumo/db_strings.py:644
-msgctxt "DB: products.Topic.description"
-msgid "Firefox OS basics"
-msgstr "Основе Firefox OS-а"
-
-#: kitsune/sumo/db_strings.py:645
-msgctxt "DB: products.Topic.title"
-msgid "Basic Features"
-msgstr "Основне функције"
-
-#: kitsune/sumo/db_strings.py:646
-msgctxt "DB: products.Topic.description"
-msgid "Learn the basic functionality for your Firefox OS phone. "
-msgstr "Научите основне функционалности Firefox OS телефона. "
-
-#: kitsune/sumo/db_strings.py:650
-msgctxt "DB: products.Topic.title"
-msgid "Download and Manage Apps"
-msgstr "Преузмите и управљајте са апликацијама"
-
-#: kitsune/sumo/db_strings.py:651
-msgctxt "DB: products.Topic.description"
-msgid "Download apps from the Marketplace"
-msgstr "Преузмите апликације са Marketplace-а"
-
-#: kitsune/sumo/db_strings.py:652
-msgctxt "DB: products.Topic.title"
-msgid "Date and Time"
-msgstr "Датум и време"
-
-#: kitsune/sumo/db_strings.py:653
-msgctxt "DB: products.Topic.description"
-msgid "Setting a date and time on your Firefox OS phone"
-msgstr "Подешавање датума и времена на Firefox OS телефону"
-
-#: kitsune/sumo/db_strings.py:654
-msgctxt "DB: products.Topic.title"
-msgid "Display"
-msgstr "Приказ"
-
-#: kitsune/sumo/db_strings.py:655
-msgctxt "DB: products.Topic.description"
-msgid "Customize your screen on your Firefox OS device."
-msgstr "Измените екран на Firefox OS уређају."
-
-#: kitsune/sumo/db_strings.py:657
-msgctxt "DB: products.Topic.description"
-msgid "Download and install the mobile app on your device."
-msgstr "Преузмите и инсталирајте апликацију на мобилни уређај."
-
-#: kitsune/sumo/db_strings.py:661
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Learn the basics"
-msgstr "Научите основe: започните"
-
-#: kitsune/sumo/db_strings.py:662
-msgctxt "DB: products.Topic.title"
-msgid "Calling and Contacts"
-msgstr "Позивање и контакти"
-
-#: kitsune/sumo/db_strings.py:663
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to add and manage contacts, as well as make one-to-one or conference calls on your Firefox OS phone."
-msgstr "Научите како да додате и управљате контактима, као и како да направите један-на-један или групне позиве на Firefox OS телефону."
-
-#: kitsune/sumo/db_strings.py:667
-msgctxt "DB: products.Topic.title"
-msgid "Browsing"
-msgstr "Прегледање"
-
-#: kitsune/sumo/db_strings.py:668
-msgctxt "DB: products.Topic.description"
-msgid "Surf and navigate the Web on Firefox Preview"
-msgstr "Сурфујте вебом помоћу Firefox Preview-а"
-
-#: kitsune/sumo/db_strings.py:669
-msgctxt "DB: products.Topic.title"
-msgid "How do I use Firefox Preview?"
-msgstr "Како користити Firefox Preview?"
-
-#: kitsune/sumo/db_strings.py:670
-msgctxt "DB: products.Topic.description"
-msgid "Get help with using features in Firefox Preview."
-msgstr "Потражите помоћ за Firefox Preview функције"
-
-#: kitsune/sumo/db_strings.py:671
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Manage account"
-msgstr "Управљајте Firefox налогом"
-
-#: kitsune/sumo/db_strings.py:672
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "How to change your account settings"
-msgstr "Управљајте налогом и подешавањима"
-
-#: kitsune/sumo/db_strings.py:673
-msgctxt "DB: products.Topic.title"
-msgid "Email and Messages"
-msgstr "Е-пошта и поруке"
-
-#: kitsune/sumo/db_strings.py:674
-msgctxt "DB: products.Topic.description"
-msgid "Keep in touch with your contacts through email and messaging."
-msgstr "Останите у току са контактима кроз е-пошту и поруке."
-
-#: kitsune/sumo/db_strings.py:678
-msgctxt "DB: products.Topic.title"
-msgid "Library"
-msgstr "Библиотека"
-
-#: kitsune/sumo/db_strings.py:679
-msgctxt "DB: products.Topic.description"
-msgid "Manage bookmarks and history"
-msgstr "Управљајте обележивачима и историјом"
-
-#: kitsune/sumo/db_strings.py:680
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Services and Subscriptions"
-msgstr "Сачувај опис"
-
-#: kitsune/sumo/db_strings.py:681
-msgctxt "DB: products.Topic.description"
-msgid "Free and premium privacy offerings"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:682
-msgctxt "DB: products.Topic.title"
-msgid "Music, Photos and Video"
-msgstr "Музика, слике и видео снимци"
-
-#: kitsune/sumo/db_strings.py:683
-msgctxt "DB: products.Topic.description"
-msgid "Take pictures, record videos and listen to music on your Firefox OS phone."
-msgstr "Сликајте фотографије, снимајте снимке и слушајте музику на Firefox OS телефону."
-
-#: kitsune/sumo/db_strings.py:687
-msgctxt "DB: products.Topic.title"
-msgid "Sync"
-msgstr "Синхронизација"
-
-#: kitsune/sumo/db_strings.py:688
-msgctxt "DB: products.Topic.description"
-msgid "Sync your browsing information across other devices."
-msgstr "Синхронизујте податке прегледања на свим уређајима."
-
-#: kitsune/sumo/db_strings.py:691
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Troubleshoot"
-msgstr "Решавање проблема"
-
-#: kitsune/sumo/db_strings.py:692
-#, fuzzy
-msgctxt "DB: products.Topic.description"
-msgid "Fix problems with Firefox Accounts"
-msgstr "Решите проблеме уз Firefox Lockwise"
-
-#: kitsune/sumo/db_strings.py:694
-msgctxt "DB: products.Topic.description"
-msgid "How to download, manage and use your favorite apps on your Firefox OS phone."
-msgstr "Како да преузмете, управљате и користите омиљене апликације на Firefox OS телефону."
-
-#: kitsune/sumo/db_strings.py:698 kitsune/sumo/db_strings.py:703
-msgctxt "DB: products.Topic.title"
-msgid "Privacy and security"
-msgstr "Приватност и сигурност"
-
-#: kitsune/sumo/db_strings.py:699
-msgctxt "DB: products.Topic.description"
-msgid "Keep your information safe with Firefox OS locks, privacy features and more."
-msgstr "Држите своје информације на безбедном са кључевима, поставкама приватности и другим на Firefox OS-у."
-
-#: kitsune/sumo/db_strings.py:704
-msgctxt "DB: products.Topic.description"
-msgid "Protect your privacy on Firefox Preview."
-msgstr "Заштитите вашу приватност у Firefox Preview-у."
-
-#: kitsune/sumo/db_strings.py:705 kitsune/sumo/db_strings.py:895
-msgctxt "DB: products.Topic.title"
-msgid "Settings"
-msgstr "Поставке"
-
-#: kitsune/sumo/db_strings.py:706
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to configure the Internet connection, display and time on your Firefox OS device."
-msgstr "Научите како да подесите интернет конекцију, екран и време на Firefox OS уређају."
-
-#: kitsune/sumo/db_strings.py:710
-msgctxt "DB: products.Topic.title"
-msgid "Internet and Connections"
-msgstr "Интернет и везе"
-
-#: kitsune/sumo/db_strings.py:711
-msgctxt "DB: products.Topic.description"
-msgid "Learn more about Wi-Fi, Bluetooth and NFC connections."
-msgstr "Научите више о Wi-Fi, Bluetooth и NFC конекцијама."
-
-#: kitsune/sumo/db_strings.py:714
-msgctxt "DB: products.Topic.title"
-msgid "Settings and preferences"
-msgstr "Подешавања и преференце"
-
-#: kitsune/sumo/db_strings.py:715
-msgctxt "DB: products.Topic.description"
-msgid "Manage themes and search settings"
-msgstr "Управљајте темама и подешавањима претраге"
-
-#: kitsune/sumo/db_strings.py:716
-msgctxt "DB: products.Topic.title"
-msgid "Fix problems with Firefox Preview"
-msgstr "Решите проблеме уз Firefox Preview"
-
-#: kitsune/sumo/db_strings.py:717
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot issues with Firefox Preview"
-msgstr "Решите проблеме уз Firefox Preview"
-
-#: kitsune/sumo/db_strings.py:719
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to troubleshoot issues on your Firefox OS phone."
-msgstr "Научите како да решавате проблеме на Firefox OS телефону."
-
-#: kitsune/sumo/db_strings.py:723
-msgctxt "DB: products.Topic.title"
-msgid "Advanced Settings"
-msgstr "Напредна подешавања"
-
-#: kitsune/sumo/db_strings.py:724
-msgctxt "DB: products.Topic.description"
-msgid "Do more with Firefox Preview"
-msgstr "Обавите више уз Firefox Preview"
-
-#: kitsune/sumo/db_strings.py:727
-msgctxt "DB: products.Topic.title"
-msgid "View all Firefox OS articles"
-msgstr "Погледај све Firefox OS чланке"
-
-#: kitsune/sumo/db_strings.py:728
-msgctxt "DB: products.Topic.description"
-msgid "View a list of all Firefox OS articles"
-msgstr "Погледај листу свих Firefox OS чланака"
-
-#: kitsune/sumo/db_strings.py:729
-msgctxt "DB: products.Topic.title"
-msgid "Working with messages"
-msgstr "Рад са порукама"
-
-#: kitsune/sumo/db_strings.py:730
-msgctxt "DB: products.Topic.description"
-msgid "Firefox OS SMS & email"
-msgstr "Firefox OS SMS и е-пошта"
-
-#: kitsune/sumo/db_strings.py:737
-msgctxt "DB: products.Topic.title"
-msgid "Technical"
-msgstr "Техничко"
-
-#: kitsune/sumo/db_strings.py:738
-msgctxt "DB: products.Topic.description"
-msgid "Find solutions for how to use the Firefox Private Network VPN"
-msgstr "Пронађите решења за употребу Firefox VPN приватне мреже"
-
-#: kitsune/sumo/db_strings.py:742
-msgctxt "DB: products.Topic.title"
-msgid "Accounts"
-msgstr "Налози"
-
-#: kitsune/sumo/db_strings.py:743
-msgctxt "DB: products.Topic.description"
-msgid "Find solutions on managing your account"
-msgstr "Пронађите решења за управљање налогом"
-
-#: kitsune/sumo/db_strings.py:744
-msgctxt "DB: products.Topic.title"
-msgid "Payments"
-msgstr "Плаћања"
-
-#: kitsune/sumo/db_strings.py:745
-msgctxt "DB: products.Topic.description"
-msgid "Manage your payment and subscription"
-msgstr "Управљајте вашим плаћањем и претплатом"
-
-#: kitsune/sumo/db_strings.py:746 kitsune/sumo/db_strings.py:939
-msgctxt "DB: products.Topic.title"
-msgid "Troubleshooting"
-msgstr "Решавање проблема"
-
-#: kitsune/sumo/db_strings.py:747
-msgctxt "DB: products.Topic.description"
-msgid "Fix problems with Firefox Private Network VPN"
-msgstr "Решите проблеме уз Firefox VPN приватну мрежу"
-
-#: kitsune/sumo/db_strings.py:748
-msgctxt "DB: products.Topic.title"
-msgid "Firefox for Fire TV"
-msgstr "Firefox за Fire TV"
-
-#: kitsune/sumo/db_strings.py:749
-msgctxt "DB: products.Topic.description"
-msgid "Browser for the Amazon Fire TV."
-msgstr "Прегледач за Amazon Fire TV."
-
-#: kitsune/sumo/db_strings.py:750
-msgctxt "DB: products.Topic.title"
-msgid "Firefox for Echo Show"
-msgstr "Firefox за Echo Show"
-
-#: kitsune/sumo/db_strings.py:751
-msgctxt "DB: products.Topic.description"
-msgid "Browser for the Amazon Echo Show"
-msgstr "Прегледач за Amazon Echo Show"
-
-#: kitsune/sumo/db_strings.py:753
-msgctxt "DB: products.Topic.description"
-msgid "Get Started with Firefox for Fire TV"
-msgstr "Започните са Firefox-ом за Fire TV"
-
-#: kitsune/sumo/db_strings.py:755
-msgctxt "DB: products.Topic.description"
-msgid "Basics for using Firefox Private Network."
-msgstr "Основе коришћења Firefox приватне мреже."
-
-#: kitsune/sumo/db_strings.py:757
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot problems with Firefox Fire TV"
-msgstr "Решите проблеме уз Firefox Fire TV"
-
-#: kitsune/sumo/db_strings.py:758
-msgctxt "DB: products.Topic.title"
-msgid "Manage account and settings"
-msgstr "Управљајте налогом и подешавањима"
-
-#: kitsune/sumo/db_strings.py:759
-msgctxt "DB: products.Topic.description"
-msgid "Change account and settings for Private Network."
-msgstr "Промените налог и подешавања за приватну мрежу."
-
-#: kitsune/sumo/db_strings.py:761
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot issues for Private Network"
-msgstr "Решите проблеме за Firefox приватну мрежу"
-
-#: kitsune/sumo/db_strings.py:762
-msgctxt "DB: products.Topic.title"
-msgid "Popcorn Maker"
-msgstr "Popcorn Maker"
-
-#: kitsune/sumo/db_strings.py:763
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to remix web video, audio and images into mashups that you can embed on other websites. "
-msgstr "Научите како да ремиксујете веб снимке, звуке и слике у микс који можете уградити на друге веб сајтове. "
-
-#: kitsune/sumo/db_strings.py:767
-msgctxt "DB: products.Topic.title"
-msgid "Webmaker for Android"
-msgstr "Webmaker за Android"
-
-#: kitsune/sumo/db_strings.py:768
-msgctxt "DB: products.Topic.description"
-msgid "Get help with the Webmaker app for Android."
-msgstr "Пронађите помоћ са Webmaker апликацијом за Android."
-
-#: kitsune/sumo/db_strings.py:769
-msgctxt "DB: products.Topic.title"
-msgid "Intro to Open Badges"
-msgstr "Увод у Open Badges"
-
-#: kitsune/sumo/db_strings.py:770
-msgctxt "DB: products.Topic.description"
-msgid "Learn the basic about Open Badges"
-msgstr "Научите основе о Open Badges"
-
-#: kitsune/sumo/db_strings.py:771
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Release notes"
-msgstr "Белешке о издању"
-
-#: kitsune/sumo/db_strings.py:772
-msgctxt "DB: products.Topic.description"
-msgid "Where to find release notes and upcoming features."
-msgstr "Где пронаћи биљешке о издању и надолазећим функцијама."
-
-#: kitsune/sumo/db_strings.py:775
-msgctxt "DB: products.Topic.title"
-msgid "Windows"
-msgstr "Windows"
-
-#: kitsune/sumo/db_strings.py:776
-msgctxt "DB: products.Topic.description"
-msgid "Deploying Firefox on Windows computers."
-msgstr "Имплементирање Firefox-а на Windows рачунарима."
-
-#: kitsune/sumo/db_strings.py:777
-msgctxt "DB: products.Topic.title"
-msgid "Manage certificates"
-msgstr "Управљајте сертификатима"
-
-#: kitsune/sumo/db_strings.py:778
-msgctxt "DB: products.Topic.description"
-msgid "Set up certificates on Firefox for your organization."
-msgstr "Поставите сертификате у Firefox-у за вашу организацију."
-
-#: kitsune/sumo/db_strings.py:781
-msgctxt "DB: products.Topic.title"
-msgid "Thimble"
-msgstr "Thimble"
-
-#: kitsune/sumo/db_strings.py:782
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to create and share your own webpages quickly and easily."
-msgstr "Научите брзо и лако да креирате и поделите своје веб странице."
-
-#: kitsune/sumo/db_strings.py:786
-msgctxt "DB: products.Topic.title"
-msgid "BadgeKit"
-msgstr "BadgeKit"
-
-#: kitsune/sumo/db_strings.py:787
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to create, assess and issue badges"
-msgstr "Научите како да креирате, процените и издате значке"
-
-#: kitsune/sumo/db_strings.py:788
-msgctxt "DB: products.Topic.title"
-msgid "Customization of Firefox in an enterprise environment"
-msgstr "Прилагођавање Firefox-а у пословном окружењу"
-
-#: kitsune/sumo/db_strings.py:789
-msgctxt "DB: products.Topic.description"
-msgid "Customization of Firefox in an enterprise environment"
-msgstr "Прилагођавање Firefox-а у пословном окружењу"
-
-#: kitsune/sumo/db_strings.py:792
-msgctxt "DB: products.Topic.title"
-msgid "Installation"
-msgstr "Инсталација"
-
-#: kitsune/sumo/db_strings.py:793
-msgctxt "DB: products.Topic.description"
-msgid "How to install Firefox for Enterprise"
-msgstr "Како да инсталирате Firefox за Enterprise"
-
-#: kitsune/sumo/db_strings.py:794
-msgctxt "DB: products.Topic.title"
-msgid "Explore"
-msgstr "Истражите"
-
-#: kitsune/sumo/db_strings.py:795
-msgctxt "DB: products.Topic.description"
-msgid "Learn about Firefox for Enterprise"
-msgstr "Сазнајте више о Firefox-у за предузећа"
-
-#: kitsune/sumo/db_strings.py:796
-msgctxt "DB: products.Topic.title"
-msgid "Mac"
-msgstr "Mac"
-
-#: kitsune/sumo/db_strings.py:797
-msgctxt "DB: products.Topic.description"
-msgid "Deploy Firefox on your organization's Mac computers"
-msgstr "Имплементирајте Firefox на Mac рачунарима ваше организације"
-
-#: kitsune/sumo/db_strings.py:800
-msgctxt "DB: products.Topic.title"
-msgid "Policies overview"
-msgstr "Преглед политика"
-
-#: kitsune/sumo/db_strings.py:801
-msgctxt "DB: products.Topic.description"
-msgid "How to set up policies on Firefox for your organization."
-msgstr "Како поставити политике у Firefox-у за вашу организацију."
-
-#: kitsune/sumo/db_strings.py:805
-msgctxt "DB: products.Topic.title"
-msgid "X-Ray Goggles"
-msgstr "X-Ray Goggles"
-
-#: kitsune/sumo/db_strings.py:806
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to inspect the code behind every webpage."
-msgstr "Научите како да испитате код иза сваке веб странице."
-
-#: kitsune/sumo/db_strings.py:809
-msgctxt "DB: products.Topic.title"
-msgid "Get Involved"
-msgstr "Укључите се"
-
-#: kitsune/sumo/db_strings.py:810
-msgctxt "DB: products.Topic.description"
-msgid "Help the Open Badges community"
-msgstr "Помозите Open Badges заједници"
-
-#: kitsune/sumo/db_strings.py:811
-msgctxt "DB: products.Topic.title"
-msgid "Deploy"
-msgstr "Имплементирајте"
-
-#: kitsune/sumo/db_strings.py:812
-msgctxt "DB: products.Topic.description"
-msgid "Deployment of Firefox in an enterprise environment"
-msgstr "Постављање Firefox-а у пословном окружењу"
-
-#: kitsune/sumo/db_strings.py:815
-msgctxt "DB: products.Topic.title"
-msgid "Manage updates, policies & customization"
-msgstr "Управљајте ажурирањима, политикама и подешавањима"
-
-#: kitsune/sumo/db_strings.py:816
-msgctxt "DB: products.Topic.description"
-msgid "Policies for Firefox for Enterprise"
-msgstr "Политике за Firefox за предузећа"
-
-#: kitsune/sumo/db_strings.py:817
-msgctxt "DB: products.Topic.title"
-msgid "Autoconfiguration"
-msgstr "Аутоконфигурисање"
-
-#: kitsune/sumo/db_strings.py:818
-msgctxt "DB: products.Topic.description"
-msgid "How to configure Firefox for Enterprise"
-msgstr "Како да конфигуришете Firefox за Enterprise"
-
-#: kitsune/sumo/db_strings.py:819
-msgctxt "DB: products.Topic.title"
-msgid "Linux"
-msgstr "Linux"
-
-#: kitsune/sumo/db_strings.py:820
-msgctxt "DB: products.Topic.description"
-msgid "Deploy Firefox on your organization's Linux machines."
-msgstr "Имплементирајте Firefox на Linux рачунарима ваше организације."
-
-#: kitsune/sumo/db_strings.py:823
-msgctxt "DB: products.Topic.title"
-msgid "Manage settings via policy"
-msgstr "Управљај подешавањима преко политике"
-
-#: kitsune/sumo/db_strings.py:824
-msgctxt "DB: products.Topic.description"
-msgid "Change Firefox's settings using policies."
-msgstr "Промените Firefox подешавања преко политика."
-
-#: kitsune/sumo/db_strings.py:825
-msgctxt "DB: products.Topic.title"
-msgid "Get the most from webmaker.org"
-msgstr "Извуците најбоље из webmaker.org"
-
-#: kitsune/sumo/db_strings.py:826
-msgctxt "DB: products.Topic.description"
-msgid "Help or get help on a Webmaker project."
-msgstr "Помозите или нађите помоћ на Webmaker пројекту."
-
-#: kitsune/sumo/db_strings.py:827
-msgctxt "DB: products.Topic.title"
-msgid "Earn Badges"
-msgstr "Заради значке"
-
-#: kitsune/sumo/db_strings.py:828
-msgctxt "DB: products.Topic.description"
-msgid "Earn Badges for the skills you learn online and offline"
-msgstr "Зарадите значке за вештине које научите на и ван мреже"
-
-#: kitsune/sumo/db_strings.py:832
-msgctxt "DB: products.Topic.description"
-msgid "Working with add-ons on Firefox for your organization."
-msgstr "Радите с Firefox додацима за вашу организацију."
-
-#: kitsune/sumo/db_strings.py:835
-msgctxt "DB: products.Topic.title"
-msgid "Events and help for Mentors"
-msgstr "Догађаји и помоћ за менторе"
-
-#: kitsune/sumo/db_strings.py:836
-msgctxt "DB: products.Topic.description"
-msgid "Help teach digital skills and share creative ways of teaching technology."
-msgstr "Помозите у учењу дигиталних вештина и поделите креативне начине учења технологије."
-
-#: kitsune/sumo/db_strings.py:840
-msgctxt "DB: products.Topic.title"
-msgid "Issue Badges"
-msgstr "Издај значке"
-
-#: kitsune/sumo/db_strings.py:841
-msgctxt "DB: products.Topic.description"
-msgid "Issue digital badges to acknowledge new skills and achievements"
-msgstr "Издајте дигиталне значке како бисте признали нове вештине и достигнућа"
-
-#: kitsune/sumo/db_strings.py:845
-msgctxt "DB: products.Topic.title"
-msgid "Display Badges"
-msgstr "Прикажи значке"
-
-#: kitsune/sumo/db_strings.py:846
-msgctxt "DB: products.Topic.description"
-msgid "Display your digital badges on your social networks, job sites and your own website."
-msgstr "Прикажите своје дигиталне значке на друштвеним мрежама, сајтовима за запошљавање и на вашем веб сајту."
-
-#: kitsune/sumo/db_strings.py:850
-msgctxt "DB: products.Topic.title"
-msgid "Knowledge Base"
-msgstr "База знања"
-
-#: kitsune/sumo/db_strings.py:851
-msgctxt "DB: products.Topic.description"
-msgid "Windows 8 Touch support articles"
-msgstr "Windows 8 Touch чланци подршке"
-
-#: kitsune/sumo/db_strings.py:852
-msgctxt "DB: products.Topic.title"
-msgid "Pocket Basics"
-msgstr "Основе Pocket-а"
-
-#: kitsune/sumo/db_strings.py:853
-msgctxt "DB: products.Topic.description"
-msgid "New to Pocket? Start here."
-msgstr "Нови сте на Pocket-у? Почните овде."
-
-#: kitsune/sumo/db_strings.py:854
-msgctxt "DB: products.Topic.title"
-msgid "Install and set up"
-msgstr "Инсталирајте и поставите"
-
-#: kitsune/sumo/db_strings.py:855
-msgctxt "DB: products.Topic.description"
-msgid "Sync your logins across Firefox and your apps."
-msgstr "Синхронизујте ваше пријаве између Firefox-а и апликација."
-
-#: kitsune/sumo/db_strings.py:856
-msgctxt "DB: products.Topic.title"
-msgid "About Data Sharing"
-msgstr "О дељењу података"
-
-#: kitsune/sumo/db_strings.py:857
-msgctxt "DB: products.Topic.description"
-msgid ""
-"In order to process or provide our products and services to you, we share your information with the following business partners. These entities are contractually obligated to handle the data in "
-"ways that are approved by Mozilla."
-msgstr ""
-"Како бисмо обрадили податке или пружили наше производе и услуге, делимо ваше податке са следећим пословним партнерима. Они су уговорно дужни да податке обрађују на начин који је одобрила Mozilla."
-
-#: kitsune/sumo/db_strings.py:861
-msgctxt "DB: products.Topic.title"
-msgid "Pocket for Mobile"
-msgstr "Pocket за мобилни"
-
-#: kitsune/sumo/db_strings.py:862
-msgctxt "DB: products.Topic.description"
-msgid "How to use Pocket on your iPhone, iPad, Android or Kobo."
-msgstr "Како да користите Pocket на вашем iPhone, iPad, Android или Kobo уређајима."
-
-#: kitsune/sumo/db_strings.py:866
-msgctxt "DB: products.Topic.title"
-msgid "Manage settings and logins"
-msgstr "Управљајте подешавањима и пријавама"
-
-#: kitsune/sumo/db_strings.py:867
-msgctxt "DB: products.Topic.description"
-msgid "Setting up your device to work with Firefox Lockwise"
-msgstr "Постављање вашег уређаја за рад с Firefox Lockwise-ом"
-
-#: kitsune/sumo/db_strings.py:870
-msgctxt "DB: products.Topic.title"
-msgid "Managing Your Data"
-msgstr "Управљајте вашим подацима"
-
-#: kitsune/sumo/db_strings.py:871
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to manage your data (including deleting) for specific products or services."
-msgstr "Сазнајте како управљати подацима (укључујући брисање) за одређене производе или услуге."
-
-#: kitsune/sumo/db_strings.py:875
-msgctxt "DB: products.Topic.title"
-msgid "Pocket for your Computer"
-msgstr "Pocket за ваш рачунар"
-
-#: kitsune/sumo/db_strings.py:876
-msgctxt "DB: products.Topic.description"
-msgid "Using Pocket on the Web."
-msgstr "Коришћење Pocket-а на вебу."
-
-#: kitsune/sumo/db_strings.py:878
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot issues with Firefox Lockwise"
-msgstr "Решите проблеме уз Firefox Lockwise"
-
-#: kitsune/sumo/db_strings.py:879
-msgctxt "DB: products.Topic.title"
-msgid "Sensible Settings"
-msgstr "Подешавања"
-
-#: kitsune/sumo/db_strings.py:880
-msgctxt "DB: products.Topic.description"
-msgid "Give our users actionable and informed choices by informing and educating at the point of collection and providing a choice to opt-out whenever possible. "
-msgstr "Дајте нашим корисницима корисне одговоре на месту прикупљања информација. "
-
-#: kitsune/sumo/db_strings.py:884
-msgctxt "DB: products.Topic.title"
-msgid "Advanced"
-msgstr "Напредно"
-
-#: kitsune/sumo/db_strings.py:885
-msgctxt "DB: products.Topic.description"
-msgid "Information for Developers and Beta users."
-msgstr "Информације за програмере и бета кориснике."
-
-#: kitsune/sumo/db_strings.py:886
-msgctxt "DB: products.Topic.title"
-msgid "Defense in Depth"
-msgstr "Одбрана"
-
-#: kitsune/sumo/db_strings.py:887
-msgctxt "DB: products.Topic.description"
-msgid "Make privacy a key factor in selecting and interacting with partners. "
-msgstr "Нека приватност буде кључан фактор за интеграција са партнерима. "
-
-#: kitsune/sumo/db_strings.py:891
-msgctxt "DB: products.Topic.title"
-msgid "How does it work?"
-msgstr "Како функционише?"
-
-#: kitsune/sumo/db_strings.py:892
-msgctxt "DB: products.Topic.description"
-msgid "Basics to get started with Firefox for Windows 8 Touch."
-msgstr "Основе за започињање са Firefox-ом за Windows 8 Touch."
-
-#: kitsune/sumo/db_strings.py:896
-msgctxt "DB: products.Topic.description"
-msgid "How to configure and customize Firefox for Windows 8 Touch."
-msgstr "Како подесити и прилагодити Firefox за Windows 8 Touch."
-
-#: kitsune/sumo/db_strings.py:900
-msgctxt "DB: products.Topic.title"
-msgid "Problems with websites"
-msgstr "Проблеми са веб сајтовима"
-
-#: kitsune/sumo/db_strings.py:901
-msgctxt "DB: products.Topic.description"
-msgid "Problems with websites that don't work well in Firefox for Windows 8 Touch."
-msgstr "Проблеми са веб сајтовима који не функционишу добро у Firefox for Windows 8 Touch."
-
-#: kitsune/sumo/db_strings.py:906
-msgctxt "DB: products.Topic.description"
-msgid "Other questions with Firefox for Windows 8 Touch."
-msgstr "Друга питања о Firefox-у за Windows 8 Touch."
-
-#: kitsune/sumo/db_strings.py:907
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "General contribution"
-msgstr "Моји доприноси"
-
-#: kitsune/sumo/db_strings.py:908
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the contribution in general"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:913
-msgctxt "DB: products.Topic.description"
-msgid "How to use Firefox Reality"
-msgstr "Како да користите Firefox Reality"
-
-#: kitsune/sumo/db_strings.py:914
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Forum Support"
-msgstr "Подршка"
-
-#: kitsune/sumo/db_strings.py:915
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the Forum Support contribution"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:919
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Social Support"
-msgstr "Mozilla подршка"
-
-#: kitsune/sumo/db_strings.py:920
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the Social Support Program"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:924
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Localization"
-msgstr "Локализација"
-
-#: kitsune/sumo/db_strings.py:925
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the Localization contribution"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:929
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "KB Contribution"
-msgstr "Доприноси"
-
-#: kitsune/sumo/db_strings.py:930
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the KB articles contribution"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:934
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Respond tool"
-msgstr "Одговорено"
-
-#: kitsune/sumo/db_strings.py:935
-msgctxt "DB: products.Topic.description"
-msgid "Topic for any KB articles related to the Respond Tool contribution"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:940
-msgctxt "DB: products.Topic.description"
-msgid "Fix problems with Firefox Reality"
-msgstr "Решите проблеме уз Firefox Reality"
-
-#: kitsune/sumo/db_strings.py:941
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "[Obsolete] Mozilla Persona"
-msgstr "Mozilla Persona"
-
-#: kitsune/sumo/db_strings.py:943
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "[Obsolete] Hot topics"
-msgstr "Популарне теме"
-
-#: kitsune/sumo/db_strings.py:945
-msgctxt "DB: products.Topic.title"
-msgid "Get Started"
-msgstr "Започните"
-
-#: kitsune/sumo/db_strings.py:946
-msgctxt "DB: products.Topic.description"
-msgid "Klar verwenden"
-msgstr "Користи Focus"
-
-#: kitsune/sumo/db_strings.py:947
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Klar for iOS"
-msgstr "Firefox Klar за iOS"
-
-#: kitsune/sumo/db_strings.py:948
-msgctxt "DB: products.Topic.description"
-msgid "Privacy browser for iOS"
-msgstr "Прегледач приватности за iOS"
-
-#: kitsune/sumo/db_strings.py:950
-msgctxt "DB: products.Topic.description"
-msgid "Everything you need to know to use Firefox Lite."
-msgstr "Сазнајте све што требате знати о Firefox Lite употреби"
-
-#: kitsune/sumo/db_strings.py:951
-msgctxt "DB: products.Topic.title"
-msgid "Features"
-msgstr "Функције"
-
-#: kitsune/sumo/db_strings.py:952
-msgctxt "DB: products.Topic.description"
-msgid "Getting started with Hubs"
-msgstr "Започните са Hub-овима"
-
-#: kitsune/sumo/db_strings.py:953
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Klar for Android"
-msgstr "Firefox Klar за Android"
-
-#: kitsune/sumo/db_strings.py:954 kitsune/sumo/db_strings.py:970
-msgctxt "DB: products.Topic.description"
-msgid "Privacy browser for Android"
-msgstr "Прегледач приватности за Android"
-
-#: kitsune/sumo/db_strings.py:955
-msgctxt "DB: products.Topic.title"
-msgid "Preferences"
-msgstr "Преференце"
-
-#: kitsune/sumo/db_strings.py:956
-msgctxt "DB: products.Topic.description"
-msgid "Customize Firefox Lite to your desired settings"
-msgstr "Прилагодите Firefox Lite према вашим жељама"
-
-#: kitsune/sumo/db_strings.py:957
-msgctxt "DB: products.Topic.title"
-msgid "Controls"
-msgstr "Контроле"
-
-#: kitsune/sumo/db_strings.py:958
-msgctxt "DB: products.Topic.description"
-msgid "How to navigate Hubs"
-msgstr "Како се кретати кроз Hub-ове"
-
-#: kitsune/sumo/db_strings.py:960
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot problems with Firefox Lite."
-msgstr "Решите проблеме уз Firefox Lite."
-
-#: kitsune/sumo/db_strings.py:961
-msgctxt "DB: products.Topic.title"
-msgid "Moderation"
-msgstr "Менаџмент"
-
-#: kitsune/sumo/db_strings.py:962
-msgctxt "DB: products.Topic.description"
-msgid "Tools for making Hubs a good experience for all."
-msgstr "Алати који свакоме омогућавају добро искуство за Hub-ове."
-
-#: kitsune/sumo/db_strings.py:963
-msgctxt "DB: products.Topic.title"
-msgid "Spoke"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:964
-msgctxt "DB: products.Topic.description"
-msgid "Build scenes with Spoke"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:965
-#, fuzzy
-msgctxt "DB: products.Topic.title"
-msgid "Creators"
-msgstr "Аутор"
-
-#: kitsune/sumo/db_strings.py:966
-msgctxt "DB: products.Topic.description"
-msgid "Advanced Hubs customization for creators"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:967
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Focus for iOS"
-msgstr "Firefox Focus за iOS"
-
-#: kitsune/sumo/db_strings.py:968
-msgctxt "DB: products.Topic.description"
-msgid "Firefox Focus for iOS"
-msgstr "Firefox Focus за iOS"
-
-#: kitsune/sumo/db_strings.py:969
-msgctxt "DB: products.Topic.title"
-msgid "Firefox Focus for Android"
-msgstr "Firefox Focus за Android"
-
-#: kitsune/sumo/db_strings.py:972
-msgctxt "DB: products.Topic.description"
-msgid "Learn the basics about ScreenshotGo"
-msgstr "Научите основе о ScreenshotGo"
-
-#: kitsune/sumo/db_strings.py:973
-msgctxt "DB: products.Topic.title"
-msgid "Learn the Basics. Get Started"
-msgstr "Научите основе. Започните"
-
-#: kitsune/sumo/db_strings.py:974
-msgctxt "DB: products.Topic.description"
-msgid "Learn the Basics. Get Started"
-msgstr "Научите основе. Започните"
-
-#: kitsune/sumo/db_strings.py:976
-msgctxt "DB: products.Topic.description"
-msgid "Learn tips and shortcuts to help you work faster"
-msgstr "Научите пречице и сазнајте о саветима како да учините рад бржим"
-
-#: kitsune/sumo/db_strings.py:977
-msgctxt "DB: products.Topic.title"
-msgid "Set up email"
-msgstr "Подеси е-пошту"
-
-#: kitsune/sumo/db_strings.py:978
-msgctxt "DB: products.Topic.description"
-msgid "Add and configure your email accounts on Thunderbird"
-msgstr "Додајте и конфигуришите налоге е-поште на Thunderbird"
-
-#: kitsune/sumo/db_strings.py:981
-msgctxt "DB: products.Topic.title"
-msgid "Install, Migrate and Update"
-msgstr "Инсталација, миграција и ажурирање"
-
-#: kitsune/sumo/db_strings.py:982
-msgctxt "DB: products.Topic.description"
-msgid "How to install and keep Thunderbird up to date"
-msgstr "Како да инсталирам и одржим ажурним Thunderbird"
-
-#: kitsune/sumo/db_strings.py:983
-msgctxt "DB: products.Topic.title"
-msgid "Read, send and organize emails"
-msgstr "Прочитајте, пошаљите и организујете е-поште"
-
-#: kitsune/sumo/db_strings.py:984
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to manage your email messages"
-msgstr "Научите како да управљате са порукама"
-
-#: kitsune/sumo/db_strings.py:985
-msgctxt "DB: products.Topic.title"
-msgid "Emails"
-msgstr "Е-поште"
-
-#: kitsune/sumo/db_strings.py:986
-msgctxt "DB: products.Topic.description"
-msgid "Learn to set up accounts, read, send and manage emails"
-msgstr "Сазнајте како да подесите налоге, прочитате или шаљете е-поште"
-
-#: kitsune/sumo/db_strings.py:989
-msgctxt "DB: products.Topic.title"
-msgid "News Feeds (RSS), Blogs and Social"
-msgstr "Извор вести (RSS), блогови и друштвено"
-
-#: kitsune/sumo/db_strings.py:990
-msgctxt "DB: products.Topic.description"
-msgid "Stay up to date with news feeds, blogs and social features"
-msgstr "Останите у току са вестима, блоговима и друштвеним могућностима"
-
-#: kitsune/sumo/db_strings.py:994
-msgctxt "DB: products.Topic.title"
-msgid "Contacts"
-msgstr "Контакти"
-
-#: kitsune/sumo/db_strings.py:995
-msgctxt "DB: products.Topic.description"
-msgid "How to use the address book on Thunderbird"
-msgstr "Како да користим Thunderbird адресар"
-
-#: kitsune/sumo/db_strings.py:996
-msgctxt "DB: products.Topic.title"
-msgid "Calendar"
-msgstr "Календар"
-
-#: kitsune/sumo/db_strings.py:997
-msgctxt "DB: products.Topic.description"
-msgid "Related to the Lightning add-on for Calendar"
-msgstr "Повезано са Lightning додатком за календар"
-
-#: kitsune/sumo/db_strings.py:999
-msgctxt "DB: products.Topic.description"
-msgid "Customize controls, options and add-ons"
-msgstr "Подесите контроле, опције и додатке"
-
-#: kitsune/sumo/db_strings.py:1000
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird versions and languages"
-msgstr "Thunderbird верзије и језици"
-
-#: kitsune/sumo/db_strings.py:1001
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird versions and languages"
-msgstr "Thunderbird верзије и језици"
-
-#: kitsune/sumo/db_strings.py:1002
-msgctxt "DB: products.Topic.title"
-msgid "Passwords, forms and search"
-msgstr "Лозинке, форме и претрага"
-
-#: kitsune/sumo/db_strings.py:1003
-msgctxt "DB: products.Topic.description"
-msgid "Passwords, forms and search"
-msgstr "Лозинке, форме и претрага"
-
-#: kitsune/sumo/db_strings.py:1004
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird controls and buttons "
-msgstr "Thunderbird контроле и дугмад "
-
-#: kitsune/sumo/db_strings.py:1005
-msgctxt "DB: products.Topic.description"
-msgid "Learn all about Thunderbird controls and functionality."
-msgstr "Сазнајте све о управљању и функционалности Thunderbird-а."
-
-#: kitsune/sumo/db_strings.py:1008
-msgctxt "DB: products.Topic.title"
-msgid "Fix problems with email providers (gmail, Yahoo, etc.) "
-msgstr "Исправите проблеме уз помоћ прoвајдера (gmail, Yahoo итд.) "
-
-#: kitsune/sumo/db_strings.py:1009
-msgctxt "DB: products.Topic.description"
-msgid "Learn how to fix problems with Gmail, Yahoo and other email providers"
-msgstr "Научите како да поправите проблеме са Gmail, Yahoo и другим провајдерима е-поште"
-
-#: kitsune/sumo/db_strings.py:1014
-msgctxt "DB: products.Topic.description"
-msgid "Download, install and Migration"
-msgstr "Преузимање, инсталација и миграција"
-
-#: kitsune/sumo/db_strings.py:1015
-msgctxt "DB: products.Topic.title"
-msgid "Copy your personal information from  one Thunderbird to another"
-msgstr "Копирајте личне информације са  једног Thunderbird-а на други"
-
-#: kitsune/sumo/db_strings.py:1019
-msgctxt "DB: products.Topic.description"
-msgid "Copy your personal information from  one Thunderbird to another"
-msgstr "Копирајте личне информације са  једног Thunderbird-а на други"
-
-#: kitsune/sumo/db_strings.py:1026
-msgctxt "DB: products.Topic.description"
-msgid "Error messages: what they mean and how to fix"
-msgstr "Порука о грешци: шта су мислили и како поправити"
-
-#: kitsune/sumo/db_strings.py:1028
-msgctxt "DB: products.Topic.description"
-msgid "Keep your information safe with password and security settings"
-msgstr "Држите своје информације на безбедном са лозинкама и поставкама безбедности"
-
-#: kitsune/sumo/db_strings.py:1032
-msgctxt "DB: products.Topic.title"
-msgid "Customize Thunderbird with add-ons, plugins, and extensions"
-msgstr "Прилагодите Thunderbird са додацима, прикључцима и екстензијама"
-
-#: kitsune/sumo/db_strings.py:1035
-msgctxt "DB: products.Topic.description"
-msgid "Customize Thunderbird with add-ons, plugins, and extensions"
-msgstr "Прилагодите Thunderbird са додацима, прикључцима и екстензијама"
-
-#: kitsune/sumo/db_strings.py:1039
-msgctxt "DB: products.Topic.title"
-msgid "Unblock Thunderbird from connecting to the Internet"
-msgstr "Одблокирајте Thunderbird од повезивања на интернет"
-
-#: kitsune/sumo/db_strings.py:1040
-msgctxt "DB: products.Topic.description"
-msgid "Unblock Thunderbird from connecting to the Internet"
-msgstr "Одблокирајте Thunderbird од повезивања на интернет"
-
-#: kitsune/sumo/db_strings.py:1043
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird options, preferences and settings "
-msgstr "Thunderbird опције, преформансе и поставке "
-
-#: kitsune/sumo/db_strings.py:1044
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird options, preferences and settings "
-msgstr "Thunderbird опције, преформансе и поставке "
-
-#: kitsune/sumo/db_strings.py:1050
-msgctxt "DB: products.Topic.description"
-msgid "Troubleshoot error messages on Thunderbird."
-msgstr "Решите поруке о грешкама у Thunderbird-у."
-
-#: kitsune/sumo/db_strings.py:1051
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird is slow or stops working"
-msgstr "Thunderbird је спор или престаје да ради"
-
-#: kitsune/sumo/db_strings.py:1052
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird is slow or stops working"
-msgstr "Thunderbird је спор или престаје да ради"
-
-#: kitsune/sumo/db_strings.py:1053
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird crashes"
-msgstr "Thunderbird рушења"
-
-#: kitsune/sumo/db_strings.py:1054
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird crashes"
-msgstr "Thunderbird рушења"
-
-#: kitsune/sumo/db_strings.py:1057
-msgctxt "DB: products.Topic.title"
-msgid "Thunderbird won't save settings or remember information"
-msgstr "Thunderbird неће да сачува поставке или запамти информације"
-
-#: kitsune/sumo/db_strings.py:1058
-msgctxt "DB: products.Topic.description"
-msgid "Thunderbird won't save settings or remember information"
-msgstr "Thunderbird неће да сачува поставке или запамти информације"
-
-#: kitsune/sumo/db_strings.py:1065
-msgctxt "DB: products.Topic.title"
-msgid "How To"
-msgstr "Како да"
-
-#: kitsune/sumo/db_strings.py:1066
-msgctxt "DB: products.Topic.description"
-msgid "Articles that tell you how you can do more with Thunderbird"
-msgstr "Чланци који говоре како можете учинити више користећи Thunderbird"
-
-#: kitsune/sumo/db_strings.py:1072
-msgctxt "DB: products.Product.title"
-msgid "Firefox"
-msgstr "Firefox"
-
-#: kitsune/sumo/db_strings.py:1073
-msgctxt "DB: products.Product.description"
-msgid "Web browser for Windows, Mac and Linux"
-msgstr "Веб прегледач за Windows, Mac и Linux"
-
-#: kitsune/sumo/db_strings.py:1074
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Android"
-msgstr "Firefox за Android"
-
-#: kitsune/sumo/db_strings.py:1075
-msgctxt "DB: products.Product.description"
-msgid "Web browser for Android smartphones and tablets"
-msgstr "Веб прегледач за Android паметне телефоне и таблете"
-
-#: kitsune/sumo/db_strings.py:1076
-msgctxt "DB: products.Product.title"
-msgid "Firefox for iOS"
-msgstr "Firefox за iOS"
-
-#: kitsune/sumo/db_strings.py:1077
-msgctxt "DB: products.Product.description"
-msgid "Firefox for iPhone, iPad and iPod touch devices"
-msgstr "Firefox за iPhone, iPad и iPod уређаје на додир"
-
-#: kitsune/sumo/db_strings.py:1078
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox Accounts"
-msgstr "Firefox налози"
-
-#: kitsune/sumo/db_strings.py:1079
-msgctxt "DB: products.Product.description"
-msgid "Privacy-first products for desktop and mobile"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1080
-msgctxt "DB: products.Product.title"
-msgid "Firefox OS"
-msgstr "Firefox OS"
-
-#: kitsune/sumo/db_strings.py:1081
-msgctxt "DB: products.Product.description"
-msgid "Mobile OS for smartphones"
-msgstr "Мобилни OS за паметне телефоне"
-
-#: kitsune/sumo/db_strings.py:1082
-msgctxt "DB: products.Product.title"
-msgid "Firefox Preview"
-msgstr "Firefox Preview"
-
-#: kitsune/sumo/db_strings.py:1083
-msgctxt "DB: products.Product.description"
-msgid "Early version of an experimental Firefox browser for Android."
-msgstr "Рана верзија експерименталног Firefox прегледача за Андроид."
-
-#: kitsune/sumo/db_strings.py:1087
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Mozilla VPN"
-msgstr "Mozilla"
-
-#: kitsune/sumo/db_strings.py:1088
-#, fuzzy
-msgctxt "DB: products.Product.description"
-msgid "VPN for Windows 10, Android, and iOS devices"
-msgstr "VPN за Windows 10 и Андроид уређаје"
-
-#: kitsune/sumo/db_strings.py:1089
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Amazon Devices"
-msgstr "Firefox за Amazon уређаје"
-
-#: kitsune/sumo/db_strings.py:1090
-msgctxt "DB: products.Product.description"
-msgid "Browser for Amazon devices"
-msgstr "Прегледач за Amazon уређаје"
-
-#: kitsune/sumo/db_strings.py:1091
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Fire TV"
-msgstr "Firefox за Fire TV"
-
-#: kitsune/sumo/db_strings.py:1092
-msgctxt "DB: products.Product.description"
-msgid "Browser for Amazon Fire TV"
-msgstr "Прегледач за Amazon Fire TV"
-
-#: kitsune/sumo/db_strings.py:1093
-msgctxt "DB: products.Product.title"
-msgid "Firefox Private Network Browser-level protection"
-msgstr "Firefox приватна мрежа, заштита на нивоу прегледача"
-
-#: kitsune/sumo/db_strings.py:1094
-msgctxt "DB: products.Product.description"
-msgid "Browse securely on public Wi-Fi"
-msgstr "Прегледајте безбедно на јавним Wi-Fi мрежама"
-
-#: kitsune/sumo/db_strings.py:1095
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Enterprise"
-msgstr "Firefox за Enterprise"
-
-#: kitsune/sumo/db_strings.py:1096
-msgctxt "DB: products.Product.description"
-msgid "Firefox Quantum for businesses"
-msgstr "Firefox Quantum за бизнисе"
-
-#: kitsune/sumo/db_strings.py:1097
-msgctxt "DB: products.Product.title"
-msgid "Open Badges"
-msgstr "Значке"
-
-#: kitsune/sumo/db_strings.py:1098
-msgctxt "DB: products.Product.description"
-msgid "A new online standard to recognize and verify learning"
-msgstr "Нови онлајн стандар који препознаје и потврђује учење"
-
-#: kitsune/sumo/db_strings.py:1102
-msgctxt "DB: products.Product.title"
-msgid "Webmaker"
-msgstr "Webmaker"
-
-#: kitsune/sumo/db_strings.py:1103
-msgctxt "DB: products.Product.description"
-msgid "Webmaker and other tools for teaching and learning the Web"
-msgstr "Webmaker и други алати за креирање и учење веба"
-
-#: kitsune/sumo/db_strings.py:1107
-#, fuzzy
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Android (ESR)"
-msgstr "Firefox за Android"
-
-#: kitsune/sumo/db_strings.py:1108
-msgctxt "DB: products.Product.description"
-msgid "Older version of Firefox for Android (no longer supported)"
-msgstr ""
-
-#: kitsune/sumo/db_strings.py:1112
-msgctxt "DB: products.Product.title"
-msgid "Firefox for Windows 8 Touch"
-msgstr "Firefox за Windows 8 Touch"
-
-#: kitsune/sumo/db_strings.py:1113
-msgctxt "DB: products.Product.description"
-msgid "Firefox for Windows 8 touch devices"
-msgstr "Firefox за Windows 8 touch уређаје"
-
-#: kitsune/sumo/db_strings.py:1114
-msgctxt "DB: products.Product.title"
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: kitsune/sumo/db_strings.py:1115
-msgctxt "DB: products.Product.description"
-msgid "Mobile app that gives you access to passwords you've saved to Firefox."
-msgstr "Апликација која вам омогућава приступ лозинкама сачуваним у Firefox-у."
-
-#: kitsune/sumo/db_strings.py:1119
-msgctxt "DB: products.Product.title"
-msgid "Pocket"
-msgstr "Pocket"
-
-#: kitsune/sumo/db_strings.py:1120
-msgctxt "DB: products.Product.description"
-msgid "Discover and save stories for later"
-msgstr "Откријте и сачувајте приче за касније"
-
-#: kitsune/sumo/db_strings.py:1121
-msgctxt "DB: products.Product.title"
-msgid "Privacy and Security"
-msgstr "Приватност и сигурност"
-
-#: kitsune/sumo/db_strings.py:1122
-msgctxt "DB: products.Product.description"
-msgid "Learn more about Mozilla's privacy and security practices."
-msgstr "Сазнајте више о Mozilla полисама за приватност и безбедност."
-
-#: kitsune/sumo/db_strings.py:1126
-msgctxt "DB: products.Product.title"
-msgid "Contributors"
-msgstr "Сарадници"
-
-#: kitsune/sumo/db_strings.py:1127
-msgctxt "DB: products.Product.description"
-msgid "Contributor articles"
-msgstr "Чланци сарадника"
-
-#: kitsune/sumo/db_strings.py:1128
-msgctxt "DB: products.Product.title"
-msgid "Firefox Reality"
-msgstr "Firefox Reality"
-
-#: kitsune/sumo/db_strings.py:1129
-msgctxt "DB: products.Product.description"
-msgid "Web browser for virtual reality headsets"
-msgstr "Веб прегледач за наочаре за виртуелну реалност"
-
-#: kitsune/sumo/db_strings.py:1130
-msgctxt "DB: products.Product.title"
-msgid "Firefox Send"
-msgstr "Firefox Send"
-
-#: kitsune/sumo/db_strings.py:1131
-msgctxt "DB: products.Product.description"
-msgid "An app for sending files to anyone."
-msgstr "Апликација за слање датотека било коме."
-
-#: kitsune/sumo/db_strings.py:1132
-msgctxt "DB: products.Product.title"
-msgid "Firefox Klar"
-msgstr "Firefox Clear"
-
-#: kitsune/sumo/db_strings.py:1133
-msgctxt "DB: products.Product.description"
-msgid "Was ist Firefox Klar?"
-msgstr "Шта је Firefox Clear?"
-
-#: kitsune/sumo/db_strings.py:1134
-msgctxt "DB: products.Product.title"
-msgid "Firefox Lite"
-msgstr "Firefox Lite"
-
-#: kitsune/sumo/db_strings.py:1135
-msgctxt "DB: products.Product.description"
-msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
-msgstr "Мобилни прегледач за Индонезију, Индију, Филипине и Тајланд"
-
-#: kitsune/sumo/db_strings.py:1139
-msgctxt "DB: products.Product.title"
-msgid "Hubs"
-msgstr "Hub-ови"
-
-#: kitsune/sumo/db_strings.py:1140
-msgctxt "DB: products.Product.description"
-msgid "Social virtual reality for headsets and browsers"
-msgstr "Друштвена виртуална стварност за ВР наочале и прегледаче"
-
-#: kitsune/sumo/db_strings.py:1143
-msgctxt "DB: products.Product.title"
-msgid "Firefox Focus"
-msgstr "Firefox Focus"
-
-#: kitsune/sumo/db_strings.py:1144
-msgctxt "DB: products.Product.description"
-msgid "Automatic privacy browser and content blocker"
-msgstr "Аутоматско приватно прегледање и блокирање садржаја"
-
-#: kitsune/sumo/db_strings.py:1145
-msgctxt "DB: products.Product.title"
-msgid "Firefox ScreenshotGo"
-msgstr "Firefox ScreenshotGo"
-
-#: kitsune/sumo/db_strings.py:1146
-msgctxt "DB: products.Product.description"
-msgid "Screenshot app for mobile"
-msgstr "Апликација снимака екрана за мобилни"
-
-#: kitsune/sumo/db_strings.py:1147
-msgctxt "DB: products.Product.title"
-msgid "Thunderbird"
-msgstr "Thunderbird"
-
-#: kitsune/sumo/db_strings.py:1148
-msgctxt "DB: products.Product.description"
-msgid "Email software for Windows, Mac and Linux"
-msgstr "Софтвер за е-пошту за Windows, Mac и Linux"
-
-#: kitsune/sumo/db_strings.py:1150
-msgctxt "DB: karma.Title.name"
-msgid "Administrator"
-msgstr "Администратор"
-
-#: kitsune/sumo/db_strings.py:1152
-msgctxt "DB: karma.Title.name"
-msgid "Buddy of the Month! (10/2015)"
-msgstr "Пријатељ месеца! (10/2015)"
-
-#: kitsune/sumo/db_strings.py:1154
-msgctxt "DB: karma.Title.name"
-msgid "Locale Leader"
-msgstr "Вођа локала"
-
-#: kitsune/sumo/db_strings.py:1156
-msgctxt "DB: karma.Title.name"
-msgid "Moderator"
-msgstr "Модератор"
-
-#: kitsune/sumo/db_strings.py:1158
-msgctxt "DB: karma.Title.name"
-msgid "SUMO Warrior"
-msgstr "SUMO ратник"
-
-#: kitsune/sumo/db_strings.py:1160
-msgctxt "DB: karma.Title.name"
-msgid "Top 10 Contributor"
-msgstr "10 најбољих сарадника"
-
-#: kitsune/sumo/db_strings.py:1162
-msgctxt "DB: karma.Title.name"
-msgid "Top 25 Contributor"
-msgstr "25 најбољих сарадника"
 
 #: kitsune/sumo/form_fields.py:61
 msgid "To field is required."
@@ -10118,6 +10129,26 @@ msgstr "Реците нам више."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Доставите више детаља"
+
+#~ msgctxt "DB: products.Topic.description"
+#~ msgid "Basics for using Firefox Private Network."
+#~ msgstr "Основе коришћења Firefox приватне мреже."
+
+#~ msgctxt "DB: products.Topic.title"
+#~ msgid "Manage account and settings"
+#~ msgstr "Управљајте налогом и подешавањима"
+
+#~ msgctxt "DB: products.Product.title"
+#~ msgid "Firefox Preview"
+#~ msgstr "Firefox Preview"
+
+#~ msgctxt "DB: products.Product.title"
+#~ msgid "Firefox Private Network Browser-level protection"
+#~ msgstr "Firefox приватна мрежа, заштита на нивоу прегледача"
+
+#~ msgctxt "DB: products.Product.description"
+#~ msgid "Browse securely on public Wi-Fi"
+#~ msgstr "Прегледајте безбедно на јавним Wi-Fi мрежама"
 
 #~ msgid "Firefox Private Network Browser-level Protection"
 #~ msgstr "Приватна Firefox мрежа, заштита на нивоу прегледача"
