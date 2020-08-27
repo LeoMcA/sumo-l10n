@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-19 19:05-0700\n"
+"POT-Creation-Date: 2020-08-26 19:04-0700\n"
 "PO-Revision-Date: 2020-07-03 13:00+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu\n"
@@ -887,7 +887,7 @@ msgstr "మొజిల్లా తోడ్పాటులో స్వచ్�
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:71 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "తొలగించు"
@@ -1423,7 +1423,7 @@ msgstr "మీ అవతార్ {size} x {size} పరిమాణం ఉం�
 msgid "username"
 msgstr "వినియోగదారు పేరు"
 
-#: kitsune/groups/models.py:24 kitsune/users/models.py:51
+#: kitsune/groups/models.py:24 kitsune/users/models.py:52
 msgid "Avatar"
 msgstr "అవతార్"
 
@@ -7996,83 +7996,79 @@ msgstr ""
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr ""
 
-#: kitsune/users/forms.py:13
+#: kitsune/users/forms.py:14
 msgid "Username may contain only English letters, numbers and ./-/_ characters."
 msgstr "యూజర్ పేరు ఒక ఆంగ్ల అక్షరాలు, సంఖ్యలు మరియు ./-/_ అక్షరాలు మాత్రమే కలిగి ఉండవచ్చు."
 
-#: kitsune/users/forms.py:16
+#: kitsune/users/forms.py:17
 msgid "Username is required."
 msgstr "యూజర్ పేరు అవసరం."
 
-#: kitsune/users/forms.py:17
+#: kitsune/users/forms.py:18
 #, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "వినియోగదారు పేరు చాలా చిన్నది (%(show_value)s అక్షరాలు). ఇది కనీసం %(limit_value)s లు అక్షరాలు ఉండాలి."
 
-#: kitsune/users/forms.py:21
+#: kitsune/users/forms.py:22
 #, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "వినియోగదారు పేరు చాలా పొడవుగా (%(show_value)s అక్షరాలు) ఉంది. ఇది %(limit_value)s అక్షరాలు లేదా తక్కువ ఉండాలి."
 
-#: kitsune/users/forms.py:25
+#: kitsune/users/forms.py:26
 msgid "Email address is required."
 msgstr "ఇమెయిల్ చిరునామా అవసరం."
 
-#: kitsune/users/forms.py:26
+#: kitsune/users/forms.py:27
 #, python-format
 msgid "Email address is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "ఇమెయిల్ చిరునామా చాలా చిన్న (%(show_value)s అక్షరాలు) ఉంది. ఇది కనీసం %(limit_value)s అక్షరాలు ఉండాలి."
 
-#: kitsune/users/forms.py:30
+#: kitsune/users/forms.py:31
 #, python-format
 msgid "Email address is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "ఇమెయిల్ చిరునామా చాలా పొడవుగా (%(show_value)s అక్షరాలు) ఉంది. ఇది %(limit_value)s అక్షరాలు లేదా తక్కువ ఉండాలి."
 
-#: kitsune/users/forms.py:34
+#: kitsune/users/forms.py:35
 msgid "Password is required."
 msgstr "పాస్‌వర్డ్ అవసరం."
 
-#: kitsune/users/forms.py:35
+#: kitsune/users/forms.py:36
 msgid "Please enter your password twice."
 msgstr "రెండుసార్లు మీ పాస్వర్డ్ను నమోదు చేయండి."
 
-#: kitsune/users/forms.py:37
+#: kitsune/users/forms.py:38
 msgid "Password must be 8 or more characters."
 msgstr "పాస్వర్డ్ 8 లేదా ఎక్కువ అక్షరాలు ఉండాలి."
 
-#: kitsune/users/forms.py:44
+#: kitsune/users/forms.py:45
 msgid "Watch forum threads I start"
 msgstr "నేను మొదలు పెట్టిన ఫోరమ్ థ్రెడ్లు చూడండి"
 
-#: kitsune/users/forms.py:47
+#: kitsune/users/forms.py:48
 msgid "Watch forum threads I comment in"
 msgstr "నేను కమెంట్ పెట్టే ఫోరమ్ థ్రెడ్లు చూడండి"
 
-#: kitsune/users/forms.py:50
+#: kitsune/users/forms.py:51
 msgid "Watch KB discussion threads I start"
 msgstr "నేను మొదలు పెట్టిన KB చర్చల థ్రెడ్లు చూడండి"
 
-#: kitsune/users/forms.py:53
+#: kitsune/users/forms.py:54
 msgid "Watch KB discussion threads I comment in"
 msgstr "నేను కమెంట్ పెట్టిన KB చర్చల థ్రెడ్లు చూడండి"
 
-#: kitsune/users/forms.py:56
+#: kitsune/users/forms.py:57
 msgid "Watch Question threads I comment in"
 msgstr "నేను కమెంట్ పెట్టే ప్రశ్న థ్రెడ్లు చూడండి"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:60
 msgid "Send emails for private messages"
 msgstr "ప్రైవేట్ సందేశాల ఇమెయిల్ లు పంపండి"
 
-#: kitsune/users/forms.py:77 kitsune/users/models.py:100
+#: kitsune/users/forms.py:86 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "నుండి మొజిల్లా తో చేరి"
 
-#: kitsune/users/forms.py:113
-msgid "Please enter a facebook.com URL."
-msgstr "ఒక facebook.com URL ను ఎంటర్ చెయ్యండి."
-
-#: kitsune/users/forms.py:140
+#: kitsune/users/forms.py:139
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "దయచేసి మీ నమోదు చేసిన యూజర్ పేరు తగదు. దయచేసి మరోకటి ఎంచుకోండి మరియు మా సహాయకులు కేవలం మీ ఇతర Firefox వినియోగదారులు భావించాలి."
 
@@ -8088,101 +8084,102 @@ msgstr "సాల్ట్"
 msgid "hash"
 msgstr "హాష్"
 
-#: kitsune/users/models.py:39 kitsune/users/models.py:339
+#: kitsune/users/models.py:40 kitsune/users/models.py:340
 msgid "User"
 msgstr "వినియోగదారు"
 
-#: kitsune/users/models.py:42
+#: kitsune/users/models.py:43
 msgid "Display name"
 msgstr "పేరును ప్రదర్శించు"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:46
 msgid "Make my email public"
 msgstr "నా ఇమెయిల్ పబ్లిక్ చేయండి"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:58
 msgid "Biography"
 msgstr "బయోగ్రఫీ"
 
-#: kitsune/users/models.py:58
+#: kitsune/users/models.py:59
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
 msgid "Website"
 msgstr "వెబ్‌సైట్"
 
-#: kitsune/users/models.py:73
+#: kitsune/users/models.py:74
 msgid "Twitter Username"
 msgstr "ట్విట్టర్ యూజర్ పేరు"
 
-#: kitsune/users/models.py:76
-msgid "Facebook URL"
-msgstr "ఫేస్ బుక్ URL"
+#: kitsune/users/models.py:77
+#, fuzzy
+msgid "Community Portal Username"
+msgstr "కమ్యూనిటీ వేదికలు"
 
-#: kitsune/users/models.py:79
-msgid "Mozillians Username"
-msgstr "మోజిల్లియన్స్ యూజర్ పేరు"
+#: kitsune/users/models.py:80
+msgid "People Directory Username"
+msgstr ""
 
-#: kitsune/users/models.py:82
-msgid "IRC nickname"
-msgstr "IRC మారు పేరు"
+#: kitsune/users/models.py:83
+msgid "Matrix Nickname"
+msgstr ""
 
-#: kitsune/users/models.py:85
+#: kitsune/users/models.py:86
 msgid "Timezone"
 msgstr "కాలమండలం"
 
-#: kitsune/users/models.py:88
+#: kitsune/users/models.py:89
 msgid "Country"
 msgstr "దేశం"
 
-#: kitsune/users/models.py:91
+#: kitsune/users/models.py:92
 msgid "City"
 msgstr "పట్టణం"
 
-#: kitsune/users/models.py:92
+#: kitsune/users/models.py:93
 msgid "Preferred language"
 msgstr "ప్రాధాన్యతా భాష"
 
-#: kitsune/users/models.py:94
+#: kitsune/users/models.py:95
 msgid "Has been sent a first answer contribution email."
 msgstr "మొదటి సమాధానం సహకారం ఇమెయిల్ పంపబడింది."
 
-#: kitsune/users/models.py:97
+#: kitsune/users/models.py:98
 msgid "Has been sent a first revision contribution email."
 msgstr "ఒక మొదటి పునర్విమర్శ సహకారం ఇమెయిల్ పంపబడింది."
 
-#: kitsune/users/models.py:105
+#: kitsune/users/models.py:106
 msgid "When the user was sent a community health survey"
 msgstr "వినియోగదారు ఒక కమ్యూనిటీ ఆరోగ్య సర్వే పంపబడినది"
 
-#: kitsune/users/models.py:297
+#: kitsune/users/models.py:298
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:343
+#: kitsune/users/models.py:344
 msgid "Value"
 msgstr "విలువ"
 
-#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
+#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
 msgid "user"
 msgstr "వినియోగదారు"
 
-#: kitsune/users/models.py:382 kitsune/users/models.py:419
+#: kitsune/users/models.py:383 kitsune/users/models.py:420
 msgid "activation key"
 msgstr "క్రియాశీలపు కీ లు"
 
-#: kitsune/users/models.py:385
+#: kitsune/users/models.py:386
 msgid "registration profile"
 msgstr "నమోదు ఐన ప్రొఫైలు"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:387
 msgid "registration profiles"
 msgstr "నమోదు ఐన ప్రొఫైళ్ళు"
 
-#: kitsune/users/models.py:435
+#: kitsune/users/models.py:436
 msgid "moderator"
 msgstr "మధ్యవర్తి"
 
@@ -8195,7 +8192,7 @@ msgstr "SUMOకు స్వాగతం!"
 msgid "Your settings have been saved."
 msgstr "మీ అమరికలు భద్రపరచబడ్డాయి."
 
-#: kitsune/users/views.py:346
+#: kitsune/users/views.py:351
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8290,24 +8287,24 @@ msgstr "ఖాతా"
 msgid "You can change your email address on Firefox Accounts."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:29 kitsune/users/jinja2/users/profile.html:20
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
 msgid "Need help?"
 msgstr "సహాయం కావాలా?"
 
-#: kitsune/users/jinja2/users/edit_profile.html:33
+#: kitsune/users/jinja2/users/edit_profile.html:35
 msgid "Manage Firefox Account"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:41
+#: kitsune/users/jinja2/users/edit_profile.html:43
 msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:55
+#: kitsune/users/jinja2/users/edit_profile.html:57
 msgctxt "avatar"
 msgid "Choose Photo"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
+#: kitsune/users/jinja2/users/edit_profile.html:59
 msgid ""
 "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
 "minutes and reload the page to see your new Gravatar. </p>"
@@ -8315,27 +8312,27 @@ msgstr ""
 "<p> SUMO ఇప్పుడు అవతారాలుగా గ్రావతార్ లను ఉపయోగిస్తోంది. మీరు gravatar.com లో మీ గ్రావతార్ మార్చాలి. </p> <p> అవతార్ మార్పు కోసం అమలులోకి రావడానికి కొద్ది నిమిషాలు పట్టవచ్చు. మీరు కొన్ని నిమిషాలు వేచి మరియు మీ కొత్త గ్రావతార్ చూడటానికి పేజీని మళ్లీ లోడ్ అవసరం "
 "ఉండవచ్చు. </p>"
 
-#: kitsune/users/jinja2/users/edit_profile.html:97
+#: kitsune/users/jinja2/users/edit_profile.html:99
 msgid "Update My Profile"
 msgstr "నా ప్రొఫైలును తాజాకరించు"
 
-#: kitsune/users/jinja2/users/edit_profile.html:103
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Close account and delete all profile information"
 msgstr "ఖాతా మూసివేసి ప్రొఫైల్ సమాచారం అంతా తొలగించు"
 
-#: kitsune/users/jinja2/users/edit_profile.html:108
+#: kitsune/users/jinja2/users/edit_profile.html:111
 msgid "Are you sure"
 msgstr "మీరు ఖచ్చితంగా అనుకుంటున్నారా"
 
-#: kitsune/users/jinja2/users/edit_profile.html:112
+#: kitsune/users/jinja2/users/edit_profile.html:115
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "మీ ఖాతాను తొలగిస్తే సమాధానం లేదా మొజిల్లా మద్దతులో ప్రశ్నలు పోస్ట్ చేయడం నుండి మిమ్మల్ని నిరోధిస్తుంది. ఈ చర్య మీ ప్రొఫైల్ క్లియర్ చేస్తుంది మరియు మళ్ళీ తిరిగి రాకపోవచ్చు."
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:118
 msgid "Please type in your username to confirm"
 msgstr "నిర్ధారించడానికి మీ వినియోగదారు పేరు టైప్ చేయండి"
 
-#: kitsune/users/jinja2/users/edit_profile.html:122
+#: kitsune/users/jinja2/users/edit_profile.html:126
 msgid "Delete My Account"
 msgstr "నా ఖాతాను తొలగించు"
 
@@ -8376,16 +8373,17 @@ msgid "Email"
 msgstr "ఇమెయిల్"
 
 #: kitsune/users/jinja2/users/profile.html:80
-msgid "Facebook"
-msgstr "ఫేస్‌బుక్"
+#, fuzzy
+msgid "Community Portal"
+msgstr "కమ్యూనిటీ వేదికలు"
 
 #: kitsune/users/jinja2/users/profile.html:86
-msgid "Mozillians"
-msgstr "మోజిల్లియన్స్"
+msgid "People Directory"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:92
-msgid "IRC"
-msgstr "IRC"
+msgid "Matrix"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:107
 msgid "Deactivate this user"
@@ -10131,6 +10129,27 @@ msgstr "మాకు మరింత తెలియజేయండి."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "దయచేసి మరింత విషయాన్ని అందించండి"
+
+#~ msgid "Please enter a facebook.com URL."
+#~ msgstr "ఒక facebook.com URL ను ఎంటర్ చెయ్యండి."
+
+#~ msgid "Facebook URL"
+#~ msgstr "ఫేస్ బుక్ URL"
+
+#~ msgid "Mozillians Username"
+#~ msgstr "మోజిల్లియన్స్ యూజర్ పేరు"
+
+#~ msgid "IRC nickname"
+#~ msgstr "IRC మారు పేరు"
+
+#~ msgid "Facebook"
+#~ msgstr "ఫేస్‌బుక్"
+
+#~ msgid "Mozillians"
+#~ msgstr "మోజిల్లియన్స్"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
 
 #, fuzzy
 #~ msgctxt "DB: products.Topic.description"

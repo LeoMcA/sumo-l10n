@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-19 19:05-0700\n"
+"POT-Creation-Date: 2020-08-26 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 14:33+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: Chinese (traditional)\n"
@@ -882,7 +882,7 @@ msgstr "成為 Mozilla 技術支援站的志工"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:71 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "刪除"
@@ -1418,7 +1418,7 @@ msgstr "您的頭像大小將會被縮放為 {size}x{size}"
 msgid "username"
 msgstr "使用者名稱"
 
-#: kitsune/groups/models.py:24 kitsune/users/models.py:51
+#: kitsune/groups/models.py:24 kitsune/users/models.py:52
 msgid "Avatar"
 msgstr "頭像"
 
@@ -7871,83 +7871,79 @@ msgstr "已有其他帳號與此 Firefox Account 連結。"
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr "此 Firefox Account 使用的信箱，已與其它帳號連結。"
 
-#: kitsune/users/forms.py:13
+#: kitsune/users/forms.py:14
 msgid "Username may contain only English letters, numbers and ./-/_ characters."
 msgstr "使用者名稱僅能由英文字母、數字以及 ./-/_ 等字元組成。"
 
-#: kitsune/users/forms.py:16
+#: kitsune/users/forms.py:17
 msgid "Username is required."
 msgstr "使用者名稱是必要的。"
 
-#: kitsune/users/forms.py:17
+#: kitsune/users/forms.py:18
 #, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "內容資訊太短 (%(show_value)s 個字元)，必須超過 %(limit_value)s 個字元。"
 
-#: kitsune/users/forms.py:21
+#: kitsune/users/forms.py:22
 #, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "內容資訊太短 (%(show_value)s 個字元)，必須超過 %(limit_value)s 個字元。"
 
-#: kitsune/users/forms.py:25
+#: kitsune/users/forms.py:26
 msgid "Email address is required."
 msgstr "Email 地址是必要的。"
 
-#: kitsune/users/forms.py:26
+#: kitsune/users/forms.py:27
 #, python-format
 msgid "Email address is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "這個標題 (%(show_value)s 個字) 太短。它必須至少有 %(limit_value)s 個字以上。"
 
-#: kitsune/users/forms.py:30
+#: kitsune/users/forms.py:31
 #, python-format
 msgid "Email address is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "這個標題 (%(show_value)s 個字) 太短。它必須至少有 %(limit_value)s 個字以上。"
 
-#: kitsune/users/forms.py:34
+#: kitsune/users/forms.py:35
 msgid "Password is required."
 msgstr "必須輸入密碼。"
 
-#: kitsune/users/forms.py:35
+#: kitsune/users/forms.py:36
 msgid "Please enter your password twice."
 msgstr "請輸入您的密碼兩次。"
 
-#: kitsune/users/forms.py:37
+#: kitsune/users/forms.py:38
 msgid "Password must be 8 or more characters."
 msgstr "密碼必須要有 8 個字元以上。"
 
-#: kitsune/users/forms.py:44
+#: kitsune/users/forms.py:45
 msgid "Watch forum threads I start"
 msgstr "訂閱我發出的討論串"
 
-#: kitsune/users/forms.py:47
+#: kitsune/users/forms.py:48
 msgid "Watch forum threads I comment in"
 msgstr "訂閱我留言過的討論串"
 
-#: kitsune/users/forms.py:50
+#: kitsune/users/forms.py:51
 msgid "Watch KB discussion threads I start"
 msgstr "訂閱我發出的知識庫討論串"
 
-#: kitsune/users/forms.py:53
+#: kitsune/users/forms.py:54
 msgid "Watch KB discussion threads I comment in"
 msgstr "訂閱我留言過的知識庫討論串"
 
-#: kitsune/users/forms.py:56
+#: kitsune/users/forms.py:57
 msgid "Watch Question threads I comment in"
 msgstr "訂閱我留言過的問題討論串"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:60
 msgid "Send emails for private messages"
 msgstr "在收到私人訊息時寄送電子郵件"
 
-#: kitsune/users/forms.py:77 kitsune/users/models.py:100
+#: kitsune/users/forms.py:86 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "自下列時間加入 Mozilla"
 
-#: kitsune/users/forms.py:113
-msgid "Please enter a facebook.com URL."
-msgstr "請輸入一個 facebook.com 的網址。"
-
-#: kitsune/users/forms.py:140
+#: kitsune/users/forms.py:139
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "您所輸入的使用者名稱並不恰當。請再挑一個，並考慮到我們的幫手都是其他像您一樣的 Firefox 使用者。"
 
@@ -7963,23 +7959,23 @@ msgstr "salt"
 msgid "hash"
 msgstr "hash"
 
-#: kitsune/users/models.py:39 kitsune/users/models.py:339
+#: kitsune/users/models.py:40 kitsune/users/models.py:340
 msgid "User"
 msgstr "使用者"
 
-#: kitsune/users/models.py:42
+#: kitsune/users/models.py:43
 msgid "Display name"
 msgstr "顯示名稱"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:46
 msgid "Make my email public"
 msgstr "公開我的 Email"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:58
 msgid "Biography"
 msgstr "自我介紹"
 
-#: kitsune/users/models.py:58
+#: kitsune/users/models.py:59
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
@@ -7987,79 +7983,81 @@ msgstr ""
 "支援部分 HTML: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;strong&#x3E; "
 "&#x3C;ul&#x3E;，禁止使用超鏈結。"
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
 msgid "Website"
 msgstr "網站"
 
-#: kitsune/users/models.py:73
+#: kitsune/users/models.py:74
 msgid "Twitter Username"
 msgstr "Twitter 帳號"
 
-#: kitsune/users/models.py:76
-msgid "Facebook URL"
-msgstr "Facebook 網址"
+#: kitsune/users/models.py:77
+#, fuzzy
+msgid "Community Portal Username"
+msgstr "社群討論區"
 
-#: kitsune/users/models.py:79
-msgid "Mozillians Username"
-msgstr "Mozillans 摩茲人網站帳號"
+#: kitsune/users/models.py:80
+#, fuzzy
+msgid "People Directory Username"
+msgstr "選擇使用者名稱"
 
-#: kitsune/users/models.py:82
-msgid "IRC nickname"
-msgstr "IRC 暱稱"
+#: kitsune/users/models.py:83
+msgid "Matrix Nickname"
+msgstr ""
 
-#: kitsune/users/models.py:85
+#: kitsune/users/models.py:86
 msgid "Timezone"
 msgstr "時區"
 
-#: kitsune/users/models.py:88
+#: kitsune/users/models.py:89
 msgid "Country"
 msgstr "國家"
 
-#: kitsune/users/models.py:91
+#: kitsune/users/models.py:92
 msgid "City"
 msgstr "城市"
 
-#: kitsune/users/models.py:92
+#: kitsune/users/models.py:93
 msgid "Preferred language"
 msgstr "偏好語言"
 
-#: kitsune/users/models.py:94
+#: kitsune/users/models.py:95
 msgid "Has been sent a first answer contribution email."
 msgstr "寄出第一封回答貢獻郵件。"
 
-#: kitsune/users/models.py:97
+#: kitsune/users/models.py:98
 msgid "Has been sent a first revision contribution email."
 msgstr "寄出了第一封修改貢獻郵件。"
 
-#: kitsune/users/models.py:105
+#: kitsune/users/models.py:106
 msgid "When the user was sent a community health survey"
 msgstr "當使用者傳送社群生態調查時"
 
-#: kitsune/users/models.py:297
+#: kitsune/users/models.py:298
 msgid "{displayname} ({username})"
 msgstr "{displayname}（{username}）"
 
-#: kitsune/users/models.py:343
+#: kitsune/users/models.py:344
 msgid "Value"
 msgstr "值"
 
-#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
+#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
 msgid "user"
 msgstr "使用者"
 
-#: kitsune/users/models.py:382 kitsune/users/models.py:419
+#: kitsune/users/models.py:383 kitsune/users/models.py:420
 msgid "activation key"
 msgstr "啟用金鑰"
 
-#: kitsune/users/models.py:385
+#: kitsune/users/models.py:386
 msgid "registration profile"
 msgstr "註冊資料"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:387
 msgid "registration profiles"
 msgstr "註冊資料"
 
-#: kitsune/users/models.py:435
+#: kitsune/users/models.py:436
 msgid "moderator"
 msgstr "版主"
 
@@ -8072,7 +8070,7 @@ msgstr "歡迎來到 SUMO！"
 msgid "Your settings have been saved."
 msgstr "已儲存您的設定。"
 
-#: kitsune/users/views.py:346
+#: kitsune/users/views.py:351
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr "此帳號尚未啟用。若您覺得這個情況不正確，請聯絡網站管理員。"
 
@@ -8167,50 +8165,50 @@ msgstr "帳號"
 msgid "You can change your email address on Firefox Accounts."
 msgstr "您可以到 Firefox Accounts 修改電子郵件地址。"
 
-#: kitsune/users/jinja2/users/edit_profile.html:29 kitsune/users/jinja2/users/profile.html:20
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
 msgid "Need help?"
 msgstr "需要幫忙嗎？"
 
-#: kitsune/users/jinja2/users/edit_profile.html:33
+#: kitsune/users/jinja2/users/edit_profile.html:35
 msgid "Manage Firefox Account"
 msgstr "管理 Firefox 帳號"
 
-#: kitsune/users/jinja2/users/edit_profile.html:41
+#: kitsune/users/jinja2/users/edit_profile.html:43
 msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
 msgstr "請告訴其他使用者關於您的更多資訊。大部分欄位為選填，但能夠幫助其他人更加了解您。"
 
-#: kitsune/users/jinja2/users/edit_profile.html:55
+#: kitsune/users/jinja2/users/edit_profile.html:57
 msgctxt "avatar"
 msgid "Choose Photo"
 msgstr "選擇照片"
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
+#: kitsune/users/jinja2/users/edit_profile.html:59
 msgid ""
 "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
 "minutes and reload the page to see your new Gravatar. </p>"
 msgstr "<p>SUMO 現在開始使用 Gravatar 作為個人的大頭照，您必須在 gravatar.com 變更您的大頭照。</p> <p>您可能需要等幾分鐘再重新載入頁面才能看到您的新 Gravatar。</p>"
 
-#: kitsune/users/jinja2/users/edit_profile.html:97
+#: kitsune/users/jinja2/users/edit_profile.html:99
 msgid "Update My Profile"
 msgstr "更新我的資料"
 
-#: kitsune/users/jinja2/users/edit_profile.html:103
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Close account and delete all profile information"
 msgstr "關閉帳號並刪除所有個人資料"
 
-#: kitsune/users/jinja2/users/edit_profile.html:108
+#: kitsune/users/jinja2/users/edit_profile.html:111
 msgid "Are you sure"
 msgstr "您確定嗎？"
 
-#: kitsune/users/jinja2/users/edit_profile.html:112
+#: kitsune/users/jinja2/users/edit_profile.html:115
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "您刪除帳號後將不再能於 Mozilla Support 回答或張貼問題。這個動作將會清除您的帳號，無法還原。"
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:118
 msgid "Please type in your username to confirm"
 msgstr "請輸入您的帳號以確認"
 
-#: kitsune/users/jinja2/users/edit_profile.html:122
+#: kitsune/users/jinja2/users/edit_profile.html:126
 msgid "Delete My Account"
 msgstr "刪除我的帳號"
 
@@ -8251,16 +8249,17 @@ msgid "Email"
 msgstr "電子郵件"
 
 #: kitsune/users/jinja2/users/profile.html:80
-msgid "Facebook"
-msgstr "Facebook"
+#, fuzzy
+msgid "Community Portal"
+msgstr "社群討論區"
 
 #: kitsune/users/jinja2/users/profile.html:86
-msgid "Mozillians"
-msgstr "Mozillans"
+msgid "People Directory"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:92
-msgid "IRC"
-msgstr "IRC"
+msgid "Matrix"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:107
 msgid "Deactivate this user"
@@ -9995,6 +9994,27 @@ msgstr "告訴我們更多資訊。"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "請提供更多詳情。"
+
+#~ msgid "Please enter a facebook.com URL."
+#~ msgstr "請輸入一個 facebook.com 的網址。"
+
+#~ msgid "Facebook URL"
+#~ msgstr "Facebook 網址"
+
+#~ msgid "Mozillians Username"
+#~ msgstr "Mozillans 摩茲人網站帳號"
+
+#~ msgid "IRC nickname"
+#~ msgstr "IRC 暱稱"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Mozillians"
+#~ msgstr "Mozillans"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
 
 #~ msgctxt "DB: products.Topic.description"
 #~ msgid "Basics for using Firefox Private Network."
@@ -11901,9 +11921,6 @@ msgstr "請提供更多詳情。"
 
 #~ msgid "You must be signed in to continue"
 #~ msgstr "您必須登入才能繼續"
-
-#~ msgid "Select a username"
-#~ msgstr "選擇使用者名稱"
 
 #~ msgid "You're almost there!"
 #~ msgstr "差不多了！"

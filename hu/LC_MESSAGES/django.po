@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-19 19:05-0700\n"
+"POT-Creation-Date: 2020-08-26 19:04-0700\n"
 "PO-Revision-Date: 2020-07-09 11:53+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -893,7 +893,7 @@ msgstr "Jelentkezzen a Mozilla támogatás önkéntesének"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:71 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "Törlés"
@@ -1429,7 +1429,7 @@ msgstr "Az avatarja átméreteződik {size}x{size} méretre"
 msgid "username"
 msgstr "felhasználónév"
 
-#: kitsune/groups/models.py:24 kitsune/users/models.py:51
+#: kitsune/groups/models.py:24 kitsune/users/models.py:52
 msgid "Avatar"
 msgstr "Avatar"
 
@@ -7925,83 +7925,79 @@ msgstr "Ezt a Firefox-fiókot már használja egy másik profil."
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr "Az ezzel a Firefox-fiókkal használt e-mail cím már egy másik profilhoz van kapcsolva."
 
-#: kitsune/users/forms.py:13
+#: kitsune/users/forms.py:14
 msgid "Username may contain only English letters, numbers and ./-/_ characters."
 msgstr "A felhasználónév csak angol betűket, számokat és ./-/_ karaktereket tartalmazhat."
 
-#: kitsune/users/forms.py:16
+#: kitsune/users/forms.py:17
 msgid "Username is required."
 msgstr "A felhasználónév megadása kötelező."
 
-#: kitsune/users/forms.py:17
+#: kitsune/users/forms.py:18
 #, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "A felhasználónév túl rövid (%(show_value)s karakter). Legalább %(limit_value)s karakternek kell lennie."
 
-#: kitsune/users/forms.py:21
+#: kitsune/users/forms.py:22
 #, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "A felhasználónév túl hosszú (%(show_value)s karakter). Legfeljebb %(limit_value)s karakternek szabad lennie."
 
-#: kitsune/users/forms.py:25
+#: kitsune/users/forms.py:26
 msgid "Email address is required."
 msgstr "E-mail cím megadása kötelező."
 
-#: kitsune/users/forms.py:26
+#: kitsune/users/forms.py:27
 #, python-format
 msgid "Email address is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Az e-mail cím túl rövid (%(show_value)s karakter). Legalább %(limit_value)s karakternek kell lennie."
 
-#: kitsune/users/forms.py:30
+#: kitsune/users/forms.py:31
 #, python-format
 msgid "Email address is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "Az e-mail cím túl hosszú (%(show_value)s karakter). Legfeljebb %(limit_value)s karakternek szabad lennie."
 
-#: kitsune/users/forms.py:34
+#: kitsune/users/forms.py:35
 msgid "Password is required."
 msgstr "A jelszó megadása kötelező."
 
-#: kitsune/users/forms.py:35
+#: kitsune/users/forms.py:36
 msgid "Please enter your password twice."
 msgstr "Adja meg a jelszót kétszer."
 
-#: kitsune/users/forms.py:37
+#: kitsune/users/forms.py:38
 msgid "Password must be 8 or more characters."
 msgstr "A jelszónak legalább 8 karakter hosszúnak kell lennie."
 
-#: kitsune/users/forms.py:44
+#: kitsune/users/forms.py:45
 msgid "Watch forum threads I start"
 msgstr "Általam indított témacsoportok figyelése"
 
-#: kitsune/users/forms.py:47
+#: kitsune/users/forms.py:48
 msgid "Watch forum threads I comment in"
 msgstr "Témacsoportok követése, amelyekhez hozzászóltam"
 
-#: kitsune/users/forms.py:50
+#: kitsune/users/forms.py:51
 msgid "Watch KB discussion threads I start"
 msgstr "Általam indított Tudástár témacsoportok figyelése"
 
-#: kitsune/users/forms.py:53
+#: kitsune/users/forms.py:54
 msgid "Watch KB discussion threads I comment in"
 msgstr "Tudástár témacsoportok figyelése, amikhez hozzászóltam"
 
-#: kitsune/users/forms.py:56
+#: kitsune/users/forms.py:57
 msgid "Watch Question threads I comment in"
 msgstr "Kérdések figyelése, amikhez hozzászóltam"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:60
 msgid "Send emails for private messages"
 msgstr "E-mail küldése személyes üzenetküldéskor"
 
-#: kitsune/users/forms.py:77 kitsune/users/models.py:100
+#: kitsune/users/forms.py:86 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "Csatlakozott a Mozillához innen:"
 
-#: kitsune/users/forms.py:113
-msgid "Please enter a facebook.com URL."
-msgstr "Adjon meg egy facebook.com URL-címet."
-
-#: kitsune/users/forms.py:140
+#: kitsune/users/forms.py:139
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "A megadott felhasználónév nem megfelelő. Válasszon egy másik nevet és gondoljon arra, hogy a segítők ugyanolyan Firefox felhasználók."
 
@@ -8017,23 +8013,23 @@ msgstr "salt"
 msgid "hash"
 msgstr "hash"
 
-#: kitsune/users/models.py:39 kitsune/users/models.py:339
+#: kitsune/users/models.py:40 kitsune/users/models.py:340
 msgid "User"
 msgstr "Felhasználó"
 
-#: kitsune/users/models.py:42
+#: kitsune/users/models.py:43
 msgid "Display name"
 msgstr "Megjelenő név"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:46
 msgid "Make my email public"
 msgstr "Legyen publikus az email címem"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:58
 msgid "Biography"
 msgstr "Életrajz"
 
-#: kitsune/users/models.py:58
+#: kitsune/users/models.py:59
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
@@ -8041,79 +8037,80 @@ msgstr ""
 "Némi HTML támogatott: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. A hivatkozások tiltottak."
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Weboldal"
 
-#: kitsune/users/models.py:73
+#: kitsune/users/models.py:74
 msgid "Twitter Username"
 msgstr "Twitter felhasználói név"
 
-#: kitsune/users/models.py:76
-msgid "Facebook URL"
-msgstr "Facebook URL"
+#: kitsune/users/models.py:77
+#, fuzzy
+msgid "Community Portal Username"
+msgstr "Közösségi fórumok"
 
-#: kitsune/users/models.py:79
-msgid "Mozillians Username"
-msgstr "Mozillások felhasználói név"
+#: kitsune/users/models.py:80
+msgid "People Directory Username"
+msgstr ""
 
-#: kitsune/users/models.py:82
-msgid "IRC nickname"
-msgstr "IRC-név"
+#: kitsune/users/models.py:83
+msgid "Matrix Nickname"
+msgstr ""
 
-#: kitsune/users/models.py:85
+#: kitsune/users/models.py:86
 msgid "Timezone"
 msgstr "Időzóna"
 
-#: kitsune/users/models.py:88
+#: kitsune/users/models.py:89
 msgid "Country"
 msgstr "Ország"
 
-#: kitsune/users/models.py:91
+#: kitsune/users/models.py:92
 msgid "City"
 msgstr "Város"
 
-#: kitsune/users/models.py:92
+#: kitsune/users/models.py:93
 msgid "Preferred language"
 msgstr "Előnyben részesített nyelv"
 
-#: kitsune/users/models.py:94
+#: kitsune/users/models.py:95
 msgid "Has been sent a first answer contribution email."
 msgstr "Az első támogatói e-mail elküldve."
 
-#: kitsune/users/models.py:97
+#: kitsune/users/models.py:98
 msgid "Has been sent a first revision contribution email."
 msgstr "Az első verzióbeküldői e-mail elküldve."
 
-#: kitsune/users/models.py:105
+#: kitsune/users/models.py:106
 msgid "When the user was sent a community health survey"
 msgstr "Amikor a felhasználó elküldte a közösségi állapotfelmérést"
 
-#: kitsune/users/models.py:297
+#: kitsune/users/models.py:298
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:343
+#: kitsune/users/models.py:344
 msgid "Value"
 msgstr "Érték"
 
-#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
+#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
 msgid "user"
 msgstr "felhasználó"
 
-#: kitsune/users/models.py:382 kitsune/users/models.py:419
+#: kitsune/users/models.py:383 kitsune/users/models.py:420
 msgid "activation key"
 msgstr "aktivációs kulcs"
 
-#: kitsune/users/models.py:385
+#: kitsune/users/models.py:386
 msgid "registration profile"
 msgstr "regisztrációs profil"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:387
 msgid "registration profiles"
 msgstr "regisztrációs profilok"
 
-#: kitsune/users/models.py:435
+#: kitsune/users/models.py:436
 msgid "moderator"
 msgstr "moderátor"
 
@@ -8126,7 +8123,7 @@ msgstr "Üdvözli a SUMO!"
 msgid "Your settings have been saved."
 msgstr "A beállítások mentése megtörtént."
 
-#: kitsune/users/views.py:346
+#: kitsune/users/views.py:351
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr "Ez a fiók nem aktív. Lépjen kapcsolatba egy rendszergazdával, ha úgy gondolja, hogy ez egy hiba"
 
@@ -8223,24 +8220,24 @@ msgstr "Fiók"
 msgid "You can change your email address on Firefox Accounts."
 msgstr "Módosíthatja az e-mail címét a Firefox-fiókokban."
 
-#: kitsune/users/jinja2/users/edit_profile.html:29 kitsune/users/jinja2/users/profile.html:20
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
 msgid "Need help?"
 msgstr "Segítségre van szüksége?"
 
-#: kitsune/users/jinja2/users/edit_profile.html:33
+#: kitsune/users/jinja2/users/edit_profile.html:35
 msgid "Manage Firefox Account"
 msgstr "Firefox-fiókok kezelése"
 
-#: kitsune/users/jinja2/users/edit_profile.html:41
+#: kitsune/users/jinja2/users/edit_profile.html:43
 msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
 msgstr "Mondjon néhány szót magáról a többi felhasználónak. A legtöbb mező nem kötelező, de segítenek, hogy a többi felhasználó jobban megismerje."
 
-#: kitsune/users/jinja2/users/edit_profile.html:55
+#: kitsune/users/jinja2/users/edit_profile.html:57
 msgctxt "avatar"
 msgid "Choose Photo"
 msgstr "Válasszon fényképet"
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
+#: kitsune/users/jinja2/users/edit_profile.html:59
 msgid ""
 "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
 "minutes and reload the page to see your new Gravatar. </p>"
@@ -8248,27 +8245,27 @@ msgstr ""
 "<p> A SUMO a Gravatarokat használja mint avatart. A gravatar.com oldalon változtathatja meg Gravatarját. </p> <p>Pár percet igénybe vehet a megváltoztatás, majd újratöltve az oldalt megnézheti új "
 "Gravatarját. </p>"
 
-#: kitsune/users/jinja2/users/edit_profile.html:97
+#: kitsune/users/jinja2/users/edit_profile.html:99
 msgid "Update My Profile"
 msgstr "Saját profil frissítése"
 
-#: kitsune/users/jinja2/users/edit_profile.html:103
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Close account and delete all profile information"
 msgstr "Fiók lezárása, és minden profilinformáció törlése"
 
-#: kitsune/users/jinja2/users/edit_profile.html:108
+#: kitsune/users/jinja2/users/edit_profile.html:111
 msgid "Are you sure"
 msgstr "Biztos?"
 
-#: kitsune/users/jinja2/users/edit_profile.html:112
+#: kitsune/users/jinja2/users/edit_profile.html:115
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "A fiók törlése után nem fog tudni válaszolni, vagy kérdést feltenni a Mozilla támogatói fórumon. Ez a művelet törli a személyes profilt, amit nem lehet visszaállítani."
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:118
 msgid "Please type in your username to confirm"
 msgstr "Írja be a felhasználónevét a megerősítéshez"
 
-#: kitsune/users/jinja2/users/edit_profile.html:122
+#: kitsune/users/jinja2/users/edit_profile.html:126
 msgid "Delete My Account"
 msgstr "Személyes fiók törlése"
 
@@ -8309,16 +8306,17 @@ msgid "Email"
 msgstr "E-mail"
 
 #: kitsune/users/jinja2/users/profile.html:80
-msgid "Facebook"
-msgstr "Facebook"
+#, fuzzy
+msgid "Community Portal"
+msgstr "Közösségi fórumok"
 
 #: kitsune/users/jinja2/users/profile.html:86
-msgid "Mozillians"
-msgstr "Mozillások"
+msgid "People Directory"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:92
-msgid "IRC"
-msgstr "IRC"
+msgid "Matrix"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:107
 msgid "Deactivate this user"
@@ -10070,6 +10068,27 @@ msgstr "Mondja el."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Adjon részletesebb információt"
+
+#~ msgid "Please enter a facebook.com URL."
+#~ msgstr "Adjon meg egy facebook.com URL-címet."
+
+#~ msgid "Facebook URL"
+#~ msgstr "Facebook URL"
+
+#~ msgid "Mozillians Username"
+#~ msgstr "Mozillások felhasználói név"
+
+#~ msgid "IRC nickname"
+#~ msgstr "IRC-név"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Mozillians"
+#~ msgstr "Mozillások"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
 
 #~ msgctxt "DB: products.Topic.description"
 #~ msgid "Basics for using Firefox Private Network."

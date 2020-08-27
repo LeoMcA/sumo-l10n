@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-19 19:05-0700\n"
+"POT-Creation-Date: 2020-08-26 19:04-0700\n"
 "PO-Revision-Date: 2020-07-08 05:23+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: Ukrainian team\n"
@@ -896,7 +896,7 @@ msgstr "Стати волонтером Підтримки Mozilla"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:71 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "Вилучити"
@@ -1432,7 +1432,7 @@ msgstr "Ваш аватар буде змінено до розміру {size}x{
 msgid "username"
 msgstr "Ім'я користувача"
 
-#: kitsune/groups/models.py:24 kitsune/users/models.py:51
+#: kitsune/groups/models.py:24 kitsune/users/models.py:52
 msgid "Avatar"
 msgstr "Аватар"
 
@@ -7992,83 +7992,79 @@ msgstr "Цей обліковий запис Firefox вже використов
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr "Електронна адреса, яка використовується в цьому обліковому записі Firefox, вже прив’язана до іншого профілю."
 
-#: kitsune/users/forms.py:13
+#: kitsune/users/forms.py:14
 msgid "Username may contain only English letters, numbers and ./-/_ characters."
 msgstr "Ім'я користувача може містити тільки англійські літери, цифри та символи ./-/_."
 
-#: kitsune/users/forms.py:16
+#: kitsune/users/forms.py:17
 msgid "Username is required."
 msgstr "Ім'я користувача обов'язкове."
 
-#: kitsune/users/forms.py:17
+#: kitsune/users/forms.py:18
 #, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Ім'я користувача закоротке (%(show_value)s символів). Його довжина повинна бути не менш ніж %(limit_value)s символів."
 
-#: kitsune/users/forms.py:21
+#: kitsune/users/forms.py:22
 #, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "Ім'я користувача задовге (%(show_value)s символів). Його довжина повинна бути %(limit_value)s символів чи менше."
 
-#: kitsune/users/forms.py:25
+#: kitsune/users/forms.py:26
 msgid "Email address is required."
 msgstr "Адреса електронної пошти обов'язкова."
 
-#: kitsune/users/forms.py:26
+#: kitsune/users/forms.py:27
 #, python-format
 msgid "Email address is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Адреса електронної пошти закоротка (%(show_value)s символів). Її довжина повинна бути не менш ніж %(limit_value)s символів."
 
-#: kitsune/users/forms.py:30
+#: kitsune/users/forms.py:31
 #, python-format
 msgid "Email address is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "Адреса електронної пошти задовга (%(show_value)s символів). Її довжина повинна бути %(limit_value)s символів чи менше."
 
-#: kitsune/users/forms.py:34
+#: kitsune/users/forms.py:35
 msgid "Password is required."
 msgstr "Пароль обов'язковий."
 
-#: kitsune/users/forms.py:35
+#: kitsune/users/forms.py:36
 msgid "Please enter your password twice."
 msgstr "Введіть свій пароль двічі."
 
-#: kitsune/users/forms.py:37
+#: kitsune/users/forms.py:38
 msgid "Password must be 8 or more characters."
 msgstr "Довжина пароля повинна бути не менше 8 символів."
 
-#: kitsune/users/forms.py:44
+#: kitsune/users/forms.py:45
 msgid "Watch forum threads I start"
 msgstr "Відстежувати розпочаті мною теми форуму"
 
-#: kitsune/users/forms.py:47
+#: kitsune/users/forms.py:48
 msgid "Watch forum threads I comment in"
 msgstr "Відстежувати теми форуму з моїми коментарями"
 
-#: kitsune/users/forms.py:50
+#: kitsune/users/forms.py:51
 msgid "Watch KB discussion threads I start"
 msgstr "Відстежувати розпочаті мною теми обговорень бази знань"
 
-#: kitsune/users/forms.py:53
+#: kitsune/users/forms.py:54
 msgid "Watch KB discussion threads I comment in"
 msgstr "Відстежувати теми обговорень бази знань з моїми коментарями"
 
-#: kitsune/users/forms.py:56
+#: kitsune/users/forms.py:57
 msgid "Watch Question threads I comment in"
 msgstr "Відстежувати теми питань з моїми коментарями"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:60
 msgid "Send emails for private messages"
 msgstr "Надсилати листи при появі приватних повідомлень"
 
-#: kitsune/users/forms.py:77 kitsune/users/models.py:100
+#: kitsune/users/forms.py:86 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "Разом із Mozilla від"
 
-#: kitsune/users/forms.py:113
-msgid "Please enter a facebook.com URL."
-msgstr "Будь ласка, введіть URL facebook.com."
-
-#: kitsune/users/forms.py:140
+#: kitsune/users/forms.py:139
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "Введене вами ім'я користувача є недоречним. Будь ласка, виберіть інше і зверніть увагу, що нашими помічниками є інші користувачі Firefox, такі ж як ви."
 
@@ -8084,23 +8080,23 @@ msgstr "сіль"
 msgid "hash"
 msgstr "хеш"
 
-#: kitsune/users/models.py:39 kitsune/users/models.py:339
+#: kitsune/users/models.py:40 kitsune/users/models.py:340
 msgid "User"
 msgstr "Користувач"
 
-#: kitsune/users/models.py:42
+#: kitsune/users/models.py:43
 msgid "Display name"
 msgstr "Показувати ім'я"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:46
 msgid "Make my email public"
 msgstr "Показувати мою електронну адресу"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:58
 msgid "Biography"
 msgstr "Біографія"
 
-#: kitsune/users/models.py:58
+#: kitsune/users/models.py:59
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
@@ -8108,79 +8104,81 @@ msgstr ""
 "Підтримуються деякі HTML теги: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; "
 "&#x3C;strong&#x3E; &#x3C;ul&#x3E;. Посилання заборонені."
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Вебсайт"
 
-#: kitsune/users/models.py:73
+#: kitsune/users/models.py:74
 msgid "Twitter Username"
 msgstr "Ім'я в Twitter"
 
-#: kitsune/users/models.py:76
-msgid "Facebook URL"
-msgstr "Facebook URL"
+#: kitsune/users/models.py:77
+#, fuzzy
+msgid "Community Portal Username"
+msgstr "Форуми спільноти"
 
-#: kitsune/users/models.py:79
-msgid "Mozillians Username"
-msgstr "Ім'я користувача Мозилівця"
+#: kitsune/users/models.py:80
+#, fuzzy
+msgid "People Directory Username"
+msgstr "Виберіть ім'я користувача"
 
-#: kitsune/users/models.py:82
-msgid "IRC nickname"
-msgstr "Нік в IRC"
+#: kitsune/users/models.py:83
+msgid "Matrix Nickname"
+msgstr ""
 
-#: kitsune/users/models.py:85
+#: kitsune/users/models.py:86
 msgid "Timezone"
 msgstr "Часовий пояс"
 
-#: kitsune/users/models.py:88
+#: kitsune/users/models.py:89
 msgid "Country"
 msgstr "Країна"
 
-#: kitsune/users/models.py:91
+#: kitsune/users/models.py:92
 msgid "City"
 msgstr "Місто"
 
-#: kitsune/users/models.py:92
+#: kitsune/users/models.py:93
 msgid "Preferred language"
 msgstr "Бажана мова"
 
-#: kitsune/users/models.py:94
+#: kitsune/users/models.py:95
 msgid "Has been sent a first answer contribution email."
 msgstr "Було надіслано лист про першу допомогу з відповіддю."
 
-#: kitsune/users/models.py:97
+#: kitsune/users/models.py:98
 msgid "Has been sent a first revision contribution email."
 msgstr "Було надіслано лист про першу допомогу з переглядом."
 
-#: kitsune/users/models.py:105
+#: kitsune/users/models.py:106
 msgid "When the user was sent a community health survey"
 msgstr "Коли користувачу було відправлено опитування про стан спільноти"
 
-#: kitsune/users/models.py:297
+#: kitsune/users/models.py:298
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:343
+#: kitsune/users/models.py:344
 msgid "Value"
 msgstr "Значення"
 
-#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
+#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
 msgid "user"
 msgstr "користувач"
 
-#: kitsune/users/models.py:382 kitsune/users/models.py:419
+#: kitsune/users/models.py:383 kitsune/users/models.py:420
 msgid "activation key"
 msgstr "ключ активації"
 
-#: kitsune/users/models.py:385
+#: kitsune/users/models.py:386
 msgid "registration profile"
 msgstr "профіль реєстрації"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:387
 msgid "registration profiles"
 msgstr "профілі реєстрації"
 
-#: kitsune/users/models.py:435
+#: kitsune/users/models.py:436
 msgid "moderator"
 msgstr "модератор"
 
@@ -8193,7 +8191,7 @@ msgstr "Ласкаво просимо на SUMO!"
 msgid "Your settings have been saved."
 msgstr "Ваші налаштування були збережені."
 
-#: kitsune/users/views.py:346
+#: kitsune/users/views.py:351
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr "Цей обліковий запис не активний. Якщо ви впевнені, що це помилка, зв’яжіться з адміністратором"
 
@@ -8291,24 +8289,24 @@ msgstr "Обліковий запис"
 msgid "You can change your email address on Firefox Accounts."
 msgstr "Ви можете змінити свою адресу електронної пошти в обліковому записі Firefox."
 
-#: kitsune/users/jinja2/users/edit_profile.html:29 kitsune/users/jinja2/users/profile.html:20
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
 msgid "Need help?"
 msgstr "Потрібна допомога?"
 
-#: kitsune/users/jinja2/users/edit_profile.html:33
+#: kitsune/users/jinja2/users/edit_profile.html:35
 msgid "Manage Firefox Account"
 msgstr "Керувати обліковим записом Firefox"
 
-#: kitsune/users/jinja2/users/edit_profile.html:41
+#: kitsune/users/jinja2/users/edit_profile.html:43
 msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
 msgstr "Розкажіть трохи більше інформації про себе. Більшість полів є необов’язковими, але вони допоможуть іншим користувачам пізнати вас краще."
 
-#: kitsune/users/jinja2/users/edit_profile.html:55
+#: kitsune/users/jinja2/users/edit_profile.html:57
 msgctxt "avatar"
 msgid "Choose Photo"
 msgstr "Виберіть фото"
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
+#: kitsune/users/jinja2/users/edit_profile.html:59
 msgid ""
 "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
 "minutes and reload the page to see your new Gravatar. </p>"
@@ -8316,27 +8314,27 @@ msgstr ""
 "<p> Зараз SUMO використовує в якості аватарів Gravatar. Вам необхідно змінити свій Gravatar на gravatar.com. </p> <p> Застосування змін може тривати кілька хвилин. Щоб побачити свій новий аватар, "
 "можливо доведеться трохи зачекати і перезавантажити сторінку. </p>"
 
-#: kitsune/users/jinja2/users/edit_profile.html:97
+#: kitsune/users/jinja2/users/edit_profile.html:99
 msgid "Update My Profile"
 msgstr "Оновити мій профіль"
 
-#: kitsune/users/jinja2/users/edit_profile.html:103
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Close account and delete all profile information"
 msgstr "Закрити обліковий запис та вилучити всю інформацію профілю"
 
-#: kitsune/users/jinja2/users/edit_profile.html:108
+#: kitsune/users/jinja2/users/edit_profile.html:111
 msgid "Are you sure"
 msgstr "Ви впевнені"
 
-#: kitsune/users/jinja2/users/edit_profile.html:112
+#: kitsune/users/jinja2/users/edit_profile.html:115
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "Вилучивши свій обліковий запис, ви більше не зможете відповідати на питання чи задавати їх у Підтримці Mozilla. Ця дія призведе до незворотного стирання даних вашого профілю."
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:118
 msgid "Please type in your username to confirm"
 msgstr "Будь ласка, введіть своє ім'я користувача для підтвердження"
 
-#: kitsune/users/jinja2/users/edit_profile.html:122
+#: kitsune/users/jinja2/users/edit_profile.html:126
 msgid "Delete My Account"
 msgstr "Вилучити мій обліковий запис"
 
@@ -8377,16 +8375,17 @@ msgid "Email"
 msgstr "Електронна пошта"
 
 #: kitsune/users/jinja2/users/profile.html:80
-msgid "Facebook"
-msgstr "Facebook"
+#, fuzzy
+msgid "Community Portal"
+msgstr "Форуми спільноти"
 
 #: kitsune/users/jinja2/users/profile.html:86
-msgid "Mozillians"
-msgstr "Мозилівці"
+msgid "People Directory"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:92
-msgid "IRC"
-msgstr "IRC"
+msgid "Matrix"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:107
 msgid "Deactivate this user"
@@ -10148,6 +10147,27 @@ msgstr "Розкажіть більш детально."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Будь ласка, надайте більше інформації"
+
+#~ msgid "Please enter a facebook.com URL."
+#~ msgstr "Будь ласка, введіть URL facebook.com."
+
+#~ msgid "Facebook URL"
+#~ msgstr "Facebook URL"
+
+#~ msgid "Mozillians Username"
+#~ msgstr "Ім'я користувача Мозилівця"
+
+#~ msgid "IRC nickname"
+#~ msgstr "Нік в IRC"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Mozillians"
+#~ msgstr "Мозилівці"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
 
 #~ msgctxt "DB: products.Topic.description"
 #~ msgid "Basics for using Firefox Private Network."
@@ -12059,9 +12079,6 @@ msgstr "Будь ласка, надайте більше інформації"
 
 #~ msgid "You must be signed in to continue"
 #~ msgstr "Вам потрібно увійти, щоб продовжити"
-
-#~ msgid "Select a username"
-#~ msgstr "Виберіть ім'я користувача"
 
 #~ msgid "You're almost there!"
 #~ msgstr "Ви майже закінчили!"

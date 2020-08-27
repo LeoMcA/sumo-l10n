@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-19 19:05-0700\n"
+"POT-Creation-Date: 2020-08-26 19:04-0700\n"
 "PO-Revision-Date: 2020-05-04 19:06+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -894,7 +894,7 @@ msgstr "Pśinosujśo ako dobrowólnik k pomocy Mozilla"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:71 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "Lašowaś"
@@ -1430,7 +1430,7 @@ msgstr "Wjelikosć wašogo awatara pśiměrijo se na {size}x{size}"
 msgid "username"
 msgstr "wužywarske mě"
 
-#: kitsune/groups/models.py:24 kitsune/users/models.py:51
+#: kitsune/groups/models.py:24 kitsune/users/models.py:52
 msgid "Avatar"
 msgstr "Awatar"
 
@@ -8003,83 +8003,79 @@ msgstr "Toś to konto Firefox se južo w drugem profilu wužywa."
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr "E-mailowa adresa, kótaraž se z toś tym kontom Firefox wužywa, jo južo zwězana z drugim profilom."
 
-#: kitsune/users/forms.py:13
+#: kitsune/users/forms.py:14
 msgid "Username may contain only English letters, numbers and ./-/_ characters."
 msgstr "Wužywarske mě smějo jano engelske pismiki, licby a znamuška ./-/_ wopśimowaś."
 
-#: kitsune/users/forms.py:16
+#: kitsune/users/forms.py:17
 msgid "Username is required."
 msgstr "Wužywarske mě jo trěbne."
 
-#: kitsune/users/forms.py:17
+#: kitsune/users/forms.py:18
 #, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Wužywarske mě jo pśekrotke (%(show_value)s znamuškow). Musy nanejmjenjej %(limit_value)s znamuškow dłujke byś."
 
-#: kitsune/users/forms.py:21
+#: kitsune/users/forms.py:22
 #, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "Wužywarske mě jo pśedłujke (%(show_value)s znamuškow). Smějo maksimalnje %(limit_value)s znamuškow dłujke byś."
 
-#: kitsune/users/forms.py:25
+#: kitsune/users/forms.py:26
 msgid "Email address is required."
 msgstr "E-mailowa adresa jo trěbna."
 
-#: kitsune/users/forms.py:26
+#: kitsune/users/forms.py:27
 #, python-format
 msgid "Email address is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "E-mailowa adresa jo pśekrotka (%(show_value)s znamuškow). Musy nanejmjenjej %(limit_value)s znamuškow dłujka byś."
 
-#: kitsune/users/forms.py:30
+#: kitsune/users/forms.py:31
 #, python-format
 msgid "Email address is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "E-mailowa adresa jo pśedłujka (%(show_value)s znamuškow). Smějo maksimalnje %(limit_value)s znamuškow dłujka byś."
 
-#: kitsune/users/forms.py:34
+#: kitsune/users/forms.py:35
 msgid "Password is required."
 msgstr "Gronidło jo trěbne."
 
-#: kitsune/users/forms.py:35
+#: kitsune/users/forms.py:36
 msgid "Please enter your password twice."
 msgstr "Pšosym zapódajśo swójo gronidło dwójcy."
 
-#: kitsune/users/forms.py:37
+#: kitsune/users/forms.py:38
 msgid "Password must be 8 or more characters."
 msgstr "Gronidło musy nanejmjenjej 8 znamuškow dłujke byś."
 
-#: kitsune/users/forms.py:44
+#: kitsune/users/forms.py:45
 msgid "Watch forum threads I start"
 msgstr "Nitki foruma wobglědowaś, kótarež zachopinam"
 
-#: kitsune/users/forms.py:47
+#: kitsune/users/forms.py:48
 msgid "Watch forum threads I comment in"
 msgstr "Nitki foruma wobglědowaś, kótarež komentěrujom"
 
-#: kitsune/users/forms.py:50
+#: kitsune/users/forms.py:51
 msgid "Watch KB discussion threads I start"
 msgstr "Diskusijne nitki wědoweje datoweje banki wobglědowaś, kótarež zachopinam"
 
-#: kitsune/users/forms.py:53
+#: kitsune/users/forms.py:54
 msgid "Watch KB discussion threads I comment in"
 msgstr "Diskusijne nitki wědoweje datoweje banki wobglědowaś, kótarež komentěrujom"
 
-#: kitsune/users/forms.py:56
+#: kitsune/users/forms.py:57
 msgid "Watch Question threads I comment in"
 msgstr "Pšašańske nitki wobglědowaś, kótarež komentěrujom"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:60
 msgid "Send emails for private messages"
 msgstr "Pśi dostawanju priwatnych powěsćow pśez e-mail informěrowaś"
 
-#: kitsune/users/forms.py:77 kitsune/users/models.py:100
+#: kitsune/users/forms.py:86 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "Pśi Mozilla pódla wót:"
 
-#: kitsune/users/forms.py:113
-msgid "Please enter a facebook.com URL."
-msgstr "Pšosym zapódajśo URL facebook.com."
-
-#: kitsune/users/forms.py:140
+#: kitsune/users/forms.py:139
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "Wužywarske mě, kótarež sćo zapódał, jo njepśisłušne. Pšosym wubjeŕśo druge a źiwajśo na to, až naše pomogarja su wužywarje Firefox ako wy."
 
@@ -8095,23 +8091,23 @@ msgstr "Salt"
 msgid "hash"
 msgstr "hash"
 
-#: kitsune/users/models.py:39 kitsune/users/models.py:339
+#: kitsune/users/models.py:40 kitsune/users/models.py:340
 msgid "User"
 msgstr "Wužywaŕ"
 
-#: kitsune/users/models.py:42
+#: kitsune/users/models.py:43
 msgid "Display name"
 msgstr "Mě pokazaś"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:46
 msgid "Make my email public"
 msgstr "Móju e-mailowu adresu wózjawiś"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:58
 msgid "Biography"
 msgstr "Biografija"
 
-#: kitsune/users/models.py:58
+#: kitsune/users/models.py:59
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
@@ -8119,79 +8115,80 @@ msgstr ""
 "HTML se pó źělach pódpěra: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Wótkaze su zakazane."
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Websedło"
 
-#: kitsune/users/models.py:73
+#: kitsune/users/models.py:74
 msgid "Twitter Username"
 msgstr "Wužywarske mě na Twitter"
 
-#: kitsune/users/models.py:76
-msgid "Facebook URL"
-msgstr "Adresa Facebook"
+#: kitsune/users/models.py:77
+#, fuzzy
+msgid "Community Portal Username"
+msgstr "naše forumy zgromaźeństwa"
 
-#: kitsune/users/models.py:79
-msgid "Mozillians Username"
-msgstr "Wužywarske mě Mozillanarja"
+#: kitsune/users/models.py:80
+msgid "People Directory Username"
+msgstr ""
 
-#: kitsune/users/models.py:82
-msgid "IRC nickname"
-msgstr "IRC-pśimě"
+#: kitsune/users/models.py:83
+msgid "Matrix Nickname"
+msgstr ""
 
-#: kitsune/users/models.py:85
+#: kitsune/users/models.py:86
 msgid "Timezone"
 msgstr "Casowa cona"
 
-#: kitsune/users/models.py:88
+#: kitsune/users/models.py:89
 msgid "Country"
 msgstr "Kraj"
 
-#: kitsune/users/models.py:91
+#: kitsune/users/models.py:92
 msgid "City"
 msgstr "Město"
 
-#: kitsune/users/models.py:92
+#: kitsune/users/models.py:93
 msgid "Preferred language"
 msgstr "Preferěrowana rěc"
 
-#: kitsune/users/models.py:94
+#: kitsune/users/models.py:95
 msgid "Has been sent a first answer contribution email."
 msgstr "Jo mejlku k temje \"Sobuźěło pśez prědne wótegrono\" dostał."
 
-#: kitsune/users/models.py:97
+#: kitsune/users/models.py:98
 msgid "Has been sent a first revision contribution email."
 msgstr "Jo mejlku k temje \"Sobuźěło pśez prědnu změnu\" dostał."
 
-#: kitsune/users/models.py:105
+#: kitsune/users/models.py:106
 msgid "When the user was sent a community health survey"
 msgstr "Gaž jo wužywaŕ napšašowanje wó stawje zgromaźeństwa dostał"
 
-#: kitsune/users/models.py:297
+#: kitsune/users/models.py:298
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:343
+#: kitsune/users/models.py:344
 msgid "Value"
 msgstr "Gódnota"
 
-#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
+#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
 msgid "user"
 msgstr "wužywaŕ"
 
-#: kitsune/users/models.py:382 kitsune/users/models.py:419
+#: kitsune/users/models.py:383 kitsune/users/models.py:420
 msgid "activation key"
 msgstr "aktiwěrowański kluc"
 
-#: kitsune/users/models.py:385
+#: kitsune/users/models.py:386
 msgid "registration profile"
 msgstr "registrěrowański profil"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:387
 msgid "registration profiles"
 msgstr "registrěrowańske profile"
 
-#: kitsune/users/models.py:435
+#: kitsune/users/models.py:436
 msgid "moderator"
 msgstr "moderator"
 
@@ -8204,7 +8201,7 @@ msgstr "Witajśo k SUMO!"
 msgid "Your settings have been saved."
 msgstr "Naše nastajenja su se składli."
 
-#: kitsune/users/views.py:346
+#: kitsune/users/views.py:351
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr "Toś to konto njejo aktiwne. Pšosym stajśo se z administratorom do zwiska, jolić to za zmólku maśo"
 
@@ -8302,24 +8299,24 @@ msgstr "Konto"
 msgid "You can change your email address on Firefox Accounts."
 msgstr "Móžośo swóju e-mailowu adresu na Firefox Accounts změniś."
 
-#: kitsune/users/jinja2/users/edit_profile.html:29 kitsune/users/jinja2/users/profile.html:20
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
 msgid "Need help?"
 msgstr "Trjebaśo pomoc?"
 
-#: kitsune/users/jinja2/users/edit_profile.html:33
+#: kitsune/users/jinja2/users/edit_profile.html:35
 msgid "Manage Firefox Account"
 msgstr "Konto Firefox zastojaś"
 
-#: kitsune/users/jinja2/users/edit_profile.html:41
+#: kitsune/users/jinja2/users/edit_profile.html:43
 msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
 msgstr "Dajśo wužywarjam někotare informacije wěcej wó sebje. Nejwěcej pólow jo opcionalne, ale buźo drugim wužywarjam pomagaś, se z wami lěpjej póznaś."
 
-#: kitsune/users/jinja2/users/edit_profile.html:55
+#: kitsune/users/jinja2/users/edit_profile.html:57
 msgctxt "avatar"
 msgid "Choose Photo"
 msgstr "Foto wubraś"
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
+#: kitsune/users/jinja2/users/edit_profile.html:59
 msgid ""
 "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
 "minutes and reload the page to see your new Gravatar. </p>"
@@ -8327,27 +8324,27 @@ msgstr ""
 "<p> SUMO wužywa něnto grawatary ako awatary. Musyśo swój grawatar na gravatar.com změniś.</p> <p> Móžo někotare minuty traś, až změna awatara se njewustatkujo. Snaź musyśo někotare minuty cakaś a "
 "bok znoweg zacytaś, aby swój nowy grawatar wiźeł.</p>"
 
-#: kitsune/users/jinja2/users/edit_profile.html:97
+#: kitsune/users/jinja2/users/edit_profile.html:99
 msgid "Update My Profile"
 msgstr "Mój profil aktualizěrowaś"
 
-#: kitsune/users/jinja2/users/edit_profile.html:103
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Close account and delete all profile information"
 msgstr "Konto zacyniś a wšykne profilowe informacije lašowaś"
 
-#: kitsune/users/jinja2/users/edit_profile.html:108
+#: kitsune/users/jinja2/users/edit_profile.html:111
 msgid "Are you sure"
 msgstr "Sćo se wěsty?"
 
-#: kitsune/users/jinja2/users/edit_profile.html:112
+#: kitsune/users/jinja2/users/edit_profile.html:115
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "Jolic wulašujośo swójo konto, njamóžośo wěcej w pomocy Mozilla pšašanje stajiś abo na pšašanja wótegroniś. Waš profil se wulašujo a njedajo se wótnowiś."
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:118
 msgid "Please type in your username to confirm"
 msgstr "Pšosym zapódajśo swójo wužywarske mě za wobkšuśenje"
 
-#: kitsune/users/jinja2/users/edit_profile.html:122
+#: kitsune/users/jinja2/users/edit_profile.html:126
 msgid "Delete My Account"
 msgstr "Mójo konto lašowaś"
 
@@ -8388,16 +8385,17 @@ msgid "Email"
 msgstr "E-mailowa adresa"
 
 #: kitsune/users/jinja2/users/profile.html:80
-msgid "Facebook"
-msgstr "Facebook"
+#, fuzzy
+msgid "Community Portal"
+msgstr "naše forumy zgromaźeństwa"
 
 #: kitsune/users/jinja2/users/profile.html:86
-msgid "Mozillians"
-msgstr "Mozillanarje"
+msgid "People Directory"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:92
-msgid "IRC"
-msgstr "IRC"
+msgid "Matrix"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:107
 msgid "Deactivate this user"
@@ -10165,6 +10163,27 @@ msgstr "Wulicujśo nam wěcej."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Pšosym pódajśo dalšne drobnostki"
+
+#~ msgid "Please enter a facebook.com URL."
+#~ msgstr "Pšosym zapódajśo URL facebook.com."
+
+#~ msgid "Facebook URL"
+#~ msgstr "Adresa Facebook"
+
+#~ msgid "Mozillians Username"
+#~ msgstr "Wužywarske mě Mozillanarja"
+
+#~ msgid "IRC nickname"
+#~ msgstr "IRC-pśimě"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Mozillians"
+#~ msgstr "Mozillanarje"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
 
 #~ msgctxt "DB: products.Topic.description"
 #~ msgid "Basics for using Firefox Private Network."

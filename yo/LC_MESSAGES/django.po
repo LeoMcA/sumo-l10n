@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-19 19:05-0700\n"
+"POT-Creation-Date: 2020-08-26 19:04-0700\n"
 "PO-Revision-Date: 2015-06-02 14:54+0000\n"
 "Last-Translator: Tersha <tersha.smith@rubric.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -897,7 +897,7 @@ msgstr "Onífàrajìn fún àtìlẹ́hìn Mozilla"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:71 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "Parẹ́"
@@ -1434,7 +1434,7 @@ msgstr "Avatar rẹ ni a ìṣòdíwọ̀n śi {size}x{size}"
 msgid "username"
 msgstr "orúkọ àṣàmúlò"
 
-#: kitsune/groups/models.py:24 kitsune/users/models.py:51
+#: kitsune/groups/models.py:24 kitsune/users/models.py:52
 msgid "Avatar"
 msgstr "Avatar"
 
@@ -8252,83 +8252,79 @@ msgstr ""
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr ""
 
-#: kitsune/users/forms.py:13
+#: kitsune/users/forms.py:14
 msgid "Username may contain only English letters, numbers and ./-/_ characters."
 msgstr "Orúkọ aṣàmúlò lèní lẹ́tà Gẹ̀ẹ́sì nìkan, àwọn nọ́ńbà àti ./-/_ ẹyọ ọ̀rọ̀."
 
-#: kitsune/users/forms.py:16
+#: kitsune/users/forms.py:17
 msgid "Username is required."
 msgstr "Anílò orúkọ aṣàmúlò."
 
-#: kitsune/users/forms.py:17
+#: kitsune/users/forms.py:18
 #, fuzzy, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Orúkọ aṣàmúlò kéré jù (%àwọn(show_value) ẹyọ ọ̀rọ̀). Ó gbọ́dọ̀ jẹ́ ó kéré %àwọn(limit_value) ẹyọ ọ̀rọ̀."
 
-#: kitsune/users/forms.py:21
+#: kitsune/users/forms.py:22
 #, fuzzy, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "Orúkọ aṣàmúlò ti gùn jù (%àwọn(show_value) ẹyọ ọ̀rọ̀). Ó gbọ́dọ̀ %àwọn(limit_value) ẹyọ ọ̀rọ̀ tàbí kéré."
 
-#: kitsune/users/forms.py:25
+#: kitsune/users/forms.py:26
 msgid "Email address is required."
 msgstr "Nílò àdírẹ́sì í-meélì."
 
-#: kitsune/users/forms.py:26
+#: kitsune/users/forms.py:27
 #, fuzzy, python-format
 msgid "Email address is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Àdírẹ́sì í-meélì ti kúrú jù (%àwọn(show_value) ẹyọ ọ̀rọ̀). Ó gbọ́dọ̀ jẹ ó kéré %àwọn(limit_value) ẹyọ ọ̀rọ̀."
 
-#: kitsune/users/forms.py:30
+#: kitsune/users/forms.py:31
 #, fuzzy, python-format
 msgid "Email address is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "Àdírẹ́sì í-meélì ti gùn jù (%àwọn(show_value) ẹyọ ọ̀rọ̀). Ó gbọ́dọ̀ %àwọn(limit_value) ẹyọ ọ̀rọ̀ tàbí kéré."
 
-#: kitsune/users/forms.py:34
+#: kitsune/users/forms.py:35
 msgid "Password is required."
 msgstr "Anílò ọ̀rọ̀ aṣínà."
 
-#: kitsune/users/forms.py:35
+#: kitsune/users/forms.py:36
 msgid "Please enter your password twice."
 msgstr "Jọ̀wọ́ wọlé ọ̀rọ̀ aṣínà rẹ lẹ́ẹ̀mejì."
 
-#: kitsune/users/forms.py:37
+#: kitsune/users/forms.py:38
 msgid "Password must be 8 or more characters."
 msgstr "Ọ̀rọ̀ aṣínà gbọ́dọ̀ jẹ́ ẹyọ ọ̀rọ̀ 8 ó kéré."
 
-#: kitsune/users/forms.py:44
+#: kitsune/users/forms.py:45
 msgid "Watch forum threads I start"
 msgstr "Wo àpèjọ èròjà atẹ̀lélànà 1 bẹ̀rẹ̀"
 
-#: kitsune/users/forms.py:47
+#: kitsune/users/forms.py:48
 msgid "Watch forum threads I comment in"
 msgstr "Wo àpèjọ èròjà atẹ̀lélànà 1 ìdáásí ní"
 
-#: kitsune/users/forms.py:50
+#: kitsune/users/forms.py:51
 msgid "Watch KB discussion threads I start"
 msgstr "Wo KB ìfọ̀rọ̀wérọ̀ èròjà atẹ̀lélànà 1 bẹ̀rẹ̀"
 
-#: kitsune/users/forms.py:53
+#: kitsune/users/forms.py:54
 msgid "Watch KB discussion threads I comment in"
 msgstr "Wo KB ìfọ̀rọ̀wérọ̀ èròjà atẹ̀lélànà 1 ìdáásí ní"
 
-#: kitsune/users/forms.py:56
+#: kitsune/users/forms.py:57
 msgid "Watch Question threads I comment in"
 msgstr "Wo Ìbéèrè èròjà atẹ̀lélànà 1 ìdáásí ní"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:60
 msgid "Send emails for private messages"
 msgstr "Fi àwọn í-meélì ránṣẹ́ fún àwọn iṣẹ́ àdáni"
 
-#: kitsune/users/forms.py:77 kitsune/users/models.py:100
+#: kitsune/users/forms.py:86 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr ""
 
-#: kitsune/users/forms.py:113
-msgid "Please enter a facebook.com URL."
-msgstr "Jọ̀wọ́ wọlé facebook.com URL."
-
-#: kitsune/users/forms.py:140
+#: kitsune/users/forms.py:139
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "Orúkọ aṣàmúlò tí o mú wọlé kò tọ̀nà. Jọ̀wọ́ yan òmíìràn kí o sì lérò pé àwọn olùranlọ́wọ́ wa jẹ́ àwọn olùṣàmúlò Firefox míìran bíi rẹ."
 
@@ -8344,101 +8340,102 @@ msgstr "iyọ̀"
 msgid "hash"
 msgstr "áàsì"
 
-#: kitsune/users/models.py:39 kitsune/users/models.py:339
+#: kitsune/users/models.py:40 kitsune/users/models.py:340
 msgid "User"
 msgstr "Olùṣàmúlò"
 
-#: kitsune/users/models.py:42
+#: kitsune/users/models.py:43
 msgid "Display name"
 msgstr "Ṣàfihàn orúkọ"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:46
 msgid "Make my email public"
 msgstr "Jẹ́kí í-meélì mi di gbangba"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:58
 msgid "Biography"
 msgstr "Ìtàn ìgbé ayé ẹnìkan"
 
-#: kitsune/users/models.py:58
+#: kitsune/users/models.py:59
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Ojúlé wẹ́ẹ̀bù"
 
-#: kitsune/users/models.py:73
+#: kitsune/users/models.py:74
 msgid "Twitter Username"
 msgstr "Orúkọ aṣàmúlò Twitter"
 
-#: kitsune/users/models.py:76
-msgid "Facebook URL"
-msgstr "Facebook URL"
+#: kitsune/users/models.py:77
+#, fuzzy
+msgid "Community Portal Username"
+msgstr "Àwọn àpérò àwùjọ"
 
-#: kitsune/users/models.py:79
-msgid "Mozillians Username"
-msgstr "Orúkọ aṣàmúlò Mozillian"
+#: kitsune/users/models.py:80
+msgid "People Directory Username"
+msgstr ""
 
-#: kitsune/users/models.py:82
-msgid "IRC nickname"
-msgstr "Ìnagijẹ IRC"
+#: kitsune/users/models.py:83
+msgid "Matrix Nickname"
+msgstr ""
 
-#: kitsune/users/models.py:85
+#: kitsune/users/models.py:86
 msgid "Timezone"
 msgstr "Agbègbè àkókò"
 
-#: kitsune/users/models.py:88
+#: kitsune/users/models.py:89
 msgid "Country"
 msgstr "Orílẹ̀ èdè"
 
-#: kitsune/users/models.py:91
+#: kitsune/users/models.py:92
 msgid "City"
 msgstr "Ìlú"
 
-#: kitsune/users/models.py:92
+#: kitsune/users/models.py:93
 msgid "Preferred language"
 msgstr "Èdè ti a fẹ́"
 
-#: kitsune/users/models.py:94
+#: kitsune/users/models.py:95
 msgid "Has been sent a first answer contribution email."
 msgstr "Ti fi ìdáhùn í-meelì àkọ́kọ́ ránṣẹ́ sí."
 
-#: kitsune/users/models.py:97
+#: kitsune/users/models.py:98
 msgid "Has been sent a first revision contribution email."
 msgstr "Ti fi í-meelì àtúnyẹ̀wò àkọ́kọ́ ránṣẹ́ sí."
 
-#: kitsune/users/models.py:105
+#: kitsune/users/models.py:106
 msgid "When the user was sent a community health survey"
 msgstr ""
 
-#: kitsune/users/models.py:297
+#: kitsune/users/models.py:298
 msgid "{displayname} ({username})"
 msgstr "{displayname} (̀{username})"
 
-#: kitsune/users/models.py:343
+#: kitsune/users/models.py:344
 msgid "Value"
 msgstr "Iye"
 
-#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
+#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
 msgid "user"
 msgstr "olùṣàmúlò"
 
-#: kitsune/users/models.py:382 kitsune/users/models.py:419
+#: kitsune/users/models.py:383 kitsune/users/models.py:420
 msgid "activation key"
 msgstr "kọ́kọ́rọ́ ìsọ di aṣiṣẹ́"
 
-#: kitsune/users/models.py:385
+#: kitsune/users/models.py:386
 msgid "registration profile"
 msgstr "ìforúkọsílẹ̀ ìrísí olùlò"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:387
 msgid "registration profiles"
 msgstr "ìforúkọsílẹ̀ àwọn ìrísí olùlò"
 
-#: kitsune/users/models.py:435
+#: kitsune/users/models.py:436
 msgid "moderator"
 msgstr "níwọ̀ntúwọ̀nsì"
 
@@ -8451,7 +8448,7 @@ msgstr "Káàbọ̀ sí SUMO!"
 msgid "Your settings have been saved."
 msgstr "Ààtò rẹ ti pamọ́."
 
-#: kitsune/users/views.py:346
+#: kitsune/users/views.py:351
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8550,25 +8547,25 @@ msgstr "Àkọ́ọ́lẹ̀"
 msgid "You can change your email address on Firefox Accounts."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:29 kitsune/users/jinja2/users/profile.html:20
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
 #, fuzzy
 msgid "Need help?"
 msgstr "Nílò àwọn Àyípadà"
 
-#: kitsune/users/jinja2/users/edit_profile.html:33
+#: kitsune/users/jinja2/users/edit_profile.html:35
 msgid "Manage Firefox Account"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:41
+#: kitsune/users/jinja2/users/edit_profile.html:43
 msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:55
+#: kitsune/users/jinja2/users/edit_profile.html:57
 msgctxt "avatar"
 msgid "Choose Photo"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
+#: kitsune/users/jinja2/users/edit_profile.html:59
 msgid ""
 "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
 "minutes and reload the page to see your new Gravatar. </p>"
@@ -8576,28 +8573,28 @@ msgstr ""
 "<p> SUMO ńlo Gravatars bíi avatars. O gbọ́dọ̀ ṣàyípadà Gravatar rẹ ní gravatar.com. </p> <p> Yóò gba ìṣẹjú díẹ̀ kí avatar rẹ tó yípadà láti bẹ̀rẹ̀ iṣẹ́. O lè nílò láti dúró fún ìṣẹjú díẹ̀ kí o tún gbàwálẹ̀ "
 "ojú ewé láti rí Gravatar rẹ titun. </p>"
 
-#: kitsune/users/jinja2/users/edit_profile.html:97
+#: kitsune/users/jinja2/users/edit_profile.html:99
 #, fuzzy
 msgid "Update My Profile"
 msgstr "Ṣatunṣe Àwọn àkójọ ìwífún"
 
-#: kitsune/users/jinja2/users/edit_profile.html:103
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Close account and delete all profile information"
 msgstr "Ti àkọ́ọ́lẹ̀ kí o pa gbogbo ìwifún ìrísí olùlò rẹ́"
 
-#: kitsune/users/jinja2/users/edit_profile.html:108
+#: kitsune/users/jinja2/users/edit_profile.html:111
 msgid "Are you sure"
 msgstr "Ṣé ó dá ọ lójú"
 
-#: kitsune/users/jinja2/users/edit_profile.html:112
+#: kitsune/users/jinja2/users/edit_profile.html:115
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "Pípa àkọ́ọ́lẹ̀ rẹ rẹ́ kòní gbà ọ́ láyè láti dáhùn tàbí fi àwọn ìdáhùn ránṣẹ́ ní Àtìlẹ́hìn Mozilla. Ìgbésè yíì yóò pa ìrísí olùlò rẹ́ o kòsí lè da padà mọ́."
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:118
 msgid "Please type in your username to confirm"
 msgstr "Jọ̀wọ́ tẹ orúkọ aṣàmúlò rẹ láti jẹ́rì"
 
-#: kitsune/users/jinja2/users/edit_profile.html:122
+#: kitsune/users/jinja2/users/edit_profile.html:126
 msgid "Delete My Account"
 msgstr "Pa Àkọ́ọ́lẹ̀ Mi Rẹ́"
 
@@ -8638,16 +8635,17 @@ msgid "Email"
 msgstr "Í-meélì"
 
 #: kitsune/users/jinja2/users/profile.html:80
-msgid "Facebook"
-msgstr "Facebook"
+#, fuzzy
+msgid "Community Portal"
+msgstr "Àwọn àpérò àwùjọ"
 
 #: kitsune/users/jinja2/users/profile.html:86
-msgid "Mozillians"
-msgstr "Mozillians"
+msgid "People Directory"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:92
-msgid "IRC"
-msgstr "IRC"
+msgid "Matrix"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:107
 msgid "Deactivate this user"
@@ -10416,6 +10414,27 @@ msgstr "Sọ fún wa si."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Jọ̀wọ́ pèsè ẹ̀kúnrẹ́rẹ́ si"
+
+#~ msgid "Please enter a facebook.com URL."
+#~ msgstr "Jọ̀wọ́ wọlé facebook.com URL."
+
+#~ msgid "Facebook URL"
+#~ msgstr "Facebook URL"
+
+#~ msgid "Mozillians Username"
+#~ msgstr "Orúkọ aṣàmúlò Mozillian"
+
+#~ msgid "IRC nickname"
+#~ msgstr "Ìnagijẹ IRC"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Mozillians"
+#~ msgstr "Mozillians"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
 
 #, fuzzy
 #~ msgctxt "DB: products.Topic.description"

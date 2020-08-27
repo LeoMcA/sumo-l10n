@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-19 19:05-0700\n"
+"POT-Creation-Date: 2020-08-26 19:04-0700\n"
 "PO-Revision-Date: 2015-05-15 11:44+0000\n"
 "Last-Translator: af-ZA09_Samuel <leuce.com+rubric@gmail.com>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -900,7 +900,7 @@ msgstr "Willig in vir Mozilla-steun"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:71 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "Skrap"
@@ -1437,7 +1437,7 @@ msgstr "Jou avatar se grootte sal verander word na {size}x{size}"
 msgid "username"
 msgstr "gebruikernaam"
 
-#: kitsune/groups/models.py:24 kitsune/users/models.py:51
+#: kitsune/groups/models.py:24 kitsune/users/models.py:52
 msgid "Avatar"
 msgstr "Avatar"
 
@@ -8269,83 +8269,79 @@ msgstr ""
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr ""
 
-#: kitsune/users/forms.py:13
+#: kitsune/users/forms.py:14
 msgid "Username may contain only English letters, numbers and ./-/_ characters."
 msgstr "Gebruikernaam mag slegs Engelse letters, getalle en ./-/_ bevat."
 
-#: kitsune/users/forms.py:16
+#: kitsune/users/forms.py:17
 msgid "Username is required."
 msgstr "Gebruikernaam word vereis."
 
-#: kitsune/users/forms.py:17
+#: kitsune/users/forms.py:18
 #, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Gebruikernaam is te kort (%(show_value)s karakters). Dit moet ten minste %(limit_value)s karakters wees."
 
-#: kitsune/users/forms.py:21
+#: kitsune/users/forms.py:22
 #, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "Gebruikernaam is te lank (%(show_value)s karakters). Dit moet ten minste %(limit_value)s karakters of minder wees."
 
-#: kitsune/users/forms.py:25
+#: kitsune/users/forms.py:26
 msgid "Email address is required."
 msgstr "E-posadres word vereis."
 
-#: kitsune/users/forms.py:26
+#: kitsune/users/forms.py:27
 #, python-format
 msgid "Email address is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "E-posadres is te kort (%(show_value)s karakters). Dit moet ten minste %(limit_value)s karakters wees."
 
-#: kitsune/users/forms.py:30
+#: kitsune/users/forms.py:31
 #, python-format
 msgid "Email address is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "E-posadres is te lank (%(show_value)s karakters). Dit moet ten minste %(limit_value)s karakters of minder wees."
 
-#: kitsune/users/forms.py:34
+#: kitsune/users/forms.py:35
 msgid "Password is required."
 msgstr "Wagwoord word vereis."
 
-#: kitsune/users/forms.py:35
+#: kitsune/users/forms.py:36
 msgid "Please enter your password twice."
 msgstr "Tik asseblief jou wagwoord twee keer in."
 
-#: kitsune/users/forms.py:37
+#: kitsune/users/forms.py:38
 msgid "Password must be 8 or more characters."
 msgstr "Wagwoord moet 8 karakters of meer wees."
 
-#: kitsune/users/forms.py:44
+#: kitsune/users/forms.py:45
 msgid "Watch forum threads I start"
 msgstr "Hou forumgesprekke dop wat ek begin het"
 
-#: kitsune/users/forms.py:47
+#: kitsune/users/forms.py:48
 msgid "Watch forum threads I comment in"
 msgstr "Hou forumgesprekke dop waaroor ek opmerkings gemaak het"
 
-#: kitsune/users/forms.py:50
+#: kitsune/users/forms.py:51
 msgid "Watch KB discussion threads I start"
 msgstr "Hou KB-besprekinggesprekke dop wat ek begin het"
 
-#: kitsune/users/forms.py:53
+#: kitsune/users/forms.py:54
 msgid "Watch KB discussion threads I comment in"
 msgstr "Hou KB-besprekinggesprekke dop waaroor ek opmerkings gemaak het"
 
-#: kitsune/users/forms.py:56
+#: kitsune/users/forms.py:57
 msgid "Watch Question threads I comment in"
 msgstr "Hou vraaggesprekke dop waaroor ek opmerkings gemaak het"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:60
 msgid "Send emails for private messages"
 msgstr "Stuur e-pos vir private boodskappe"
 
-#: kitsune/users/forms.py:77 kitsune/users/models.py:100
+#: kitsune/users/forms.py:86 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr ""
 
-#: kitsune/users/forms.py:113
-msgid "Please enter a facebook.com URL."
-msgstr "Tik asseblief 'n facebook.com-URL."
-
-#: kitsune/users/forms.py:140
+#: kitsune/users/forms.py:139
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "Die gebruikernaam wat jy ingetik het, is onvanpas. Kies asseblief 'n ander een, en dink daaraan dat ons helpers ander Firefox-gebruikers net soos jy is."
 
@@ -8361,101 +8357,103 @@ msgstr "sout"
 msgid "hash"
 msgstr "huts"
 
-#: kitsune/users/models.py:39 kitsune/users/models.py:339
+#: kitsune/users/models.py:40 kitsune/users/models.py:340
 msgid "User"
 msgstr "Gebruiker"
 
-#: kitsune/users/models.py:42
+#: kitsune/users/models.py:43
 msgid "Display name"
 msgstr "Skermnaam"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:46
 msgid "Make my email public"
 msgstr "Maak my e-pos publiek sigbaar"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:58
 msgid "Biography"
 msgstr "Biografie"
 
-#: kitsune/users/models.py:58
+#: kitsune/users/models.py:59
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Webwerf"
 
-#: kitsune/users/models.py:73
+#: kitsune/users/models.py:74
 msgid "Twitter Username"
 msgstr "Twitter-gebruikernaam"
 
-#: kitsune/users/models.py:76
-msgid "Facebook URL"
-msgstr "Facebook-URL"
+#: kitsune/users/models.py:77
+#, fuzzy
+msgid "Community Portal Username"
+msgstr "Gemeenskapforums"
 
-#: kitsune/users/models.py:79
-msgid "Mozillians Username"
-msgstr "Mozilliaan-gebruikernaam"
+#: kitsune/users/models.py:80
+#, fuzzy
+msgid "People Directory Username"
+msgstr "Kies 'n gebruikernaam"
 
-#: kitsune/users/models.py:82
-msgid "IRC nickname"
-msgstr "IRC-bynaam"
+#: kitsune/users/models.py:83
+msgid "Matrix Nickname"
+msgstr ""
 
-#: kitsune/users/models.py:85
+#: kitsune/users/models.py:86
 msgid "Timezone"
 msgstr "Tydsone"
 
-#: kitsune/users/models.py:88
+#: kitsune/users/models.py:89
 msgid "Country"
 msgstr "Land"
 
-#: kitsune/users/models.py:91
+#: kitsune/users/models.py:92
 msgid "City"
 msgstr "Dorp/stad"
 
-#: kitsune/users/models.py:92
+#: kitsune/users/models.py:93
 msgid "Preferred language"
 msgstr "Voorkeurtaal"
 
-#: kitsune/users/models.py:94
+#: kitsune/users/models.py:95
 msgid "Has been sent a first answer contribution email."
 msgstr "Is 'n e-pos oor eerste antwoordbydrae gestuur."
 
-#: kitsune/users/models.py:97
+#: kitsune/users/models.py:98
 msgid "Has been sent a first revision contribution email."
 msgstr "Is 'n e-pos oor eerste wysigingbydrae gestuur."
 
-#: kitsune/users/models.py:105
+#: kitsune/users/models.py:106
 msgid "When the user was sent a community health survey"
 msgstr ""
 
-#: kitsune/users/models.py:297
+#: kitsune/users/models.py:298
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:343
+#: kitsune/users/models.py:344
 msgid "Value"
 msgstr "Waarde"
 
-#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
+#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
 msgid "user"
 msgstr "gebruiker"
 
-#: kitsune/users/models.py:382 kitsune/users/models.py:419
+#: kitsune/users/models.py:383 kitsune/users/models.py:420
 msgid "activation key"
 msgstr "aktiveringsleutel"
 
-#: kitsune/users/models.py:385
+#: kitsune/users/models.py:386
 msgid "registration profile"
 msgstr "registrasieprofiel"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:387
 msgid "registration profiles"
 msgstr "registrasieprofiele"
 
-#: kitsune/users/models.py:435
+#: kitsune/users/models.py:436
 msgid "moderator"
 msgstr "moderator"
 
@@ -8468,7 +8466,7 @@ msgstr "Welkom by SUMO!"
 msgid "Your settings have been saved."
 msgstr "Jou instellings is suksesvol gestoor."
 
-#: kitsune/users/views.py:346
+#: kitsune/users/views.py:351
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8567,25 +8565,25 @@ msgstr "Rekening"
 msgid "You can change your email address on Firefox Accounts."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:29 kitsune/users/jinja2/users/profile.html:20
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
 #, fuzzy
 msgid "Need help?"
 msgstr "Veranderinge nodig"
 
-#: kitsune/users/jinja2/users/edit_profile.html:33
+#: kitsune/users/jinja2/users/edit_profile.html:35
 msgid "Manage Firefox Account"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:41
+#: kitsune/users/jinja2/users/edit_profile.html:43
 msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:55
+#: kitsune/users/jinja2/users/edit_profile.html:57
 msgctxt "avatar"
 msgid "Choose Photo"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
+#: kitsune/users/jinja2/users/edit_profile.html:59
 msgid ""
 "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
 "minutes and reload the page to see your new Gravatar. </p>"
@@ -8593,28 +8591,28 @@ msgstr ""
 "<p> SUMO gebruik nou Gravatar vir avatars. Jy moet jou Gravatar verander op gravatar.com. </p> <p> Dit kan 'n paar minute neem om die avatar te laat verander. Jy moet dalk 'n paar minute wag en die "
 "bladsy herlaai om jou nuwe Gravatar te sien. </p>"
 
-#: kitsune/users/jinja2/users/edit_profile.html:97
+#: kitsune/users/jinja2/users/edit_profile.html:99
 #, fuzzy
 msgid "Update My Profile"
 msgstr "Redigeer profiel"
 
-#: kitsune/users/jinja2/users/edit_profile.html:103
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Close account and delete all profile information"
 msgstr "Maak rekening toe en skrap alle profielinligting"
 
-#: kitsune/users/jinja2/users/edit_profile.html:108
+#: kitsune/users/jinja2/users/edit_profile.html:111
 msgid "Are you sure"
 msgstr "Is jy seker"
 
-#: kitsune/users/jinja2/users/edit_profile.html:112
+#: kitsune/users/jinja2/users/edit_profile.html:115
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "As jy jou rekening skrap, sal jy nie meer in Mozilla Ondersteuning vrae kan vra of beantwoord nie. Hierdie handeling vee jou profiel uit, en jy kan dit nie later teruglaai nie."
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:118
 msgid "Please type in your username to confirm"
 msgstr "Tik asseblief jou gebruikernaam in om te bevestig"
 
-#: kitsune/users/jinja2/users/edit_profile.html:122
+#: kitsune/users/jinja2/users/edit_profile.html:126
 msgid "Delete My Account"
 msgstr "Skrap my rekening"
 
@@ -8655,16 +8653,17 @@ msgid "Email"
 msgstr "E-pos"
 
 #: kitsune/users/jinja2/users/profile.html:80
-msgid "Facebook"
-msgstr "Facebook"
+#, fuzzy
+msgid "Community Portal"
+msgstr "Gemeenskapforums"
 
 #: kitsune/users/jinja2/users/profile.html:86
-msgid "Mozillians"
-msgstr "Mozillane"
+msgid "People Directory"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:92
-msgid "IRC"
-msgstr "IRC"
+msgid "Matrix"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:107
 msgid "Deactivate this user"
@@ -10444,6 +10443,27 @@ msgstr "Vertel ons meer."
 msgid "Please provide more details"
 msgstr "Gee asseblief meer detail"
 
+#~ msgid "Please enter a facebook.com URL."
+#~ msgstr "Tik asseblief 'n facebook.com-URL."
+
+#~ msgid "Facebook URL"
+#~ msgstr "Facebook-URL"
+
+#~ msgid "Mozillians Username"
+#~ msgstr "Mozilliaan-gebruikernaam"
+
+#~ msgid "IRC nickname"
+#~ msgstr "IRC-bynaam"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Mozillians"
+#~ msgstr "Mozillane"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
 #, fuzzy
 #~ msgctxt "DB: products.Topic.description"
 #~ msgid "Basics for using Firefox Private Network."
@@ -11974,9 +11994,6 @@ msgstr "Gee asseblief meer detail"
 
 #~ msgid "You must be signed in to continue"
 #~ msgstr "U moet aangemeld wees om voort te gaan"
-
-#~ msgid "Select a username"
-#~ msgstr "Kies 'n gebruikernaam"
 
 #~ msgid "You're almost there!"
 #~ msgstr "Amper daar!"

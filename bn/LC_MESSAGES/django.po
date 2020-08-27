@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-19 19:05-0700\n"
+"POT-Creation-Date: 2020-08-26 19:04-0700\n"
 "PO-Revision-Date: 2019-11-08 11:52+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: Bengali\n"
@@ -889,7 +889,7 @@ msgstr "Mozilla Support এর স্বেচ্ছাসেবক"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:71 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
 #: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "মুছুন"
@@ -1425,7 +1425,7 @@ msgstr "আপনার অবতারের মাপ পরিবর্তন
 msgid "username"
 msgstr "ইউজারনাম"
 
-#: kitsune/groups/models.py:24 kitsune/users/models.py:51
+#: kitsune/groups/models.py:24 kitsune/users/models.py:52
 msgid "Avatar"
 msgstr "ছবি"
 
@@ -7946,83 +7946,79 @@ msgstr ""
 msgid "The email used with this Firefox Account is already linked in another profile."
 msgstr ""
 
-#: kitsune/users/forms.py:13
+#: kitsune/users/forms.py:14
 msgid "Username may contain only English letters, numbers and ./-/_ characters."
 msgstr "ইউজারনেমে শুধুমাত্র ইংরাজী অক্ষর, সংখ্যা এবং ./-/_ এগুলো থাকতেই পারে।"
 
-#: kitsune/users/forms.py:16
+#: kitsune/users/forms.py:17
 msgid "Username is required."
 msgstr "ইউজারনাম প্রয়োজন"
 
-#: kitsune/users/forms.py:17
+#: kitsune/users/forms.py:18
 #, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "ইউজারনামটি খুব ছোট (%(show_value)s অক্ষর)। এতে কমপক্ষে %(limit_value)s অক্ষর থাকা আবশ্যিক।"
 
-#: kitsune/users/forms.py:21
+#: kitsune/users/forms.py:22
 #, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "ইউজারনামটি খুব বড় (%(show_value)s অক্ষর)। এতে %(limit_value)s বা তার কম অক্ষর থাকতে পারবে।"
 
-#: kitsune/users/forms.py:25
+#: kitsune/users/forms.py:26
 msgid "Email address is required."
 msgstr "ইমেল ঠিকানা দরকার।"
 
-#: kitsune/users/forms.py:26
+#: kitsune/users/forms.py:27
 #, python-format
 msgid "Email address is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "ইমেল ঠিকানাটি খুব ছোট (%(show_value)s অক্ষর)। এতে কমপক্ষে %(limit_value)s অক্ষর থাকা আবশ্যিক।"
 
-#: kitsune/users/forms.py:30
+#: kitsune/users/forms.py:31
 #, python-format
 msgid "Email address is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
 msgstr "ইমেল ঠিকানাটি খুব বড় (%(show_value)s অক্ষর)। এতে %(limit_value)s বা তার কম অক্ষর থাকতে পারবে।"
 
-#: kitsune/users/forms.py:34
+#: kitsune/users/forms.py:35
 msgid "Password is required."
 msgstr "পাসওয়ার্ড দরকার।"
 
-#: kitsune/users/forms.py:35
+#: kitsune/users/forms.py:36
 msgid "Please enter your password twice."
 msgstr "দয়া করে পাসওয়ার্ডটি দুবার লিখুন।"
 
-#: kitsune/users/forms.py:37
+#: kitsune/users/forms.py:38
 msgid "Password must be 8 or more characters."
 msgstr "পাসওয়ার্ড ৮ বা তার বেশি অক্ষরের হওয়া উচিৎ।"
 
-#: kitsune/users/forms.py:44
+#: kitsune/users/forms.py:45
 msgid "Watch forum threads I start"
 msgstr "আমি যেসকল ফোরাম তৈরি করব সেগুলি দেখাশোনা করব"
 
-#: kitsune/users/forms.py:47
+#: kitsune/users/forms.py:48
 msgid "Watch forum threads I comment in"
 msgstr "আমি যেসকল ফোরামে মন্তব্য করব সেগুলি দেখাশোনা করব"
 
-#: kitsune/users/forms.py:50
+#: kitsune/users/forms.py:51
 msgid "Watch KB discussion threads I start"
 msgstr "আমি যে KB আলোচনা থ্রেড চালু করেছিলাম সেটা দেখুন"
 
-#: kitsune/users/forms.py:53
+#: kitsune/users/forms.py:54
 msgid "Watch KB discussion threads I comment in"
 msgstr "আমি যে KB আলোচনা থ্রেডে কমেন্ট করেছিলাম সেটা দেখুন"
 
-#: kitsune/users/forms.py:56
+#: kitsune/users/forms.py:57
 msgid "Watch Question threads I comment in"
 msgstr "আমি যেসকল প্রশ্নে মন্তব্য করব সেগুলি দেখাশোনা করব"
 
-#: kitsune/users/forms.py:59
+#: kitsune/users/forms.py:60
 msgid "Send emails for private messages"
 msgstr "ব্যাক্তিগত মেসেজ এর জন্য ইমেল পাঠানো হবে"
 
-#: kitsune/users/forms.py:77 kitsune/users/models.py:100
+#: kitsune/users/forms.py:86 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "Mozilla-তে নিযুক্ত"
 
-#: kitsune/users/forms.py:113
-msgid "Please enter a facebook.com URL."
-msgstr "দয়া করে একটি facebook.com লিঙ্ক লিখুন।"
-
-#: kitsune/users/forms.py:140
+#: kitsune/users/forms.py:139
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "আপনি একটি অনুপযুক্ত ইউজারনাম লিখেছেন। দয়া করে অন্য একটি বাছাই করুন।"
 
@@ -8038,101 +8034,103 @@ msgstr "নুন"
 msgid "hash"
 msgstr "হ্যাশ"
 
-#: kitsune/users/models.py:39 kitsune/users/models.py:339
+#: kitsune/users/models.py:40 kitsune/users/models.py:340
 msgid "User"
 msgstr "গ্রাহক"
 
-#: kitsune/users/models.py:42
+#: kitsune/users/models.py:43
 msgid "Display name"
 msgstr "প্রদর্শিত নাম"
 
-#: kitsune/users/models.py:45
+#: kitsune/users/models.py:46
 msgid "Make my email public"
 msgstr "আমার ইমেলটি সর্বসাধারণের জন্য দেখান হোক"
 
-#: kitsune/users/models.py:57
+#: kitsune/users/models.py:58
 msgid "Biography"
 msgstr "জীবনচরিত"
 
-#: kitsune/users/models.py:58
+#: kitsune/users/models.py:59
 msgid ""
 "Some HTML supported: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:67
+#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
 msgid "Website"
 msgstr "ওয়েবসাইট"
 
-#: kitsune/users/models.py:73
+#: kitsune/users/models.py:74
 msgid "Twitter Username"
 msgstr "Twitter-এর ব্যবহারকারীনাম"
 
-#: kitsune/users/models.py:76
-msgid "Facebook URL"
-msgstr "Facebook লিঙ্ক"
+#: kitsune/users/models.py:77
+#, fuzzy
+msgid "Community Portal Username"
+msgstr "কমিউনিটি ফোরাম"
 
-#: kitsune/users/models.py:79
-msgid "Mozillians Username"
-msgstr "Mozillians ব্যবহারকারী নাম"
+#: kitsune/users/models.py:80
+#, fuzzy
+msgid "People Directory Username"
+msgstr "ইউজারনাম পাঠানো হোক"
 
-#: kitsune/users/models.py:82
-msgid "IRC nickname"
-msgstr "IRC পদবি"
+#: kitsune/users/models.py:83
+msgid "Matrix Nickname"
+msgstr ""
 
-#: kitsune/users/models.py:85
+#: kitsune/users/models.py:86
 msgid "Timezone"
 msgstr "সময় অঞ্চল"
 
-#: kitsune/users/models.py:88
+#: kitsune/users/models.py:89
 msgid "Country"
 msgstr "দেশ"
 
-#: kitsune/users/models.py:91
+#: kitsune/users/models.py:92
 msgid "City"
 msgstr "শহর"
 
-#: kitsune/users/models.py:92
+#: kitsune/users/models.py:93
 msgid "Preferred language"
 msgstr "পছন্দের ভাষা"
 
-#: kitsune/users/models.py:94
+#: kitsune/users/models.py:95
 msgid "Has been sent a first answer contribution email."
 msgstr ""
 
-#: kitsune/users/models.py:97
+#: kitsune/users/models.py:98
 msgid "Has been sent a first revision contribution email."
 msgstr ""
 
-#: kitsune/users/models.py:105
+#: kitsune/users/models.py:106
 msgid "When the user was sent a community health survey"
 msgstr ""
 
-#: kitsune/users/models.py:297
+#: kitsune/users/models.py:298
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:343
+#: kitsune/users/models.py:344
 msgid "Value"
 msgstr "মান"
 
-#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
+#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
 msgid "user"
 msgstr "গ্রাহক"
 
-#: kitsune/users/models.py:382 kitsune/users/models.py:419
+#: kitsune/users/models.py:383 kitsune/users/models.py:420
 msgid "activation key"
 msgstr "সক্রিয়করণ পিন"
 
-#: kitsune/users/models.py:385
+#: kitsune/users/models.py:386
 msgid "registration profile"
 msgstr "নিবন্ধন প্রোফাইল"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:387
 msgid "registration profiles"
 msgstr "নিবন্ধন প্রোফাইল"
 
-#: kitsune/users/models.py:435
+#: kitsune/users/models.py:436
 msgid "moderator"
 msgstr "নিয়ামক"
 
@@ -8145,7 +8143,7 @@ msgstr "SUMO তে আপনাকে স্বাগতম!"
 msgid "Your settings have been saved."
 msgstr "আপনার সেটিংস সংরক্ষিত করা হয়েছে।"
 
-#: kitsune/users/views.py:346
+#: kitsune/users/views.py:351
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8241,24 +8239,24 @@ msgstr "অ্যাকাউন্ট"
 msgid "You can change your email address on Firefox Accounts."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:29 kitsune/users/jinja2/users/profile.html:20
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
 msgid "Need help?"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:33
+#: kitsune/users/jinja2/users/edit_profile.html:35
 msgid "Manage Firefox Account"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:41
+#: kitsune/users/jinja2/users/edit_profile.html:43
 msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:55
+#: kitsune/users/jinja2/users/edit_profile.html:57
 msgctxt "avatar"
 msgid "Choose Photo"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
+#: kitsune/users/jinja2/users/edit_profile.html:59
 msgid ""
 "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
 "minutes and reload the page to see your new Gravatar. </p>"
@@ -8266,27 +8264,27 @@ msgstr ""
 "<p> SUMO এখন avatars হিসেবে Gravatars ব্যবহার করছে। আপনাকে অতি অবশ্যই আপনার Gravatar-কে পরিবর্তন করতে হবে gravatar.com-এ। </p><p> এটা কিছু মিনিট নিতে পারে আপনার avatar পরিবর্তন প্রভাবিত হতে। আপনাকে হয়তো "
 "কিছু মিনিট অপেক্ষা করতে হবে এবং পেজটি পুনরায় লোড করতে হবে আপনার নতুন Gravatar-কে দেখবার জন্য। </p>"
 
-#: kitsune/users/jinja2/users/edit_profile.html:97
+#: kitsune/users/jinja2/users/edit_profile.html:99
 msgid "Update My Profile"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:103
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Close account and delete all profile information"
 msgstr "অ্যাকাউন্ট বন্ধ করুন এবং প্রোফাইলের সমস্ত তথ্য মুছে ফেলুন"
 
-#: kitsune/users/jinja2/users/edit_profile.html:108
+#: kitsune/users/jinja2/users/edit_profile.html:111
 msgid "Are you sure"
 msgstr "আপনি কি নিশ্চিত"
 
-#: kitsune/users/jinja2/users/edit_profile.html:112
+#: kitsune/users/jinja2/users/edit_profile.html:115
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:118
 msgid "Please type in your username to confirm"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:122
+#: kitsune/users/jinja2/users/edit_profile.html:126
 msgid "Delete My Account"
 msgstr ""
 
@@ -8327,16 +8325,17 @@ msgid "Email"
 msgstr "ইমেইল"
 
 #: kitsune/users/jinja2/users/profile.html:80
-msgid "Facebook"
-msgstr "ফেসবুক"
+#, fuzzy
+msgid "Community Portal"
+msgstr "কমিউনিটি ফোরাম"
 
 #: kitsune/users/jinja2/users/profile.html:86
-msgid "Mozillians"
-msgstr "Mozillians"
+msgid "People Directory"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:92
-msgid "IRC"
-msgstr "IRC"
+msgid "Matrix"
+msgstr ""
 
 #: kitsune/users/jinja2/users/profile.html:107
 msgid "Deactivate this user"
@@ -10087,6 +10086,27 @@ msgstr "আমাদের আরওকিছু বলুন।"
 msgid "Please provide more details"
 msgstr "অনুগ্রহ করে আরও বর্ণনা দিন"
 
+#~ msgid "Please enter a facebook.com URL."
+#~ msgstr "দয়া করে একটি facebook.com লিঙ্ক লিখুন।"
+
+#~ msgid "Facebook URL"
+#~ msgstr "Facebook লিঙ্ক"
+
+#~ msgid "Mozillians Username"
+#~ msgstr "Mozillians ব্যবহারকারী নাম"
+
+#~ msgid "IRC nickname"
+#~ msgstr "IRC পদবি"
+
+#~ msgid "Facebook"
+#~ msgstr "ফেসবুক"
+
+#~ msgid "Mozillians"
+#~ msgstr "Mozillians"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
 #~ msgid "Manage accounts and settings"
 #~ msgstr "অ্যাকাউন্ট এবং সেটিংস পরিচালনা করুন"
 
@@ -11537,9 +11557,6 @@ msgstr "অনুগ্রহ করে আরও বর্ণনা দিন"
 
 #~ msgid "Register and continue"
 #~ msgstr "অবদানকারীকে মুছুন"
-
-#~ msgid "Select a username"
-#~ msgstr "ইউজারনাম পাঠানো হোক"
 
 #~ msgid "Continue"
 #~ msgstr "অবদানকারী যোগ করুন"
