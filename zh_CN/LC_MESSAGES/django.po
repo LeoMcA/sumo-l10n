@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-26 19:04-0700\n"
+"POT-Creation-Date: 2020-09-02 19:05-0700\n"
 "PO-Revision-Date: 2020-07-09 11:58+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: Chinese (simplified)\n"
@@ -881,8 +881,7 @@ msgstr "成为 Mozilla 技术支持的志愿者"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
-#: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35 kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "删除"
 
@@ -1584,7 +1583,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "您获得了“{title}”徽章！"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:177
+#: kitsune/users/jinja2/users/profile.html:184
 msgid "Badges"
 msgstr "徽章"
 
@@ -7471,7 +7470,7 @@ msgstr "报告商标滥用"
 msgid "Source code"
 msgstr "源代码"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:74
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -7684,7 +7683,7 @@ msgstr "管理您的隐私和通知设置。"
 msgid "Exchange private messages with other contributors."
 msgstr "与其他贡献互相发送私信。"
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:194
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
 msgid "Sign Out"
 msgstr "退出"
 
@@ -7964,11 +7963,20 @@ msgstr "关注我留过言的提问"
 msgid "Send emails for private messages"
 msgstr "收到私信时发送电子邮件"
 
-#: kitsune/users/forms.py:86 kitsune/users/models.py:101
+#: kitsune/users/forms.py:80
+msgid ""
+"\n"
+"                Keep in mind your username is visible to the public.\n"
+"                This is a required field that must be unique, 150 characters or fewer.\n"
+"                Letters, digits and @.+-_ only.\n"
+"                "
+msgstr ""
+
+#: kitsune/users/forms.py:95 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "加入 Mozilla 自"
 
-#: kitsune/users/forms.py:139
+#: kitsune/users/forms.py:148
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "您所输入的用户名不恰当。请再挑选一个，并请考虑到我们的志愿者都是像您一样的 Firefox 用户。"
 
@@ -8008,7 +8016,7 @@ msgstr ""
 "支持部分 HTML: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;strong&#x3E; "
 "&#x3C;ul&#x3E;，禁止使用超链接。"
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
 msgid "Website"
 msgstr "网站"
 
@@ -8182,58 +8190,46 @@ msgstr "重定向"
 msgid "Change Avatar"
 msgstr "更改头像"
 
-#: kitsune/users/jinja2/users/edit_profile.html:25 kitsune/users/jinja2/users/profile.html:16
-msgid "Account"
+#: kitsune/users/jinja2/users/edit_profile.html:27 kitsune/users/jinja2/users/profile.html:16
+#, fuzzy
+msgid "Your Account"
 msgstr "账户"
 
-#: kitsune/users/jinja2/users/edit_profile.html:28 kitsune/users/jinja2/users/profile.html:19
-msgid "You can change your email address on Firefox Accounts."
-msgstr "您可以到“Firefox 账户”更改电子邮件地址。"
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:19
+#, python-format
+msgid "To change your email, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
+msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
-msgid "Need help?"
-msgstr "需要帮助？"
-
-#: kitsune/users/jinja2/users/edit_profile.html:35
+#: kitsune/users/jinja2/users/edit_profile.html:37
 msgid "Manage Firefox Account"
 msgstr "管理 Firefox 账户"
 
-#: kitsune/users/jinja2/users/edit_profile.html:43
-msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
+#: kitsune/users/jinja2/users/edit_profile.html:45
+#, fuzzy
+msgid "Share some things about yourself. Most fields are optional, but they help the community to get to know you better."
 msgstr "请向其他用户更详细地介绍一下您。大多数字段为选填，但能帮助其他人更好地了解您。"
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
-msgctxt "avatar"
-msgid "Choose Photo"
-msgstr "选择照片"
-
-#: kitsune/users/jinja2/users/edit_profile.html:59
-msgid ""
-"<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
-"minutes and reload the page to see your new Gravatar. </p>"
-msgstr "<p> SUMO 现在使用 Gravatars 为头像。您可以在 gravatar.com 更改您的头像。</p> <p> 头像的变更可能需要几分钟才能生效。您可能需要等待几分钟后重新加载本页面才能看到您的新头像。</p>"
-
-#: kitsune/users/jinja2/users/edit_profile.html:99
+#: kitsune/users/jinja2/users/edit_profile.html:82
 msgid "Update My Profile"
 msgstr "更新我的个人资料"
 
-#: kitsune/users/jinja2/users/edit_profile.html:106
+#: kitsune/users/jinja2/users/edit_profile.html:89
 msgid "Close account and delete all profile information"
 msgstr "关闭账户并删除所有个人资料信息"
 
-#: kitsune/users/jinja2/users/edit_profile.html:111
+#: kitsune/users/jinja2/users/edit_profile.html:94
 msgid "Are you sure"
 msgstr "您确定"
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:98
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "要删除您的账户？这将阻止您再在 Mozilla 技术支持中回答或者发布问题。此操作将清除您的个人资料，并且无法重新恢复。"
 
-#: kitsune/users/jinja2/users/edit_profile.html:118
+#: kitsune/users/jinja2/users/edit_profile.html:101
 msgid "Please type in your username to confirm"
 msgstr "请输入您的用户名用以确认"
 
-#: kitsune/users/jinja2/users/edit_profile.html:126
+#: kitsune/users/jinja2/users/edit_profile.html:109
 msgid "Delete My Account"
 msgstr "删除我的账户"
 
@@ -8261,76 +8257,81 @@ msgstr "您目前未关注任何事物。"
 msgid "{user} | Profile"
 msgstr "{user} | 个人资料"
 
-#: kitsune/users/jinja2/users/profile.html:29
+#: kitsune/users/jinja2/users/profile.html:30
 msgid "Edit user profile"
 msgstr "编辑用户个人资料"
 
-#: kitsune/users/jinja2/users/profile.html:43
+#: kitsune/users/jinja2/users/profile.html:42
+#, python-format
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgstr ""
+
+#: kitsune/users/jinja2/users/profile.html:50
 msgid "{city}, {country}"
 msgstr "{country}, {city}"
 
-#: kitsune/users/jinja2/users/profile.html:62
+#: kitsune/users/jinja2/users/profile.html:69
 msgid "Email"
 msgstr "邮箱"
 
-#: kitsune/users/jinja2/users/profile.html:80
+#: kitsune/users/jinja2/users/profile.html:87
 #, fuzzy
 msgid "Community Portal"
 msgstr "社区论坛"
 
-#: kitsune/users/jinja2/users/profile.html:86
+#: kitsune/users/jinja2/users/profile.html:93
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:92
+#: kitsune/users/jinja2/users/profile.html:99
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:107
+#: kitsune/users/jinja2/users/profile.html:114
 msgid "Deactivate this user"
 msgstr "停用此用户"
 
-#: kitsune/users/jinja2/users/profile.html:112
+#: kitsune/users/jinja2/users/profile.html:119
 msgid "Deactivate this user and mark all content as spam"
 msgstr "停用该用户，并标记所有内容为垃圾信息"
 
-#: kitsune/users/jinja2/users/profile.html:115
+#: kitsune/users/jinja2/users/profile.html:122
 msgid "This user has been deactivated."
 msgstr "此用户已被停用。"
 
-#: kitsune/users/jinja2/users/profile.html:125
+#: kitsune/users/jinja2/users/profile.html:132
 msgid "Involved with Mozilla since {date}"
 msgstr "加入 Mozilla 自 {date}"
 
-#: kitsune/users/jinja2/users/profile.html:131
+#: kitsune/users/jinja2/users/profile.html:138
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "提出 {0} 个问题"
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:145
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "发表 {0} 个回答"
 
-#: kitsune/users/jinja2/users/profile.html:144
+#: kitsune/users/jinja2/users/profile.html:151
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "发布 {0} 个解决方法"
 
-#: kitsune/users/jinja2/users/profile.html:150
+#: kitsune/users/jinja2/users/profile.html:157
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "编写 {0} 篇文章"
 
-#: kitsune/users/jinja2/users/profile.html:161
+#: kitsune/users/jinja2/users/profile.html:168
 msgid "About {user}"
 msgstr "关于 {user}"
 
-#: kitsune/users/jinja2/users/profile.html:167
+#: kitsune/users/jinja2/users/profile.html:174
 msgid "{user}'s Groups"
 msgstr "{user} 的群组"
 
-#: kitsune/users/jinja2/users/profile.html:179
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "See all available SUMO badges"
 msgstr "查看全部可用的 SUMO 徽章"
 
@@ -10017,6 +10018,21 @@ msgstr "告诉我们更多信息。"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "请提供更多细节"
+
+#~ msgid "You can change your email address on Firefox Accounts."
+#~ msgstr "您可以到“Firefox 账户”更改电子邮件地址。"
+
+#~ msgid "Need help?"
+#~ msgstr "需要帮助？"
+
+#~ msgctxt "avatar"
+#~ msgid "Choose Photo"
+#~ msgstr "选择照片"
+
+#~ msgid ""
+#~ "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
+#~ "minutes and reload the page to see your new Gravatar. </p>"
+#~ msgstr "<p> SUMO 现在使用 Gravatars 为头像。您可以在 gravatar.com 更改您的头像。</p> <p> 头像的变更可能需要几分钟才能生效。您可能需要等待几分钟后重新加载本页面才能看到您的新头像。</p>"
 
 #~ msgid "Please enter a facebook.com URL."
 #~ msgstr "请输入一个 facebook.com 的网址。"

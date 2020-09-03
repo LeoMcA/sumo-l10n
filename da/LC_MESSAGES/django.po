@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-26 19:04-0700\n"
+"POT-Creation-Date: 2020-09-02 19:05-0700\n"
 "PO-Revision-Date: 2020-06-28 20:29+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -890,8 +890,7 @@ msgstr "Bliv frivillig hos Mozilla Support"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
-#: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35 kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "Slet"
 
@@ -1597,7 +1596,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "Du er blevet tildelt emblemet '{title}'!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:177
+#: kitsune/users/jinja2/users/profile.html:184
 msgid "Badges"
 msgstr "Emblemer"
 
@@ -7490,7 +7489,7 @@ msgstr "Rapportér misbrug af varemærke"
 msgid "Source code"
 msgstr "Kildekode"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:74
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -7706,7 +7705,7 @@ msgstr "Skift dine mailindstillinger"
 msgid "Exchange private messages with other contributors."
 msgstr "Efterlad en meddelelse til {contributor}: "
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:194
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
 msgid "Sign Out"
 msgstr "Log ud"
 
@@ -7990,11 +7989,20 @@ msgstr "Overvåg tråde i spørgsmål jeg kommenterer i"
 msgid "Send emails for private messages"
 msgstr ""
 
-#: kitsune/users/forms.py:86 kitsune/users/models.py:101
+#: kitsune/users/forms.py:80
+msgid ""
+"\n"
+"                Keep in mind your username is visible to the public.\n"
+"                This is a required field that must be unique, 150 characters or fewer.\n"
+"                Letters, digits and @.+-_ only.\n"
+"                "
+msgstr ""
+
+#: kitsune/users/forms.py:95 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "Involveret med Mozilla fra"
 
-#: kitsune/users/forms.py:139
+#: kitsune/users/forms.py:148
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "Det indtastede brugernavn er upassende. Vælg et andet, og tænk på, at vores hjælpere er andre Firefox-brugere som dig."
 
@@ -8034,7 +8042,7 @@ msgstr ""
 "Noget HTML understøttes: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Links er forbudt."
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Websted"
 
@@ -8211,60 +8219,46 @@ msgstr "Viderestillinger"
 msgid "Change Avatar"
 msgstr "Skift avatar"
 
-#: kitsune/users/jinja2/users/edit_profile.html:25 kitsune/users/jinja2/users/profile.html:16
-msgid "Account"
+#: kitsune/users/jinja2/users/edit_profile.html:27 kitsune/users/jinja2/users/profile.html:16
+#, fuzzy
+msgid "Your Account"
 msgstr "Konto"
 
-#: kitsune/users/jinja2/users/edit_profile.html:28 kitsune/users/jinja2/users/profile.html:19
-msgid "You can change your email address on Firefox Accounts."
-msgstr "Du kan ændre din mailadresse på din Firefox-konto."
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:19
+#, python-format
+msgid "To change your email, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
+msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
-msgid "Need help?"
-msgstr "Har du brug for hjælp?"
-
-#: kitsune/users/jinja2/users/edit_profile.html:35
+#: kitsune/users/jinja2/users/edit_profile.html:37
 msgid "Manage Firefox Account"
 msgstr "Håndter Firefox-konto"
 
-#: kitsune/users/jinja2/users/edit_profile.html:43
-msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
+#: kitsune/users/jinja2/users/edit_profile.html:45
+#, fuzzy
+msgid "Share some things about yourself. Most fields are optional, but they help the community to get to know you better."
 msgstr "Fortæl brugerne lidt mere om dig selv. Det er valgfrit, om du vil udfylde alle felterne - men det vil hjælpe andre brugere med at lære dig bedre at kende."
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
-msgctxt "avatar"
-msgid "Choose Photo"
-msgstr "Vælg billede"
-
-#: kitsune/users/jinja2/users/edit_profile.html:59
-msgid ""
-"<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
-"minutes and reload the page to see your new Gravatar. </p>"
-msgstr ""
-"<p> SUMO bruger nu gravatarer som avatarer. Du skal ændre din gravatar på gravatar.com. </p> <p> Det kan tage et par minutter inden ændringen af avateren træder i kraft. Det kan være nødvendigt, at "
-"vente nogle minutter, og genindlæse siden for at se din nye gravatar. </p>"
-
-#: kitsune/users/jinja2/users/edit_profile.html:99
+#: kitsune/users/jinja2/users/edit_profile.html:82
 msgid "Update My Profile"
 msgstr "Opdater min profil"
 
-#: kitsune/users/jinja2/users/edit_profile.html:106
+#: kitsune/users/jinja2/users/edit_profile.html:89
 msgid "Close account and delete all profile information"
 msgstr "Luk konto og slet alle profiloplysninger"
 
-#: kitsune/users/jinja2/users/edit_profile.html:111
+#: kitsune/users/jinja2/users/edit_profile.html:94
 msgid "Are you sure"
 msgstr "Er du sikker?"
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:98
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "Hvis du sletter din konto, kan du ikke besvare eller skrive spørgsmål i Mozilla Support. Denne handling vil rydde din profil, der ikke kan gendannes."
 
-#: kitsune/users/jinja2/users/edit_profile.html:118
+#: kitsune/users/jinja2/users/edit_profile.html:101
 msgid "Please type in your username to confirm"
 msgstr "Indtast dit brugernavn for at bekræfte"
 
-#: kitsune/users/jinja2/users/edit_profile.html:126
+#: kitsune/users/jinja2/users/edit_profile.html:109
 msgid "Delete My Account"
 msgstr "Slet min konto"
 
@@ -8292,80 +8286,85 @@ msgstr "Du overvåger i øjeblikket ingenting."
 msgid "{user} | Profile"
 msgstr "{user} | Profil"
 
-#: kitsune/users/jinja2/users/profile.html:29
+#: kitsune/users/jinja2/users/profile.html:30
 msgid "Edit user profile"
 msgstr "Rediger brugerprofil"
 
-#: kitsune/users/jinja2/users/profile.html:43
+#: kitsune/users/jinja2/users/profile.html:42
+#, python-format
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgstr ""
+
+#: kitsune/users/jinja2/users/profile.html:50
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:62
+#: kitsune/users/jinja2/users/profile.html:69
 msgid "Email"
 msgstr "Mail"
 
-#: kitsune/users/jinja2/users/profile.html:80
+#: kitsune/users/jinja2/users/profile.html:87
 #, fuzzy
 msgid "Community Portal"
 msgstr "Fællesskabsforummer"
 
-#: kitsune/users/jinja2/users/profile.html:86
+#: kitsune/users/jinja2/users/profile.html:93
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:92
+#: kitsune/users/jinja2/users/profile.html:99
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:107
+#: kitsune/users/jinja2/users/profile.html:114
 msgid "Deactivate this user"
 msgstr "Deaktiver denne bruger"
 
-#: kitsune/users/jinja2/users/profile.html:112
+#: kitsune/users/jinja2/users/profile.html:119
 msgid "Deactivate this user and mark all content as spam"
 msgstr "Deaktiver denne bruger, og marker alt indhold som spam"
 
-#: kitsune/users/jinja2/users/profile.html:115
+#: kitsune/users/jinja2/users/profile.html:122
 msgid "This user has been deactivated."
 msgstr "Denne bruger er blevet deaktiveret."
 
-#: kitsune/users/jinja2/users/profile.html:125
+#: kitsune/users/jinja2/users/profile.html:132
 msgid "Involved with Mozilla since {date}"
 msgstr "Involveret med Mozilla siden {date} "
 
-#: kitsune/users/jinja2/users/profile.html:131
+#: kitsune/users/jinja2/users/profile.html:138
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} spørgsmål"
 msgstr[1] "{0} spørgsmål"
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:145
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} svar"
 msgstr[1] "{0} svar"
 
-#: kitsune/users/jinja2/users/profile.html:144
+#: kitsune/users/jinja2/users/profile.html:151
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} løsning"
 msgstr[1] "{0} løsninger"
 
-#: kitsune/users/jinja2/users/profile.html:150
+#: kitsune/users/jinja2/users/profile.html:157
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} dokument"
 msgstr[1] "{0} dokumenter"
 
-#: kitsune/users/jinja2/users/profile.html:161
+#: kitsune/users/jinja2/users/profile.html:168
 msgid "About {user}"
 msgstr "Om {user}"
 
-#: kitsune/users/jinja2/users/profile.html:167
+#: kitsune/users/jinja2/users/profile.html:174
 msgid "{user}'s Groups"
 msgstr "{user}s grupper"
 
-#: kitsune/users/jinja2/users/profile.html:179
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "See all available SUMO badges"
 msgstr "Se alle tilgængelige SUMO-emblemer"
 
@@ -10066,6 +10065,23 @@ msgstr "Fortæl os mere."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Opgiv flere detaljer"
+
+#~ msgid "You can change your email address on Firefox Accounts."
+#~ msgstr "Du kan ændre din mailadresse på din Firefox-konto."
+
+#~ msgid "Need help?"
+#~ msgstr "Har du brug for hjælp?"
+
+#~ msgctxt "avatar"
+#~ msgid "Choose Photo"
+#~ msgstr "Vælg billede"
+
+#~ msgid ""
+#~ "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
+#~ "minutes and reload the page to see your new Gravatar. </p>"
+#~ msgstr ""
+#~ "<p> SUMO bruger nu gravatarer som avatarer. Du skal ændre din gravatar på gravatar.com. </p> <p> Det kan tage et par minutter inden ændringen af avateren træder i kraft. Det kan være nødvendigt, "
+#~ "at vente nogle minutter, og genindlæse siden for at se din nye gravatar. </p>"
 
 #~ msgid "Please enter a facebook.com URL."
 #~ msgstr "Indtast en facebook.com URL."

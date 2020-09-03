@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-26 19:04-0700\n"
+"POT-Creation-Date: 2020-09-02 19:05-0700\n"
 "PO-Revision-Date: 2019-11-08 11:52+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: Bengali\n"
@@ -889,8 +889,7 @@ msgstr "Mozilla Support এর স্বেচ্ছাসেবক"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
-#: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35 kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "মুছুন"
 
@@ -1592,7 +1591,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "আপনি '{title}' ব্যাজে ভূষিত হয়েছেন"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:177
+#: kitsune/users/jinja2/users/profile.html:184
 msgid "Badges"
 msgstr "ব্যাজসমূহ"
 
@@ -7498,7 +7497,7 @@ msgstr "ট্রেডমার্ক অপব্যবহার সম্ব�
 msgid "Source code"
 msgstr "সোর্স কোড"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:74
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
 msgid "Twitter"
 msgstr "টুইটার"
 
@@ -7729,7 +7728,7 @@ msgstr "ইমেলের পছন্দটি পরিবর্তন কর
 msgid "Exchange private messages with other contributors."
 msgstr ""
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:194
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
 msgid "Sign Out"
 msgstr "প্রস্থান করুন"
 
@@ -8014,11 +8013,20 @@ msgstr "আমি যেসকল প্রশ্নে মন্তব্য �
 msgid "Send emails for private messages"
 msgstr "ব্যাক্তিগত মেসেজ এর জন্য ইমেল পাঠানো হবে"
 
-#: kitsune/users/forms.py:86 kitsune/users/models.py:101
+#: kitsune/users/forms.py:80
+msgid ""
+"\n"
+"                Keep in mind your username is visible to the public.\n"
+"                This is a required field that must be unique, 150 characters or fewer.\n"
+"                Letters, digits and @.+-_ only.\n"
+"                "
+msgstr ""
+
+#: kitsune/users/forms.py:95 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "Mozilla-তে নিযুক্ত"
 
-#: kitsune/users/forms.py:139
+#: kitsune/users/forms.py:148
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "আপনি একটি অনুপযুক্ত ইউজারনাম লিখেছেন। দয়া করে অন্য একটি বাছাই করুন।"
 
@@ -8056,7 +8064,7 @@ msgid ""
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
 msgid "Website"
 msgstr "ওয়েবসাইট"
 
@@ -8231,60 +8239,45 @@ msgstr "রিডিরেক্ট"
 msgid "Change Avatar"
 msgstr "ছবি পরিবর্তন করুন"
 
-#: kitsune/users/jinja2/users/edit_profile.html:25 kitsune/users/jinja2/users/profile.html:16
-msgid "Account"
+#: kitsune/users/jinja2/users/edit_profile.html:27 kitsune/users/jinja2/users/profile.html:16
+#, fuzzy
+msgid "Your Account"
 msgstr "অ্যাকাউন্ট"
 
-#: kitsune/users/jinja2/users/edit_profile.html:28 kitsune/users/jinja2/users/profile.html:19
-msgid "You can change your email address on Firefox Accounts."
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:19
+#, python-format
+msgid "To change your email, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
-msgid "Need help?"
-msgstr ""
-
-#: kitsune/users/jinja2/users/edit_profile.html:35
+#: kitsune/users/jinja2/users/edit_profile.html:37
 msgid "Manage Firefox Account"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:43
-msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
+#: kitsune/users/jinja2/users/edit_profile.html:45
+msgid "Share some things about yourself. Most fields are optional, but they help the community to get to know you better."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
-msgctxt "avatar"
-msgid "Choose Photo"
-msgstr ""
-
-#: kitsune/users/jinja2/users/edit_profile.html:59
-msgid ""
-"<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
-"minutes and reload the page to see your new Gravatar. </p>"
-msgstr ""
-"<p> SUMO এখন avatars হিসেবে Gravatars ব্যবহার করছে। আপনাকে অতি অবশ্যই আপনার Gravatar-কে পরিবর্তন করতে হবে gravatar.com-এ। </p><p> এটা কিছু মিনিট নিতে পারে আপনার avatar পরিবর্তন প্রভাবিত হতে। আপনাকে হয়তো "
-"কিছু মিনিট অপেক্ষা করতে হবে এবং পেজটি পুনরায় লোড করতে হবে আপনার নতুন Gravatar-কে দেখবার জন্য। </p>"
-
-#: kitsune/users/jinja2/users/edit_profile.html:99
+#: kitsune/users/jinja2/users/edit_profile.html:82
 msgid "Update My Profile"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:106
+#: kitsune/users/jinja2/users/edit_profile.html:89
 msgid "Close account and delete all profile information"
 msgstr "অ্যাকাউন্ট বন্ধ করুন এবং প্রোফাইলের সমস্ত তথ্য মুছে ফেলুন"
 
-#: kitsune/users/jinja2/users/edit_profile.html:111
+#: kitsune/users/jinja2/users/edit_profile.html:94
 msgid "Are you sure"
 msgstr "আপনি কি নিশ্চিত"
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:98
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:118
+#: kitsune/users/jinja2/users/edit_profile.html:101
 msgid "Please type in your username to confirm"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:126
+#: kitsune/users/jinja2/users/edit_profile.html:109
 msgid "Delete My Account"
 msgstr ""
 
@@ -8312,80 +8305,85 @@ msgstr "আপনি বর্তমানে কিছুই দেখছেন
 msgid "{user} | Profile"
 msgstr "{user} | প্রোফাইল"
 
-#: kitsune/users/jinja2/users/profile.html:29
+#: kitsune/users/jinja2/users/profile.html:30
 msgid "Edit user profile"
 msgstr "প্রোফাইল সম্পাদনা করুন"
 
-#: kitsune/users/jinja2/users/profile.html:43
+#: kitsune/users/jinja2/users/profile.html:42
+#, python-format
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgstr ""
+
+#: kitsune/users/jinja2/users/profile.html:50
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:62
+#: kitsune/users/jinja2/users/profile.html:69
 msgid "Email"
 msgstr "ইমেইল"
 
-#: kitsune/users/jinja2/users/profile.html:80
+#: kitsune/users/jinja2/users/profile.html:87
 #, fuzzy
 msgid "Community Portal"
 msgstr "কমিউনিটি ফোরাম"
 
-#: kitsune/users/jinja2/users/profile.html:86
+#: kitsune/users/jinja2/users/profile.html:93
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:92
+#: kitsune/users/jinja2/users/profile.html:99
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:107
+#: kitsune/users/jinja2/users/profile.html:114
 msgid "Deactivate this user"
 msgstr "ব্যবহারকারীকে নিষ্ক্রিয় করুন"
 
-#: kitsune/users/jinja2/users/profile.html:112
+#: kitsune/users/jinja2/users/profile.html:119
 msgid "Deactivate this user and mark all content as spam"
 msgstr "ব্যবহারকারীটিকে নিষ্ক্রিয় করুন এবং সমস্ত কন্টেন্ট স্প্যাম হিসেবে চিহ্নিত করুন"
 
-#: kitsune/users/jinja2/users/profile.html:115
+#: kitsune/users/jinja2/users/profile.html:122
 msgid "This user has been deactivated."
 msgstr "ব্যবহারকারীটিকে মুছে ফেলা হয়েছে।"
 
-#: kitsune/users/jinja2/users/profile.html:125
+#: kitsune/users/jinja2/users/profile.html:132
 msgid "Involved with Mozilla since {date}"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:131
+#: kitsune/users/jinja2/users/profile.html:138
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} প্রশ্ন"
 msgstr[1] "{0} প্রশ্নসমূহ"
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:145
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} উত্তর"
 msgstr[1] "{0} উত্তরসমূহ"
 
-#: kitsune/users/jinja2/users/profile.html:144
+#: kitsune/users/jinja2/users/profile.html:151
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} সমাধান"
 msgstr[1] "{0} সমাধানসমূহ"
 
-#: kitsune/users/jinja2/users/profile.html:150
+#: kitsune/users/jinja2/users/profile.html:157
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} ডকুমেন্টসমূহ"
 msgstr[1] "{0} ডকুমেন্টসমূন"
 
-#: kitsune/users/jinja2/users/profile.html:161
+#: kitsune/users/jinja2/users/profile.html:168
 msgid "About {user}"
 msgstr "{user} এর জীবনী"
 
-#: kitsune/users/jinja2/users/profile.html:167
+#: kitsune/users/jinja2/users/profile.html:174
 msgid "{user}'s Groups"
 msgstr "{user} এর দল"
 
-#: kitsune/users/jinja2/users/profile.html:179
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "See all available SUMO badges"
 msgstr "সমস্ত উপলব্ধ SUMO ব্যাজসমূহ দেখুন"
 
@@ -10085,6 +10083,13 @@ msgstr "আমাদের আরওকিছু বলুন।"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "অনুগ্রহ করে আরও বর্ণনা দিন"
+
+#~ msgid ""
+#~ "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
+#~ "minutes and reload the page to see your new Gravatar. </p>"
+#~ msgstr ""
+#~ "<p> SUMO এখন avatars হিসেবে Gravatars ব্যবহার করছে। আপনাকে অতি অবশ্যই আপনার Gravatar-কে পরিবর্তন করতে হবে gravatar.com-এ। </p><p> এটা কিছু মিনিট নিতে পারে আপনার avatar পরিবর্তন প্রভাবিত হতে। আপনাকে "
+#~ "হয়তো কিছু মিনিট অপেক্ষা করতে হবে এবং পেজটি পুনরায় লোড করতে হবে আপনার নতুন Gravatar-কে দেখবার জন্য। </p>"
 
 #~ msgid "Please enter a facebook.com URL."
 #~ msgstr "দয়া করে একটি facebook.com লিঙ্ক লিখুন।"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-26 19:04-0700\n"
+"POT-Creation-Date: 2020-09-02 19:05-0700\n"
 "PO-Revision-Date: 2020-07-06 22:00+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: Serbian\n"
@@ -892,8 +892,7 @@ msgstr "Волонтирај за Mozilla подршку"
 #: kitsune/dashboards/jinja2/dashboards/localization.html:34 kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:25 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:29
 #: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:25 kitsune/groups/jinja2/groups/profile.html:12 kitsune/kbforums/jinja2/kbforums/confirm_post_delete.html:28
 #: kitsune/kbforums/jinja2/kbforums/confirm_thread_delete.html:30 kitsune/messages/jinja2/messages/delete.html:28 kitsune/questions/jinja2/questions/confirm_answer_delete.html:25
-#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/users/jinja2/users/edit_profile.html:73 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35
-#: kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
+#: kitsune/questions/jinja2/questions/confirm_question_delete.html:27 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:35 kitsune/wiki/jinja2/wiki/confirm_revision_delete.html:33
 msgid "Delete"
 msgstr "Обриши"
 
@@ -1595,7 +1594,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "Награђени сте '{title}' значком!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:177
+#: kitsune/users/jinja2/users/profile.html:184
 msgid "Badges"
 msgstr "Значке"
 
@@ -7538,7 +7537,7 @@ msgstr "Пријави злоупотребу заштитног знака"
 msgid "Source code"
 msgstr "Изворни код"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:74
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -7751,7 +7750,7 @@ msgstr "Управљајте вашим подешавањима приватн�
 msgid "Exchange private messages with other contributors."
 msgstr "Размењујте приватне поруке са осталим сарадницима."
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:194
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
 msgid "Sign Out"
 msgstr "Одјавa"
 
@@ -8044,11 +8043,20 @@ msgstr "Посматрај теме у којима ја коментарише�
 msgid "Send emails for private messages"
 msgstr "Шаљи е-пошту за приватне поруке"
 
-#: kitsune/users/forms.py:86 kitsune/users/models.py:101
+#: kitsune/users/forms.py:80
+msgid ""
+"\n"
+"                Keep in mind your username is visible to the public.\n"
+"                This is a required field that must be unique, 150 characters or fewer.\n"
+"                Letters, digits and @.+-_ only.\n"
+"                "
+msgstr ""
+
+#: kitsune/users/forms.py:95 kitsune/users/models.py:101
 msgid "Involved with Mozilla from"
 msgstr "Mozilla волонтер од"
 
-#: kitsune/users/forms.py:139
+#: kitsune/users/forms.py:148
 msgid "The user name you entered is inappropriate. Please pick another and consider that our helpers are other Firefox users just like you."
 msgstr "Користичко име које сте унели није одговарајуће. Одаберите друго и размотрите да су и наши помагачи такође корисници Firefox-a исто као и ви."
 
@@ -8088,7 +8096,7 @@ msgstr ""
 "Подржане су неке HTML ознаке: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;"
 "strong&#x3E; &#x3C;ul&#x3E;. Везе су забрањене."
 
-#: kitsune/users/jinja2/users/profile.html:68 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Веб сајт"
 
@@ -8264,60 +8272,46 @@ msgstr "Преусмерења"
 msgid "Change Avatar"
 msgstr "Промени аватар"
 
-#: kitsune/users/jinja2/users/edit_profile.html:25 kitsune/users/jinja2/users/profile.html:16
-msgid "Account"
+#: kitsune/users/jinja2/users/edit_profile.html:27 kitsune/users/jinja2/users/profile.html:16
+#, fuzzy
+msgid "Your Account"
 msgstr "Налог"
 
-#: kitsune/users/jinja2/users/edit_profile.html:28 kitsune/users/jinja2/users/profile.html:19
-msgid "You can change your email address on Firefox Accounts."
-msgstr "Вашу адресу е-поште можете променити на Firefox налозима."
+#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:19
+#, python-format
+msgid "To change your email, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
+msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:20
-msgid "Need help?"
-msgstr "Требате помоћ?"
-
-#: kitsune/users/jinja2/users/edit_profile.html:35
+#: kitsune/users/jinja2/users/edit_profile.html:37
 msgid "Manage Firefox Account"
 msgstr "Управљајте Firefox налогом"
 
-#: kitsune/users/jinja2/users/edit_profile.html:43
-msgid "Tell users a bit more information about yourself. Most fields are optional, but they'll help other users get to know you better."
+#: kitsune/users/jinja2/users/edit_profile.html:45
+#, fuzzy
+msgid "Share some things about yourself. Most fields are optional, but they help the community to get to know you better."
 msgstr "Реците нам нешто више о себи. Већине поља је опционална, али ће помоћи другим корисницима да вас боље упознају."
 
-#: kitsune/users/jinja2/users/edit_profile.html:57
-msgctxt "avatar"
-msgid "Choose Photo"
-msgstr "Изаберите слику"
-
-#: kitsune/users/jinja2/users/edit_profile.html:59
-msgid ""
-"<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
-"minutes and reload the page to see your new Gravatar. </p>"
-msgstr ""
-"<p> SUMO сада користи граватаре као аватаре. Морате променити граватара на gravatar.com. </p> <p> Биће потребно неколико минута да се изврши промена аватара. Можда ћете морати причекати неколико "
-"минута и освежити страницу да бисте видели новог граватара. </p>"
-
-#: kitsune/users/jinja2/users/edit_profile.html:99
+#: kitsune/users/jinja2/users/edit_profile.html:82
 msgid "Update My Profile"
 msgstr "Ажурирај профил"
 
-#: kitsune/users/jinja2/users/edit_profile.html:106
+#: kitsune/users/jinja2/users/edit_profile.html:89
 msgid "Close account and delete all profile information"
 msgstr "Затвори налог и избриши све информације о профилу"
 
-#: kitsune/users/jinja2/users/edit_profile.html:111
+#: kitsune/users/jinja2/users/edit_profile.html:94
 msgid "Are you sure"
 msgstr "Да ли сте сигурни"
 
-#: kitsune/users/jinja2/users/edit_profile.html:115
+#: kitsune/users/jinja2/users/edit_profile.html:98
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "Брисање налога ће вас спречити да одговорите или постављате питање на Mozilla подршци. Ова акција ће обрисати профил и не може се поништити."
 
-#: kitsune/users/jinja2/users/edit_profile.html:118
+#: kitsune/users/jinja2/users/edit_profile.html:101
 msgid "Please type in your username to confirm"
 msgstr "Унесите корисничко име да потврдите"
 
-#: kitsune/users/jinja2/users/edit_profile.html:126
+#: kitsune/users/jinja2/users/edit_profile.html:109
 msgid "Delete My Account"
 msgstr "Избриши мој налог"
 
@@ -8345,84 +8339,89 @@ msgstr "Тренутно не посматрате ништа."
 msgid "{user} | Profile"
 msgstr "{user} | Профил"
 
-#: kitsune/users/jinja2/users/profile.html:29
+#: kitsune/users/jinja2/users/profile.html:30
 msgid "Edit user profile"
 msgstr "Измени профил корисника"
 
-#: kitsune/users/jinja2/users/profile.html:43
+#: kitsune/users/jinja2/users/profile.html:42
+#, python-format
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgstr ""
+
+#: kitsune/users/jinja2/users/profile.html:50
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:62
+#: kitsune/users/jinja2/users/profile.html:69
 msgid "Email"
 msgstr "Е-пошта"
 
-#: kitsune/users/jinja2/users/profile.html:80
+#: kitsune/users/jinja2/users/profile.html:87
 #, fuzzy
 msgid "Community Portal"
 msgstr "Форуми заједница"
 
-#: kitsune/users/jinja2/users/profile.html:86
+#: kitsune/users/jinja2/users/profile.html:93
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:92
+#: kitsune/users/jinja2/users/profile.html:99
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:107
+#: kitsune/users/jinja2/users/profile.html:114
 msgid "Deactivate this user"
 msgstr "Деактивирај овог корисника"
 
-#: kitsune/users/jinja2/users/profile.html:112
+#: kitsune/users/jinja2/users/profile.html:119
 msgid "Deactivate this user and mark all content as spam"
 msgstr "Деактивирај овог корисника и обележи сав садржај као спам"
 
-#: kitsune/users/jinja2/users/profile.html:115
+#: kitsune/users/jinja2/users/profile.html:122
 msgid "This user has been deactivated."
 msgstr "Овај корисник је деактивиран."
 
-#: kitsune/users/jinja2/users/profile.html:125
+#: kitsune/users/jinja2/users/profile.html:132
 msgid "Involved with Mozilla since {date}"
 msgstr "Mozilla волонтер од {date}"
 
-#: kitsune/users/jinja2/users/profile.html:131
+#: kitsune/users/jinja2/users/profile.html:138
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} питање"
 msgstr[1] "{0} питања"
 msgstr[2] "{0} питања"
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:145
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} одговор/а"
 msgstr[1] "{0} одговора"
 msgstr[2] "{0} одговора"
 
-#: kitsune/users/jinja2/users/profile.html:144
+#: kitsune/users/jinja2/users/profile.html:151
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} решење"
 msgstr[1] "{0} решења"
 msgstr[2] "{0} решења"
 
-#: kitsune/users/jinja2/users/profile.html:150
+#: kitsune/users/jinja2/users/profile.html:157
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} документ"
 msgstr[1] "{0} документа"
 msgstr[2] "{0} докумената"
 
-#: kitsune/users/jinja2/users/profile.html:161
+#: kitsune/users/jinja2/users/profile.html:168
 msgid "About {user}"
 msgstr "О {user}"
 
-#: kitsune/users/jinja2/users/profile.html:167
+#: kitsune/users/jinja2/users/profile.html:174
 msgid "{user}'s Groups"
 msgstr "{user} групе"
 
-#: kitsune/users/jinja2/users/profile.html:179
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "See all available SUMO badges"
 msgstr "Прегледај све доступне SUMO значке"
 
@@ -10127,6 +10126,23 @@ msgstr "Реците нам више."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Доставите више детаља"
+
+#~ msgid "You can change your email address on Firefox Accounts."
+#~ msgstr "Вашу адресу е-поште можете променити на Firefox налозима."
+
+#~ msgid "Need help?"
+#~ msgstr "Требате помоћ?"
+
+#~ msgctxt "avatar"
+#~ msgid "Choose Photo"
+#~ msgstr "Изаберите слику"
+
+#~ msgid ""
+#~ "<p> SUMO is now using Gravatars as avatars. You must change your Gravatar on gravatar.com. </p> <p> It can take a few minutes for the avatar change to take effect. You may need to wait a few "
+#~ "minutes and reload the page to see your new Gravatar. </p>"
+#~ msgstr ""
+#~ "<p> SUMO сада користи граватаре као аватаре. Морате променити граватара на gravatar.com. </p> <p> Биће потребно неколико минута да се изврши промена аватара. Можда ћете морати причекати неколико "
+#~ "минута и освежити страницу да бисте видели новог граватара. </p>"
 
 #~ msgid "Please enter a facebook.com URL."
 #~ msgstr "Молимо да унесете facebook.com URL."
