@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-02 19:05-0700\n"
+"POT-Creation-Date: 2020-09-07 19:05-0700\n"
 "PO-Revision-Date: 2020-07-03 13:00+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu\n"
@@ -1589,7 +1589,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "మీకు '{title}' బ్యాడ్జిని బహూకరించారు!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:184
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "Badges"
 msgstr "బాడ్జీలు"
 
@@ -7559,7 +7559,7 @@ msgstr "ట్రేడ్‌మార్క్ దుర్వినియో�
 msgid "Source code"
 msgstr "మూల కోడు"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
 msgid "Twitter"
 msgstr "ట్విట్టర్"
 
@@ -7780,7 +7780,7 @@ msgstr "మీ ఇమెయిల్ ప్రాధాన్యతలను మ
 msgid "Exchange private messages with other contributors."
 msgstr "{contributor}కి ఒక సందేశాన్ని ఇవ్వండి: "
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
 msgid "Sign Out"
 msgstr "నిష్క్రమించు"
 
@@ -8068,7 +8068,7 @@ msgid ""
 "\n"
 "                Keep in mind your username is visible to the public.\n"
 "                This is a required field that must be unique, 150 characters or fewer.\n"
-"                Letters, digits and @.+-_ only.\n"
+"                This value may contain only letters, numbers, and @/./+/-/_ characters.\n"
 "                "
 msgstr ""
 
@@ -8114,7 +8114,7 @@ msgid ""
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
 msgid "Website"
 msgstr "వెబ్‌సైట్"
 
@@ -8196,11 +8196,11 @@ msgstr "మధ్యవర్తి"
 msgid "Welcome to SUMO!"
 msgstr "SUMOకు స్వాగతం!"
 
-#: kitsune/users/views.py:199
+#: kitsune/users/views.py:200
 msgid "Your settings have been saved."
 msgstr "మీ అమరికలు భద్రపరచబడ్డాయి."
 
-#: kitsune/users/views.py:351
+#: kitsune/users/views.py:356
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8357,81 +8357,81 @@ msgstr "{user} | ప్రొఫైల్‌"
 msgid "Edit user profile"
 msgstr "వినియోగదారుని ప్రొఫైల్ సవరించు"
 
-#: kitsune/users/jinja2/users/profile.html:42
+#: kitsune/users/jinja2/users/profile.html:43
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:50
+#: kitsune/users/jinja2/users/profile.html:52
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:69
+#: kitsune/users/jinja2/users/profile.html:71
 msgid "Email"
 msgstr "ఇమెయిల్"
 
-#: kitsune/users/jinja2/users/profile.html:87
+#: kitsune/users/jinja2/users/profile.html:89
 #, fuzzy
 msgid "Community Portal"
 msgstr "కమ్యూనిటీ వేదికలు"
 
-#: kitsune/users/jinja2/users/profile.html:93
+#: kitsune/users/jinja2/users/profile.html:95
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:99
+#: kitsune/users/jinja2/users/profile.html:101
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:114
+#: kitsune/users/jinja2/users/profile.html:116
 msgid "Deactivate this user"
 msgstr "ఈ వినియోగదారుని డీయాక్టివేట్ చేయండి"
 
-#: kitsune/users/jinja2/users/profile.html:119
+#: kitsune/users/jinja2/users/profile.html:121
 msgid "Deactivate this user and mark all content as spam"
 msgstr "ఈ వినియోగదారుని డీయాక్టివేట్ చేయండి మరియు స్పామ్ గా మొత్తం కంటెంట్ను గుర్తించండి"
 
-#: kitsune/users/jinja2/users/profile.html:122
+#: kitsune/users/jinja2/users/profile.html:124
 msgid "This user has been deactivated."
 msgstr "ఈ వినియోగదారు నిష్క్రియం చేయబడింది."
 
-#: kitsune/users/jinja2/users/profile.html:132
+#: kitsune/users/jinja2/users/profile.html:134
 msgid "Involved with Mozilla since {date}"
 msgstr "{date} నుండి మొజిల్లాలో పాల్గొంటున్నారు"
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:140
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} ప్రశ్న"
 msgstr[1] "{0} ప్రశ్నలు"
 
-#: kitsune/users/jinja2/users/profile.html:145
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} సమాధానం"
 msgstr[1] "{0} సమాధానాలు"
 
-#: kitsune/users/jinja2/users/profile.html:151
+#: kitsune/users/jinja2/users/profile.html:153
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} పరిష్కారం"
 msgstr[1] "{0} పరిష్కారాలు"
 
-#: kitsune/users/jinja2/users/profile.html:157
+#: kitsune/users/jinja2/users/profile.html:159
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} పత్రం"
 msgstr[1] "{0} పత్రాలు"
 
-#: kitsune/users/jinja2/users/profile.html:168
+#: kitsune/users/jinja2/users/profile.html:170
 msgid "About {user}"
 msgstr "{user} గురించి"
 
-#: kitsune/users/jinja2/users/profile.html:174
+#: kitsune/users/jinja2/users/profile.html:176
 msgid "{user}'s Groups"
 msgstr "{user} యొక్క గ్రూపులు"
 
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:188
 msgid "See all available SUMO badges"
 msgstr "అందుబాటులో ఉన్న అన్ని SUMO బాడ్జీలు"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-02 19:05-0700\n"
+"POT-Creation-Date: 2020-09-07 19:05-0700\n"
 "PO-Revision-Date: 2020-05-25 17:07+0000\n"
 "Last-Translator: eHyun <seroun123@gmail.com>\n"
 "Language-Team: Mozilla SUMO Korean Team\n"
@@ -1590,7 +1590,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "'{title}' 배지를 받았습니다!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:184
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "Badges"
 msgstr "배지"
 
@@ -7542,7 +7542,7 @@ msgstr "상표권 침해 보고"
 msgid "Source code"
 msgstr "소스 코드"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -7769,7 +7769,7 @@ msgstr "이메일 설정 변경"
 msgid "Exchange private messages with other contributors."
 msgstr "그룹에서 공헌자 제거"
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
 msgid "Sign Out"
 msgstr "로그 아웃"
 
@@ -8055,7 +8055,7 @@ msgid ""
 "\n"
 "                Keep in mind your username is visible to the public.\n"
 "                This is a required field that must be unique, 150 characters or fewer.\n"
-"                Letters, digits and @.+-_ only.\n"
+"                This value may contain only letters, numbers, and @/./+/-/_ characters.\n"
 "                "
 msgstr ""
 
@@ -8103,7 +8103,7 @@ msgstr ""
 "일부 HTML 지원: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;strong&#x3E; "
 "&#x3C;ul&#x3E;. 링크는 금지되어있습니다."
 
-#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
 msgid "Website"
 msgstr "웹사이트"
 
@@ -8186,11 +8186,11 @@ msgstr "검토자"
 msgid "Welcome to SUMO!"
 msgstr "환영합니다!"
 
-#: kitsune/users/views.py:199
+#: kitsune/users/views.py:200
 msgid "Your settings have been saved."
 msgstr "설정을 저장하였습니다."
 
-#: kitsune/users/views.py:351
+#: kitsune/users/views.py:356
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8352,77 +8352,77 @@ msgstr "{user} | 프로필"
 msgid "Edit user profile"
 msgstr "사용자 프로필 수정"
 
-#: kitsune/users/jinja2/users/profile.html:42
+#: kitsune/users/jinja2/users/profile.html:43
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:50
+#: kitsune/users/jinja2/users/profile.html:52
 msgid "{city}, {country}"
 msgstr "{country} {city}"
 
-#: kitsune/users/jinja2/users/profile.html:69
+#: kitsune/users/jinja2/users/profile.html:71
 msgid "Email"
 msgstr "이메일"
 
-#: kitsune/users/jinja2/users/profile.html:87
+#: kitsune/users/jinja2/users/profile.html:89
 #, fuzzy
 msgid "Community Portal"
 msgstr "커뮤니티 포럼"
 
-#: kitsune/users/jinja2/users/profile.html:93
+#: kitsune/users/jinja2/users/profile.html:95
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:99
+#: kitsune/users/jinja2/users/profile.html:101
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:114
+#: kitsune/users/jinja2/users/profile.html:116
 msgid "Deactivate this user"
 msgstr "사용자 비활성화"
 
-#: kitsune/users/jinja2/users/profile.html:119
+#: kitsune/users/jinja2/users/profile.html:121
 msgid "Deactivate this user and mark all content as spam"
 msgstr "사용자 비활성화 및 모든 스팸 의심 컨텐츠 표시하기"
 
-#: kitsune/users/jinja2/users/profile.html:122
+#: kitsune/users/jinja2/users/profile.html:124
 msgid "This user has been deactivated."
 msgstr "사용자가 비활성화 되었습니다."
 
-#: kitsune/users/jinja2/users/profile.html:132
+#: kitsune/users/jinja2/users/profile.html:134
 msgid "Involved with Mozilla since {date}"
 msgstr "{date}부터 Mozilla 참여"
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:140
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "질문 {0}개"
 
-#: kitsune/users/jinja2/users/profile.html:145
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "답변 {0}개"
 
-#: kitsune/users/jinja2/users/profile.html:151
+#: kitsune/users/jinja2/users/profile.html:153
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "해결법 {0}개"
 
-#: kitsune/users/jinja2/users/profile.html:157
+#: kitsune/users/jinja2/users/profile.html:159
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "문서 {0}건"
 
-#: kitsune/users/jinja2/users/profile.html:168
+#: kitsune/users/jinja2/users/profile.html:170
 msgid "About {user}"
 msgstr "{user} 정보"
 
-#: kitsune/users/jinja2/users/profile.html:174
+#: kitsune/users/jinja2/users/profile.html:176
 msgid "{user}'s Groups"
 msgstr "{user} 그룹"
 
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:188
 msgid "See all available SUMO badges"
 msgstr "모든 SUMO 배지 보기"
 

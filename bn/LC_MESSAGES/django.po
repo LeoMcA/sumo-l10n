@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-02 19:05-0700\n"
+"POT-Creation-Date: 2020-09-07 19:05-0700\n"
 "PO-Revision-Date: 2019-11-08 11:52+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: Bengali\n"
@@ -1591,7 +1591,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "আপনি '{title}' ব্যাজে ভূষিত হয়েছেন"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:184
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "Badges"
 msgstr "ব্যাজসমূহ"
 
@@ -7497,7 +7497,7 @@ msgstr "ট্রেডমার্ক অপব্যবহার সম্ব�
 msgid "Source code"
 msgstr "সোর্স কোড"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
 msgid "Twitter"
 msgstr "টুইটার"
 
@@ -7728,7 +7728,7 @@ msgstr "ইমেলের পছন্দটি পরিবর্তন কর
 msgid "Exchange private messages with other contributors."
 msgstr ""
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
 msgid "Sign Out"
 msgstr "প্রস্থান করুন"
 
@@ -8018,7 +8018,7 @@ msgid ""
 "\n"
 "                Keep in mind your username is visible to the public.\n"
 "                This is a required field that must be unique, 150 characters or fewer.\n"
-"                Letters, digits and @.+-_ only.\n"
+"                This value may contain only letters, numbers, and @/./+/-/_ characters.\n"
 "                "
 msgstr ""
 
@@ -8064,7 +8064,7 @@ msgid ""
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
 msgid "Website"
 msgstr "ওয়েবসাইট"
 
@@ -8147,11 +8147,11 @@ msgstr "নিয়ামক"
 msgid "Welcome to SUMO!"
 msgstr "SUMO তে আপনাকে স্বাগতম!"
 
-#: kitsune/users/views.py:199
+#: kitsune/users/views.py:200
 msgid "Your settings have been saved."
 msgstr "আপনার সেটিংস সংরক্ষিত করা হয়েছে।"
 
-#: kitsune/users/views.py:351
+#: kitsune/users/views.py:356
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8309,81 +8309,81 @@ msgstr "{user} | প্রোফাইল"
 msgid "Edit user profile"
 msgstr "প্রোফাইল সম্পাদনা করুন"
 
-#: kitsune/users/jinja2/users/profile.html:42
+#: kitsune/users/jinja2/users/profile.html:43
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:50
+#: kitsune/users/jinja2/users/profile.html:52
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:69
+#: kitsune/users/jinja2/users/profile.html:71
 msgid "Email"
 msgstr "ইমেইল"
 
-#: kitsune/users/jinja2/users/profile.html:87
+#: kitsune/users/jinja2/users/profile.html:89
 #, fuzzy
 msgid "Community Portal"
 msgstr "কমিউনিটি ফোরাম"
 
-#: kitsune/users/jinja2/users/profile.html:93
+#: kitsune/users/jinja2/users/profile.html:95
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:99
+#: kitsune/users/jinja2/users/profile.html:101
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:114
+#: kitsune/users/jinja2/users/profile.html:116
 msgid "Deactivate this user"
 msgstr "ব্যবহারকারীকে নিষ্ক্রিয় করুন"
 
-#: kitsune/users/jinja2/users/profile.html:119
+#: kitsune/users/jinja2/users/profile.html:121
 msgid "Deactivate this user and mark all content as spam"
 msgstr "ব্যবহারকারীটিকে নিষ্ক্রিয় করুন এবং সমস্ত কন্টেন্ট স্প্যাম হিসেবে চিহ্নিত করুন"
 
-#: kitsune/users/jinja2/users/profile.html:122
+#: kitsune/users/jinja2/users/profile.html:124
 msgid "This user has been deactivated."
 msgstr "ব্যবহারকারীটিকে মুছে ফেলা হয়েছে।"
 
-#: kitsune/users/jinja2/users/profile.html:132
+#: kitsune/users/jinja2/users/profile.html:134
 msgid "Involved with Mozilla since {date}"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:140
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} প্রশ্ন"
 msgstr[1] "{0} প্রশ্নসমূহ"
 
-#: kitsune/users/jinja2/users/profile.html:145
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} উত্তর"
 msgstr[1] "{0} উত্তরসমূহ"
 
-#: kitsune/users/jinja2/users/profile.html:151
+#: kitsune/users/jinja2/users/profile.html:153
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} সমাধান"
 msgstr[1] "{0} সমাধানসমূহ"
 
-#: kitsune/users/jinja2/users/profile.html:157
+#: kitsune/users/jinja2/users/profile.html:159
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} ডকুমেন্টসমূহ"
 msgstr[1] "{0} ডকুমেন্টসমূন"
 
-#: kitsune/users/jinja2/users/profile.html:168
+#: kitsune/users/jinja2/users/profile.html:170
 msgid "About {user}"
 msgstr "{user} এর জীবনী"
 
-#: kitsune/users/jinja2/users/profile.html:174
+#: kitsune/users/jinja2/users/profile.html:176
 msgid "{user}'s Groups"
 msgstr "{user} এর দল"
 
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:188
 msgid "See all available SUMO badges"
 msgstr "সমস্ত উপলব্ধ SUMO ব্যাজসমূহ দেখুন"
 

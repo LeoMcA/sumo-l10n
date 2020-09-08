@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-02 19:05-0700\n"
+"POT-Creation-Date: 2020-09-07 19:05-0700\n"
 "PO-Revision-Date: 2017-07-04 15:56+0000\n"
 "Last-Translator: kscanne <kscanne@gmail.com>\n"
 "Language-Team: Irish\n"
@@ -1623,7 +1623,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "Bronnadh an suaitheantas '{title}' ort!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:184
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "Badges"
 msgstr "Suaitheantais"
 
@@ -7802,7 +7802,7 @@ msgstr "Drochúsáid Trádmharcanna"
 msgid "Source code"
 msgstr "Cód Foinseach"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -8040,7 +8040,7 @@ msgstr "Sainroghanna ríomhphoist"
 msgid "Exchange private messages with other contributors."
 msgstr "Fág teachtaireacht do {contributor}:"
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
 msgid "Sign Out"
 msgstr "Logáil Amach"
 
@@ -8352,7 +8352,7 @@ msgid ""
 "\n"
 "                Keep in mind your username is visible to the public.\n"
 "                This is a required field that must be unique, 150 characters or fewer.\n"
-"                Letters, digits and @.+-_ only.\n"
+"                This value may contain only letters, numbers, and @/./+/-/_ characters.\n"
 "                "
 msgstr ""
 
@@ -8398,7 +8398,7 @@ msgid ""
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Suíomh Gréasáin"
 
@@ -8480,11 +8480,11 @@ msgstr "stiúrthóir"
 msgid "Welcome to SUMO!"
 msgstr "Fáilte go SUMO!"
 
-#: kitsune/users/views.py:199
+#: kitsune/users/views.py:200
 msgid "Your settings have been saved."
 msgstr ""
 
-#: kitsune/users/views.py:351
+#: kitsune/users/views.py:356
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8650,51 +8650,51 @@ msgstr "{user} | Próifíl"
 msgid "Edit user profile"
 msgstr "Cuir mo phróifíl in eagar"
 
-#: kitsune/users/jinja2/users/profile.html:42
+#: kitsune/users/jinja2/users/profile.html:43
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:50
+#: kitsune/users/jinja2/users/profile.html:52
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:69
+#: kitsune/users/jinja2/users/profile.html:71
 msgid "Email"
 msgstr "Ríomhphost"
 
-#: kitsune/users/jinja2/users/profile.html:87
+#: kitsune/users/jinja2/users/profile.html:89
 #, fuzzy
 msgid "Community Portal"
 msgstr "Lárionad an Chomhphobail"
 
-#: kitsune/users/jinja2/users/profile.html:93
+#: kitsune/users/jinja2/users/profile.html:95
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:99
+#: kitsune/users/jinja2/users/profile.html:101
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:114
+#: kitsune/users/jinja2/users/profile.html:116
 #, fuzzy
 msgid "Deactivate this user"
 msgstr "Úsáideoir díghníomhachtaithe"
 
-#: kitsune/users/jinja2/users/profile.html:119
+#: kitsune/users/jinja2/users/profile.html:121
 msgid "Deactivate this user and mark all content as spam"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:122
+#: kitsune/users/jinja2/users/profile.html:124
 #, fuzzy
 msgid "This user has been deactivated."
 msgstr "Scriosadh an cháipéis."
 
-#: kitsune/users/jinja2/users/profile.html:132
+#: kitsune/users/jinja2/users/profile.html:134
 msgid "Involved with Mozilla since {date}"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:140
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} cheist"
@@ -8703,7 +8703,7 @@ msgstr[2] "{0} cheist"
 msgstr[3] "{0} gceist"
 msgstr[4] "{0} ceist"
 
-#: kitsune/users/jinja2/users/profile.html:145
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} fhreagra"
@@ -8712,7 +8712,7 @@ msgstr[2] "{0} fhreagra"
 msgstr[3] "{0} bhfreagra"
 msgstr[4] "{0} freagra"
 
-#: kitsune/users/jinja2/users/profile.html:151
+#: kitsune/users/jinja2/users/profile.html:153
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} réiteach"
@@ -8721,7 +8721,7 @@ msgstr[2] "{0} réiteach"
 msgstr[3] "{0} réiteach"
 msgstr[4] "{0} réiteach"
 
-#: kitsune/users/jinja2/users/profile.html:157
+#: kitsune/users/jinja2/users/profile.html:159
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} cháipéis"
@@ -8730,16 +8730,16 @@ msgstr[2] "{0} cháipéis"
 msgstr[3] "{0} gcáipéis"
 msgstr[4] "{0} cáipéis"
 
-#: kitsune/users/jinja2/users/profile.html:168
+#: kitsune/users/jinja2/users/profile.html:170
 msgid "About {user}"
 msgstr "Maidir le {user}"
 
-#: kitsune/users/jinja2/users/profile.html:174
+#: kitsune/users/jinja2/users/profile.html:176
 #, fuzzy
 msgid "{user}'s Groups"
 msgstr "{group} | Grúpaí"
 
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:188
 #, fuzzy
 msgid "See all available SUMO badges"
 msgstr "Gach suaitheantas SUMO"

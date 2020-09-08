@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-02 19:05-0700\n"
+"POT-Creation-Date: 2020-09-07 19:05-0700\n"
 "PO-Revision-Date: 2020-06-12 15:05+0000\n"
 "Last-Translator: TrickyFoxy <roman.deev06@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -1596,7 +1596,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "Вы были награждены значком '{title}'!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:184
+#: kitsune/users/jinja2/users/profile.html:186
 msgid "Badges"
 msgstr "Значки"
 
@@ -7544,7 +7544,7 @@ msgstr "Сообщить о злоупотреблении торговой ма
 msgid "Source code"
 msgstr "Исходный код"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:81
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
 msgid "Twitter"
 msgstr "Твиттер"
 
@@ -7757,7 +7757,7 @@ msgstr "Управляйте своей приватностью и настро
 msgid "Exchange private messages with other contributors."
 msgstr "Обмен личными сообщениями с другими участниками."
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:201
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
 msgid "Sign Out"
 msgstr "Выйти"
 
@@ -8056,7 +8056,7 @@ msgid ""
 "\n"
 "                Keep in mind your username is visible to the public.\n"
 "                This is a required field that must be unique, 150 characters or fewer.\n"
-"                Letters, digits and @.+-_ only.\n"
+"                This value may contain only letters, numbers, and @/./+/-/_ characters.\n"
 "                "
 msgstr ""
 
@@ -8104,7 +8104,7 @@ msgstr ""
 "Поддерживаются некоторые HTML-теги: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; "
 "&#x3C;strong&#x3E; &#x3C;ul&#x3E;. Ссылки запрещены."
 
-#: kitsune/users/jinja2/users/profile.html:75 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Веб-сайт"
 
@@ -8187,11 +8187,11 @@ msgstr "модератор"
 msgid "Welcome to SUMO!"
 msgstr "Добро пожаловать на SUMO!"
 
-#: kitsune/users/views.py:199
+#: kitsune/users/views.py:200
 msgid "Your settings have been saved."
 msgstr "Ваши настройки были сохранены."
 
-#: kitsune/users/views.py:351
+#: kitsune/users/views.py:356
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr "Эта учётная запись не активна. Пожалуйста, обратитесь к администратору, если вы считаете, что это ошибка"
 
@@ -8353,85 +8353,85 @@ msgstr "{user} | Профиль"
 msgid "Edit user profile"
 msgstr "Изменить профиль пользователя"
 
-#: kitsune/users/jinja2/users/profile.html:42
+#: kitsune/users/jinja2/users/profile.html:43
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s."
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:50
+#: kitsune/users/jinja2/users/profile.html:52
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:69
+#: kitsune/users/jinja2/users/profile.html:71
 msgid "Email"
 msgstr "Эл. почта"
 
-#: kitsune/users/jinja2/users/profile.html:87
+#: kitsune/users/jinja2/users/profile.html:89
 #, fuzzy
 msgid "Community Portal"
 msgstr "Форумы сообщества"
 
-#: kitsune/users/jinja2/users/profile.html:93
+#: kitsune/users/jinja2/users/profile.html:95
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:99
+#: kitsune/users/jinja2/users/profile.html:101
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:114
+#: kitsune/users/jinja2/users/profile.html:116
 msgid "Deactivate this user"
 msgstr "Деактивировать этого пользователя"
 
-#: kitsune/users/jinja2/users/profile.html:119
+#: kitsune/users/jinja2/users/profile.html:121
 msgid "Deactivate this user and mark all content as spam"
 msgstr "Деактивировать этого пользователя и отметить всё содержимое как спам"
 
-#: kitsune/users/jinja2/users/profile.html:122
+#: kitsune/users/jinja2/users/profile.html:124
 msgid "This user has been deactivated."
 msgstr "Этот пользователь был деактивирован."
 
-#: kitsune/users/jinja2/users/profile.html:132
+#: kitsune/users/jinja2/users/profile.html:134
 msgid "Involved with Mozilla since {date}"
 msgstr "Участник проекта Mozilla с {date}"
 
-#: kitsune/users/jinja2/users/profile.html:138
+#: kitsune/users/jinja2/users/profile.html:140
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} вопрос"
 msgstr[1] "{0} вопроса"
 msgstr[2] "{0} вопросов"
 
-#: kitsune/users/jinja2/users/profile.html:145
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} ответ"
 msgstr[1] "{0} ответа"
 msgstr[2] "{0} ответов"
 
-#: kitsune/users/jinja2/users/profile.html:151
+#: kitsune/users/jinja2/users/profile.html:153
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} решение"
 msgstr[1] "{0} решения"
 msgstr[2] "{0} решений"
 
-#: kitsune/users/jinja2/users/profile.html:157
+#: kitsune/users/jinja2/users/profile.html:159
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} документ"
 msgstr[1] "{0} документа"
 msgstr[2] "{0} документов"
 
-#: kitsune/users/jinja2/users/profile.html:168
+#: kitsune/users/jinja2/users/profile.html:170
 msgid "About {user}"
 msgstr "О {user}"
 
-#: kitsune/users/jinja2/users/profile.html:174
+#: kitsune/users/jinja2/users/profile.html:176
 msgid "{user}'s Groups"
 msgstr "Группы пользователя {user}"
 
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:188
 msgid "See all available SUMO badges"
 msgstr "Показать все доступные значки SUMO"
 
