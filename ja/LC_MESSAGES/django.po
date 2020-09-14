@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-07 19:05-0700\n"
+"POT-Creation-Date: 2020-09-13 19:05-0700\n"
 "PO-Revision-Date: 2020-07-08 11:04+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -660,7 +660,7 @@ msgid "These are the top 100 most visited articles in the last 30 days, which ac
 msgstr "これらは、最近 30 日間のアクセス数が最も多いトップ 100 の記事です。これらの合計は、ナレッジベースの全トラフィックの 99% 以上を占めます。"
 
 #: kitsune/dashboards/readouts.py:449 kitsune/dashboards/readouts.py:735 kitsune/dashboards/readouts.py:842 kitsune/dashboards/readouts.py:843 kitsune/sumo/jinja2/includes/common_macros.html:288
-#: kitsune/wiki/config.py:84
+#: kitsune/wiki/config.py:98
 msgid "Templates"
 msgstr "テンプレート"
 
@@ -721,7 +721,7 @@ msgstr "貢献者向け"
 msgid "All How To Contribute articles..."
 msgstr "すべての貢献者向け記事..."
 
-#: kitsune/dashboards/readouts.py:749 kitsune/wiki/config.py:82
+#: kitsune/dashboards/readouts.py:749 kitsune/wiki/config.py:96
 msgid "Administration"
 msgstr "管理用"
 
@@ -801,7 +801,7 @@ msgstr "すべての変更が必要な記事..."
 msgid "Comment"
 msgstr "コメント"
 
-#: kitsune/dashboards/readouts.py:1166 kitsune/wiki/config.py:85
+#: kitsune/dashboards/readouts.py:1166 kitsune/wiki/config.py:99
 msgid "Canned Responses"
 msgstr "返信用定型文"
 
@@ -868,7 +868,7 @@ msgstr "[{product}] ナレッジベースダッシュボード"
 #: kitsune/dashboards/jinja2/dashboards/contributors_old.html:4 kitsune/dashboards/jinja2/dashboards/includes/macros.html:199 kitsune/dashboards/jinja2/dashboards/includes/macros.html:214
 #: kitsune/dashboards/jinja2/dashboards/includes/macros.html:224 kitsune/dashboards/jinja2/dashboards/localization.html:4 kitsune/questions/jinja2/questions/product_list.html:41
 #: kitsune/questions/jinja2/questions/question_details.html:11 kitsune/questions/jinja2/questions/question_list.html:8 kitsune/search/jinja2/search/results.html:99 kitsune/search/views.py:188
-#: kitsune/search/views.py:539
+#: kitsune/search/views.py:544
 msgid "All Products"
 msgstr "すべての製品"
 
@@ -888,7 +888,7 @@ msgstr "役に立った評価数"
 msgid "[{locale}][{product}] Localization Dashboard"
 msgstr "[{locale}][{product}] L10N ダッシュボード"
 
-#: kitsune/dashboards/jinja2/dashboards/localization.html:15 kitsune/questions/jinja2/questions/metrics.html:21 kitsune/wiki/forms.py:374
+#: kitsune/dashboards/jinja2/dashboards/localization.html:15 kitsune/questions/jinja2/questions/metrics.html:21 kitsune/wiki/forms.py:376
 msgid "Locale:"
 msgstr "言語:"
 
@@ -957,12 +957,12 @@ msgid "Review Needed: {comment}"
 msgstr "レビューが必要: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:405 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "はい"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:405 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "いいえ"
 
@@ -1014,7 +1014,7 @@ msgstr "購読..."
 msgid "Waiting for review"
 msgstr "レビュー待ち"
 
-#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:179 kitsune/wiki/forms.py:346 kitsune/wiki/jinja2/wiki/includes/revision_list.html:28
+#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:179 kitsune/wiki/forms.py:348 kitsune/wiki/jinja2/wiki/includes/revision_list.html:28
 msgid "Ready for localization"
 msgstr "翻訳準備完了"
 
@@ -1139,8 +1139,8 @@ msgid "View all deactivated users"
 msgstr "すべての無効化されたユーザーを表示する"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
-#: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:282
+#: kitsune/wiki/forms.py:261 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "内容:"
 
@@ -1430,7 +1430,7 @@ msgstr "メディアのアップロードを続行"
 msgid "Your avatar will be resized to {size}x{size}"
 msgstr "アバターは {size}x{size} にサイズ変更されます"
 
-#: kitsune/groups/forms.py:46 kitsune/search/forms.py:153 kitsune/wiki/forms.py:361
+#: kitsune/groups/forms.py:46 kitsune/search/forms.py:153 kitsune/wiki/forms.py:363
 msgid "username"
 msgstr "ユーザー名"
 
@@ -1835,7 +1835,7 @@ msgstr "このロケールを監視"
 msgid "Watch"
 msgstr "監視"
 
-#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:92
+#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:107
 msgid "Replies"
 msgstr "返信"
 
@@ -1948,7 +1948,7 @@ msgstr "最後の返信者: "
 msgid "Sticky"
 msgstr "常駐"
 
-#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:84 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
+#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:97 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
 msgid "Locked"
 msgstr "ロック"
 
@@ -2668,12 +2668,12 @@ msgstr "Firefox をアップデート"
 msgid "Profiles"
 msgstr "プロファイル"
 
-#: kitsune/products/jinja2/products/product.html:41 kitsune/products/jinja2/products/product.html:44 kitsune/products/jinja2/products/product.html:111 kitsune/questions/config.py:97
-#: kitsune/questions/config.py:177
+#: kitsune/products/jinja2/products/product.html:41 kitsune/products/jinja2/products/product.html:44 kitsune/products/jinja2/products/product.html:111 kitsune/questions/config.py:113
+#: kitsune/questions/config.py:219
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: kitsune/products/jinja2/products/product.html:45 kitsune/products/jinja2/products/product.html:80 kitsune/questions/config.py:77 kitsune/questions/config.py:157
+#: kitsune/products/jinja2/products/product.html:45 kitsune/products/jinja2/products/product.html:80 kitsune/questions/config.py:81 kitsune/questions/config.py:187
 msgid "Bookmarks"
 msgstr "ブックマーク"
 
@@ -2891,267 +2891,267 @@ msgstr "Firefox"
 msgid "Web browser for Windows, Mac and Linux"
 msgstr "Windows および Mac、Linux 向けのウェブブラウザー"
 
-#: kitsune/questions/config.py:39 kitsune/questions/config.py:119 kitsune/questions/config.py:297
+#: kitsune/questions/config.py:39 kitsune/questions/config.py:145 kitsune/questions/config.py:349
 msgid "Download, install and migration"
 msgstr "ダウンロードとインストール、データの移行"
 
-#: kitsune/questions/config.py:47 kitsune/questions/config.py:127 kitsune/questions/config.py:305
+#: kitsune/questions/config.py:47 kitsune/questions/config.py:153 kitsune/questions/config.py:357
 msgid "Privacy and security settings"
 msgstr "プライバシーとセキュリティの設定"
 
-#: kitsune/questions/config.py:55 kitsune/questions/config.py:135 kitsune/questions/config.py:313
+#: kitsune/questions/config.py:55 kitsune/questions/config.py:161 kitsune/questions/config.py:365
 msgid "Customize controls, options and add-ons"
 msgstr "ツールバーのカスタマイズと環境設定、アドオン"
 
-#: kitsune/questions/config.py:63 kitsune/questions/config.py:143 kitsune/questions/config.py:321
+#: kitsune/questions/config.py:63 kitsune/questions/config.py:169 kitsune/questions/config.py:373
 msgid "Fix slowness, crashing, error messages and other problems"
 msgstr "遅い動作、クラッシュ、エラーメッセージの解決と他の問題"
 
-#: kitsune/questions/config.py:72 kitsune/questions/config.py:152
+#: kitsune/questions/config.py:73 kitsune/questions/config.py:179
 msgid "Tips and tricks"
 msgstr "ヒントと活用法"
 
-#: kitsune/questions/config.py:84 kitsune/questions/config.py:164 kitsune/sumo/jinja2/base.html:300
+#: kitsune/questions/config.py:89 kitsune/questions/config.py:195 kitsune/sumo/jinja2/base.html:300
 msgid "Cookies"
 msgstr "Cookie"
 
-#: kitsune/questions/config.py:86 kitsune/questions/config.py:166
+#: kitsune/questions/config.py:97 kitsune/questions/config.py:203
 msgid "Tabs"
 msgstr "タブ"
 
-#: kitsune/questions/config.py:90 kitsune/questions/config.py:170
+#: kitsune/questions/config.py:105 kitsune/questions/config.py:211
 msgid "Websites"
 msgstr "ウェブサイト"
 
-#: kitsune/questions/config.py:99 kitsune/questions/config.py:179 kitsune/questions/config.py:337 kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:10
+#: kitsune/questions/config.py:121 kitsune/questions/config.py:227 kitsune/questions/config.py:392 kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:10
 msgid "Other"
 msgstr "その他"
 
-#: kitsune/questions/config.py:107 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:133 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Android 版 Firefox"
 
-#: kitsune/questions/config.py:108
+#: kitsune/questions/config.py:134
 msgid "Web browser for Android smartphones and tablets"
 msgstr "Android スマートフォンとタブレット向けのウェブブラウザー"
 
-#: kitsune/questions/config.py:187 kitsune/sumo/jinja2/includes/common_macros.html:67 kitsune/sumo/jinja2/includes/common_macros.html:86
+#: kitsune/questions/config.py:239 kitsune/sumo/jinja2/includes/common_macros.html:67 kitsune/sumo/jinja2/includes/common_macros.html:86
 msgid "Firefox for iOS"
 msgstr "iOS 版 Firefox"
 
-#: kitsune/questions/config.py:188
+#: kitsune/questions/config.py:240
 msgid "Firefox for iPhone, iPad and iPod touch devices"
 msgstr "iPhone、iPad、iPod touch 端末向け Firefox"
 
-#: kitsune/questions/config.py:197 kitsune/questions/config.py:463
+#: kitsune/questions/config.py:249 kitsune/questions/config.py:522
 msgid "Install and Update"
 msgstr "インストールと更新"
 
-#: kitsune/questions/config.py:205
+#: kitsune/questions/config.py:257
 msgid "How to use Firefox for iOS"
 msgstr "iOS 版 Firefox の使い方"
 
-#: kitsune/questions/config.py:213
+#: kitsune/questions/config.py:265
 msgid "Firefox for iOS is not working as expected"
 msgstr "iOS 版 Firefox が期待通りに動作しない"
 
-#: kitsune/questions/config.py:225
+#: kitsune/questions/config.py:277
 msgid "Firefox Focus"
 msgstr "Firefox Focus"
 
-#: kitsune/questions/config.py:226
+#: kitsune/questions/config.py:278
 msgid "Automatic privacy browser and content blocker"
 msgstr "自動プライバシーブラウザー兼コンテンツブロッカー"
 
-#: kitsune/questions/config.py:235
+#: kitsune/questions/config.py:287
 msgid "Firefox Focus for iOS"
 msgstr "iOS 版 Firefox Focus"
 
-#: kitsune/questions/config.py:243
+#: kitsune/questions/config.py:295
 msgid "Firefox Focus for Android"
 msgstr "Android 版 Firefox Focus"
 
-#: kitsune/questions/config.py:255
+#: kitsune/questions/config.py:307
 msgid "Firefox for Amazon Devices"
 msgstr "Amazon 端末向け Firefox"
 
-#: kitsune/questions/config.py:256
+#: kitsune/questions/config.py:308
 msgid "Browser for Amazon devices"
 msgstr "Amazon 端末向けブラウザー"
 
-#: kitsune/questions/config.py:265
+#: kitsune/questions/config.py:317
 msgid "Firefox for Fire TV"
 msgstr "Firefox for Fire TV"
 
-#: kitsune/questions/config.py:273
+#: kitsune/questions/config.py:325
 msgid "Firefox for Echo Show"
 msgstr "Firefox for Echo Show"
 
-#: kitsune/questions/config.py:285
+#: kitsune/questions/config.py:337
 msgid "Thunderbird"
 msgstr "Thunderbird"
 
-#: kitsune/questions/config.py:286
+#: kitsune/questions/config.py:338
 msgid "Email software for Windows, Mac and Linux"
 msgstr "Windows および Mac、Linux 向けのメールソフトウェア"
 
-#: kitsune/questions/config.py:332
+#: kitsune/questions/config.py:384
 msgid "Calendar"
 msgstr "カレンダー"
 
-#: kitsune/questions/config.py:345
+#: kitsune/questions/config.py:404
 msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
-#: kitsune/questions/config.py:346
+#: kitsune/questions/config.py:405
 #, fuzzy
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr "インドネシアおよびインド、フィリピン、タイのユーザー向けのモバイルブラウザー"
 
-#: kitsune/questions/config.py:357
+#: kitsune/questions/config.py:416
 msgid "Get started"
 msgstr "はじめに"
 
-#: kitsune/questions/config.py:365
+#: kitsune/questions/config.py:424
 msgid "Fix problems"
 msgstr "問題を解決"
 
-#: kitsune/questions/config.py:377
+#: kitsune/questions/config.py:436
 msgid "Firefox for Enterprise"
 msgstr "法人向け Firefox"
 
-#: kitsune/questions/config.py:378
+#: kitsune/questions/config.py:437
 #, fuzzy
 msgid "Firefox Quantum for businesses"
 msgstr "法人向け Firefox Quantum"
 
-#: kitsune/questions/config.py:387
+#: kitsune/questions/config.py:446
 msgid "Deploy"
 msgstr "展開"
 
-#: kitsune/questions/config.py:395
+#: kitsune/questions/config.py:454
 msgid "Manage updates, policies & customization"
 msgstr "更新、ポリシー、カスタマイズの管理"
 
-#: kitsune/questions/config.py:403
+#: kitsune/questions/config.py:462
 msgid "Manage add-ons"
 msgstr "アドオンの管理"
 
-#: kitsune/questions/config.py:411
+#: kitsune/questions/config.py:470
 msgid "Manage certificates"
 msgstr "証明書の管理"
 
-#: kitsune/questions/config.py:423
+#: kitsune/questions/config.py:482
 msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
-#: kitsune/questions/config.py:424
+#: kitsune/questions/config.py:483
 #, fuzzy
 msgid "Firefox for Virtual Reality headsets"
 msgstr "仮想現実 (VR) 向け Firefox"
 
-#: kitsune/questions/config.py:433
+#: kitsune/questions/config.py:492
 msgid "Get started with Firefox Reality"
 msgstr "初めての Firefox Reality"
 
-#: kitsune/questions/config.py:441
+#: kitsune/questions/config.py:500
 msgid "Troubleshooting Firefox Reality"
 msgstr "Firefox Reality のトラブルシューティング"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:512
 #, fuzzy
 msgid "Firefox for Android Beta"
 msgstr "Android 版 Firefox"
 
-#: kitsune/questions/config.py:454
+#: kitsune/questions/config.py:513
 #, fuzzy
 msgid "Early version of an experimental Firefox browser for Android"
 msgstr "Android 版 Firefox ブラウザーの実験的な早期バージョン。"
 
-#: kitsune/questions/config.py:471
+#: kitsune/questions/config.py:530
 msgid "How do I use Firefox Preview"
 msgstr "Firefox Preview の使い方"
 
-#: kitsune/questions/config.py:479
+#: kitsune/questions/config.py:538
 msgid "Browsing"
 msgstr "ブラウジング"
 
-#: kitsune/questions/config.py:486
+#: kitsune/questions/config.py:546
 msgid "Library"
 msgstr "ライブラリー"
 
-#: kitsune/questions/config.py:490
+#: kitsune/questions/config.py:554
 msgid "Sync"
 msgstr "Firefox Sync"
 
-#: kitsune/questions/config.py:495
+#: kitsune/questions/config.py:562
 msgid "Privacy and Security"
 msgstr "プライバシーとセキュリティ"
 
-#: kitsune/questions/config.py:503
+#: kitsune/questions/config.py:570
 msgid "Fix problems with Firefox Preview"
 msgstr "Firefox Preview の問題の解決"
 
-#: kitsune/questions/config.py:511
+#: kitsune/questions/config.py:578
 msgid "Settings and Preferences"
 msgstr "設定"
 
-#: kitsune/questions/config.py:519
+#: kitsune/questions/config.py:586
 msgid "Advanced Settings"
 msgstr "詳細設定"
 
-#: kitsune/questions/config.py:531 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:598 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:532
+#: kitsune/questions/config.py:599
 #, fuzzy
 msgid "Mobile app that gives you access to passwords you have saved to Firefox"
 msgstr "Firefox に保存したパスワードにアクセスできるモバイルアプリ。"
 
-#: kitsune/questions/config.py:543
+#: kitsune/questions/config.py:610
 msgid "Install and set up"
 msgstr "インストールとセットアップ"
 
-#: kitsune/questions/config.py:551
+#: kitsune/questions/config.py:618
 msgid "Manage settings and logins"
 msgstr "設定とログイン情報の管理"
 
-#: kitsune/questions/config.py:559
+#: kitsune/questions/config.py:626
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Firefox Lockwise の問題の解決"
 
-#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+#: kitsune/questions/config.py:638 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 msgid "Firefox Private Network"
 msgstr "Firefox Private Network"
 
-#: kitsune/questions/config.py:572
+#: kitsune/questions/config.py:639
 #, fuzzy
 msgid "Browse securely on public Wi-Fi"
 msgstr "公共 Wi-Fi で安全にブラウジング"
 
-#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
+#: kitsune/questions/config.py:648 kitsune/questions/config.py:694
 msgid "Technical"
 msgstr "技術"
 
-#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
+#: kitsune/questions/config.py:656 kitsune/questions/config.py:702
 msgid "Accounts"
 msgstr "アカウント"
 
-#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
+#: kitsune/questions/config.py:664 kitsune/questions/config.py:710
 msgid "Payments"
 msgstr "支払い"
 
-#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
+#: kitsune/questions/config.py:672 kitsune/questions/config.py:718 kitsune/wiki/config.py:93
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
 
-#: kitsune/questions/config.py:617
+#: kitsune/questions/config.py:684
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla ニュース"
 
-#: kitsune/questions/config.py:618
+#: kitsune/questions/config.py:685
 #, fuzzy
 msgid "VPN for Windows 10, Android and iOS devices"
 msgstr "Windows 10 と Android 端末向け VPN"
@@ -3294,23 +3294,23 @@ msgstr "ここに返信を記入してください。"
 msgid "Enter your email address here."
 msgstr "ここにあなたのメールアドレスを記入してください。"
 
-#: kitsune/questions/forms.py:152
+#: kitsune/questions/forms.py:169
 msgid " (optional):"
 msgstr ""
 
-#: kitsune/questions/forms.py:296
+#: kitsune/questions/forms.py:313
 msgid "Please provide an email."
 msgstr "メールアドレスを記入してください。"
 
-#: kitsune/questions/forms.py:310
+#: kitsune/questions/forms.py:327
 msgid "Interval"
 msgstr "期間"
 
-#: kitsune/questions/forms.py:313
+#: kitsune/questions/forms.py:330
 msgid "Start"
 msgstr "開始日"
 
-#: kitsune/questions/forms.py:314
+#: kitsune/questions/forms.py:331
 msgid "End"
 msgstr "終了日"
 
@@ -3322,95 +3322,95 @@ msgstr "そのタグは存在しません。"
 msgid "Please provide a tag."
 msgstr "タグを記入してください。"
 
-#: kitsune/questions/views.py:77
+#: kitsune/questions/views.py:79
 msgid "Recently unanswered"
 msgstr "最近の未回答の質問"
 
-#: kitsune/questions/views.py:79
+#: kitsune/questions/views.py:84
 msgid "New"
 msgstr "新着"
 
-#: kitsune/questions/views.py:79
+#: kitsune/questions/views.py:85
 msgid "Answers didn't help"
 msgstr "助けにならなかった回答"
 
-#: kitsune/questions/views.py:82
+#: kitsune/questions/views.py:90
 msgid "Needs info"
 msgstr "情報が必要"
 
-#: kitsune/questions/views.py:82
+#: kitsune/questions/views.py:91
 msgid "Solution provided"
 msgstr "提供された解決策"
 
-#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:84 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
+#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:96 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
 msgid "Solved"
 msgstr "解決済み"
 
-#: kitsune/questions/views.py:89
+#: kitsune/questions/views.py:104
 msgid "Updated"
 msgstr "更新日"
 
-#: kitsune/questions/views.py:90
+#: kitsune/questions/views.py:105
 msgid "Views"
 msgstr "表示回数"
 
-#: kitsune/questions/views.py:91 kitsune/search/forms.py:243
+#: kitsune/questions/views.py:106 kitsune/search/forms.py:243
 msgid "Votes"
 msgstr "投票"
 
-#: kitsune/questions/views.py:472
+#: kitsune/questions/views.py:487
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "質問フォーラムは {old_lang} で利用できません。{new_lang} の質問フォーラムへリダイレクトします。"
 
-#: kitsune/questions/views.py:518
+#: kitsune/questions/views.py:533
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "{product} の質問フォーラムは {old_lang} で利用できません。{new_lang} の質問フォーラムへリダイレクトします。"
 
-#: kitsune/questions/views.py:567
+#: kitsune/questions/views.py:584
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:760
+#: kitsune/questions/views.py:791
 msgid "Thank you for choosing a solution!"
 msgstr "解決策を選んでいただきありがとうございます！"
 
-#: kitsune/questions/views.py:763
+#: kitsune/questions/views.py:794
 msgid "This question already has a solution."
 msgstr "この質問はすでに解決しています。"
 
-#: kitsune/questions/views.py:785
+#: kitsune/questions/views.py:816
 msgid "The solution was undone successfully."
 msgstr "解決策はうまくいきませんでした。"
 
-#: kitsune/questions/views.py:856
+#: kitsune/questions/views.py:896
 msgid "Glad to hear it!"
 msgstr "ありがとうございます！"
 
-#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:898 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "お役に立てず申し訳ありません。"
 
-#: kitsune/questions/views.py:878
+#: kitsune/questions/views.py:918
 msgid "You already voted on this reply."
 msgstr "この返信にはすでに投票済みです。"
 
-#: kitsune/questions/views.py:1161
+#: kitsune/questions/views.py:1201
 msgid "Could not send a message to that email address."
 msgstr "指定されたメールアドレスにメッセージを送信できませんでした。"
 
-#: kitsune/questions/views.py:1167
+#: kitsune/questions/views.py:1207
 msgid "You will be notified of updates by email."
 msgstr "メールによる更新通知を受け取ります。"
 
-#: kitsune/questions/views.py:1169
+#: kitsune/questions/views.py:1209
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "購読を確認するためのメールを送信しました。"
 
-#: kitsune/questions/views.py:1386
+#: kitsune/questions/views.py:1428
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr "{user} さんを画面共有セッションに招待しました。セッションが完了したらここにその後の情報を提供します。"
 
-#: kitsune/questions/views.py:1499
+#: kitsune/questions/views.py:1544
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -4338,7 +4338,7 @@ msgstr "回答数"
 msgid "Helpful votes"
 msgstr "役に立つ評価数"
 
-#: kitsune/search/es_utils.py:857 kitsune/search/jinja2/search/down.html:5
+#: kitsune/search/es_utils.py:882 kitsune/search/jinja2/search/down.html:5
 msgid "Search Unavailable"
 msgstr "検索システムは現在利用できません"
 
@@ -4395,15 +4395,15 @@ msgctxt "between search excerpts"
 msgid "..."
 msgstr "..."
 
-#: kitsune/search/views.py:151 kitsune/search/views.py:276
+#: kitsune/search/views.py:151 kitsune/search/views.py:281
 msgid "Invalid search data."
 msgstr "無効な検索データです。"
 
-#: kitsune/search/views.py:225 kitsune/search/views.py:577
+#: kitsune/search/views.py:225 kitsune/search/views.py:582
 msgid "No pages matched the search criteria"
 msgstr "検索条件に一致するページはありません"
 
-#: kitsune/search/views.py:619
+#: kitsune/search/views.py:624
 msgid "No title"
 msgstr "タイトルなし"
 
@@ -7475,12 +7475,12 @@ msgstr "ページが存在しません。"
 msgid "The image \"%s\" does not exist."
 msgstr "画像 \"%s\" は存在しません。"
 
-#: kitsune/sumo/parser.py:330
+#: kitsune/sumo/parser.py:334
 #, python-format
 msgid "The video \"%s\" does not exist."
 msgstr "\"%s\" の動画は存在しません。"
 
-#: kitsune/sumo/parser.py:362
+#: kitsune/sumo/parser.py:366
 #, python-format
 msgid "Button of type \"%s\" does not exist."
 msgstr "\"%s\" というボタンテンプレートは存在しません。"
@@ -7851,31 +7851,31 @@ msgid "%(number)d month ago"
 msgid_plural "%(number)d months ago"
 msgstr[0] "%(number)d か月前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:358
+#: kitsune/sumo/templatetags/jinja_helpers.py:360
 #, python-format
 msgid "%(number)d week ago"
 msgid_plural "%(number)d weeks ago"
 msgstr[0] "%(number)d 週間前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:359
+#: kitsune/sumo/templatetags/jinja_helpers.py:364
 #, python-format
 msgid "%(number)d day ago"
 msgid_plural "%(number)d days ago"
 msgstr[0] "%(number)d 日前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:360
+#: kitsune/sumo/templatetags/jinja_helpers.py:368
 #, python-format
 msgid "%(number)d hour ago"
 msgid_plural "%(number)d hours ago"
 msgstr[0] "%(number)d 時間前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:361
+#: kitsune/sumo/templatetags/jinja_helpers.py:370
 #, python-format
 msgid "%(number)d minute ago"
 msgid_plural "%(number)d minutes ago"
 msgstr[0] "%(number)d 分前"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:362
+#: kitsune/sumo/templatetags/jinja_helpers.py:371
 #, python-format
 msgid "%(number)d second ago"
 msgid_plural "%(number)d seconds ago"
@@ -8153,11 +8153,11 @@ msgstr "モデレーター"
 msgid "Welcome to SUMO!"
 msgstr "SUMO へようこそ！"
 
-#: kitsune/users/views.py:200
+#: kitsune/users/views.py:201
 msgid "Your settings have been saved."
 msgstr "設定が保存されました。"
 
-#: kitsune/users/views.py:356
+#: kitsune/users/views.py:357
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr ""
 
@@ -8551,23 +8551,23 @@ msgstr ""
 msgid "Private message"
 msgstr "プライベートメッセージ"
 
-#: kitsune/wiki/config.py:43
+#: kitsune/wiki/config.py:53
 msgid "Minor details that don't affect the instructions"
 msgstr "説明に影響しない細かい変更"
 
-#: kitsune/wiki/config.py:44
+#: kitsune/wiki/config.py:57
 msgid "Content changes that don't require immediate translation"
 msgstr "すぐに翻訳に反映させる必要のない変更"
 
-#: kitsune/wiki/config.py:47
+#: kitsune/wiki/config.py:61
 msgid "Major content changes that will make older translations inaccurate"
 msgstr "古い翻訳を不正確にする大きな内容の変更"
 
-#: kitsune/wiki/config.py:52
+#: kitsune/wiki/config.py:66
 msgid "These minor changes are not important for localizers and they will not be notified."
 msgstr "この細かい変更は、ローカライザーにとって重要な内容ではなく、注意を払う必要はありません。"
 
-#: kitsune/wiki/config.py:55
+#: kitsune/wiki/config.py:69
 msgid ""
 "This will notify localizers and translations will be marked as \"needing updates\" on dashboards. Most changes&mdash;updating an image, fixing {for} markup, adding or removing non-critical "
 "sections&mdash;should use this."
@@ -8575,7 +8575,7 @@ msgstr ""
 "この変更は、ローカライザーと翻訳者に通知され、「更新が必要な記事」としてダッシュボード上に表示されます。ほとんどの変更 (画像の更新、{for} マークアップの修正、重要でないセクションの追加や削除) は、こ"
 "れに該当します。"
 
-#: kitsune/wiki/config.py:61
+#: kitsune/wiki/config.py:75
 msgid ""
 "This will notify localizers and translations will be marked \"out of date\" on dashboards. Translations will show a warning to users that they are out of date and that the English version is the "
 "most accurate. Use this when the old instructions are completely unusable."
@@ -8583,24 +8583,24 @@ msgstr ""
 "この変更は、ローカライザーと翻訳者に通知され、「有効期限切れの記事」としてダッシュボード上に表示されます。翻訳記事の上部に警告が表示され、英語版の記事が最も正確であることをユーザーに知らせます。説明"
 "が古く完全に役立たずである場合は、これに該当します。"
 
-#: kitsune/wiki/config.py:80
+#: kitsune/wiki/config.py:94
 msgid "How to"
 msgstr "操作方法"
 
-#: kitsune/wiki/config.py:81
+#: kitsune/wiki/config.py:95
 msgid "How to contribute"
 msgstr "協力するには"
 
-#: kitsune/wiki/config.py:83
+#: kitsune/wiki/config.py:97
 msgid "Navigation"
 msgstr "ナビゲーション"
 
-#: kitsune/wiki/config.py:90
+#: kitsune/wiki/config.py:104
 #, python-format
 msgid "%(old)s Redirect %(number)i"
 msgstr "%(old)s Redirect %(number)i"
 
-#: kitsune/wiki/config.py:91
+#: kitsune/wiki/config.py:105
 #, python-format
 msgid "%(old)s-redirect-%(number)i"
 msgstr "%(old)s-redirect-%(number)i"
@@ -8613,11 +8613,11 @@ msgstr "{title} は {creator} により編集されました"
 msgid "{title} is ready for review ({creator})"
 msgstr "{title} はレビュー待ちです ({creator})"
 
-#: kitsune/wiki/events.py:240 kitsune/wiki/events.py:306
+#: kitsune/wiki/events.py:242 kitsune/wiki/events.py:308
 msgid "{title} has a revision ready for localization"
 msgstr "{title} の記事に翻訳準備が完了したリビジョンがあります"
 
-#: kitsune/wiki/events.py:321
+#: kitsune/wiki/events.py:323
 msgid "{title} ({locale}) has a new approved revision ({reviewer})"
 msgstr "{title} ({locale}) に新たに承認されたリビジョンがあります ({reviewer})"
 
@@ -8735,48 +8735,48 @@ msgstr "関連文書:"
 msgid "Needs change:"
 msgstr "変更が必要:"
 
-#: kitsune/wiki/forms.py:168 kitsune/wiki/forms.py:270 kitsune/wiki/forms.py:330 kitsune/wiki/forms.py:352 kitsune/wiki/jinja2/wiki/revision.html:31
+#: kitsune/wiki/forms.py:168 kitsune/wiki/forms.py:272 kitsune/wiki/forms.py:332 kitsune/wiki/forms.py:354 kitsune/wiki/jinja2/wiki/revision.html:31
 msgid "Comment:"
 msgstr "コメント:"
 
-#: kitsune/wiki/forms.py:240 kitsune/wiki/jinja2/wiki/includes/document_macros.html:172 kitsune/wiki/jinja2/wiki/review_revision.html:69 kitsune/wiki/jinja2/wiki/review_translation.html:81
+#: kitsune/wiki/forms.py:241 kitsune/wiki/jinja2/wiki/includes/document_macros.html:172 kitsune/wiki/jinja2/wiki/review_revision.html:69 kitsune/wiki/jinja2/wiki/review_translation.html:81
 #: kitsune/wiki/jinja2/wiki/translate.html:173
 msgid "Keywords:"
 msgstr "キーワード:"
 
-#: kitsune/wiki/forms.py:240
+#: kitsune/wiki/forms.py:242
 msgid "Affects search results"
 msgstr "検索結果に影響します"
 
-#: kitsune/wiki/forms.py:247 kitsune/wiki/jinja2/wiki/translate.html:183
+#: kitsune/wiki/forms.py:249 kitsune/wiki/jinja2/wiki/translate.html:183
 msgid "Search result summary:"
 msgstr "検索結果に表示する要約:"
 
-#: kitsune/wiki/forms.py:248
+#: kitsune/wiki/forms.py:250
 msgid "Only displayed on search results page"
 msgstr "検索結果のページにのみ表示されます"
 
-#: kitsune/wiki/forms.py:268
+#: kitsune/wiki/forms.py:270
 msgid "Expiry date:"
 msgstr "有効期限:"
 
-#: kitsune/wiki/forms.py:336
+#: kitsune/wiki/forms.py:338
 msgid "Significance:"
 msgstr "重要性:"
 
-#: kitsune/wiki/forms.py:349
+#: kitsune/wiki/forms.py:351
 msgid "Needs change"
 msgstr "変更が必要"
 
-#: kitsune/wiki/forms.py:375
+#: kitsune/wiki/forms.py:377
 msgid "Users:"
 msgstr "ユーザー:"
 
-#: kitsune/wiki/forms.py:376
+#: kitsune/wiki/forms.py:378
 msgid "Start:"
 msgstr "開始日:"
 
-#: kitsune/wiki/forms.py:377
+#: kitsune/wiki/forms.py:379
 msgid "End:"
 msgstr "終了日:"
 
@@ -8822,22 +8822,22 @@ msgstr "タイトルが「{prefix}」で始まるドキュメントはテンプ�
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "リビジョンは英語記事がベースでなければなりません。リビジョン ID %(id)s はこの基準に合いません。"
 
-#: kitsune/wiki/parser.py:58
+#: kitsune/wiki/parser.py:61
 msgid "Table of Contents"
 msgstr "目次"
 
 #. L10n: This error is displayed if a template is included into itself.
-#: kitsune/wiki/parser.py:355
+#: kitsune/wiki/parser.py:358
 #, python-format
 msgid "[Recursive inclusion of \"%s\"]"
 msgstr "[Recursive inclusion of \"%s\"]"
 
-#: kitsune/wiki/parser.py:414
+#: kitsune/wiki/parser.py:417
 #, python-format
 msgid "The document \"%s\" does not exist."
 msgstr "\"%s\" のドキュメントは存在しません。"
 
-#: kitsune/wiki/parser.py:441
+#: kitsune/wiki/parser.py:444
 #, python-format
 msgid "The template \"%s\" does not exist or has no approved revision."
 msgstr "このテンプレート \"%s\" は存在しないか承認されていません。"
@@ -8910,28 +8910,28 @@ msgstr "この記事にはすでに投票済みです。"
 msgid "Thanks for making us better!"
 msgstr "ご投票ありがとうございます。"
 
-#: kitsune/wiki/views.py:1301
+#: kitsune/wiki/views.py:1309
 #, python-format
 msgid "Revision %s"
 msgstr "リビジョン %s"
 
-#: kitsune/wiki/views.py:1310
+#: kitsune/wiki/views.py:1319
 msgid "Firefox Releases"
 msgstr "Firefox リリース"
 
-#: kitsune/wiki/views.py:1314
+#: kitsune/wiki/views.py:1327
 msgid "Article Revisions"
 msgstr "記事のリビジョン"
 
-#: kitsune/wiki/views.py:1418
+#: kitsune/wiki/views.py:1434
 msgid "{users} added to the contributors successfully!"
 msgstr "{users} さんが貢献者に追加されました。"
 
-#: kitsune/wiki/views.py:1425
+#: kitsune/wiki/views.py:1441
 msgid "There were errors adding new contributors, see below."
 msgstr "新しい貢献者を追加する時にエラーが発生しました。以下を参照してください。"
 
-#: kitsune/wiki/views.py:1443
+#: kitsune/wiki/views.py:1459
 msgid "{user} removed from the contributors successfully!"
 msgstr "{user} さんが貢献者から削除されました。"
 

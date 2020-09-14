@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-07 19:05-0700\n"
+"POT-Creation-Date: 2020-09-13 19:05-0700\n"
 "PO-Revision-Date: 2020-07-09 11:53+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -654,7 +654,7 @@ msgid "These are the top 100 most visited articles in the last 30 days, which ac
 msgstr "Ez a 100 leglátogatottabb angol nyelvű leírás az elmúlt 30 napban, amelyek az angol nyelvű Tudásbázis forgalmának 99%-át teszik ki."
 
 #: kitsune/dashboards/readouts.py:449 kitsune/dashboards/readouts.py:735 kitsune/dashboards/readouts.py:842 kitsune/dashboards/readouts.py:843 kitsune/sumo/jinja2/includes/common_macros.html:288
-#: kitsune/wiki/config.py:84
+#: kitsune/wiki/config.py:98
 msgid "Templates"
 msgstr "Sablonok"
 
@@ -716,7 +716,7 @@ msgstr "Közreműködés módjai"
 msgid "All How To Contribute articles..."
 msgstr "Összes közreműködési leírás…"
 
-#: kitsune/dashboards/readouts.py:749 kitsune/wiki/config.py:82
+#: kitsune/dashboards/readouts.py:749 kitsune/wiki/config.py:96
 msgid "Administration"
 msgstr "Adminisztráció"
 
@@ -796,7 +796,7 @@ msgstr "Összes módosításra váró leírás…"
 msgid "Comment"
 msgstr "Hozzászólás"
 
-#: kitsune/dashboards/readouts.py:1166 kitsune/wiki/config.py:85
+#: kitsune/dashboards/readouts.py:1166 kitsune/wiki/config.py:99
 msgid "Canned Responses"
 msgstr "Konzervválaszok"
 
@@ -862,7 +862,7 @@ msgstr "[{product}] tudásbázis vezérlőpultja"
 #: kitsune/dashboards/jinja2/dashboards/contributors_old.html:4 kitsune/dashboards/jinja2/dashboards/includes/macros.html:199 kitsune/dashboards/jinja2/dashboards/includes/macros.html:214
 #: kitsune/dashboards/jinja2/dashboards/includes/macros.html:224 kitsune/dashboards/jinja2/dashboards/localization.html:4 kitsune/questions/jinja2/questions/product_list.html:41
 #: kitsune/questions/jinja2/questions/question_details.html:11 kitsune/questions/jinja2/questions/question_list.html:8 kitsune/search/jinja2/search/results.html:99 kitsune/search/views.py:188
-#: kitsune/search/views.py:539
+#: kitsune/search/views.py:544
 msgid "All Products"
 msgstr "Összes termék"
 
@@ -882,7 +882,7 @@ msgstr "Hasznos szavazatok"
 msgid "[{locale}][{product}] Localization Dashboard"
 msgstr "[{locale}] [{product}] fordítói vezérlőpult"
 
-#: kitsune/dashboards/jinja2/dashboards/localization.html:15 kitsune/questions/jinja2/questions/metrics.html:21 kitsune/wiki/forms.py:374
+#: kitsune/dashboards/jinja2/dashboards/localization.html:15 kitsune/questions/jinja2/questions/metrics.html:21 kitsune/wiki/forms.py:376
 msgid "Locale:"
 msgstr "Nyelv:"
 
@@ -951,12 +951,12 @@ msgid "Review Needed: {comment}"
 msgstr "Ellenőrzés szükséges: {comment}"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:33 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:38 kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:45
-#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
+#: kitsune/search/__init__.py:43 kitsune/sumo/templatetags/jinja_helpers.py:405 kitsune/sumo/views.py:48 kitsune/wiki/jinja2/wiki/includes/document_macros.html:341
 msgid "Yes"
 msgstr "Igen"
 
 #: kitsune/dashboards/jinja2/dashboards/includes/kb_overview.html:40 kitsune/questions/jinja2/questions/includes/answer.html:124 kitsune/search/__init__.py:44
-#: kitsune/sumo/templatetags/jinja_helpers.py:396 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
+#: kitsune/sumo/templatetags/jinja_helpers.py:405 kitsune/sumo/views.py:49 kitsune/wiki/jinja2/wiki/includes/document_macros.html:342
 msgid "No"
 msgstr "Nem"
 
@@ -1008,7 +1008,7 @@ msgstr "Feliratkozás…"
 msgid "Waiting for review"
 msgstr "Ellenőrzésre vár"
 
-#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:179 kitsune/wiki/forms.py:346 kitsune/wiki/jinja2/wiki/includes/revision_list.html:28
+#: kitsune/dashboards/jinja2/dashboards/includes/macros.html:179 kitsune/wiki/forms.py:348 kitsune/wiki/jinja2/wiki/includes/revision_list.html:28
 msgid "Ready for localization"
 msgstr "Fordításra kész"
 
@@ -1133,8 +1133,8 @@ msgid "View all deactivated users"
 msgstr "Összes deaktivált felhasználó megjelenítése"
 
 #: kitsune/flagit/jinja2/flagit/includes/flagged_answer.html:2 kitsune/flagit/jinja2/flagit/includes/flagged_post.html:4 kitsune/flagit/jinja2/flagit/includes/flagged_profile.html:2
-#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:265
-#: kitsune/wiki/forms.py:259 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
+#: kitsune/flagit/jinja2/flagit/includes/flagged_question.html:4 kitsune/kbforums/forms.py:35 kitsune/kbforums/forms.py:66 kitsune/kbforums/forms.py:102 kitsune/questions/forms.py:282
+#: kitsune/wiki/forms.py:261 kitsune/wiki/jinja2/wiki/includes/document_macros.html:184 kitsune/wiki/jinja2/wiki/review_translation.html:95
 msgid "Content:"
 msgstr "Tartalom:"
 
@@ -1424,7 +1424,7 @@ msgstr "Média feltöltésének folytatása"
 msgid "Your avatar will be resized to {size}x{size}"
 msgstr "Az avatarja átméreteződik {size}x{size} méretre"
 
-#: kitsune/groups/forms.py:46 kitsune/search/forms.py:153 kitsune/wiki/forms.py:361
+#: kitsune/groups/forms.py:46 kitsune/search/forms.py:153 kitsune/wiki/forms.py:363
 msgid "username"
 msgstr "felhasználónév"
 
@@ -1829,7 +1829,7 @@ msgstr "Nyelv követése"
 msgid "Watch"
 msgstr "Követés"
 
-#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:92
+#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:107
 msgid "Replies"
 msgstr "Válaszok"
 
@@ -1942,7 +1942,7 @@ msgstr "Utolsó üzenet ettől:"
 msgid "Sticky"
 msgstr "Ragadós"
 
-#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:84 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
+#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:97 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
 msgid "Locked"
 msgstr "Zárolt"
 
@@ -2665,12 +2665,12 @@ msgstr "Firefox frissítése"
 msgid "Profiles"
 msgstr "Profilok"
 
-#: kitsune/products/jinja2/products/product.html:41 kitsune/products/jinja2/products/product.html:44 kitsune/products/jinja2/products/product.html:111 kitsune/questions/config.py:97
-#: kitsune/questions/config.py:177
+#: kitsune/products/jinja2/products/product.html:41 kitsune/products/jinja2/products/product.html:44 kitsune/products/jinja2/products/product.html:111 kitsune/questions/config.py:113
+#: kitsune/questions/config.py:219
 msgid "Firefox Sync"
 msgstr "Firefox Sync"
 
-#: kitsune/products/jinja2/products/product.html:45 kitsune/products/jinja2/products/product.html:80 kitsune/questions/config.py:77 kitsune/questions/config.py:157
+#: kitsune/products/jinja2/products/product.html:45 kitsune/products/jinja2/products/product.html:80 kitsune/questions/config.py:81 kitsune/questions/config.py:187
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
@@ -2882,267 +2882,267 @@ msgstr "Firefox"
 msgid "Web browser for Windows, Mac and Linux"
 msgstr "Böngésző Windowsra, Macre és Linuxra"
 
-#: kitsune/questions/config.py:39 kitsune/questions/config.py:119 kitsune/questions/config.py:297
+#: kitsune/questions/config.py:39 kitsune/questions/config.py:145 kitsune/questions/config.py:349
 msgid "Download, install and migration"
 msgstr "Letöltés, telepítés és migráció"
 
-#: kitsune/questions/config.py:47 kitsune/questions/config.py:127 kitsune/questions/config.py:305
+#: kitsune/questions/config.py:47 kitsune/questions/config.py:153 kitsune/questions/config.py:357
 msgid "Privacy and security settings"
 msgstr "Adatvédelmi és biztonsági beállítások"
 
-#: kitsune/questions/config.py:55 kitsune/questions/config.py:135 kitsune/questions/config.py:313
+#: kitsune/questions/config.py:55 kitsune/questions/config.py:161 kitsune/questions/config.py:365
 msgid "Customize controls, options and add-ons"
 msgstr "Beállítások és kiegészítők testreszabása"
 
-#: kitsune/questions/config.py:63 kitsune/questions/config.py:143 kitsune/questions/config.py:321
+#: kitsune/questions/config.py:63 kitsune/questions/config.py:169 kitsune/questions/config.py:373
 msgid "Fix slowness, crashing, error messages and other problems"
 msgstr "Lassulás, összeomlás javítása, hibaüzenetek és egyéb problémák"
 
-#: kitsune/questions/config.py:72 kitsune/questions/config.py:152
+#: kitsune/questions/config.py:73 kitsune/questions/config.py:179
 msgid "Tips and tricks"
 msgstr "Tippek és trükkök"
 
-#: kitsune/questions/config.py:84 kitsune/questions/config.py:164 kitsune/sumo/jinja2/base.html:300
+#: kitsune/questions/config.py:89 kitsune/questions/config.py:195 kitsune/sumo/jinja2/base.html:300
 msgid "Cookies"
 msgstr "Sütik"
 
-#: kitsune/questions/config.py:86 kitsune/questions/config.py:166
+#: kitsune/questions/config.py:97 kitsune/questions/config.py:203
 msgid "Tabs"
 msgstr "Lapok"
 
-#: kitsune/questions/config.py:90 kitsune/questions/config.py:170
+#: kitsune/questions/config.py:105 kitsune/questions/config.py:211
 msgid "Websites"
 msgstr "Weboldalak"
 
-#: kitsune/questions/config.py:99 kitsune/questions/config.py:179 kitsune/questions/config.py:337 kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:10
+#: kitsune/questions/config.py:121 kitsune/questions/config.py:227 kitsune/questions/config.py:392 kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:10
 msgid "Other"
 msgstr "Egyéb"
 
-#: kitsune/questions/config.py:107 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
+#: kitsune/questions/config.py:133 kitsune/sumo/jinja2/includes/common_macros.html:69 kitsune/sumo/jinja2/includes/common_macros.html:88
 msgid "Firefox for Android"
 msgstr "Firefox for Android"
 
-#: kitsune/questions/config.py:108
+#: kitsune/questions/config.py:134
 msgid "Web browser for Android smartphones and tablets"
 msgstr "Böngésző Android okostelefonokra és táblagépekre"
 
-#: kitsune/questions/config.py:187 kitsune/sumo/jinja2/includes/common_macros.html:67 kitsune/sumo/jinja2/includes/common_macros.html:86
+#: kitsune/questions/config.py:239 kitsune/sumo/jinja2/includes/common_macros.html:67 kitsune/sumo/jinja2/includes/common_macros.html:86
 msgid "Firefox for iOS"
 msgstr "Firefox for iOS"
 
-#: kitsune/questions/config.py:188
+#: kitsune/questions/config.py:240
 msgid "Firefox for iPhone, iPad and iPod touch devices"
 msgstr "Firefox  iPhone, iPad és iPod touch eszközökre"
 
-#: kitsune/questions/config.py:197 kitsune/questions/config.py:463
+#: kitsune/questions/config.py:249 kitsune/questions/config.py:522
 msgid "Install and Update"
 msgstr "Telepítés és frissítés"
 
-#: kitsune/questions/config.py:205
+#: kitsune/questions/config.py:257
 msgid "How to use Firefox for iOS"
 msgstr "A Firefox for iOS használata"
 
-#: kitsune/questions/config.py:213
+#: kitsune/questions/config.py:265
 msgid "Firefox for iOS is not working as expected"
 msgstr "A Firefox for iOS nem a vártnak megfelelően működik"
 
-#: kitsune/questions/config.py:225
+#: kitsune/questions/config.py:277
 msgid "Firefox Focus"
 msgstr "Firefox Focus"
 
-#: kitsune/questions/config.py:226
+#: kitsune/questions/config.py:278
 msgid "Automatic privacy browser and content blocker"
 msgstr "Automatikus adatvédelmi böngésző, és tartalomblokkoló"
 
-#: kitsune/questions/config.py:235
+#: kitsune/questions/config.py:287
 msgid "Firefox Focus for iOS"
 msgstr "Firefox Focus for iOS"
 
-#: kitsune/questions/config.py:243
+#: kitsune/questions/config.py:295
 msgid "Firefox Focus for Android"
 msgstr "Firefox Focus for Android"
 
-#: kitsune/questions/config.py:255
+#: kitsune/questions/config.py:307
 msgid "Firefox for Amazon Devices"
 msgstr "Firefox amazonos eszközökhöz"
 
-#: kitsune/questions/config.py:256
+#: kitsune/questions/config.py:308
 msgid "Browser for Amazon devices"
 msgstr "Böngésző amazonos eszközökhöz"
 
-#: kitsune/questions/config.py:265
+#: kitsune/questions/config.py:317
 msgid "Firefox for Fire TV"
 msgstr "Firefox Fire TV-re"
 
-#: kitsune/questions/config.py:273
+#: kitsune/questions/config.py:325
 msgid "Firefox for Echo Show"
 msgstr "Firefox for Echo Show"
 
-#: kitsune/questions/config.py:285
+#: kitsune/questions/config.py:337
 msgid "Thunderbird"
 msgstr "Thunderbird"
 
-#: kitsune/questions/config.py:286
+#: kitsune/questions/config.py:338
 msgid "Email software for Windows, Mac and Linux"
 msgstr "Levelezőprogram Windowsra, Macre és Linuxra"
 
-#: kitsune/questions/config.py:332
+#: kitsune/questions/config.py:384
 msgid "Calendar"
 msgstr "Naptár"
 
-#: kitsune/questions/config.py:345
+#: kitsune/questions/config.py:404
 msgid "Firefox Lite"
 msgstr "Firefox Lite"
 
-#: kitsune/questions/config.py:346
+#: kitsune/questions/config.py:405
 #, fuzzy
 msgid "Mobile browser for Indonesia, India, The Philippines, and Thailand"
 msgstr "Mobil böngésző Indonéziának, Indiának, a Fülöp-szigeteknek és Thaiföldnek"
 
-#: kitsune/questions/config.py:357
+#: kitsune/questions/config.py:416
 msgid "Get started"
 msgstr "Kezdő lépések"
 
-#: kitsune/questions/config.py:365
+#: kitsune/questions/config.py:424
 msgid "Fix problems"
 msgstr "Problémamegoldás"
 
-#: kitsune/questions/config.py:377
+#: kitsune/questions/config.py:436
 msgid "Firefox for Enterprise"
 msgstr "Firefox vállalatok számára"
 
-#: kitsune/questions/config.py:378
+#: kitsune/questions/config.py:437
 #, fuzzy
 msgid "Firefox Quantum for businesses"
 msgstr "Firefox Quantum a vállalatok számára"
 
-#: kitsune/questions/config.py:387
+#: kitsune/questions/config.py:446
 msgid "Deploy"
 msgstr "Üzembe helyezés"
 
-#: kitsune/questions/config.py:395
+#: kitsune/questions/config.py:454
 msgid "Manage updates, policies & customization"
 msgstr "Frissítések, házirendek és testreszabás kezelése"
 
-#: kitsune/questions/config.py:403
+#: kitsune/questions/config.py:462
 msgid "Manage add-ons"
 msgstr "Kiegészítők kezelése"
 
-#: kitsune/questions/config.py:411
+#: kitsune/questions/config.py:470
 msgid "Manage certificates"
 msgstr "Tanúsítványok kezelése"
 
-#: kitsune/questions/config.py:423
+#: kitsune/questions/config.py:482
 msgid "Firefox Reality"
 msgstr "Firefox Reality"
 
-#: kitsune/questions/config.py:424
+#: kitsune/questions/config.py:483
 #, fuzzy
 msgid "Firefox for Virtual Reality headsets"
 msgstr "Firefox for Virtual Reality"
 
-#: kitsune/questions/config.py:433
+#: kitsune/questions/config.py:492
 msgid "Get started with Firefox Reality"
 msgstr "Kezdő lépések a Firefox Realityvel"
 
-#: kitsune/questions/config.py:441
+#: kitsune/questions/config.py:500
 msgid "Troubleshooting Firefox Reality"
 msgstr "Hibaelhárítás a Firefox Realityben"
 
-#: kitsune/questions/config.py:453
+#: kitsune/questions/config.py:512
 #, fuzzy
 msgid "Firefox for Android Beta"
 msgstr "Firefox for Android"
 
-#: kitsune/questions/config.py:454
+#: kitsune/questions/config.py:513
 #, fuzzy
 msgid "Early version of an experimental Firefox browser for Android"
 msgstr "A kísérleti androidos Firefox böngésző korai verziója."
 
-#: kitsune/questions/config.py:471
+#: kitsune/questions/config.py:530
 msgid "How do I use Firefox Preview"
 msgstr "A Firefox Preview használata"
 
-#: kitsune/questions/config.py:479
+#: kitsune/questions/config.py:538
 msgid "Browsing"
 msgstr "Böngészés"
 
-#: kitsune/questions/config.py:486
+#: kitsune/questions/config.py:546
 msgid "Library"
 msgstr "Könyvtár"
 
-#: kitsune/questions/config.py:490
+#: kitsune/questions/config.py:554
 msgid "Sync"
 msgstr "Sync"
 
-#: kitsune/questions/config.py:495
+#: kitsune/questions/config.py:562
 msgid "Privacy and Security"
 msgstr "Adatvédelem és biztonság"
 
-#: kitsune/questions/config.py:503
+#: kitsune/questions/config.py:570
 msgid "Fix problems with Firefox Preview"
 msgstr "Hibaelhárítás a Firefox Preview-ban"
 
-#: kitsune/questions/config.py:511
+#: kitsune/questions/config.py:578
 msgid "Settings and Preferences"
 msgstr "Beállítások"
 
-#: kitsune/questions/config.py:519
+#: kitsune/questions/config.py:586
 msgid "Advanced Settings"
 msgstr "Speciális beállítások"
 
-#: kitsune/questions/config.py:531 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
+#: kitsune/questions/config.py:598 kitsune/sumo/jinja2/includes/common_macros.html:68 kitsune/sumo/jinja2/includes/common_macros.html:87
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: kitsune/questions/config.py:532
+#: kitsune/questions/config.py:599
 #, fuzzy
 msgid "Mobile app that gives you access to passwords you have saved to Firefox"
 msgstr "Mobil alkalmazás, amely hozzáférést biztosít a Firefoxba mentett jelszavakhoz."
 
-#: kitsune/questions/config.py:543
+#: kitsune/questions/config.py:610
 msgid "Install and set up"
 msgstr "Telepítés és beállítás"
 
-#: kitsune/questions/config.py:551
+#: kitsune/questions/config.py:618
 msgid "Manage settings and logins"
 msgstr "Beállítások és bejelentkezések kezelése"
 
-#: kitsune/questions/config.py:559
+#: kitsune/questions/config.py:626
 msgid "Fix problems with Firefox Lockwise"
 msgstr "Hibaelhárítás a Firefox Lockwise-ban"
 
-#: kitsune/questions/config.py:571 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
+#: kitsune/questions/config.py:638 kitsune/sumo/jinja2/base.html:265 kitsune/sumo/jinja2/includes/common_macros.html:66 kitsune/sumo/jinja2/includes/common_macros.html:85
 msgid "Firefox Private Network"
 msgstr "Firefox Private Network"
 
-#: kitsune/questions/config.py:572
+#: kitsune/questions/config.py:639
 #, fuzzy
 msgid "Browse securely on public Wi-Fi"
 msgstr "Böngésszen biztonságosan nyilvános Wi-Fin"
 
-#: kitsune/questions/config.py:581 kitsune/questions/config.py:627
+#: kitsune/questions/config.py:648 kitsune/questions/config.py:694
 msgid "Technical"
 msgstr "Műszaki"
 
-#: kitsune/questions/config.py:589 kitsune/questions/config.py:635
+#: kitsune/questions/config.py:656 kitsune/questions/config.py:702
 msgid "Accounts"
 msgstr "Fiókok"
 
-#: kitsune/questions/config.py:597 kitsune/questions/config.py:643
+#: kitsune/questions/config.py:664 kitsune/questions/config.py:710
 msgid "Payments"
 msgstr "Kifizetések"
 
-#: kitsune/questions/config.py:605 kitsune/questions/config.py:651 kitsune/wiki/config.py:79
+#: kitsune/questions/config.py:672 kitsune/questions/config.py:718 kitsune/wiki/config.py:93
 msgid "Troubleshooting"
 msgstr "Hibakeresés"
 
-#: kitsune/questions/config.py:617
+#: kitsune/questions/config.py:684
 #, fuzzy
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: kitsune/questions/config.py:618
+#: kitsune/questions/config.py:685
 #, fuzzy
 msgid "VPN for Windows 10, Android and iOS devices"
 msgstr "VPN Windows 10-hez és androidos és iOS-es eszközökhöz"
@@ -3283,23 +3283,23 @@ msgstr "Írja be ide a válaszát."
 msgid "Enter your email address here."
 msgstr "Írja be ide az e-mail címét."
 
-#: kitsune/questions/forms.py:152
+#: kitsune/questions/forms.py:169
 msgid " (optional):"
 msgstr "(nem kötelező):"
 
-#: kitsune/questions/forms.py:296
+#: kitsune/questions/forms.py:313
 msgid "Please provide an email."
 msgstr "Adjon meg egy e-mail címet."
 
-#: kitsune/questions/forms.py:310
+#: kitsune/questions/forms.py:327
 msgid "Interval"
 msgstr "Intervallum"
 
-#: kitsune/questions/forms.py:313
+#: kitsune/questions/forms.py:330
 msgid "Start"
 msgstr "Kezdés"
 
-#: kitsune/questions/forms.py:314
+#: kitsune/questions/forms.py:331
 msgid "End"
 msgstr "Befejezés"
 
@@ -3311,95 +3311,95 @@ msgstr "A címke nem létezik."
 msgid "Please provide a tag."
 msgstr "Adjon meg egy címkét."
 
-#: kitsune/questions/views.py:77
+#: kitsune/questions/views.py:79
 msgid "Recently unanswered"
 msgstr "Nemrég megválaszolatlan"
 
-#: kitsune/questions/views.py:79
+#: kitsune/questions/views.py:84
 msgid "New"
 msgstr "Új"
 
-#: kitsune/questions/views.py:79
+#: kitsune/questions/views.py:85
 msgid "Answers didn't help"
 msgstr "A válaszok nem segítettek"
 
-#: kitsune/questions/views.py:82
+#: kitsune/questions/views.py:90
 msgid "Needs info"
 msgstr "Információ szükséges"
 
-#: kitsune/questions/views.py:82
+#: kitsune/questions/views.py:91
 msgid "Solution provided"
 msgstr "Megoldás megadva"
 
-#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:84 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
+#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:96 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
 msgid "Solved"
 msgstr "Megoldva"
 
-#: kitsune/questions/views.py:89
+#: kitsune/questions/views.py:104
 msgid "Updated"
 msgstr "Frissítve"
 
-#: kitsune/questions/views.py:90
+#: kitsune/questions/views.py:105
 msgid "Views"
 msgstr "Megjelenítés"
 
-#: kitsune/questions/views.py:91 kitsune/search/forms.py:243
+#: kitsune/questions/views.py:106 kitsune/search/forms.py:243
 msgid "Votes"
 msgstr "Szavazatok"
 
-#: kitsune/questions/views.py:472
+#: kitsune/questions/views.py:487
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "A kérdésekhez tartozó fórum nem érhető el {old_lang} nyelven, átirányítottuk a(z) {new_lang} fórumába."
 
-#: kitsune/questions/views.py:518
+#: kitsune/questions/views.py:533
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "A(z) {product} kérdésekhez tartozó fóruma nem érhető el {old_lang} nyelven, átirányítottuk a(z) {new_lang} fórumába."
 
-#: kitsune/questions/views.py:567
+#: kitsune/questions/views.py:584
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr "Kész! A kérdése közzé lett téve a Mozilla közösségi támogatási fórumán. Bármikor megtekintheti a bejegyzést, ha felkeresi a {a_open}Saját kérdések{a_close} lapot a profilján."
 
-#: kitsune/questions/views.py:760
+#: kitsune/questions/views.py:791
 msgid "Thank you for choosing a solution!"
 msgstr "Köszönjük, hogy kiválasztott egy megoldást!"
 
-#: kitsune/questions/views.py:763
+#: kitsune/questions/views.py:794
 msgid "This question already has a solution."
 msgstr "A kérdésnek már van megoldása."
 
-#: kitsune/questions/views.py:785
+#: kitsune/questions/views.py:816
 msgid "The solution was undone successfully."
 msgstr "A megoldás sikeresen visszavonva."
 
-#: kitsune/questions/views.py:856
+#: kitsune/questions/views.py:896
 msgid "Glad to hear it!"
 msgstr "Jó tudni róla!"
 
-#: kitsune/questions/views.py:858 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:898 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Sajnálattal halljuk."
 
-#: kitsune/questions/views.py:878
+#: kitsune/questions/views.py:918
 msgid "You already voted on this reply."
 msgstr "Már szavazott erre a válaszra."
 
-#: kitsune/questions/views.py:1161
+#: kitsune/questions/views.py:1201
 msgid "Could not send a message to that email address."
 msgstr "Nem sikerült üzenetet küldeni a megadott e-mail címre."
 
-#: kitsune/questions/views.py:1167
+#: kitsune/questions/views.py:1207
 msgid "You will be notified of updates by email."
 msgstr "Értesítéseket fog kapni e-mailben."
 
-#: kitsune/questions/views.py:1169
+#: kitsune/questions/views.py:1209
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "Hamarosan kapnia kell egy e-mailt a feliratkozás megerősítéséhez."
 
-#: kitsune/questions/views.py:1386
+#: kitsune/questions/views.py:1428
 msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
 msgstr "Meghívtam {user}-t egy képernyőmegosztás munkamenetre, és értesítés fogok küldeni amikor végeztünk."
 
-#: kitsune/questions/views.py:1499
+#: kitsune/questions/views.py:1544
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr "Egy moderátornak kézileg jóvá kell hagynia a bejegyzését, mielőtt az látható lesz."
 
@@ -4321,7 +4321,7 @@ msgstr "Válaszok száma"
 msgid "Helpful votes"
 msgstr "Hasznos szavazatok"
 
-#: kitsune/search/es_utils.py:857 kitsune/search/jinja2/search/down.html:5
+#: kitsune/search/es_utils.py:882 kitsune/search/jinja2/search/down.html:5
 msgid "Search Unavailable"
 msgstr "A keresés nem érhető el"
 
@@ -4378,15 +4378,15 @@ msgctxt "between search excerpts"
 msgid "..."
 msgstr "..."
 
-#: kitsune/search/views.py:151 kitsune/search/views.py:276
+#: kitsune/search/views.py:151 kitsune/search/views.py:281
 msgid "Invalid search data."
 msgstr "Hibás adatkeresés."
 
-#: kitsune/search/views.py:225 kitsune/search/views.py:577
+#: kitsune/search/views.py:225 kitsune/search/views.py:582
 msgid "No pages matched the search criteria"
 msgstr "Nincs a keresésnek megfelelő oldal"
 
-#: kitsune/search/views.py:619
+#: kitsune/search/views.py:624
 msgid "No title"
 msgstr "Nincs cím"
 
@@ -7444,12 +7444,12 @@ msgstr "Az oldal nem létezik"
 msgid "The image \"%s\" does not exist."
 msgstr "A(z) „%s” kép nem létezik."
 
-#: kitsune/sumo/parser.py:330
+#: kitsune/sumo/parser.py:334
 #, python-format
 msgid "The video \"%s\" does not exist."
 msgstr "A(z) „%s” videó nem található."
 
-#: kitsune/sumo/parser.py:362
+#: kitsune/sumo/parser.py:366
 #, python-format
 msgid "Button of type \"%s\" does not exist."
 msgstr "„%s” típusú gomb nem létezik."
@@ -7822,35 +7822,35 @@ msgid_plural "%(number)d months ago"
 msgstr[0] "%(number)d hónapja"
 msgstr[1] "%(number)d hónapja"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:358
+#: kitsune/sumo/templatetags/jinja_helpers.py:360
 #, python-format
 msgid "%(number)d week ago"
 msgid_plural "%(number)d weeks ago"
 msgstr[0] "%(number)d hete"
 msgstr[1] "%(number)d hete"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:359
+#: kitsune/sumo/templatetags/jinja_helpers.py:364
 #, python-format
 msgid "%(number)d day ago"
 msgid_plural "%(number)d days ago"
 msgstr[0] "%(number)d napja"
 msgstr[1] "%(number)d napja"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:360
+#: kitsune/sumo/templatetags/jinja_helpers.py:368
 #, python-format
 msgid "%(number)d hour ago"
 msgid_plural "%(number)d hours ago"
 msgstr[0] "%(number)d órája"
 msgstr[1] "%(number)d órája"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:361
+#: kitsune/sumo/templatetags/jinja_helpers.py:370
 #, python-format
 msgid "%(number)d minute ago"
 msgid_plural "%(number)d minutes ago"
 msgstr[0] "%(number)d perce"
 msgstr[1] "%(number)d perce"
 
-#: kitsune/sumo/templatetags/jinja_helpers.py:362
+#: kitsune/sumo/templatetags/jinja_helpers.py:371
 #, python-format
 msgid "%(number)d second ago"
 msgid_plural "%(number)d seconds ago"
@@ -8127,11 +8127,11 @@ msgstr "moderátor"
 msgid "Welcome to SUMO!"
 msgstr "Üdvözli a SUMO!"
 
-#: kitsune/users/views.py:200
+#: kitsune/users/views.py:201
 msgid "Your settings have been saved."
 msgstr "A beállítások mentése megtörtént."
 
-#: kitsune/users/views.py:356
+#: kitsune/users/views.py:357
 msgid "This account is not active. Please contact an administrator if you believe this is an error"
 msgstr "Ez a fiók nem aktív. Lépjen kapcsolatba egy rendszergazdával, ha úgy gondolja, hogy ez egy hiba"
 
@@ -8524,23 +8524,23 @@ msgstr "Már van Firefox-fiókja. Használja a Firefox-fiókját, a Mozilla tám
 msgid "Private message"
 msgstr "Privát üzenet"
 
-#: kitsune/wiki/config.py:43
+#: kitsune/wiki/config.py:53
 msgid "Minor details that don't affect the instructions"
 msgstr "Apró dolgok, amelyek nem módosítják az utasításokat"
 
-#: kitsune/wiki/config.py:44
+#: kitsune/wiki/config.py:57
 msgid "Content changes that don't require immediate translation"
 msgstr "Tartalomváltozás, amely nem igényel azonnali fordítást"
 
-#: kitsune/wiki/config.py:47
+#: kitsune/wiki/config.py:61
 msgid "Major content changes that will make older translations inaccurate"
 msgstr "Fontos tartalomváltozás, amitől a régi fordítás pontatlanná válik"
 
-#: kitsune/wiki/config.py:52
+#: kitsune/wiki/config.py:66
 msgid "These minor changes are not important for localizers and they will not be notified."
 msgstr "Ezek az apró módosítások nem fontosak a fordítók számára és nem kapnak erről értesítést."
 
-#: kitsune/wiki/config.py:55
+#: kitsune/wiki/config.py:69
 msgid ""
 "This will notify localizers and translations will be marked as \"needing updates\" on dashboards. Most changes&mdash;updating an image, fixing {for} markup, adding or removing non-critical "
 "sections&mdash;should use this."
@@ -8548,7 +8548,7 @@ msgstr ""
 "Ez értesíti a fordítókat és a fordításokat „frissítés szükséges” állapotúként jelöli a vezérlőpulton. A leggyakoribb esetekben &ndash; , képek frissítése, {for} szintaxis javítása, nem kritikus "
 "részek hozzáadása vagy eltávolítása &ndash; ezt kell használni."
 
-#: kitsune/wiki/config.py:61
+#: kitsune/wiki/config.py:75
 msgid ""
 "This will notify localizers and translations will be marked \"out of date\" on dashboards. Translations will show a warning to users that they are out of date and that the English version is the "
 "most accurate. Use this when the old instructions are completely unusable."
@@ -8556,24 +8556,24 @@ msgstr ""
 "Ez értesíti a fordítókat és a fordításokat „elavult” állapotúként jelöli a vezérlőpulton. A fordításoknál egy figyelmeztetés jelenik meg, hogy a fordítás elavult és az angol nyelvű változat a "
 "frissebb. Akkor használja ezt, ha a régi leírás félrevezető."
 
-#: kitsune/wiki/config.py:80
+#: kitsune/wiki/config.py:94
 msgid "How to"
 msgstr "Hogyan"
 
-#: kitsune/wiki/config.py:81
+#: kitsune/wiki/config.py:95
 msgid "How to contribute"
 msgstr "Közreműködés módjai"
 
-#: kitsune/wiki/config.py:83
+#: kitsune/wiki/config.py:97
 msgid "Navigation"
 msgstr "Navigáció"
 
-#: kitsune/wiki/config.py:90
+#: kitsune/wiki/config.py:104
 #, python-format
 msgid "%(old)s Redirect %(number)i"
 msgstr "%(old)s átirányítva: %(number)i"
 
-#: kitsune/wiki/config.py:91
+#: kitsune/wiki/config.py:105
 #, python-format
 msgid "%(old)s-redirect-%(number)i"
 msgstr "%(old)s-átirányítva-%(number)i"
@@ -8586,11 +8586,11 @@ msgstr "A(z) {title} leírást {creator} szerkesztette"
 msgid "{title} is ready for review ({creator})"
 msgstr "{title} jóváhagyásra vár ({creator})"
 
-#: kitsune/wiki/events.py:240 kitsune/wiki/events.py:306
+#: kitsune/wiki/events.py:242 kitsune/wiki/events.py:308
 msgid "{title} has a revision ready for localization"
 msgstr "A(z) {title} leírás egyik verziója fordításra kész"
 
-#: kitsune/wiki/events.py:321
+#: kitsune/wiki/events.py:323
 msgid "{title} ({locale}) has a new approved revision ({reviewer})"
 msgstr "{title} ({locale}) leírásnak új elfogadott verziója van ({reviewer})"
 
@@ -8706,48 +8706,48 @@ msgstr "Kapcsolódó dokumentumok:"
 msgid "Needs change:"
 msgstr "Módosítás szükséges:"
 
-#: kitsune/wiki/forms.py:168 kitsune/wiki/forms.py:270 kitsune/wiki/forms.py:330 kitsune/wiki/forms.py:352 kitsune/wiki/jinja2/wiki/revision.html:31
+#: kitsune/wiki/forms.py:168 kitsune/wiki/forms.py:272 kitsune/wiki/forms.py:332 kitsune/wiki/forms.py:354 kitsune/wiki/jinja2/wiki/revision.html:31
 msgid "Comment:"
 msgstr "Hozzászólás:"
 
-#: kitsune/wiki/forms.py:240 kitsune/wiki/jinja2/wiki/includes/document_macros.html:172 kitsune/wiki/jinja2/wiki/review_revision.html:69 kitsune/wiki/jinja2/wiki/review_translation.html:81
+#: kitsune/wiki/forms.py:241 kitsune/wiki/jinja2/wiki/includes/document_macros.html:172 kitsune/wiki/jinja2/wiki/review_revision.html:69 kitsune/wiki/jinja2/wiki/review_translation.html:81
 #: kitsune/wiki/jinja2/wiki/translate.html:173
 msgid "Keywords:"
 msgstr "Kulcsszavak:"
 
-#: kitsune/wiki/forms.py:240
+#: kitsune/wiki/forms.py:242
 msgid "Affects search results"
 msgstr "Befolyásolja a keresési eredményeket"
 
-#: kitsune/wiki/forms.py:247 kitsune/wiki/jinja2/wiki/translate.html:183
+#: kitsune/wiki/forms.py:249 kitsune/wiki/jinja2/wiki/translate.html:183
 msgid "Search result summary:"
 msgstr "Keresési eredmény összefoglalása:"
 
-#: kitsune/wiki/forms.py:248
+#: kitsune/wiki/forms.py:250
 msgid "Only displayed on search results page"
 msgstr "Csak a keresési eredmények oldalon jelenjen meg"
 
-#: kitsune/wiki/forms.py:268
+#: kitsune/wiki/forms.py:270
 msgid "Expiry date:"
 msgstr "Lejárati dátum:"
 
-#: kitsune/wiki/forms.py:336
+#: kitsune/wiki/forms.py:338
 msgid "Significance:"
 msgstr "Jelentőség:"
 
-#: kitsune/wiki/forms.py:349
+#: kitsune/wiki/forms.py:351
 msgid "Needs change"
 msgstr "Módosítás szükséges"
 
-#: kitsune/wiki/forms.py:375
+#: kitsune/wiki/forms.py:377
 msgid "Users:"
 msgstr "Felhasználók:"
 
-#: kitsune/wiki/forms.py:376
+#: kitsune/wiki/forms.py:378
 msgid "Start:"
 msgstr "Kezdés:"
 
-#: kitsune/wiki/forms.py:377
+#: kitsune/wiki/forms.py:379
 msgid "End:"
 msgstr "Befejezés:"
 
@@ -8792,22 +8792,22 @@ msgstr "A(z) „{prefix}” kezdetű című dokumentumoknak a sablonok kategóri
 msgid "A revision must be based on the English article. Revision ID %(id)s does not fit this criterion."
 msgstr "A verziónak az angol dokumentum verzióján kell alapulnia. A(z) %(id)s verziószám nem illeszkedik ehhez a kritériumhoz."
 
-#: kitsune/wiki/parser.py:58
+#: kitsune/wiki/parser.py:61
 msgid "Table of Contents"
 msgstr "Tartalomjegyzék"
 
 #. L10n: This error is displayed if a template is included into itself.
-#: kitsune/wiki/parser.py:355
+#: kitsune/wiki/parser.py:358
 #, python-format
 msgid "[Recursive inclusion of \"%s\"]"
 msgstr "[„%s” rekurzív beillesztése]"
 
-#: kitsune/wiki/parser.py:414
+#: kitsune/wiki/parser.py:417
 #, python-format
 msgid "The document \"%s\" does not exist."
 msgstr "A(z) „%s” dokumentum nem létezik."
 
-#: kitsune/wiki/parser.py:441
+#: kitsune/wiki/parser.py:444
 #, python-format
 msgid "The template \"%s\" does not exist or has no approved revision."
 msgstr "A(z) „%s” sablon nem létezik vagy nincs belőle jóváhagyott verzió."
@@ -8880,28 +8880,28 @@ msgstr "Már szavazott erre a leírásra."
 msgid "Thanks for making us better!"
 msgstr "Köszönjük, hogy segít abban, hogy jobbak legyünk!"
 
-#: kitsune/wiki/views.py:1301
+#: kitsune/wiki/views.py:1309
 #, python-format
 msgid "Revision %s"
 msgstr "%s verzió"
 
-#: kitsune/wiki/views.py:1310
+#: kitsune/wiki/views.py:1319
 msgid "Firefox Releases"
 msgstr "Firefox kiadások"
 
-#: kitsune/wiki/views.py:1314
+#: kitsune/wiki/views.py:1327
 msgid "Article Revisions"
 msgstr "Leírás verziói"
 
-#: kitsune/wiki/views.py:1418
+#: kitsune/wiki/views.py:1434
 msgid "{users} added to the contributors successfully!"
 msgstr "{users} sikeresen hozzáadásra került a közreműködőkhöz!"
 
-#: kitsune/wiki/views.py:1425
+#: kitsune/wiki/views.py:1441
 msgid "There were errors adding new contributors, see below."
 msgstr "Hiba történt az új közreműködő hozzáadásakor, lásd alul."
 
-#: kitsune/wiki/views.py:1443
+#: kitsune/wiki/views.py:1459
 msgid "{user} removed from the contributors successfully!"
 msgstr "{user} sikeresen eltávolításra került a közreműködők közül!"
 
