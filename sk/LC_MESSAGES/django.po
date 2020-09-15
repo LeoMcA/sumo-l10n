@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-13 19:05-0700\n"
+"POT-Creation-Date: 2020-09-14 19:05-0700\n"
 "PO-Revision-Date: 2020-07-01 08:07+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: Slovak\n"
@@ -1594,7 +1594,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "Bolo vám udelené ocenenie '{title}'!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:193
 msgid "Badges"
 msgstr "Ocenenia"
 
@@ -7546,7 +7546,7 @@ msgstr "Nahlásiť zneužitie ochrannej známky"
 msgid "Source code"
 msgstr "Zdrojový kód"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:90
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -7759,7 +7759,7 @@ msgstr ""
 msgid "Exchange private messages with other contributors."
 msgstr "Súkromné správy s ostatnými prispievateľmi."
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:210
 msgid "Sign Out"
 msgstr "Odhlásiť sa"
 
@@ -8091,8 +8091,8 @@ msgid "Display name"
 msgstr "Zobrazované meno"
 
 #: kitsune/users/models.py:46
-msgid "Make my email public"
-msgstr "Zverejniť môj e-mail"
+msgid "Make my email address visible to logged in users"
+msgstr ""
 
 #: kitsune/users/models.py:58
 msgid "Biography"
@@ -8104,7 +8104,7 @@ msgid ""
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:84 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Webová stránka"
 
@@ -8285,38 +8285,38 @@ msgstr "Účet"
 
 #: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:19
 #, python-format
-msgid "To change your email, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
-msgstr ""
-
-#: kitsune/users/jinja2/users/edit_profile.html:37
-msgid "Manage Firefox Account"
+msgid "To change your email or avatar, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
 msgstr ""
 
 #: kitsune/users/jinja2/users/edit_profile.html:45
+msgid "Manage Firefox Account"
+msgstr ""
+
+#: kitsune/users/jinja2/users/edit_profile.html:53
 msgid "Share some things about yourself. Most fields are optional, but they help the community to get to know you better."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:82
+#: kitsune/users/jinja2/users/edit_profile.html:79
 msgid "Update My Profile"
 msgstr "Aktualizovať môj profil"
 
-#: kitsune/users/jinja2/users/edit_profile.html:89
+#: kitsune/users/jinja2/users/edit_profile.html:86
 msgid "Close account and delete all profile information"
 msgstr "Uzavrieť konto a odstrániť všetky profilové informácie"
 
-#: kitsune/users/jinja2/users/edit_profile.html:94
+#: kitsune/users/jinja2/users/edit_profile.html:91
 msgid "Are you sure"
 msgstr "Naozaj"
 
-#: kitsune/users/jinja2/users/edit_profile.html:98
+#: kitsune/users/jinja2/users/edit_profile.html:95
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "Odstránenie vášho účtu vám znemožní odpovedať na otázky alebo sa pýtať na serveri Mozilla Support. Odstránenie úplne odstráni váš profil a už nebude možné ho vrátiť späť."
 
-#: kitsune/users/jinja2/users/edit_profile.html:101
+#: kitsune/users/jinja2/users/edit_profile.html:98
 msgid "Please type in your username to confirm"
 msgstr "Pre potvrdenie zadajte svoje meno používateľa"
 
-#: kitsune/users/jinja2/users/edit_profile.html:109
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Delete My Account"
 msgstr "Odstrániť môj účet"
 
@@ -8344,89 +8344,89 @@ msgstr "Aktuálne nič nesledujete."
 msgid "{user} | Profile"
 msgstr "{user} | Profil"
 
-#: kitsune/users/jinja2/users/profile.html:30
+#: kitsune/users/jinja2/users/profile.html:35
 msgid "Edit user profile"
 msgstr "Upraviť profil používateľa"
 
-#: kitsune/users/jinja2/users/profile.html:43
+#: kitsune/users/jinja2/users/profile.html:48
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here. %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:52
+#: kitsune/users/jinja2/users/profile.html:57
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:71
+#: kitsune/users/jinja2/users/profile.html:78
 msgid "Email"
 msgstr "E-mail"
 
-#: kitsune/users/jinja2/users/profile.html:89
+#: kitsune/users/jinja2/users/profile.html:96
 #, fuzzy
 msgid "Community Portal"
 msgstr "Fórum komunity"
 
-#: kitsune/users/jinja2/users/profile.html:95
+#: kitsune/users/jinja2/users/profile.html:102
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:101
+#: kitsune/users/jinja2/users/profile.html:108
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:116
+#: kitsune/users/jinja2/users/profile.html:123
 msgid "Deactivate this user"
 msgstr "Deaktivácia tohto používateľa"
 
-#: kitsune/users/jinja2/users/profile.html:121
+#: kitsune/users/jinja2/users/profile.html:128
 msgid "Deactivate this user and mark all content as spam"
 msgstr "Deaktivovať tohoto používateľa a označiť celý jeho obsah ako spam."
 
-#: kitsune/users/jinja2/users/profile.html:124
+#: kitsune/users/jinja2/users/profile.html:131
 msgid "This user has been deactivated."
 msgstr "Tento používateľ bol deaktivovaný."
 
-#: kitsune/users/jinja2/users/profile.html:134
+#: kitsune/users/jinja2/users/profile.html:141
 msgid "Involved with Mozilla since {date}"
 msgstr "Zapojený do projektu Mozilla od {date}"
 
-#: kitsune/users/jinja2/users/profile.html:140
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} otázka"
 msgstr[1] "{0} otázky"
 msgstr[2] "{0} otázok"
 
-#: kitsune/users/jinja2/users/profile.html:147
+#: kitsune/users/jinja2/users/profile.html:154
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} odpoveď"
 msgstr[1] "{0} odpovede"
 msgstr[2] "{0} odpovedí"
 
-#: kitsune/users/jinja2/users/profile.html:153
+#: kitsune/users/jinja2/users/profile.html:160
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} riešenie"
 msgstr[1] "{0} riešenia"
 msgstr[2] "{0} riešení"
 
-#: kitsune/users/jinja2/users/profile.html:159
+#: kitsune/users/jinja2/users/profile.html:166
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} dokument"
 msgstr[1] "{0} dokumenty"
 msgstr[2] "{0} dokumentov"
 
-#: kitsune/users/jinja2/users/profile.html:170
+#: kitsune/users/jinja2/users/profile.html:177
 msgid "About {user}"
 msgstr "O používateľovi {user}"
 
-#: kitsune/users/jinja2/users/profile.html:176
+#: kitsune/users/jinja2/users/profile.html:183
 msgid "{user}'s Groups"
 msgstr "Skupiny používateľa {user}"
 
-#: kitsune/users/jinja2/users/profile.html:188
+#: kitsune/users/jinja2/users/profile.html:195
 msgid "See all available SUMO badges"
 msgstr "Zobraziť všetky dostupné SUMO ocenenia"
 
@@ -10131,6 +10131,9 @@ msgstr "Povedzte nám viac."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Zadajte prosím viac informácií"
+
+#~ msgid "Make my email public"
+#~ msgstr "Zverejniť môj e-mail"
 
 #~ msgid "Need help?"
 #~ msgstr "Potrebujete pomoc?"

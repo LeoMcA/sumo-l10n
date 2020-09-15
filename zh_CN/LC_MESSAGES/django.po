@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-13 19:05-0700\n"
+"POT-Creation-Date: 2020-09-14 19:05-0700\n"
 "PO-Revision-Date: 2020-07-09 11:58+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: Chinese (simplified)\n"
@@ -1583,7 +1583,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "您获得了“{title}”徽章！"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:193
 msgid "Badges"
 msgstr "徽章"
 
@@ -7470,7 +7470,7 @@ msgstr "报告商标滥用"
 msgid "Source code"
 msgstr "源代码"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:90
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -7683,7 +7683,7 @@ msgstr "管理您的隐私和通知设置。"
 msgid "Exchange private messages with other contributors."
 msgstr "与其他贡献互相发送私信。"
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:210
 msgid "Sign Out"
 msgstr "退出"
 
@@ -8001,8 +8001,8 @@ msgid "Display name"
 msgstr "显示名称"
 
 #: kitsune/users/models.py:46
-msgid "Make my email public"
-msgstr "公开我的的电子邮箱地址"
+msgid "Make my email address visible to logged in users"
+msgstr ""
 
 #: kitsune/users/models.py:58
 msgid "Biography"
@@ -8016,7 +8016,7 @@ msgstr ""
 "支持部分 HTML: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;strong&#x3E; "
 "&#x3C;ul&#x3E;，禁止使用超链接。"
 
-#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:84 kitsune/users/models.py:68
 msgid "Website"
 msgstr "网站"
 
@@ -8197,39 +8197,39 @@ msgstr "账户"
 
 #: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:19
 #, python-format
-msgid "To change your email, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
+msgid "To change your email or avatar, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:37
+#: kitsune/users/jinja2/users/edit_profile.html:45
 msgid "Manage Firefox Account"
 msgstr "管理 Firefox 账户"
 
-#: kitsune/users/jinja2/users/edit_profile.html:45
+#: kitsune/users/jinja2/users/edit_profile.html:53
 #, fuzzy
 msgid "Share some things about yourself. Most fields are optional, but they help the community to get to know you better."
 msgstr "请向其他用户更详细地介绍一下您。大多数字段为选填，但能帮助其他人更好地了解您。"
 
-#: kitsune/users/jinja2/users/edit_profile.html:82
+#: kitsune/users/jinja2/users/edit_profile.html:79
 msgid "Update My Profile"
 msgstr "更新我的个人资料"
 
-#: kitsune/users/jinja2/users/edit_profile.html:89
+#: kitsune/users/jinja2/users/edit_profile.html:86
 msgid "Close account and delete all profile information"
 msgstr "关闭账户并删除所有个人资料信息"
 
-#: kitsune/users/jinja2/users/edit_profile.html:94
+#: kitsune/users/jinja2/users/edit_profile.html:91
 msgid "Are you sure"
 msgstr "您确定"
 
-#: kitsune/users/jinja2/users/edit_profile.html:98
+#: kitsune/users/jinja2/users/edit_profile.html:95
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "要删除您的账户？这将阻止您再在 Mozilla 技术支持中回答或者发布问题。此操作将清除您的个人资料，并且无法重新恢复。"
 
-#: kitsune/users/jinja2/users/edit_profile.html:101
+#: kitsune/users/jinja2/users/edit_profile.html:98
 msgid "Please type in your username to confirm"
 msgstr "请输入您的用户名用以确认"
 
-#: kitsune/users/jinja2/users/edit_profile.html:109
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Delete My Account"
 msgstr "删除我的账户"
 
@@ -8257,81 +8257,81 @@ msgstr "您目前未关注任何事物。"
 msgid "{user} | Profile"
 msgstr "{user} | 个人资料"
 
-#: kitsune/users/jinja2/users/profile.html:30
+#: kitsune/users/jinja2/users/profile.html:35
 msgid "Edit user profile"
 msgstr "编辑用户个人资料"
 
-#: kitsune/users/jinja2/users/profile.html:43
+#: kitsune/users/jinja2/users/profile.html:48
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here. %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:52
+#: kitsune/users/jinja2/users/profile.html:57
 msgid "{city}, {country}"
 msgstr "{country}, {city}"
 
-#: kitsune/users/jinja2/users/profile.html:71
+#: kitsune/users/jinja2/users/profile.html:78
 msgid "Email"
 msgstr "邮箱"
 
-#: kitsune/users/jinja2/users/profile.html:89
+#: kitsune/users/jinja2/users/profile.html:96
 #, fuzzy
 msgid "Community Portal"
 msgstr "社区论坛"
 
-#: kitsune/users/jinja2/users/profile.html:95
+#: kitsune/users/jinja2/users/profile.html:102
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:101
+#: kitsune/users/jinja2/users/profile.html:108
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:116
+#: kitsune/users/jinja2/users/profile.html:123
 msgid "Deactivate this user"
 msgstr "停用此用户"
 
-#: kitsune/users/jinja2/users/profile.html:121
+#: kitsune/users/jinja2/users/profile.html:128
 msgid "Deactivate this user and mark all content as spam"
 msgstr "停用该用户，并标记所有内容为垃圾信息"
 
-#: kitsune/users/jinja2/users/profile.html:124
+#: kitsune/users/jinja2/users/profile.html:131
 msgid "This user has been deactivated."
 msgstr "此用户已被停用。"
 
-#: kitsune/users/jinja2/users/profile.html:134
+#: kitsune/users/jinja2/users/profile.html:141
 msgid "Involved with Mozilla since {date}"
 msgstr "加入 Mozilla 自 {date}"
 
-#: kitsune/users/jinja2/users/profile.html:140
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "提出 {0} 个问题"
 
-#: kitsune/users/jinja2/users/profile.html:147
+#: kitsune/users/jinja2/users/profile.html:154
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "发表 {0} 个回答"
 
-#: kitsune/users/jinja2/users/profile.html:153
+#: kitsune/users/jinja2/users/profile.html:160
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "发布 {0} 个解决方法"
 
-#: kitsune/users/jinja2/users/profile.html:159
+#: kitsune/users/jinja2/users/profile.html:166
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "编写 {0} 篇文章"
 
-#: kitsune/users/jinja2/users/profile.html:170
+#: kitsune/users/jinja2/users/profile.html:177
 msgid "About {user}"
 msgstr "关于 {user}"
 
-#: kitsune/users/jinja2/users/profile.html:176
+#: kitsune/users/jinja2/users/profile.html:183
 msgid "{user}'s Groups"
 msgstr "{user} 的群组"
 
-#: kitsune/users/jinja2/users/profile.html:188
+#: kitsune/users/jinja2/users/profile.html:195
 msgid "See all available SUMO badges"
 msgstr "查看全部可用的 SUMO 徽章"
 
@@ -10018,6 +10018,9 @@ msgstr "告诉我们更多信息。"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "请提供更多细节"
+
+#~ msgid "Make my email public"
+#~ msgstr "公开我的的电子邮箱地址"
 
 #~ msgid "You can change your email address on Firefox Accounts."
 #~ msgstr "您可以到“Firefox 账户”更改电子邮件地址。"

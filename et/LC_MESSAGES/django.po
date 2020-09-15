@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-13 19:05-0700\n"
+"POT-Creation-Date: 2020-09-14 19:05-0700\n"
 "PO-Revision-Date: 2019-12-20 21:23+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: Estonian <>\n"
@@ -1601,7 +1601,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "Sind autasustati '{title}' märgiga!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:193
 msgid "Badges"
 msgstr "Märgid"
 
@@ -7737,7 +7737,7 @@ msgstr "Raporteeri kaubamärgi keelatud kasutamine"
 msgid "Source code"
 msgstr "Lähtekood"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:90
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -7972,7 +7972,7 @@ msgstr "Muuda e-posti aadressi eelistusi"
 msgid "Exchange private messages with other contributors."
 msgstr "Eemalda kasutaja kaastöötajate hulgast"
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:210
 msgid "Sign Out"
 msgstr "Logi välja"
 
@@ -8297,8 +8297,8 @@ msgid "Display name"
 msgstr "Kuvatav nimi"
 
 #: kitsune/users/models.py:46
-msgid "Make my email public"
-msgstr "Avalda minu e-posti aadress kõigile"
+msgid "Make my email address visible to logged in users"
+msgstr ""
 
 #: kitsune/users/models.py:58
 msgid "Biography"
@@ -8310,7 +8310,7 @@ msgid ""
 "strong&#x3E; &#x3C;ul&#x3E;. Links are forbidden."
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:84 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Koduleht"
 
@@ -8497,39 +8497,39 @@ msgstr "Konto"
 
 #: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:19
 #, python-format
-msgid "To change your email, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
-msgstr ""
-
-#: kitsune/users/jinja2/users/edit_profile.html:37
-msgid "Manage Firefox Account"
+msgid "To change your email or avatar, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
 msgstr ""
 
 #: kitsune/users/jinja2/users/edit_profile.html:45
+msgid "Manage Firefox Account"
+msgstr ""
+
+#: kitsune/users/jinja2/users/edit_profile.html:53
 msgid "Share some things about yourself. Most fields are optional, but they help the community to get to know you better."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:82
+#: kitsune/users/jinja2/users/edit_profile.html:79
 #, fuzzy
 msgid "Update My Profile"
 msgstr "Profiil"
 
-#: kitsune/users/jinja2/users/edit_profile.html:89
+#: kitsune/users/jinja2/users/edit_profile.html:86
 msgid "Close account and delete all profile information"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:94
+#: kitsune/users/jinja2/users/edit_profile.html:91
 msgid "Are you sure"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:98
+#: kitsune/users/jinja2/users/edit_profile.html:95
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:101
+#: kitsune/users/jinja2/users/edit_profile.html:98
 msgid "Please type in your username to confirm"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:109
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Delete My Account"
 msgstr "Kustuta minu konto"
 
@@ -8557,87 +8557,87 @@ msgstr "Sa ei jälgi ühtki teemat."
 msgid "{user} | Profile"
 msgstr "{user} | Profiil"
 
-#: kitsune/users/jinja2/users/profile.html:30
+#: kitsune/users/jinja2/users/profile.html:35
 msgid "Edit user profile"
 msgstr "Muuda minu profiili"
 
-#: kitsune/users/jinja2/users/profile.html:43
+#: kitsune/users/jinja2/users/profile.html:48
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here. %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:52
+#: kitsune/users/jinja2/users/profile.html:57
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:71
+#: kitsune/users/jinja2/users/profile.html:78
 msgid "Email"
 msgstr "E-post"
 
-#: kitsune/users/jinja2/users/profile.html:89
+#: kitsune/users/jinja2/users/profile.html:96
 #, fuzzy
 msgid "Community Portal"
 msgstr "Kogukonna foorumid"
 
-#: kitsune/users/jinja2/users/profile.html:95
+#: kitsune/users/jinja2/users/profile.html:102
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:101
+#: kitsune/users/jinja2/users/profile.html:108
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:116
+#: kitsune/users/jinja2/users/profile.html:123
 #, fuzzy
 msgid "Deactivate this user"
 msgstr "Deaktiveerimislogi"
 
-#: kitsune/users/jinja2/users/profile.html:121
+#: kitsune/users/jinja2/users/profile.html:128
 msgid "Deactivate this user and mark all content as spam"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:124
+#: kitsune/users/jinja2/users/profile.html:131
 #, fuzzy
 msgid "This user has been deactivated."
 msgstr "Dokument kustutati."
 
-#: kitsune/users/jinja2/users/profile.html:134
+#: kitsune/users/jinja2/users/profile.html:141
 msgid "Involved with Mozilla since {date}"
 msgstr "Lööb kaasa alates {date}"
 
-#: kitsune/users/jinja2/users/profile.html:140
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} küsimus"
 msgstr[1] "{0} küsimust"
 
-#: kitsune/users/jinja2/users/profile.html:147
+#: kitsune/users/jinja2/users/profile.html:154
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} vastus"
 msgstr[1] "{0} vastust"
 
-#: kitsune/users/jinja2/users/profile.html:153
+#: kitsune/users/jinja2/users/profile.html:160
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} lahendus"
 msgstr[1] "{0} lahendust"
 
-#: kitsune/users/jinja2/users/profile.html:159
+#: kitsune/users/jinja2/users/profile.html:166
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} dokument"
 msgstr[1] "{0} dokumenti"
 
-#: kitsune/users/jinja2/users/profile.html:170
+#: kitsune/users/jinja2/users/profile.html:177
 msgid "About {user}"
 msgstr "Kasutaja {user} teave"
 
-#: kitsune/users/jinja2/users/profile.html:176
+#: kitsune/users/jinja2/users/profile.html:183
 msgid "{user}'s Groups"
 msgstr "Kasutaja {user} grupid"
 
-#: kitsune/users/jinja2/users/profile.html:188
+#: kitsune/users/jinja2/users/profile.html:195
 msgid "See all available SUMO badges"
 msgstr "Vaata kõiki SUMO märke"
 
@@ -10358,6 +10358,9 @@ msgstr ""
 #, fuzzy
 msgid "Please provide more details"
 msgstr "Palun sisesta e-postiaadress."
+
+#~ msgid "Make my email public"
+#~ msgstr "Avalda minu e-posti aadress kõigile"
 
 #, fuzzy
 #~ msgid "Need help?"

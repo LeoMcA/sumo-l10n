@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-13 19:05-0700\n"
+"POT-Creation-Date: 2020-09-14 19:05-0700\n"
 "PO-Revision-Date: 2020-06-12 15:05+0000\n"
 "Last-Translator: TrickyFoxy <roman.deev06@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -1596,7 +1596,7 @@ msgid "You were awarded the '{title}' badge!"
 msgstr "Вы были награждены значком '{title}'!"
 
 #: kitsune/kbadge/jinja2/badger/award_detail.html:3 kitsune/kbadge/jinja2/badger/awards_list.html:3 kitsune/kbadge/jinja2/badger/badge_detail.html:3 kitsune/kbadge/jinja2/badger/badges_list.html:3
-#: kitsune/users/jinja2/users/profile.html:186
+#: kitsune/users/jinja2/users/profile.html:193
 msgid "Badges"
 msgstr "Значки"
 
@@ -7544,7 +7544,7 @@ msgstr "Сообщить о злоупотреблении торговой ма
 msgid "Source code"
 msgstr "Исходный код"
 
-#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:83
+#: kitsune/sumo/jinja2/base.html:232 kitsune/users/jinja2/users/profile.html:90
 msgid "Twitter"
 msgstr "Твиттер"
 
@@ -7757,7 +7757,7 @@ msgstr "Управляйте своей приватностью и настро
 msgid "Exchange private messages with other contributors."
 msgstr "Обмен личными сообщениями с другими участниками."
 
-#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:203
+#: kitsune/sumo/jinja2/includes/common_macros.html:216 kitsune/users/jinja2/users/profile.html:210
 msgid "Sign Out"
 msgstr "Выйти"
 
@@ -8089,8 +8089,8 @@ msgid "Display name"
 msgstr "Отображаемое имя"
 
 #: kitsune/users/models.py:46
-msgid "Make my email public"
-msgstr "Сделать мой адрес эл. почты публичным"
+msgid "Make my email address visible to logged in users"
+msgstr ""
 
 #: kitsune/users/models.py:58
 msgid "Biography"
@@ -8104,7 +8104,7 @@ msgstr ""
 "Поддерживаются некоторые HTML-теги: &#x3C;abbr title&#x3E; &#x3C;acronym title&#x3E; &#x3C;b&#x3E; &#x3C;blockquote&#x3E; &#x3C;code&#x3E; &#x3C;em&#x3E; &#x3C;i&#x3E; &#x3C;li&#x3E; &#x3C;ol&#x3E; "
 "&#x3C;strong&#x3E; &#x3C;ul&#x3E;. Ссылки запрещены."
 
-#: kitsune/users/jinja2/users/profile.html:77 kitsune/users/models.py:68
+#: kitsune/users/jinja2/users/profile.html:84 kitsune/users/models.py:68
 msgid "Website"
 msgstr "Веб-сайт"
 
@@ -8289,39 +8289,39 @@ msgstr "Учётная запись"
 
 #: kitsune/users/jinja2/users/edit_profile.html:30 kitsune/users/jinja2/users/profile.html:19
 #, python-format
-msgid "To change your email, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
+msgid "To change your email or avatar, visit the Firefox Accounts page, %(a_open)s learn more. %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_profile.html:37
+#: kitsune/users/jinja2/users/edit_profile.html:45
 msgid "Manage Firefox Account"
 msgstr "Управление Аккаунтом Firefox"
 
-#: kitsune/users/jinja2/users/edit_profile.html:45
+#: kitsune/users/jinja2/users/edit_profile.html:53
 #, fuzzy
 msgid "Share some things about yourself. Most fields are optional, but they help the community to get to know you better."
 msgstr "Расскажите пользователям немного о себе. Большинство полей являются необязательными, но они помогут другим пользователям лучше вас узнать."
 
-#: kitsune/users/jinja2/users/edit_profile.html:82
+#: kitsune/users/jinja2/users/edit_profile.html:79
 msgid "Update My Profile"
 msgstr "Обновить мой профиль"
 
-#: kitsune/users/jinja2/users/edit_profile.html:89
+#: kitsune/users/jinja2/users/edit_profile.html:86
 msgid "Close account and delete all profile information"
 msgstr "Закрыть учётную запись и удалить все данные профиля"
 
-#: kitsune/users/jinja2/users/edit_profile.html:94
+#: kitsune/users/jinja2/users/edit_profile.html:91
 msgid "Are you sure"
 msgstr "Вы уверены"
 
-#: kitsune/users/jinja2/users/edit_profile.html:98
+#: kitsune/users/jinja2/users/edit_profile.html:95
 msgid "Deleting your account will prevent you from answering or posting questions in Mozilla Support. This action will clear your profile and cannot be restored again."
 msgstr "После удаления вашей учётной записи вы не сможете отвечать или размещать вопросы в поддержке Mozilla. Это действие приведет к удалению вашего профиля и он не сможет быть восстановлен."
 
-#: kitsune/users/jinja2/users/edit_profile.html:101
+#: kitsune/users/jinja2/users/edit_profile.html:98
 msgid "Please type in your username to confirm"
 msgstr "Пожалуйста, наберите своё имя пользователя для подтверждения"
 
-#: kitsune/users/jinja2/users/edit_profile.html:109
+#: kitsune/users/jinja2/users/edit_profile.html:106
 msgid "Delete My Account"
 msgstr "Удалить мою учётную запись"
 
@@ -8349,89 +8349,89 @@ msgstr "Сейчас вы ничего не отслеживаете."
 msgid "{user} | Profile"
 msgstr "{user} | Профиль"
 
-#: kitsune/users/jinja2/users/profile.html:30
+#: kitsune/users/jinja2/users/profile.html:35
 msgid "Edit user profile"
 msgstr "Изменить профиль пользователя"
 
-#: kitsune/users/jinja2/users/profile.html:43
+#: kitsune/users/jinja2/users/profile.html:48
 #, python-format
-msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here %(a_close)s"
+msgid "Your privacy is important to us, your username is always visible to the public, if you would like to edit your username %(a_open)s click here. %(a_close)s"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:52
+#: kitsune/users/jinja2/users/profile.html:57
 msgid "{city}, {country}"
 msgstr "{city}, {country}"
 
-#: kitsune/users/jinja2/users/profile.html:71
+#: kitsune/users/jinja2/users/profile.html:78
 msgid "Email"
 msgstr "Эл. почта"
 
-#: kitsune/users/jinja2/users/profile.html:89
+#: kitsune/users/jinja2/users/profile.html:96
 #, fuzzy
 msgid "Community Portal"
 msgstr "Форумы сообщества"
 
-#: kitsune/users/jinja2/users/profile.html:95
+#: kitsune/users/jinja2/users/profile.html:102
 msgid "People Directory"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:101
+#: kitsune/users/jinja2/users/profile.html:108
 msgid "Matrix"
 msgstr ""
 
-#: kitsune/users/jinja2/users/profile.html:116
+#: kitsune/users/jinja2/users/profile.html:123
 msgid "Deactivate this user"
 msgstr "Деактивировать этого пользователя"
 
-#: kitsune/users/jinja2/users/profile.html:121
+#: kitsune/users/jinja2/users/profile.html:128
 msgid "Deactivate this user and mark all content as spam"
 msgstr "Деактивировать этого пользователя и отметить всё содержимое как спам"
 
-#: kitsune/users/jinja2/users/profile.html:124
+#: kitsune/users/jinja2/users/profile.html:131
 msgid "This user has been deactivated."
 msgstr "Этот пользователь был деактивирован."
 
-#: kitsune/users/jinja2/users/profile.html:134
+#: kitsune/users/jinja2/users/profile.html:141
 msgid "Involved with Mozilla since {date}"
 msgstr "Участник проекта Mozilla с {date}"
 
-#: kitsune/users/jinja2/users/profile.html:140
+#: kitsune/users/jinja2/users/profile.html:147
 msgid "{0} question"
 msgid_plural "{0} questions"
 msgstr[0] "{0} вопрос"
 msgstr[1] "{0} вопроса"
 msgstr[2] "{0} вопросов"
 
-#: kitsune/users/jinja2/users/profile.html:147
+#: kitsune/users/jinja2/users/profile.html:154
 msgid "{0} answer"
 msgid_plural "{0} answers"
 msgstr[0] "{0} ответ"
 msgstr[1] "{0} ответа"
 msgstr[2] "{0} ответов"
 
-#: kitsune/users/jinja2/users/profile.html:153
+#: kitsune/users/jinja2/users/profile.html:160
 msgid "{0} solution"
 msgid_plural "{0} solutions"
 msgstr[0] "{0} решение"
 msgstr[1] "{0} решения"
 msgstr[2] "{0} решений"
 
-#: kitsune/users/jinja2/users/profile.html:159
+#: kitsune/users/jinja2/users/profile.html:166
 msgid "{0} documents"
 msgid_plural "{0} documents"
 msgstr[0] "{0} документ"
 msgstr[1] "{0} документа"
 msgstr[2] "{0} документов"
 
-#: kitsune/users/jinja2/users/profile.html:170
+#: kitsune/users/jinja2/users/profile.html:177
 msgid "About {user}"
 msgstr "О {user}"
 
-#: kitsune/users/jinja2/users/profile.html:176
+#: kitsune/users/jinja2/users/profile.html:183
 msgid "{user}'s Groups"
 msgstr "Группы пользователя {user}"
 
-#: kitsune/users/jinja2/users/profile.html:188
+#: kitsune/users/jinja2/users/profile.html:195
 msgid "See all available SUMO badges"
 msgstr "Показать все доступные значки SUMO"
 
@@ -10136,6 +10136,9 @@ msgstr "Расскажите поподробней."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Пожалуйста, предоставьте больше информации."
+
+#~ msgid "Make my email public"
+#~ msgstr "Сделать мой адрес эл. почты публичным"
 
 #~ msgid "You can change your email address on Firefox Accounts."
 #~ msgstr "Вы можете изменить свой адрес электронной почты в Аккаунтах Firefox."
