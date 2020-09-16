@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2017-07-04 15:56+0000\n"
 "Last-Translator: kscanne <kscanne@gmail.com>\n"
 "Language-Team: Irish\n"
@@ -8625,7 +8625,7 @@ msgstr "Cruthaigh mo chuntas"
 msgid "Edit Settings"
 msgstr "Cuir Socruithe in Eagar"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Nuashonraigh"
 
@@ -8633,11 +8633,11 @@ msgstr "Nuashonraigh"
 msgid "Manage watch list"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 #, fuzzy
 msgid "You are not currently watching anything."
 msgstr "Níl tú ag faire ar an snáithe seo"

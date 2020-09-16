@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2015-05-27 13:12+0000\n"
 "Last-Translator: Devon <devon.bezuidenhout@rubric.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8608,7 +8608,7 @@ msgstr "Goge Asusuna"
 msgid "Edit Settings"
 msgstr "Gyara Saituna"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Sabuntawa"
 
@@ -8616,11 +8616,11 @@ msgstr "Sabuntawa"
 msgid "Manage watch list"
 msgstr "Tafiyar da wane jeri"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "A ƙasa akwai jerin wasu abubuwa waɗanda ka kalla. Abubuwan da suke da alama sune abubuwan da ka ke kallo kuma waɗanda ba su da alama an daina kallonsu."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "A yanzu ba ka kallon komai."
 

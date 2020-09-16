@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-07-09 11:49+0000\n"
 "Last-Translator: Philipp Fischbeck <pfischbeck@googlemail.com>\n"
 "Language-Team: German\n"
@@ -8339,7 +8339,7 @@ msgstr "Mein Konto löschen"
 msgid "Edit Settings"
 msgstr "Einstellungen bearbeiten"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Aktualisieren"
 
@@ -8347,11 +8347,11 @@ msgstr "Aktualisieren"
 msgid "Manage watch list"
 msgstr "Beobachtungsliste verwalten"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Es folgt eine Liste von Elementen, die Sie beobachten. Elemente mit Häkchen werden derzeit von Ihnen beobachtet und Elemente ohne Häkchen werden nicht mehr beobachtet."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Sie beobachten derzeit nichts."
 

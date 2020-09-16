@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-06-10 07:45+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: Hindi\n"
@@ -8480,7 +8480,7 @@ msgstr "अपना खाता मिटाएं।"
 msgid "Edit Settings"
 msgstr "सेटिंग संपादित करें"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 #, fuzzy
 msgid "Update"
 msgstr "अद्यतन किया"
@@ -8489,11 +8489,11 @@ msgstr "अद्यतन किया"
 msgid "Manage watch list"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr ""
 

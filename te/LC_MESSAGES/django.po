@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-07-03 13:00+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu\n"
@@ -8333,7 +8333,7 @@ msgstr "నా ఖాతాను తొలగించు"
 msgid "Edit Settings"
 msgstr "అమరికలను సవరించు"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "నవీకరణ"
 
@@ -8341,11 +8341,11 @@ msgstr "నవీకరణ"
 msgid "Manage watch list"
 msgstr "చూసే జాబితా నిర్వహించండి"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "క్రింద మీరు వీక్షించిన వస్తువుల జాబితా ఉంది. ఎంచుకున్న అంశాలు మీరు ప్రస్తుతం చూస్తున్న అంశాలు ఉన్నాయి మరియు అనియంత్రిత అంశాలు ఇకపై వీక్షించకుండా చేస్తుంది."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "మీరు ప్రస్తుతం ఏమీ చూసుటలేదు."
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-05-04 19:06+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8346,7 +8346,7 @@ msgstr "Mójo konto lašowaś"
 msgid "Edit Settings"
 msgstr "Nastajenja wobźěłaś"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Aktualizěrowaś"
 
@@ -8354,11 +8354,11 @@ msgstr "Aktualizěrowaś"
 msgid "Manage watch list"
 msgstr "Wobglědowańsku lisćinu zastojaś"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Dołojce jo lisćina zapiskow, kótarež wobglědujośo. Zapiski z kokulku tuchylu wobglědujośo a zapiski bźez kokulki se wěcej njewobglěduju."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Tuchylu njewobglědujośo nic."
 

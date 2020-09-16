@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2015-06-02 14:54+0000\n"
 "Last-Translator: Tersha <tersha.smith@rubric.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8594,7 +8594,7 @@ msgstr "Pa Àkọ́ọ́lẹ̀ Mi Rẹ́"
 msgid "Edit Settings"
 msgstr "Ṣàtúnṣe àwọn ààtò"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Ṣàfikùn"
 
@@ -8602,11 +8602,11 @@ msgstr "Ṣàfikùn"
 msgid "Manage watch list"
 msgstr "Ṣàkóso àtòkọ ìwò"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Nísàlẹ̀ ni atòkọ àwọn wúnrẹ̀n tí o ti wò. Àwọn wúnrẹ̀n tí a ṣàyẹ̀wò ni àwon wúnrẹ̀n tí o ńwò lọ́wọ́lọ́wọ́ àti àwọn wúnrẹ̀n ti àìṣàyéwò ní akò wò mọ́."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "O kò wo ohunkóhun lọ́wọ́lọ́wọ́."
 

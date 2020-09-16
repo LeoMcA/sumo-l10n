@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-07-08 17:44+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: none\n"
@@ -8293,7 +8293,7 @@ msgstr "Mba’ete mbogue"
 msgid "Edit Settings"
 msgstr "Ñemboheko mbosako'i"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Mbohekopyahu"
 
@@ -8301,11 +8301,11 @@ msgstr "Mbohekopyahu"
 msgid "Manage watch list"
 msgstr "Ma'ẽ'ag̃ui rysýi ñangareko"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Ko’ápe ejuhúta peteĩ tysýi umi mba’epuru ehechávape. Umi oñemongurusúva ha’e ehecháva ko’ág̃a ha ehecha’ỹva katu, umi ehechave’ỹmava."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Ko’ag̃aite nderehechái mba’evete."
 

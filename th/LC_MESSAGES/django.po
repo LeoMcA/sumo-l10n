@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-03-03 13:25+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: Thai\n"
@@ -8331,7 +8331,7 @@ msgstr "ลบบัญชีของฉัน"
 msgid "Edit Settings"
 msgstr "แก้ไขการตั้งค่า"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "อัปเดต"
 
@@ -8339,11 +8339,11 @@ msgstr "อัปเดต"
 msgid "Manage watch list"
 msgstr "จัดการรายการเฝ้าดู"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "ด้านล่างคือรายการของสิ่งที่คุณได้เฝ้าดู รายการที่ทำเครื่องหมายคือรายการที่คุณกำลังเฝ้าดูอยู่และรายการที่ไม่ได้ทำเครื่องหมายจะไม่ถูกเฝ้าดูอีกต่อไป"
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "ขณะนี้คุณไม่ได้เฝ้าดูอะไรเลย"
 

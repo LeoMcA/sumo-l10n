@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-04-23 15:18+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian\n"
@@ -8317,7 +8317,7 @@ msgstr "Fshijeni Llogarinë Time"
 msgid "Edit Settings"
 msgstr "Përpunoni Rregullime"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Përditësoje"
 
@@ -8325,11 +8325,11 @@ msgstr "Përditësoje"
 msgid "Manage watch list"
 msgstr "Administroni listë mbikëqyrjesh"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Më poshtë keni një listë të gjërave që keni mbikëqyrur. Objektet me shenjë janë objekte që i mbikëqyrni tani dhe ata pa shenjë janë ata që nuk i mbikëqyrni më."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Nuk po mbikëqyrni ndonjë gjë."
 

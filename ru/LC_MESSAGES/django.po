@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-06-12 15:05+0000\n"
 "Last-Translator: TrickyFoxy <roman.deev06@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -8329,7 +8329,7 @@ msgstr "Удалить мою учётную запись"
 msgid "Edit Settings"
 msgstr "Изменить настройки"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "обновить"
 
@@ -8337,11 +8337,11 @@ msgstr "обновить"
 msgid "Manage watch list"
 msgstr "Управление списком отслеживания"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Ниже приведен список того, что вы отслеживаете. Отмеченные элементы  - это то, что вы сейчас отслеживаете, а неотмеченные  - то, что вы больше не отслеживаете."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Сейчас вы ничего не отслеживаете."
 

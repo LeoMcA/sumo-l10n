@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-07-09 13:54+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8287,7 +8287,7 @@ msgstr "Kkes amiḍan-iw"
 msgid "Edit Settings"
 msgstr "Iɣewwaṛen n teẓrigt"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Leqqem"
 
@@ -8295,11 +8295,11 @@ msgstr "Leqqem"
 msgid "Manage watch list"
 msgstr "Sefrek tabdert n uqareɛ"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Ddaw-a ad tafeḍ tabdert i tettɛassaḍ. Iferdisen yettwaṛecen d wid i tettɛassaḍ akka tura, ma d wid ur nettwaṛacem ara, ur tezgiḍ tettɛassaḍ-ten."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Ulac ayen ara tettɛassaḍ akka tura."
 

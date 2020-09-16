@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2016-09-06 17:28+0000\n"
 "Last-Translator: Bimo Aryo <bimoaryo@rocketmail.com>\n"
 "Language-Team: Indonesian\n"
@@ -8318,7 +8318,7 @@ msgstr "Buat akun dukungan."
 msgid "Edit Settings"
 msgstr "Edit Setelan"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Perbarui"
 
@@ -8326,11 +8326,11 @@ msgstr "Perbarui"
 msgid "Manage watch list"
 msgstr "Kelola daftar pantau"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Anda tidak memantau utas ini"
 

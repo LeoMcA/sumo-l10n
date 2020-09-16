@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2015-05-15 11:44+0000\n"
 "Last-Translator: af-ZA09_Samuel <leuce.com+rubric@gmail.com>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -8612,7 +8612,7 @@ msgstr "Skrap my rekening"
 msgid "Edit Settings"
 msgstr "Redigeer instellings"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Werk by"
 
@@ -8620,11 +8620,11 @@ msgstr "Werk by"
 msgid "Manage watch list"
 msgstr "Bestuur dophoulys"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Hier is 'n lys items wat jy dopgehou het. Gemerkte items is items wat jy dophou, en ontmerkte items word nie meer dopgehou nie."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Jy hou nie tans enige iets dop nie."
 

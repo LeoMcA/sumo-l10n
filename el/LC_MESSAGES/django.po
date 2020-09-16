@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-06-19 13:38+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -8326,7 +8326,7 @@ msgstr "Διαγραφή λογαριασμού"
 msgid "Edit Settings"
 msgstr "Επεξεργασία ρυθμίσεων"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Ενημέρωση"
 
@@ -8334,11 +8334,11 @@ msgstr "Ενημέρωση"
 msgid "Manage watch list"
 msgstr "Διαχείριση λίστας παρακολούθησης"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Η παρακάτω λίστα περιέχει τα στοιχεία που έχετε παρακολουθήσει. Τα επιλεγμένα στοιχεία είναι αυτά που παρακολουθείτε αυτή τη στιγμή, ενώ τα μη επιλεγμένα στοιχεία δεν παρακολουθούνται πλέον."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Προς το παρόν, δεν παρακολουθείτε τίποτα."
 

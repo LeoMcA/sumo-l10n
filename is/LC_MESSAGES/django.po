@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2016-04-07 10:48+0000\n"
 "Last-Translator: Kristján Bjarni Guðmundsson <kristjanbjarni@gmail.com>\n"
 "Language-Team: Icelandic\n"
@@ -8618,7 +8618,7 @@ msgstr "Búa til þjónustureikning"
 msgid "Edit Settings"
 msgstr "Breyta stillingum"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Uppfæra"
 
@@ -8626,11 +8626,11 @@ msgstr "Uppfæra"
 msgid "Manage watch list"
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr ""
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Þú ert ekki að fylgjast með þessum þræði"
 

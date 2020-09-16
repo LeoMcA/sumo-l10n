@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-05-25 17:07+0000\n"
 "Last-Translator: eHyun <seroun123@gmail.com>\n"
 "Language-Team: Mozilla SUMO Korean Team\n"
@@ -8328,7 +8328,7 @@ msgstr "계정 지우기"
 msgid "Edit Settings"
 msgstr "설정 편집"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "갱신"
 
@@ -8336,11 +8336,11 @@ msgstr "갱신"
 msgid "Manage watch list"
 msgstr "감시 목록 관리"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "아래는 당신이 지켜보고 있는 항목 목록입니다. 체크된 항목은 현재 지켜보고 있는 항목이며 체크되어 있지 않은 항목은 더 이상 지켜보고 있지 않은 항목입니다."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "주시중인 글이 없습니다."
 

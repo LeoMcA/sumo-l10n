@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2015-03-28 23:20+0000\n"
 "Last-Translator: wo-SN01_Mady <pamaboca@yahoo.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8584,7 +8584,7 @@ msgstr "Far Sama Sàq"
 msgid "Edit Settings"
 msgstr "Soppali jekkal"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Yeesal"
 
@@ -8592,11 +8592,11 @@ msgstr "Yeesal"
 msgid "Manage watch list"
 msgstr "Saytu lim yiñ xool"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Limu mbir yi nga xool a ngii ci suuf. Yi am xàmmekaay ñooy yi nga nekk di xool fimne nii. Yi amul xàmmekaay kenn xoolatu leen."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Fimne nii xooloo dara."
 

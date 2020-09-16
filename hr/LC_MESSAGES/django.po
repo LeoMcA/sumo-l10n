@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-05-10 12:25+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: Croatian\n"
@@ -8314,7 +8314,7 @@ msgstr "Izbriši moj račun"
 msgid "Edit Settings"
 msgstr "Uredi postavke"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Aktualiziraj"
 
@@ -8322,11 +8322,11 @@ msgstr "Aktualiziraj"
 msgid "Manage watch list"
 msgstr "Upravljaj popisom praćenih predmeta"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Ovdje se nalazi popis predmeta koje pratiš. Označeni predmeti su oni koje trenutačno pratiš, a neoznačeni predmeti su oni koje više ne pratiš."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Trenutačno ništa ne promatraš."
 

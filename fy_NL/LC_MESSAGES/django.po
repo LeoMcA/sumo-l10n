@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2020-04-27 09:35+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Western Frisian\n"
@@ -8307,7 +8307,7 @@ msgstr "Myn account fuortsmite"
 msgid "Edit Settings"
 msgstr "Ynstellingen bewurkje"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Bywurkje"
 
@@ -8315,11 +8315,11 @@ msgstr "Bywurkje"
 msgid "Manage watch list"
 msgstr "Folchlist beheare"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Hjirûnder befynt him in list fan items dy't jo folge hawwe. Oanfinkte items binne items dy't jo op dit stuit folgje en net-oanfinkte items wurde net mear folge."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Jo folgje op dit stuit neat."
 

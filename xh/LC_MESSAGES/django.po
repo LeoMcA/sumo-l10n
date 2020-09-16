@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 19:05-0700\n"
+"POT-Creation-Date: 2020-09-15 19:05-0700\n"
 "PO-Revision-Date: 2016-01-28 11:22+0000\n"
 "Last-Translator: Michał Dziewoński <mdziewonski@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8605,7 +8605,7 @@ msgstr "Yenza iakhawunti yam"
 msgid "Edit Settings"
 msgstr "Hlela Iisetingi"
 
-#: kitsune/users/jinja2/users/edit_settings.html:18 kitsune/users/jinja2/users/edit_watches.html:29
+#: kitsune/users/jinja2/users/edit_settings.html:19 kitsune/users/jinja2/users/edit_watches.html:30
 msgid "Update"
 msgstr "Hlaziya"
 
@@ -8613,11 +8613,11 @@ msgstr "Hlaziya"
 msgid "Manage watch list"
 msgstr "Lawula uluhlu olubukelwayo"
 
-#: kitsune/users/jinja2/users/edit_watches.html:12
+#: kitsune/users/jinja2/users/edit_watches.html:13
 msgid "Below is a list of items that you have watched. Checked items are items you are currently watching and unchecked items are no longer being watched."
 msgstr "Ngezantsi luluhlu lwezinto ozibukeleyo. Izinto ezijongiweyo zizinto ozibukeleyo ngoku kwaye waze izinto ezingajongwanga azisabukelwa."
 
-#: kitsune/users/jinja2/users/edit_watches.html:33
+#: kitsune/users/jinja2/users/edit_watches.html:34
 msgid "You are not currently watching anything."
 msgstr "Okwangoku awujonganga nto."
 
