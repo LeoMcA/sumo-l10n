@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: test\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-15 19:05-0700\n"
+"POT-Creation-Date: 2020-09-23 19:05-0700\n"
 "PO-Revision-Date: 2020-06-25 15:22+0000\n"
 "Last-Translator: Simone Lando <simone.lando@mozillaitalia.org>\n"
 "Language-Team: \n"
@@ -8165,7 +8165,7 @@ msgid "moderator"
 msgstr "Moderatore"
 
 #. This is at the end of an email.
-#: kitsune/users/jinja2/users/email/contributor.html:78 kitsune/users/jinja2/users/email/contributor.ltxt:85 kitsune/users/utils.py:23
+#: kitsune/users/jinja2/users/email/contributor.html:78 kitsune/users/jinja2/users/email/contributor.ltxt:85 kitsune/users/utils.py:24
 msgid "Welcome to SUMO!"
 msgstr "Benvenuti in SUMO!"
 
