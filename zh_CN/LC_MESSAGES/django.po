@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-23 19:05-0700\n"
+"POT-Creation-Date: 2020-09-28 19:06-0700\n"
 "PO-Revision-Date: 2020-07-09 11:58+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: Chinese (simplified)\n"
@@ -1222,7 +1222,7 @@ msgstr "用 [[Image:title]] 的 wiki 语法包含这个"
 msgid "Provide a brief description of this media."
 msgstr "请为这个媒体文件提供简短的描述。"
 
-#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:476 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
+#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:468 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
 msgid "Locale"
 msgstr "语系"
 
@@ -1817,7 +1817,7 @@ msgstr "关注此语言"
 msgid "Watch"
 msgstr "关注"
 
-#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:107
+#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:106
 msgid "Replies"
 msgstr "回复"
 
@@ -1930,7 +1930,7 @@ msgstr "最后回复者为"
 msgid "Sticky"
 msgstr "置顶"
 
-#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:97 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
+#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:96 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
 msgid "Locked"
 msgstr "已锁定"
 
@@ -3214,7 +3214,7 @@ msgstr "一周几次"
 msgid "Every time Firefox opened"
 msgstr "每次打开 Firefox 时"
 
-#: kitsune/questions/forms.py:43 kitsune/questions/jinja2/questions/question_details.html:524
+#: kitsune/questions/forms.py:43 kitsune/questions/jinja2/questions/question_details.html:516
 msgid "This started when..."
 msgstr "在此时开始..."
 
@@ -3283,103 +3283,99 @@ msgstr "开始"
 msgid "End"
 msgstr "结束"
 
-#: kitsune/questions/views.py:72
+#: kitsune/questions/views.py:71
 msgid "That tag does not exist."
 msgstr "该标签不存在。"
 
-#: kitsune/questions/views.py:73
+#: kitsune/questions/views.py:72
 msgid "Please provide a tag."
 msgstr "请提供一个标签。"
 
-#: kitsune/questions/views.py:79
+#: kitsune/questions/views.py:78
 msgid "Recently unanswered"
 msgstr "近期尚未回答"
 
-#: kitsune/questions/views.py:84
+#: kitsune/questions/views.py:83
 msgid "New"
 msgstr "新"
 
-#: kitsune/questions/views.py:85
+#: kitsune/questions/views.py:84
 msgid "Answers didn't help"
 msgstr "答案没有帮助"
 
-#: kitsune/questions/views.py:90
+#: kitsune/questions/views.py:89
 msgid "Needs info"
 msgstr "需要信息"
 
-#: kitsune/questions/views.py:91
+#: kitsune/questions/views.py:90
 msgid "Solution provided"
 msgstr "已提供解决方案"
 
-#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:96 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
+#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:95 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
 msgid "Solved"
 msgstr "已解决"
 
-#: kitsune/questions/views.py:104
+#: kitsune/questions/views.py:103
 msgid "Updated"
 msgstr "最后更新于"
 
-#: kitsune/questions/views.py:105
+#: kitsune/questions/views.py:104
 msgid "Views"
 msgstr "查看数"
 
-#: kitsune/questions/views.py:106 kitsune/search/forms.py:243
+#: kitsune/questions/views.py:105 kitsune/search/forms.py:243
 msgid "Votes"
 msgstr "投票数"
 
-#: kitsune/questions/views.py:487
+#: kitsune/questions/views.py:486
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "问题论坛无法在 {old_lang} 下使用，我们已为您重定向到 {new_lang} 问题论坛。"
 
-#: kitsune/questions/views.py:533
+#: kitsune/questions/views.py:532
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "问题论坛无法在 {old_lang} 下对 {product} 使用，我们已为您重定向到 {new_lang} 的问题论坛。"
 
-#: kitsune/questions/views.py:584
+#: kitsune/questions/views.py:583
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr "搞定！您的问题现已发布到 Mozilla 社区的支持论坛上。您可以随时访问个人资料中的{a_open}我的问题{a_close}页面来查看您的帖子。"
 
-#: kitsune/questions/views.py:791
+#: kitsune/questions/views.py:790
 msgid "Thank you for choosing a solution!"
 msgstr "感谢您选了一个解决方案！"
 
-#: kitsune/questions/views.py:794
+#: kitsune/questions/views.py:793
 msgid "This question already has a solution."
 msgstr "此问题已经有了一个解决方案。"
 
-#: kitsune/questions/views.py:816
+#: kitsune/questions/views.py:815
 msgid "The solution was undone successfully."
 msgstr "该解决方案已成功撤销。"
 
-#: kitsune/questions/views.py:896
+#: kitsune/questions/views.py:895
 msgid "Glad to hear it!"
 msgstr "很高兴听到这个消息！"
 
-#: kitsune/questions/views.py:898 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:897 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "很抱歉听到这消息。"
 
-#: kitsune/questions/views.py:918
+#: kitsune/questions/views.py:917
 msgid "You already voted on this reply."
 msgstr "您已在此回答上投过票了。"
 
-#: kitsune/questions/views.py:1201
+#: kitsune/questions/views.py:1200
 msgid "Could not send a message to that email address."
 msgstr "不能向那个邮件地址发送邮件。"
 
-#: kitsune/questions/views.py:1207
+#: kitsune/questions/views.py:1206
 msgid "You will be notified of updates by email."
 msgstr "有更新时您会得到邮件通知。"
 
-#: kitsune/questions/views.py:1209
+#: kitsune/questions/views.py:1208
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "您很快会收到邮件确认您的订阅。"
 
-#: kitsune/questions/views.py:1428
-msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
-msgstr "我已邀请 {user} 参与一个屏幕共享会话，一旦我得到新消息，我会在这里显示。"
-
-#: kitsune/questions/views.py:1544
+#: kitsune/questions/views.py:1506
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr "帖子由版主批准后，才会公开可见。"
 
@@ -3672,71 +3668,67 @@ msgstr "获取电子邮件更新"
 msgid "Subscribe to feed"
 msgstr "订阅收取点"
 
-#: kitsune/questions/jinja2/questions/question_details.html:371
-msgid "Invite to share screen"
-msgstr "邀请加入屏幕共享"
-
-#: kitsune/questions/jinja2/questions/question_details.html:386 kitsune/search/forms.py:249
+#: kitsune/questions/jinja2/questions/question_details.html:378 kitsune/search/forms.py:249
 msgid "Tags"
 msgstr "标签"
 
-#: kitsune/questions/jinja2/questions/question_details.html:429 kitsune/tags/forms.py:125
+#: kitsune/questions/jinja2/questions/question_details.html:421 kitsune/tags/forms.py:125
 msgid "Add"
 msgstr "添加"
 
-#: kitsune/questions/jinja2/questions/question_details.html:438
+#: kitsune/questions/jinja2/questions/question_details.html:430
 msgid "Question Details"
 msgstr "问题详情"
 
-#: kitsune/questions/jinja2/questions/question_details.html:444
+#: kitsune/questions/jinja2/questions/question_details.html:436
 msgid "Product"
 msgstr "产品"
 
-#: kitsune/questions/jinja2/questions/question_details.html:460
+#: kitsune/questions/jinja2/questions/question_details.html:452
 msgid "Topic"
 msgstr "主题"
 
-#: kitsune/questions/jinja2/questions/question_details.html:486
+#: kitsune/questions/jinja2/questions/question_details.html:478
 msgid "Save changes"
 msgstr "保存更改"
 
-#: kitsune/questions/jinja2/questions/question_details.html:491
+#: kitsune/questions/jinja2/questions/question_details.html:483
 msgid "System Details"
 msgstr "系统详细信息"
 
-#: kitsune/questions/jinja2/questions/question_details.html:503
+#: kitsune/questions/jinja2/questions/question_details.html:495
 msgid "Device:"
 msgstr "设备："
 
-#: kitsune/questions/jinja2/questions/question_details.html:507
+#: kitsune/questions/jinja2/questions/question_details.html:499
 msgid "More system details"
 msgstr "更多系统细节"
 
-#: kitsune/questions/jinja2/questions/question_details.html:509 kitsune/questions/jinja2/questions/question_details.html:510
+#: kitsune/questions/jinja2/questions/question_details.html:501 kitsune/questions/jinja2/questions/question_details.html:502
 msgid "Additional System Details"
 msgstr "补充系统细节"
 
-#: kitsune/questions/jinja2/questions/question_details.html:512
+#: kitsune/questions/jinja2/questions/question_details.html:504
 msgid "Sites Affected"
 msgstr "影响的网站"
 
-#: kitsune/questions/jinja2/questions/question_details.html:516
+#: kitsune/questions/jinja2/questions/question_details.html:508
 msgid "Crash ID"
 msgstr "崩溃ID"
 
-#: kitsune/questions/jinja2/questions/question_details.html:520
+#: kitsune/questions/jinja2/questions/question_details.html:512
 msgid "This happened"
 msgstr "这发生于"
 
-#: kitsune/questions/jinja2/questions/question_details.html:528
+#: kitsune/questions/jinja2/questions/question_details.html:520
 msgid "Installed Plug-ins"
 msgstr "已安装的插件"
 
-#: kitsune/questions/jinja2/questions/question_details.html:539
+#: kitsune/questions/jinja2/questions/question_details.html:531
 msgid "Edit details"
 msgstr "编辑详情"
 
-#: kitsune/questions/jinja2/questions/question_details.html:549
+#: kitsune/questions/jinja2/questions/question_details.html:541
 msgid "See also"
 msgstr "另见"
 
@@ -7992,7 +7984,7 @@ msgstr "盐"
 msgid "hash"
 msgstr "散列"
 
-#: kitsune/users/models.py:40 kitsune/users/models.py:340
+#: kitsune/users/models.py:40 kitsune/users/models.py:339
 msgid "User"
 msgstr "用户"
 
@@ -8066,31 +8058,31 @@ msgstr "成功发出第一封修订版本贡献的邮件。"
 msgid "When the user was sent a community health survey"
 msgstr "当发送一份社区健康调查表给用户时"
 
-#: kitsune/users/models.py:298
+#: kitsune/users/models.py:297
 msgid "{displayname} ({username})"
 msgstr "{displayname}（{username}）"
 
-#: kitsune/users/models.py:344
+#: kitsune/users/models.py:343
 msgid "Value"
 msgstr "值"
 
-#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
+#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
 msgid "user"
 msgstr "用户"
 
-#: kitsune/users/models.py:383 kitsune/users/models.py:420
+#: kitsune/users/models.py:382 kitsune/users/models.py:419
 msgid "activation key"
 msgstr "激活码"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:385
 msgid "registration profile"
 msgstr "注册信息"
 
-#: kitsune/users/models.py:387
+#: kitsune/users/models.py:386
 msgid "registration profiles"
 msgstr "注册信息"
 
-#: kitsune/users/models.py:436
+#: kitsune/users/models.py:435
 msgid "moderator"
 msgstr "版主"
 
@@ -10018,6 +10010,12 @@ msgstr "告诉我们更多信息。"
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "请提供更多细节"
+
+#~ msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
+#~ msgstr "我已邀请 {user} 参与一个屏幕共享会话，一旦我得到新消息，我会在这里显示。"
+
+#~ msgid "Invite to share screen"
+#~ msgstr "邀请加入屏幕共享"
 
 #~ msgid "Make my email public"
 #~ msgstr "公开我的的电子邮箱地址"

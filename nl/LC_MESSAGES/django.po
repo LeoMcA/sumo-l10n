@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-23 19:05-0700\n"
+"POT-Creation-Date: 2020-09-28 19:06-0700\n"
 "PO-Revision-Date: 2020-07-09 13:31+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: Dutch\n"
@@ -1232,7 +1232,7 @@ msgstr "Dit opnemen in wiki-syntaxis met [[Image:title]]"
 msgid "Provide a brief description of this media."
 msgstr "Geef een korte omschrijving van dit medium."
 
-#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:476 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
+#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:468 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
 msgid "Locale"
 msgstr "Locale"
 
@@ -1827,7 +1827,7 @@ msgstr "Deze taal volgen"
 msgid "Watch"
 msgstr "Volgen"
 
-#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:107
+#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:106
 msgid "Replies"
 msgstr "Antwoorden"
 
@@ -1940,7 +1940,7 @@ msgstr "Laatste antwoord van"
 msgid "Sticky"
 msgstr "Klevend"
 
-#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:97 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
+#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:96 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
 msgid "Locked"
 msgstr "Gesloten"
 
@@ -3238,7 +3238,7 @@ msgstr "Een paar keer per week"
 msgid "Every time Firefox opened"
 msgstr "Telkens als Firefox werd geopend"
 
-#: kitsune/questions/forms.py:43 kitsune/questions/jinja2/questions/question_details.html:524
+#: kitsune/questions/forms.py:43 kitsune/questions/jinja2/questions/question_details.html:516
 msgid "This started when..."
 msgstr "Dit begon toen …"
 
@@ -3308,103 +3308,99 @@ msgstr "Begin"
 msgid "End"
 msgstr "Einde"
 
-#: kitsune/questions/views.py:72
+#: kitsune/questions/views.py:71
 msgid "That tag does not exist."
 msgstr "Dat label bestaat niet."
 
-#: kitsune/questions/views.py:73
+#: kitsune/questions/views.py:72
 msgid "Please provide a tag."
 msgstr "Geef een label op."
 
-#: kitsune/questions/views.py:79
+#: kitsune/questions/views.py:78
 msgid "Recently unanswered"
 msgstr "Onlangs onbeantwoord"
 
-#: kitsune/questions/views.py:84
+#: kitsune/questions/views.py:83
 msgid "New"
 msgstr "Nieuw"
 
-#: kitsune/questions/views.py:85
+#: kitsune/questions/views.py:84
 msgid "Answers didn't help"
 msgstr "Antwoorden hielpen niet"
 
-#: kitsune/questions/views.py:90
+#: kitsune/questions/views.py:89
 msgid "Needs info"
 msgstr "Info nodig"
 
-#: kitsune/questions/views.py:91
+#: kitsune/questions/views.py:90
 msgid "Solution provided"
 msgstr "Gegeven oplossing"
 
-#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:96 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
+#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:95 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
 msgid "Solved"
 msgstr "Opgelost"
 
-#: kitsune/questions/views.py:104
+#: kitsune/questions/views.py:103
 msgid "Updated"
 msgstr "Bijgewerkt"
 
-#: kitsune/questions/views.py:105
+#: kitsune/questions/views.py:104
 msgid "Views"
 msgstr "Weergaven"
 
-#: kitsune/questions/views.py:106 kitsune/search/forms.py:243
+#: kitsune/questions/views.py:105 kitsune/search/forms.py:243
 msgid "Votes"
 msgstr "Stemmen"
 
-#: kitsune/questions/views.py:487
+#: kitsune/questions/views.py:486
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Het vragenforum is niet beschikbaar in het {old_lang}; we hebben u omgeleid naar het vragenforum voor {new_lang}."
 
-#: kitsune/questions/views.py:533
+#: kitsune/questions/views.py:532
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Het vragenforum is niet beschikbaar voor {product} in het {old_lang}; we hebben u omgeleid naar het vragenforum voor {new_lang}."
 
-#: kitsune/questions/views.py:584
+#: kitsune/questions/views.py:583
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:791
+#: kitsune/questions/views.py:790
 msgid "Thank you for choosing a solution!"
 msgstr "Bedankt voor het kiezen van een oplossing!"
 
-#: kitsune/questions/views.py:794
+#: kitsune/questions/views.py:793
 msgid "This question already has a solution."
 msgstr "Deze vraag heeft al een oplossing."
 
-#: kitsune/questions/views.py:816
+#: kitsune/questions/views.py:815
 msgid "The solution was undone successfully."
 msgstr "De oplossing is met succes ongedaan gemaakt."
 
-#: kitsune/questions/views.py:896
+#: kitsune/questions/views.py:895
 msgid "Glad to hear it!"
 msgstr "Blij dat te horen!"
 
-#: kitsune/questions/views.py:898 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:897 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Dat spijt ons zeer."
 
-#: kitsune/questions/views.py:918
+#: kitsune/questions/views.py:917
 msgid "You already voted on this reply."
 msgstr "U hebt al op dit antwoord gestemd."
 
-#: kitsune/questions/views.py:1201
+#: kitsune/questions/views.py:1200
 msgid "Could not send a message to that email address."
 msgstr "Kon geen bericht naar dat e-mailadres verzenden."
 
-#: kitsune/questions/views.py:1207
+#: kitsune/questions/views.py:1206
 msgid "You will be notified of updates by email."
 msgstr "U wordt per e-mail op de hoogte gehouden van updates."
 
-#: kitsune/questions/views.py:1209
+#: kitsune/questions/views.py:1208
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "U ontvangt spoedig een e-mailbericht om uw inschrijving te bevestigen."
 
-#: kitsune/questions/views.py:1428
-msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
-msgstr "Ik heb gebruiker {user} voor een schermdeelsessie uitgenodigd, en ik zal hier een update geven zodra we klaar zijn."
-
-#: kitsune/questions/views.py:1544
+#: kitsune/questions/views.py:1506
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -3703,71 +3699,67 @@ msgstr "E-mailupdates ontvangen"
 msgid "Subscribe to feed"
 msgstr "Abonneren op feed"
 
-#: kitsune/questions/jinja2/questions/question_details.html:371
-msgid "Invite to share screen"
-msgstr "Uitnodigen voor scherm delen"
-
-#: kitsune/questions/jinja2/questions/question_details.html:386 kitsune/search/forms.py:249
+#: kitsune/questions/jinja2/questions/question_details.html:378 kitsune/search/forms.py:249
 msgid "Tags"
 msgstr "Labels"
 
-#: kitsune/questions/jinja2/questions/question_details.html:429 kitsune/tags/forms.py:125
+#: kitsune/questions/jinja2/questions/question_details.html:421 kitsune/tags/forms.py:125
 msgid "Add"
 msgstr "Toevoegen"
 
-#: kitsune/questions/jinja2/questions/question_details.html:438
+#: kitsune/questions/jinja2/questions/question_details.html:430
 msgid "Question Details"
 msgstr "Vraagdetails"
 
-#: kitsune/questions/jinja2/questions/question_details.html:444
+#: kitsune/questions/jinja2/questions/question_details.html:436
 msgid "Product"
 msgstr "Product"
 
-#: kitsune/questions/jinja2/questions/question_details.html:460
+#: kitsune/questions/jinja2/questions/question_details.html:452
 msgid "Topic"
 msgstr "Onderwerp"
 
-#: kitsune/questions/jinja2/questions/question_details.html:486
+#: kitsune/questions/jinja2/questions/question_details.html:478
 msgid "Save changes"
 msgstr "Wijzigingen opslaan"
 
-#: kitsune/questions/jinja2/questions/question_details.html:491
+#: kitsune/questions/jinja2/questions/question_details.html:483
 msgid "System Details"
 msgstr "Systeemdetails"
 
-#: kitsune/questions/jinja2/questions/question_details.html:503
+#: kitsune/questions/jinja2/questions/question_details.html:495
 msgid "Device:"
 msgstr "Apparaat:"
 
-#: kitsune/questions/jinja2/questions/question_details.html:507
+#: kitsune/questions/jinja2/questions/question_details.html:499
 msgid "More system details"
 msgstr "Meer systeemdetails"
 
-#: kitsune/questions/jinja2/questions/question_details.html:509 kitsune/questions/jinja2/questions/question_details.html:510
+#: kitsune/questions/jinja2/questions/question_details.html:501 kitsune/questions/jinja2/questions/question_details.html:502
 msgid "Additional System Details"
 msgstr "Aanvullende systeemdetails"
 
-#: kitsune/questions/jinja2/questions/question_details.html:512
+#: kitsune/questions/jinja2/questions/question_details.html:504
 msgid "Sites Affected"
 msgstr "Betreffende websites"
 
-#: kitsune/questions/jinja2/questions/question_details.html:516
+#: kitsune/questions/jinja2/questions/question_details.html:508
 msgid "Crash ID"
 msgstr "Crash-ID"
 
-#: kitsune/questions/jinja2/questions/question_details.html:520
+#: kitsune/questions/jinja2/questions/question_details.html:512
 msgid "This happened"
 msgstr "Dit gebeurde"
 
-#: kitsune/questions/jinja2/questions/question_details.html:528
+#: kitsune/questions/jinja2/questions/question_details.html:520
 msgid "Installed Plug-ins"
 msgstr "Geïnstalleerde plug-ins"
 
-#: kitsune/questions/jinja2/questions/question_details.html:539
+#: kitsune/questions/jinja2/questions/question_details.html:531
 msgid "Edit details"
 msgstr "Details bewerken"
 
-#: kitsune/questions/jinja2/questions/question_details.html:549
+#: kitsune/questions/jinja2/questions/question_details.html:541
 msgid "See also"
 msgstr "Zie ook"
 
@@ -8059,7 +8051,7 @@ msgstr "salt"
 msgid "hash"
 msgstr "hash"
 
-#: kitsune/users/models.py:40 kitsune/users/models.py:340
+#: kitsune/users/models.py:40 kitsune/users/models.py:339
 msgid "User"
 msgstr "Gebruiker"
 
@@ -8133,31 +8125,31 @@ msgstr "E-mail voor eerste bijdrage door revisie verstuurd."
 msgid "When the user was sent a community health survey"
 msgstr "Wanneer de gebruiker naar een statusenquête over de gemeenschap is geleid"
 
-#: kitsune/users/models.py:298
+#: kitsune/users/models.py:297
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:344
+#: kitsune/users/models.py:343
 msgid "Value"
 msgstr "Waarde"
 
-#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
+#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
 msgid "user"
 msgstr "gebruiker"
 
-#: kitsune/users/models.py:383 kitsune/users/models.py:420
+#: kitsune/users/models.py:382 kitsune/users/models.py:419
 msgid "activation key"
 msgstr "activeringssleutel"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:385
 msgid "registration profile"
 msgstr "registratieprofiel"
 
-#: kitsune/users/models.py:387
+#: kitsune/users/models.py:386
 msgid "registration profiles"
 msgstr "registratieprofielen"
 
-#: kitsune/users/models.py:436
+#: kitsune/users/models.py:435
 msgid "moderator"
 msgstr "moderator"
 
@@ -10111,6 +10103,12 @@ msgstr "Vertel ons meer."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Geef iets meer details"
+
+#~ msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
+#~ msgstr "Ik heb gebruiker {user} voor een schermdeelsessie uitgenodigd, en ik zal hier een update geven zodra we klaar zijn."
+
+#~ msgid "Invite to share screen"
+#~ msgstr "Uitnodigen voor scherm delen"
 
 #~ msgid "Make my email public"
 #~ msgstr "Mijn e-mailadres openbaar maken"

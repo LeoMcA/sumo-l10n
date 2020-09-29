@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-23 19:05-0700\n"
+"POT-Creation-Date: 2020-09-28 19:06-0700\n"
 "PO-Revision-Date: 2020-07-08 17:44+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: none\n"
@@ -1231,7 +1231,7 @@ msgstr "Emoinge kóva wiki ñe’ẽjuajungatúpe [[Image:title]] ndive"
 msgid "Provide a brief description of this media."
 msgstr "Ehai mbykymi ñemoha’anga marandurenda hekoetáva rehe."
 
-#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:476 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
+#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:468 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
 msgid "Locale"
 msgstr "Ñe’ẽ"
 
@@ -1826,7 +1826,7 @@ msgstr "Ema’ẽag̃ui ko ñe’ẽre"
 msgid "Watch"
 msgstr "Ñema’ẽ"
 
-#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:107
+#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:106
 msgid "Replies"
 msgstr "Mbohovái"
 
@@ -1939,7 +1939,7 @@ msgstr "Mbohovái ipaháva"
 msgid "Sticky"
 msgstr "Mbojuajuha"
 
-#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:97 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
+#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:96 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
 msgid "Locked"
 msgstr "Jokopyre"
 
@@ -3233,7 +3233,7 @@ msgstr "Ndahetái jey arapokõindýpe"
 msgid "Every time Firefox opened"
 msgstr "Peteĩteĩ jey Firefox emoñepyrũvo"
 
-#: kitsune/questions/forms.py:43 kitsune/questions/jinja2/questions/question_details.html:524
+#: kitsune/questions/forms.py:43 kitsune/questions/jinja2/questions/question_details.html:516
 msgid "This started when..."
 msgstr "Kóva oñepyrũhína..."
 
@@ -3303,103 +3303,99 @@ msgstr "Ñepyrũ"
 msgid "End"
 msgstr "Opaha"
 
-#: kitsune/questions/views.py:72
+#: kitsune/questions/views.py:71
 msgid "That tag does not exist."
 msgstr "Ndaipóri ko teramoĩ."
 
-#: kitsune/questions/views.py:73
+#: kitsune/questions/views.py:72
 msgid "Please provide a tag."
 msgstr "Ikatúpa ehechauka peteĩ teramoĩ."
 
-#: kitsune/questions/views.py:79
+#: kitsune/questions/views.py:78
 msgid "Recently unanswered"
 msgstr "Noñembohováiva ramoite"
 
-#: kitsune/questions/views.py:84
+#: kitsune/questions/views.py:83
 msgid "New"
 msgstr "Pyahu"
 
-#: kitsune/questions/views.py:85
+#: kitsune/questions/views.py:84
 msgid "Answers didn't help"
 msgstr "Ñembohovái noipytyvõi"
 
-#: kitsune/questions/views.py:90
+#: kitsune/questions/views.py:89
 msgid "Needs info"
 msgstr "Oikotevẽ marandu"
 
-#: kitsune/questions/views.py:91
+#: kitsune/questions/views.py:90
 msgid "Solution provided"
 msgstr "Ñemoĩporã kuave’ẽpyre"
 
-#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:96 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
+#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:95 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
 msgid "Solved"
 msgstr "Moĩporãmbyre"
 
-#: kitsune/questions/views.py:104
+#: kitsune/questions/views.py:103
 msgid "Updated"
 msgstr "Mbohekopyahupyre"
 
-#: kitsune/questions/views.py:105
+#: kitsune/questions/views.py:104
 msgid "Views"
 msgstr "Jehechapyre"
 
-#: kitsune/questions/views.py:106 kitsune/search/forms.py:243
+#: kitsune/questions/views.py:105 kitsune/search/forms.py:243
 msgid "Votes"
 msgstr "Jeporavokue"
 
-#: kitsune/questions/views.py:487
+#: kitsune/questions/views.py:486
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Porandu atygua ndoikói {old_lang} pegua, roguerova porandu atygua pyahúpe {new_lang}."
 
-#: kitsune/questions/views.py:533
+#: kitsune/questions/views.py:532
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Porandu atygua ndojepurukuaái {product} peg̃uarã {old_lang} pegua, roguerova porandu atygua pyahúpe {new_lang} peguápe."
 
-#: kitsune/questions/views.py:584
+#: kitsune/questions/views.py:583
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:791
+#: kitsune/questions/views.py:790
 msgid "Thank you for choosing a solution!"
 msgstr "¡Aguyje eiporavóre peteĩ ñemoĩporã!"
 
-#: kitsune/questions/views.py:794
+#: kitsune/questions/views.py:793
 msgid "This question already has a solution."
 msgstr "Ko porandu oñemoĩporãma."
 
-#: kitsune/questions/views.py:816
+#: kitsune/questions/views.py:815
 msgid "The solution was undone successfully."
 msgstr "Pe ñemoĩporã oñemboyke hekoitépe."
 
-#: kitsune/questions/views.py:896
+#: kitsune/questions/views.py:895
 msgid "Glad to hear it!"
 msgstr "¡Orembovy’a eréva!"
 
-#: kitsune/questions/views.py:898 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:897 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Naorembovy’ái pe eréva."
 
-#: kitsune/questions/views.py:918
+#: kitsune/questions/views.py:917
 msgid "You already voted on this reply."
 msgstr "Eme’ẽma ne ñe’ẽ ko porandúpe g̃uarã."
 
-#: kitsune/questions/views.py:1201
+#: kitsune/questions/views.py:1200
 msgid "Could not send a message to that email address."
 msgstr "Ndaikatúi oho ñe’ẽmondo ko ñandutiveve kundaharapépe."
 
-#: kitsune/questions/views.py:1207
+#: kitsune/questions/views.py:1206
 msgid "You will be notified of updates by email."
 msgstr "Eñemomarandúta ñembohekopyahu rehegua ñanduti veve rupive."
 
-#: kitsune/questions/views.py:1209
+#: kitsune/questions/views.py:1208
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "Og̃uahẽta ndéve peteĩ ñanduti veve ag̃aite emoneĩ hag̃ua ne ñemboheraguapy."
 
-#: kitsune/questions/views.py:1428
-msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
-msgstr "Aipepirũma {user} peteĩ tembiapo mba’erechaha mohekuãrãa, ha ambohekopyahúta ko’árupi romohu’ã vove."
-
-#: kitsune/questions/views.py:1544
+#: kitsune/questions/views.py:1506
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -3698,71 +3694,67 @@ msgstr "Embohekopyahu ñandutiveve rupive"
 msgid "Subscribe to feed"
 msgstr "Eñemboheraguapy canal-pe"
 
-#: kitsune/questions/jinja2/questions/question_details.html:371
-msgid "Invite to share screen"
-msgstr "Emopypirũ omoherakuãvo mba’erechaha"
-
-#: kitsune/questions/jinja2/questions/question_details.html:386 kitsune/search/forms.py:249
+#: kitsune/questions/jinja2/questions/question_details.html:378 kitsune/search/forms.py:249
 msgid "Tags"
 msgstr "Teramoĩ"
 
-#: kitsune/questions/jinja2/questions/question_details.html:429 kitsune/tags/forms.py:125
+#: kitsune/questions/jinja2/questions/question_details.html:421 kitsune/tags/forms.py:125
 msgid "Add"
 msgstr "Mbojuaju"
 
-#: kitsune/questions/jinja2/questions/question_details.html:438
+#: kitsune/questions/jinja2/questions/question_details.html:430
 msgid "Question Details"
 msgstr "Porandu mba’emimi"
 
-#: kitsune/questions/jinja2/questions/question_details.html:444
+#: kitsune/questions/jinja2/questions/question_details.html:436
 msgid "Product"
 msgstr "Apopyre"
 
-#: kitsune/questions/jinja2/questions/question_details.html:460
+#: kitsune/questions/jinja2/questions/question_details.html:452
 msgid "Topic"
 msgstr "Téma"
 
-#: kitsune/questions/jinja2/questions/question_details.html:486
+#: kitsune/questions/jinja2/questions/question_details.html:478
 msgid "Save changes"
 msgstr "Moambue ñongatu"
 
-#: kitsune/questions/jinja2/questions/question_details.html:491
+#: kitsune/questions/jinja2/questions/question_details.html:483
 msgid "System Details"
 msgstr "Mba'emimi apopyvusu rehegua"
 
-#: kitsune/questions/jinja2/questions/question_details.html:503
+#: kitsune/questions/jinja2/questions/question_details.html:495
 msgid "Device:"
 msgstr "Mba'e'oka:"
 
-#: kitsune/questions/jinja2/questions/question_details.html:507
+#: kitsune/questions/jinja2/questions/question_details.html:499
 msgid "More system details"
 msgstr "Mba'emimive apopyvusu rehegua"
 
-#: kitsune/questions/jinja2/questions/question_details.html:509 kitsune/questions/jinja2/questions/question_details.html:510
+#: kitsune/questions/jinja2/questions/question_details.html:501 kitsune/questions/jinja2/questions/question_details.html:502
 msgid "Additional System Details"
 msgstr "Apopyvusu mba’emimi juajupyre"
 
-#: kitsune/questions/jinja2/questions/question_details.html:512
+#: kitsune/questions/jinja2/questions/question_details.html:504
 msgid "Sites Affected"
 msgstr "Tenda imarãva"
 
-#: kitsune/questions/jinja2/questions/question_details.html:516
+#: kitsune/questions/jinja2/questions/question_details.html:508
 msgid "Crash ID"
 msgstr "ID jejavy rehegua"
 
-#: kitsune/questions/jinja2/questions/question_details.html:520
+#: kitsune/questions/jinja2/questions/question_details.html:512
 msgid "This happened"
 msgstr "Kóva oiko"
 
-#: kitsune/questions/jinja2/questions/question_details.html:528
+#: kitsune/questions/jinja2/questions/question_details.html:520
 msgid "Installed Plug-ins"
 msgstr "Mboguejyrã’i mohendapyre"
 
-#: kitsune/questions/jinja2/questions/question_details.html:539
+#: kitsune/questions/jinja2/questions/question_details.html:531
 msgid "Edit details"
 msgstr "Embosako'i mba'emimi"
 
-#: kitsune/questions/jinja2/questions/question_details.html:549
+#: kitsune/questions/jinja2/questions/question_details.html:541
 msgid "See also"
 msgstr "Ehecha avei"
 
@@ -8046,7 +8038,7 @@ msgstr "juky"
 msgid "hash"
 msgstr "hash"
 
-#: kitsune/users/models.py:40 kitsune/users/models.py:340
+#: kitsune/users/models.py:40 kitsune/users/models.py:339
 msgid "User"
 msgstr "Puruhára"
 
@@ -8119,31 +8111,31 @@ msgstr "Oñemondo peteĩ ñandutiveve pytyvõrãva jehechajey peteĩha rekávo."
 msgid "When the user was sent a community health survey"
 msgstr "Oñemondokuévo puruhárape porandupy tekoha reko rehegua"
 
-#: kitsune/users/models.py:298
+#: kitsune/users/models.py:297
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:344
+#: kitsune/users/models.py:343
 msgid "Value"
 msgstr "Tepykue"
 
-#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
+#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
 msgid "user"
 msgstr "puruhára"
 
-#: kitsune/users/models.py:383 kitsune/users/models.py:420
+#: kitsune/users/models.py:382 kitsune/users/models.py:419
 msgid "activation key"
 msgstr "ñemyendy ñemiguáva"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:385
 msgid "registration profile"
 msgstr "ñemboheraguapy mba’ete"
 
-#: kitsune/users/models.py:387
+#: kitsune/users/models.py:386
 msgid "registration profiles"
 msgstr "ñemboheraguapy mba’ete"
 
-#: kitsune/users/models.py:436
+#: kitsune/users/models.py:435
 msgid "moderator"
 msgstr "mboguataha"
 
@@ -10095,6 +10087,12 @@ msgstr "Emombe’uve."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Ikatúpa ereve mba’emimi"
+
+#~ msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
+#~ msgstr "Aipepirũma {user} peteĩ tembiapo mba’erechaha mohekuãrãa, ha ambohekopyahúta ko’árupi romohu’ã vove."
+
+#~ msgid "Invite to share screen"
+#~ msgstr "Emopypirũ omoherakuãvo mba’erechaha"
 
 #~ msgid "Make my email public"
 #~ msgstr "Ajapo opavave ohecha hag̃ua che ñandutiveve"

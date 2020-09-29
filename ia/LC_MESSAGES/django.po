@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-23 19:05-0700\n"
+"POT-Creation-Date: 2020-09-28 19:06-0700\n"
 "PO-Revision-Date: 2020-06-04 23:16+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1235,7 +1235,7 @@ msgstr "Include isto in syntaxe wiki con [[Image:title]]"
 msgid "Provide a brief description of this media."
 msgstr "Forni un breve description de iste medios."
 
-#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:476 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
+#: kitsune/gallery/forms.py:40 kitsune/questions/jinja2/questions/question_details.html:468 kitsune/wiki/jinja2/wiki/confirm_document_delete.html:23
 msgid "Locale"
 msgstr "Localisation"
 
@@ -1830,7 +1830,7 @@ msgstr "Observar iste localisation"
 msgid "Watch"
 msgstr "Observar"
 
-#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:107
+#: kitsune/kbforums/jinja2/kbforums/discussions.html:36 kitsune/kbforums/jinja2/kbforums/posts.html:48 kitsune/kbforums/jinja2/kbforums/threads.html:37 kitsune/questions/views.py:106
 msgid "Replies"
 msgstr "Replicas"
 
@@ -1943,7 +1943,7 @@ msgstr "Ultime responsa per"
 msgid "Sticky"
 msgstr "Fixate"
 
-#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:97 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
+#: kitsune/kbforums/jinja2/kbforums/posts.html:51 kitsune/questions/jinja2/questions/question_list.html:198 kitsune/questions/views.py:96 kitsune/search/__init__.py:33 kitsune/search/forms.py:199
 msgid "Locked"
 msgstr "Blocate"
 
@@ -3245,7 +3245,7 @@ msgstr "Alcun vices al septimana"
 msgid "Every time Firefox opened"
 msgstr "Cata vice que Firefox es aperite"
 
-#: kitsune/questions/forms.py:43 kitsune/questions/jinja2/questions/question_details.html:524
+#: kitsune/questions/forms.py:43 kitsune/questions/jinja2/questions/question_details.html:516
 msgid "This started when..."
 msgstr "Isto comenciava quando..."
 
@@ -3315,103 +3315,99 @@ msgstr "Initio"
 msgid "End"
 msgstr "Fin"
 
-#: kitsune/questions/views.py:72
+#: kitsune/questions/views.py:71
 msgid "That tag does not exist."
 msgstr "Ille etiquetta non existe."
 
-#: kitsune/questions/views.py:73
+#: kitsune/questions/views.py:72
 msgid "Please provide a tag."
 msgstr "Per favor forni un etiquetta."
 
-#: kitsune/questions/views.py:79
+#: kitsune/questions/views.py:78
 msgid "Recently unanswered"
 msgstr "Sin responsa recente"
 
-#: kitsune/questions/views.py:84
+#: kitsune/questions/views.py:83
 msgid "New"
 msgstr "Nove"
 
-#: kitsune/questions/views.py:85
+#: kitsune/questions/views.py:84
 msgid "Answers didn't help"
 msgstr "Le responsas non adjutava"
 
-#: kitsune/questions/views.py:90
+#: kitsune/questions/views.py:89
 msgid "Needs info"
 msgstr "Informationes es necesse"
 
-#: kitsune/questions/views.py:91
+#: kitsune/questions/views.py:90
 msgid "Solution provided"
 msgstr "Solution fornite"
 
-#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:96 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
+#: kitsune/questions/jinja2/questions/question_list.html:179 kitsune/questions/views.py:95 kitsune/search/forms.py:217 kitsune/search/jinja2/search/includes/result.html:20
 msgid "Solved"
 msgstr "Solvite"
 
-#: kitsune/questions/views.py:104
+#: kitsune/questions/views.py:103
 msgid "Updated"
 msgstr "Actualisate"
 
-#: kitsune/questions/views.py:105
+#: kitsune/questions/views.py:104
 msgid "Views"
 msgstr "Visualisationes"
 
-#: kitsune/questions/views.py:106 kitsune/search/forms.py:243
+#: kitsune/questions/views.py:105 kitsune/search/forms.py:243
 msgid "Votes"
 msgstr "Votos"
 
-#: kitsune/questions/views.py:487
+#: kitsune/questions/views.py:486
 msgid "The questions forum isn't available in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Le foro de questiones non es disponibile in {old_lang}, nos te ha re-dirigite al foro de questiones de {new_lang}."
 
-#: kitsune/questions/views.py:533
+#: kitsune/questions/views.py:532
 msgid "The questions forum isn't available for {product} in {old_lang}, we have redirected you to the {new_lang} questions forum."
 msgstr "Le foro de questiones non es disponibile pro {product} in {old_lang}, nos ha re-dirigite te al foro de questiones de {new_lang}."
 
-#: kitsune/questions/views.py:584
+#: kitsune/questions/views.py:583
 msgid "Done! Your question is now posted on the Mozilla community support forum. You can see your post anytime by visiting the {a_open}My Questions{a_close} page in your profile."
 msgstr ""
 
-#: kitsune/questions/views.py:791
+#: kitsune/questions/views.py:790
 msgid "Thank you for choosing a solution!"
 msgstr "Gratias pro seliger un solution!"
 
-#: kitsune/questions/views.py:794
+#: kitsune/questions/views.py:793
 msgid "This question already has a solution."
 msgstr "Iste question ha ja un solution."
 
-#: kitsune/questions/views.py:816
+#: kitsune/questions/views.py:815
 msgid "The solution was undone successfully."
 msgstr "Le solution ha essite disfacite con successo."
 
-#: kitsune/questions/views.py:896
+#: kitsune/questions/views.py:895
 msgid "Glad to hear it!"
 msgstr "Felice de audir illo!"
 
-#: kitsune/questions/views.py:898 kitsune/wiki/views.py:1183
+#: kitsune/questions/views.py:897 kitsune/wiki/views.py:1183
 msgid "Sorry to hear that."
 msgstr "Io regretta de audir lo."
 
-#: kitsune/questions/views.py:918
+#: kitsune/questions/views.py:917
 msgid "You already voted on this reply."
 msgstr "Tu ha jam votate sur iste responsa."
 
-#: kitsune/questions/views.py:1201
+#: kitsune/questions/views.py:1200
 msgid "Could not send a message to that email address."
 msgstr "Impossibile inviar un message a ille adresse de e-mail."
 
-#: kitsune/questions/views.py:1207
+#: kitsune/questions/views.py:1206
 msgid "You will be notified of updates by email."
 msgstr "Tu sera notificate del actualisationes per email."
 
-#: kitsune/questions/views.py:1209
+#: kitsune/questions/views.py:1208
 msgid "You should receive an email shortly to confirm your subscription."
 msgstr "Tu deberea reciper un email a breve pro confirmar tu subscription."
 
-#: kitsune/questions/views.py:1428
-msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
-msgstr "Io invitava {user} a un session de compartimento de schermo, e io dara un actualisation ci un vice que nos es preste."
-
-#: kitsune/questions/views.py:1544
+#: kitsune/questions/views.py:1506
 msgid "A moderator must manually approve your post before it will be visible."
 msgstr ""
 
@@ -3710,71 +3706,67 @@ msgstr "Obtener per emails le actualisationes"
 msgid "Subscribe to feed"
 msgstr "Subscriber se a iste alimentation de novas"
 
-#: kitsune/questions/jinja2/questions/question_details.html:371
-msgid "Invite to share screen"
-msgstr "Invita a compartir le schermo"
-
-#: kitsune/questions/jinja2/questions/question_details.html:386 kitsune/search/forms.py:249
+#: kitsune/questions/jinja2/questions/question_details.html:378 kitsune/search/forms.py:249
 msgid "Tags"
 msgstr "Tags"
 
-#: kitsune/questions/jinja2/questions/question_details.html:429 kitsune/tags/forms.py:125
+#: kitsune/questions/jinja2/questions/question_details.html:421 kitsune/tags/forms.py:125
 msgid "Add"
 msgstr "Adder"
 
-#: kitsune/questions/jinja2/questions/question_details.html:438
+#: kitsune/questions/jinja2/questions/question_details.html:430
 msgid "Question Details"
 msgstr "Detalios del questiones"
 
-#: kitsune/questions/jinja2/questions/question_details.html:444
+#: kitsune/questions/jinja2/questions/question_details.html:436
 msgid "Product"
 msgstr "Producto"
 
-#: kitsune/questions/jinja2/questions/question_details.html:460
+#: kitsune/questions/jinja2/questions/question_details.html:452
 msgid "Topic"
 msgstr "Argumento"
 
-#: kitsune/questions/jinja2/questions/question_details.html:486
+#: kitsune/questions/jinja2/questions/question_details.html:478
 msgid "Save changes"
 msgstr "Salvar le cambiamentos"
 
-#: kitsune/questions/jinja2/questions/question_details.html:491
+#: kitsune/questions/jinja2/questions/question_details.html:483
 msgid "System Details"
 msgstr "Detalios del systema"
 
-#: kitsune/questions/jinja2/questions/question_details.html:503
+#: kitsune/questions/jinja2/questions/question_details.html:495
 msgid "Device:"
 msgstr "Apparato:"
 
-#: kitsune/questions/jinja2/questions/question_details.html:507
+#: kitsune/questions/jinja2/questions/question_details.html:499
 msgid "More system details"
 msgstr "Altere detalios de systema"
 
-#: kitsune/questions/jinja2/questions/question_details.html:509 kitsune/questions/jinja2/questions/question_details.html:510
+#: kitsune/questions/jinja2/questions/question_details.html:501 kitsune/questions/jinja2/questions/question_details.html:502
 msgid "Additional System Details"
 msgstr "Altere detalios de systema"
 
-#: kitsune/questions/jinja2/questions/question_details.html:512
+#: kitsune/questions/jinja2/questions/question_details.html:504
 msgid "Sites Affected"
 msgstr "Sitos interessate"
 
-#: kitsune/questions/jinja2/questions/question_details.html:516
+#: kitsune/questions/jinja2/questions/question_details.html:508
 msgid "Crash ID"
 msgstr "ID de crash"
 
-#: kitsune/questions/jinja2/questions/question_details.html:520
+#: kitsune/questions/jinja2/questions/question_details.html:512
 msgid "This happened"
 msgstr "Isto eveniva"
 
-#: kitsune/questions/jinja2/questions/question_details.html:528
+#: kitsune/questions/jinja2/questions/question_details.html:520
 msgid "Installed Plug-ins"
 msgstr "Plugins installate"
 
-#: kitsune/questions/jinja2/questions/question_details.html:539
+#: kitsune/questions/jinja2/questions/question_details.html:531
 msgid "Edit details"
 msgstr "Rediger detalios"
 
-#: kitsune/questions/jinja2/questions/question_details.html:549
+#: kitsune/questions/jinja2/questions/question_details.html:541
 msgid "See also"
 msgstr "Vide alsi"
 
@@ -8079,7 +8071,7 @@ msgstr "sal"
 msgid "hash"
 msgstr "hash"
 
-#: kitsune/users/models.py:40 kitsune/users/models.py:340
+#: kitsune/users/models.py:40 kitsune/users/models.py:339
 msgid "User"
 msgstr "Usator"
 
@@ -8152,31 +8144,31 @@ msgstr "Ha essite inviate le email de prime collaboration al revision."
 msgid "When the user was sent a community health survey"
 msgstr "Quando al usator ha essite inviate un questionario de salute del communitate"
 
-#: kitsune/users/models.py:298
+#: kitsune/users/models.py:297
 msgid "{displayname} ({username})"
 msgstr "{displayname} ({username})"
 
-#: kitsune/users/models.py:344
+#: kitsune/users/models.py:343
 msgid "Value"
 msgstr "Valor"
 
-#: kitsune/users/models.py:381 kitsune/users/models.py:418 kitsune/users/models.py:431
+#: kitsune/users/models.py:380 kitsune/users/models.py:417 kitsune/users/models.py:430
 msgid "user"
 msgstr "usator"
 
-#: kitsune/users/models.py:383 kitsune/users/models.py:420
+#: kitsune/users/models.py:382 kitsune/users/models.py:419
 msgid "activation key"
 msgstr "clave de activation"
 
-#: kitsune/users/models.py:386
+#: kitsune/users/models.py:385
 msgid "registration profile"
 msgstr "profilo de registration"
 
-#: kitsune/users/models.py:387
+#: kitsune/users/models.py:386
 msgid "registration profiles"
 msgstr "profilos de registration"
 
-#: kitsune/users/models.py:436
+#: kitsune/users/models.py:435
 msgid "moderator"
 msgstr "moderator"
 
@@ -10131,6 +10123,12 @@ msgstr "Conta nos plus."
 #: kitsune/wiki/jinja2/wiki/includes/unhelpful_survey.html:19
 msgid "Please provide more details"
 msgstr "Per favor forni plus de detalios"
+
+#~ msgid "I invited {user} to a screen sharing session, and I'll give an update here once we are done."
+#~ msgstr "Io invitava {user} a un session de compartimento de schermo, e io dara un actualisation ci un vice que nos es preste."
+
+#~ msgid "Invite to share screen"
+#~ msgstr "Invita a compartir le schermo"
 
 #~ msgid "Make my email public"
 #~ msgstr "Render public mi email"
